@@ -105,11 +105,18 @@ FOOTER_TEMPLATE = """
 
 ---
 
-> [!IMPORTANT]
-> **FIN DEL DOCUMENTO ESTRUCTURADO**
+<!-- RAG_IGNORE_START -->
+> **DERECHOS DE AUTOR Y LICENCIA MIT**
 >
-> Generado bajo la Licencia MIT.
-> **Autor:** Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) | *Impulsando la transformación tecnológica del sistema de justicia venezolano (2026)*
+> Este archivo de texto estructurado ha sido generado y optimizado automáticamente para su consumo por sistemas de Inteligencia Artificial (RAG).
+> 
+> * **Creador:** Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)
+> * **Propósito:** Avanzar en la transformación tecnológica del sistema de justicia venezolano.
+> * **Licencia:** MIT License
+> * **Copyright (c) 2026 Jull Ortiz**
+>
+> Se concede permiso por la presente, sin cargo, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados, para utilizarlo sin restricciones, incluyendo el derecho a usar, copiar, modificar, fusionar y publicar. El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del archivo.
+<!-- RAG_IGNORE_END -->
 """
 
 def get_pdf_page_count(file_path):
@@ -237,13 +244,24 @@ def main():
                 if first_sep >= 0:
                     mit_header = rest[:first_sep + 5]
                     body_and_footer = rest[first_sep + 5:]
-                    last_sep = body_and_footer.rfind('\n---\n')
-                    if last_sep >= 0:
-                        body = body_and_footer[:last_sep].strip()
-                        mit_footer = body_and_footer[last_sep:]
+                    
+                    footer_idx = body_and_footer.rfind('FIN DEL DOCUMENTO ESTRUCTURADO')
+                    if footer_idx >= 0:
+                        last_sep = body_and_footer.rfind('\n---\n', 0, footer_idx)
+                        if last_sep >= 0:
+                            body = body_and_footer[:last_sep].strip()
+                            mit_footer = body_and_footer[last_sep:]
+                        else:
+                            body = body_and_footer.strip()
+                            mit_footer = FOOTER_TEMPLATE
                     else:
-                        body = body_and_footer.strip()
-                        mit_footer = FOOTER_TEMPLATE
+                        last_sep = body_and_footer.rfind('\n---\n')
+                        if last_sep >= 0:
+                            body = body_and_footer[:last_sep].strip()
+                            mit_footer = body_and_footer[last_sep:]
+                        else:
+                            body = body_and_footer.strip()
+                            mit_footer = FOOTER_TEMPLATE
                 else:
                     mit_header = HEADER_TEMPLATE
                     body = rest.strip()
@@ -430,7 +448,7 @@ def main():
                     temp_jsons = []
                     
                     # Directorio de caché
-                    file_cache_dir = CACHE_DIR / file_path.stem
+                    file_cache_dir = CACHE_DIR / file_path.stem.strip()
                     file_cache_dir.mkdir(parents=True, exist_ok=True)
                     
                     batches = []

@@ -1,58 +1,144 @@
-# QUIBOR V-1.0 — Sistema RAG de Normativas Legales Venezolanas
+# QUIBOR V-1.0 — Pipeline RAG de Normativas Legales Venezolanas
 
-> Sistema RAG Automatizado para Normativas Legales — Powered by IBM Docling
+> Conversión automatizada de PDFs jurídicos a Markdown estructurado para sistemas de IA — Powered by IBM Docling
+
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org) [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE) [![IBM Docling](https://img.shields.io/badge/IBM-Docling-purple)](https://github.com/DS4SD/docling)
 
 ---
 
-## Descripción del Proyecto
+## El Problema que Resuelve
 
-**QUIBOR V-1.0** es un pipeline automatizado de grado corporativo que convierte archivos PDF de leyes, decretos y normativas venezolanas en documentos Markdown estructurados, optimizados para sistemas de Inteligencia Artificial (RAG / LLM).
+Los modelos de lenguaje (LLM) fallan con PDFs de documentos legales venezolanos porque:
 
-### El problema que resuelve
-
-Los modelos de lenguaje (LLM) y los sistemas RAG fallan cuando consumen PDFs de documentos legales porque:
-
-- Los artículos aparecen fusionados en párrafos de 2,000+ palabras sin separación clara.
+- Los artículos aparecen fusionados en párrafos de 2,000+ palabras sin separación.
 - Las tablas de PDFs se rompen o pierden su estructura.
-- No hay metadata legal (número de Gaceta, fecha, tipo de instrumento) para filtrar búsquedas.
+- No hay metadata legal (Gaceta Oficial, fecha, tipo de instrumento) para filtrar búsquedas RAG.
 - El chunking por páginas parte artículos a la mitad, generando fragmentos incoherentes.
 
-### Cómo lo resuelve QUIBOR V-1.0 v2
-
-| Módulo | Función |
-|--------|---------|
-| **IBM Docling** | Extracción visual profunda del PDF (layout, tablas, OCR) |
-| **legalizer.py** | Detecta y separa cada artículo con su jerarquía: TÍTULO › CAPÍTULO › Artículo |
-| **metadata_extractor.py** | Genera YAML frontmatter con Gaceta Oficial, fecha, tipo de instrumento, SHA-256 |
-| **validator.py** | Verifica secuencia de artículos, detecta saltos y artículos corruptos |
-| **chunker.py** | Genera un `.md` individual por artículo para embeddings de precisión máxima |
+**QUIBOR** convierte esos PDFs en Markdown semánticamente estructurado, con un artículo por chunk, listo para ingestarse en LangChain, LlamaIndex, ChromaDB o cualquier sistema RAG.
 
 ---
 
-## Tecnologías
+## Arquitectura del Pipeline
 
-- **IBM Docling** — Segmentación visual profunda, extracción de tablas exacta.
-- **Tesseract OCR / EasyOCR** — Fallback dual para PDFs e imágenes digitalizadas.
-- **Python Rich** — Interfaz de consola avanzada con barras de progreso, paneles y tablas interactivas.
-- **Caché SHA-256** — Control inteligente de cambios en archivos de entrada mediante `manifest.json`.
-- **YAML Frontmatter** — Metadatos estructurados compatibles con LangChain, LlamaIndex, ChromaDB.
+```
+normativas_pdf/
+       │
+       ▼
+[IBM Docling + OCR]          ← Extracción visual profunda (layout, tablas, OCR)
+       │
+       ▼
+[legalizer.py]               ← Jerarquía: TÍTULO › CAPÍTULO › Artículo
+       │
+       ▼
+[metadata_extractor.py]      ← YAML frontmatter: Gaceta, fecha, SHA-256
+       │
+       ▼
+[validator.py]               ← Integridad: secuencia, duplicados, corruptos
+       │
+       ├──────────────────────────────────────────────────────────────┐
+       ▼                                                              ▼
+normativas_rag/                                          normativas_chunks/
+  ley-completa.md                                          ley/articulo_0001.md
+  (con YAML + TOC)                                         ley/articulo_0002.md
+                                                           ...
+```
 
 ---
 
-## Funciones Avanzadas del Sistema
+## Módulos del Sistema
 
-El convertidor incorpora mecanismos avanzados de nivel corporativo para garantizar alta fidelidad y tolerancia a fallos:
+| Módulo | Función | Skill de IA Asociado |
+|--------|---------|----------------------|
+| `convert_normativas.py` | Motor principal: Docling + batching paralelo + caché SHA-256 | `quibor-pdf-to-rag` |
+| `legalizer.py` | Detecta TÍTULO/CAPÍTULO/Artículo; genera TOC | `quibor-legalizer` |
+| `chunker.py` | Un `.md` por artículo para embeddings precisos | `quibor-legalizer` |
+| `metadata_extractor.py` | YAML frontmatter con Gaceta, fecha, tipo, SHA-256 | `quibor-metadata` |
+| `validator.py` | Verifica secuencia, duplicados, artículos corruptos | `quibor-validator` |
+| `iniciar_conversion.bat` | Menú interactivo + verificación de dependencias | `quibor-pdf-to-rag` |
 
-1. **Procesamiento Concurrente por Lotes:** Para PDFs muy extensos, el sistema divide el documento en lotes de **15 páginas** y los procesa en paralelo utilizando un `ThreadPoolExecutor` (máximo de 3 subprocesos paralelos). Esto previene caídas por falta de memoria RAM asociadas a ejecuciones masivas y optimiza los recursos de CPU.
-2. **Reintento con Recuperación de Fallos (Fallback sin OCR):** Si un subproceso falla durante la extracción con OCR activo (por ejemplo, debido a errores de Tesseract), el sistema automáticamente realiza un **reintento rápido omitiendo la fase de OCR** en ese lote en lugar de interrumpir la conversión general.
-3. **Caché SHA-256 Dinámica:** Cada PDF o imagen procesada se registra en `.conversion_cache/manifest.json` junto con su hash SHA-256 y metadatos. Si un archivo no ha sido modificado, el sistema lo detecta al instante y omite su procesamiento para ahorrar tiempo de ejecución, a menos que se fuerce con `--force-reprocess`.
-4. **Soporte Multiformato de Datos:** No solo soporta PDFs. También procesa automáticamente formatos de imagen comunes: **PNG, JPG, JPEG, TIFF y BMP**, los cuales son convertidos directamente a Markdown estructurado y segmentados por artículo.
-5. **Suite de Validación de Calidad (validator.py):** Tras la conversión, el validador analiza el documento final e informa sobre:
-   - Saltos o vacíos en la secuencia numérica de artículos.
-   - Artículos duplicados.
-   - Artículos excesivamente cortos (menos de 50 caracteres) indicando posible error de extracción OCR.
-   - Presencia de la Tabla de Contenido y el bloque de YAML frontmatter.
-6. **Codificación Segura UTF-8 en Windows:** Configura explícitamente el flujo de entrada/salida a UTF-8 para evitar los típicos bloqueos o cuelgues por codificación al procesar caracteres del idioma español (tildes, eñes, diéresis).
+---
+
+## Funciones Avanzadas
+
+**Procesamiento concurrente por lotes** — PDFs extensos se dividen en lotes de 15 páginas procesados en paralelo (ThreadPoolExecutor, 3 threads). Previene caídas por memoria RAM y optimiza CPU.
+
+**Recuperación automática de fallos** — Si un lote falla con OCR activo, el sistema reintenta automáticamente sin OCR en ese lote en lugar de interrumpir la conversión completa.
+
+**Caché SHA-256 dinámica** — Cada PDF procesado se registra en `.conversion_cache/manifest.json` con su hash. Archivos sin cambios se saltan automáticamente; forzar reprocesado con `--force-reprocess`.
+
+**Soporte multiformato** — Procesa PDF, PNG, JPG, JPEG, TIFF y BMP. Las imágenes se convierten directamente a Markdown estructurado.
+
+**Codificación UTF-8 explícita** — Configuración de stdout/stderr en Windows para caracteres del español (tildes, eñes, diéresis) sin bloqueos.
+
+---
+
+## Resultados Actuales
+
+| Documento | Artículos | Chunks | Tasa |
+|-----------|-----------|--------|------|
+| Código Penal | 640 | 629 | 98.3% |
+| Código Orgánico Procesal Penal | 355 | 353 | 99.4% |
+| Ley Especial de Delitos Informáticos | 35 | 35 | 100% |
+| Ley sobre Mensajes de Datos | 56 | 55 | 98.2% |
+| Creación del CENIF | 74 | 74 | 100% |
+
+> Los documentos ISO/NIST usan secciones numeradas (no artículos). Se detectan pero sin separación de artículos. Ver `quibor-pdf-to-rag/references/section-numbering-extension.md` para la hoja de ruta de soporte.
+
+---
+
+## Instalación
+
+> **Primera ejecución**: requiere CMD como Administrador para instalar Chocolatey y Tesseract OCR.
+
+```cmd
+:: 1. Navegar al proyecto
+cd /d "D:\VS CODE\IBM DOCLING"
+
+:: 2. Lanzar el asistente interactivo
+iniciar_conversion.bat
+```
+
+El instalador verifica y configura automáticamente: Python 3.10+, Tesseract OCR, entorno virtual `docling_env`, y todas las dependencias pip.
+
+**Instalación manual del entorno virtual:**
+
+```cmd
+python -m venv docling_env
+docling_env\Scripts\activate
+pip install docling pytesseract easyocr pyyaml rich
+```
+
+---
+
+## Modos de Ejecución
+
+| Opción | Modo | Cuándo usarlo |
+|--------|------|---------------|
+| `1` | Conversión completa | Primera vez o PDF nuevo |
+| `2` | Solo post-procesado | Cambios en `legalizer.py` sin re-correr Docling |
+| `3` | Forzar reprocesado | Ignorar caché y reconvertir todo |
+| `4` | Sin OCR (rápido) | PDFs digitales nativos (no escaneados) |
+| `5` | Un archivo con OCR | Procesar un PDF específico |
+| `6` | Un archivo sin OCR | PDF específico, nativo digital |
+| `7` | Sin chunks | Solo el `.md` consolidado, sin artículos individuales |
+| `8` | Validar normativas | Reporte de integridad de todos los documentos |
+
+**Comandos directos (sin menú):**
+
+```cmd
+:: PDF específico, digital nativo (más rápido)
+docling_env\Scripts\python.exe convert_normativas.py --file-path "codigo penal.pdf" --no-ocr
+
+:: Forzar reprocesado completo
+docling_env\Scripts\python.exe convert_normativas.py --force-reprocess
+
+:: Validar todos los documentos convertidos
+docling_env\Scripts\python.exe validator.py normativas_rag
+
+:: Generar chunks de un .md ya convertido
+docling_env\Scripts\python.exe chunker.py "normativas_rag/codigo penal.md"
+```
 
 ---
 
@@ -60,101 +146,31 @@ El convertidor incorpora mecanismos avanzados de nivel corporativo para garantiz
 
 ```
 IBM DOCLING/
-├── normativas_pdf/          [ENTRADA]  PDFs originales de leyes y normativas
-├── normativas_rag/          [SALIDA]   Markdown completo por ley (con YAML + TOC)
-├── normativas_chunks/       [SALIDA]   Un .md por artículo (para RAG preciso)
-├── .conversion_cache/       [SISTEMA]  Caché SHA-256 + manifest.json de conversiones
-├── docling_env/             [SISTEMA]  Entorno virtual de Python (aislado)
+├── normativas_pdf/              [ENTRADA]   PDFs originales
+├── normativas_rag/              [SALIDA]    Markdown completo por ley (YAML + TOC)
+├── normativas_chunks/           [SALIDA]    Un .md por artículo (RAG preciso)
+├── .conversion_cache/           [SISTEMA]   Caché SHA-256 + manifest.json
+├── docling_env/                 [SISTEMA]   Entorno virtual Python
 │
-├── convert_normativas.py    Motor principal: Docling + pipeline legal integrado
-├── legalizer.py             Post-procesador: jerarquía legal + separación de artículos
-├── metadata_extractor.py    Generador de YAML frontmatter con metadatos legales
-├── validator.py             Validador de integridad de artículos
-├── chunker.py               Generador de chunks individuales por artículo
-└── iniciar_conversion.bat   Orquestador: menú de modos + verificación de requisitos
-```
-
----
-
-## Pipeline Completo
-
-```mermaid
-graph TD
-    A([Inicio: iniciar_conversion.bat]) --> B[Menú de Modos 1-8]
-    B --> C[Verificar Python / Tesseract / docling_env]
-    C --> D{Dependencias OK?}
-    D -- No --> E[Instalar vía Chocolatey]
-    D -- Sí --> F[convert_normativas.py]
-    E --> F
-
-    F --> G[Escanear o cargar archivo específico]
-    G --> H{PDF modificado según SHA-256?}
-    H -- En caché --> I[Saltar - ya convertido]
-    H -- Nuevo / Modificado --> J[IBM Docling: Extracción visual]
-
-    J --> K[Batch 15 páginas en subprocesos paralelos]
-    K --> L[Concatenar y exportar Markdown crudo]
-
-    L --> M[legalizer.py]
-    M --> N[Detectar TÍTULO / CAPÍTULO / Artículo N]
-    N --> O[Separar cada artículo en bloque único]
-    O --> P[Generar TOC automático]
-
-    P --> Q[metadata_extractor.py]
-    Q --> R[Extraer Gaceta Oficial / Fecha / Tipo]
-    R --> S[Inyectar YAML frontmatter + SHA-256 PDF]
-
-    S --> T[validator.py]
-    T --> U{Secuencia OK?}
-    U -- Saltos / Corrupto --> V[Emitir advertencia de integridad]
-    U -- OK --> W[chunker.py]
-    V --> W
-
-    W --> X[Generar normativas_chunks/ley/articulo_0001.md]
-    X --> Y[Actualizar manifest.json]
-    Y --> Z([Fin - Markdown listo para RAG])
-```
-
----
-
-## Modos de Ejecución
-
-Al abrir `iniciar_conversion.bat` se presenta un menú interactivo:
-
-| Opción | Modo | Descripción | Argumentos internos |
-|--------|------|-------------|---------------------|
-| **1** | Conversión completa | Ejecuta Docling con OCR, post-procesado legal completo y generación de chunks por artículo. | *(default)* |
-| **2** | Solo post-procesado | Re-aplica la estructuración legal a los archivos `.md` existentes (útil si hay cambios en `legalizer.py` y no se quiere re-correr Docling). | `--post-process-only` |
-| **3** | Forzar re-procesado | Ignora por completo la caché de verificación SHA-256 y re-convierte todos los PDFs. | `--force-reprocess` |
-| **4** | Conversión rápida sin OCR | Omite el procesamiento OCR. Excelente para PDFs digitales nativos (no escaneados), reduciendo el tiempo de ejecución a la quinta parte. | `--no-ocr` |
-| **5** | Procesar un solo archivo | Solicita el nombre de un archivo PDF (ej: `codigo penal.pdf`) y procesa únicamente ese archivo aplicando OCR completo. | `--file-path "nombre.pdf"` |
-| **6** | Procesar un archivo s/OCR | Procesa únicamente el archivo PDF especificado, pero omitiendo la fase de OCR (conversión rápida en archivos digitales nativos). | `--file-path "nombre.pdf" --no-ocr` |
-| **7** | Conversión sin chunks | Genera el archivo de ley consolidado y legalizado en `normativas_rag/` pero sin dividirlo en artículos individuales. | `--no-chunks` |
-| **8** | Validar normativas | Ejecuta de forma independiente la suite de validación de secuencia e integridad en todos los archivos `.md` existentes. | *(ejecuta validator.py)* |
-
-También puedes ejecutar directamente desde la consola del entorno virtual:
-
-```cmd
-:: Conversión completa de un único archivo
-docling_env\Scripts\python.exe convert_normativas.py --file-path "codigo penal.pdf"
-
-:: Conversión rápida (sin OCR)
-docling_env\Scripts\python.exe convert_normativas.py --no-ocr
-
-:: Validar integridad de todos los documentos en la salida
-docling_env\Scripts\python.exe validator.py normativas_rag
-
-:: Generar chunks individuales para un documento específico
-docling_env\Scripts\python.exe chunker.py "normativas_rag/codigo penal.md"
+├── convert_normativas.py        Motor principal
+├── legalizer.py                 Jerarquía legal + separación de artículos
+├── metadata_extractor.py        YAML frontmatter + metadata legal
+├── validator.py                 Validación de integridad
+├── chunker.py                   Generador de chunks individuales
+├── iniciar_conversion.bat       Orquestador interactivo
+│
+└── .quibor-skills/              [IA]        Skills de asistencia de IA
+    ├── quibor-pdf-to-rag/       Pipeline maestro
+    ├── quibor-legalizer/        legalizer.py + chunker.py
+    ├── quibor-metadata/         metadata_extractor.py
+    └── quibor-validator/        validator.py
 ```
 
 ---
 
 ## Formato de Salida
 
-### `normativas_rag/` — Markdown completo por ley
-
-Cada archivo tiene:
+### `normativas_rag/ley.md` — Documento consolidado
 
 ```markdown
 ---
@@ -171,17 +187,22 @@ hash_pdf_sha256: "abc123..."
 
 ### ÍNDICE DE ARTÍCULOS
 | Art. | Descripción | Ubicación |
+| ---- | ----------- | --------- |
+| 1    | Principio de Legalidad | TÍTULO I |
 ...
 
-###### Artículo 1 - Principio de Legalidad
-Nadie podrá ser castigado por un hecho que no estuviere expresamente
-previsto como punible por la ley...
+###### Artículo 1 — Principio de Legalidad
 
-###### Artículo 2 - Retroactividad Favorable
-Las leyes penales tienen efecto retroactivo en cuanto favorezcan al reo...
+Nadie podrá ser castigado por un hecho que no estuviere
+expresamente previsto como punible por la ley...
+
+---
+
+###### Artículo 2 — Retroactividad Favorable
+...
 ```
 
-### `normativas_chunks/` — Un archivo por artículo
+### `normativas_chunks/ley/articulo_0001.md` — Chunk individual
 
 ```markdown
 ---
@@ -189,6 +210,8 @@ ley: "Código Penal de Venezuela"
 articulo: 1
 ubicacion: "TÍTULO I - De la aplicación de la Ley Penal"
 gaceta_oficial: "5.494 Extraordinario"
+fecha_publicacion: "2000-10-20"
+hash_pdf_sha256: "abc123..."
 ---
 
 # Artículo 1 — Principio de Legalidad
@@ -200,56 +223,50 @@ Nadie podrá ser castigado por un hecho que no estuviere...
 
 ---
 
-## Instalación y Uso
+## Integración con Sistemas RAG
 
-> [!IMPORTANT]
-> **La primera vez requiere ejecutar como Administrador** para instalar dependencias del sistema (Chocolatey, Tesseract OCR).
+Los chunks generados son compatibles directamente con:
 
-### Paso 1 — Abrir CMD como Administrador
+```python
+# LangChain
+from langchain_community.document_loaders import DirectoryLoader
+loader = DirectoryLoader("normativas_chunks/", glob="**/*.md")
 
-1. Presiona `Windows`, escribe `cmd`.
-2. Clic derecho → **Ejecutar como administrador**.
+# LlamaIndex
+from llama_index.core import SimpleDirectoryReader
+documents = SimpleDirectoryReader("normativas_chunks/").load_data()
 
-### Paso 2 — Navegar al proyecto y ejecutar
-
-```cmd
-cd /d "D:\VS CODE\IBM DOCLING"
-iniciar_conversion.bat
+# ChromaDB — filtros por metadata
+results = collection.query(
+    query_texts=["¿Qué dice sobre el delito informático?"],
+    where={"categorias": {"$contains": "delitos_informaticos"}}
+)
 ```
 
-### Paso 3 — Seleccionar modo y confirmar
+---
 
-El menú mostrará las 8 opciones. Selecciona con el número correspondiente, presiona Enter y sigue las instrucciones en pantalla.
+## Skills de IA Incluidos
+
+Este repositorio incluye un conjunto de skills especializados para asistentes de IA (Claude, GPT, etc.). Los skills viven en `.quibor-skills/` y se cargan automáticamente cuando la IA trabaja con este proyecto.
+
+| Skill | Cubre | Cuándo cargarlo |
+|-------|-------|-----------------|
+| `quibor-pdf-to-rag` | Pipeline completo, Docling, errores de configuración | Primera consulta general |
+| `quibor-legalizer` | `legalizer.py`, `chunker.py`, patrones de artículos | Artículos mal detectados |
+| `quibor-metadata` | `metadata_extractor.py`, YAML, SHA-256, Gaceta | Metadata incompleta |
+| `quibor-validator` | `validator.py`, métricas de calidad, reportes | Validar después de conversión |
 
 ---
 
-## Automatización en Windows
+## Automatización Programada (Windows)
 
-### Tarea programada (recomendado)
-
-1. Abre el **Programador de tareas** de Windows.
-2. Selecciona **Crear tarea básica** > dale un nombre (ej: `QUIBOR-RAG`).
-3. Desencadenador: **Al iniciar sesión** o la frecuencia que necesites.
-4. Acción: **Iniciar un programa** → selecciona `iniciar_conversion.bat`.
-5. En **Iniciar en**: `D:\VS CODE\IBM DOCLING`
-
----
-
-## Resultados de la Version Actual
-
-Procesando los documentos legales venezolanos incluidos:
-
-| Documento | Artículos detectados | Chunks generados |
-|-----------|---------------------|-----------------|
-| Código Penal | 640 | 629 |
-| Código Orgánico Procesal Penal | 355 | 353 |
-| Ley Especial de Delitos Informáticos | 35 | 35 |
-| Ley sobre Mensajes de Datos | 56 | 55 |
-| Creación del CENIF | 74 | 74 |
-| Ley-sobre-Mensajes-de-Datos-y-Firmas-Electrónicas | 56 | 55 |
-
-> [!NOTE]
-> Los documentos ISO/NIST usan numeración por secciones (no por "Artículo N"). Se detectan correctamente pero sin separación de artículos. Próxima mejora: soporte de secciones numeradas.
+```
+Programador de tareas → Crear tarea básica
+  Nombre: QUIBOR-RAG
+  Desencadenador: Al iniciar sesión / Programado
+  Acción: Iniciar programa → iniciar_conversion.bat
+  Iniciar en: D:\VS CODE\IBM DOCLING
+```
 
 ---
 
@@ -259,11 +276,11 @@ Procesando los documentos legales venezolanos incluidos:
 
 | | |
 |--|--|
-| **Desarrollador** | Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) |
+| **Desarrollador** | Jull Ortiz — Arquitecto de Información IA |
 | **Correo** | julljoll@gmail.com |
 | **Web** | [sha256.us](https://sha256.us) |
 | **Instagram** | [@sha256.us](https://www.instagram.com/sha256.us/) |
 | **Propósito** | Transformación tecnológica del sistema de justicia venezolano |
-| **Copyright** | (C) 2026 Jull Ortiz |
+| **Copyright** | © 2026 Jull Ortiz |
 
 *Desarrollado con dedicación para acelerar y fortalecer la digitalización jurídica de Venezuela.*

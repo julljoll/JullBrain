@@ -203,7 +203,24 @@ def chunk_to_markdown(chunk: ArticleChunk) -> str:
     if ubicacion:
         title_line += f"\n**Ubicacion:** {ubicacion}\n"
 
-    return '\n'.join(frontmatter_lines) + title_line + '\n\n' + chunk.texto + '\n'
+    chunk_footer = """
+
+---
+
+<!-- RAG_IGNORE_START -->
+> **DERECHOS DE AUTOR Y LICENCIA MIT**
+>
+> Este archivo de texto estructurado ha sido generado y optimizado automáticamente para su consumo por sistemas de Inteligencia Artificial (RAG).
+> 
+> * **Creador:** Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)
+> * **Propósito:** Avanzar en la transformación tecnológica del sistema de justicia venezolano.
+> * **Licencia:** MIT License
+> * **Copyright (c) 2026 Jull Ortiz**
+>
+> Se concede permiso por la presente, sin cargo, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados, para utilizarlo sin restricciones, incluyendo el derecho a usar, copiar, modificar, fusionar y publicar. El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del archivo.
+<!-- RAG_IGNORE_END -->
+"""
+    return '\n'.join(frontmatter_lines) + title_line + '\n\n' + chunk.texto + chunk_footer
 
 
 def chunk_file(md_path: str, output_dir: str = None) -> list[str]:
@@ -225,7 +242,7 @@ def chunk_file(md_path: str, output_dir: str = None) -> list[str]:
     doc_meta, body = parse_frontmatter(text)
 
     # Directorio de salida
-    out_dir = Path(output_dir) if output_dir else CHUNKS_DIR / in_path.stem
+    out_dir = Path(output_dir) if output_dir else CHUNKS_DIR / in_path.stem.strip()
     out_dir.mkdir(parents=True, exist_ok=True)
 
     chunks = extract_article_chunks(body, doc_meta)

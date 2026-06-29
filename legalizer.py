@@ -21,10 +21,10 @@ logger = logging.getLogger("legalizer")
 #  PATRONES REGEX - Jerarquia Legal Venezolana
 # -----------------------------------------------------------
 
-RE_LIBRO     = re.compile(r'^\s*LIBRO\s+([IVXLCDM]+|[0-9]+)\b(.*)?$',       re.IGNORECASE | re.MULTILINE)
-RE_TITULO    = re.compile(r'^\s*T[IÍ]TULO\s+([IVXLCDM]+|[0-9]+)\b(.*)?$',   re.IGNORECASE | re.MULTILINE)
-RE_CAPITULO  = re.compile(r'^\s*CAP[IÍ]TULO\s+([IVXLCDM]+|[0-9]+|[A-Z]+)\b(.*)?$', re.IGNORECASE | re.MULTILINE)
-RE_SECCION   = re.compile(r'^\s*SECCI[OÓ]N\s+([IVXLCDM]+|[0-9]+|[A-Z]+)\b(.*)?$',  re.IGNORECASE | re.MULTILINE)
+RE_LIBRO     = re.compile(r'^\s*#*\s*LIBRO\s+([IVXLCDM]+|[0-9]+)\b(.*)?$',       re.IGNORECASE | re.MULTILINE)
+RE_TITULO    = re.compile(r'^\s*#*\s*T[IÍ]TULO\s+([IVXLCDM]+|[0-9]+)\b(.*)?$',   re.IGNORECASE | re.MULTILINE)
+RE_CAPITULO  = re.compile(r'^\s*#*\s*CAP[IÍ]TULO\s+([IVXLCDM]+|[0-9]+|[A-Z]+)\b(.*)?$', re.IGNORECASE | re.MULTILINE)
+RE_SECCION   = re.compile(r'^\s*#*\s*SECCI[OÓ]N\s+([IVXLCDM]+|[0-9]+|[A-Z]+)\b(.*)?$',  re.IGNORECASE | re.MULTILINE)
 
 RE_PAGE_NUM  = re.compile(
     r'(?:^|\n)\s*-\s*\d{1,4}\s*-\s*(?:\n|$)'
@@ -57,12 +57,16 @@ def normalize_article_marker(text):
     """
     Normaliza TODAS las variantes de marcadores de articulo a 'ARTICULO_N_SEP'.
     Maneja: Articulo / Articulo / Art. con o sin tilde, con °, -, . o nada.
+    Solo se aplica si el marcador está al inicio de una línea o del documento,
+    para evitar emparejar citas o referencias cruzadas dentro de oraciones.
     """
-    text = re.sub(
-        r'\b(?:Art[\xed\xcc]?culo|Art[i\xed]culo|Art\.?)\s+(\d+)\s*(?:[°\xba]|[-\u2013\.\s]*)?',
-        lambda m: f"ARTICULO_{m.group(1)}_SEP ",
-        text,
-        flags=re.IGNORECASE
+    pattern = re.compile(
+        r'(^|\n)(\s*(?:#{1,6}\s+)?(?:\*\*|__)?)\b(?:Art[\xed\xcc]?culo|Art[i\xed]culo|Art\.?)\s+(\d+)\s*(?:[°\xba]|[-\u2013\.\s]*)?(?:\*\*|__)?',
+        re.IGNORECASE
+    )
+    text = pattern.sub(
+        lambda m: f"{m.group(1)}{m.group(2)}ARTICULO_{m.group(3)}_SEP ",
+        text
     )
     return text
 
@@ -206,13 +210,22 @@ def legalize(raw_markdown, document_name=""):
 
     articles_with_ctx = []
     for num, hint, body in articles_raw:
-        art_marker = f"Articulo {num}."
+        art_marker = f"ARTICULO_{num}_SEP "
         art_pos    = text.find(art_marker)
         ctx        = track_hierarchy(text[:art_pos]) if art_pos > 0 else {}
+        
+        # Limpiar encabezados jerárquicos del cuerpo de este artículo
+        clean_body_lines = []
+        for line in body.splitlines():
+            if RE_LIBRO.match(line) or RE_TITULO.match(line) or RE_CAPITULO.match(line) or RE_SECCION.match(line):
+                continue
+            clean_body_lines.append(line)
+        clean_body = '\n'.join(clean_body_lines).strip()
+        
         articles_with_ctx.append({
             'number':   num,
             'hint':     hint,
-            'body':     body,
+            'body':     clean_body,
             'libro':    ctx.get('libro', ''),
             'titulo':   ctx.get('titulo', ''),
             'capitulo': ctx.get('capitulo', ''),
@@ -287,31 +300,36 @@ def legalize_file(input_path, output_path=None):
 
     # Detectar si es un archivo con YAML frontmatter (nuevo formato)
     if raw.startswith('---\n'):
-        # Nuevo formato con YAML frontmatter al inicio
         end_fm = raw.find('\n---\n', 4)
         if end_fm > 0:
             mit_header   = raw[:end_fm + 5]
-            docling_body = raw[end_fm + 5:]
+            rest         = raw[end_fm + 5:]
         else:
             mit_header   = ''
-            docling_body = raw
+            rest         = raw
     else:
-        # Formato original: Header MIT (# titulo, > [!NOTE]...) seguido de contenido
-        # El primer "---" separa el header MIT del cuerpo principal
-        # El ultimo "---" separa el cuerpo del footer MIT
         first_sep = raw.find('\n---\n')
         if first_sep >= 0:
-            mit_header   = raw[:first_sep + 5]   # incluye el ---
+            mit_header   = raw[:first_sep + 5]
             rest         = raw[first_sep + 5:]
-            # Buscar el footer (ultimo ---) para excluirlo del body
-            last_sep = rest.rfind('\n---\n')
-            if last_sep >= 0:
-                docling_body = rest[:last_sep].strip()
-            else:
-                docling_body = rest.strip()
         else:
             mit_header   = ''
-            docling_body = raw
+            rest         = raw
+
+    # Buscar el footer robustamente para excluirlo del body
+    footer_idx = rest.rfind('FIN DEL DOCUMENTO ESTRUCTURADO')
+    if footer_idx >= 0:
+        last_sep = rest.rfind('\n---\n', 0, footer_idx)
+        if last_sep >= 0:
+            docling_body = rest[:last_sep].strip()
+        else:
+            docling_body = rest.strip()
+    else:
+        last_sep = rest.rfind('\n---\n')
+        if last_sep >= 0:
+            docling_body = rest[:last_sep].strip()
+        else:
+            docling_body = rest.strip()
 
     structured   = legalize(docling_body, document_name=in_path.stem)
     final_output = mit_header + '\n' + structured

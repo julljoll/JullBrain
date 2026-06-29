@@ -134,8 +134,13 @@ def extract_official_title(text: str, filename: str = "") -> str:
 
 def count_articles(text: str) -> int:
     """Cuenta los articulos detectados en el texto."""
-    matches = re.findall(r'(?<!\w)Art(?:iculo|iculo)?\.?\s+\d+', text, re.IGNORECASE)
-    return len(matches)
+    # En el texto legalizado, los artículos reales están precedidos por ###### Articulo N
+    matches = re.findall(r'^######\s+Articulo\s+\d+', text, re.IGNORECASE | re.MULTILINE)
+    if matches:
+        return len(matches)
+    # Fallback si no está legalizado
+    return len(re.findall(r'(?<!\w)Art(?:iculo|iculo)?\.?\s+\d+', text, re.IGNORECASE))
+
 
 
 def extract_metadata(md_text: str, pdf_path: str = "", filename: str = "") -> dict:
