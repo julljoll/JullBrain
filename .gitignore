@@ -1,0 +1,22 @@
+# Entorno virtual de Python
+docling_env/
+
+# Caché de ejecución y compilación de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caché del sistema QUIBOR
+.conversion_cache/
+
+# Salidas generadas
+normativas_rag/
+normativas_chunks/
+
+# PDFs de entrada (Ignorados por defecto para mantener el repositorio ligero)
+normativas_pdf/
+
+# Archivos temporales o de error tipográfico
+]
+.DS_Store
+Thumbs.db

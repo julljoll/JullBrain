@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before hosting: https://docs.chocolatey.org/en-us/create/create-packages -->
+    <id>quibor</id>
+    <version>1.0.0</version>
+    <title>QUIBOR</title>
+    <authors>Jull Ortiz</authors>
+    <owners>Jull Ortiz</owners>
+    <projectUrl>https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/quibor.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      **QUIBOR V-1.0** es un pipeline automatizado de grado corporativo que convierte archivos PDF de leyes, decretos y normativas venezolanas en documentos Markdown estructurados, optimizados para sistemas de Inteligencia Artificial (RAG / LLM).
+      
+      Esta instalación colocará el proyecto en `C:\Quibor`, instalará las dependencias necesarias de Python y Tesseract OCR, y creará un acceso directo circular con fondo amarillo en tu Escritorio para ejecutar la consola interactiva.
+    </description>
+    <summary>Pipeline automatizado para escanear y convertir PDFs de leyes venezolanas en Markdown estructurados para RAG.</summary>
+    <releaseNotes>Versión inicial empaquetada para Chocolatey con soporte para instalación automática en C:\Quibor y creación de acceso directo.</releaseNotes>
+    <copyright>Copyright (c) 2026 Jull Ortiz</copyright>
+    <tags>quibor rag legal docling python pdf markdown venezuela</tags>
+    <projectSourceUrl>https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME</projectSourceUrl>
+    <packageSourceUrl>https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/tree/main/chocolatey</packageSourceUrl>
+    <docsUrl>https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/README.md</docsUrl>
+    <dependencies>
+      <dependency id="python" />
+      <dependency id="git" />
+      <dependency id="tesseract" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
