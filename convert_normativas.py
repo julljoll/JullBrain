@@ -246,22 +246,22 @@ def main():
                     body_and_footer = rest[first_sep + 5:]
                     
                     footer_idx = body_and_footer.rfind('FIN DEL DOCUMENTO ESTRUCTURADO')
+                    if footer_idx < 0:
+                        footer_idx = body_and_footer.rfind('DERECHOS DE AUTOR Y LICENCIA MIT')
+                    
                     if footer_idx >= 0:
                         last_sep = body_and_footer.rfind('\n---\n', 0, footer_idx)
                         if last_sep >= 0:
                             body = body_and_footer[:last_sep].strip()
-                            mit_footer = body_and_footer[last_sep:]
                         else:
                             body = body_and_footer.strip()
-                            mit_footer = FOOTER_TEMPLATE
                     else:
                         last_sep = body_and_footer.rfind('\n---\n')
                         if last_sep >= 0:
                             body = body_and_footer[:last_sep].strip()
-                            mit_footer = body_and_footer[last_sep:]
                         else:
                             body = body_and_footer.strip()
-                            mit_footer = FOOTER_TEMPLATE
+                    mit_footer = FOOTER_TEMPLATE
                 else:
                     mit_header = HEADER_TEMPLATE
                     body = rest.strip()
