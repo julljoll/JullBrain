@@ -1,6 +1,6 @@
 $packageName = 'quibor'
 $installDir = 'C:\Quibor'
-$zipUrl = 'https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/archive/refs/heads/main.zip'
+$zipUrl = 'https://github.com/julljoll/IBM-DOCLING/archive/refs/heads/main.zip'
 
 Write-Host "====================================================================="
 Write-Host "  Instalando QUIBOR V-1.0 - Sistema RAG de Normativas Legales"

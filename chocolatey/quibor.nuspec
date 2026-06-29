@@ -8,8 +8,8 @@
     <title>QUIBOR</title>
     <authors>Jull Ortiz</authors>
     <owners>Jull Ortiz</owners>
-    <projectUrl>https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/quibor.png</iconUrl>
+    <projectUrl>https://github.com/julljoll/IBM-DOCLING</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/julljoll/IBM-DOCLING/main/quibor.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       **QUIBOR V-1.0** es un pipeline automatizado de grado corporativo que convierte archivos PDF de leyes, decretos y normativas venezolanas en documentos Markdown estructurados, optimizados para sistemas de Inteligencia Artificial (RAG / LLM).
@@ -20,9 +20,9 @@
     <releaseNotes>Versión inicial empaquetada para Chocolatey con soporte para instalación automática en C:\Quibor y creación de acceso directo.</releaseNotes>
     <copyright>Copyright (c) 2026 Jull Ortiz</copyright>
     <tags>quibor rag legal docling python pdf markdown venezuela</tags>
-    <projectSourceUrl>https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME</projectSourceUrl>
-    <packageSourceUrl>https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/tree/main/chocolatey</packageSourceUrl>
-    <docsUrl>https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/README.md</docsUrl>
+    <projectSourceUrl>https://github.com/julljoll/IBM-DOCLING</projectSourceUrl>
+    <packageSourceUrl>https://github.com/julljoll/IBM-DOCLING/tree/main/chocolatey</packageSourceUrl>
+    <docsUrl>https://github.com/julljoll/IBM-DOCLING/blob/main/README.md</docsUrl>
     <dependencies>
       <dependency id="python" />
       <dependency id="git" />
