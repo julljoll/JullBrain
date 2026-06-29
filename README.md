@@ -31,11 +31,28 @@ Los modelos de lenguaje (LLM) y los sistemas RAG fallan cuando consumen PDFs de 
 
 ## Tecnologías
 
-- **IBM Docling** — Segmentación visual profunda, extracción de tablas exacta
-- **Tesseract OCR / EasyOCR** — Fallback dual para PDFs digitalizados
-- **Python Rich** — Interfaz de consola con barras de progreso y tablas
-- **Caché SHA-256** — Detección de cambios en PDFs para no re-procesar innecesariamente
-- **YAML Frontmatter** — Metadatos estructurados compatibles con LangChain, LlamaIndex, ChromaDB
+- **IBM Docling** — Segmentación visual profunda, extracción de tablas exacta.
+- **Tesseract OCR / EasyOCR** — Fallback dual para PDFs e imágenes digitalizadas.
+- **Python Rich** — Interfaz de consola avanzada con barras de progreso, paneles y tablas interactivas.
+- **Caché SHA-256** — Control inteligente de cambios en archivos de entrada mediante `manifest.json`.
+- **YAML Frontmatter** — Metadatos estructurados compatibles con LangChain, LlamaIndex, ChromaDB.
+
+---
+
+## Funciones Avanzadas del Sistema
+
+El convertidor incorpora mecanismos avanzados de nivel corporativo para garantizar alta fidelidad y tolerancia a fallos:
+
+1. **Procesamiento Concurrente por Lotes:** Para PDFs muy extensos, el sistema divide el documento en lotes de **15 páginas** y los procesa en paralelo utilizando un `ThreadPoolExecutor` (máximo de 3 subprocesos paralelos). Esto previene caídas por falta de memoria RAM asociadas a ejecuciones masivas y optimiza los recursos de CPU.
+2. **Reintento con Recuperación de Fallos (Fallback sin OCR):** Si un subproceso falla durante la extracción con OCR activo (por ejemplo, debido a errores de Tesseract), el sistema automáticamente realiza un **reintento rápido omitiendo la fase de OCR** en ese lote en lugar de interrumpir la conversión general.
+3. **Caché SHA-256 Dinámica:** Cada PDF o imagen procesada se registra en `.conversion_cache/manifest.json` junto con su hash SHA-256 y metadatos. Si un archivo no ha sido modificado, el sistema lo detecta al instante y omite su procesamiento para ahorrar tiempo de ejecución, a menos que se fuerce con `--force-reprocess`.
+4. **Soporte Multiformato de Datos:** No solo soporta PDFs. También procesa automáticamente formatos de imagen comunes: **PNG, JPG, JPEG, TIFF y BMP**, los cuales son convertidos directamente a Markdown estructurado y segmentados por artículo.
+5. **Suite de Validación de Calidad (validator.py):** Tras la conversión, el validador analiza el documento final e informa sobre:
+   - Saltos o vacíos en la secuencia numérica de artículos.
+   - Artículos duplicados.
+   - Artículos excesivamente cortos (menos de 50 caracteres) indicando posible error de extracción OCR.
+   - Presencia de la Tabla de Contenido y el bloque de YAML frontmatter.
+6. **Codificación Segura UTF-8 en Windows:** Configura explícitamente el flujo de entrada/salida a UTF-8 para evitar los típicos bloqueos o cuelgues por codificación al procesar caracteres del idioma español (tildes, eñes, diéresis).
 
 ---
 
