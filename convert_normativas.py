@@ -81,6 +81,10 @@ CACHE_DIR   = BASE_DIR / ".conversion_cache"
 CHUNKS_DIR  = BASE_DIR / "normativas_chunks"
 MANIFEST_PATH = CACHE_DIR / "manifest.json"
 
+WORD_INPUT_DIR   = BASE_DIR / "formatos_word"
+WORD_OUTPUT_DIR  = BASE_DIR / "formatos_rag"
+WORD_MANIFEST_PATH = CACHE_DIR / "manifest_word.json"
+
 # Cabecera de derechos de autor y licencia (MIT)
 HEADER_TEMPLATE = """# 🏛️ PROCESAMIENTO ESTRUCTURADO DE NORMATIVAS Y LEYES
 
@@ -147,8 +151,34 @@ def sha256_pdf(file_path: Path) -> str:
         return ""
 
 
+def try_convert_doc_to_docx(doc_path: Path):
+    """Intenta convertir un archivo .doc heredado a .docx usando win32com si Microsoft Word está instalado.
+    Retorna Path al archivo .docx creado o None si falla."""
+    docx_path = doc_path.with_suffix(".docx")
+    if docx_path.exists():
+        return docx_path
+    
+    try:
+        import win32com.client as win32
+        # Intentar conectar con Word
+        word = win32.gencache.EnsureDispatch('Word.Application')
+        word.Visible = False
+        doc = word.Documents.Open(str(doc_path.resolve()))
+        doc.Activate()
+        word.ActiveDocument.SaveAs(str(docx_path.resolve()), FileFormat=16) # 16 = wdFormatXMLDocument
+        doc.Close(False)
+        word.Quit()
+        logger.info(f"[OK] Convertido automáticamente: {doc_path.name} -> {docx_path.name}")
+        return docx_path
+    except Exception as e:
+        logger.warning(f"[!] No se pudo convertir automáticamente {doc_path.name} a .docx: {e}")
+        logger.warning("[!] Para procesar archivos .doc heredados, se requiere Microsoft Word instalado en el sistema.")
+        logger.warning("[!] Por favor, guarde el archivo manualmente como .docx en la carpeta formatos_word.")
+        return None
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Convertidor de Normativas RAG - IBM Docling")
+    parser = argparse.ArgumentParser(description="QUIBOR-RAG - Convertidor de Normativas y Formatos RAG - IBM Docling")
     parser.add_argument("--chunk-mode",      action="store_true", help="Ejecuta la conversión de un fragmento de PDF/imagen en subproceso.")
     parser.add_argument("--file-path",        type=str,            help="Ruta del archivo a convertir.")
     parser.add_argument("--start",            type=int,            help="Página de inicio (1-based, inclusive).")
@@ -210,6 +240,10 @@ def main():
 
     if not OUTPUT_DIR.exists():
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    if not WORD_INPUT_DIR.exists():
+        WORD_INPUT_DIR.mkdir(parents=True, exist_ok=True)
+    if not WORD_OUTPUT_DIR.exists():
+        WORD_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     CHUNKS_DIR.mkdir(parents=True, exist_ok=True)
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -220,6 +254,7 @@ def main():
 
     # Cargar manifest de conversion (cache SHA-256)
     manifest = load_manifest(str(MANIFEST_PATH)) if LEGAL_PIPELINE_AVAILABLE else {}
+    word_manifest = load_manifest(str(WORD_MANIFEST_PATH)) if LEGAL_PIPELINE_AVAILABLE else {}
 
     # MODO POST-PROCESS-ONLY: solo re-aplica legalizer a .md existentes
     if getattr(args, 'post_process_only', False):
@@ -290,7 +325,7 @@ def main():
     # 1. Cabecera del Sistema de Justicia
     banner_text = Text()
     banner_text.append("[SYS] SISTEMA DE JUSTICIA VENEZOLANO\n", style="bold yellow")
-    banner_text.append("Convertidor Automatizado de Normativas a RAG / IA\n", style="bold cyan")
+    banner_text.append("QUIBOR-RAG: Convertidor de Normativas y Formatos a RAG / IA\n", style="bold cyan")
     banner_text.append("Motor de Extracción: IBM Docling\n\n", style="italic white")
     banner_text.append("Desarrollador: Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) | Copyright (c) 2026 MIT License", style="bold green")
     console.print(Panel(banner_text, border_style="cyan", box=box.ROUNDED, expand=False))
@@ -305,40 +340,56 @@ def main():
         "*.bmp", "*.BMP"
     ]
     
-    all_files = []
+    pdf_files = []
+    word_files = []
+    
     if args.file_path and not args.chunk_mode:
         single_path = Path(args.file_path)
         if not single_path.exists():
-            # Intentar buscar en INPUT_DIR
-            single_path = INPUT_DIR / args.file_path
+            # Intentar buscar en INPUT_DIR o en WORD_INPUT_DIR
+            if (INPUT_DIR / args.file_path).exists():
+                single_path = INPUT_DIR / args.file_path
+            elif (WORD_INPUT_DIR / args.file_path).exists():
+                single_path = WORD_INPUT_DIR / args.file_path
         
         if single_path.exists():
-            all_files = [single_path]
+            suffix = single_path.suffix.lower()
+            if suffix in [".pdf", ".png", ".jpg", ".jpeg", ".tiff", ".bmp"]:
+                pdf_files = [single_path]
+            elif suffix in [".docx", ".doc"]:
+                word_files = [single_path]
+            else:
+                pdf_files = [single_path]
             console.print(f"[bold cyan][INFO] Procesando unicamente el archivo: {single_path.name}[/]")
         else:
             console.print(f"[bold red][ERR] El archivo especificado no existe: {args.file_path}[/]")
             sys.exit(1)
     else:
         for ext in extensions:
-            all_files.extend(list(INPUT_DIR.glob(ext)))
+            pdf_files.extend(list(INPUT_DIR.glob(ext)))
+        pdf_files = list(set(pdf_files))
+        pdf_files = [f for f in pdf_files if not f.name.startswith("_repaired_") and not f.name.startswith("_temp_")]
         
-    # Filtrar temporales y duplicados
-    all_files = list(set(all_files))
-    all_files = [f for f in all_files if not f.name.startswith("_repaired_") and not f.name.startswith("_temp_")]
-    
-    if not all_files:
-        console.print(f"[bold yellow][!] No se encontraron archivos PDF ni imágenes en: {INPUT_DIR}[/]")
+        word_extensions = ["*.docx", "*.DOCX", "*.doc", "*.DOC"]
+        for ext in word_extensions:
+            word_files.extend(list(WORD_INPUT_DIR.glob(ext)))
+        word_files = list(set(word_files))
+        word_files = [f for f in word_files if not f.name.startswith("~") and not f.name.startswith("_temp_")]
+        
+    if not pdf_files and not word_files:
+        console.print(f"[bold yellow][!] No se encontraron archivos PDF, imágenes ni documentos Word para procesar.[/]")
         return
 
     # 2. Generar y mostrar la tabla de estados
     table = Table(
-        title="Lista de Normativas y Estados de Conversión", 
+        title="Lista de Archivos y Estados de Conversión", 
         title_style="bold magenta", 
         box=box.MINIMAL_DOUBLE_HEAD
     )
     table.add_column("#", justify="right", style="cyan", no_wrap=True)
-    table.add_column("Archivo PDF / Imagen (Origen)", style="white")
-    table.add_column("Páginas", justify="center", style="yellow")
+    table.add_column("Tipo", style="bold blue")
+    table.add_column("Archivo Origen", style="white")
+    table.add_column("Detalle", justify="center", style="yellow")
     table.add_column("Archivo MD (Destino)", style="green")
     table.add_column("Estado de Conversión", justify="center")
 
@@ -346,12 +397,12 @@ def main():
     pending_files = []
 
     with console.status("[bold green]Escaneando archivos y cargando metadatos...", spinner="dots"):
-        for file_path in all_files:
+        # Escanear PDF/imágenes
+        for file_path in pdf_files:
             md_filename = f"{file_path.stem}.md"
             md_path     = OUTPUT_DIR / md_filename
             pages       = get_pdf_page_count(file_path)
 
-            # Verificar cache: el .md existe Y el hash PDF coincide con el manifesto
             already_converted = False
             if md_path.exists() and not getattr(args, 'force_reprocess', False):
                 cached_hash = manifest.get(file_path.name, {}).get('sha256', '')
@@ -359,11 +410,12 @@ def main():
                     current_hash = sha256_pdf(file_path)
                     already_converted = (cached_hash == current_hash)
                 else:
-                    already_converted = True  # fallback: si existe el .md, lo considera convertido
+                    already_converted = True
 
             status_text = "[bold green]Ya convertido [OK][/]" if already_converted else "[bold yellow]Pendiente [..][/]"
             
             all_files_data.append({
+                "type": "PDF/Imagen",
                 "file_path": file_path,
                 "pages": pages,
                 "md_filename": md_filename,
@@ -371,20 +423,46 @@ def main():
                 "converted": already_converted
             })
 
-    # Ordenar alfabéticamente para una visualización consistente
-    all_files_data.sort(key=lambda x: x["file_path"].name.lower())
+        # Escanear documentos Word
+        for file_path in word_files:
+            md_filename = f"{file_path.stem}.md"
+            md_path     = WORD_OUTPUT_DIR / md_filename
+
+            already_converted = False
+            if md_path.exists() and not getattr(args, 'force_reprocess', False):
+                cached_hash = word_manifest.get(file_path.name, {}).get('sha256', '')
+                if cached_hash:
+                    current_hash = sha256_pdf(file_path)
+                    already_converted = (cached_hash == current_hash)
+                else:
+                    already_converted = True
+
+            status_text = "[bold green]Ya convertido [OK][/]" if already_converted else "[bold yellow]Pendiente [..][/]"
+            
+            all_files_data.append({
+                "type": "Word",
+                "file_path": file_path,
+                "pages": "N/A",
+                "md_filename": md_filename,
+                "status_text": status_text,
+                "converted": already_converted
+            })
+
+    # Ordenar por tipo y luego alfabéticamente
+    all_files_data.sort(key=lambda x: (x["type"], x["file_path"].name.lower()))
 
     for idx, item in enumerate(all_files_data, start=1):
         pages_str = str(item["pages"]) if isinstance(item["pages"], int) else item["pages"]
         table.add_row(
             str(idx),
+            item["type"],
             item["file_path"].name,
             pages_str,
             item["md_filename"],
             item["status_text"]
         )
         if not item["converted"]:
-            pending_files.append((item["file_path"], item["pages"]))
+            pending_files.append((item["file_path"], item["type"], item["pages"]))
 
     console.print(table)
 
@@ -409,7 +487,6 @@ def main():
     fail_count = 0
     errors_list = []
     
-    # Resolver la ruta absoluta del propio script para llamarse a sí mismo en los subprocesos
     script_path = Path(__file__).resolve()
 
     progress_columns = [
@@ -421,12 +498,12 @@ def main():
     ]
 
     with Progress(*progress_columns, console=console) as progress:
-        # Barra general de archivos
         overall_task = progress.add_task("[bold magenta]Progreso General", total=len(pending_files))
         
-        for idx, (file_path, pages) in enumerate(pending_files, start=1):
+        for idx, (file_path, file_type, pages) in enumerate(pending_files, start=1):
             md_filename = f"{file_path.stem}.md"
-            output_md_path = OUTPUT_DIR / md_filename
+            output_dir = OUTPUT_DIR if file_type == "PDF/Imagen" else WORD_OUTPUT_DIR
+            output_md_path = output_dir / md_filename
             
             file_desc = file_path.name
             if len(file_desc) > 30:
@@ -435,9 +512,20 @@ def main():
             suffix = file_path.suffix.lower()
             markdown_content = ""
             
+            # Conversión dinámica de .doc a .docx si es necesario
+            if file_type == "Word" and suffix == ".doc":
+                converted_path = try_convert_doc_to_docx(file_path)
+                if converted_path:
+                    file_path = converted_path
+                    suffix = ".docx"
+                else:
+                    fail_count += 1
+                    progress.update(overall_task, advance=1)
+                    errors_list.append((file_path.name, "No se pudo convertir archivo .doc a .docx. Se requiere Microsoft Word."))
+                    continue
+            
             try:
                 if suffix == ".pdf":
-                    # Leer total de páginas reales
                     num_pages = pages if isinstance(pages, int) else 0
                     if num_pages == 0:
                         num_pages = get_pdf_page_count(file_path)
@@ -447,7 +535,6 @@ def main():
                     BATCH_SIZE = 15
                     temp_jsons = []
                     
-                    # Directorio de caché
                     file_cache_dir = CACHE_DIR / file_path.stem.strip()
                     file_cache_dir.mkdir(parents=True, exist_ok=True)
                     
@@ -474,7 +561,6 @@ def main():
                         total=num_batches
                     )
                     
-                    # Marcar lotes ya cacheados como completados
                     progress.update(file_task, completed=len(temp_jsons))
                     
                     if pending_batches:
@@ -497,7 +583,6 @@ def main():
                             res = subprocess.run(cmd, capture_output=True, encoding='utf-8')
                             
                             if res.returncode != 0:
-                                # Reintento sin OCR
                                 cmd_no_ocr = cmd + ["--no-ocr"]
                                 res_no_ocr = subprocess.run(cmd_no_ocr, capture_output=True, encoding='utf-8')
                                 
@@ -542,14 +627,15 @@ def main():
                         logger.warning(f"No se pudo limpiar la carpeta de caché {file_cache_dir.name}: {e}")
                         
                 else:
-                    # Imagen
+                    # Imagen o Word Document
+                    desc_type = "Imagen" if file_type == "PDF/Imagen" else "Documento"
                     file_task = progress.add_task(
-                        f"[cyan]Convirtiendo Imagen: {file_desc}", 
+                        f"[cyan]Convirtiendo {desc_type}: {file_desc}", 
                         total=1
                     )
                     
                     with tempfile.TemporaryDirectory() as temp_dir:
-                        temp_json_path = Path(temp_dir) / "image_doc.json"
+                        temp_json_path = Path(temp_dir) / "doc_data.json"
                         cmd = [
                             sys.executable,
                             str(script_path),
@@ -561,7 +647,7 @@ def main():
                         res = subprocess.run(cmd, capture_output=True, encoding='utf-8')
                         if res.returncode != 0:
                             error_msg = f"STDOUT: {res.stdout.strip()}\nSTDERR: {res.stderr.strip()}"
-                            raise RuntimeError(f"Fallo convirtiendo imagen:\n{error_msg}")
+                            raise RuntimeError(f"Fallo convirtiendo {desc_type.lower()}:\n{error_msg}")
                             
                         if not temp_json_path.exists():
                             raise RuntimeError("El subproceso no generó el JSON intermedio.")
@@ -574,14 +660,12 @@ def main():
                 raw_md = HEADER_TEMPLATE + markdown_content + FOOTER_TEMPLATE
 
                 # --- PIPELINE DE POST-PROCESAMIENTO LEGAL ---
-                if LEGAL_PIPELINE_AVAILABLE:
+                if LEGAL_PIPELINE_AVAILABLE and file_type == "PDF/Imagen":
                     try:
                         # Fase 1: Estructurar jerarquia legal y separar articulos
-                        # Pasamos directamente el markdown_content crudo extraído de Docling
                         structured = legalize(markdown_content, document_name=md_filename)
 
                         # Fase 2: Inyectar YAML frontmatter con metadatos semanticos
-                        # Re-ensamblamos con las plantillas de cabecera y pie de página MIT
                         full_structured = HEADER_TEMPLATE + structured + FOOTER_TEMPLATE
                         pdf_path_str = str(file_path)
                         final_content = inject_frontmatter(full_structured, pdf_path_str, file_path.stem)
@@ -621,9 +705,18 @@ def main():
                         with open(output_md_path, "w", encoding="utf-8") as f:
                             f.write(raw_md)
                 else:
-                    # Sin pipeline legal: guardar Markdown crudo
+                    # Sin pipeline legal o es un documento Word: guardar Markdown crudo/limpio
+                    content_to_save = markdown_content if file_type == "Word" else raw_md
                     with open(output_md_path, "w", encoding="utf-8") as f:
-                        f.write(raw_md)
+                        f.write(content_to_save)
+
+                    # Si es Word, también actualizamos su manifest_word.json
+                    if file_type == "Word":
+                        word_manifest[file_path.name] = {
+                            'sha256':   sha256_pdf(file_path),
+                            'md_file':  md_filename,
+                        }
+                        save_manifest(str(WORD_MANIFEST_PATH), word_manifest)
 
                 success_count += 1
                 progress.remove_task(file_task)

@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 > nul
 setlocal EnableDelayedExpansion
-title Convertidor de Normativas RAG - IBM Docling
+title QUIBOR-RAG - Convertidor de Normativas y Formatos
 
 :: Get the ESC character for custom colors
 for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do set "ESC=%%b"
@@ -29,13 +29,13 @@ echo ██     ██  ██ ██  ██ ██  ██      ██  ██
 echo ██     ██████ █████  ██████       ████  ████  ██ ███ ████    ██   ██  ██ ████  ██     ██████
 echo █████  ██  ██ ██  ██ ██  ██        ██   █████ ██  ██ █████ ██████  ████  █████ █████  ██  ██
 echo =========================================================================================
-echo [SYS] Convertidor Automatizado de Normativas y Leyes para RAG / IA
+echo [SYS] QUIBOR-RAG: Convertidor Automatizado de Normativas, Leyes y Formatos Word para RAG / IA
 echo =========================================================================================%COLOR_TXT%
 echo.
 echo Este proyecto proporciona una solución automatizada de alta fidelidad para escanear y 
-echo convertir archivos PDF (como leyes, decretos y normativas) en documentos de texto 
-echo estructurados en Markdown. Está especialmente optimizado para que motores de 
-echo Inteligencia Artificial (IA) y sistemas RAG (Generación Aumentada por Recuperación) 
+echo convertir archivos PDF y documentos Word (como leyes, decretos, normativas y formatos) 
+echo en documentos de texto estructurados en Markdown. Está especialmente optimizado para que 
+echo motores de Inteligencia Artificial (IA) y sistemas RAG (Generación Aumentada por Recuperación) 
 echo puedan consumir y analizar la información con la máxima precisión y sin pérdida de datos.
 echo.
 echo [+] Información del Desarrollador:
@@ -49,7 +49,7 @@ echo ===========================================================================
 echo.
 echo %COLOR_H1%[i] PROCESO DE EJECUCIÓN DEL SCRIPT:%COLOR_TXT%
 echo  [>] 1. Verificación automática de requisitos locales (Python, Git, Tesseract, docling_env).
-echo  [>] 2. Escaneo y análisis automático de archivos PDF/imágenes en 'normativas_pdf/'.
+echo  [>] 2. Escaneo y análisis automático de archivos PDF/imágenes ('normativas_pdf/') y Word ('formatos_word/').
 echo  [>] 3. Presentación de un informe de estado indicando qué documentos se transformarán.
 echo  [>] 4. Confirmación interactiva antes de proceder con el procesamiento.
 echo %COLOR_H1%=========================================================================================%COLOR_TXT%

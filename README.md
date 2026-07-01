@@ -1,4 +1,4 @@
-# QUIBOR V-1.0 — Pipeline RAG de Normativas Legales Venezolanas
+# QUIBOR-RAG V-2.0 — Pipeline RAG de Normativas y Formatos Legales Venezolanos
 
 > Conversión automatizada de PDFs jurídicos a Markdown estructurado para sistemas de IA — Powered by IBM Docling
 
@@ -15,7 +15,7 @@ Los modelos de lenguaje (LLM) fallan con PDFs de documentos legales venezolanos 
 - No hay metadata legal (Gaceta Oficial, fecha, tipo de instrumento) para filtrar búsquedas RAG.
 - El chunking por páginas parte artículos a la mitad, generando fragmentos incoherentes.
 
-**QUIBOR** convierte esos PDFs en Markdown semánticamente estructurado, con un artículo por chunk, listo para ingestarse en LangChain, LlamaIndex, ChromaDB o cualquier sistema RAG.
+**QUIBOR-RAG** convierte esos PDFs en Markdown semánticamente estructurado, con un artículo por chunk, listo para ingestarse en LangChain, LlamaIndex, ChromaDB o cualquier sistema RAG.
 
 ---
 
