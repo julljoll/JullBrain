@@ -1,6 +1,6 @@
 @echo off
 :: ===================================================================
-::  QUIBOR-RAG - Script de Post-Instalacion
+::  JullBrain - Script de Post-Instalacion
 ::  Se ejecuta tras instalar los archivos en el directorio destino.
 ::  Crea el entorno virtual, instala dependencias y crea accesos directos.
 :: ===================================================================
@@ -16,7 +16,7 @@ echo [%DATE% %TIME%] === INICIO DE INSTALACION === > "%LOG%"
 
 echo.
 echo =========================================================
-echo  QUIBOR-RAG - Configurando entorno...
+echo  JullBrain - Configurando entorno...
 echo =========================================================
 echo.
 

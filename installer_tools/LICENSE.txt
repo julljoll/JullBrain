@@ -1,7 +1,7 @@
 MIT License
 
 ===================================================================
-QUIBOR-RAG - Copyright (c) 2026 Jull Ortiz
+JullBrain - Copyright (c) 2026 Jull Ortiz
 ===================================================================
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

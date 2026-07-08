@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='QUIBOR-RAG',
+    name='JullBrain',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -36,5 +36,5 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     version='C:\\Users\\Jull\\AppData\\Local\\Temp\\99834a92-9c6c-4436-914b-d9dfae8a5982',
-    icon=['quibor.ico'],
+    icon=['jullbrain.ico'],
 )

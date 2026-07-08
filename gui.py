@@ -20,10 +20,10 @@ WORD_MANIFEST_PATH = CACHE_DIR / "manifest_word.json"
 for folder in [INPUT_DIR, OUTPUT_DIR, WORD_INPUT_DIR, WORD_OUTPUT_DIR, CACHE_DIR]:
     folder.mkdir(parents=True, exist_ok=True)
 
-class QuiborApp:
+class JullBrainApp:
     def __init__(self, page: ft.Page):
         self.page = page
-        self.page.title = "QUIBOR-RAG — Interfaz de Conversión Inteligente"
+        self.page.title = "JullBrain — Interfaz de Conversión Inteligente"
         self.page.theme_mode = ft.ThemeMode.DARK
         self.page.bgcolor = "#1a1a1a"
         self.page.window_width = 1100
@@ -45,13 +45,13 @@ class QuiborApp:
             content=ft.Column([
                 ft.Row([
                     ft.Icon(ft.icons.BALANCE, color="#FECF06", size=40),
-                    ft.Text("QUIBOR-RAG", size=32, weight=ft.FontWeight.BOLD, color="#FECF06"),
+                    ft.Text("JullBrain", size=32, weight=ft.FontWeight.BOLD, color="#FECF06"),
                     ft.Container(
                         content=ft.Text("v2.0 - Powered by IBM Docling", size=12, italic=True, color="#888888"),
                         margin=ft.margin.only(top=10)
                     )
                 ], alignment=ft.MainAxisAlignment.START),
-                ft.Text("Sistema de Justicia Venezolano — Procesamiento Automatizado de Normativas, Leyes y Formatos", size=14, color="#00FF41", weight=ft.FontWeight.W_500)
+                ft.Text("Mi Cerebro Personal — Procesamiento Automatizado de Normativas, Leyes y Formatos", size=14, color="#00FF41", weight=ft.FontWeight.W_500)
             ]),
             padding=20,
             bgcolor="#252525",
@@ -140,7 +140,7 @@ class QuiborApp:
             bgcolor="#0d0d0d",
             border_color="#333333",
             color="#00FF41",
-            value="[QUIBOR-RAG] Listo para procesar documentos.\nPresione 'Iniciar Conversión' para comenzar."
+            value="[JullBrain] Listo para procesar documentos.\nPresione 'Iniciar Conversión' para comenzar."
         )
 
         self.progress_bar = ft.ProgressBar(value=0, color="#00FF41", bgcolor="#444444", visible=False)
@@ -191,13 +191,13 @@ class QuiborApp:
         help_tab = ft.Column([
             ft.Text("Manual de Uso y Licencias", size=18, weight=ft.FontWeight.BOLD, color="#FECF06"),
             ft.Divider(color="#444444"),
-            ft.Text("QUIBOR-RAG es una herramienta para procesar, limpiar y estructurar PDFs y Word legados hacia Markdown listo para RAG (Retrieval-Augmented Generation) en sistemas de Inteligencia Artificial.", size=14),
+            ft.Text("JullBrain es una herramienta para procesar, limpiar y estructurar PDFs y Word legados hacia Markdown listo para RAG (Retrieval-Augmented Generation) en sistemas de Inteligencia Artificial.", size=14),
             ft.Markdown(
                 """
 ### Licencias
 Este software está distribuido bajo la **Licencia MIT**.
 
-* **Desarrollador de QUIBOR-RAG**: Jull Ortiz (Copyright (c) 2026)
+* **Desarrollador de JullBrain**: Jull Ortiz (Copyright (c) 2026)
 * **Motor de Extracción**: IBM Docling (Copyright (c) 2024-present IBM Corp.)
                 """
             )
@@ -312,7 +312,7 @@ Este software está distribuido bajo la **Licencia MIT**.
         self.progress_bar.value = None # Indeterminate spinner
         self.progress_text.visible = True
         self.progress_text.value = "Iniciando pipeline de IA..."
-        self.log_box.value = "[QUIBOR-RAG] Iniciando proceso..."
+        self.log_box.value = "[JullBrain] Iniciando proceso..."
         self.page.update()
 
         # Run process in a thread to keep GUI responsive
@@ -412,7 +412,7 @@ Este software está distribuido bajo la **Licencia MIT**.
         self.page.update()
 
 def main(page: ft.Page):
-    QuiborApp(page)
+    JullBrainApp(page)
 
 if __name__ == "__main__":
     ft.app(target=main)

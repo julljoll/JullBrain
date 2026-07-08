@@ -1,6 +1,6 @@
-# QUIBOR-RAG V-2.0 — Pipeline RAG de Normativas y Formatos Legales Venezolanos
+# JullBrain V-2.0 — Pipeline RAG de Normativas y Formatos (Mi Cerebro Personal)
 
-> Conversión automatizada de PDFs jurídicos a Markdown estructurado para sistemas de IA — Powered by IBM Docling
+> Conversión automatizada de PDFs jurídicos y documentos a Markdown estructurado para sistemas de IA — Powered by IBM Docling
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org) [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE) [![IBM Docling](https://img.shields.io/badge/IBM-Docling-purple)](https://github.com/DS4SD/docling)
 
@@ -8,14 +8,14 @@
 
 ## El Problema que Resuelve
 
-Los modelos de lenguaje (LLM) fallan con PDFs de documentos legales venezolanos porque:
+Los modelos de lenguaje (LLM) fallan con PDFs de documentos legales y normativos porque:
 
 - Los artículos aparecen fusionados en párrafos de 2,000+ palabras sin separación.
 - Las tablas de PDFs se rompen o pierden su estructura.
 - No hay metadata legal (Gaceta Oficial, fecha, tipo de instrumento) para filtrar búsquedas RAG.
 - El chunking por páginas parte artículos a la mitad, generando fragmentos incoherentes.
 
-**QUIBOR-RAG** convierte esos PDFs en Markdown semánticamente estructurado, con un artículo por chunk, listo para ingestarse en LangChain, LlamaIndex, ChromaDB o cualquier sistema RAG.
+**JullBrain** convierte esos PDFs en Markdown semánticamente estructurado, con un artículo por chunk, listo para ingestarse en LangChain, LlamaIndex, ChromaDB o cualquier sistema RAG.
 
 ---
 
@@ -50,12 +50,12 @@ normativas_rag/                                          normativas_chunks/
 
 | Módulo | Función | Skill de IA Asociado |
 |--------|---------|----------------------|
-| `convert_normativas.py` | Motor principal: Docling + batching paralelo + caché SHA-256 | `quibor-pdf-to-rag` |
-| `legalizer.py` | Detecta TÍTULO/CAPÍTULO/Artículo; genera TOC | `quibor-legalizer` |
-| `chunker.py` | Un `.md` por artículo para embeddings precisos | `quibor-legalizer` |
-| `metadata_extractor.py` | YAML frontmatter con Gaceta, fecha, tipo, SHA-256 | `quibor-metadata` |
-| `validator.py` | Verifica secuencia, duplicados, artículos corruptos | `quibor-validator` |
-| `iniciar_conversion.bat` | Menú interactivo + verificación de dependencias | `quibor-pdf-to-rag` |
+| `convert_normativas.py` | Motor principal: Docling + batching paralelo + caché SHA-256 | `jullbrain-pdf-to-rag` |
+| `legalizer.py` | Detecta TÍTULO/CAPÍTULO/Artículo; genera TOC | `jullbrain-legalizer` |
+| `chunker.py` | Un `.md` por artículo para embeddings precisos | `jullbrain-legalizer` |
+| `metadata_extractor.py` | YAML frontmatter con Gaceta, fecha, tipo, SHA-256 | `jullbrain-metadata` |
+| `validator.py` | Verifica secuencia, duplicados, artículos corruptos | `jullbrain-validator` |
+| `iniciar_conversion.bat` | Menú interactivo + verificación de dependencias | `jullbrain-pdf-to-rag` |
 
 ---
 
@@ -83,7 +83,7 @@ normativas_rag/                                          normativas_chunks/
 | Ley sobre Mensajes de Datos | 56 | 55 | 98.2% |
 | Creación del CENIF | 74 | 74 | 100% |
 
-> Los documentos ISO/NIST usan secciones numeradas (no artículos). Se detectan pero sin separación de artículos. Ver `quibor-pdf-to-rag/references/section-numbering-extension.md` para la hoja de ruta de soporte.
+> Los documentos ISO/NIST usan secciones numeradas (no artículos). Se detectan pero sin separación de artículos. Ver `jullbrain-pdf-to-rag/references/section-numbering-extension.md` para la hoja de ruta de soporte.
 
 ---
 
@@ -159,11 +159,11 @@ IBM DOCLING/
 ├── chunker.py                   Generador de chunks individuales
 ├── iniciar_conversion.bat       Orquestador interactivo
 │
-└── .quibor-skills/              [IA]        Skills de asistencia de IA
-    ├── quibor-pdf-to-rag/       Pipeline maestro
-    ├── quibor-legalizer/        legalizer.py + chunker.py
-    ├── quibor-metadata/         metadata_extractor.py
-    └── quibor-validator/        validator.py
+└── .AGENTS/                      [IA]        Skills de asistencia de IA
+    ├── jullbrain-pdf-to-rag/    Pipeline maestro
+    ├── jullbrain-legalizer/     legalizer.py + chunker.py
+    ├── jullbrain-metadata/      metadata_extractor.py
+    └── jullbrain-validator/     validator.py
 ```
 
 ---
@@ -247,14 +247,14 @@ results = collection.query(
 
 ## Skills de IA Incluidos
 
-Este repositorio incluye un conjunto de skills especializados para asistentes de IA (Claude, GPT, etc.). Los skills viven en `.quibor-skills/` y se cargan automáticamente cuando la IA trabaja con este proyecto.
+Este repositorio incluye un conjunto de skills especializados para asistentes de IA (Claude, GPT, etc.). Los skills viven en `.AGENTS/` y se cargan automáticamente cuando la IA trabaja con este proyecto.
 
 | Skill | Cubre | Cuándo cargarlo |
 |-------|-------|-----------------|
-| `quibor-pdf-to-rag` | Pipeline completo, Docling, errores de configuración | Primera consulta general |
-| `quibor-legalizer` | `legalizer.py`, `chunker.py`, patrones de artículos | Artículos mal detectados |
-| `quibor-metadata` | `metadata_extractor.py`, YAML, SHA-256, Gaceta | Metadata incompleta |
-| `quibor-validator` | `validator.py`, métricas de calidad, reportes | Validar después de conversión |
+| `jullbrain-pdf-to-rag` | Pipeline completo, Docling, errores de configuración | Primera consulta general |
+| `jullbrain-legalizer` | `legalizer.py`, `chunker.py`, patrones de artículos | Artículos mal detectados |
+| `jullbrain-metadata` | `metadata_extractor.py`, YAML, SHA-256, Gaceta | Metadata incompleta |
+| `jullbrain-validator` | `validator.py`, métricas de calidad, reportes | Validar después de conversión |
 
 ---
 
@@ -262,7 +262,7 @@ Este repositorio incluye un conjunto de skills especializados para asistentes de
 
 ```
 Programador de tareas → Crear tarea básica
-  Nombre: QUIBOR-RAG
+  Nombre: JullBrain
   Desencadenador: Al iniciar sesión / Programado
   Acción: Iniciar programa → iniciar_conversion.bat
   Iniciar en: D:\VS CODE\IBM DOCLING

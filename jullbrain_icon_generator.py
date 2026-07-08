@@ -22,11 +22,11 @@ def generate_icon(output_dir):
 
     # Color del texto: #252525 (37, 37, 37)
     text_color = (37, 37, 37, 255)
-    text = "QUIBOR"
+    text = "JullBrain"
 
     # Intentar cargar Arial Bold, sino retroceder a la por defecto
     font_path = "arialbd.ttf"
-    font_size = 90
+    font_size = 75
     
     font = None
     try:
@@ -66,8 +66,8 @@ def generate_icon(output_dir):
 
     # Asegurar que el directorio de salida existe
     os.makedirs(output_dir, exist_ok=True)
-    png_path = os.path.join(output_dir, "quibor.png")
-    ico_path = os.path.join(output_dir, "quibor.ico")
+    png_path = os.path.join(output_dir, "jullbrain.png")
+    ico_path = os.path.join(output_dir, "jullbrain.ico")
 
     # Guardar PNG
     image.save(png_path, "PNG")

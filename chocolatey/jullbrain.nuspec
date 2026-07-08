@@ -3,23 +3,23 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- Read this before hosting: https://docs.chocolatey.org/en-us/create/create-packages -->
-    <id>quibor</id>
+    <id>jullbrain</id>
     <version>1.0.0</version>
-    <title>QUIBOR</title>
+    <title>JullBrain</title>
     <authors>Jull Ortiz</authors>
     <owners>Jull Ortiz</owners>
     <projectUrl>https://github.com/julljoll/IBM-DOCLING</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/julljoll/IBM-DOCLING/main/quibor.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/julljoll/IBM-DOCLING/main/jullbrain.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-      **QUIBOR V-1.0** es un pipeline automatizado de grado corporativo que convierte archivos PDF de leyes, decretos y normativas venezolanas en documentos Markdown estructurados, optimizados para sistemas de Inteligencia Artificial (RAG / LLM).
+      **JullBrain** es un pipeline automatizado de grado corporativo que convierte archivos PDF de leyes, decretos y documentos en documentos Markdown estructurados, optimizados para sistemas de Inteligencia Artificial (RAG / LLM).
       
-      Esta instalación colocará el proyecto en `C:\Quibor`, instalará las dependencias necesarias de Python y Tesseract OCR, y creará un acceso directo circular con fondo amarillo en tu Escritorio para ejecutar la consola interactiva.
+      Esta instalación colocará el proyecto en `C:\JullBrain`, instalará las dependencias necesarias de Python y Tesseract OCR, y creará un acceso directo circular con fondo amarillo en tu Escritorio para ejecutar la consola interactiva.
     </description>
-    <summary>Pipeline automatizado para escanear y convertir PDFs de leyes venezolanas en Markdown estructurados para RAG.</summary>
-    <releaseNotes>Versión inicial empaquetada para Chocolatey con soporte para instalación automática en C:\Quibor y creación de acceso directo.</releaseNotes>
+    <summary>Pipeline automatizado para escanear y convertir PDFs en Markdown estructurados para RAG.</summary>
+    <releaseNotes>Versión inicial empaquetada para Chocolatey con soporte para instalación automática en C:\JullBrain y creación de acceso directo.</releaseNotes>
     <copyright>Copyright (c) 2026 Jull Ortiz</copyright>
-    <tags>quibor rag legal docling python pdf markdown venezuela</tags>
+    <tags>jullbrain rag docling python pdf markdown</tags>
     <projectSourceUrl>https://github.com/julljoll/IBM-DOCLING</projectSourceUrl>
     <packageSourceUrl>https://github.com/julljoll/IBM-DOCLING/tree/main/chocolatey</packageSourceUrl>
     <docsUrl>https://github.com/julljoll/IBM-DOCLING/blob/main/README.md</docsUrl>

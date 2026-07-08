@@ -1,25 +1,25 @@
-$packageName = 'quibor'
-$installDir = 'C:\Quibor'
+$packageName = 'jullbrain'
+$installDir = 'C:\JullBrain'
 $zipUrl = 'https://github.com/julljoll/IBM-DOCLING/archive/refs/heads/main.zip'
 
 Write-Host "====================================================================="
-Write-Host "  Instalando QUIBOR V-1.0 - Sistema RAG de Normativas Legales"
+Write-Host "  Instalando JullBrain - Sistema RAG y Cerebro Personal"
 Write-Host "====================================================================="
 
 # 1. Crear directorio temporal
-$tempDir = Join-Path $env:TEMP 'quibor-install'
+$tempDir = Join-Path $env:TEMP 'jullbrain-install'
 if (Test-Path $tempDir) {
     Remove-Item $tempDir -Recurse -Force -ErrorAction SilentlyContinue
 }
 New-Item -ItemType Directory -Force -Path $tempDir | Out-Null
-$zipPath = Join-Path $tempDir 'quibor.zip'
+$zipPath = Join-Path $tempDir 'jullbrain.zip'
 
 # 2. Descargar el archivo ZIP desde GitHub
 Write-Host "[1/5] Descargando el código fuente desde el repositorio en GitHub..."
 try {
     Get-ChocolateyWebFile -PackageName $packageName -FileFullPath $zipPath -Url $zipUrl
 } catch {
-    Write-Warning "No se pudo descargar el archivo ZIP. Asegúrese de que la URL en el script de Chocolatey es válida:"
+    Write-Warning "No se pudo descargar el archivo ZIP. Asegúrese de que la URL en el script de Chocolatey is válida:"
     Write-Warning $zipUrl
     throw $_
 }
@@ -28,7 +28,7 @@ try {
 Write-Host "[2/5] Extrayendo archivos temporales..."
 Get-ChocolateyUnzip -FileFullPath $zipPath -Destination $tempDir
 
-# 4. Mover archivos a la ubicación final C:\Quibor
+# 4. Mover archivos a la ubicación final C:\JullBrain
 Write-Host "[3/5] Instalando archivos en la ruta de destino ($installDir)..."
 # Los ZIP de GitHub contienen una carpeta raíz (por ejemplo, 'IBM-DOCLING-main')
 $extractedSubDir = Get-ChildItem -Path $tempDir -Directory | Select-Object -First 1
@@ -54,7 +54,7 @@ Remove-Item $tempDir -Recurse -Force -ErrorAction SilentlyContinue
 # 6. Crear acceso directo en el Escritorio con el icono circular amarillo
 Write-Host "[5/5] Creando acceso directo en el Escritorio con icono personalizado..."
 $desktopPath = [System.Environment]::GetFolderPath('Desktop')
-$shortcutPath = Join-Path $desktopPath 'QUIBOR.lnk'
+$shortcutPath = Join-Path $desktopPath 'JullBrain.lnk'
 
 try {
     $wshShell = New-Object -ComObject WScript.Shell
@@ -63,15 +63,15 @@ try {
     $shortcut.WorkingDirectory = $installDir
     
     # El archivo .ico ya se incluye en la raíz del repositorio descargado
-    $iconPath = "$installDir\quibor.ico"
+    $iconPath = "$installDir\jullbrain.ico"
     if (Test-Path $iconPath) {
         $shortcut.IconLocation = $iconPath
     } else {
-        Write-Warning "El archivo de icono quibor.ico no se encontró en la carpeta de instalación."
+        Write-Warning "El archivo de icono jullbrain.ico no se encontró en la carpeta de instalación."
     }
     
     $shortcut.Save()
-    Write-Host "[OK] Acceso directo 'QUIBOR' creado en el Escritorio."
+    Write-Host "[OK] Acceso directo 'JullBrain' creado en el Escritorio."
 } catch {
     Write-Warning "No se pudo crear el acceso directo en el Escritorio: $_"
 }

@@ -1,0 +1,21 @@
+Con el nuevo enfoque, JullBrain deja de ser "nube para todo, local para privacidad" y pasa a ser un cerebro remoto único que combina ingesta + conocimiento + razonamiento, accesible desde cualquier equipo. Así queda actualizada la idea:
+1. La VM de Oracle es el corazón, no un simple contenedor serverless
+En vez de IBM Code Engine (que escala a cero y tiene arranques fríos, poco práctico si quieres consultar el cerebro en cualquier momento), usa la VM Ampere A1 siempre gratis de Oracle. Ojo: a mediados de junio 2026 Oracle recortó silenciosamente esta capa de 4 OCPU/24GB a 2 OCPU/12GB — sigue siendo suficiente para lo que necesitas, pero tenlo presente al dimensionar. Ahí corres, todo en Docker:
+
+Docling procesando leyes/normativas/ISO y convirtiéndolas a Markdown.
+LanceDB (el mismo motor que ya usas, así no cambias de stack) actuando como base vectorial, envuelta en una API FastAPI para consultas remotas.
+Granite vía Ollama — un 8B cuantizado (Q4) corre razonablemente en ARM con esa RAM. Esto te da razonamiento en la nube de verdad, sin depender de watsonx.ai: verifiqué su plan Lite gratuito y el límite de tokens/cómputo es tan bajo que ni sirve para uso real, solo para "probar la plataforma" — mejor te quedas con Ollama propio.
+
+2. Acceso desde cualquier PC
+Dos caminos, según cuánto control quieras:
+
+Tailscale (gratis hasta 100 dispositivos): instalas el cliente en cada PC donde tengas Granite local, y JullBrain nunca queda expuesto a internet abierto — solo tu red privada. Ideal si siempre usas tus propios equipos.
+Cloudflare Tunnel + Cloudflare Access (gratis hasta 50 usuarios): si de verdad necesitas entrar desde una computadora ajena sin instalar nada, esto te da una URL con login de verificación, sin exponer el puerto directamente.
+
+3. El generador de documentos
+Aquí es donde entra tu chat: le pides a Granite (local o vía JullBrain) que redacte un documento jurídico o un plan/pipeline, y un servicio pequeño en la misma VM se encarga de materializarlo:
+
+Documentos jurídicos → Word: sigues usando docxtpl (ya está en tu stack) — Granite llena los campos de la plantilla con tu estilo jurídico venezolano aprendido con spaCy, y el .docx se genera y se pone disponible para descarga.
+Planes estratégicos / pipelines → SVG: le pides a Granite que describa el flujo en sintaxis Mermaid, y un pequeño paso en la VM (mermaid-cli o una librería Python) lo convierte a SVG descargable.
+
+Con esto, el flujo completo es: preguntas desde cualquier lado → JullBrain busca en su base vectorial las normativas relevantes → Granite razona con ese contexto → el generador entrega el archivo en el formato correcto.

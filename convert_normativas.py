@@ -10,6 +10,8 @@ import json
 from pathlib import Path
 import pypdf
 import fitz
+import platform
+import time
 
 # Modulos de post-procesamiento legal (Fases 1-5)
 try:
@@ -178,14 +180,14 @@ def try_convert_doc_to_docx(doc_path: Path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="QUIBOR-RAG - Convertidor de Normativas y Formatos RAG - IBM Docling")
+    parser = argparse.ArgumentParser(description="JullBrain - Convertidor de Normativas y Formatos RAG - IBM Docling")
     parser.add_argument("--chunk-mode",      action="store_true", help="Ejecuta la conversión de un fragmento de PDF/imagen en subproceso.")
     parser.add_argument("--file-path",        type=str,            help="Ruta del archivo a convertir.")
     parser.add_argument("--start",            type=int,            help="Página de inicio (1-based, inclusive).")
     parser.add_argument("--end",              type=int,            help="Página de fin (1-based, inclusive).")
     parser.add_argument("--output-json",      type=str,            help="Ruta donde guardar el JSON del documento generado.")
     parser.add_argument("--no-ocr",           action="store_true", help="Desactiva el OCR en el procesamiento del PDF.")
-    parser.add_argument("--force-reprocess",  action="store_true", help="Re-procesa archivos ya convertidos ignorando la caché.")
+
     parser.add_argument("--no-chunks",        action="store_true", help="No genera chunks individuales por artículo.")
     parser.add_argument("--post-process-only",action="store_true", help="Solo aplica el post-procesado legal a los .md existentes sin re-convertir con Docling.")
 
@@ -324,11 +326,33 @@ def main():
 
     # 1. Cabecera del Sistema de Justicia
     banner_text = Text()
-    banner_text.append("[SYS] SISTEMA DE JUSTICIA VENEZOLANO\n", style="bold yellow")
-    banner_text.append("QUIBOR-RAG: Convertidor de Normativas y Formatos a RAG / IA\n", style="bold cyan")
+    banner_text.append("[SYS] JULLBRAIN - MI CEREBRO PERSONAL\n", style="bold yellow")
+    banner_text.append("JullBrain: Convertidor de Normativas y Formatos a RAG / IA\n", style="bold cyan")
     banner_text.append("Motor de Extracción: IBM Docling\n\n", style="italic white")
     banner_text.append("Desarrollador: Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) | Copyright (c) 2026 MIT License", style="bold green")
     console.print(Panel(banner_text, border_style="cyan", box=box.ROUNDED, expand=False))
+
+    try:
+        cpu_model = platform.processor() or "N/A"
+        cpu_count = os.cpu_count() or 1
+        import psutil
+        ram_total = psutil.virtual_memory().total / (1024**3)
+        ram_avail = psutil.virtual_memory().available / (1024**3)
+        hw_text = Text()
+        hw_text.append(f"CPU: ", style="bold")
+        hw_text.append(f"{cpu_model}  ", style="green")
+        hw_text.append(f"({cpu_count} núcleos)", style="white")
+        hw_text.append(f"  |  RAM: ", style="bold")
+        hw_text.append(f"{ram_total:.1f} GB", style="green")
+        hw_text.append(f"  (libre: {ram_avail:.1f} GB)", style="white")
+        console.print(Panel(hw_text, border_style="dim white", box=box.ROUNDED, expand=False))
+    except ImportError:
+        cpu_text = Text()
+        cpu_text.append(f"CPU: ", style="bold")
+        cpu_text.append(f"{platform.processor() or 'N/A'}  ", style="green")
+        cpu_text.append(f"({os.cpu_count() or 1} núcleos)", style="white")
+        console.print(Panel(cpu_text, border_style="dim white", box=box.ROUNDED, expand=False))
+    print()
 
     # Extensiones soportadas
     extensions = [
@@ -403,14 +427,7 @@ def main():
             md_path     = OUTPUT_DIR / md_filename
             pages       = get_pdf_page_count(file_path)
 
-            already_converted = False
-            if md_path.exists() and not getattr(args, 'force_reprocess', False):
-                cached_hash = manifest.get(file_path.name, {}).get('sha256', '')
-                if cached_hash:
-                    current_hash = sha256_pdf(file_path)
-                    already_converted = (cached_hash == current_hash)
-                else:
-                    already_converted = True
+            already_converted = md_path.exists()
 
             status_text = "[bold green]Ya convertido [OK][/]" if already_converted else "[bold yellow]Pendiente [..][/]"
             
@@ -428,14 +445,7 @@ def main():
             md_filename = f"{file_path.stem}.md"
             md_path     = WORD_OUTPUT_DIR / md_filename
 
-            already_converted = False
-            if md_path.exists() and not getattr(args, 'force_reprocess', False):
-                cached_hash = word_manifest.get(file_path.name, {}).get('sha256', '')
-                if cached_hash:
-                    current_hash = sha256_pdf(file_path)
-                    already_converted = (cached_hash == current_hash)
-                else:
-                    already_converted = True
+            already_converted = md_path.exists()
 
             status_text = "[bold green]Ya convertido [OK][/]" if already_converted else "[bold yellow]Pendiente [..][/]"
             
@@ -468,18 +478,9 @@ def main():
 
     if not pending_files:
         console.print("\n[bold green][OK] Todos los archivos ya han sido convertidos anteriormente. No hay tareas pendientes.[/]\n")
-        confirm = input("Quieres iniciar el proceso ? escri S/N ")
-        if confirm.strip().lower() in ['s', 'si', 'y', 'yes']:
-            console.print("\n[bold yellow]No hay archivos nuevos por procesar.[/]\n")
-        else:
-            console.print("\n[bold yellow]Operación cancelada por el usuario.[/]\n")
         return
 
     console.print(f"\n[bold cyan]Se detectaron {len(pending_files)} archivos pendientes para convertir.[/]\n")
-    confirm = input("Quieres iniciar el proceso ? escri S/N ")
-    if confirm.strip().lower() not in ['s', 'si', 'y', 'yes']:
-        console.print("\n[bold red]Operación cancelada por el usuario.[/]\n")
-        sys.exit(0)
 
     console.print(f"\n[bold yellow][RUN] Iniciando conversión de {len(pending_files)} archivos nuevos...[/]\n")
     
@@ -555,18 +556,23 @@ def main():
                         else:
                             pending_batches.append((start_page, end_page, json_path))
                     
-                    num_batches = len(batches)
+                    completed_pages = 0
+                    for cached_json in temp_jsons:
+                        parts = cached_json.stem.split('_')
+                        if len(parts) == 3 and parts[0] == 'chunk':
+                            completed_pages += int(parts[2]) - int(parts[1]) + 1
+
                     file_task = progress.add_task(
-                        f"[cyan]Convirtiendo PDF: {file_desc}", 
-                        total=num_batches
+                        f"[cyan]{file_desc}",
+                        total=num_pages
                     )
-                    
-                    progress.update(file_task, completed=len(temp_jsons))
-                    
+
+                    progress.update(file_task, completed=completed_pages)
+
                     if pending_batches:
                         from concurrent.futures import ThreadPoolExecutor, as_completed
                         MAX_WORKERS = max(1, min(3, os.cpu_count() - 1 if os.cpu_count() else 2))
-                        
+
                         def process_batch(start_page, end_page, temp_json_path):
                             cmd = [
                                 sys.executable,
@@ -579,17 +585,17 @@ def main():
                             ]
                             if args.no_ocr:
                                 cmd.append("--no-ocr")
-                            
+
                             res = subprocess.run(cmd, capture_output=True, encoding='utf-8')
-                            
+
                             if res.returncode != 0:
                                 cmd_no_ocr = cmd + ["--no-ocr"]
                                 res_no_ocr = subprocess.run(cmd_no_ocr, capture_output=True, encoding='utf-8')
-                                
+
                                 if res_no_ocr.returncode != 0:
                                     error_msg = f"STDOUT: {res_no_ocr.stdout.strip()}\nSTDERR: {res_no_ocr.stderr.strip()}"
                                     raise RuntimeError(f"Fallo crítico en lote {start_page}-{end_page} sin OCR:\n{error_msg}")
-                            
+
                             return temp_json_path
 
                         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
@@ -597,15 +603,22 @@ def main():
                                 executor.submit(process_batch, start, end, path): (start, end)
                                 for start, end, path in pending_batches
                             }
-                            
+
                             for future in as_completed(future_to_batch):
                                 start, end = future_to_batch[future]
                                 try:
                                     json_path = future.result()
                                     temp_jsons.append(json_path)
-                                    progress.update(file_task, advance=1)
+                                    completed_pages += end - start + 1
+                                    progress.update(
+                                        file_task,
+                                        completed=completed_pages,
+                                        description=f"[cyan]{file_desc}[/]  {completed_pages}/{num_pages} pág"
+                                    )
                                 except Exception as e:
                                     raise RuntimeError(f"Error procesando lote {start}-{end}: {e}")
+
+                    progress.update(file_task, description=f"[cyan]{file_desc}[/]  [bold green]{num_pages}/{num_pages} pág[/]")
                     
                     temp_jsons.sort(key=lambda p: int(p.stem.split('_')[1]))
                     

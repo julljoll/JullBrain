@@ -1,0 +1,11 @@
+services:
+  jullbrain:
+    build: .
+    container_name: jullbrain
+    volumes:
+      - ./normativas_pdf:/app/normativas_pdf
+      - ./formatos_word:/app/formatos_word
+      - ./normativas_rag:/app/normativas_rag
+      - ./formatos_rag:/app/formatos_rag
+      - ./normativas_chunks:/app/normativas_chunks
+      - ./.conversion_cache:/app/.conversion_cache
