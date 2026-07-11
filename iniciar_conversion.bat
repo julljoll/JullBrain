@@ -13,16 +13,6 @@ set "COLOR_TXT=%ESC%[38;2;0;255;65m"
 set "COLOR_ERR=%ESC%[38;2;255;85;85m"
 set "RESET=%ESC%[0m"
 
-:: ===========================================================================
-:: 1. AUTO-ELEVACIÃ“N DE PRIVILEGIOS DE ADMINISTRADOR
-:: ===========================================================================
-net session >nul 2>&1
-if %errorlevel% neq 0 (
-    echo %BG_COLOR%%COLOR_H1%[INFO] Solicitando permisos de Administrador...%RESET%
-    powershell -Command "Start-Process '%~f0' -Verb RunAs"
-    exit /b
-)
-
 :: Apply custom background and text colors to the entire console
 echo %BG_COLOR%%COLOR_TXT%
 cls
@@ -53,94 +43,105 @@ echo [+] PropÃ³sito: Avanzar en la transformaciÃ³n tecnolÃ³gica del sistem
 echo [+] EjecuciÃ³n: Entorno Dockerizado y Aislado.
 echo =========================================================================================
 echo.
-echo %COLOR_H1%[i] PROCESO DE EJECUCIÃ“N DEL SCRIPT:%COLOR_TXT%
-echo  [>] 1. VerificaciÃ³n automÃ¡tica de requisitos locales (Chocolatey, Docker).
-echo  [>] 2. ConstrucciÃ³n de la imagen aislada de IA (Tesseract OCR, Docling, Python 3.12).
-echo  [>] 3. Escaneo y conversiÃ³n de archivos PDF/imÃ¡genes ('normativas_pdf/').
-echo  [>] 4. AplicaciÃ³n del pipeline RAG (Hierarchical Chunking + Metadata) usando Docker Compose.
-echo %COLOR_H1%=========================================================================================%COLOR_TXT%
-echo.
 
 :: ===========================================================================
-:: 2. VERIFICACION E INSTALACION DE CHOCOLATEY
+:: 1. ANALISIS DE ESTADO DEL SISTEMA
 :: ===========================================================================
-echo %COLOR_H1%[VERIFICACION] Comprobando Chocolatey...%COLOR_TXT%
+echo %COLOR_H1%[ESTADO] Analizando dependencias del sistema...%COLOR_TXT%
+set "DOCKER_READY=0"
+set "CHOCO_MISSING=0"
+set "DOCKER_MISSING=0"
+
+:: Verificar Chocolatey
 where choco >nul 2>&1
-if %errorlevel% neq 0 (
-    echo [INFO] Chocolatey no esta instalado. Instalando desde script local...
-    if exist "%~dp0installer_tools\install_choco.ps1" (
-        powershell -NoProfile -ExecutionPolicy Bypass -Command "& '%~dp0installer_tools\install_choco.ps1'"
-    ) else (
-        echo %COLOR_ERR%[ERROR] No se encontro el instalador de Chocolatey.%COLOR_TXT%
-        echo         Descargando de internet...
-        powershell -NoProfile -ExecutionPolicy Bypass -Command "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
-    )
-    
-    :: Refrescar variables de entorno
-    if exist "%ALLUSERSPROFILE%\chocolatey\bin\RefreshEnv.cmd" (
-        call "%ALLUSERSPROFILE%\chocolatey\bin\RefreshEnv.cmd" >nul 2>&1
-    )
-    set "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+if %errorlevel% equ 0 (
+    echo   [+] Chocolatey: %COLOR_TXT%INSTALADO%COLOR_TXT%
 ) else (
-    echo %COLOR_H1%[OK]%COLOR_TXT% Chocolatey ya esta instalado.
+    echo   [-] Chocolatey: %COLOR_ERR%NO INSTALADO%COLOR_TXT%
+    set "CHOCO_MISSING=1"
 )
+
+:: Verificar Docker
+where docker >nul 2>&1
+if %errorlevel% equ 0 (
+    echo   [+] Docker Desktop: %COLOR_TXT%INSTALADO%COLOR_TXT%
+    
+    :: Verificar Motor Docker
+    docker info >nul 2>&1
+    if !errorlevel! equ 0 (
+        echo   [+] Motor de Docker: %COLOR_TXT%EN EJECUCION%COLOR_TXT%
+        set "DOCKER_READY=1"
+    ) else (
+        echo   [-] Motor de Docker: %COLOR_ERR%DETENIDO (Inicia Docker Desktop manualmente)%COLOR_TXT%
+    )
+) else (
+    echo   [-] Docker Desktop: %COLOR_ERR%NO INSTALADO (Requisito indispensable para JullBrain)%COLOR_TXT%
+    set "DOCKER_MISSING=1"
+)
+
 echo.
 
 :: ===========================================================================
-:: 3. VERIFICACION E INSTALACION DE DOCKER DESKTOP
+:: 2. AUTO-INSTALACIÃ“N (SOLO SI TIENE PERMISOS DE ADMINISTRADOR)
 :: ===========================================================================
-echo %COLOR_H1%[VERIFICACION] Comprobando si Docker esta instalado...%COLOR_TXT%
-where docker >nul 2>&1
-if %errorlevel% neq 0 (
-    echo [INFO] Docker no esta instalado. Instalando con Chocolatey...
-    choco install docker-desktop -y
-    
-    if exist "%ALLUSERSPROFILE%\chocolatey\bin\RefreshEnv.cmd" (
-        call "%ALLUSERSPROFILE%\chocolatey\bin\RefreshEnv.cmd" >nul 2>&1
-    )
-    
-    echo %COLOR_H1%=========================================================================================%COLOR_TXT%
-    echo %COLOR_ERR%[IMPORTANTE] Docker Desktop ha sido instalado.%COLOR_TXT%
-    echo Es MUY PROBABLE que necesites REINICIAR LA COMPUTADORA para que funcionen los servicios
-    echo de virtualizacion (WSL2 / Hyper-V) y para aplicar los grupos de usuario de Docker.
-    echo.
-    echo Por favor, abre "Docker Desktop" desde el menu de inicio para aceptar los terminos y
-    echo terminar la configuracion si no reinicias.
-    echo %COLOR_H1%=========================================================================================%COLOR_TXT%
-    pause
+net session >nul 2>&1
+if %errorlevel% equ 0 (
+    set "IS_ADMIN=1"
 ) else (
-    echo %COLOR_H1%[OK]%COLOR_TXT% Docker esta instalado.
+    set "IS_ADMIN=0"
 )
 
-:: Verificar si el motor esta corriendo
-docker info >nul 2>&1
-if %errorlevel% neq 0 (
-    echo %COLOR_ERR%[ERROR] Docker esta instalado pero el motor no esta en ejecucion.%COLOR_TXT%
-    echo   Por favor, inicia Docker Desktop manualmente desde tu menu de inicio y vuelve a ejecutar.
-    pause
+if "!DOCKER_READY!"=="0" (
+    if "!IS_ADMIN!"=="0" (
+        echo %COLOR_ERR%[ALERTA] Faltan dependencias o Docker no esta en ejecucion.%COLOR_TXT%
+        echo %COLOR_ERR%Cierra esta ventana, haz clic derecho en el archivo .bat y%COLOR_TXT%
+        echo %COLOR_ERR%selecciona "Ejecutar como administrador" para instalar todo automaticamente.%COLOR_TXT%
+        pause
+        exit /b 1
+    ) else (
+        echo %COLOR_H1%[INFO] Privilegios de administrador detectados. Iniciando instalacion de faltantes...%COLOR_TXT%
+        
+        if "!CHOCO_MISSING!"=="1" (
+            echo [INFO] Instalando Chocolatey...
+            powershell -NoProfile -ExecutionPolicy Bypass -Command "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
+            set "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+        )
+        
+        if "!DOCKER_MISSING!"=="1" (
+            echo [INFO] Instalando Docker Desktop...
+            choco install docker-desktop -y
+            echo %COLOR_ERR%[IMPORTANTE] Docker Desktop instalado. REINICIA TU COMPUTADORA y vuelve a ejecutar.%COLOR_TXT%
+            pause
+            exit /b 1
+        )
+    )
+)
+
+if "!DOCKER_READY!"=="0" (
+    :: Si se llegÃ³ aquÃ­ y Docker sigue sin estar listo, forzar salida.
     exit /b 1
 )
-echo %COLOR_H1%[OK]%COLOR_TXT% Docker esta en ejecucion.
-echo.
 
 :: ===========================================================================
-:: 4. CONSTRUCCION Y EJECUCION CON DOCKER COMPOSE
+:: 3. CONSTRUCCION Y EJECUCION DE CONVERSION
 :: ===========================================================================
 cd /d "%~dp0"
 
-echo %COLOR_H1%[INFO] Construyendo la imagen de Docker (esto usara cache si no hay cambios)...%COLOR_TXT%
+echo %COLOR_H1%=========================================================================================
+echo [INICIO] Ejecutando el orquestador principal de JullBrain en Docker...
+echo          Se analizaran las carpetas normativas_pdf y se procesaran hacia normativas_rag.
+echo =========================================================================================%COLOR_TXT%
+echo.
+
+echo %COLOR_H1%[INFO] Verificando imagen de Docker...%COLOR_TXT%
 docker compose build jullbrain
 if %errorlevel% neq 0 (
     echo %COLOR_ERR%[ERROR] Hubo un problema al construir la imagen de Docker.%COLOR_TXT%
     pause
     exit /b 1
 )
-echo %COLOR_H1%[OK]%COLOR_TXT% Imagen construida correctamente.
-echo.
 
-echo %COLOR_H1%=========================================================================================
-echo [INICIO] Ejecutando el orquestador principal de conversion en Docker...
-echo =========================================================================================%COLOR_TXT%
+echo %COLOR_H1%[OK]%COLOR_TXT% Imagen lista. Ejecutando pipeline...
 echo.
 
 docker compose run --rm jullbrain
@@ -152,4 +153,3 @@ echo ===========================================================================
 echo %RESET%
 pause
 exit /b 0
-
