@@ -13,8 +13,6 @@ venv.bak/
 .conversion_cache/
 scratch/
 normativas_pdf/
-normativas_chunks/
-normativas_rag/
 chocolatey/
 installer_tools/
 nul
