@@ -18,29 +18,29 @@ echo %BG_COLOR%%COLOR_TXT%
 cls
 
 echo %COLOR_H1%=========================================================================================
-echo    â–ˆâ–ˆâ–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ
-echo      â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ   â–ˆâ–ˆ    â–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ
-echo      â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆ    â–ˆâ–ˆ â–ˆâ–ˆ â–ˆâ–ˆ
-echo  â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆ   â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆ
-echo   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ
+echo    ████ ██   ██ ██      ██      ██████  ██████   █████  ███████ ██   ██
+echo      ██ ██   ██ ██      ██      ██   ██ ██   ██ ██   ██   ██    ███  ██
+echo      ██ ██   ██ ██      ██      ██████  ██████  ███████   ██    ██ ██ ██
+echo  ██   ██ ██   ██ ██      ██      ██   ██ ██  ██  ██   ██   ██    ██  ███
+echo   █████   █████  ███████ ███████ ██████  ██   ██ ██   ██ ███████ ██   ██
 echo.
 echo                        ---  M I   C E R E B R O   P E R S O N A L  ---
 echo =========================================================================================
 echo [SYS] JullBrain V-2.0: Convertidor Automatizado de Normativas, Leyes y Formatos Word para RAG / IA
 echo =========================================================================================%COLOR_TXT%
 echo.
-echo Este proyecto proporciona una soluciÃ³n automatizada de alta fidelidad para escanear y 
+echo Este proyecto proporciona una solución automatizada de alta fidelidad para escanear y 
 echo convertir archivos PDF y documentos Word en documentos de texto estructurados en Markdown 
 echo y JSON (Hierarchical Chunking). Optimizado para que motores de Inteligencia Artificial (IA) 
-echo y sistemas RAG consuman la informaciÃ³n con la mÃ¡xima precisiÃ³n y sin pÃ©rdida de datos.
+echo y sistemas RAG consuman la información con la máxima precisión y sin pérdida de datos.
 echo.
-echo [+] InformaciÃ³n del Desarrollador:
+echo [+] Información del Desarrollador:
 echo     [-] Nombre: Jull Ortiz
 echo     [-] Correo: julljoll@gmail.com
 echo     [-] Web: sha256.us
 echo     [-] Instagram: @sha256.us
-echo [+] PropÃ³sito: Avanzar en la transformaciÃ³n tecnolÃ³gica del sistema de justicia venezolano.
-echo [+] EjecuciÃ³n: Entorno Dockerizado y Aislado.
+echo [+] Propósito: Avanzar en la transformación tecnológica del sistema de justicia venezolano.
+echo [+] Ejecución: Entorno Dockerizado y Aislado.
 echo =========================================================================================
 echo.
 
@@ -86,7 +86,7 @@ set "DOCKER_MISSING=1"
 echo.
 
 :: ===========================================================================
-:: 2. AUTO-INSTALACIÃ“N (SOLO SI TIENE PERMISOS DE ADMINISTRADOR)
+:: 2. AUTO-INSTALACIÃƒâ€œN (SOLO SI TIENE PERMISOS DE ADMINISTRADOR)
 :: ===========================================================================
 net session >nul 2>&1
 if %errorlevel% equ 0 (
