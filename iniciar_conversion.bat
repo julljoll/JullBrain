@@ -6,7 +6,7 @@ title JullBrain - Convertidor de Normativas (Docker)
 :: Get the ESC character for custom colors
 for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do set "ESC=%%b"
 
-:: Define colors: Background #252525 (Dark Grey), H1 #FECF06 (Yellow/Gold), Text #00FF41 (Green), Error #FF5555 (Light Red)
+:: Define colors
 set "BG_COLOR=%ESC%[48;2;37;37;37m"
 set "COLOR_H1=%ESC%[38;2;254;207;6m"
 set "COLOR_TXT=%ESC%[38;2;0;255;65m"
@@ -54,30 +54,34 @@ set "DOCKER_MISSING=0"
 
 :: Verificar Chocolatey
 where choco >nul 2>&1
-if %errorlevel% equ 0 (
-    echo   [+] Chocolatey: %COLOR_TXT%INSTALADO%COLOR_TXT%
-) else (
-    echo   [-] Chocolatey: %COLOR_ERR%NO INSTALADO%COLOR_TXT%
-    set "CHOCO_MISSING=1"
-)
+if %errorlevel% neq 0 goto CHOCO_NO
+echo   [+] Chocolatey: %COLOR_TXT%INSTALADO%COLOR_TXT%
+goto CHOCO_END
+:CHOCO_NO
+echo   [-] Chocolatey: %COLOR_ERR%NO INSTALADO%COLOR_TXT%
+set "CHOCO_MISSING=1"
+:CHOCO_END
 
-:: Verificar Docker
+:: Verificar Docker Desktop
 where docker >nul 2>&1
-if %errorlevel% equ 0 (
-    echo   [+] Docker Desktop: %COLOR_TXT%INSTALADO%COLOR_TXT%
-    
-    :: Verificar Motor Docker
-    docker info >nul 2>&1
-    if !errorlevel! equ 0 (
-        echo   [+] Motor de Docker: %COLOR_TXT%EN EJECUCION%COLOR_TXT%
-        set "DOCKER_READY=1"
-    ) else (
-        echo   [-] Motor de Docker: %COLOR_ERR%DETENIDO (Inicia Docker Desktop manualmente)%COLOR_TXT%
-    )
-) else (
-    echo   [-] Docker Desktop: %COLOR_ERR%NO INSTALADO (Requisito indispensable para JullBrain)%COLOR_TXT%
-    set "DOCKER_MISSING=1"
-)
+if %errorlevel% neq 0 goto DOCKER_NO
+echo   [+] Docker Desktop: %COLOR_TXT%INSTALADO%COLOR_TXT%
+
+:: Verificar Motor Docker
+docker info >nul 2>&1
+if %errorlevel% neq 0 goto ENGINE_NO
+echo   [+] Motor de Docker: %COLOR_TXT%EN EJECUCION%COLOR_TXT%
+set "DOCKER_READY=1"
+goto DOCKER_END
+
+:ENGINE_NO
+echo   [-] Motor de Docker: %COLOR_ERR%DETENIDO (Inicia Docker Desktop manualmente)%COLOR_TXT%
+goto DOCKER_END
+
+:DOCKER_NO
+echo   [-] Docker Desktop: %COLOR_ERR%NO INSTALADO (Requisito indispensable para JullBrain)%COLOR_TXT%
+set "DOCKER_MISSING=1"
+:DOCKER_END
 
 echo.
 
@@ -91,37 +95,37 @@ if %errorlevel% equ 0 (
     set "IS_ADMIN=0"
 )
 
-if "!DOCKER_READY!"=="0" (
-    if "!IS_ADMIN!"=="0" (
-        echo %COLOR_ERR%[ALERTA] Faltan dependencias o Docker no esta en ejecucion.%COLOR_TXT%
-        echo %COLOR_ERR%Cierra esta ventana, haz clic derecho en el archivo .bat y%COLOR_TXT%
-        echo %COLOR_ERR%selecciona "Ejecutar como administrador" para instalar todo automaticamente.%COLOR_TXT%
-        pause
-        exit /b 1
-    ) else (
-        echo %COLOR_H1%[INFO] Privilegios de administrador detectados. Iniciando instalacion de faltantes...%COLOR_TXT%
-        
-        if "!CHOCO_MISSING!"=="1" (
-            echo [INFO] Instalando Chocolatey...
-            powershell -NoProfile -ExecutionPolicy Bypass -Command "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
-            set "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-        )
-        
-        if "!DOCKER_MISSING!"=="1" (
-            echo [INFO] Instalando Docker Desktop...
-            choco install docker-desktop -y
-            echo %COLOR_ERR%[IMPORTANTE] Docker Desktop instalado. REINICIA TU COMPUTADORA y vuelve a ejecutar.%COLOR_TXT%
-            pause
-            exit /b 1
-        )
-    )
-)
+if "%DOCKER_READY%"=="1" goto START_DOCKER
 
-if "!DOCKER_READY!"=="0" (
-    :: Si se llegÃ³ aquÃ­ y Docker sigue sin estar listo, forzar salida.
+if "%IS_ADMIN%"=="0" (
+    echo %COLOR_ERR%[ALERTA] Faltan dependencias o Docker no esta en ejecucion.%COLOR_TXT%
+    echo %COLOR_ERR%Cierra esta ventana, haz clic derecho en el archivo .bat y%COLOR_TXT%
+    echo %COLOR_ERR%selecciona "Ejecutar como administrador" para instalar todo automaticamente.%COLOR_TXT%
+    pause
     exit /b 1
 )
 
+echo %COLOR_H1%[INFO] Privilegios de administrador detectados. Iniciando instalacion de faltantes...%COLOR_TXT%
+
+if "%CHOCO_MISSING%"=="1" (
+    echo [INFO] Instalando Chocolatey...
+    powershell -NoProfile -ExecutionPolicy Bypass -Command "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
+    set "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+)
+
+if "%DOCKER_MISSING%"=="1" (
+    echo [INFO] Instalando Docker Desktop...
+    choco install docker-desktop -y
+    echo %COLOR_ERR%[IMPORTANTE] Docker Desktop instalado. REINICIA TU COMPUTADORA y vuelve a ejecutar.%COLOR_TXT%
+    pause
+    exit /b 1
+)
+
+if "%DOCKER_READY%"=="0" (
+    exit /b 1
+)
+
+:START_DOCKER
 :: ===========================================================================
 :: 3. CONSTRUCCION Y EJECUCION DE CONVERSION
 :: ===========================================================================
