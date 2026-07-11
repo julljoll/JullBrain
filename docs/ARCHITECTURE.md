@@ -1,7 +1,7 @@
 # JullBrain — Arquitectura del Sistema
 
 > Pipeline de 5 etapas para conversión de documentos legales venezolanos → Markdown estructurado y JSON (Hierarchical Chunking) para RAGFlow.
-> Versión: 2.0 | Entorno: Docker | Motor: IBM Docling
+> Versión: 2.0 | Entorno: Nativo (Virtual Environment) | Motor: IBM Docling
 
 ---
 
@@ -55,7 +55,7 @@
 ## Módulos del Sistema
 
 ### 1. `convert_normativas.py` — Orquestador Principal
-- **Rol**: Coordina todo el pipeline dentro del entorno Docker.
+- **Rol**: Coordina todo el pipeline dentro del entorno virtual de Python.
 - **Batching**: Divide PDFs en lotes procesados en paralelo para optimizar memoria RAM.
 - **Caché**: SHA-256 por PDF, salta archivos sin cambios.
 - **Visualización**: Interfaz de carga dinámica y colorida con `rich.progress`.
@@ -77,14 +77,14 @@
 - **Rol**: Verifica la calidad de la conversión legal para garantizar que RAGFlow no alucine.
 - **Checks**: Secuencia numérica, duplicados, saltos de artículos.
 
-### 6. `iniciar_conversion.bat` — Lanzador Docker (CLI)
-- **Rol**: Verifica requisitos del sistema (Docker, Chocolatey) de forma segura sin exigir privilegios por defecto.
+### 6. `iniciar_conversion.bat` — Lanzador Nativo
+- **Rol**: Crea y activa el entorno virtual de Python, instala dependencias automáticamente y ejecuta la conversión de forma segura.
 
 ---
 
 ## Flujo de Datos
 
-### Pipeline Normal (Dockerizado)
+### Pipeline Normal (Entorno Local)
 ```text
 Entrada (PDF/Word) 
   → Docling (Extracción y JSON Chunks) 

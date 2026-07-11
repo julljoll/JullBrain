@@ -1,8 +1,8 @@
 # JullBrain V-2.0 — Pipeline RAG de Normativas y Formatos (Mi Cerebro Personal)
 
-> Conversión automatizada de PDFs jurídicos y documentos a Markdown estructurado y JSON Jerárquico para sistemas de IA — Powered by IBM Docling y Docker.
+> Conversión automatizada de PDFs jurídicos y documentos a Markdown estructurado y JSON Jerárquico para sistemas de IA — Powered by IBM Docling.
 
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org) [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE) [![IBM Docling](https://img.shields.io/badge/IBM-Docling-purple)](https://github.com/DS4SD/docling) [![Docker](https://img.shields.io/badge/Docker-Enabled-blue)](https://www.docker.com/)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org) [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE) [![IBM Docling](https://img.shields.io/badge/IBM-Docling-purple)](https://github.com/DS4SD/docling)
 
 **📖 Documentación completa:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | **🗺️ Mapa del framework:** [`FRAMEWORK.md`](FRAMEWORK.md) | **🤖 Skills IA:** [`.AGENTS/_index.md`](.AGENTS/_index.md)
 
@@ -17,7 +17,7 @@ Los modelos de lenguaje (LLM) fallan con PDFs de documentos legales y normativos
 - No hay metadata legal (Gaceta Oficial, fecha, tipo de instrumento) para filtrar búsquedas RAG.
 - El chunking por caracteres o páginas parte artículos a la mitad, generando fragmentos incoherentes.
 
-**JullBrain** convierte esos PDFs en Markdown semánticamente estructurado y en un formato JSON listo (`hierarchical_chunks.json`), con fragmentos inteligentes, listo para ingestarse en **RAGFlow**. Todo esto de forma 100% aislada gracias a **Docker**.
+**JullBrain** convierte esos PDFs en Markdown semánticamente estructurado y en un formato JSON listo (`hierarchical_chunks.json`), con fragmentos inteligentes, listo para ingestarse en **RAGFlow**. Todo esto de forma nativa en tu entorno local.
 
 ---
 
@@ -27,7 +27,7 @@ Los modelos de lenguaje (LLM) fallan con PDFs de documentos legales y normativos
 [iniciar_conversion.bat]     ← Interfaz de inicio (Control Visual, Ctrl+C)
        │
        ▼
-[Docker Compose]             ← Entorno aislado Python (Sin instalaciones host)
+[Entorno Virtual Python]     ← Entorno aislado (Instalación automática)
        │
        ▼
 normativas_pdf/
@@ -64,15 +64,15 @@ normativas_rag/                                          normativas_chunks/
 | `HierarchicalChunker` | Integrado vía Docling. Extrae chunks semánticos listos para RAGFlow. |
 | `metadata_extractor.py` | Inyecta YAML frontmatter con Gaceta, fecha, tipo de documento y huella digital (SHA-256). |
 | `validator.py` | Verifica secuencia numérica, previene duplicados y detecta artículos corruptos o cortos. |
-| `iniciar_conversion.bat` | Menú interactivo inteligente. Verifica estado de Chocolatey y Docker sin pedir permisos de admin por defecto. |
+| `iniciar_conversion.bat` | Lanzador principal. Instala automáticamente dependencias en un entorno virtual aislado y ejecuta la conversión. |
 
 ---
 
 ## Funciones Avanzadas
 
-**Arquitectura Docker First** — JullBrain V2.0 corre 100% en contenedores. Olvídate de dependencias de PyTorch, problemas de PATH o fallos en Windows. `docker-compose.yml` gestiona todo.
+**Arquitectura Python Nativa** — JullBrain V2.0 corre directamente en tu sistema utilizando entornos virtuales (`docling_env`) de forma transparente, instalando todo automáticamente.
 
-**Progress Bars TTY** — Monitoreo hiper-visual del proceso en consola, forzando las animaciones de carga incluso dentro del contenedor Docker.
+**Progress Bars TTY** — Monitoreo hiper-visual del proceso en consola, con animaciones fluidas y detalladas de cada etapa de extracción.
 
 **Interrupción Segura (Ctrl+C)** — Puedes detener el análisis en cualquier momento. JullBrain interceptará la señal y guardará a salvo todo el progreso que ya había logrado procesar.
 
@@ -96,7 +96,7 @@ normativas_rag/                                          normativas_chunks/
 
 ## Instalación y Ejecución
 
-Solo necesitas tener [Docker Desktop](https://www.docker.com/products/docker-desktop/) en ejecución. Todo el resto es automatizado.
+Solo necesitas tener [Python 3.10+](https://www.python.org/downloads/) instalado. Todo el resto es automatizado.
 
 ```cmd
 :: 1. Clona el proyecto y entra en la carpeta
@@ -106,7 +106,7 @@ cd "ruta/a/JullBrain"
 iniciar_conversion.bat
 ```
 
-> **Autoinstalación**: Si no tienes Docker ni Chocolatey, el archivo `.bat` te lo indicará. Simplemente cierra, haz **Clic Derecho -> Ejecutar como Administrador** sobre el `.bat` y JullBrain descargará e instalará todas las dependencias necesarias de forma desatendida.
+> **Autoinstalación**: El archivo `.bat` detectará si falta el entorno virtual, lo creará, instalará todas las dependencias necesarias de `requirements.txt` automáticamente y comenzará la conversión de tus archivos PDF.
 
 ---
 

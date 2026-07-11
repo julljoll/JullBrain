@@ -8,7 +8,7 @@
 ## Mapa Conceptual IBM ↔ Proyecto
 
 ```text
-FRAMEWORK IBM                      JULLBRAIN (IBM DOCLING V2.0 Docker)
+FRAMEWORK IBM                      JULLBRAIN (IBM DOCLING V2.0 Nativo)
 ═══════════════                    ════════════════════════════════════
 
 src/                                *.py (raíz del proyecto)
@@ -17,7 +17,7 @@ src/                                *.py (raíz del proyecto)
   ├── pipeline/                     metadata_extractor.py   ← YAML frontmatter
   └── pipeline/                     validator.py            ← Validación de integridad
 
-scripts/                            iniciar_conversion.bat  ← Lanzador Docker CLI
+scripts/                            iniciar_conversion.bat  ← Lanzador Automático
 
 data/                               
   ├── input/                        normativas_pdf/         ← PDFs de entrada
@@ -39,10 +39,7 @@ agents/                             .AGENTS/                ← Skills de IA
   └── jullbrain-launcher/                                    ← Skill para bat CLI
 
 config/                             requirements.txt         ← Dependencias Python
-                                    Dockerfile               ← Config Docker JullBrain
-                                    docker-compose.yml       ← Orquestación Docker
                                     .gitignore               ← Exclusiones git
-                                    .dockerignore            ← Exclusiones Docker
 ```
 
 ---
@@ -59,7 +56,7 @@ IBM DOCLING/
 ├── 📁 .AGENTS/                       ← Skills para asistentes de IA
 │   ├── _index.md                     ← PUNTO DE ENTRADA: lee esto primero
 │   ├── agent.md                      ← Rol y directrices de comportamiento
-│   ├── jullbrain-pdf-to-rag/         ← Skill: Pipeline maestro y Docker
+│   ├── jullbrain-pdf-to-rag/         ← Skill: Pipeline maestro
 │   ├── jullbrain-legalizer/          ← Skill: Legalizer Markdown
 │   ├── jullbrain-metadata/           ← Skill: Metadata extraction
 │   ├── jullbrain-validator/          ← Skill: Validador
@@ -77,10 +74,7 @@ IBM DOCLING/
 │   📄 [src/pipeline] validator.py             ← Validador de integridad
 │
 │   📄 [config]   requirements.txt             ← Dependencias Python
-│   📄 [config]   Dockerfile                   ← Build Docker
-│   📄 [config]   docker-compose.yml           ← Orquestación Docker
 │   📄 [config]   .gitignore                   ← Exclusiones git
-│   📄 [config]   .dockerignore                ← Exclusiones Docker
 │
 │   📄 [scripts]  iniciar_conversion.bat       ← Lanzador inteligente
 │
@@ -92,8 +86,8 @@ IBM DOCLING/
 
 ## Convenciones del Framework
 
-### Aislamiento Docker
-Toda la ejecución de Python 3.10+ y dependencias complejas (Docling, PyTorch, OCR) ocurren dentro del contenedor Docker orquestado por `docker-compose.yml`. El host no necesita Python instalado.
+### Entorno Nativo
+Toda la ejecución de Python 3.10+ y dependencias complejas (Docling, PyTorch, OCR) ocurren dentro de un entorno virtual local administrado automáticamente por `iniciar_conversion.bat`.
 
 ### Pipeline de Datos
 El flujo es estrictamente unidireccional y secuencial:
@@ -102,7 +96,7 @@ input → IBM Docling (JSON Chunks) → legalizer → metadata → validator →
 ```
 
 ### Skills de IA
-Los skills en `.AGENTS/` permiten que asistentes de IA comprendan y extiendan el proyecto sin necesidad de leer todo el código fuente, respetando siempre el entorno Docker.
+Los skills en `.AGENTS/` permiten que asistentes de IA comprendan y extiendan el proyecto sin necesidad de leer todo el código fuente, respetando siempre la estructura del entorno nativo.
 
 ---
 
@@ -115,4 +109,3 @@ Los skills en `.AGENTS/` permiten que asistentes de IA comprendan y extiendan el
 | Skills IA | kebab-case | `jullbrain-pdf-to-rag/` |
 | Salidas Markdown | nombre-ley.md | `codigo-penal.md` |
 | Salidas JSON | `hierarchical_chunks.json` | `hierarchical_chunks.json` |
-| Tags Docker | lowercase | `jullbrain:latest` |

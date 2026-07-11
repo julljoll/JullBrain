@@ -13,7 +13,6 @@ venv.bak/
 .conversion_cache/
 scratch/
 normativas_pdf/
-chocolatey/
 installer_tools/
 nul
 .DS_Store
