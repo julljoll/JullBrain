@@ -14,7 +14,7 @@ set "COLOR_ERR=%ESC%[38;2;255;85;85m"
 set "RESET=%ESC%[0m"
 
 :: ===========================================================================
-:: 1. AUTO-ELEVACIÓN DE PRIVILEGIOS DE ADMINISTRADOR
+:: 1. AUTO-ELEVACIÃ“N DE PRIVILEGIOS DE ADMINISTRADOR
 :: ===========================================================================
 net session >nul 2>&1
 if %errorlevel% neq 0 (
@@ -28,36 +28,36 @@ echo %BG_COLOR%%COLOR_TXT%
 cls
 
 echo %COLOR_H1%=========================================================================================
-echo    ████ ██   ██ ██      ██      ██████  ██████   █████  ███████ ██   ██
-echo      ██ ██   ██ ██      ██      ██   ██ ██   ██ ██   ██   ██    ███  ██
-echo      ██ ██   ██ ██      ██      ██████  ██████  ███████   ██    ██ ██ ██
-echo  ██   ██ ██   ██ ██      ██      ██   ██ ██  ██  ██   ██   ██    ██  ███
-echo   █████   █████  ███████ ███████ ██████  ██   ██ ██   ██ ███████ ██   ██
+echo    â–ˆâ–ˆâ–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ
+echo      â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ   â–ˆâ–ˆ    â–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ
+echo      â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆ    â–ˆâ–ˆ â–ˆâ–ˆ â–ˆâ–ˆ
+echo  â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ      â–ˆâ–ˆ      â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ  â–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆ   â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–ˆ
+echo   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ â–ˆâ–ˆ   â–ˆâ–ˆ
 echo.
 echo                        ---  M I   C E R E B R O   P E R S O N A L  ---
 echo =========================================================================================
 echo [SYS] JullBrain V-2.0: Convertidor Automatizado de Normativas, Leyes y Formatos Word para RAG / IA
 echo =========================================================================================%COLOR_TXT%
 echo.
-echo Este proyecto proporciona una solución automatizada de alta fidelidad para escanear y 
+echo Este proyecto proporciona una soluciÃ³n automatizada de alta fidelidad para escanear y 
 echo convertir archivos PDF y documentos Word en documentos de texto estructurados en Markdown 
 echo y JSON (Hierarchical Chunking). Optimizado para que motores de Inteligencia Artificial (IA) 
-echo y sistemas RAG consuman la información con la máxima precisión y sin pérdida de datos.
+echo y sistemas RAG consuman la informaciÃ³n con la mÃ¡xima precisiÃ³n y sin pÃ©rdida de datos.
 echo.
-echo [+] Información del Desarrollador:
+echo [+] InformaciÃ³n del Desarrollador:
 echo     [-] Nombre: Jull Ortiz
 echo     [-] Correo: julljoll@gmail.com
 echo     [-] Web: sha256.us
 echo     [-] Instagram: @sha256.us
-echo [+] Propósito: Avanzar en la transformación tecnológica del sistema de justicia venezolano.
-echo [+] Ejecución: Entorno Dockerizado y Aislado.
+echo [+] PropÃ³sito: Avanzar en la transformaciÃ³n tecnolÃ³gica del sistema de justicia venezolano.
+echo [+] EjecuciÃ³n: Entorno Dockerizado y Aislado.
 echo =========================================================================================
 echo.
-echo %COLOR_H1%[i] PROCESO DE EJECUCIÓN DEL SCRIPT:%COLOR_TXT%
-echo  [>] 1. Verificación automática de requisitos locales (Chocolatey, Docker).
-echo  [>] 2. Construcción de la imagen aislada de IA (Tesseract OCR, Docling, Python 3.12).
-echo  [>] 3. Escaneo y conversión de archivos PDF/imágenes ('normativas_pdf/').
-echo  [>] 4. Aplicación del pipeline RAG (Hierarchical Chunking + Metadata) usando Docker Compose.
+echo %COLOR_H1%[i] PROCESO DE EJECUCIÃ“N DEL SCRIPT:%COLOR_TXT%
+echo  [>] 1. VerificaciÃ³n automÃ¡tica de requisitos locales (Chocolatey, Docker).
+echo  [>] 2. ConstrucciÃ³n de la imagen aislada de IA (Tesseract OCR, Docling, Python 3.12).
+echo  [>] 3. Escaneo y conversiÃ³n de archivos PDF/imÃ¡genes ('normativas_pdf/').
+echo  [>] 4. AplicaciÃ³n del pipeline RAG (Hierarchical Chunking + Metadata) usando Docker Compose.
 echo %COLOR_H1%=========================================================================================%COLOR_TXT%
 echo.
 
