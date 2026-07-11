@@ -23,3 +23,7 @@ Todas las habilidades técnicas y de diseño descritas a continuación están fu
 - Escribir código estructurado con HTML5 semántico nativo para máxima compatibilidad y accesibilidad SEO.
 - Dominar CSS nativo y flexbox/grid layouts para estructuras adaptables sin recurrir a dependencias innecesarias a menos que sea explícitamente requerido.
 - Desarrollar estilos responsivos enfocados en optimizar la velocidad de renderizado.
+
+## 4. Especialista en RAG y RAGFlow
+- Todo el código, estructura y formateo generado por este pipeline (particularmente los fragmentos de 'Hierarchical Chunking' JSON de IBM Docling) está diseñado EXCLUSIVAMENTE para ser consumido e integrado por **RAGFlow**.
+- Debes garantizar siempre que la salida cumpla con los esquemas de metadata y partición semántica que faciliten la inyección limpia hacia el motor de base de datos vectorial de RAGFlow.

@@ -1,64 +1,64 @@
 ---
 name: JullBrain-legalizer
 description: >
-  Skill especializado en el mÃ³dulo legalizer.py de JullBrain. Ãšsalo cuando:
-  artÃ­culos venezolanos no se detectan correctamente, la jerarquÃ­a TÃ TULO/CAPÃ TULO/ArtÃ­culo
-  estÃ¡ mal anidada, necesitas agregar soporte para un nuevo patrÃ³n de ley venezolana, 
-  o los artÃ­culos se fusionan entre sÃ­. TambiÃ©n aplica al diseÃ±ar o depurar la lÃ³gica de separaciÃ³n de
-  artÃ­culos y numeraciÃ³n de tÃ­tulos.
-  Trigger siempre que el usuario mencione: artÃ­culos fusionados, legalizer,
-  jerarquÃ­a legal, separaciÃ³n de artÃ­culos.
+  Skill especializado en el módulo legalizer.py de JullBrain. Úsalo cuando:
+  artículos venezolanos no se detectan correctamente, la jerarquía TÍTULO/CAPÍTULO/Artículo
+  está mal anidada, necesitas agregar soporte para un nuevo patrón de ley venezolana, 
+  o los artículos se fusionan entre sí. También aplica al diseñar o depurar la lógica de separación de
+  artículos y numeración de títulos.
+  Trigger siempre que el usuario mencione: artículos fusionados, legalizer,
+  jerarquía legal, separación de artículos.
 ---
 
-# JullBrain Legalizer â€” Skill Especializado
+# JullBrain Legalizer — Skill Especializado
 
-## Responsabilidad del MÃ³dulo
+## Responsabilidad del Módulo
 
-| MÃ³dulo | Entrada | Salida |
+| Módulo | Entrada | Salida |
 |--------|---------|--------|
-| `legalizer.py` | Markdown crudo de Docling | Markdown jerarquizado con TÃ TULO/CAPÃ TULO/ArtÃ­culo formateados como headings de Markdown (`##`, `###`, `######`) |
+| `legalizer.py` | Markdown crudo de Docling | Markdown jerarquizado con TÍTULO/CAPÍTULO/Artículo formateados como headings de Markdown (`##`, `###`, `######`) |
 
-> **IMPORTANTE**: La salida jerarquizada del `legalizer.py` es fundamental para que el motor `HierarchicalChunker` de IBM Docling (Fase 3 del pipeline) logre generar JSON chunks con la segmentaciÃ³n correcta. Si el legalizer no inyecta los `######` en los artÃ­culos, Docling no sabrÃ¡ separarlos.
+> **IMPORTANTE**: La salida jerarquizada del `legalizer.py` es fundamental para que el motor `HierarchicalChunker` de IBM Docling (Fase 3 del pipeline) logre generar JSON chunks con la segmentación correcta. Si el legalizer no inyecta los `######` en los artículos, Docling no sabrá separarlos para RAGFlow.
 
 ---
 
-## Patrones de DetecciÃ³n de ArtÃ­culos
+## Patrones de Detección de Artículos
 
 ### Regex Principal (Venezuela)
 
 ```python
 import re
 
-# Patrones de artÃ­culo en leyes venezolanas (ordenados por especificidad)
+# Patrones de artículo en leyes venezolanas (ordenados por especificidad)
 ARTICLE_PATTERNS = [
-    # PatrÃ³n estÃ¡ndar: "ArtÃ­culo 1." o "ArtÃ­culo 1-"
-    r'^Art[Ã­i]culo\s+(\d+)[.\-â€“]\s*(.{0,80}?)$',
-    # PatrÃ³n con punto final en nÃºmero: "ArtÃ­culo 1Â°."  
-    r'^Art[Ã­i]culo\s+(\d+)[Â°Âº][.\-]?\s*(.{0,80}?)$',
-    # PatrÃ³n en mayÃºsculas: "ARTÃ CULO 1"
-    r'^ART[Ã I]CULO\s+(\d+)[.\-â€“]?\s*(.{0,80}?)$',
-    # PatrÃ³n corto: "Art. 1"
+    # Patrón estándar: "Artículo 1." o "Artículo 1-"
+    r'^Art[íi]culo\s+(\d+)[.\-–]\s*(.{0,80}?)$',
+    # Patrón con punto final en número: "Artículo 1°."  
+    r'^Art[íi]culo\s+(\d+)[°º][.\-]?\s*(.{0,80}?)$',
+    # Patrón en mayúsculas: "ARTÍCULO 1"
+    r'^ART[ÍI]CULO\s+(\d+)[.\-–]?\s*(.{0,80}?)$',
+    # Patrón corto: "Art. 1"
     r'^Art\.\s+(\d+)[.\-]?\s*(.{0,80}?)$',
 ]
 
 TITLE_PATTERNS = [
-    r'^T[Ã I]TULO\s+((?:[IVX]+|\d+))[.\-\s]',
+    r'^T[ÍI]TULO\s+((?:[IVX]+|\d+))[.\-\s]',
     r'^TITULO\s+((?:[IVX]+|\d+))[.\-\s]',
 ]
 
 CHAPTER_PATTERNS = [
-    r'^CAP[Ã I]TULO\s+((?:[IVX]+|\d+|\w+))[.\-\s]',
-    r'^CAPÃ TULO\s+([A-ZÃ Ã‰Ã Ã“Ãš\s]+)[.\-]',
-    r'^CapÃ­tulo\s+((?:[IVX]+|\d+))[.\-\s]',
+    r'^CAP[ÍI]TULO\s+((?:[IVX]+|\d+|\w+))[.\-\s]',
+    r'^CAPÍTULO\s+([A-ZÁÉÍÓÚ\s]+)[.\-]',
+    r'^Capítulo\s+((?:[IVX]+|\d+))[.\-\s]',
 ]
 
 SECTION_PATTERNS = [
-    r'^SECCIÃ“N\s+((?:[IVX]+|\d+))[.\-\s]',
-    r'^SecciÃ³n\s+((?:[IVX]+|\d+))[.\-\s]',
+    r'^SECCIÓN\s+((?:[IVX]+|\d+))[.\-\s]',
+    r'^Sección\s+((?:[IVX]+|\d+))[.\-\s]',
 ]
 ```
 
-### FunciÃ³n Principal de DetecciÃ³n
+### Función Principal de Detección
 
 ```python
 def detect_hierarchy_level(line: str) -> tuple[str, str]:
@@ -88,7 +88,7 @@ def detect_hierarchy_level(line: str) -> tuple[str, str]:
         if m:
             num = int(m.group(1))
             title = m.group(2).strip() if m.lastindex >= 2 else ''
-            return ('articulo', f"ArtÃ­culo {num}" + (f" â€” {title}" if title else ''))
+            return ('articulo', f"Artículo {num}" + (f" — {title}" if title else ''))
     
     return ('text', line)
 ```
@@ -98,15 +98,15 @@ def detect_hierarchy_level(line: str) -> tuple[str, str]:
 ## Estructura de Salida del Legalizer
 
 ```markdown
-## TÃ TULO I
-### CAPÃ TULO I
-#### SECCIÃ“N I
+## TÍTULO I
+### CAPÍTULO I
+#### SECCIÓN I
 
-###### ArtÃ­culo 1 â€” Objeto de la Ley
-El presente cÃ³digo tiene por objeto...
+###### Artículo 1 — Objeto de la Ley
+El presente código tiene por objeto...
 
-###### ArtÃ­culo 2 â€” Ã mbito de AplicaciÃ³n
+###### Artículo 2 — Ámbito de Aplicación
 La presente ley se aplica a...
 ```
 
-> **DecisiÃ³n de diseÃ±o**: Usar H6 (`######`) para artÃ­culos garantiza que no colisionen con la jerarquÃ­a estructural (TÃ­tulos, CapÃ­tulos) y son fÃ¡cilmente identificables por el motor de fragmentaciÃ³n `HierarchicalChunker` de IBM Docling, el cual dividirÃ¡ automÃ¡ticamente el texto respetando los H6.
+> **Decisión de diseño**: Usar H6 (`######`) para artículos garantiza que no colisionen con la jerarquía estructural (Títulos, Capítulos) y son fácilmente identificables por el motor de fragmentación `HierarchicalChunker` de IBM Docling, el cual dividirá automáticamente el texto respetando los H6.

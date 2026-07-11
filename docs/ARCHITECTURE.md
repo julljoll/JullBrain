@@ -1,6 +1,6 @@
 # JullBrain — Arquitectura del Sistema
 
-> Pipeline de 5 etapas para conversión de documentos legales venezolanos → Markdown estructurado y JSON (Hierarchical Chunking) para RAG.
+> Pipeline de 5 etapas para conversión de documentos legales venezolanos → Markdown estructurado y JSON (Hierarchical Chunking) para RAGFlow.
 > Versión: 2.0 | Entorno: Docker | Motor: IBM Docling
 
 ---
@@ -46,7 +46,7 @@
 │      (ley completa.md)       (hierarchical_chunks.json)                 │
 │                                                                         │
 │               ▼                                                         │
-│     Sistemas RAG: LangChain, LlamaIndex, ChromaDB, LanceDB              │
+│             RAGFlow (Motor nativo de ingesta vectorial)                 │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -56,34 +56,29 @@
 
 ### 1. `convert_normativas.py` — Orquestador Principal
 - **Rol**: Coordina todo el pipeline dentro del entorno Docker.
-- **Batching**: Divide PDFs en lotes (15 páginas por defecto) procesados en paralelo para optimizar memoria RAM.
+- **Batching**: Divide PDFs en lotes procesados en paralelo para optimizar memoria RAM.
 - **Caché**: SHA-256 por PDF, salta archivos sin cambios.
-- **Visualización**: Interfaz de carga dinámica y colorida con `rich.progress` (compatible con TTY de Docker).
-- **Control de Ejecución**: Permite detener el procesamiento a mitad de camino (`Ctrl+C`) guardando el estado actual de los archivos completados de manera segura.
+- **Visualización**: Interfaz de carga dinámica y colorida con `rich.progress`.
+- **Control de Ejecución**: Permite detener el procesamiento a mitad de camino (`Ctrl+C`).
 
 ### 2. `HierarchicalChunker` (Integrado en Docling)
-- **Rol**: Reemplaza al antiguo `chunker.py`. Segmenta los documentos usando la inteligencia nativa de Docling basándose en la estructura del documento en lugar de caracteres.
-- **Salida**: Genera un archivo unificado `hierarchical_chunks.json` que contiene los metadatos completos y el contenido semánticamente fragmentado, ideal para su inyección directa a bases de datos vectoriales.
+- **Rol**: Reemplaza al antiguo `chunker.py`. Segmenta los documentos usando la inteligencia nativa de Docling basándose en la estructura.
+- **Salida**: Genera un archivo unificado `hierarchical_chunks.json` que contiene los metadatos completos y el contenido semánticamente fragmentado, ideal para su inyección directa a RAGFlow.
 
 ### 3. `legalizer.py` — Estructurador Legal
 - **Rol**: Limpia, normaliza y detecta jerarquía legal.
 - **Detecta**: TÍTULO (H2) → CAPÍTULO (H3) → SECCIÓN (H4) → Artículo (H6).
 - **Genera**: Tabla de contenido (TOC) interactiva con anclajes a cada artículo.
-- **Maneja**: Parágrafos, numerales, literales, artículos derogados.
 
 ### 4. `metadata_extractor.py` — Extractor de Metadatos
-- **Rol**: Inyecta YAML frontmatter con metadatos semánticos al inicio del archivo Markdown.
-- **Extrae**: Tipo de instrumento, nombre oficial, Gaceta, fecha, SHA-256.
+- **Rol**: Inyecta YAML frontmatter con metadatos semánticos.
 
 ### 5. `validator.py` — Validador de Integridad
-- **Rol**: Verifica la calidad de la conversión legal para garantizar que los modelos de IA no alucinen.
-- **Checks**: Secuencia numérica, duplicados, saltos de artículos, frontmatter estructurado.
-- **Reportes**: Tabla en consola con puntuaciones.
+- **Rol**: Verifica la calidad de la conversión legal para garantizar que RAGFlow no alucine.
+- **Checks**: Secuencia numérica, duplicados, saltos de artículos.
 
 ### 6. `iniciar_conversion.bat` — Lanzador Docker (CLI)
-- **Rol**: Verifica requisitos del sistema (Docker, Chocolatey).
-- **Seguridad**: No exige permisos de Administrador a menos que detecte que faltan dependencias, en cuyo caso sugiere la auto-instalación.
-- **Aislamiento**: Dispara los comandos `docker compose build` y `run` manteniendo la máquina del usuario libre de instalaciones complejas de Python.
+- **Rol**: Verifica requisitos del sistema (Docker, Chocolatey) de forma segura sin exigir privilegios por defecto.
 
 ---
 
@@ -106,9 +101,7 @@ Entrada (PDF/Word)
 ## Gestión de Caché
 
 - **Manifest**: `.conversion_cache/manifest.json`
-- **Key**: SHA-256 del PDF original
-- **Skip automático**: PDFs sin cambios se saltan.
-- **Forzar**: Se puede limpiar la carpeta `.conversion_cache` para forzar la reconversión.
+- **Skip automático**: PDFs sin cambios se saltan basándose en su hash SHA-256.
 
 ## Manejo de Errores
 

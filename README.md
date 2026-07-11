@@ -17,7 +17,7 @@ Los modelos de lenguaje (LLM) fallan con PDFs de documentos legales y normativos
 - No hay metadata legal (Gaceta Oficial, fecha, tipo de instrumento) para filtrar búsquedas RAG.
 - El chunking por caracteres o páginas parte artículos a la mitad, generando fragmentos incoherentes.
 
-**JullBrain** convierte esos PDFs en Markdown semánticamente estructurado y en un formato JSON listo (`hierarchical_chunks.json`), con fragmentos inteligentes, listo para ingestarse en LangChain, LlamaIndex, ChromaDB o cualquier sistema RAG. Todo esto de forma 100% aislada gracias a **Docker**.
+**JullBrain** convierte esos PDFs en Markdown semánticamente estructurado y en un formato JSON listo (`hierarchical_chunks.json`), con fragmentos inteligentes, listo para ingestarse en **RAGFlow**. Todo esto de forma 100% aislada gracias a **Docker**.
 
 ---
 
@@ -48,6 +48,9 @@ normativas_pdf/
        ▼                                                              ▼
 normativas_rag/                                          normativas_chunks/
   ley-completa.md                                          hierarchical_chunks.json
+                                                                      │
+                                                                      ▼
+                                                                  RAGFlow
 ```
 
 ---
@@ -58,7 +61,7 @@ normativas_rag/                                          normativas_chunks/
 |--------|---------|
 | `convert_normativas.py` | Motor principal: Orquestación Docling, Barras de Progreso Visuales (`rich`), Caché SHA-256 y manejo `Ctrl+C`. |
 | `legalizer.py` | Detecta jerarquía (TÍTULO/CAPÍTULO/Artículo) y genera TOC interactivos en Markdown. |
-| `HierarchicalChunker` | Integrado vía Docling. Extrae chunks semánticos (unidades documentales completas). |
+| `HierarchicalChunker` | Integrado vía Docling. Extrae chunks semánticos listos para RAGFlow. |
 | `metadata_extractor.py` | Inyecta YAML frontmatter con Gaceta, fecha, tipo de documento y huella digital (SHA-256). |
 | `validator.py` | Verifica secuencia numérica, previene duplicados y detecta artículos corruptos o cortos. |
 | `iniciar_conversion.bat` | Menú interactivo inteligente. Verifica estado de Chocolatey y Docker sin pedir permisos de admin por defecto. |

@@ -1,45 +1,45 @@
-﻿---
+---
 name: JullBrain-metadata
 description: >
-  Skill para el mÃ³dulo metadata_extractor.py de JullBrain. Ãšsalo cuando necesites: extraer
-  o corregir el YAML frontmatter de normativas venezolanas, agregar el nÃºmero de Gaceta
-  Oficial, fecha de publicaciÃ³n o tipo de instrumento, calcular o verificar el hash SHA-256
-  de un PDF, extender el schema de metadata para nuevas categorÃ­as jurÃ­dicas, o depurar
-  problemas donde el frontmatter YAML estÃ¡ mal formado, incompleto o ausente. TambiÃ©n aplica
-  para diseÃ±ar filtros de bÃºsqueda RAG basados en metadata. Trigger siempre que el usuario
+  Skill para el módulo metadata_extractor.py de JullBrain. Úsalo cuando necesites: extraer
+  o corregir el YAML frontmatter de normativas venezolanas, agregar el número de Gaceta
+  Oficial, fecha de publicación o tipo de instrumento, calcular o verificar el hash SHA-256
+  de un PDF, extender el schema de metadata para nuevas categorías jurídicas, o depurar
+  problemas donde el frontmatter YAML está mal formado, incompleto o ausente. También aplica
+  para diseñar filtros de búsqueda RAG basados en metadata. Trigger siempre que el usuario
   mencione: Gaceta Oficial, YAML frontmatter, metadata legal, SHA-256 de PDF,
   metadata_extractor, o filtros por fecha/instrumento.
 ---
 
-# JullBrain Metadata Extractor â€” Skill Especializado
+# JullBrain Metadata Extractor — Skill Especializado
 
 ## Schema YAML Completo
 
 ```yaml
 ---
-# â”€â”€ IDENTIFICACIÃ“N DEL INSTRUMENTO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-tipo_instrumento: "CÃ³digo"          # Ver tabla de tipos abajo
-nombre_oficial: "CÃ³digo Penal de Venezuela"
-nombre_corto: "CÃ³digo Penal"        # Para referencias en chunks
+# ── IDENTIFICACIÓN DEL INSTRUMENTO ──────────────────────────────
+tipo_instrumento: "Código"          # Ver tabla de tipos abajo
+nombre_oficial: "Código Penal de Venezuela"
+nombre_corto: "Código Penal"        # Para referencias en chunks
 
-# â”€â”€ PUBLICACIÃ“N OFICIAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── PUBLICACIÓN OFICIAL ──────────────────────────────────────────
 gaceta_oficial: "5.494 Extraordinario"
 fecha_publicacion: "2000-10-20"     # ISO 8601: YYYY-MM-DD
-fecha_ultima_reforma: "2005-03-16"  # Opcional: fecha de reforma mÃ¡s reciente
+fecha_ultima_reforma: "2005-03-16"  # Opcional: fecha de reforma más reciente
 
-# â”€â”€ CLASIFICACIÃ“N TEMÃTICA â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-categorias: ["penal", "procesal"]   # Lista de categorÃ­as (ver catÃ¡logo)
+# ── CLASIFICACIÓN TEMÁTICA ───────────────────────────────────────
+categorias: ["penal", "procesal"]   # Lista de categorías (ver catálogo)
 ambito: "nacional"                  # nacional | estadal | municipal
 
-# â”€â”€ ESTADÃSTICAS DE EXTRACCIÃ“N â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── ESTADÍSTICAS DE EXTRACCIÓN ───────────────────────────────────
 articulos_detectados: 640
 articulos_vigentes: 635             # Excluye derogados si se detectan
 titulos_detectados: 8
 capitulos_detectados: 24
 
-# â”€â”€ INTEGRIDAD â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── INTEGRIDAD ───────────────────────────────────────────────────
 hash_pdf_sha256: "abc123..."        # SHA-256 del PDF original
-fecha_procesamiento: "2026-01-15"   # CuÃ¡ndo se procesÃ³ con JullBrain
+fecha_procesamiento: "2026-01-15"   # Cuándo se procesó con JullBrain
 version_JullBrain: "1.0"
 ---
 ```
@@ -50,18 +50,18 @@ version_JullBrain: "1.0"
 
 | `tipo_instrumento` | Ejemplos |
 |-------------------|---------|
-| `"CÃ³digo"` | CÃ³digo Penal, CÃ³digo Civil, COPP |
-| `"Ley OrgÃ¡nica"` | LOPNA, LOPCYMAT |
-| `"Ley Especial"` | Ley Especial de Delitos InformÃ¡ticos |
+| `"Código"` | Código Penal, Código Civil, COPP |
+| `"Ley Orgánica"` | LOPNA, LOPCYMAT |
+| `"Ley Especial"` | Ley Especial de Delitos Informáticos |
 | `"Ley"` | Ley sobre Mensajes de Datos |
 | `"Decreto con Rango de Ley"` | Decretos-Ley del Ejecutivo |
 | `"Decreto"` | Decretos ejecutivos |
-| `"ResoluciÃ³n"` | Resoluciones ministeriales |
+| `"Resolución"` | Resoluciones ministeriales |
 | `"Circular"` | Circulares de organismos |
-| `"Norma TÃ©cnica"` | ISO, NIST, COVENIN |
-| `"Reglamento"` | Reglamentos de ejecuciÃ³n |
+| `"Norma Técnica"` | ISO, NIST, COVENIN |
+| `"Reglamento"` | Reglamentos de ejecución |
 
-## CatÃ¡logo de CategorÃ­as
+## Catálogo de Categorías
 
 ```python
 CATEGORIAS_VALIDAS = {
@@ -72,33 +72,33 @@ CATEGORIAS_VALIDAS = {
     # Derecho Procesal
     "procesal_penal", "procesal_civil", "procesal_laboral",
     
-    # Ãreas Especiales
+    # Áreas Especiales
     "informatica_forense", "delitos_informaticos", "firma_electronica",
     "datos_personales", "telecomunicaciones", "financiero", "bancario",
     
     # Organismos
     "cenif", "sudeban", "conatel", "seniat",
     
-    # Normas TÃ©cnicas
+    # Normas Técnicas
     "iso_27000", "nist", "covenin",
 }
 ```
 
 ---
 
-## ExtracciÃ³n AutomÃ¡tica de Metadata
+## Extracción Automática de Metadata
 
-### Algoritmo de DetecciÃ³n de Gaceta Oficial
+### Algoritmo de Detección de Gaceta Oficial
 
 ```python
 import re
 from datetime import datetime
 
 GACETA_PATTERNS = [
-    # "Gaceta Oficial NÂ° 5.494 Extraordinario del 20/10/2000"
-    r'[Gg]aceta\s+[Oo]ficial\s+(?:[Ee]xtraordinaria?\s+)?[Nn][Â°Âº]\s*([\d.,]+(?:\s+Extraordinario)?)',
-    # "G.O. NÂ° 5494"
-    r'G\.O\.\s+[Nn][Â°Âº]\s*([\d.,]+(?:\s+Extraordinario)?)',
+    # "Gaceta Oficial N° 5.494 Extraordinario del 20/10/2000"
+    r'[Gg]aceta\s+[Oo]ficial\s+(?:[Ee]xtraordinaria?\s+)?[Nn][°º]\s*([\d.,]+(?:\s+Extraordinario)?)',
+    # "G.O. N° 5494"
+    r'G\.O\.\s+[Nn][°º]\s*([\d.,]+(?:\s+Extraordinario)?)',
     # En el propio nombre del PDF: "GO-5494-Extraordinario"
     r'GO[-_](\d+)[-_]?(Extraordinario|Ordinario)?',
 ]
@@ -117,15 +117,15 @@ MESES = {
 }
 
 def extract_gaceta(text: str) -> str:
-    """Extrae nÃºmero de Gaceta Oficial del texto de la ley."""
+    """Extrae número de Gaceta Oficial del texto de la ley."""
     for pattern in GACETA_PATTERNS:
-        m = re.search(pattern, text[:3000])  # Buscar en las primeras pÃ¡ginas
+        m = re.search(pattern, text[:3000])  # Buscar en las primeras páginas
         if m:
             return m.group(1).strip()
     return "N/D"
 
 def extract_date(text: str) -> str:
-    """Extrae fecha de publicaciÃ³n en formato ISO 8601."""
+    """Extrae fecha de publicación en formato ISO 8601."""
     for pattern in DATE_PATTERNS:
         m = re.search(pattern, text[:3000], re.IGNORECASE)
         if m:
@@ -139,7 +139,7 @@ def extract_date(text: str) -> str:
     return "N/D"
 ```
 
-### CÃ¡lculo de SHA-256
+### Cálculo de SHA-256
 
 ```python
 import hashlib
@@ -153,18 +153,18 @@ def calculate_sha256(file_path: str) -> str:
     return sha256_hash.hexdigest()
 ```
 
-### DetecciÃ³n de Tipo de Instrumento
+### Detección de Tipo de Instrumento
 
 ```python
 TIPO_KEYWORDS = {
-    "CÃ³digo": [r'\bCÃ³digo\b', r'\bCODIGO\b'],
-    "Ley OrgÃ¡nica": [r'Ley\s+OrgÃ¡nica', r'LEY\s+ORGÃNICA'],
+    "Código": [r'\bCódigo\b', r'\bCODIGO\b'],
+    "Ley Orgánica": [r'Ley\s+Orgánica', r'LEY\s+ORGÁNICA'],
     "Ley Especial": [r'Ley\s+Especial', r'LEY\s+ESPECIAL'],
     "Decreto con Rango de Ley": [r'Decreto\s+con\s+[Ff]uerza', r'Decreto\s+[Ll]ey'],
-    "Ley": [r'^Ley\s+(?!OrgÃ¡nica|Especial)', r'^LEY\s+(?!ORGÃNICA|ESPECIAL)'],
+    "Ley": [r'^Ley\s+(?!Orgánica|Especial)', r'^LEY\s+(?!ORGÁNICA|ESPECIAL)'],
     "Reglamento": [r'\bReglamento\b'],
-    "ResoluciÃ³n": [r'\bResoluciÃ³n\b'],
-    "Decreto": [r'^\s*Decreto\s+N[Â°Âº]'],
+    "Resolución": [r'\bResolución\b'],
+    "Decreto": [r'^\s*Decreto\s+N[°º]'],
 }
 
 def detect_instrument_type(text: str, filename: str) -> str:
@@ -178,7 +178,7 @@ def detect_instrument_type(text: str, filename: str) -> str:
 
 ---
 
-## InyecciÃ³n del Frontmatter al Markdown
+## Inyección del Frontmatter al Markdown
 
 ```python
 import yaml
@@ -207,7 +207,7 @@ def inject_frontmatter(markdown_content: str, metadata: dict) -> str:
 
 ---
 
-## ValidaciÃ³n del Frontmatter
+## Validación del Frontmatter
 
 ```python
 REQUIRED_FIELDS = ['tipo_instrumento', 'nombre_oficial', 'gaceta_oficial', 
@@ -221,20 +221,20 @@ def validate_frontmatter(metadata: dict) -> list[str]:
         if field not in metadata:
             issues.append(f"Campo requerido faltante: {field}")
         elif metadata[field] == "N/D":
-            issues.append(f"Campo no detectado automÃ¡ticamente: {field} â€” revisar manualmente")
+            issues.append(f"Campo no detectado automáticamente: {field} — revisar manualmente")
     
     # Validar formato de fecha
     if 'fecha_publicacion' in metadata and metadata['fecha_publicacion'] != "N/D":
         try:
             datetime.strptime(metadata['fecha_publicacion'], '%Y-%m-%d')
         except ValueError:
-            issues.append(f"Formato de fecha invÃ¡lido: {metadata['fecha_publicacion']} (usar YYYY-MM-DD)")
+            issues.append(f"Formato de fecha inválido: {metadata['fecha_publicacion']} (usar YYYY-MM-DD)")
     
     # Validar SHA-256 (64 caracteres hex)
     if 'hash_pdf_sha256' in metadata:
         h = metadata['hash_pdf_sha256']
         if len(h) != 64 or not all(c in '0123456789abcdef' for c in h.lower()):
-            issues.append(f"SHA-256 invÃ¡lido: {h[:20]}...")
+            issues.append(f"SHA-256 inválido: {h[:20]}...")
     
     return issues
 ```
@@ -246,19 +246,19 @@ def validate_frontmatter(metadata: dict) -> list[str]:
 Con el frontmatter YAML correcto, los sistemas RAG pueden filtrar:
 
 ```python
-# LangChain â€” Filtrar por tipo de instrumento y fecha
+# LangChain — Filtrar por tipo de instrumento y fecha
 retriever = vectorstore.as_retriever(
     search_kwargs={
         "filter": {
-            "tipo_instrumento": "CÃ³digo",
+            "tipo_instrumento": "Código",
             "fecha_publicacion": {"$gte": "2000-01-01"}
         }
     }
 )
 
-# ChromaDB â€” Filtrar por categorÃ­a
+# ChromaDB — Filtrar por categoría
 results = collection.query(
-    query_texts=["Â¿QuÃ© dice sobre el delito informÃ¡tico?"],
+    query_texts=["¿Qué dice sobre el delito informático?"],
     where={"categorias": {"$contains": "delitos_informaticos"}}
 )
 ```
