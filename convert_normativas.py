@@ -390,13 +390,13 @@ def main():
             sys.exit(1)
     else:
         for ext in extensions:
-            pdf_files.extend(list(INPUT_DIR.glob(ext)))
+            pdf_files.extend(list(INPUT_DIR.rglob(ext)))
         pdf_files = list(set(pdf_files))
         pdf_files = [f for f in pdf_files if not f.name.startswith("_repaired_") and not f.name.startswith("_temp_")]
         
         word_extensions = ["*.docx", "*.DOCX", "*.doc", "*.DOC"]
         for ext in word_extensions:
-            word_files.extend(list(WORD_INPUT_DIR.glob(ext)))
+            word_files.extend(list(WORD_INPUT_DIR.rglob(ext)))
         word_files = list(set(word_files))
         word_files = [f for f in word_files if not f.name.startswith("~") and not f.name.startswith("_temp_")]
         
@@ -423,9 +423,12 @@ def main():
     with console.status("[bold green]Escaneando archivos y cargando metadatos...", spinner="dots"):
         # Escanear PDF/imágenes
         for file_path in pdf_files:
-            md_filename = f"{file_path.stem}.md"
-            md_path     = OUTPUT_DIR / md_filename
-            pages       = get_pdf_page_count(file_path)
+            try:
+                rel_path = file_path.relative_to(INPUT_DIR)
+            except ValueError:
+                rel_path = Path(file_path.name)
+            md_path = OUTPUT_DIR / rel_path.with_suffix(".md")
+            pages = get_pdf_page_count(file_path)
 
             already_converted = md_path.exists()
 
@@ -435,15 +438,18 @@ def main():
                 "type": "PDF/Imagen",
                 "file_path": file_path,
                 "pages": pages,
-                "md_filename": md_filename,
+                "md_filename": str(rel_path.with_suffix(".md")),
                 "status_text": status_text,
                 "converted": already_converted
             })
 
         # Escanear documentos Word
         for file_path in word_files:
-            md_filename = f"{file_path.stem}.md"
-            md_path     = WORD_OUTPUT_DIR / md_filename
+            try:
+                rel_path = file_path.relative_to(WORD_INPUT_DIR)
+            except ValueError:
+                rel_path = Path(file_path.name)
+            md_path = WORD_OUTPUT_DIR / rel_path.with_suffix(".md")
 
             already_converted = md_path.exists()
 
@@ -453,7 +459,7 @@ def main():
                 "type": "Word",
                 "file_path": file_path,
                 "pages": "N/A",
-                "md_filename": md_filename,
+                "md_filename": str(rel_path.with_suffix(".md")),
                 "status_text": status_text,
                 "converted": already_converted
             })
@@ -510,9 +516,21 @@ def main():
         overall_task = progress.add_task("[bold magenta]Progreso General", total=len(pending_files))
         
         for idx, (file_path, file_type, pages) in enumerate(pending_files, start=1):
-            md_filename = f"{file_path.stem}.md"
-            output_dir = OUTPUT_DIR if file_type == "PDF/Imagen" else WORD_OUTPUT_DIR
-            output_md_path = output_dir / md_filename
+            if file_type == "PDF/Imagen":
+                try:
+                    rel_path = file_path.relative_to(INPUT_DIR)
+                except ValueError:
+                    rel_path = Path(file_path.name)
+                output_md_path = OUTPUT_DIR / rel_path.with_suffix(".md")
+            else:
+                try:
+                    rel_path = file_path.relative_to(WORD_INPUT_DIR)
+                except ValueError:
+                    rel_path = Path(file_path.name)
+                output_md_path = WORD_OUTPUT_DIR / rel_path.with_suffix(".md")
+            
+            output_md_path.parent.mkdir(parents=True, exist_ok=True)
+            md_filename = output_md_path.name
             
             file_desc = file_path.name
             if len(file_desc) > 30:
@@ -712,7 +730,7 @@ def main():
                                 chunker = HierarchicalChunker()
                                 doc_chunks = list(chunker.chunk(final_doc))
                                 
-                                chunk_dir = CHUNKS_DIR / file_path.stem
+                                chunk_dir = CHUNKS_DIR / rel_path.parent / file_path.stem
                                 chunk_dir.mkdir(parents=True, exist_ok=True)
                                 
                                 chunks_json_path = chunk_dir / "hierarchical_chunks.json"
@@ -726,9 +744,9 @@ def main():
                                 console.print(f"  [bold yellow][CHUNKS] Error generando chunks jerárquicos: {ce}[/]")
 
                         # Actualizar manifest SHA-256
-                        manifest[file_path.name] = {
+                        manifest[str(rel_path)] = {
                             'sha256':       sha256_pdf(file_path),
-                            'md_file':      md_filename,
+                            'md_file':      str(rel_path.with_suffix(".md")),
                             'articulos':    val_report.articles_found,
                             'estado_val':   val_report.overall_status,
                         }
@@ -746,9 +764,9 @@ def main():
 
                     # Si es Word, también actualizamos su manifest_word.json
                     if file_type == "Word":
-                        word_manifest[file_path.name] = {
+                        word_manifest[str(rel_path)] = {
                             'sha256':   sha256_pdf(file_path),
-                            'md_file':  md_filename,
+                            'md_file':  str(rel_path.with_suffix(".md")),
                         }
                         save_manifest(str(WORD_MANIFEST_PATH), word_manifest)
 

@@ -39,7 +39,7 @@ if %errorlevel% neq 0 (
 
 echo   [+] Global Python: DETECTED
 echo [INFO] Creating local virtual environment '%VENV_DIR%'...
-python -m venv %VENV_DIR%
+python -m venv --system-site-packages %VENV_DIR%
 if %errorlevel% neq 0 (
     echo [ERROR] Failed to create virtual environment.
     pause
@@ -51,9 +51,8 @@ set "PYTHON_EXE=%VENV_DIR%\Scripts\python.exe"
 echo [INFO] Activating virtual environment...
 call "%VENV_DIR%\Scripts\activate.bat"
 
-:: Upgrade pip and install requirements
-echo [INFO] Installing/upgrading dependencies from requirements.txt...
-python -m pip install --upgrade pip
+:: Instalar dependencias directamente usando pip del venv (evitando autoupgrade de pip para no bloquear archivos en Windows)
+echo [INFO] Instalando dependencias desde requirements.txt...
 pip install -r requirements.txt
 if %errorlevel% neq 0 (
     echo [ERROR] Failed to install dependencies.
