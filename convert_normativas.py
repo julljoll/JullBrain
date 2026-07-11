@@ -55,7 +55,7 @@ if "--chunk-mode" in sys.argv:
     )
     console = None
 else:
-    console = Console(style="on #252525")
+    console = Console(style="on #252525", force_terminal=True, force_interactive=True)
     logging.basicConfig(
         level=logging.INFO,
         format="%(message)s",
@@ -484,6 +484,14 @@ def main():
 
     console.print(f"\n[bold yellow][RUN] Iniciando conversión de {len(pending_files)} archivos nuevos...[/]\n")
     
+    console.print(Panel(
+        "[bold white]Puedes detener la transformación en cualquier momento presionando [yellow]Ctrl + C[/yellow].\n"
+        "El progreso de los archivos completados se guardará de forma segura automáticamente.[/]",
+        title="[bold green]CONTROL DE EJECUCIÓN[/]",
+        border_style="green",
+        box=box.ROUNDED
+    ))
+    
     success_count = 0
     fail_count = 0
     errors_list = []
@@ -785,4 +793,20 @@ def main():
     console.print(Panel(summary_text, title=panel_title, border_style=panel_style, box=box.ROUNDED))
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        if RICH_AVAILABLE:
+            from rich.panel import Panel
+            from rich import box
+            console.print("\n")
+            console.print(Panel(
+                "[bold white]El usuario ha detenido manualmente el proceso (Ctrl + C).\n"
+                "Todo el progreso completado hasta ahora ha sido guardado.[/]",
+                title="[bold red]PROCESO CANCELADO[/]",
+                border_style="red",
+                box=box.DOUBLE
+            ))
+        else:
+            print("\nProceso cancelado manualmente por el usuario. Progreso guardado.")
+        sys.exit(130)
