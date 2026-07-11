@@ -18,7 +18,6 @@ try:
     from legalizer import legalize
     from metadata_extractor import inject_frontmatter, sha256_file, load_manifest, save_manifest
     from validator import validate_md_file
-    from chunker import chunk_file
     LEGAL_PIPELINE_AVAILABLE = True
 except ImportError as _le:
     LEGAL_PIPELINE_AVAILABLE = False
@@ -70,6 +69,7 @@ try:
     from docling.datamodel.pipeline_options import PdfPipelineOptions
     from docling.datamodel.base_models import InputFormat
     from docling_core.types.doc import DoclingDocument
+    from docling.chunking import HierarchicalChunker
 except ImportError as e:
     logger.error("No se pudo importar Docling. Asegúrate de activar el entorno virtual correcto e instalar 'docling'.")
     logger.error(f"Detalle del error: {e}")
@@ -632,6 +632,7 @@ def main():
                         
                     merged_doc = DoclingDocument.concatenate(docs)
                     markdown_content = merged_doc.export_to_markdown()
+                    final_doc = merged_doc
                     
                     try:
                         import shutil
@@ -667,6 +668,7 @@ def main():
                             
                         img_doc = DoclingDocument.load_from_json(temp_json_path)
                         markdown_content = img_doc.export_to_markdown()
+                        final_doc = img_doc
                         progress.update(file_task, advance=1)
 
                 # Guardar el archivo final (contenido crudo de Docling)
@@ -696,13 +698,24 @@ def main():
                         else:
                             console.print(f"  [bold green][VALIDACION OK] {md_filename}: {val_report.articles_found} articulos[/]")
 
-                        # Fase 3: Generar chunks individuales por articulo
+                        # Fase 3: Generar chunks individuales por articulo usando HierarchicalChunker
                         if not getattr(args, 'no_chunks', False):
                             try:
-                                chunk_paths = chunk_file(str(output_md_path))
-                                console.print(f"  [bold cyan][CHUNKS] {len(chunk_paths)} chunks generados[/]")
+                                chunker = HierarchicalChunker()
+                                doc_chunks = list(chunker.chunk(final_doc))
+                                
+                                chunk_dir = CHUNKS_DIR / file_path.stem
+                                chunk_dir.mkdir(parents=True, exist_ok=True)
+                                
+                                chunks_json_path = chunk_dir / "hierarchical_chunks.json"
+                                chunks_data = [c.model_dump() for c in doc_chunks]
+                                
+                                with open(chunks_json_path, 'w', encoding='utf-8') as f:
+                                    json.dump(chunks_data, f, ensure_ascii=False, indent=2)
+                                    
+                                console.print(f"  [bold cyan][CHUNKS] {len(doc_chunks)} chunks jerárquicos generados (JSON)[/]")
                             except Exception as ce:
-                                console.print(f"  [bold yellow][CHUNKS] Error generando chunks: {ce}[/]")
+                                console.print(f"  [bold yellow][CHUNKS] Error generando chunks jerárquicos: {ce}[/]")
 
                         # Actualizar manifest SHA-256
                         manifest[file_path.name] = {

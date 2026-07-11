@@ -1,8 +1,7 @@
 @echo off
 :: ===================================================================
-::  JullBrain - Script de Post-Instalacion
-::  Se ejecuta tras instalar los archivos en el directorio destino.
-::  Crea el entorno virtual, instala dependencias y crea accesos directos.
+::  JullBrain V-2.0 - Script de Post-Instalacion
+::  Crea entorno virtual, instala dependencias y verifica Tesseract.
 :: ===================================================================
 chcp 65001 > nul
 setlocal EnableDelayedExpansion
@@ -16,7 +15,7 @@ echo [%DATE% %TIME%] === INICIO DE INSTALACION === > "%LOG%"
 
 echo.
 echo =========================================================
-echo  JullBrain - Configurando entorno...
+echo  JullBrain V-2.0 - Configurando entorno...
 echo =========================================================
 echo.
 
@@ -25,7 +24,7 @@ echo [1/5] Verificando Python...
 where python >nul 2>&1
 if %errorlevel% neq 0 (
     echo [1/5] Python no encontrado. Buscando en rutas comunes...
-    set "PY_PATHS=C:\Python312;C:\Python311;C:\Python310;C:\Python39;%USERPROFILE%\AppData\Local\Programs\Python\Python312;%USERPROFILE%\AppData\Local\Programs\Python\Python311;%USERPROFILE%\AppData\Local\Programs\Python\Python310;C:\tools\python"
+    set "PY_PATHS=C:\Python313;C:\Python312;C:\Python311;C:\Python310;%USERPROFILE%\AppData\Local\Programs\Python\Python313;%USERPROFILE%\AppData\Local\Programs\Python\Python312;%USERPROFILE%\AppData\Local\Programs\Python\Python311;%USERPROFILE%\AppData\Local\Programs\Python\Python310;C:\tools\python"
     for %%p in (!PY_PATHS!) do (
         if exist "%%p\python.exe" (
             set "PATH=!PATH!;%%p;%%p\Scripts"
@@ -33,7 +32,7 @@ if %errorlevel% neq 0 (
             goto :PYTHON_FOUND
         )
     )
-    echo [ERROR] Python no esta instalado. Por favor instale Python 3.10+ desde https://python.org
+    echo [ERROR] Python no esta instalado. Instale Python 3.10+ desde https://python.org
     echo [ERROR] Python no encontrado >> "%LOG%"
     pause
     exit /b 1
@@ -64,10 +63,10 @@ echo [3/5] Pip actualizado.
 
 :: ------- 4. Instalar dependencias -------
 echo [4/5] Instalando dependencias (esto puede tardar 5-15 minutos)...
-echo       docling, PyMuPDF, pypdf, rich, pywin32...
+echo       docling, PyMuPDF, pypdf, rich, PyYAML, psutil...
 echo.
 
-"%INSTALL_DIR%\docling_env\Scripts\python.exe" -m pip install docling PyMuPDF pypdf rich pywin32 >> "%LOG%" 2>&1
+"%INSTALL_DIR%\docling_env\Scripts\python.exe" -m pip install docling PyMuPDF pypdf rich PyYAML psutil >> "%LOG%" 2>&1
 if %errorlevel% neq 0 (
     echo [AVISO] Algunas dependencias pueden no haberse instalado. Revise instalacion.log
 ) else (
@@ -94,7 +93,7 @@ if %errorlevel% neq 0 (
 echo.
 echo =========================================================
 echo  Instalacion completada exitosamente!
-echo  El programa se iniciara automaticamente.
+echo  Ejecute iniciar_conversion.bat para comenzar.
 echo =========================================================
 echo.
 echo [%DATE% %TIME%] === INSTALACION COMPLETADA === >> "%LOG%"

@@ -4,6 +4,8 @@
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org) [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE) [![IBM Docling](https://img.shields.io/badge/IBM-Docling-purple)](https://github.com/DS4SD/docling)
 
+**📖 Documentación completa:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | **🗺️ Mapa del framework:** [`FRAMEWORK.md`](FRAMEWORK.md) | **🤖 Skills IA:** [`.AGENTS/_index.md`](.AGENTS/_index.md)
+
 ---
 
 ## El Problema que Resuelve
@@ -142,29 +144,53 @@ docling_env\Scripts\python.exe chunker.py "normativas_rag/codigo penal.md"
 
 ---
 
-## Estructura del Proyecto
+## Estructura del Proyecto (Framework IBM)
 
 ```
 IBM DOCLING/
-├── normativas_pdf/              [ENTRADA]   PDFs originales
-├── normativas_rag/              [SALIDA]    Markdown completo por ley (YAML + TOC)
-├── normativas_chunks/           [SALIDA]    Un .md por artículo (RAG preciso)
-├── .conversion_cache/           [SISTEMA]   Caché SHA-256 + manifest.json
-├── docling_env/                 [SISTEMA]   Entorno virtual Python
 │
-├── convert_normativas.py        Motor principal
-├── legalizer.py                 Jerarquía legal + separación de artículos
-├── metadata_extractor.py        YAML frontmatter + metadata legal
-├── validator.py                 Validación de integridad
-├── chunker.py                   Generador de chunks individuales
-├── iniciar_conversion.bat       Orquestador interactivo
+├── 📁 docs/                       [docs]      Documentación técnica
+│   ├── ARCHITECTURE.md            Arquitectura del pipeline
+│   └── README.md                  Índice de documentación
 │
-└── .AGENTS/                      [IA]        Skills de asistencia de IA
-    ├── jullbrain-pdf-to-rag/    Pipeline maestro
-    ├── jullbrain-legalizer/     legalizer.py + chunker.py
-    ├── jullbrain-metadata/      metadata_extractor.py
-    └── jullbrain-validator/     validator.py
+├── 📁 normativas_pdf/             [data/input]    PDFs originales
+├── 📁 normativas_rag/             [data/output]   Markdown completo por ley (YAML + TOC)
+├── 📁 normativas_chunks/          [data/output]   Un .md por artículo (RAG preciso)
+├── 📁 formatos_word/              [data/input]    Documentos Word (.doc/.docx)
+├── 📁 formatos_rag/               [data/output]   Word convertido a Markdown
+├── 📁 .conversion_cache/          [data/cache]    Caché SHA-256 + manifest.json
+├── 📁 docling_env/                [env]           Entorno virtual Python
+│
+│   📄 [src/core]  convert_normativas.py       Motor principal (orquestador)
+│   📄 [src/pipeline] legalizer.py             Jerarquía legal + separación de artículos
+│   📄 [src/pipeline] metadata_extractor.py    YAML frontmatter + metadata legal
+│   📄 [src/pipeline] validator.py             Validación de integridad
+│   📄 [src/pipeline] chunker.py               Generador de chunks individuales
+│   📄 [src/gui]     gui.py                    Interfaz gráfica (Flet)
+│
+│   📄 [config]   requirements.txt             Dependencias Python
+│   📄 [config]   Dockerfile                   Build Docker
+│   📄 [config]   docker-compose.yml           Orquestación Docker
+│
+│   📄 [scripts]  iniciar_conversion.bat       Orquestador interactivo
+│
+├── 📁 .AGENTS/                     [agents]    Skills de asistencia de IA
+│   ├── _index.md                   Índice maestro (DeepSeek entra aquí)
+│   ├── agent.md                    Rol y directrices de IA
+│   ├── jullbrain-pdf-to-rag/       Pipeline maestro
+│   ├── jullbrain-legalizer/        legalizer.py + chunker.py
+│   ├── jullbrain-metadata/         metadata_extractor.py
+│   └── jullbrain-validator/        validator.py
+│
+├── 📁 chocolatey/                  [tools/packaging]   Paquete Chocolatey
+├── 📁 installer_tools/             [tools/installer]   Instalador InnoSetup
+│
+├── 📄 FRAMEWORK.md                 Mapa conceptual IBM del repositorio
+└── 📄 README.md                    Este archivo
 ```
+
+> 🗺️ **Ver [`FRAMEWORK.md`](FRAMEWORK.md)** para el mapeo completo IBM ↔ proyecto.
+> 📖 **Ver [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)** para la arquitectura detallada.
 
 ---
 
@@ -245,16 +271,18 @@ results = collection.query(
 
 ---
 
-## Skills de IA Incluidos
+## Skills de IA Incluidos (Para DeepSeek)
 
-Este repositorio incluye un conjunto de skills especializados para asistentes de IA (Claude, GPT, etc.). Los skills viven en `.AGENTS/` y se cargan automáticamente cuando la IA trabaja con este proyecto.
+Este repositorio incluye skills especializados para asistentes de IA (DeepSeek, Claude, GPT). Los skills viven en `.AGENTS/` y están optimizados para que DeepSeek entienda las instrucciones rápidamente.
 
-| Skill | Cubre | Cuándo cargarlo |
-|-------|-------|-----------------|
-| `jullbrain-pdf-to-rag` | Pipeline completo, Docling, errores de configuración | Primera consulta general |
-| `jullbrain-legalizer` | `legalizer.py`, `chunker.py`, patrones de artículos | Artículos mal detectados |
-| `jullbrain-metadata` | `metadata_extractor.py`, YAML, SHA-256, Gaceta | Metadata incompleta |
-| `jullbrain-validator` | `validator.py`, métricas de calidad, reportes | Validar después de conversión |
+| Skill | Cubre | Entrada |
+|-------|-------|---------|
+| `jullbrain-pdf-to-rag` | Pipeline completo, Docling, errores de configuración | `_index.md` → Árbol de decisión |
+| `jullbrain-legalizer` | `legalizer.py`, `chunker.py`, patrones de artículos | `_index.md` → Árbol de decisión |
+| `jullbrain-metadata` | `metadata_extractor.py`, YAML, SHA-256, Gaceta | `_index.md` → Árbol de decisión |
+| `jullbrain-validator` | `validator.py`, métricas de calidad, reportes | `_index.md` → Árbol de decisión |
+
+> 🤖 **DeepSeek**: comienza en [`.AGENTS/_index.md`](.AGENTS/_index.md) para el árbol de decisión y navegación rápida.
 
 ---
 

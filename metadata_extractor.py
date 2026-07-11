@@ -64,7 +64,7 @@ TIPOS_INSTRUMENTO = [
 CATEGORIAS_JURIDICAS = {
     'penal':          ['penal', 'delito', 'delitos', 'procesal penal', 'pena'],
     'civil':          ['civil', 'contratos', 'obligaciones', 'familia'],
-    'administrativo': ['administracion publica', 'administrativo', 'procedimieno administrativo'],
+    'administrativo': ['administracion publica', 'administrativo', 'procedimiento administrativo'],
     'laboral':        ['trabajo', 'laboral', 'empleo', 'trabajadores'],
     'tributario':     ['tributario', 'impuesto', 'renta', 'fiscal', 'aduanas'],
     'informatico':    ['informatico', 'informacion', 'datos', 'electronico', 'digital'],
