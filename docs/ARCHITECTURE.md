@@ -57,6 +57,7 @@
 ### 1. `convert_normativas.py` — Orquestador Principal
 - **Rol**: Coordina todo el pipeline dentro del entorno virtual de Python.
 - **Batching**: Divide PDFs en lotes procesados en paralelo para optimizar memoria RAM.
+- **Estructura Recursiva**: Procesa subcarpetas completas manteniendo la estructura de directorios original en las salidas.
 - **Caché**: SHA-256 por PDF, salta archivos sin cambios.
 - **Visualización**: Interfaz de carga dinámica y colorida con `rich.progress`.
 - **Control de Ejecución**: Permite detener el procesamiento a mitad de camino (`Ctrl+C`).

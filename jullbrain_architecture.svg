@@ -1,10 +1,10 @@
 <svg width="100%" viewBox="0 0 800 550" xmlns="http://www.w3.org/2000/svg" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-  <title>JullBrain V2.0 Docker Architecture</title>
+  <title>JullBrain V2.0 Native Architecture</title>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M2 1L8 5L2 9" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
-    <linearGradient id="dockerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="envGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1D63ED" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="#002C66" stop-opacity="0.05"/>
     </linearGradient>
@@ -12,7 +12,7 @@
 
   <!-- Title -->
   <text x="400" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#333">JullBrain V2.0 Pipeline Architecture</text>
-  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#666">Docker-Native Automated Legal RAG Pipeline</text>
+  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#666">Native Python Automated Legal RAG Pipeline</text>
 
   <!-- Input Sources -->
   <g transform="translate(100, 100)">
@@ -27,11 +27,11 @@
     <text x="90" y="48" text-anchor="middle" font-size="12" fill="#1E40AF">.doc, .docx</text>
   </g>
 
-  <!-- Docker Container Background -->
-  <rect x="50" y="200" width="700" height="200" rx="15" fill="url(#dockerGrad)" stroke="#1D63ED" stroke-width="2" stroke-dasharray="8,4"/>
-  <text x="70" y="225" font-size="14" font-weight="bold" fill="#1D63ED">Docker Compose (Python 3.10+ Aislado)</text>
+  <!-- Python Environment Background -->
+  <rect x="50" y="200" width="700" height="200" rx="15" fill="url(#envGrad)" stroke="#10B981" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="70" y="225" font-size="14" font-weight="bold" fill="#047857">Entorno Virtual (Python 3.10+ Aislado)</text>
 
-  <!-- Processing Modules in Docker -->
+  <!-- Processing Modules in Environment -->
   <!-- Docling -->
   <g transform="translate(80, 250)">
     <rect width="140" height="120" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
@@ -76,11 +76,11 @@
   </g>
 
   <!-- Connections -->
-  <!-- Inputs to Docker -->
+  <!-- Inputs to Environment -->
   <path d="M 190 160 C 190 180, 150 180, 150 250" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
   <path d="M 610 160 C 610 180, 150 180, 150 250" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
 
-  <!-- Docker to Outputs -->
+  <!-- Environment to Outputs -->
   <path d="M 650 370 C 650 420, 250 420, 250 460" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
   <path d="M 650 370 C 650 420, 550 420, 550 460" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
 

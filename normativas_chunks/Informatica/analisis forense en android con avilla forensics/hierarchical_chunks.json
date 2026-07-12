@@ -1,0 +1,5406 @@
+[
+  {
+    "text": "Mariano Sánchez Martín (a partir de un original de Rafael López García)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 117.50421142578125,
+                "t": 220.5750732421875,
+                "r": 592.748779296875,
+                "b": 154.3224639892578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                71
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Introducción al análisis forense en dispositivos móviles"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Los dispositivos móviles cada vez predominan más con respecto a los de sobremesa\n- – Más datos a obtener\n- – Más peligros ahí fuera\n- Sobre el 85% del malware se hace para móviles\n- Nuevas formas de ataque como el juice jacking",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 45.04487609863281,
+                "t": 408.10345458984375,
+                "r": 630.804931640625,
+                "b": 313.7699279785156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                82
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 79.16909790039062,
+                "t": 297.6485290527344,
+                "r": 360.0596618652344,
+                "b": 276.1579284667969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 79.16909790039062,
+                "t": 260.9685363769531,
+                "r": 377.2087707519531,
+                "b": 234.23704528808594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 45.04487609863281,
+                "t": 215.28543090820312,
+                "r": 630.6220703125,
+                "b": 156.1639404296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 45.04487609863281,
+                "t": 131.1804656982422,
+                "r": 560.1159057617188,
+                "b": 66.00157928466797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Motivación (I)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Más datos a obtener\n- – Los dispositivos móviles nos proporcionan hábitos de vida de su dueño\n- Gran cantidad de apps que hacen \"telemetría\" de nuestra vida\n- Los asistentes de voz nos escuchan constantemente",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 44.68431854248047,
+                "t": 401.6341247558594,
+                "r": 302.8038330078125,
+                "b": 382.2259521484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 364.53619384765625,
+                "r": 627.3154296875,
+                "b": 319.0259094238281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                71
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 116.26068878173828,
+                "t": 304.1468811035156,
+                "r": 637.9081420898438,
+                "b": 286.89569091796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 116.26068878173828,
+                "t": 276.0118408203125,
+                "r": 552.0521850585938,
+                "b": 262.242919921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                51
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Motivación (II)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Tras un delito o incidente de seguridad\n- Auditoría de seguridad\n- – Mantenimiento de la privacidad, transmisiones de datos seguras, etc.\n- – Revisar el cumplimiento de regulaciones y estándares de seguridad\n- – Verificar que los usuarios destruyen datos sensibles debidamente",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.1590270996094,
+                "r": 569.5568237304688,
+                "b": 372.73248291015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                41
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 355.5030517578125,
+                "r": 363.4254455566406,
+                "b": 327.9164733886719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 312.6000671386719,
+                "r": 675.4097900390625,
+                "b": 254.97994995117188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 239.7500762939453,
+                "r": 583.214111328125,
+                "b": 182.12994384765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 167.0111083984375,
+                "r": 580.9176635742188,
+                "b": 114.01195526123047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                66
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Situaciones de forense en móviles"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Antes todo era en un entorno cerrado\n- – PC, servidores, red.\n- Con la aparición del teléfono móvil\n- – Fuera del entorno de la empresa\n- – Nuevos tipos de datos: llamadas, SMS\n- Con la aparición del Smartphone\n- – Nuevos datos: localizaciones, mensajes, emails\n- La situación se agrava con wearables, vehículos inteligentes, IoT, etc.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 44.78501892089844,
+                "t": 400.7428894042969,
+                "r": 528.56640625,
+                "b": 380.1690673828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                38
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 79.17388916015625,
+                "t": 360.4179382324219,
+                "r": 302.84857177734375,
+                "b": 339.12884521484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 44.78501892089844,
+                "t": 321.7528381347656,
+                "r": 489.6980285644531,
+                "b": 295.9006042480469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 79.17388916015625,
+                "t": 281.2698974609375,
+                "r": 449.8965759277344,
+                "b": 259.01904296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 79.17388916015625,
+                "t": 244.47592163085938,
+                "r": 504.47509765625,
+                "b": 222.2250518798828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                38
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 44.78501892089844,
+                "t": 205.7598419189453,
+                "r": 465.22540283203125,
+                "b": 179.9075927734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 79.17388916015625,
+                "t": 165.2759246826172,
+                "r": 592.8896484375,
+                "b": 142.9990692138672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 44.78501892089844,
+                "t": 126.55982971191406,
+                "r": 651.0115966796875,
+                "b": 64.70759582519531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                73
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Peculiaridades de forense en móviles (I)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- – Mayoritariamente Android e iOS\n- – Millones de aplicaciones para muchos dispositivos (incluso aplicaciones efímeras)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 357.3880615234375,
+                "r": 466.42913818359375,
+                "b": 333.44293212890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 312.00506591796875,
+                "r": 674.4576416015625,
+                "b": 254.46994018554688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "· Sistemas operativos distintos"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- – Nuevas formas de destrucción, ocultación y falsificación de evidencias\n- P.ej.: según metas un código u otro arranca una ROM u otra (con un bootloader), y una de ellas es falsa",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 184.69911193847656,
+                "r": 598.4495849609375,
+                "b": 131.7569580078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 116.47247314453125,
+                "t": 114.04316711425781,
+                "r": 670.25732421875,
+                "b": 64.54740142822266,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                105
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "· Más técnicas antiforense"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- – Más difícil respetar las regulaciones para mantener la legalidad de las evidencias\n- P. ej.: la autorización judicial puede no incluir la nube\n- P. ej.: puede haber la posibilidad de enviar una petición especial para obtener todos los datos de un usuario en alguna red social",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 357.5841064453125,
+                "r": 566.5506591796875,
+                "b": 299.908935546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                84
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 116.47247314453125,
+                "t": 286.92816162109375,
+                "r": 645.0957641601562,
+                "b": 266.2323913574219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 116.47247314453125,
+                "t": 253.33717346191406,
+                "r": 673.7867431640625,
+                "b": 175.04141235351562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                132
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "· Más consideraciones legales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- – Desbloqueo del dispositivo\n- A veces no deja ni acceder por cable\n- – Cifrado del almacenamiento\n- No se puede leer ni accediendo físicamente al chip\n- – Remote wipe\n- Borrado de evidencias sin tener acceso físico al dispositivo",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 370.7670593261719,
+                "r": 404.5079040527344,
+                "b": 346.76593017578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 116.47247314453125,
+                "t": 338.2851257324219,
+                "r": 484.09149169921875,
+                "b": 317.70941162109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                38
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 308.48809814453125,
+                "r": 419.0989074707031,
+                "b": 289.1079406738281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 116.47247314453125,
+                "t": 275.99114990234375,
+                "r": 623.2237548828125,
+                "b": 255.3194122314453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 245.0898895263672,
+                "r": 249.91476440429688,
+                "b": 221.9849395751953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 116.47247314453125,
+                "t": 213.60015869140625,
+                "r": 593.7406005859375,
+                "b": 168.91941833496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "· Mayor protección y cifrado por defecto"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Metodología heredada de la de PC\n1. Identificación y adquisición de evidencias\n2. Preservación de las evidencias\n3. Análisis de las evidencias\n4. Documentación y presentación de los resultados",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.2910461425781,
+                "r": 516.6237182617188,
+                "b": 372.7044677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 77.0735092163086,
+                "t": 357.5841064453125,
+                "r": 579.62353515625,
+                "b": 333.44293212890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 76.26133728027344,
+                "t": 318.4381103515625,
+                "r": 455.7530517578125,
+                "b": 299.0299377441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 76.09329986572266,
+                "t": 279.2911071777344,
+                "r": 395.5120849609375,
+                "b": 259.8829345703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 75.3371353149414,
+                "t": 240.14511108398438,
+                "r": 661.7650146484375,
+                "b": 216.00393676757812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                49
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Metodología"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Aplican la mayoría de las que hemos visto\n- – RFC 3227, etc.\n- Guías específicas:\n- – Guidelines on Mobile Device Forensics de NIST\n- – Developing Process for Mobile Device Forensics s de SANS\n- – Best Practices for Mobile Phone Forensics de SWGDE",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.2910461425781,
+                "r": 608.8244018554688,
+                "b": 372.7044677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 356.3518371582031,
+                "r": 259.6888427734375,
+                "b": 334.4511413574219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/59",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 316.300048828125,
+                "r": 295.8670959472656,
+                "b": 288.7134704589844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/60",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 273.45306396484375,
+                "r": 634.2180786132812,
+                "b": 254.18495178222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/61",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 234.41909790039062,
+                "r": 644.9183349609375,
+                "b": 181.5049591064453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 161.73910522460938,
+                "r": 619.588134765625,
+                "b": 108.82495880126953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Guías"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- A diferencia del forense de PC, puede requerir una actuación más rápida\n- – Evitar la modificación o el borrado remoto de evidencias\n- Meterlo en una jaula (bolsa) de Faraday para aislarlo de señales externas\n- https://paraben.com/wireless-device-protection/\n- – Evitar que se quede sin alimentación eléctrica\n- – Es más probable encontrar un móvil sumergido en agua que un PC",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/65",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 44.83759307861328,
+                "t": 400.60052490234375,
+                "r": 655.7945556640625,
+                "b": 336.7120666503906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 79.17289733886719,
+                "t": 321.8395690917969,
+                "r": 602.816650390625,
+                "b": 270.6908874511719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/67",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 116.42890930175781,
+                "t": 253.64437866210938,
+                "r": 655.69384765625,
+                "b": 209.94808959960938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                75
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 116.42890930175781,
+                "t": 194.26710510253906,
+                "r": 593.2398681640625,
+                "b": 173.69195556640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                49
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 79.17289733886719,
+                "t": 159.04660034179688,
+                "r": 599.35888671875,
+                "b": 135.76052856445312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 79.17289733886719,
+                "t": 121.0055923461914,
+                "r": 657.0067138671875,
+                "b": 65.29051971435547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                64
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Preparación (I)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Si el móvil está sumergido…\n1. Apagar y quitar la batería si es posible\n2. Sumergirlo en alcohol isopropílico (isopropanol) o n-propanol durante varios minutos para quitar el agua\n3. Aplicar papel secante (y si no avena, arroz, etc.)*\n- Y además tener en cuenta…\n- – No usar secadores ni otras fuentes de calor\n- – El agua salada es mucho más corrosiva que la dulce, más probable que no podamos hacer nada",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 44.83759307861328,
+                "t": 400.63153076171875,
+                "r": 415.428466796875,
+                "b": 373.9000549316406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 81.50341033935547,
+                "t": 363.3395690917969,
+                "r": 532.39990234375,
+                "b": 340.05352783203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 80.71754455566406,
+                "t": 329.3127136230469,
+                "r": 669.4149169921875,
+                "b": 247.41651916503906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 80.55494689941406,
+                "t": 236.67669677734375,
+                "r": 648.776123046875,
+                "b": 213.1745147705078,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 44.83759307861328,
+                "t": 200.2505340576172,
+                "r": 415.55242919921875,
+                "b": 178.75990295410156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 79.17289733886719,
+                "t": 162.9315643310547,
+                "r": 572.31787109375,
+                "b": 144.23788452148438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 79.17289733886719,
+                "t": 128.71559143066406,
+                "r": 675.6734619140625,
+                "b": 76.2325210571289,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Preparación (II)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Depende mucho de:\n- – Tipo de dispositivo\n- Android, iPhone, Windows Phone, BlackBerry...\n- – Versión específica de hardware y software\n- – Configuración del dispositivo\n- Nivel de desbloqueo: apagado/encendido, bloqueado/desbloqueado, rooteado, etc.\n- – Tipos de datos a adquirir y su volatilidad\n- Memoria, almacenamiento persistente",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.1590270996094,
+                "r": 331.16644287109375,
+                "b": 372.73248291015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 357.3600769042969,
+                "r": 312.5081787109375,
+                "b": 333.4149475097656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/84",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 116.47247314453125,
+                "t": 320.2851257324219,
+                "r": 589.8031005859375,
+                "b": 299.70941162109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/85",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 284.7341003417969,
+                "r": 576.716796875,
+                "b": 260.5929260253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 245.50210571289062,
+                "r": 426.43658447265625,
+                "b": 221.36093139648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 116.47247314453125,
+                "t": 209.14447021484375,
+                "r": 549.3720092773438,
+                "b": 158.85641479492188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 143.74008178710938,
+                "r": 554.367919921875,
+                "b": 119.73893737792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 116.47247314453125,
+                "t": 106.60911560058594,
+                "r": 510.045166015625,
+                "b": 86.03340148925781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                37
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Adquisición"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Interactuamos con el dispositivo, tomamos capturas de pantalla, fotos de la pantalla, etc.\n- Ventajas\n- – No requiere herramientas\n- – Información fácil de entender para no expertos\n- Desventajas\n- – Sólo es posible si el dispositivo está desbloqueado\n- – Sólo se puede acceder a datos en pantalla\n- – Posible modificación de la información\n- – Lleva más procesar las evidencias",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/91",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 44.65278244018555,
+                "t": 401.7554931640625,
+                "r": 679.5418090820312,
+                "b": 346.175537109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 44.65278244018555,
+                "t": 329.6280517578125,
+                "r": 161.95352172851562,
+                "b": 307.3415222167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/93",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 293.4131164550781,
+                "r": 352.19287109375,
+                "b": 272.83740234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 259.1201477050781,
+                "r": 558.0940551757812,
+                "b": 238.42440795898438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 44.65278244018555,
+                "t": 221.9680633544922,
+                "r": 200.12432861328125,
+                "b": 199.6815185546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/96",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 185.8731689453125,
+                "r": 587.217041015625,
+                "b": 165.1774139404297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 151.46017456054688,
+                "r": 507.1709899902344,
+                "b": 130.76441955566406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/98",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 117.04816436767578,
+                "r": 474.8548278808594,
+                "b": 100.40992736816406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 82.63516998291016,
+                "r": 424.508056640625,
+                "b": 61.93941116333008,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                35
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Tipos de adquisición: manual"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Copiar archivos y directorios del sistema\n- Ventajas\n- – Fácil de obtener, no requiere hardware específico\n- – A veces se puede hacer desde otro dispositivo sin emplear las API del móvil\n- Desventajas\n- – Si usa las API del móvil, pasa por el SO comprometido\n- – No copia archivos borrados o información oculta en el sistema de archivos\n- – Depende de los permisos del sistema de ficheros",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/101",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 44.67832946777344,
+                "t": 401.4380798339844,
+                "r": 523.2669677734375,
+                "b": 377.43695068359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/102",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 44.67832946777344,
+                "t": 360.5168762207031,
+                "r": 165.21035766601562,
+                "b": 337.41192626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/103",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 79.17559051513672,
+                "t": 323.5801696777344,
+                "r": 580.0623779296875,
+                "b": 302.8843994140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                51
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/104",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 79.17559051513672,
+                "t": 289.047119140625,
+                "r": 673.7933349609375,
+                "b": 243.7289276123047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 44.67832946777344,
+                "t": 222.8658905029297,
+                "r": 204.81082153320312,
+                "b": 199.7609405517578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/106",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 79.17559051513672,
+                "t": 185.92916870117188,
+                "r": 620.469482421875,
+                "b": 165.23341369628906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/107",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 79.17559051513672,
+                "t": 151.5171661376953,
+                "r": 630.817138671875,
+                "b": 106.07893371582031,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                75
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/108",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 79.17559051513672,
+                "t": 88.28015899658203,
+                "r": 574.420166015625,
+                "b": 67.60840606689453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                49
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Tipos de adquisición: lógica"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Copia bit a bit\n- Ventajas\n- – Se puede acceder a archivos borrados, zonas de almacenamiento no usadas, etc.\n- Desventajas\n- – Muy complejo y no siempre factible\n- – Requiere acceso completo al almacenamiento, el cual no está siempre accesible físicamente\n- – En muchas ocasiones necesitamos emplear exploits para saltarnos la seguridad y poder acceder",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/110",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 44.726402282714844,
+                "t": 401.1206359863281,
+                "r": 232.51583862304688,
+                "b": 376.26934814453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/111",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 44.726402282714844,
+                "t": 358.9767150878906,
+                "r": 168.89419555664062,
+                "b": 335.0533447265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 79.17479705810547,
+                "t": 320.7623596191406,
+                "r": 590.1708984375,
+                "b": 270.2447204589844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/113",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 44.726402282714844,
+                "t": 252.16671752929688,
+                "r": 209.86834716796875,
+                "b": 228.2433624267578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/114",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 79.17479705810547,
+                "t": 214.0523681640625,
+                "r": 462.2107849121094,
+                "b": 192.52565002441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/115",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 79.17479705810547,
+                "t": 178.349365234375,
+                "r": 680.453125,
+                "b": 126.931640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                91
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/116",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 79.17479705810547,
+                "t": 112.75535583496094,
+                "r": 679.078125,
+                "b": 61.338645935058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Tipos de adquisición: física"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Memorias flash NAND\n- – La más típica para almacenamiento.\n- – De lectura y escritura\n- Memorias flash NOR\n- – Optimiza la ejecución de código\n- – Similar al anterior, pero su uso ha decrecido\n- Las tarjetas de memoria suelen usar memorias NAND y estar formateadas en FAT32\n- – iPhone/iOS no permite su uso\n- – Los otros fabricantes, depende del dispositivo",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/118",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 44.65278244018555,
+                "t": 401.8635559082031,
+                "r": 311.66510009765625,
+                "b": 383.16986083984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/119",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 364.7961730957031,
+                "r": 455.9837646484375,
+                "b": 344.10040283203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/120",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 330.26312255859375,
+                "r": 313.70648193359375,
+                "b": 309.6874084472656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 44.65278244018555,
+                "t": 294.2035827636719,
+                "r": 294.6733093261719,
+                "b": 275.5098876953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 257.13616943359375,
+                "r": 408.4940185546875,
+                "b": 236.44041442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/123",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 222.60311889648438,
+                "r": 525.7540283203125,
+                "b": 202.02740478515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 44.65278244018555,
+                "t": 186.43551635742188,
+                "r": 677.9478149414062,
+                "b": 135.42189025878906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/125",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 117.84046173095703,
+                "r": 390.8474426269531,
+                "b": 96.35240173339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/126",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 82.61116027832031,
+                "r": 544.697021484375,
+                "b": 61.93941116333008,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Tipos de almacenamiento"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Dispositivo desbloqueado (Before First Unlock)\n1. Garantizar alimentación eléctrica y aislarlo de la red\n- Ponerlo en modo avión,\n- Extraer la tarjeta SIM\n2. Tratar de garantizar el acceso físico\n- Desactivar el código de bloqueo si es posible\n- Activar el debugging USB\n- Desactivar o retrasar el bloqueo por inactividad\n3. Meterlo en una bolsa de Faraday que lo aísle de radiación electromagnética\n4. Obtener tarjetas SD, backups en PC asociados, etc.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/128",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 44.67832946777344,
+                "t": 401.80218505859375,
+                "r": 597.5389404296875,
+                "b": 377.43695068359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 81.27450561523438,
+                "t": 363.60516357421875,
+                "r": 620.174560546875,
+                "b": 342.9093933105469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/130",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 111.80022430419922,
+                "t": 330.96142578125,
+                "r": 354.45343017578125,
+                "b": 313.6112976074219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 111.80022430419922,
+                "t": 300.86639404296875,
+                "r": 324.2692565917969,
+                "b": 282.8651123046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/132",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 80.56673431396484,
+                "t": 269.1871643066406,
+                "r": 456.9613952636719,
+                "b": 248.51541137695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 111.80022430419922,
+                "t": 236.56842041015625,
+                "r": 528.7438354492188,
+                "b": 218.4621124267578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 111.80022430419922,
+                "t": 206.47239685058594,
+                "r": 362.6573181152344,
+                "b": 188.4711151123047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 111.80022430419922,
+                "t": 176.4813995361328,
+                "r": 552.7316284179688,
+                "b": 158.48011779785156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 80.42029571533203,
+                "t": 144.82716369628906,
+                "r": 589.2509765625,
+                "b": 95.33140563964844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 79.76133728027344,
+                "t": 81.4951171875,
+                "r": 607.7618408203125,
+                "b": 60.91940689086914,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Acceso según el estado del dispositivo (I)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Dispositivo bloqueado (After First Unlock)\n1. Aislarlo de la red\n- Modo avión + extraer SIM\n2. Comprobar si el debugging USB está activado\n1. Si lo está, tratar de cargar un bootloader para cambiar el inicio y activar el acceso físico al terminal\n2. Si no lo está, tratar de extraer el código de bloqueo ( smudge attack, fuerza bruta, vulnerabilidades, etc.)\n3. Meterlo en una bolsa de Faraday\n4. Obtener tarjetas SD, backups en PC asociados…",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/139",
+          "parent": {
+            "cref": "#/groups/19"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 44.83759307861328,
+                "t": 400.879638671875,
+                "r": 590.6715698242188,
+                "b": 373.9000549316406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/140",
+          "parent": {
+            "cref": "#/groups/19"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 81.50341033935547,
+                "t": 358.9234924316406,
+                "r": 300.56573486328125,
+                "b": 340.3378601074219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/groups/19"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 111.92191314697266,
+                "t": 323.10845947265625,
+                "r": 386.353271484375,
+                "b": 307.1770935058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/142",
+          "parent": {
+            "cref": "#/groups/19"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 80.71754455566406,
+                "t": 288.6465759277344,
+                "r": 612.361328125,
+                "b": 265.36053466796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/143",
+          "parent": {
+            "cref": "#/groups/19"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 112.66389465332031,
+                "t": 252.69546508789062,
+                "r": 659.5786743164062,
+                "b": 205.29795837402344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/144",
+          "parent": {
+            "cref": "#/groups/19"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 111.99147033691406,
+                "t": 192.92637634277344,
+                "r": 637.9461669921875,
+                "b": 145.34495544433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/groups/19"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 80.55494689941406,
+                "t": 130.56451416015625,
+                "r": 477.99359130859375,
+                "b": 107.41352081298828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/146",
+          "parent": {
+            "cref": "#/groups/19"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 79.82327270507812,
+                "t": 92.52352142333984,
+                "r": 634.458740234375,
+                "b": 69.37252044677734,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Acceso según el estado del dispositivo (II)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Dispositivo apagado\n1. Quitar los dispositivos extraíbles\n2. Encender el teléfono\n3. Actuar como en el caso de dispositivo bloqueado\n- Alternativa si el dispositivo está bloqueado: usar una herramienta de pago que nos permita obtener el código de entrada",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/148",
+          "parent": {
+            "cref": "#/groups/20"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.0670166015625,
+                "r": 328.8302307128906,
+                "b": 372.7044677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/149",
+          "parent": {
+            "cref": "#/groups/20"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 81.58050537109375,
+                "t": 357.5841064453125,
+                "r": 482.8608093261719,
+                "b": 333.44293212890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/150",
+          "parent": {
+            "cref": "#/groups/20"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 80.7683334350586,
+                "t": 318.4381103515625,
+                "r": 352.88494873046875,
+                "b": 299.0299377441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/151",
+          "parent": {
+            "cref": "#/groups/20"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 80.60029602050781,
+                "t": 279.15106201171875,
+                "r": 671.0330810546875,
+                "b": 255.14993286132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/152",
+          "parent": {
+            "cref": "#/groups/20"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 49.403160095214844,
+                "t": 193.16305541992188,
+                "r": 653.2962646484375,
+                "b": 88.70046997070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                121
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Acceso según el estado del dispositivo (III)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Cellebrite UFED\n- – https://cellebrite.com/es/cellebrite-ufed-es/\n- Oxygen Forensics Detective\n- – https://www.oxygen-forensic.com/es/",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/154",
+          "parent": {
+            "cref": "#/groups/21"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 24,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.1590270996094,
+                "r": 271.73687744140625,
+                "b": 378.1409912109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/155",
+          "parent": {
+            "cref": "#/groups/21"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 24,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 358.4803161621094,
+                "r": 605.436279296875,
+                "b": 333.4149475097656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/156",
+          "parent": {
+            "cref": "#/groups/21"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 24,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 315.08795166015625,
+                "r": 423.3030700683594,
+                "b": 288.68548583984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/157",
+          "parent": {
+            "cref": "#/groups/21"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 24,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 274.43231201171875,
+                "r": 533.531494140625,
+                "b": 249.366943359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                37
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Herramientas de adquisición (I)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cellebrite UFED Touch 2",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/158",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 24,
+              "bbox": {
+                "l": 262.05902099609375,
+                "t": 229.20401000976562,
+                "r": 434.678955078125,
+                "b": 216.82000732421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Herramientas de adquisición (I)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- – XRY Physical\n- – XRY Logical\n- – XRY Cloud\n- Nubes del móvil\n- – XRY Pinpoint\n- Móviles asiáticos\n- – XRY Camera",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/162",
+          "parent": {
+            "cref": "#/groups/23"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 364.3070983886719,
+                "r": 219.18304443359375,
+                "b": 343.73138427734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/163",
+          "parent": {
+            "cref": "#/groups/23"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 330.71710205078125,
+                "r": 208.57107543945312,
+                "b": 310.1413879394531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/164",
+          "parent": {
+            "cref": "#/groups/23"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 297.1260986328125,
+                "r": 198.2471923828125,
+                "b": 280.60791015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/165",
+          "parent": {
+            "cref": "#/groups/23"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 116.26068878173828,
+                "t": 265.7088928222656,
+                "r": 262.24383544921875,
+                "b": 251.8398895263672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/166",
+          "parent": {
+            "cref": "#/groups/23"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 234.76083374023438,
+                "r": 224.8011474609375,
+                "b": 214.9534149169922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/167",
+          "parent": {
+            "cref": "#/groups/23"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 116.26068878173828,
+                "t": 204.11190795898438,
+                "r": 269.8287353515625,
+                "b": 190.24288940429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/168",
+          "parent": {
+            "cref": "#/groups/23"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 79.17598724365234,
+                "t": 172.97177124023438,
+                "r": 216.90219116210938,
+                "b": 157.41392517089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "· MSAB"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Fuente de la imagen: https://www.forensicfocus.com/reviews/xry-v9-3-from-msab/",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/170",
+          "parent": {
+            "cref": "#/groups/24"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 348.3965148925781,
+                "t": 142.93531799316406,
+                "r": 684.1237182617188,
+                "b": 133.97994995117188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "· MSAB"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- MOBILedit Forensic, SIM Cloning Tool, etc.\n- – https://www.mobiledit.com/downloads",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/172",
+          "parent": {
+            "cref": "#/groups/25"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 26,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.1310119628906,
+                "r": 614.90478515625,
+                "b": 372.7044677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/173",
+          "parent": {
+            "cref": "#/groups/25"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 26,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 358.50830078125,
+                "r": 553.333251953125,
+                "b": 333.44293212890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                37
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Herramientas de adquisición (III)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Belkasoft Remote Acquisition\n- – https://belkasoft.com/r\n- ForensicToolKit – FTK (AccessData - Exterro)\n- – https://www.exterro.com/forensic-toolkit\n- Axiom Cyber (Magnet)\n- – https://www.magnetforensics.com/products/mag net-axiom-cyber",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/175",
+          "parent": {
+            "cref": "#/groups/26"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.259033203125,
+                "r": 447.1132507324219,
+                "b": 372.7044677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/176",
+          "parent": {
+            "cref": "#/groups/26"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 358.50830078125,
+                "r": 368.772216796875,
+                "b": 333.44293212890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/177",
+          "parent": {
+            "cref": "#/groups/26"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 316.5560607910156,
+                "r": 633.9147338867188,
+                "b": 289.0334777832031,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/178",
+          "parent": {
+            "cref": "#/groups/26"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 274.5173034667969,
+                "r": 575.0657958984375,
+                "b": 249.45193481445312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/179",
+          "parent": {
+            "cref": "#/groups/26"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 232.5650634765625,
+                "r": 360.41717529296875,
+                "b": 204.7224578857422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/180",
+          "parent": {
+            "cref": "#/groups/26"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 190.52731323242188,
+                "r": 668.2965087890625,
+                "b": 137.51193237304688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Herramientas de adquisición (IV)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- En software libre para examinar Android, tenemos Avilla Forensics\n- – Permite técnicas de downgrade de diversas apps para extraer datos de las zonas privadas\n- – https://github.com/AvillaDaniel/AvillaForensics",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/182",
+          "parent": {
+            "cref": "#/groups/27"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 28,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.259033203125,
+                "r": 607.5123291015625,
+                "b": 339.67498779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/183",
+          "parent": {
+            "cref": "#/groups/27"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 28,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 319.1461181640625,
+                "r": 656.085693359375,
+                "b": 261.470947265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                89
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/184",
+          "parent": {
+            "cref": "#/groups/27"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 28,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 247.3903045654297,
+                "r": 636.1749267578125,
+                "b": 222.32493591308594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                49
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Herramientas de adquisición (V)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Por último, tenemos la alternativa de operar a bajo nivel\n- – P. ej.: ADB backup + dd\n- – P. ej.: Pequeñas herramientas de downgrade para acceder a datos privados de ciertas apps\n- Si no somos root, muchos menos datos extraídos",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/187",
+          "parent": {
+            "cref": "#/groups/28"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.3190612792969,
+                "r": 674.3023681640625,
+                "b": 334.3224792480469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/188",
+          "parent": {
+            "cref": "#/groups/28"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 319.0060729980469,
+                "r": 357.5418395996094,
+                "b": 295.00494384765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/189",
+          "parent": {
+            "cref": "#/groups/28"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 279.7750549316406,
+                "r": 667.68017578125,
+                "b": 222.15493774414062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/190",
+          "parent": {
+            "cref": "#/groups/28"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 204.85203552246094,
+                "r": 595.35107421875,
+                "b": 144.35997009277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Herramientas de adquisición (VI)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- El IMEI (International Mobile Equipment Identity) es un código de 15 dígitos que identifica al teléfono\n- – País de fabricación del teléfono\n- – Fabricante\n- – Número de serie del teléfono\n- – Dígito de control\n- Se puede obtener marcando *#06#",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/193",
+          "parent": {
+            "cref": "#/groups/29"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 31,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.54705810546875,
+                "r": 595.7632446289062,
+                "b": 301.23699951171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                105
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/194",
+          "parent": {
+            "cref": "#/groups/29"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 31,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 280.7080993652344,
+                "r": 452.93023681640625,
+                "b": 261.2999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/195",
+          "parent": {
+            "cref": "#/groups/29"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 31,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 241.42208862304688,
+                "r": 218.6880645751953,
+                "b": 222.15396118164062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/196",
+          "parent": {
+            "cref": "#/groups/29"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 31,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 202.4151153564453,
+                "r": 431.337646484375,
+                "b": 183.0069580078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/197",
+          "parent": {
+            "cref": "#/groups/29"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 31,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 163.2691192626953,
+                "r": 287.77886962890625,
+                "b": 139.12794494628906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/198",
+          "parent": {
+            "cref": "#/groups/29"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 31,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 122.17707824707031,
+                "r": 525.96875,
+                "b": 94.39847564697266,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "El IMEI (I)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Se puede obtener información de los dispositivos en https://www.imei.info\n- – https://www.imei.info/?imei=010928003890233",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/200",
+          "parent": {
+            "cref": "#/groups/30"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 32,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.3190612792969,
+                "r": 556.403564453125,
+                "b": 334.3224792480469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                75
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/201",
+          "parent": {
+            "cref": "#/groups/30"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 32,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 320.0703125,
+                "r": 651.04443359375,
+                "b": 295.00494384765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "El IMEI (II)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Contactos\n- Cuentas de usuario\n- Historial de llamadas\n- SMS, MMS\n- Conversaciones de aplicaciones de mensajería\n- Correos electrónicos\n- Publicaciones en RRSS\n- Aplicaciones instaladas\n- Historial de localizaciones\n- Historial de búsquedas\n- Historial de navegación\n- Caché del teclado\n- Datos de los sensores del dispositivo\n- Calendario\n- Documentos\n- Fotos, vídeos, audios\n- Credenciales de redes WiFi\n- Datos eliminados",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/203",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 44.58367156982422,
+                "t": 401.2597351074219,
+                "r": 174.34596252441406,
+                "b": 384.19805908203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/204",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 44.58367156982422,
+                "t": 368.92193603515625,
+                "r": 270.8356628417969,
+                "b": 351.0900573730469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/205",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 44.58367156982422,
+                "t": 335.86492919921875,
+                "r": 288.9795227050781,
+                "b": 317.9810485839844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/206",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 44.58367156982422,
+                "t": 301.9337158203125,
+                "r": 184.17169189453125,
+                "b": 281.4148254394531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/207",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 44.58367156982422,
+                "t": 269.595947265625,
+                "r": 272.42132568359375,
+                "b": 191.24505615234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/208",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 44.58367156982422,
+                "t": 180.5428924560547,
+                "r": 285.2883605957031,
+                "b": 162.529052734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/209",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 44.58367156982422,
+                "t": 147.30392456054688,
+                "r": 302.6263732910156,
+                "b": 129.42005920410156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/210",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 44.58367156982422,
+                "t": 114.19591522216797,
+                "r": 311.3343200683594,
+                "b": 91.91905975341797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/211",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 44.58367156982422,
+                "t": 81.0869140625,
+                "r": 339.6158447265625,
+                "b": 63.20304870605469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/212",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 374.5926818847656,
+                "t": 402.2118835449219,
+                "r": 639.1348876953125,
+                "b": 379.8050537109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/213",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 374.5926818847656,
+                "t": 369.1038818359375,
+                "r": 642.9559936523438,
+                "b": 346.6970520019531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/214",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 374.5926818847656,
+                "t": 335.994873046875,
+                "r": 585.3272705078125,
+                "b": 317.9810485839844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/215",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 374.5926818847656,
+                "t": 302.75592041015625,
+                "r": 671.5234375,
+                "b": 252.4160614013672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/216",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 374.5926818847656,
+                "t": 241.5849151611328,
+                "r": 512.7000122070312,
+                "b": 223.7010498046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/217",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 374.5926818847656,
+                "t": 207.65371704101562,
+                "r": 533.0533447265625,
+                "b": 190.59205627441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/218",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 374.5926818847656,
+                "t": 175.49688720703125,
+                "r": 619.2235107421875,
+                "b": 154.0258331298828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/219",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 374.5926818847656,
+                "t": 142.2589111328125,
+                "r": 637.00341796875,
+                "b": 96.46800994873047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/220",
+          "parent": {
+            "cref": "#/groups/31"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 33,
+              "bbox": {
+                "l": 374.5926818847656,
+                "t": 81.0869140625,
+                "r": 580.8563232421875,
+                "b": 63.20304870605469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artefactos en dispositivos móviles"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Lectura y escritura a bajo nivel: dd y similares\n- Visores hexadecimales\n- – HxD (Windows), gHex, Bless (Linux), iHex (MacOS)\n- Visor y editor SQLite\n- – Es la base de datos más popular para que las aplicaciones persistan sus datos\n- – SQLiteBrowser, r, SQLiteman\n- Editor de textos, grep, strings, exiftool…",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/222",
+          "parent": {
+            "cref": "#/groups/32"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.1310119628906,
+                "r": 655.9966430664062,
+                "b": 372.7044677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/223",
+          "parent": {
+            "cref": "#/groups/32"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 355.2860107421875,
+                "r": 361.21722412109375,
+                "b": 333.2679748535156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/224",
+          "parent": {
+            "cref": "#/groups/32"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 312.96417236328125,
+                "r": 663.618408203125,
+                "b": 288.59893798828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/225",
+          "parent": {
+            "cref": "#/groups/32"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 271.2320251464844,
+                "r": 332.6065673828125,
+                "b": 243.8694610595703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/226",
+          "parent": {
+            "cref": "#/groups/32"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 228.74911499023438,
+                "r": 611.3602294921875,
+                "b": 171.07394409179688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/227",
+          "parent": {
+            "cref": "#/groups/32"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 155.0328826904297,
+                "r": 402.20404052734375,
+                "b": 132.93614196777344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/228",
+          "parent": {
+            "cref": "#/groups/32"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 114.7530517578125,
+                "r": 581.3978881835938,
+                "b": 87.19847106933594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Otras herramientas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Framework automático y todo en uno para pentesting de aplicaciones, análisis de malware y evaluación de seguridad\n- – https:// github.com/MobSF/Mobile-Security-FrameworkMobSF",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/230",
+          "parent": {
+            "cref": "#/groups/33"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 35,
+              "bbox": {
+                "l": 43.87615966796875,
+                "t": 432.1520690917969,
+                "r": 631.6466064453125,
+                "b": 327.7464904785156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                115
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/231",
+          "parent": {
+            "cref": "#/groups/33"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 35,
+              "bbox": {
+                "l": 78.15199279785156,
+                "t": 313.4942932128906,
+                "r": 651.8731079101562,
+                "b": 231.53695678710938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "MobSF (I)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- César Cabanas Burkhalter y Alberto Castro Ortiz en CCN - Amenazas y Tendencias (APT) \" Preparación de dispositivos móviles para su análisis \"\n- – https:// www.youtube.com/watch?v=xQrpDrYMQ74",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/235",
+          "parent": {
+            "cref": "#/groups/34"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 38,
+              "bbox": {
+                "l": 44.89616012573242,
+                "t": 400.3190612792969,
+                "r": 652.7102661132812,
+                "b": 262.9129943847656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/236",
+          "parent": {
+            "cref": "#/groups/34"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 38,
+              "bbox": {
+                "l": 79.17198944091797,
+                "t": 243.25131225585938,
+                "r": 600.9419555664062,
+                "b": 184.5669403076172,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Bibliografía y webgrafía (I)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]
