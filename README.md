@@ -4,7 +4,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org) [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE) [![IBM Docling](https://img.shields.io/badge/IBM-Docling-purple)](https://github.com/DS4SD/docling)
 
-**📖 Documentación completa:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | **🗺️ Mapa del framework:** [`FRAMEWORK.md`](FRAMEWORK.md) | **🤖 Skills IA:** [`.AGENTS/_index.md`](.AGENTS/_index.md)
+**📖 Documentación completa:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | **🗺️ Mapa del framework:** [`FRAMEWORK.md`](FRAMEWORK.md) | **🤖 Skills IA:** [`.AGENTS/_index.md`](.AGENTS/_index.md) | **📊 Diagramas:** [Arquitectura](jullbrain_architecture.svg) y [Pipeline](jullbrain_pipeline.svg)
 
 ---
 
@@ -59,7 +59,7 @@ normativas_rag/                                          normativas_chunks/
 
 | Módulo | Función |
 |--------|---------|
-| `convert_normativas.py` | Motor principal: Orquestación Docling, Barras de Progreso Visuales (`rich`), Caché SHA-256 y manejo `Ctrl+C`. |
+| `convert_normativas.py` | Motor principal: Orquestación Docling, soporte recursivo de carpetas, Barras de Progreso Visuales (`rich`), Caché SHA-256 y manejo `Ctrl+C`. |
 | `legalizer.py` | Detecta jerarquía (TÍTULO/CAPÍTULO/Artículo) y genera TOC interactivos en Markdown. |
 | `HierarchicalChunker` | Integrado vía Docling. Extrae chunks semánticos listos para RAGFlow. |
 | `metadata_extractor.py` | Inyecta YAML frontmatter con Gaceta, fecha, tipo de documento y huella digital (SHA-256). |
@@ -77,6 +77,8 @@ normativas_rag/                                          normativas_chunks/
 **Interrupción Segura (Ctrl+C)** — Puedes detener el análisis en cualquier momento. JullBrain interceptará la señal y guardará a salvo todo el progreso que ya había logrado procesar.
 
 **Recuperación automática de fallos** — Si un lote falla con OCR activo, el sistema reintenta automáticamente sin OCR en ese lote en lugar de interrumpir la conversión.
+
+**Soporte de Subcarpetas Recursivas** — Preserva la estructura jerárquica y de carpetas del origen (`normativas_pdf/` y `formatos_word/`) directamente en las salidas (`normativas_rag/`, `formatos_rag/` y `normativas_chunks/`), manteniendo la clasificación de documentos intacta.
 
 **Caché SHA-256 dinámica** — Cada PDF procesado se registra en `.conversion_cache/manifest.json`. Si arrastras un archivo sin cambios, lo salta en un milisegundo.
 
