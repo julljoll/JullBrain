@@ -1,0 +1,4870 @@
+[
+  {
+    "text": "Caracas, 06 de noviembre de 1998",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 91.31999969482422,
+                "t": 656.9114990234375,
+                "r": 301.68768310546875,
+                "b": 644.7705078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "GACETA OFICIAL DE LA REPUBLICA DE VENEZUELA"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Número 36576",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 443.4494934082031,
+                "t": 657.01123046875,
+                "r": 533.4352416992188,
+                "b": 647.0504760742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "GACETA OFICIAL DE LA REPUBLICA DE VENEZUELA"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "la siguiente,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 85.17749786376953,
+                "t": 558.8895263671875,
+                "r": 148.2156982421875,
+                "b": 545.936279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DECRETA"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Objeto de la ley. Esta Ley tiene por objeto prevenir, controlar, sancionar y erradicar la violencia contra la mujer y la familia, así como asistir a las víctimas de los hechos de violencia previstos en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 85.17749786376953,
+                "t": 426.90374755859375,
+                "r": 543.6141357421875,
+                "b": 382.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                211
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 1º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Derechos protegidos. Esta Ley abarca la protección de los siguientes derechos:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 84.93524932861328,
+                "t": 346.6394958496094,
+                "r": 537.3775024414062,
+                "b": 333.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 2º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. El respeto a la dignidad e integridad física, psicológica y sexual de la persona;\n2. La igualdad de derechos entre el hombre y la mujer;\n3. La protección de la familia y de cada uno de sus miembros; y\n4. Los demás consagrados en la Ley Aprobatoria de la Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia Contra la Mujer \"Convención de Belem Do Pará\".",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 315.1394958496094,
+                "r": 540.932861328125,
+                "b": 286.4647521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                84
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 267.90374755859375,
+                "r": 400.61053466796875,
+                "b": 254.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 236.38949584960938,
+                "r": 457.5768127441406,
+                "b": 223.43624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 204.88949584960938,
+                "r": 541.8347778320312,
+                "b": 160.43624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                175
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 2º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Principios procesales. En la aplicación e interpretación de esta Ley, deberán tenerse en cuenta los siguientes principios:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 84.89250183105469,
+                "t": 124.63949584960938,
+                "r": 541.6144409179688,
+                "b": 95.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 3º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 522.771728515625,
+                "t": 719.7892456054688,
+                "r": 523.1272583007812,
+                "b": 719.25,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 3º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Gratuidad de los procedimientos: Para la tramitación de las acciones previstas en esta Ley, no se empleará papel sellado ni estampillas;\n2. Celeridad: Los órganos receptores de denuncias y los tribunales competentes darán preferencia al conocimiento de los hechos previstos en esta Ley;\n3. Inmediación: Los jueces que hayan de pronunciar la sentencia deberán presenciar la incorporación de las pruebas, de las cuales extraerán su convencimiento;\n4. Imposición de medidas cautelares: Los órganos receptores de denuncia podrán dictar inmediatamente las medidas cautelares indicadas en el artículo 39 de esta Ley;\n5. Confidencialidad: Los órganos receptores de denuncias, los funcionarios de las Unidades de Atención y Tratamiento y los tribunales competentes, deberán guardar la confidencialidad de los asuntos que se someten a su consideración; y\n6. Oralidad: Todos los procedimientos previstos en esta Ley serán orales, pudiéndose dejar constancia escrita de algunas actuaciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 690.1395263671875,
+                "r": 540.46337890625,
+                "b": 661.436279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                139
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 642.1395263671875,
+                "r": 542.3641967773438,
+                "b": 597.686279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                149
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 578.4037475585938,
+                "r": 540.8903198242188,
+                "b": 534.634521484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                158
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 514.6395263671875,
+                "r": 543.935302734375,
+                "b": 470.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                164
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 85.43399810791016,
+                "t": 450.8894958496094,
+                "r": 543.001953125,
+                "b": 390.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                234
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 85.36274719238281,
+                "t": 371.3894958496094,
+                "r": 542.064453125,
+                "b": 342.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 3º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Definición de violencia contra la mujer y la familia. Se entiende por violencia la agresión, amenaza u ofensa ejercida sobre la mujer u otro integrante de la familia, por los cónyuges, concubinos, ex cónyuges, ex concubinos o personas que hayan cohabitado, ascendientes, descendientes y parientes colaterales, consanguíneos o afines, que menoscabe su integridad física, psicológica, sexual o patrimonial.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 306.8894958496094,
+                "r": 542.47021484375,
+                "b": 215.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                404
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 4º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Definición de violencia física. Se considera violencia física toda conducta que directa o indirectamente esté dirigida a ocasionar un daño o sufrimiento físico sobre la persona, tales como heridas, hematomas, contusiones, excoriaciones, dislocaciones, quemaduras, pellizcos, pérdida de dientes, empujones o cualquier otro maltrato que afecte la integridad física de las personas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 84.93524932861328,
+                "t": 179.38949584960938,
+                "r": 543.9371948242188,
+                "b": 103.43624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                379
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 5º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 522.781494140625,
+                "t": 719.7892456054688,
+                "r": 523.1332397460938,
+                "b": 719.2410278320312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 5º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Igualmente se considera violencia física a toda conducta destinada a producir daño a los bienes que integran el patrimonio de la víctima.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.10624694824219,
+                "t": 690.8895263671875,
+                "r": 540.9837646484375,
+                "b": 662.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                137
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 5º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Definición de violencia psicológica. Se considera violencia psicológica toda conducta que ocasione daño emocional, disminuya la autoestima, perjudique o perturbe el sano desarrollo de la mujer u otro integrante de la familia a que se refiere el artículo 4º de esta Ley, tales como conductas ejercidas en deshonra, descrédito o menosprecio al valor personal o dignidad, tratos humillantes y vejatorios, vigilancia constante, aislamiento, amenaza de alejamiento de los hijos o la privación de medios económicos indispensables.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 593.3895263671875,
+                "r": 544.17236328125,
+                "b": 485.9647521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                524
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 6º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Definición de violencia sexual. Se entiende por violencia sexual toda conducta que amenace o vulnere el derecho de la persona a decidir voluntariamente su sexualidad, comprendida en ésta no sólo el acto sexual sino toda forma de contacto o acceso sexual, genital o no genital.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 84.93524932861328,
+                "t": 450.1394958496094,
+                "r": 543.5628051757812,
+                "b": 389.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                276
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 7º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Funciones del Instituto Nacional de la Mujer. El Instituto Nacional de la Mujer es el organismo rector de las políticas y programas de prevención y atención de la violencia contra la mujer y la familia, y tendrá las siguientes funciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 84.99224853515625,
+                "t": 303.8894958496094,
+                "r": 541.7400512695312,
+                "b": 246.5647430419922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                237
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 8º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Formular, ejecutar e instrumentar las políticas y programas de prevención y atención para ser implementados en los diferentes órganos del Poder Ejecutivo Nacional;\n2. Coordinar a nivel estadal y municipal los programas de prevención y atención;\n3. Diseñar conjuntamente con el Ministerio de Justicia y el Consejo de la Judicatura los planes de capacitación de los funcionarios pertenecientes a la",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 225.15374755859375,
+                "r": 542.9512939453125,
+                "b": 180.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                166
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 162.13949584960938,
+                "r": 540.865478515625,
+                "b": 134.13450622558594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 114.90374755859375,
+                "r": 543.0821533203125,
+                "b": 86.21475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                151
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 8º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 522.759765625,
+                "t": 719.7869873046875,
+                "r": 523.1309814453125,
+                "b": 719.25,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 8º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "administración de justicia y de los demás funcionarios que intervengan en el tratamiento de los hechos que contempla esta Ley;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 113.39250183105469,
+                "t": 690.9037475585938,
+                "r": 542.8129272460938,
+                "b": 662.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 8º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4. Diseñar conjuntamente con el Ministerio de Sanidad y Asistencia Social los programas de capacitación e información de los profesionales y funcionarios que realizan actividades de apoyo, servicios y atención médica y psicosocial para el tratamiento adecuado de las víctimas y sus familiares;\n5. Diseñar conjuntamente con el Ministerio de la Familia programas de prevención y educación dirigidos a fortalecer la unidad de la familia y exaltar los valores espirituales de su identidad;\n6. Establecer las pautas de los mensajes y programas a ser transmitidos en los medios de difusión masiva, destinados a prevenir la violencia hacia la mujer y la familia y el acoso sexual;\n7. Registrar las organizaciones no gubernamentales especializadas en la materia regulada por esta Ley y otorgar las autorizaciones correspondientes para el desarrollo de labores preventivas, de control y ejecución de medidas de apoyo y tratamiento a las víctimas y la rehabilitación de los agresores, pudiendo celebrar convenios con dichas organizaciones;\n8. Promover la participación activa de las organizaciones públicas o privadas dedicadas a la atención de la mujer, la familia y otras relacionadas con la materia regulada en esta Ley;\n9. Elaborar los reglamentos para la implementación de esta Ley; y\n10. Las demás que les señalan las leyes y reglamentos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 643.6537475585938,
+                "r": 543.4942016601562,
+                "b": 583.436279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                293
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.43399810791016,
+                "t": 564.9037475585938,
+                "r": 543.8123779296875,
+                "b": 520.4647216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                191
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.36274719238281,
+                "t": 501.90374755859375,
+                "r": 543.7384643554688,
+                "b": 457.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                187
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.27725219726562,
+                "t": 438.8894958496094,
+                "r": 543.3097534179688,
+                "b": 362.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                355
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.61924743652344,
+                "t": 344.3894958496094,
+                "r": 543.04052734375,
+                "b": 299.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.31999969482422,
+                "t": 281.3894958496094,
+                "r": 465.15704345703125,
+                "b": 268.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                65
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 249.88949584960938,
+                "r": 394.4651184082031,
+                "b": 236.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 8º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Obligación del Ministerio de Educación y de las instituciones de educación superior. El Ministerio de Educación deberá incorporar en los planes y programas de estudio, en todos sus niveles y modalidades, contenidos dirigidos a transmitir a los alumnos los valores de la mutua tolerancia, la autoestima, la comprensión, la solución pacífica de los conflictos y la preparación para la vida familiar con derechos y obligaciones domésticas compartidas entre hombres y mujeres y, en general la igualdad de oportunidades entre los géneros. Igual obligación compete a las instituciones de educación superior públicas y privadas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 201.01124572753906,
+                "r": 543.93701171875,
+                "b": 77.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                621
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 9º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 522.781494140625,
+                "t": 719.7794799804688,
+                "r": 523.1370239257812,
+                "b": 719.2417602539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 9º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Asimismo el Ministerio de Educación tomará las medidas necesarias para excluir de los planes de estudio, textos y materiales de apoyo, todos aquellos estereotipos, criterios o valores que expresen cualquier tipo de discriminación o violencia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 690.8895263671875,
+                "r": 543.4699096679688,
+                "b": 633.5647583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                242
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 9º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Ejecución de planes de capacitación. El Ministerio de Justicia y el Consejo de la Judicatura proveerán lo conducente para la ejecución de los planes de capacitación de los funcionarios de la administración de justicia y aquellos que intervengan en el tratamiento de los hechos que contempla esta Ley, diseñados por el Instituto Nacional de la Mujer para el adecuado trato y asistencia de las víctimas de las formas de violencia previstas en esta Ley. A tales efectos podrán celebrar convenios y programas de asistencia conjunta con las organizaciones no gubernamentales especializadas en la materia, autorizadas por el Instituto Nacional de la Mujer.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/56",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 594.9037475585938,
+                "r": 543.9046630859375,
+                "b": 455.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                650
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 10"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Atribuciones del Ministerio de Sanidad y Asistencia Social. El Ministerio de Sanidad y Asistencia Social ejecutará los planes de capacitación e información diseñados por el Instituto Nacional de la Mujer, para que los profesionales y funcionarios que ejercen actividades de apoyo, de servicios y atención médica y psicosocial, actúen adecuadamente en la atención, investigación y prevención de los hechos previstos en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 420.1394958496094,
+                "r": 543.5625,
+                "b": 328.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                427
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 11"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Programas de prevención en medios de difusión masiva. El Ministerio de Transporte y Comunicaciones supervisará la efectiva inclusión de los mensajes y programas destinados a prevenir y eliminar la violencia contra la mujer y la familia, formulados de acuerdo con las pautas dictadas por el Instituto Nacional de la Mujer, en las programaciones habituales de los medios de difusión masiva.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/60",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 292.6394958496094,
+                "r": 543.147705078125,
+                "b": 216.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                388
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 12"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cooperación de estados y municipios. Los estados y municipios cooperarán con el Instituto Nacional de la Mujer en el desarrollo de las funciones de prevención y atención de la violencia contra la mujer y la familia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 180.88949584960938,
+                "r": 542.5617065429688,
+                "b": 136.43624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                215
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 13"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Unidades de atención y tratamiento de hechos de violencia hacia la mujer y la familia. El Instituto Nacional de la Mujer conjuntamente con el Ministerio de",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/64",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 100.51124572753906,
+                "r": 543.6207275390625,
+                "b": 71.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 14"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "6",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/65",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 522.7785034179688,
+                "t": 719.7892456054688,
+                "r": 523.1325073242188,
+                "b": 719.2417602539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 14"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "la Familia y los municipios crearán en cada municipio unidades de atención y tratamiento de hechos de violencia contra la mujer y la familia, destinados a la atención, prevención y tratamiento de los hechos previstos en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.89250183105469,
+                "t": 690.8895263671875,
+                "r": 542.8125,
+                "b": 646.436279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                229
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 14"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Refugios. El Instituto Nacional de la Mujer promoverá en los municipios la creación de refugios para la atención y el albergue de las víctimas de violencia en los casos en que la permanencia en su domicilio o residencia implique amenaza inminente a su integridad física. A estos fines el Instituto Nacional de la Mujer prestará a las alcaldías el apoyo respectivo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 610.6537475585938,
+                "r": 543.2913818359375,
+                "b": 534.686279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                364
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 15"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Capítulo III De los Delitos",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 271.7512512207031,
+                "t": 515.8972778320312,
+                "r": 352.3966369628906,
+                "b": 489.56475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                27
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 15"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Amenaza. El que amenace a la mujer u otro integrante de la familia a que se refiere el artículo 4º con causarle un daño grave e injusto, en su persona o en su patrimonio, será castigado con prisión de seis (6) a quince (15) meses.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 449.40374755859375,
+                "r": 542.8983154296875,
+                "b": 404.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                230
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 16"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Violencia física. El que ejerza violencia física sobre la mujer u otro integrante de la familia a que se refiere el artículo 4º de esta Ley o al patrimonio de éstas, será castigado con prisión de seis (6) a dieciocho (18) meses, siempre que el hecho no constituya otro delito. Si el hecho a que se contrae este artículo se perpetrare habitualmente, la pena se incrementará en la mitad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.83550262451172,
+                "t": 369.15374755859375,
+                "r": 543.616455078125,
+                "b": 293.2147521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                385
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 17"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Acceso carnal violento. Incurrirá en la misma pena prevista en el artículo 375 del Código Penal, el que ejecute el hecho allí descrito en perjuicio de su cónyuge o persona con quien haga vida marital.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 257.3894958496094,
+                "r": 543.2646484375,
+                "b": 212.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                200
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 18"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Acoso sexual. El que solicitare favores o respuestas sexuales para sí o para un tercero, o procurare cualquier tipo de acercamiento sexual no deseado, prevaliéndose de una situación de superioridad laboral, docente o análoga, o con ocasión de relaciones derivadas del ejercicio profesional, y con la amenaza expresa o tácita de causarle un mal relacionado con las legítimas expectativas que",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 177.13949584960938,
+                "r": 543.6549682617188,
+                "b": 101.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                390
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 19"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "7",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 522.7852783203125,
+                "t": 719.7802734375,
+                "r": 523.1332397460938,
+                "b": 719.25,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 19"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "puede tener en el ámbito de dicha relación, será castigado con prisión de tres (3) a doce (12) meses.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/79",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 690.8895263671875,
+                "r": 543.1129150390625,
+                "b": 662.2147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                101
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 19"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando el hecho se ejecutare en perjuicio de la mujer u otro integrante de la familia a que se refiere elel artículo 4º de esta Ley, la pena se incrementará en una tercera parte.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 84.89250183105469,
+                "t": 643.6537475585938,
+                "r": 543.4462890625,
+                "b": 599.2147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                178
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 19"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Violencia psicológica. Fuera de los casos previstos en el Código Penal, el que ejecute cualquier forma de violencia psicológica en contra de alguna de las personas a que se refiere el artículo 4º de esta Ley, será sancionado con prisión de tres (3) a dieciocho (18) meses.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 579.1395263671875,
+                "r": 543.1607055664062,
+                "b": 518.9647216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                272
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 20"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Circunstancias agravantes. Se consideran circunstancias agravantes de los delitos previstos en esta Ley que dan lugar a un incremento de la pena en la mitad:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/84",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 85.22025299072266,
+                "t": 483.1394958496094,
+                "r": 541.3482666015625,
+                "b": 454.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                157
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 21"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Penetrar en la residencia de la víctima o en el lugar donde se habite, cuando la relación conyugal o marital de la víctima con la persona agresora invasora se encuentre en situación de separación de hecho o de derecho, o cuando el matrimonio haya sido disuelto mediante sentencia firme;\n2. Contravenir la orden de salir de la residencia familiar emitida por autoridad competente;\n3. Ejecutarlo con armas;\n4. Ejecutarlo en perjuicio de una mujer embarazada; o\n5. Perpetrarlo en perjuicio de personas discapacitadas, ancianas o menores de edad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/85",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 435.8894958496094,
+                "r": 544.3126220703125,
+                "b": 375.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                289
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 357.1394958496094,
+                "r": 543.1865234375,
+                "b": 328.4647521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 309.90374755859375,
+                "r": 234.01724243164062,
+                "b": 296.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 278.40374755859375,
+                "r": 396.5254211425781,
+                "b": 265.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 85.43399810791016,
+                "t": 246.90374755859375,
+                "r": 542.96044921875,
+                "b": 221.0647430419922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 21"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Omisión de medidas en caso de acoso sexual. Todo patrono o autoridad de superior jerarquía en los centros de empleo, educación o cualquier otra actividad, que en conocimiento de hechos de acoso sexual, por parte de sus subalternos o de las personas que estén bajo su responsabilidad, no ejecute acciones",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 85.22025299072266,
+                "t": 132.88949584960938,
+                "r": 544.3129272460938,
+                "b": 72.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                303
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 22"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "8",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/93",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 522.78076171875,
+                "t": 719.7892456054688,
+                "r": 523.1339721679688,
+                "b": 719.2417602539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 22"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "adecuadas para corregir la situación y prevenir su repetición, será sancionado con el monto de cincuenta unidades tributarias (50 U.T.) a cien unidades tributarias (100 U.T.). Los jueces estimarán a los efectos de la imposición de la multa, la gravedad de los hechos y la diligencia que se ponga en la corrección de los mismos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 690.8895263671875,
+                "r": 543.6232299804688,
+                "b": 617.8147583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                327
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 22"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Omisión de aviso. Los profesionales de la salud que atiendan a las víctimas de los hechos de violencia previstos en esta Ley, deberán dar aviso a cualesquiera de los organismos indicados en el artículo 33 de esta Ley, en el término de las veinticuatro (24) horas siguientes. El incumplimiento de esta obligación se sancionará con el monto de veinticinco unidades tributarias (25 U.T.) a cuarenta unidades tributarias (40 U.T.), por el tribunal a quien corresponda el conocimiento de la causa, de conformidad con la gravedad de los hechos y la reincidencia en el incumplimiento de esta obligación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/96",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 84.76425170898438,
+                "t": 594.8895263671875,
+                "r": 543.1565551757812,
+                "b": 471.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                596
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 23"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Omisión de atención de la denuncia. Serán sancionados con la misma pena prevista en el artículo anterior, los funcionarios de los organismos a que se refiere el artículo 33 de esta Ley, que no dieren la debida tramitación a la denuncia dentro de las cuarenta y ocho (48) horas siguientes a su recepción. De acuerdo con la gravedad de los hechos se podrá imponer además la destitución al funcionario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/98",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 435.8894958496094,
+                "r": 544.3125,
+                "b": 347.06475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                399
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 24"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Pena accesoria. A los penados por los hechos de violencia previstos en esta Ley se les impondrá también como obligación participar en los programas de educación y prevención que sean aconsejables a juicio del personal profesional y de especialistas que intervengan en el proceso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/101",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 85.03500366210938,
+                "t": 258.8894958496094,
+                "r": 543.9379272460938,
+                "b": 198.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                279
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 25"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Trabajo comunitario. Si la pena privativa de libertad a imponer no excede de un año y el sujeto no es reincidente, podrá sustituirse por trabajo comunitario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/103",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 84.76425170898438,
+                "t": 162.88949584960938,
+                "r": 542.7540893554688,
+                "b": 134.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                157
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 26"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Conversión de multas. A los efectos de esta Ley, la conversión de las multas se hará computando un día de arresto por cada mil (1.000) bolívares de multa.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 85.31999969482422,
+                "t": 673.6395263671875,
+                "r": 543.5061645507812,
+                "b": 644.9647216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                154
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 27"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La pena que resulte de la conversión en ningún caso podrá exceder de seis (6) meses de arresto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/106",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 626.3895263671875,
+                "r": 542.2606201171875,
+                "b": 600.5647583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                95
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 27"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Indemnización. Cuando el hecho perpetrado acarreare sufrimiento físico o psicológico, el tribunal que conozca del hecho fijará la indemnización de conformidad con el daño causado, sin perjuicio de la obligación de pago del tratamiento correspondiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 511.6394958496094,
+                "r": 540.5810546875,
+                "b": 451.4647521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                251
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 28"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Reparación. El condenado por los hechos punibles previstos en esta Ley, que haya ocasionado daños patrimoniales a la persona ofendida por el hecho, deberá repararlos con pago de los deterioros que haya sufrido, los cuales determinará el tribunal. Cuando no sea posible su reparación, se indemnizará su pérdida pagándole el valor de mercado de dichos bienes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/111",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 415.6394958496094,
+                "r": 543.1268310546875,
+                "b": 339.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                357
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 29"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Indemnización por acoso sexual. Toda persona responsable de acoso sexual deberá indemnizar a la víctima:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/113",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 85.03500366210938,
+                "t": 303.8894958496094,
+                "r": 542.3427734375,
+                "b": 278.06475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                104
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 30"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Por una suma igual al doble del monto de los daños que el acto haya causado a la persona acosada en su acceso al empleo o posición que aspire, ascenso o desempeño de sus actividades; o\n2. Por una suma no menor del monto de cien unidades tributarias (100 U.T.) ni mayor de quinientas unidades tributarias (500 U.T.), en aquellos casos en que no se puedan determinar daños pecuniarios.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/114",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 256.6394958496094,
+                "r": 544.2610473632812,
+                "b": 212.21475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                187
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/115",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 193.63949584960938,
+                "r": 543.1112060546875,
+                "b": 149.21475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                198
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 30"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Capítulo VII Del Procedimiento",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/116",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 256.7512512207031,
+                "t": 130.39724731445312,
+                "r": 367.0455017089844,
+                "b": 104.06475067138672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 30"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "9",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 522.781494140625,
+                "t": 719.7892456054688,
+                "r": 523.1339721679688,
+                "b": 719.2417602539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 30"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Legitimación para denunciar. Los delitos y faltas constitutivos de violencia a que se refiere esta Ley, podrán ser denunciados por:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/120",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 85.020751953125,
+                "t": 624.1395263671875,
+                "r": 542.9619140625,
+                "b": 595.436279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                131
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 31"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. La víctima;\n2. Los parientes consanguíneos o afines;\n3. El representante del Ministerio Público y la Defensoría Nacional de Derechos de la Mujer; o\n4. Las organizaciones no gubernamentales destinadas a la defensa de los bienes jurídicos protegidos en esta Ley, creadas con anterioridad a la perpetración del hecho punible.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 576.8895263671875,
+                "r": 175.60198974609375,
+                "b": 564.634521484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 545.3895263671875,
+                "r": 326.92364501953125,
+                "b": 532.436279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/123",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 513.8895263671875,
+                "r": 540.6215209960938,
+                "b": 485.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 466.6394958496094,
+                "r": 540.8504638671875,
+                "b": 422.2147521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                174
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 31"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Órganos receptores de denuncia. La denuncia a que se refiere el artículo anterior podrá ser formulada en forma oral o escrita, con la asistencia de abogado o sin ella ante cualesquiera de los siguientes organismos:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/126",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 85.2344970703125,
+                "t": 389.15399169921875,
+                "r": 544.3113403320312,
+                "b": 341.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                214
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 32"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Juzgados de Paz y de Familia;\n2. Juzgados de Primera Instancia en lo Penal;\n3. Prefecturas y Jefaturas Civiles;\n4. Órganos de Policía;\n5. Ministerio Público; y\n6. Cualquier otro que se le atribuya esta competencia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/127",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 323.3894958496094,
+                "r": 280.56610107421875,
+                "b": 310.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/128",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 291.8894958496094,
+                "r": 349.0007629394531,
+                "b": 278.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 260.3894958496094,
+                "r": 284.2982177734375,
+                "b": 247.43624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/130",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 231.49725341796875,
+                "r": 224.1632537841797,
+                "b": 215.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 85.43399810791016,
+                "t": 197.38949584960938,
+                "r": 230.40194702148438,
+                "b": 184.43624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/132",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 85.36274719238281,
+                "t": 165.88949584960938,
+                "r": 395.9454650878906,
+                "b": 152.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 32"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En cada una de las prefecturas y jefaturas civiles del país se creará una oficina especializada en la recepción de denuncias de los hechos de violencia a que se refiere esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 84.83550262451172,
+                "t": 134.40374755859375,
+                "r": 542.3106079101562,
+                "b": 89.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                178
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 32"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "10",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 522.0817260742188,
+                "t": 719.7892456054688,
+                "r": 523.1309814453125,
+                "b": 719.2417602539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 32"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Atención al afectado. Los órganos receptores de denuncia deberán otorgar a la víctima de los hechos de violencia previstos en esta Ley, un trato acorde con su condición de afectado, procurando facilitar al máximo su participación en los trámites en que deba intervenir.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 673.6395263671875,
+                "r": 543.6384887695312,
+                "b": 613.4647216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                269
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 33"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Gestión conciliatoria. Según la naturaleza de los hechos el receptor de la denuncia procurará la conciliación de las partes, para lo cual convocará a una audiencia de conciliación dentro de las treinta y seis (36) horas siguientes a la recepción de la denuncia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/138",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 84.83550262451172,
+                "t": 593.3895263671875,
+                "r": 541.838134765625,
+                "b": 533.2147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                261
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 34"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En caso de no haber conciliación, no realizarse la audencia, o en caso de reincidencia, si el receptor de la denuncia no es el tribunal que conocerá de la causa, el órgano receptor le enviará las actuaciones dentro de las cuarenta y ocho (48) horas siguientes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/139",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 84.83550262451172,
+                "t": 514.6395263671875,
+                "r": 544.0963134765625,
+                "b": 454.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                260
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 34"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Intervención de la víctima y de las organizaciones no gubernamentales. La persona agraviada, la Defensoría Nacional de los Derechos de la Mujer y las organizaciones no gubernamentales a que se refiere el ordinal 4º del artículo 32 de esta Ley, podrán intervenir en el procedimiento, aunque no se hayan constituido como querellantes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 418.5112609863281,
+                "r": 543.9373779296875,
+                "b": 342.7147521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                332
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 35"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Trámite. El juzgamiento de los delitos de que trata esta Ley, salvo el descrito en el artículo 18 de esta Ley, se seguirá por los trámites del procedimiento abreviado previsto en el Título II, Libro Tercero del Código Orgánico Procesal Penal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/144",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 256.65374755859375,
+                "r": 544.3106689453125,
+                "b": 212.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                242
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 36"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Competencia. El juzgamiento de las faltas de que trata esta Ley se tramitará de conformidad con el procedimiento previsto en el Título VI, Libro Tercero del Código Orgánico Procesal Penal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/147",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 85.2344970703125,
+                "t": 126.90374755859375,
+                "r": 542.5971069335938,
+                "b": 82.43624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                188
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 37"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "11",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/148",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 522.0817260742188,
+                "t": 719.7892456054688,
+                "r": 523.0297241210938,
+                "b": 719.25,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 37"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Intervención de órganos especializados. En la recepción de las denuncias y en la investigación procesal de los hechos de que trata esta Ley, se utilizará personal debidamente formado y adiestrado en las especificidades de la violencia contra la mujer y la familia. El juez al sentenciar considerará el informe emitido por la respectiva Unidad de Atención y Tratamiento de Hechos de Violencia hacia la Mujer y la Familia, para el estudio del medio familiar, la evaluación de los daños físicos y psíquicos sufridos por la víctima, estimación del tratamiento posterior y del daño patrimonial.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/151",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 84.83550262451172,
+                "t": 624.1395263671875,
+                "r": 543.6475219726562,
+                "b": 500.9647521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                589
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 38"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Medidas cautelares dictadas por el órgano receptor. Una vez formulada la denuncia correspondiente, el receptor de la misma deberá ordenar de inmediato el examen médico de la víctima y podrá además tomar las medidas cautelares siguientes:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 85.03500366210938,
+                "t": 465.1394958496094,
+                "r": 543.187255859375,
+                "b": 404.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                237
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 39"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Emitir una orden de salida de la parte agresora de la residencia común, independientemente de su titularidad sobre la misma;\n2. Remitir a la víctima a uno de los refugios de que trata el artículo 15 de esta Ley, en los casos en que la permanencia en su domicilio o residencia implique amenaza inminente a su integridad física;\n3. Arresto transitorio hasta por setenta y dos (72) horas, que se cumplirá en la jefatura civil respectiva;\n4. Ordenar la restitución de la víctima al hogar del cual hubiere sido alejada con violencia;\n5. Prohibir el acercamiento del agresor al lugar de trabajo o estudio de la víctima;\n6. Asesorar a la víctima sobre la importancia de preservar las evidencias;\n7. Proveer a la víctima información sobre los derechos que esta Ley le confiere y sobre los servicios gubernamentales o privados disponibles, en particular",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/154",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 386.3894958496094,
+                "r": 541.602783203125,
+                "b": 357.7147521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                127
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/155",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 339.1394958496094,
+                "r": 542.9874877929688,
+                "b": 294.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                201
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/156",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 291.8894958496094,
+                "r": 543.0833740234375,
+                "b": 263.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/157",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 244.65374755859375,
+                "r": 543.614501953125,
+                "b": 216.63450622558594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/158",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 85.43399810791016,
+                "t": 197.40374755859375,
+                "r": 540.8512573242188,
+                "b": 169.38450622558594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                84
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/159",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 85.36274719238281,
+                "t": 150.13949584960938,
+                "r": 504.78302001953125,
+                "b": 137.21475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                74
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/160",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 85.27725219726562,
+                "t": 118.63949584960938,
+                "r": 544.3123779296875,
+                "b": 89.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 39"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "12",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/161",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 522.0817260742188,
+                "t": 719.7892456054688,
+                "r": 523.1272583007812,
+                "b": 719.25,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 39"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "13",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/162",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 522.0817260742188,
+                "t": 719.7892456054688,
+                "r": 523.1332397460938,
+                "b": 719.2410278320312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 39"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "de las Unidades de Atención y Tratamiento a que se refiere el artículo 14 de esta Ley;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/163",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 113.72025299072266,
+                "t": 690.8895263671875,
+                "r": 543.2613525390625,
+                "b": 662.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 39"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "8. Elaborar un informe de aquellas circunstancias que haya observado que sirva al esclarecimiento de los hechos, el cual deberá acompañar a la denuncia; y\n9. Cualquier otra medida aconsejable para la protección personal, física o emocional de la víctima, del grupo familiar o de la pareja.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/164",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 85.61924743652344,
+                "t": 643.6395263671875,
+                "r": 540.9307861328125,
+                "b": 599.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                154
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/165",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 85.31999969482422,
+                "t": 580.6537475585938,
+                "r": 540.403564453125,
+                "b": 551.936279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 39"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Medidas cautelares a dictar por el juez competente. Sin perjuicio de la facultad del juez que conoce de los hechos previstos en esta Ley, de dictar y/o confirmar las medidas cautelares previstas en el artículo anterior, podrá adoptar preventivamente las siguientes:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/167",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 516.1537475585938,
+                "r": 543.56103515625,
+                "b": 455.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                265
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 40"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Fijar pensiones de alimentos para el grupo familiar, para lo cual podrá ordenar al empleador o patrono la retención de los salarios y prestaciones de los presuntos agraviantes, a fin de asegurar el sustento familiar;\n2. Establecer el régimen de guarda y custodia de los hijos, así como las visitas, de conformidad con las disposiciones que rigen la materia; y\n3. Cualquier otra medida aconsejable al bienestar del grupo familiar.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/168",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 437.40374755859375,
+                "r": 542.9981079101562,
+                "b": 392.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                219
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/169",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 374.40374755859375,
+                "r": 544.313232421875,
+                "b": 345.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/170",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 327.15374755859375,
+                "r": 474.020751953125,
+                "b": 314.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 40"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Libertad de prueba. Las partes pueden promover todas las pruebas conducentes al mejor esclarecimiento de los hechos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/172",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 85.020751953125,
+                "t": 278.3894958496094,
+                "r": 540.3099365234375,
+                "b": 249.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                116
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 41"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Facultad de la víctima. A los fines de acreditar cualquiera de los hechos punibles previstos en esta Ley, y sin perjuicio de que el Tribunal competente requiera su comparecencia, la víctima podrá presentar un certificado médico expedido por un profesional que preste servicios en cualquier institución pública o privada.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/174",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 213.88949584960938,
+                "r": 542.9481201171875,
+                "b": 137.96475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                320
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 42"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Modalidad de cumplimiento de la sanción. De conformidad con la naturaleza de los hechos se procurará que las personas detenidas preventivamente o",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/176",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 85.03500366210938,
+                "t": 102.13949584960938,
+                "r": 543.5637817382812,
+                "b": 73.46475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                145
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 43"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "14",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/177",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 522.0817260742188,
+                "t": 719.7892456054688,
+                "r": 523.1309814453125,
+                "b": 719.25,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 43"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "condenadas por los hechos de violencia previstos en esta Ley, trabajen y perciban un ingreso que les permita cumplir con sus obligaciones familiares, pudiéndose, entre otras medidas, diferir el cumplimiento de la sanción a los fines de semana.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/178",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 690.9037475585938,
+                "r": 543.7972412109375,
+                "b": 633.5647583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                243
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 43"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Lugar de cumplimiento de la sanción. Los responsables por hechos de violencia cumplirán la sanción en un lugar especialmente dedicado al desarrollo de los programas de educación y prevención previstos en esta Ley, por el tiempo que el juez establezca.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/180",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 594.8895263671875,
+                "r": 544.1541137695312,
+                "b": 534.686279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                251
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 44"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Lugar provisional de cumplimiento de la pena. Hasta tanto se creen los centros de cumplimiento de pena a que se refiere el artículo anterior, los condenados por los hechos previstos en esta Ley, cumplirán la pena en los establecimientos que al efecto señale el Ejecutivo Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/183",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 85.020751953125,
+                "t": 449.3894958496094,
+                "r": 542.06298828125,
+                "b": 389.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                280
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 45"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Competencias transitorias del Consejo Nacional de la Mujer. Hasta tanto inicie su funcionamiento el Instituto Nacional de la Mujer, las atribuciones conferidas a éste, indicadas en el Capítulo II de esta Ley, serán ejercidas por el Consejo Nacional de la Mujer.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/185",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 85.16325378417969,
+                "t": 353.1614990234375,
+                "r": 544.3125610351562,
+                "b": 293.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                261
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 46"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Aplicación supletoria del Código Penal. En todo lo no previsto se aplicarán las disposiciones del Código Penal, en cuanto no colidan con esta Ley, y sujeto a las especificidades de la misma.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/187",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 257.3894958496094,
+                "r": 543.670166015625,
+                "b": 212.96475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                190
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 47"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Entrada en vigencia. Esta Ley entrará en vigencia a partir del 1º de enero de 1999.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/189",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 85.03500366210938,
+                "t": 177.13949584960938,
+                "r": 542.1213989257812,
+                "b": 151.3147430419922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 48"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Competencia transitoria. Hasta tanto entre en vigencia el Código Orgánico Procesal Penal, serán competentes para el conocimiento de los hechos punibles",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/191",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 84.99224853515625,
+                "t": 112.63949584960938,
+                "r": 544.3126220703125,
+                "b": 83.96475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                151
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 49"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "15",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/192",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 522.0817260742188,
+                "t": 719.7892456054688,
+                "r": 523.1370239257812,
+                "b": 719.2417602539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 49"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "de que se trata esta Ley, los jueces de Primera Instancia en lo Penal y salvo para juzgar el delito previsto en el artículo 18 de esta Ley, se seguirá el procedimiento previsto en el artículo 413 y siguiente del Código de Enjuiciamiento Criminal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/193",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 83.66699981689453,
+                "t": 690.9037475585938,
+                "r": 543.812744140625,
+                "b": 646.436279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                246
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 49"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dada, firmada y sellada en el Palacio Federal Legislativo en Caracas, a los diecinueve días del mes de agosto de mil novecientos noventa y ocho. Año 188º de la Independencia y 139º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/194",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 84.99224853515625,
+                "t": 627.8895263671875,
+                "r": 543.4114990234375,
+                "b": 583.436279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                198
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 49"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "EL PRESIDENTE,, 1 = PEDRO PABLO AGUILAR. EL VICEPRESIDENTE,, 1 = IXORA ROJAS PAZ",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 83.44961547851562,
+                "t": 550.4132995605469,
+                "r": 541.0487670898438,
+                "b": 438.38275146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 49"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Palacio de Miraflores, en Caracas, a los tres días del mes de septiembre de mil novecientos noventa y ocho. Año 188º de la Independencia y 139º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/195",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 84.83550262451172,
+                "t": 417.8894958496094,
+                "r": 541.7637939453125,
+                "b": 376.31475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 49"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cúmplase (L.S.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/196",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 85.26300048828125,
+                "t": 354.8894958496094,
+                "r": 140.69509887695312,
+                "b": 326.2147521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 49"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "RAFAEL CALDERA",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/197",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 409.770751953125,
+                "t": 322.3972473144531,
+                "r": 541.4033813476562,
+                "b": 312.5505065917969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "ARTÍCULO 49"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

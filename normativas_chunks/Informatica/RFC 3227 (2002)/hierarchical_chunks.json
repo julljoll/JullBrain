@@ -1,0 +1,4878 @@
+[
+  {
+    "text": "Grupo de trabajo de red D. Brezinski Solicitud de comentarios: 3227 In-Q-Tel BCP: 55 T. Killalea Categor a: Mejor pr ctica actual neart.org � � Febrero de 2002",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 666.0499877929688,
+                "r": 500.0899963378906,
+                "b": 613.280029296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                159
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Pautas para la recolecci n y archivo de evidencia �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 586.6500244140625,
+                "r": 422.4499816894531,
+                "b": 577.3300170898438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                51
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Estado de esta nota",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 563.9500122070312,
+                "r": 170.4600067138672,
+                "b": 556.5800170898438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Este documento especifica las mejores pr cticas actuales de Internet para el � Comunidad de Internet, y solicita discusi n y sugerencias para � mejoras. La distribuci n de este memo es ilimitada. �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 541.25,
+                "r": 530.239990234375,
+                "b": 509.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                197
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Aviso de copyright",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 495.8500061035156,
+                "r": 163.77000427246094,
+                "b": 486.5299987792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Copyright (C) The Internet Society (2002). Todos los derechos reservados.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 473.1499938964844,
+                "r": 510.3699951171875,
+                "b": 463.8299865722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                73
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Abstracto",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 450.45001220703125,
+                "r": 110.16000366210938,
+                "b": 443.1100158691406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                9
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Un \"incidente de seguridad\" como se define en el \"Glosario de seguridad de Internet\", RFC 2828, es un evento de sistema relevante para la seguridad en el que el sistema la pol tica de seguridad es desobedecida o violada. El prop sito de � � este documento es para proporcionar a los administradores del sistema con directrices sobre la recopilaci n y el archivo de pruebas relevantes para dicha seguridad � incidente. Si la recopilaci n de pruebas se realiza correctamente, es mucho m s til en � � � aprehender al atacante, y tiene muchas m s posibilidades de ser � admisible en caso de un procesamiento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 427.75,
+                "r": 529.8899536132812,
+                "b": 282.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                604
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Tabla de contenido",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 57.16999816894531,
+                "t": 268.8500061035156,
+                "r": 164.16000366210938,
+                "b": 261.4800109863281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Introducci n................................................ .... 2 � 1.1 Convenciones utilizadas en este documento ........................... 2 2 principios rectores durante la recopilaci n de pruebas ................... 3 � 2.1 Orden de volatilidad ......................................... 4 2.2 Cosas a evitar ............................................. 4 2.3 Consideraciones de privacidad ...................................... 5 2.4 Consideraciones legales ........................................ 5 3 El procedimiento de recaudaci n .................................... 6 � 3.1 Transparencia ................................................ 6 3.2 Pasos de recopilaci n ............................................ 6 � 4 El procedimiento de archivo ......................................... 7 4.1 Cadena de Custodia ............................................ 7 4.2 El Archivo ............................................... .. 7",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 246.14999389648438,
+                "r": 542.1599731445312,
+                "b": 102.61000061035156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                942
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 5 herramientas que necesitar ............................................ ... 7 �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 98.55000305175781,
+                "r": 554.010009765625,
+                "b": 89.2300033569336,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                81
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Brezinski & Killalea Mejor pr ctica actual [P gina 1] � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 372.76995849609375,
+                "b": 713.5299682617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "RFC 3227 Evidence Collection and Archiving Febrero de 2002",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 404.0899963378906,
+                "b": 713.5399780273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "6 referencias ................................................ ...... 8 7 Agradecimientos ................................................ 8 8 Consideraciones de seguridad ......................................... 8 9 direcciones de los autores .............................................. 9 10 declaraci n completa de los derechos de � autor ....................................... 10",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 688.75,
+                "r": 536.1099853515625,
+                "b": 624.7099609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                387
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Introducci n�",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 57.52000045776367,
+                "t": 609.3499755859375,
+                "r": 145.91000366210938,
+                "b": 601.739990234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Un \"incidente de seguridad\" tal como se define en [RFC2828] es relevante para la seguridad evento del sistema en el que se desobedece la pol tica de seguridad del sistema � o de otra manera violado. El prop sito de este documento es proporcionar � Administradores del sistema con directrices sobre la recopilaci n y el archivo � evidencia relevante para tal incidente de seguridad. No es nuestro intenci n de insistir en que todos los administradores del sistema sigan � r gidamente � estas pautas cada vez que tienen un incidente de seguridad. M s bien, � queremos proporcionar orientaci n sobre lo que deber an hacer si eligen � � Recopilar y proteger informaci n relacionada con una intrusi n. � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 586.6500244140625,
+                "r": 554.7899780273438,
+                "b": 452.42999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                700
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Tal colecci n representa un esfuerzo considerable por parte de la � Administrador de sistema. Se ha avanzado mucho en los ltimos a os � � acelerar la reinstalaci n del sistema operativo y � facilitar la reversi n de un sistema a un estado \"conocido\", lo que hace � la 'opci n f cil' es a n m s atractiva. Mientras tanto, poco ha sido � � � � hecho para proporcionar formas sencillas de archivar la evidencia (la dificultad opci n). Adem s, aumentar las capacidades de disco y memoria y m s � � � uso generalizado de t cticas de sigilo y de cubrir sus pistas por parte de los � atacantes",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 439.04998779296875,
+                "r": 553.9199829101562,
+                "b": 340.9100036621094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                586
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "han agravado el problema.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 336.95001220703125,
+                "r": 222.37001037597656,
+                "b": 327.6300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si la recopilaci n de pruebas se realiza correctamente, es mucho m s til en � � � aprehender al atacante, y tiene muchas m s posibilidades de ser � admisible en caso de un procesamiento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 314.25,
+                "r": 529.8899536132812,
+                "b": 282.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                186
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Debe usar estas pautas como base para formular su procedimientos de recopilaci n de evidencia del sitio, y debe incorporar su � los procedimientos del sitio en su documentaci n de manejo de incidentes. los � las pautas en este documento pueden no ser apropiadas bajo todos jurisdicciones. Una vez que haya formulado la evidencia de su sitio procedimientos de recaudaci n, debe tener la aplicaci n de la ley para su � � la jurisdicci n confirma que son adecuados. �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 268.8500061035156,
+                "r": 535.969970703125,
+                "b": 191.42999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                464
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1.1 Convenciones utilizadas en este documento",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 57.52000045776367,
+                "t": 178.0500030517578,
+                "r": 326.15997314453125,
+                "b": 170.6800079345703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las palabras clave \"REQUERIDO\", \"DEBE\", \"NO DEBE\", \"DEBER A\", \"NO DEBER A\", � � y \"MAYO\" en este documento deben interpretarse como se describe en \"Clave palabras para su uso en RFCs para indicar los niveles de requisitos \"[RFC2119].",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 155.35000610351562,
+                "r": 546.3699951171875,
+                "b": 123.33000183105469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                233
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Brezinski & Killalea Mejor pr ctica actual [P gina 2] � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 372.76995849609375,
+                "b": 713.5299682617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "RFC 3227 Evidence Collection and Archiving Febrero de 2002",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 404.0899963378906,
+                "b": 713.5399780273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2 principios rectores durante la recopilaci n de pruebas �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 57.5,
+                "t": 688.75,
+                "r": 391.969970703125,
+                "b": 679.4299926757812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Adherirse a la pol tica de seguridad de su sitio y comprometerse con � personal apropiado de manejo de incidentes y aplicaci n de la ley. �\n- Capture una imagen lo m s precisa posible del sistema. �\n- Mantenga notas detalladas. Estos deben incluir fechas y horas. Si posible generar una transcripci n autom tica. (Por ejemplo, en Unix � � sistemas, se puede utilizar el programa 'script', sin embargo, la salida archivo que genera no debe ser a los medios que es parte de la evidencia). Las notas e impresiones deben estar firmadas y fechadas.\n- Tenga en cuenta la diferencia entre el reloj del sistema y UTC. Para cada indicaci n de fecha y hora suministrada, indique si se utiliza la hora UTC � o local.\n- Prep rese para testificar (quiz s a os m s tarde) describiendo todos � � � � acciones que tomaste y en qu momentos. Las notas detalladas ser n � � vital.\n- Minimice los cambios en los datos a medida que los va recopilando. Esto es no limitado a cambios de contenido; debes evitar actualizar el archivo o tiempos de acceso a directorios.\n- Eliminar avenidas externas para el cambio.\n- Cuando se enfrenta con una elecci n entre recolecci n y an lisis � � � primero debe hacer la recolecci n y luego analizarla. �\n- Aunque apenas necesita indicarlo, tus procedimientos deber an ser � implementable. Como con cualquier aspecto de una respuesta de incidente pol tica, los procedimientos deben ser probados para asegurar la � viabilidad,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 666.0499877929688,
+                "r": 511.90997314453125,
+                "b": 645.4299926757812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                141
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 632.0499877929688,
+                "r": 426.3599853515625,
+                "b": 622.72998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 609.3499755859375,
+                "r": 542.4600219726562,
+                "b": 554.6300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                344
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 541.25,
+                "r": 554.3699951171875,
+                "b": 511.2099914550781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 495.8500061035156,
+                "r": 511.93994140625,
+                "b": 465.80999755859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 450.45001220703125,
+                "r": 547.97998046875,
+                "b": 418.42999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                182
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 405.04998779296875,
+                "r": 354.3699951171875,
+                "b": 395.72998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 382.3500061035156,
+                "r": 487.949951171875,
+                "b": 361.6300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                128
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 348.25,
+                "r": 536.1400146484375,
+                "b": 305.239990234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                220
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "particularmente en una crisis. Si es posible, los procedimientos deber an � ser",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 302.8500061035156,
+                "r": 554.7899780273438,
+                "b": 284.2099914550781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "automatizado por razones de velocidad y precisi n. S met dico. � � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 280.1499938964844,
+                "r": 486.3399658203125,
+                "b": 270.8299865722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Para cada dispositivo, se debe adoptar un enfoque met dico que � sigue las pautas establecidas en su procedimiento de recopilaci n. � La velocidad a menudo ser cr tica as que cuando hay una cantidad de � � � dispositivos que requieren un examen pueden ser apropiados para difundir el trabajo entre tu equipo para recolectar la evidencia en paralelo. Sin embargo, en un solo sistema dado, la colecci n debe hacerse paso � Por paso.\n- Proceda de lo vol til a lo menos vol til (ver la Orden � � de volatilidad a continuaci n). �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 94.43000030517578,
+                "t": 257.45001220703125,
+                "r": 541.9000244140625,
+                "b": 180.02999877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                432
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 94.43000030517578,
+                "t": 166.64999389648438,
+                "r": 427.89996337890625,
+                "b": 146.02999877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Brezinski & Killalea Mejor pr ctica actual [P gina 3] � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 75.8499984741211,
+                "r": 372.76995849609375,
+                "b": 66.52999877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "RFC 3227 Evidence Collection and Archiving Febrero de 2002",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 404.0899963378906,
+                "b": 713.5399780273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Deber a hacer una copia a nivel de bit de los medios del sistema. Si tu � desea hacer an lisis forenses debe hacer una copia a nivel de bit � de su copia de evidencia para ese prop sito, ya que su an lisis � � casi con certeza altera los tiempos de acceso a los archivos. Evitar hacer forense en la copia de la evidencia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 688.75,
+                "r": 553.9000244140625,
+                "b": 634.0299682617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                323
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Al recopilar evidencia, debe pasar de lo vol til a lo � menos vol til. Aqu hay un ejemplo de orden de volatilidad para un t pico � � � sistema.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 597.9500122070312,
+                "r": 512.1299438476562,
+                "b": 567.9099731445312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.1 Orden de volatilidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- registros, cach�\n- tabla de enrutamiento, cach de arp, tabla de proceso, estad sticas de � � n cleo �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 552.5499877929688,
+                "r": 200.8000030517578,
+                "b": 543.239990234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 529.8499755859375,
+                "r": 530.7799682617188,
+                "b": 510.94000244140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                84
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.1 Orden de volatilidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "memoria",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 507.1499938964844,
+                "r": 152.4600067138672,
+                "b": 499.80999755859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.1 Orden de volatilidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- sistemas de archivos temporales",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 484.45001220703125,
+                "r": 289.97998046875,
+                "b": 475.1300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.1 Orden de volatilidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "disco",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 461.75,
+                "r": 122.16000366210938,
+                "b": 454.3800048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.1 Orden de volatilidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- datos de registro y monitoreo remoto que son relevantes para el sistema en cuesti n�\n- configuraci n f sica, topolog a de red � � �\n- medios de archivo",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 439.04998779296875,
+                "r": 482.25,
+                "b": 420.1400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 405.04998779296875,
+                "r": 331.8899841308594,
+                "b": 395.72998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 382.3500061035156,
+                "r": 206.16000366210938,
+                "b": 374.9800109863281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.1 Orden de volatilidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Es demasiado f cil destruir la evidencia, aunque involuntariamente. �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 336.95001220703125,
+                "r": 474.3599853515625,
+                "b": 327.6300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.2 Cosas a evitar"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- No se apague hasta que haya completado la recopilaci n de pruebas. � Mucha evidencia puede perderse y el atacante puede haber alterado el scripts / servicios de inicio / apagado para destruir la evidencia.\n- No conf es en los programas en el sistema. Ejecuta tu evidencia � reuniendo programas de medios apropiadamente protegidos (ver abajo).\n- No ejecute programas que modifiquen el tiempo de acceso de todos los archivos el sistema (por ejemplo, 'tar' o 'xcopy').",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 314.25,
+                "r": 518.25,
+                "b": 282.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                207
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 268.8500061035156,
+                "r": 482.4499816894531,
+                "b": 236.82998657226562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                136
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 57.43000030517578,
+                "t": 223.4499969482422,
+                "r": 511.97998046875,
+                "b": 191.42999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.2 Cosas a evitar"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Brezinski & Killalea Mejor pr ctica actual [P gina 4] � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/56",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 87.25,
+                "r": 372.76995849609375,
+                "b": 77.93000030517578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.2 Cosas a evitar"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "RFC 3227 Evidence Collection and Archiving Febrero de 2002",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 404.0899963378906,
+                "b": 713.5399780273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.2 Cosas a evitar"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Al eliminar las avenidas externas para el cambio, tenga en cuenta que simplemente desconectar o filtrar de la red puede desencadenar \"interruptores de hombre muerto\" que detectan cuando est n fuera de la red � y borrar la evidencia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 688.75,
+                "r": 553.9099731445312,
+                "b": 624.6799926757812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                234
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.2 Cosas a evitar"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 2.3 Consideraciones de privacidad\n- Respete las reglas y pautas de privacidad de su empresa y su jurisdicci n legal En particular, aseg rese de que no � � informaci n recopilada junto con la evidencia que est buscando � � para est disponible para cualquier persona que normalmente no tendr a � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/59",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.5,
+                "t": 609.3499755859375,
+                "r": 253.9199981689453,
+                "b": 600.0299682617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/60",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 586.6500244140625,
+                "r": 536.7799682617188,
+                "b": 543.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                261
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.2 Cosas a evitar"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "a esta informaci n. Esto incluye el acceso a los archivos de registro (que � puede revelar patrones de comportamiento del usuario) as como tambi n � � datos personales",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 529.8499755859375,
+                "r": 554.1300048828125,
+                "b": 497.8299865722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                167
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "archivos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 495.8500061035156,
+                "r": 162.3699951171875,
+                "b": 488.510009765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                9
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- No inmiscuirse en la privacidad de las personas sin un fuerte justificaci n. En particular, no recopile informaci n de � � reas a las que normalmente no tiene motivos para acceder (como � almacenes de archivos personales) a menos que tenga suficiente indicaci n� que hay un incidente real\n- Aseg rese de tener el respaldo de la empresa establecida � procedimientos para seguir los pasos que toma para recopilar evidencia de un incidente.\n- 2.4 Consideraciones legales",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/64",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 473.1499938964844,
+                "r": 547.9099731445312,
+                "b": 418.42999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                290
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/65",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 405.04998779296875,
+                "r": 554.7999877929688,
+                "b": 363.58001708984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                148
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.5,
+                "t": 348.25,
+                "r": 217.97999572753906,
+                "b": 338.94000244140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                27
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La evidencia de la computadora necesita ser",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/67",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 325.54998779296875,
+                "r": 331.8999938964844,
+                "b": 316.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Admisible: debe cumplir con ciertas reglas legales antes de puede ser presentado ante un tribunal.\n- Aut ntico: debe ser posible vincular positivamente evidencia � material al incidente.\n- Completo: debe contar toda la historia y no solo una perspectiva particular.\n- Confiable: no debe haber nada sobre c mo fue la evidencia � recogido y posteriormente manejado que arroja dudas sobre su autenticidad y veracidad\n- Cre ble: debe ser f cilmente cre ble y comprensible � � � por un tribunal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 302.8500061035156,
+                "r": 458.1399841308594,
+                "b": 282.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 268.8500061035156,
+                "r": 464.4499816894531,
+                "b": 250.0800018310547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                87
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 94.43000030517578,
+                "t": 234.75,
+                "r": 416.4599914550781,
+                "b": 214.12998962402344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 94.43000030517578,
+                "t": 200.75,
+                "r": 469.9499816894531,
+                "b": 168.72999572753906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                147
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 94.43000030517578,
+                "t": 155.35000610351562,
+                "r": 410.1099853515625,
+                "b": 134.62998962402344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                76
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Brezinski & Killalea Mejor pr ctica actual [P gina 5] � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 372.76995849609375,
+                "b": 713.5299682617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "RFC 3227 Evidence Collection and Archiving Febrero de 2002",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 404.0899963378906,
+                "b": 713.5399780273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3 El procedimiento de recogida",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.43000030517578,
+                "t": 688.75,
+                "r": 236.4600067138672,
+                "b": 679.4299926757812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Sus procedimientos de recolecci n deben ser lo m s detallados posible. Como es � � el caso con sus procedimientos generales de manejo de incidentes, deber an � ser inequ voco, y debe minimizar la cantidad de toma de decisiones � necesario durante el proceso de recolecci n. �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 666.0499877929688,
+                "r": 541.9599609375,
+                "b": 622.72998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                275
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3.1 Transparencia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.43000030517578,
+                "t": 609.3499755859375,
+                "r": 158.4600067138672,
+                "b": 600.0299682617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los m todos utilizados para recolectar evidencia deben ser transparentes y � reproducible. Usted debe estar preparado para reproducir precisamente el m todos que us , y tiene esos m todos probados por independiente � � � expertos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 586.6500244140625,
+                "r": 518.4600219726562,
+                "b": 543.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                230
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3.2 Pasos de la colecci n�",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/79",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.43000030517578,
+                "t": 529.8499755859375,
+                "r": 205.91000366210938,
+                "b": 522.239990234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- D nde est la evidencia? Indique qu sistemas estaban involucrados en el � � � � incidente y de la cual se recopilar n pruebas. �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 507.1499938964844,
+                "r": 542.2100219726562,
+                "b": 486.5299987792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                129
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Establecer lo que puede ser relevante y admisible. Cuando en duda, errar por el lado de recoger demasiado en lugar de no suficiente.\n- Para cada sistema, obtenga el orden de volatilidad correspondiente.\n- Eliminar avenidas externas para el cambio.\n- Siguiendo el orden de volatilidad, recopile la evidencia con herramientas como se discuti en la Secci n 5. � �\n- Registre la extensi n de la deriva del reloj del sistema. �\n- Pregunta qu m s puede ser evidencia mientras trabajas a trav s del � � � pasos de colecci n. �\n- Documenta cada paso.\n- No te olvides de las personas involucradas. Toma notas de qui n estuvo all � � y qu estaban haciendo, qu observaban y c mo � � � reaccionado",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/81",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 473.1499938964844,
+                "r": 482.15997314453125,
+                "b": 443.1100158691406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 427.75,
+                "r": 504.3699951171875,
+                "b": 418.42999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 405.04998779296875,
+                "r": 354.3699951171875,
+                "b": 395.72998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/84",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 382.3500061035156,
+                "r": 463.91998291015625,
+                "b": 363.34002685546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                112
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/85",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 348.25,
+                "r": 444.3599853515625,
+                "b": 338.92999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 325.54998779296875,
+                "r": 506.219970703125,
+                "b": 304.92999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                96
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 291.54998779296875,
+                "r": 222.37001037597656,
+                "b": 282.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 268.8500061035156,
+                "r": 554.7899780273438,
+                "b": 238.77999877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Siempre que sea posible, deber a considerar generar sumas de comprobaci n y � � Firmando criptogr ficamente la evidencia recolectada, ya que esto puede hacerlo � m s f cil de preservar una fuerte cadena de evidencia. Al hacerlo, debes � � no alterar la evidencia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 75.19000244140625,
+                "t": 223.4499969482422,
+                "r": 548.1499633789062,
+                "b": 181.98001098632812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                263
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Brezinski & Killalea Mejores pr cticas actuales [P gina 6] � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/90",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 109.94999694824219,
+                "r": 402.76995849609375,
+                "b": 100.62999725341797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "RFC 3227 Evidence Collection and Archiving Febrero de 2002",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/91",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 404.0899963378906,
+                "b": 713.5399780273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4 El procedimiento de archivo",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 57.29999923706055,
+                "t": 688.75,
+                "r": 230.16000366210938,
+                "b": 679.4299926757812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La evidencia debe ser estrictamente asegurada. Adem s, la Cadena de Custodia � debe estar claramente documentado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/93",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 666.0499877929688,
+                "r": 530.4500122070312,
+                "b": 647.3800048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "acceso"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Deber a poder describir claramente c mo se encontr la evidencia, � � � c mo se manej y todo lo que le sucedi . � � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 609.3499755859375,
+                "r": 462.14996337890625,
+                "b": 588.6300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                116
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.1 Cadena de custodia"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los siguientes deben ser documentados",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/96",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 575.25,
+                "r": 295.97998046875,
+                "b": 565.9400024414062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                37
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.1 Cadena de custodia"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- D nde, cu ndo y por qui n se descubri la evidencia y � � � � recogido.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 552.5499877929688,
+                "r": 422.42999267578125,
+                "b": 531.9400024414062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.1 Cadena de custodia"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- D nde, cu ndo y qui n manej o examin la evidencia. � � � � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/98",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 518.5499877929688,
+                "r": 414.32000732421875,
+                "b": 509.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.1 Cadena de custodia"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Qui n tuvo la custodia de la evidencia, durante qu per odo. C mo fue � � � � almacenado\n- Cuando la evidencia cambi la custodia, cu ndo y c mo � � � la transferencia ocurre (incluya n meros de env o, etc.). � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 495.8500061035156,
+                "r": 518.0999755859375,
+                "b": 477.08001708984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                89
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/100",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 461.75,
+                "r": 450.3499755859375,
+                "b": 441.1300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.1 Cadena de custodia"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si es posible, use medios comunes (en lugar de alg n almacenamiento oscuro) � medios) se debe utilizar para archivar.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/102",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 405.04998779296875,
+                "r": 523.1099853515625,
+                "b": 384.3299865722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El acceso a la evidencia debe ser extremadamente restringido, y debe ser claramente documentado. Deber a ser posible detectar desautorizado � acceso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/103",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 370.95001220703125,
+                "r": 505.8999938964844,
+                "b": 340.9100036621094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                149
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 5 herramientas que necesitar s�",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/104",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 57.43000030517578,
+                "t": 325.54998779296875,
+                "r": 235.97000122070312,
+                "b": 316.22998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Debe tener los programas que necesita para hacer la recolecci n de evidencia y � an lisis forense en medios de solo lectura (p. ej., un CD). Deber as haber � � preparado un conjunto de herramientas para cada uno de los sistemas operativos que administra",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 302.8500061035156,
+                "r": 542.4600219726562,
+                "b": 250.0800018310547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                253
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "antes de tener que usarlo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/106",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 75.43000030517578,
+                "t": 246.14999389648438,
+                "r": 228.37001037597656,
+                "b": 236.82998657226562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Su conjunto de herramientas debe incluir lo siguiente:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/107",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 75.19000244140625,
+                "t": 223.4499969482422,
+                "r": 396.3699951171875,
+                "b": 214.12998962402344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- un programa para examinar procesos (por ejemplo, 'ps').",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/108",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 94.43000030517578,
+                "t": 200.75,
+                "r": 432.3699951171875,
+                "b": 191.42999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- programas para examinar el estado del sistema (por ejemplo, 'showrev', 'ifconfig', 'netstat', 'arp').",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 94.43000030517578,
+                "t": 178.0500030517578,
+                "r": 522.1799926757812,
+                "b": 157.32998657226562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                103
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- un programa para hacer copias de bit a bit (por ejemplo, 'dd', 'SafeBack').",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/110",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 94.43000030517578,
+                "t": 143.9499969482422,
+                "r": 552.3699951171875,
+                "b": 134.62998962402344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Brezinski & Killalea Mejor pr ctica actual [P gina 7] � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/111",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 87.25,
+                "r": 372.76995849609375,
+                "b": 77.93000030517578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "RFC 3227 Evidence Collection and Archiving Febrero de 2002",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 404.0899963378906,
+                "b": 713.5399780273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- programas para generar sumas de comprobaci n y firmas (por ejemplo, � 'sha1sum', una 'suma de comprobaci n' habilitada 'dd', 'SafeBack', 'pgp'). �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/113",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 688.75,
+                "r": 552.3599853515625,
+                "b": 668.1300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                148
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- programas para generar im genes centrales y para examinarlas � (por ejemplo, 'gcore', 'gdb').\n- scripts para automatizar la recopilaci n de pruebas (por ejemplo, The � Coroner's Toolkit [FAR1999]).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/114",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 654.75,
+                "r": 463.969970703125,
+                "b": 634.0299682617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                95
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/115",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 620.6500244140625,
+                "r": 524.7899780273438,
+                "b": 588.6300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                103
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los programas en su conjunto de herramientas deben estar vinculados est ticamente, y �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/116",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 575.25,
+                "r": 482.79998779296875,
+                "b": 554.6300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "no deber a requerir el uso de ninguna biblioteca que no sean las de la � medios de solo lectura. Incluso entonces, dado que se pueden instalar rootkits modernos",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 552.5499877929688,
+                "r": 548.7999877929688,
+                "b": 522.47998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                160
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "a trav s de m dulos de n cleo cargables, debe considerar que sus herramientas � � � podr a no proporcionarle una imagen completa del sistema. �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/118",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 518.5499877929688,
+                "r": 535.9500122070312,
+                "b": 497.8299865722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Debe estar preparado para dar testimonio de la autenticidad y fiabilidad de las herramientas que usas",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/119",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 484.45001220703125,
+                "r": 505.91998291015625,
+                "b": 463.8299865722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                101
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "6 referencias",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/120",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 57.540000915527344,
+                "t": 450.45001220703125,
+                "r": 133.97999572753906,
+                "b": 443.1100158691406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "[FAR1999] Farmer, D. y W Venema, \"Computer Forensics Analysis Class Handouts \", http://www.fish.com/forensics/",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 427.75,
+                "r": 439.97998046875,
+                "b": 407.0299987792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                110
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "[RFC2119] Bradner, S., \"Palabras clave para su uso en RFCs para indicar Niveles de requisitos \", BCP 14, RFC 2119, marzo de 1997.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 393.6499938964844,
+                "r": 499.8999938964844,
+                "b": 373.0299987792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                129
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "[RFC2196] Fraser, B., \"Manual de seguridad del sitio\", FYI 8, RFC 2196, Septiembre de 1997.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/123",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 359.6499938964844,
+                "r": 498.17999267578125,
+                "b": 338.92999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                91
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "[RFC2350] Brownlee, N. y E. Guttman, \"Expectativas para la computadora\" Respuesta a incidentes de seguridad \", FYI 8, RFC 2350, junio de 1998.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 325.54998779296875,
+                "r": 536.7999877929688,
+                "b": 295.510009765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "[RFC2828] Shirey, R., \"Internet Security Glossary\", FYI 36, RFC 2828, mayo de 2000.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/125",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 280.1499938964844,
+                "r": 452.3799743652344,
+                "b": 259.5299987792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "7 Agradecimientos",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/126",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 57.56999969482422,
+                "t": 246.14999389648438,
+                "r": 157.97999572753906,
+                "b": 236.83999633789062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Agradecemos los constructivos comentarios recibidos de Harald Alvestrand, Byron Collie, Barbara Y. Fraser, Gordon Lennox, Andrew Rees, Steve Romig y Floyd Short.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/127",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 74.80000305175781,
+                "t": 223.4499969482422,
+                "r": 468.17999267578125,
+                "b": 191.42999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "8 Consideraciones de seguridad",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/128",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 57.45000076293945,
+                "t": 178.0500030517578,
+                "r": 235.9199981689453,
+                "b": 168.74000549316406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Este documento completo analiza los problemas de seguridad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 75.58999633789062,
+                "t": 155.35000610351562,
+                "r": 426.3699951171875,
+                "b": 146.02999877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Brezinski & Killalea Mejor pr ctica actual [P gina 8] � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/130",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 734.1500244140625,
+                "r": 372.76995849609375,
+                "b": 724.8300170898438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "RFC 3227 Evidence Collection and Archiving Febrero de 2002",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 722.8499755859375,
+                "r": 404.0899963378906,
+                "b": 713.5399780273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "9 direcciones de los autores",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/132",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 57.48999786376953,
+                "t": 688.75,
+                "r": 223.97999572753906,
+                "b": 681.3800048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                28
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dominique Brezinski In-Q-Tel 1000 Wilson Blvd., Ste. 2900 Arlington, VA 22209 Estados Unidos",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 666.0499877929688,
+                "r": 242.19000244140625,
+                "b": 613.280029296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Correo electr nico: dbrezinski@In-Q-Tel.org �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 597.9500122070312,
+                "r": 331.9399719238281,
+                "b": 588.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Tom Killalea Lisi / n na Bro / n Be / al A / tha na Muice Co. Mhaigh Eo IRLANDA",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 563.9500122070312,
+                "r": 218.13999938964844,
+                "b": 511.29998779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Tel fono: +1 206 266-2196 � Correo electr nico: tomk@neart.org �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 495.8500061035156,
+                "r": 277.9399719238281,
+                "b": 475.1400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                64
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Brezinski & Killalea Mejor pr ctica actual [P gina 9] � �",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 57.59000015258789,
+                "t": 109.94999694824219,
+                "r": 372.76995849609375,
+                "b": 100.62999725341797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "RFC 3227 Evidence Collection and Archiving Febrero de 2002 10. Declaraci n completa de los derechos de autor � Copyright (C) The Internet Society (2002). Todos los derechos reservados. Este documento y sus traducciones se pueden copiar y enviar a otros, y trabajos derivados que comentan o explican de otra manera o ayudar en su implementaci n puede ser preparado, copiado, publicado � y distribuido, en todo o en parte, sin restricci n de ning n � � amable, siempre que el aviso de copyright anterior y este p rrafo sean � incluido en todas esas copias y trabajos derivados. Sin embargo, esto el documento en s no puede ser modificado de ninguna manera, como por � el aviso de copyright o referencias a Internet Society u otra Organizaciones de Internet, excepto cuando sea necesario con el prop sito de � desarrollando est ndares de Internet, en cuyo caso los procedimientos para � los derechos de autor definidos en el proceso de Est ndares de Internet deben � ser seguido, o seg n sea necesario para traducirlo a otros idiomas que no sean � Ingl s. � Los permisos limitados concedidos anteriormente son perpetuos y no ser n� revocado por Internet Society o sus sucesores o cesionarios. Este documento y la informaci n contenida en este documento se proporcionan en � un \"TAL CUAL\" y LA SOCIEDAD DE INTERNET Y LA INGENIER A DE INTERNET � TASK FORCE RECHAZA TODAS LAS GARANT AS, EXPRESAS O IMPL CITAS, INCLUYENDO � � PERO NO LIMITADO A CUALQUIER GARANT A QUE EL USO DE LA INFORMACI N � � AQU NO INFRINGE CUALQUIER DERECHO O CUALQUIER GARANT A IMPL CITA DE � � � COMERCIABILIDAD O IDONEIDAD PARA UN PROP SITO PARTICULAR. � Reconocimiento La financiaci n para la funci n del Editor de RFC es proporcionada actualmente � � por el Sociedad de Internet.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/138",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 56.79999923706055,
+                "t": 722.8499755859375,
+                "r": 548.7899780273438,
+                "b": 295.4800109863281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1750
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.2 D nde y c mo archivar � �"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

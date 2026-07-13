@@ -1,0 +1,6232 @@
+[
+  {
+    "text": "Gaceta Oficial N° 37.148 de fecha 28 de febrero de 2001",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 67.46339416503906,
+                "t": 709.0299072265625,
+                "r": 287.463623046875,
+                "b": 701.3439331054688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                55
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "LEY SOBRE MENSAJES DE DATOS Y FIRMAS ELECTRÓNICAS"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 1.. El presente Decreto-Ley tiene por objeto otorgar y reconocer eficacia y valor jurídico a la Firma Electrónica, al Mensaje de Datos y a toda información inteligible en formato electrónico, independientemente de su soporte material, atribuible a personas naturales o jurídicas, públicas o privadas, así como regular todo lo relativo a los Proveedores de Servicios de Certificación y los Certificados Electrónicos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 56.845802307128906,
+                "t": 636.7772827148438,
+                "r": 297.7672424316406,
+                "b": 554.4794311523438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                424
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Objeto y aplicabilidad del Decreto-Ley."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El presente Decreto-Ley será aplicable a los Mensajes de Datos y Firmas Electrónicas independientemente de sus características tecnológicas o de los desarrollos tecnológicos que se produzcan en un futuro. A tal efecto, sus normas serán desarrolladas e interpretadas progresivamente, orientadas a reconocer la validez y eficacia probatoria de los Mensajes de datos y Firmas Electrónicas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 57.13980484008789,
+                "t": 540.3547973632812,
+                "r": 297.7546691894531,
+                "b": 458.0568542480469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                386
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Objeto y aplicabilidad del Decreto-Ley."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La certificación a que se refiere el presente Decreto-Ley no excluye el cumplimiento de las formalidades de registro público o autenticación que, de conformidad con la ley, requieran determinados actos o negocios jurídicos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 57.13980484008789,
+                "t": 443.9815979003906,
+                "r": 297.760986328125,
+                "b": 397.8047180175781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                223
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Objeto y aplicabilidad del Decreto-Ley."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 2.- A los efectos del presente Decreto-Ley, se entenderá por: Persona: Todo sujeto jurídicamente hábil, bien sea natural, jurídica, pública, privada, nacional o extranjera, susceptible de adquirir derechos y contraer obligaciones. Mensajes de datos: Toda información inteligible en formato electrónico o similar que pueda ser almacenada o intercambiada por cualquier medio. Emisor: Persona que origina un Mensaje de Datos por sí mismo, o a través de terceros autorizados. Firma Electrónica: Información creada o utilizada por el Signatario, asociada al Mensaje de Datos, que permite atribuirle su autoría bajo el contexto en el cual ha sido empleado. Signatario: Es la persona titular de una Firma Electrónica o Certificado Electrónico. Destinatario: Persona a quien va dirigido el Mensaje de Datos. Proveedor de Servicios de Certificación: Persona dedicada a proporcionar Certificados Electrónicos y demás actividades previstas en este Decreto-Ley. Acreditación: Es el título que otorga la Superintendencia de servicios de Certificación Electrónica a los Proveedores de Servicios de Certificación para proporcionar certificados electrónicos, una vez cumplidos los requisitos y condiciones establecidos en este Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 55.92180252075195,
+                "t": 371.69012451171875,
+                "r": 297.7956237792969,
+                "b": 60.48563003540039,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1232
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Definiciones."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Certificado Electrónico: Mensaje de Datos proporcionado por un Proveedor de Servicios de Certificación que le atribuye certeza y validez a la Firma Electrónica. Sistema de Información: Aquel utilizado para generar, procesar o archivar de cualquier forma Mensajes de Datos. Usuario: Toda persona que utilice un sistema de información. Inhabilitación técnica: Es la incapacidad temporal o permanente del Proveedor de Servicios de Certificación que impida garantizar el cumplimiento de sus servicios, así como, cumplir con los requisitos y condiciones establecidos en este Decreto-Ley para el ejercicio de sus actividades.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 331.2800598144531,
+                "t": 733.1324462890625,
+                "r": 571.906494140625,
+                "b": 602.6427001953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                619
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Definiciones."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El reglamento del presente Decreto-Ley podrá adaptar las definiciones antes señaladas a los desarrollos tecnológicos que se produzcan en el futuro. Así mismo, podrá establecer otras definiciones que fueren necesarias para la eficaz aplicación de este Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 331.2800598144531,
+                "t": 588.51806640625,
+                "r": 571.8959350585938,
+                "b": 530.3407592773438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                263
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Definiciones."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 3.- El Estado adoptará las medidas que fueren necesarias para que los organismos públicos puedan desarrollar sus funciones, utilizando los mecanismos descritos en este Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 330.9860534667969,
+                "t": 504.2156677246094,
+                "r": 571.9326782226562,
+                "b": 458.0387878417969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                189
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Adaptabilidad del Decreto-Ley."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 4.- Los Mensajes de Datos tendrán la misma eficacia probatoria que la ley otorga a los documentos escritos, sin perjuicio de lo establecido en la primera parte del artículo 6 de este Decreto-Ley. Su promoción, control, contradicción y evacuación como medio de prueba, se realizará conforme a lo previsto para las pruebas libres en el Código de Procedimiento Civil.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 330.9861145019531,
+                "t": 395.7328186035156,
+                "r": 571.9296264648438,
+                "b": 315.82568359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                373
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Eficacia Probatoria."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La información contenida en un Mensaje de Datos, reproducida en formato impreso, tendrá la misma eficacia probatoria atribuida en la ley a las copias o reproducciones fotostáticas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 331.19610595703125,
+                "t": 299.37005615234375,
+                "r": 571.900146484375,
+                "b": 255.59449768066406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                180
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Eficacia Probatoria."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 5.- Los Mensajes de Datos estarán sometidos a las disposiciones constitucionales y legales que garantizan los derechos a la privacidad de las comunicaciones y de acceso a la información personal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 330.9860534667969,
+                "t": 227.06805419921875,
+                "r": 571.93798828125,
+                "b": 181.05596923828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                204
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Sometimiento a la Constitución y a la ley."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 6.- Cuando para determinados actos o negocios jurídicos la ley exija el cumplimiento de solemnidades o formalidades, éstas podrán realizarse utilizando para ello los mecanismos descritos en este Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 330.0620422363281,
+                "t": 154.77655029296875,
+                "r": 571.8907470703125,
+                "b": 108.64896392822266,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                216
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Cumplimiento de solemnidades y formalidades."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando para determinados actos o negocios jurídicos la ley exija la firma autógrafa, ese requisito quedará satisfecho en relación con un Mensaje de Datos al tener asociado una Firma Electrónica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 331.2800598144531,
+                "t": 94.53485870361328,
+                "r": 571.9337768554688,
+                "b": 72.45748901367188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                120
+              ]
+            },
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.445499420166016,
+                "t": 733.1400146484375,
+                "r": 297.746337890625,
+                "b": 713.4252319335938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                121,
+                194
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Cumplimiento de solemnidades y formalidades."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 7.- Cuando la ley requiera que la información sea presentada o conservada en su forma original, ese requisito quedará satisfecho con relación a un Mensaje de Datos si se ha conservado su integridad y cuando la información contenida en dicho Mensaje de Datos esté disponible. A tales efectos, se considerará que un Mensaje de Datos permanece íntegro, si se mantiene inalterable desde que se generó, salvo algún cambio de forma propio del proceso de comunicación, archivo o presentación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 684.9691772460938,
+                "r": 297.8199157714844,
+                "b": 578.6451416015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                494
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Integridad del Mensaje de Datos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 8.- Cuando la ley requiera que la información conste por escrito, ese requisito quedará satisfecho con relación a un Mensaje de Datos, si la información que éste contiene es accesible para su ulterior consulta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 552.4255981445312,
+                "r": 297.80413818359375,
+                "b": 506.34320068359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                219
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Constancia por escrito del Mensaje de Datos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando la ley requiera que ciertos actos o negocios jurídicos consten por escrito y su soporte deba permanecer accesible, conservado o archivado por un período determinado o en forma permanente, estos requisitos quedarán satisfechos mediante la conservación de los Mensajes de Datos, siempre que se cumplan las siguiente condiciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.05699920654297,
+                "t": 492.1839294433594,
+                "r": 297.7453308105469,
+                "b": 421.92529296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                333
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Constancia por escrito del Mensaje de Datos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Que la información que contengan pueda ser consultada posteriormente.\n2. Que conserven el formato en que se generó, archivó o recibió o en algún formato que sea demostrable que reproduce con exactitud la información generada o recibida.\n3. Que se conserve todo dato que permita determinar el origen y el destino del Mensaje de Datos, la fecha y la hora en que fue enviado o recibido.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 75.6031494140625,
+                "t": 419.8714904785156,
+                "r": 297.7600402832031,
+                "b": 397.92022705078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 75.4666519165039,
+                "t": 395.7403869628906,
+                "r": 297.76104736328125,
+                "b": 349.6233215332031,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                166
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 75.56114959716797,
+                "t": 347.56951904296875,
+                "r": 297.7537536621094,
+                "b": 313.51275634765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Constancia por escrito del Mensaje de Datos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Toda persona podrá recurrir a los servicios de un tercero para dar cumplimiento a los requisitos señalados en este artículo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 56.95199966430664,
+                "t": 299.38812255859375,
+                "r": 297.7275390625,
+                "b": 277.43682861328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                124
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Constancia por escrito del Mensaje de Datos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 9.- Las partes podrán acordar un procedimiento para establecer cuándo el Mensaje de Datos proviene efectivamente del Emisor. A falta de acuerdo entre las partes, se entenderá que un Mensajes de Datos proviene del Emisor, cuando éste ha sido enviado por:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 203.02532958984375,
+                "r": 297.787353515625,
+                "b": 144.89312744140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                262
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Verificación de la emisión del Mensaje de Datos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. El propio Emisor.\n2. Persona autorizada para actuar en nombre del Emisor respecto de ese mensaje.\n3. Por un Sistema de Información programado por el Emisor, o bajo su autorización, para que opere automáticamente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 75.6031494140625,
+                "t": 142.77313232421875,
+                "r": 160.65943908691406,
+                "b": 132.89263916015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 75.4666519165039,
+                "t": 130.72332763671875,
+                "r": 297.7568359375,
+                "b": 108.66703033447266,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 75.56114959716797,
+                "t": 106.60272216796875,
+                "r": 297.74951171875,
+                "b": 74.82756042480469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                114
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Verificación de la emisión del Mensaje de Datos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 10.- Salvo acuerdo en contrario entre las partes, el Mensaje de Datos se tendrá por emitido cuando el sistema de información del Emisor lo remita al Destinatario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 330.9873352050781,
+                "t": 721.0616455078125,
+                "r": 571.8823852539062,
+                "b": 689.3359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                171
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Oportunidad de la emisión."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 11.- Salvo acuerdo en contrario entre el Emisor y el Destinatario, el momento de recepción de un Mensaje de Datos se determinará conforme a las siguientes reglas:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 330.9873352050781,
+                "t": 660.8200073242188,
+                "r": 571.8740234375,
+                "b": 626.7527465820312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                171
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Reglas para la determinación de la recepción."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Si el Destinatario ha designado un sistema de información para la recepción de Mensajes de Datos, la recepción tendrá lugar cuando el Mensaje de Datos ingrese al sistema de información designado.\n2. Si el Destinatario no ha designado un sistema de información, la recepción tendrá lugar, salvo prueba en contrario, al ingresar el Mensaje de Datos en un sistema de información utilizado regularmente por el Destinatario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 349.7434997558594,
+                "t": 624.6989135742188,
+                "r": 571.94970703125,
+                "b": 566.5111694335938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                198
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 349.60699462890625,
+                "t": 564.4573364257812,
+                "r": 571.9078369140625,
+                "b": 508.5616149902344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                223
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Reglas para la determinación de la recepción."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 12.- Salvo prueba en contrario, el Mensaje de Datos se tendrá por emitido en el lugar donde el Emisor tenga su domicilio y por recibido en el lugar donde el Destinatario tenga el suyo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 330.9873046875,
+                "t": 480.0950927734375,
+                "r": 571.9706420898438,
+                "b": 433.97802734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                193
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Lugar de emisión y recepción."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 13.- El Emisor de un Mensaje de Datos podrá condicionar los efectos de dicho mensaje a la recepción de un acuse de recibo emitido por el Destinatario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 330.9872741699219,
+                "t": 407.79315185546875,
+                "r": 571.8928833007812,
+                "b": 373.8414001464844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                159
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Del acuse de recibo."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las partes podrán determinar un plazo para la recepción del acuse de recibo. La no recepción de dicho acuse de recibo dentro del plazo convenido, dará lugar a que se tenga el Mensaje de Datos como no emitido.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 331.2812805175781,
+                "t": 359.61175537109375,
+                "r": 571.9002685546875,
+                "b": 313.49468994140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                208
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Del acuse de recibo."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando las partes no establezcan un plazo para la recepción del acuse de recibo, el Mensaje de Datos se tendrá por no emitido si el Destinatario no envía su acuse de recibo en un plazo de veinticuatro (24) horas a partir de su emisión.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 331.2812805175781,
+                "t": 299.38055419921875,
+                "r": 571.9685668945312,
+                "b": 253.35800170898438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                235
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Del acuse de recibo."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando el Emisor reciba el acuse de recibo del Destinatario conforme a lo establecido en el presente artículo, el Mensaje de Datos surtirá todos sus efectos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 331.2812805175781,
+                "t": 239.13885498046875,
+                "r": 571.883544921875,
+                "b": 207.34275817871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                157
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Del acuse de recibo."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 14.- Las partes podrán acordar los mecanismos y métodos para el acuse de recibo de un Mensaje de Datos. Cuando las partes no hayan acordado que para el acuse de recibo se utilice un método determinado, se considerará que dicho requisito se ha cumplido cabalmente mediante:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 330.9872741699219,
+                "t": 178.88665771484375,
+                "r": 571.8865356445312,
+                "b": 120.84834289550781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                281
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Mecanismos y métodos para el acuse de recibo."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Toda comunicación del Destinatario, automatizada o no, que señale la recepción del Mensaje de Datos.\n2. Todo acto del Destinatario que resulte suficiente a los efectos de evidenciar al Emisor que ha recibido su Mensaje de Datos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 349.7431640625,
+                "t": 118.67904663085938,
+                "r": 571.8621826171875,
+                "b": 96.62274932861328,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                103
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 349.6066589355469,
+                "t": 94.55844116210938,
+                "r": 571.902099609375,
+                "b": 60.50168228149414,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                127
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Mecanismos y métodos para el acuse de recibo."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 15.- En la formación de los contratos, las partes podrán acordar que la oferta y aceptación se realicen por medio de Mensajes de Datos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 721.0797119140625,
+                "r": 297.74542236328125,
+                "b": 687.0230102539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                144
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Oferta y aceptación en los contratos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 16.- La Firma Electrónica que permita vincular al Signatario con el Mensaje de Datos y atribuir la autoría de éste, tendrá la misma validez y eficacia probatoria que la ley otorga a la firma autógrafa. A tal efecto, salvo que las partes dispongan otra cosa, la Firma Electrónica deberá llenar los siguientes aspectos:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/60",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 612.646240234375,
+                "r": 297.7464294433594,
+                "b": 542.4086303710938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                326
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Validez y eficacia de la Firma Electrónica. Requisitos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Garantizar que los datos utilizados para su generación puedan producirse sólo una vez, y asegurar, razonablemente, su confidencialidad.\n2. Ofrecer seguridad suficiente de que no pueda ser falsificada con la tecnología existente en cada momento.\n3. No alterar la integridad del Mensaje de Datos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/61",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 75.6031494140625,
+                "t": 540.3652954101562,
+                "r": 297.7401123046875,
+                "b": 506.2276916503906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 75.4666519165039,
+                "t": 504.2337341308594,
+                "r": 297.7925720214844,
+                "b": 472.4586486816406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 75.56114959716797,
+                "t": 468.0528564453125,
+                "r": 270.19122314453125,
+                "b": 458.0463562011719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                49
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Validez y eficacia de la Firma Electrónica. Requisitos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A los efectos de este artículo, la Firma Electrónica podrá formar parte integrante del Mensaje de Datos, o estar inequívocamente asociada a éste; enviarse o no en un mismo acto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/64",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 443.9920959472656,
+                "r": 297.75262451171875,
+                "b": 400.1567077636719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                177
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Validez y eficacia de la Firma Electrónica. Requisitos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 17.- La Firma Electrónica que no cumpla con los requisitos señalados en el artículo anterior no tendrá los efectos jurídicos que se le atribuyen en el presente Capítulo, sin embargo, podrá constituir un elemento de convicción valorable conforme a las reglas de la sana crítica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 371.67962646484375,
+                "r": 297.74530029296875,
+                "b": 313.50225830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                286
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Efectos jurídicos. Sana critica."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 18.- La Firma Electrónica, debidamente certificada por un Proveedor de Servicios de Certificación conforme a lo establecido en este Decreto-Ley, se considerará que cumple con los requisitos señalados en el artículo 16.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 287.32781982421875,
+                "r": 297.7536315917969,
+                "b": 241.31573486328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                227
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "La certificación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 19.- El Signatario de la Firma Electrónica tendrá las siguientes obligaciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 215.02581787109375,
+                "r": 297.76849365234375,
+                "b": 193.01882934570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                87
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Obligaciones del signatario."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Actuar con diligencia para evitar el uso no autorizado de su Firma Electrónica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 94.3467025756836,
+                "t": 178.90472412109375,
+                "r": 297.75689697265625,
+                "b": 159.17942810058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Obligaciones del signatario."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Notificar a su Proveedor de Servicios de Certificación que su Firma Electrónica ha sido controlada por terceros no autorizados o indebidamente utilizada, cuando tenga conocimiento de ello.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 94.64070129394531,
+                "t": 142.78363037109375,
+                "r": 297.781005859375,
+                "b": 86.8774185180664,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                188
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Obligaciones del signatario."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Signatario que no cumpla con las obligaciones antes señaladas será responsable de las consecuencias del uso no autorizado de su Firma Electrónica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 368.7810363769531,
+                "t": 733.1218872070312,
+                "r": 571.8983154296875,
+                "b": 689.3463745117188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                149
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Obligaciones del signatario."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 20.- Se crea la Superintendencia de Servicios de Certificación Electrónica, como un servicio autónomo con autonomía presupuestaria, administrativa, financiera y de gestión, en las materias de su competencia, dependiente del Ministerio de Ciencia y Tecnología.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 330.9873046875,
+                "t": 612.6386108398438,
+                "r": 571.9139404296875,
+                "b": 554.4508056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                268
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Creación de la Superintendencia."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "21.- La Superintendencia de Servicios de Certificación Electrónica tiene por objeto acreditar, supervisar y controlar, en los términos previstos en este Decreto-Ley y sus reglamentos, a los Proveedores de Servicios de Certificación públicos o privados.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 331.2812805175781,
+                "t": 528.286865234375,
+                "r": 571.931884765625,
+                "b": 470.20404052734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                252
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Objeto de la Superintendencia."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 22.- La Superintendencia de Servicios de Certificación Electrónica tendrá las siguientes competencias:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 330.9872741699219,
+                "t": 443.9739990234375,
+                "r": 571.890869140625,
+                "b": 421.9071960449219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Competencias de la Superintendencia."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Otorgar la acreditación y la correspondiente renovación a los Proveedores de Servicios de Certificación una vez cumplidas las formalidades y requisitos de este Decreto-Ley, sus reglamentos y demás normas aplicables.\n2. Revocar o suspender la acreditación otorgada cuando se incumplan las condiciones, requisitos y obligaciones que se establecen en el presente Decreto-Ley.\n3. Mantener, procesar, clasificar, resguardar y custodiar el Registro de los Proveedores de Servicios de Certificación públicos o privados.\n4. Verificar que los Proveedores de Servicios de Certificación cumplan con los requisitos contenidos en el presente Decreto-Ley y sus reglamentos.\n5. Supervisar las actividades de los Proveedores de Servicios de Certificación conforme a este DecretoLey, sus reglamentos y las normas y procedimientos que establezca la Superintendencia en el cumplimiento de sus funciones.\n6. Liquidar, recaudar y administrar las tasas establecidas en el artículo 24 de este Decreto-Ley.\n7. Liquidar y recaudar las multas establecidas en el presente Decreto-Ley.\n8. Administrar los recursos que se le asignen y los que obtenga en el desempeño de sus funciones.\n9. Coordinar con los organismos nacionales o internacionales cualquier aspecto relacionado con el objeto de este Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/81",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 349.7434387207031,
+                "t": 419.8533935546875,
+                "r": 571.9044189453125,
+                "b": 361.7810363769531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                218
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 349.60693359375,
+                "t": 359.6117248535156,
+                "r": 571.8898315429688,
+                "b": 313.4946594238281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                156
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 349.701416015625,
+                "t": 311.4303283691406,
+                "r": 571.9075927734375,
+                "b": 277.418701171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                139
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/84",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 349.596435546875,
+                "t": 275.2493896484375,
+                "r": 571.9118041992188,
+                "b": 241.18212890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/85",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 349.26043701171875,
+                "t": 239.16009521484375,
+                "r": 571.8822021484375,
+                "b": 181.08775329589844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                224
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 349.5856628417969,
+                "t": 178.91844177246094,
+                "r": 571.893798828125,
+                "b": 156.86215209960938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 349.6801452636719,
+                "t": 154.7978515625,
+                "r": 571.9095458984375,
+                "b": 132.8013916015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                74
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 349.57513427734375,
+                "t": 130.73709106445312,
+                "r": 571.8936767578125,
+                "b": 108.67029571533203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 349.1761474609375,
+                "t": 106.62700653076172,
+                "r": 571.8831787109375,
+                "b": 72.49991607666016,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                125
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Competencias de la Superintendencia."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "10. Inspeccionar y fiscalizar la instalación, operación y prestación de servicios realizados por los Proveedores de Servicios de Certificación.\n11. Abrir, de oficio o a instancia de parte, sustanciar y decidir los procedimientos administrativos relativos a presuntas infracciones a este Decreto-Ley.\n12. Requerir de los Proveedores de Servicios de Certificación o sus usuarios, cualquier información que considere necesaria y que esté relacionada con materias relativas al ámbito de sus funciones.\n13. Actuar como mediador en la solución de conflictos que se susciten entre los Proveedores de Servicios de Certificados y sus usuarios, cuando ello sea solicitado por las partes involucradas, sin perjuicio de las atribuciones que tenga el organismo encargado de la protección, educación y defensa del consumidor y el usuario, conforme a la ley que rige esta materia.\n14. Seleccionar los expertos técnicos o legales que considere necesarios para facilitar el ejercicio de sus funciones.\n15. Presentar un informe anual sobre su gestión al Ministerio de adscripción.\n16. Tomar las medidas preventivas o correctivas que considere necesarias conforme a lo previsto en este Decreto-Ley.\n17. Imponer las sanciones establecidas en este DecretoLey.\n18. Determinar la forma y alcance de los requisitos establecidos en los artículos 31 y 32 del presente Decreto-Ley.\n19. Las demás que establezcan la ley y los reglamentos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/91",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 733.1295166015625,
+                "r": 297.72003173828125,
+                "b": 701.3544311523438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 697.0189819335938,
+                "r": 297.7546691894531,
+                "b": 662.9024047851562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/93",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 660.8380737304688,
+                "r": 297.7492980957031,
+                "b": 617.052001953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                197
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 612.65673828125,
+                "r": 297.77142333984375,
+                "b": 520.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                367
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 516.2236938476562,
+                "r": 297.748291015625,
+                "b": 484.5189208984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/96",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 480.1131591796875,
+                "r": 297.73046875,
+                "b": 458.161865234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 455.9925537109375,
+                "r": 297.76202392578125,
+                "b": 421.935791015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                116
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/98",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 419.8714904785156,
+                "r": 295.9990234375,
+                "b": 397.8152160644531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 395.7508850097656,
+                "r": 297.76824951171875,
+                "b": 361.6941223144531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                115
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/100",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 359.62982177734375,
+                "r": 297.0752868652344,
+                "b": 349.6233215332031,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                55
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Competencias de la Superintendencia."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 23.- Son ingresos de la Superintendencia de Servicios de Certificación Electrónica:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/102",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 56.84684371948242,
+                "t": 323.5087585449219,
+                "r": 297.7577819824219,
+                "b": 303.7834167480469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Ingresos de la Superintendencia."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Los recursos que le sean asignados en la Ley de Presupuesto a través del Ministerio de Ciencia y Tecnología.\n2. Los provenientes de su gestión conforme a lo establecido en esta Ley.\n3. Cualquier otro ingreso permitido por ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/103",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 299.38812255859375,
+                "r": 297.7692565917969,
+                "b": 265.260986328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/104",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.46649932861328,
+                "t": 263.2670593261719,
+                "r": 297.7188720703125,
+                "b": 241.21072387695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.56099700927734,
+                "t": 239.15692138671875,
+                "r": 248.2314453125,
+                "b": 229.13992309570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Ingresos de la Superintendencia."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Articulo 24.- La Superintendencia de Servicios de Certificación Electrónica cobrará las siguientes tasas:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/107",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 56.84684371948242,
+                "t": 203.02532958984375,
+                "r": 297.7503967285156,
+                "b": 180.95852661132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                105
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De las tasas."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Por la acreditación de los Proveedores de Servicios de Certificación se cobrará una tasa de un mil unidades tributarias (1.000 U.T.).\n2. Por la renovación de la acreditación de los Proveedores de Servicios de Certificación se cobrará una tasa de quinientas unidades tributarias (500 U.T.).\n3. Por la cancelación de la acreditación de los Proveedores de Servicios de Certificación se\n4. cobrará una tasa de quinientas unidades tributarias (500 U.T.).\n4. Por la autorización que se otorgue a los Proveedores de Servicios de Certificación debidamente acreditados en relación a la garantía de los Certificados Electrónicos proporcionados por Proveedores de Servicios de Certificación extranjeros, conforme a lo establecido en el artículo 44 del presente Decreto-Ley, se cobrará una tasa de quinientas unidades tributarias (500 U.T.).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/108",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 178.90472412109375,
+                "r": 297.7681884765625,
+                "b": 145.2921142578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                136
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.46649932861328,
+                "t": 142.78363037109375,
+                "r": 297.7650146484375,
+                "b": 97.11072540283203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/110",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.56099700927734,
+                "t": 94.54241943359375,
+                "r": 297.7650146484375,
+                "b": 74.81705474853516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/111",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 367.2814636230469,
+                "t": 733.1218872070312,
+                "r": 571.8718872070312,
+                "b": 711.569580078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 349.5963439941406,
+                "t": 708.9907836914062,
+                "r": 571.9053955078125,
+                "b": 614.8079223632812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                379
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De las tasas."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Proveedores de Servicios de Certificación constituidos por entes públicos estarán exentos del pago de las tasas previstas en este artículo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/113",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 331.5856628417969,
+                "t": 600.5888061523438,
+                "r": 571.8991088867188,
+                "b": 566.6265869140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De las tasas."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 25.- La Contraloría Interna del Ministerio de Ciencia y Tecnología, ejercerá las funciones de control, vigilancia y fiscalización de los ingresos, gastos y bienes públicos sobre este servicio autónomo, de conformidad con la ley que regula la materia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/115",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 330.9871520996094,
+                "t": 540.34716796875,
+                "r": 571.8948364257812,
+                "b": 484.5008239746094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                259
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Mecanismos de control."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 26.- La Superintendencia de Servicios de Certificación Electrónica supervisará a los Proveedores de Servicios de Certificación con el objeto de verificar que cumplan con los requerimientos necesarios para ofrecer un servicio eficaz a sus usuarios. A tal efecto, podrá directamente o a través de expertos, realizar las inspecciones y auditorias que fueren necesarias para comprobar que los Proveedores de Servicios de Certificación cumplen con tales requerimientos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 330.9871520996094,
+                "t": 455.9744567871094,
+                "r": 571.9451904296875,
+                "b": 349.74676513671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                473
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la supervisión."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 27.- La Superintendencia de Servicios de Certificación Electrónica podrá adoptar las medidas preventivas o correctivas necesarias para garantizar la confiabilidad de los servicios prestados por los Proveedores de Servicios de Certificación. A tal efecto, podrá ordenar, entre otras medidas, el uso de estándares o prácticas internacionalmente aceptadas para la prestación de los servicios de certificación electrónica, o que el Proveedor se abstenga de realizar cualquier actividad que ponga en peligro la integridad o el buen uso del servicio.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/119",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 330.98699951171875,
+                "t": 323.5166931152344,
+                "r": 571.9598999023438,
+                "b": 205.02737426757812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                553
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Medidas para garantizar la confiabilidad."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 28.- La Superintendencia de Servicios de Certificación Electrónica estará a cargo de un Superintendente, será de libre designación y remoción del Ministro de Ciencia y Tecnología.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 330.98699951171875,
+                "t": 178.912841796875,
+                "r": 571.8927001953125,
+                "b": 132.7852783203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                188
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Designación del Superintendente."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 29.- El Superintendente de Servicios de Certificación Electrónica, debe reunir los siguientes requisitos:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/123",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 330.98699951171875,
+                "t": 106.62137603759766,
+                "r": 571.8758544921875,
+                "b": 84.5440673828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                114
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Requisitos para ser Superintendente."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Ser venezolano.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 349.7431640625,
+                "t": 82.479736328125,
+                "r": 431.4447021484375,
+                "b": 74.83573913574219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Requisitos para ser Superintendente."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2. De reconocida competencia técnica y profesional para el ejercicio de sus funciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/126",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.46649932861328,
+                "t": 733.1400146484375,
+                "r": 297.7597961425781,
+                "b": 711.083740234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Requisitos para ser Superintendente."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "No podrá ser Superintendente, los miembros directivos, agentes, comisarios, administradores o accionistas de empresas o instituciones sometidas al control de la Superintendencia. Tampoco podrá ejercer tal cargo el que tenga parentesco hasta el cuarto grado de consanguinidad o segundo de afinidad con personas naturales también sometidas al control de la Superintendencia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/127",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 57.077842712402344,
+                "t": 697.0189819335938,
+                "r": 297.744140625,
+                "b": 614.8259887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                372
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Requisitos para ser Superintendente."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Dirigir el Servicio Autónomo Superintendencia de Servicios de Certificación Electrónica.\n2. Suscribir los actos y documentos relacionados con las materias especificadas en el artículo 22 de este Decreto-Ley.\n3. Administrar los recursos e ingresos del Servicio Autónomo Superintendencia de Servicios de Certificación Electrónica.\n4. Celebrar previa delegación del Ministro de Ciencia y Tecnología, convenios con organismos públicos o privados, nacionales e internacionales, derivados del cumplimiento de las atribuciones que corresponden a la Superintendencia de Servicios de Certificación Electrónica.\n5. Elaborar el proyecto de presupuesto anual, de conformidad con las previsiones legales correspondientes.\n6. Proponer escalas especiales de remuneración para el personal de la Superintendencia, de conformidad con las disposiciones legales aplicables.\n7. Presentar al Ministro de Ciencia y Tecnología el Proyecto de Reglamento Interno.\n8. Celebrar previa delegación del Ministro de Ciencia y Tecnología, los contratos de trabajo y de servicios de personal, que requiera la Superintendencia de Servicios de Certificación Electrónica para su funcionamiento.\n9. Elaborar anualmente la memoria y cuenta de la Superintendencia de Servicios de Certificación Electrónica.\n10. Las demás que le sean asignadas por el Ministro de Ciencia y Tecnología.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 576.5357055664062,
+                "r": 297.7357177734375,
+                "b": 556.8104248046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                91
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/130",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.46649932861328,
+                "t": 552.4151000976562,
+                "r": 297.775634765625,
+                "b": 518.2985229492188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.56099700927734,
+                "t": 516.2341918945312,
+                "r": 297.7661437988281,
+                "b": 484.5189208984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                120
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/132",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.45599365234375,
+                "t": 480.1236572265625,
+                "r": 297.7693176269531,
+                "b": 412.21697998046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                272
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.1199951171875,
+                "t": 407.81121826171875,
+                "r": 297.76409912109375,
+                "b": 373.8594665527344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                106
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.44549560546875,
+                "t": 371.69012451171875,
+                "r": 297.7441711425781,
+                "b": 337.5630187988281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                144
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.53999328613281,
+                "t": 335.5196838378906,
+                "r": 297.75140380859375,
+                "b": 313.50225830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.43499755859375,
+                "t": 311.45892333984375,
+                "r": 297.7629699707031,
+                "b": 255.61256408691406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                219
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.03599548339844,
+                "t": 251.20672607421875,
+                "r": 297.7683410644531,
+                "b": 219.43162536621094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/138",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.60299682617188,
+                "t": 215.02581787109375,
+                "r": 297.741943359375,
+                "b": 193.01882934570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                76
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Atribuciones del Superintendente. Artículo 30.- Son atribuciones del Superintendente:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 31. Podrán ser Proveedores de Servicios de Certificación, las personas, que cumplan y mantengan los siguientes requisitos:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 56.847896575927734,
+                "t": 118.66302490234375,
+                "r": 297.754638671875,
+                "b": 84.53591918945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                131
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Requisitos para ser Proveedor."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. La capacidad económica y financiera suficiente para prestar los servicios autorizados como Proveedor de\n2. Servicios de Certificación. En el caso de organismos públicos, éstos deberán contar con un presupuesto de gastos y de ingresos que permitan el desarrollo de esta actividad.\n2. La capacidad y elementos técnicos necesarios para proveer Certificados Electrónicos.\n3. Garantizar un servicio de suspensión, cancelación y revocación, rápido y seguro, de los Certificados Electrónicos que proporcione.\n4. Un sistema de información de acceso libre, permanente, actualizado y eficiente en el cual se publiquen las políticas y procedimientos aplicados para la prestación de sus servicios, así como los Certificados Electrónicos que hubiere proporcionado, revocado, suspendido o cancelado y las restricciones o limitaciones aplicables a éstos.\n5. Garantizar que en la emisión de los Certificados Electrónicos que provea se utilicen herramientas y estándares adecuados a los usos internacionales, que estén protegidos contra su alteración o modificación, de tal forma que garanticen la seguridad técnica de los procesos de certificación .\n6. En caso de personas jurídicas, éstas deberán estar legalmente constituidas de conformidad con las leyes del país de origen.\n7. Personal técnico adecuado con conocimiento especializado en la materia y experiencia en el servicio a prestar.\n8. Las demás que señale el reglamento de este Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/142",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 75.60404968261719,
+                "t": 82.4820556640625,
+                "r": 297.7545471191406,
+                "b": 60.59062957763672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                106
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/143",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 367.2825012207031,
+                "t": 733.1324462890625,
+                "r": 571.8895874023438,
+                "b": 689.3359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                172
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/144",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 349.6078796386719,
+                "t": 684.9406127929688,
+                "r": 571.86767578125,
+                "b": 662.9893188476562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                87
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 349.7023620605469,
+                "t": 660.8305053710938,
+                "r": 571.91796875,
+                "b": 626.8682250976562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/146",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 349.5973815917969,
+                "t": 624.6989135742188,
+                "r": 571.8917236328125,
+                "b": 542.5060424804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                337
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/147",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 349.2613830566406,
+                "t": 540.3472290039062,
+                "r": 571.89501953125,
+                "b": 470.0885925292969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                293
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/148",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 349.5868835449219,
+                "t": 468.0347900390625,
+                "r": 571.89697265625,
+                "b": 433.9934997558594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/149",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 349.6798400878906,
+                "t": 431.939697265625,
+                "r": 571.8892211914062,
+                "b": 397.9281005859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/150",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 349.5748291015625,
+                "t": 395.7587890625,
+                "r": 571.8944702148438,
+                "b": 373.7623596191406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Requisitos para ser Proveedor."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El incumplimiento de cualesquiera de los requisitos anteriores dará lugar a la revocatoria de la acreditación otorgada por la Superintendencia de Servicios de Certificación Electrónica, sin perjuicio de las sanciones previstas en este Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/151",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 331.2176818847656,
+                "t": 371.69805908203125,
+                "r": 571.88818359375,
+                "b": 325.5211486816406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                247
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Requisitos para ser Proveedor."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 32.- Los Proveedores de Servicios de Certificación presentarán ante la Superintendencia de Servicios de Certificación Electrónica, junto con la correspondiente solicitud, los documentos que acrediten el cumplimiento de los requisitos señalados en el artículo 31. La Superintendencia de Servicios de Certificación Electrónica, previa verificación de tales documentos, procederá a recibir y procesar dicha solicitud y deberá pronunciarse sobre la acreditación del Proveedor de Servicios de Certificación, dentro de los veinte (20) días hábiles siguientes a la fecha de presentación de la solicitud.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 330.9866943359375,
+                "t": 299.4066162109375,
+                "r": 571.961669921875,
+                "b": 171.2478485107422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                605
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la acreditación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Una vez aprobada la solicitud del Proveedor de Servicios de Certificación, éste presentará, a los fines de su acreditación, garantías que cumplan con los siguientes requisitos:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/154",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 331.28070068359375,
+                "t": 154.792236328125,
+                "r": 571.9176025390625,
+                "b": 120.7249755859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                176
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la acreditación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Ser expedidas por una entidad aseguradora o bancaria autorizada para operar en el país, conforme a las disposiciones que rigen la materia.\n2. Cubrir todos los perjuicios contractuales y extracontractuales de los signatarios y terceros de",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/155",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 349.74285888671875,
+                "t": 118.67120361328125,
+                "r": 571.8934326171875,
+                "b": 84.5440673828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                141
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/156",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 349.6063537597656,
+                "t": 82.50074005126953,
+                "r": 571.8870849609375,
+                "b": 60.48331069946289,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                98
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la acreditación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "buena fe derivados de actuaciones dolosas, culposas u omisiones atribuibles a los administradores, representantes legales o empleados del Proveedor de Servicios de Certificación. El Proveedor de Servicios de Certificación deberá mantener vigente la garantía aquí solicitada por el tiempo de vigencia de su acreditación. El incumplimiento de este requisito dará lugar a la revocatoria de la acreditación otorgada por la",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/158",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 56.85719680786133,
+                "t": 733.1400146484375,
+                "r": 297.76385498046875,
+                "b": 626.7708129882812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                418
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la acreditación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Superintendencia de Servicios de Certificación Electrónica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/159",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 57.15119552612305,
+                "t": 624.7274780273438,
+                "r": 284.5423278808594,
+                "b": 614.8259887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la acreditación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 33.- La Superintendencia de Servicios de Certificación Electrónica podrá negar la solicitud a que se refiere el artículo anterior, en caso que el solicitante no reuna los requisitos señalados en este Decreto-Ley y sus reglamentos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/161",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 56.8466911315918,
+                "t": 588.5361328125,
+                "r": 297.81439208984375,
+                "b": 530.3483276367188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                239
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Negativa de la acreditación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 34.- Los Proveedores de Servicios de Certificación realizarán entre otras, las siguientes actividades:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/163",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 56.8466911315918,
+                "t": 492.1839294433594,
+                "r": 297.76068115234375,
+                "b": 470.1066589355469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Actividades de los Proveedores de Servicios de Certificación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Proporcionar, revocar o suspender los distintos tipos o clases de Certificados Electrónicos.\n2. Ofrecer o facilitar los servicios de creación de Firmas Electrónicas.\n3. Ofrecer servicios de archivo cronológicos de las Firmas Electrónicas certificadas por el Proveedor de Servicios de Certificación.\n4. Ofrecer los servicios de archivo y conservación de mensajes de datos.\n5. Garantizar Certificados Electrónicos proporcionados por Proveedores de Servicios de Certificación extranjeros.\n6. Las demás que se establezcan en el presente Decreto-Ley o en sus reglamentos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/164",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.60284423828125,
+                "t": 468.0528564453125,
+                "r": 297.75555419921875,
+                "b": 448.3275451660156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                95
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/165",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.46634674072266,
+                "t": 443.9920959472656,
+                "r": 297.7093505859375,
+                "b": 424.27728271484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/166",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.56084442138672,
+                "t": 419.8714904785156,
+                "r": 297.75762939453125,
+                "b": 388.08587646484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                132
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/167",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.45584106445312,
+                "t": 383.7504577636719,
+                "r": 297.7271728515625,
+                "b": 361.6941223144531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/168",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.11984252929688,
+                "t": 359.64031982421875,
+                "r": 297.75543212890625,
+                "b": 325.51318359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/169",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.44534301757812,
+                "t": 323.5087585449219,
+                "r": 297.73870849609375,
+                "b": 301.4419250488281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Actividades de los Proveedores de Servicios de Certificación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Certificados Electrónicos proporcionados por los Proveedores de Servicios de Certificación garantizarán la validez de las Firmas Electrónicas que certifiquen, y la titularidad que sobre ellas tengan sus Signatarios.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/170",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 56.85719299316406,
+                "t": 299.39862060546875,
+                "r": 297.75030517578125,
+                "b": 253.26055908203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                219
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Actividades de los Proveedores de Servicios de Certificación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 35.- Los Proveedores de Servicios de Certificación tendrán las siguientes obligaciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/172",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 56.8466911315918,
+                "t": 227.09661865234375,
+                "r": 297.76068115234375,
+                "b": 205.01931762695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                96
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Obligaciones de los Proveedores."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Adoptar las medidas necesarias para determinar la exactitud de los Certificados Electrónicos que proporcionen y la identidad del Signatario.\n2. Garantizar la validez, vigencia y legalidad del Certificado Electrónico que proporcione.\n3. Verificar la información suministrada por el Signatario para la emisión del Certificado Electrónico.\n4. Mantener en medios electrónicos o magnéticos, para su consulta, por diez (10) años siguientes al vencimiento de los Certificados Electrónicos que proporcionen, un archivo cronológico con la\n5. información relacionada con los referidos Certificados Electrónicos.\n5. Garantizar a los Signatarios un medio para notificar el uso indebido de sus Firmas Electrónicas.\n6. Informar a los interesados en sus servicios de certificación, utilizando un lenguaje comprensible en su pagina en la Internet o en cualquier otra red mundial de acceso público, los términos precisos y condiciones para el uso del Certificado Electrónico y, en particular, de cualquier limitación sobre su responsabilidad, así como de los procedimientos especiales existentes para resolver cualquier controversia.\n7. Garantizar la integridad, disponibilidad y accesibilidad de la información y documentos relacionados con los servicios que proporcione. A tales efectos, deberán mantener un respaldo confiable y seguro de dicha información.\n8. Garantizar la adopción de las medidas necesarias para evitar la falsificación de Certificados Electrónicos y de las Firmas Electrónicas que proporcionen.\n9. Efectuar las notificaciones y publicaciones necesarias para informar a los signatarios y personas interesadas acerca del vencimiento, revocación, suspensión o cancelación de los Certificados Electrónicos que proporcione, así como de cualquier otro aspecto de relevancia para el público en general, en relación con dichos Certificados Electrónicos.\n10. Notificar a la Superintendencia de Servicios de Certificación Electrónica cuando tenga conocimiento de cualquier hecho que pueda conllevar a su Inhabilitación Técnica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/173",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.60284423828125,
+                "t": 203.02532958984375,
+                "r": 297.7828369140625,
+                "b": 168.89822387695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/174",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.46634674072266,
+                "t": 166.85491943359375,
+                "r": 297.7229919433594,
+                "b": 144.89312744140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                91
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/175",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.56084442138672,
+                "t": 142.78363037109375,
+                "r": 297.7586364746094,
+                "b": 111.00852966308594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                103
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/176",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.45584106445312,
+                "t": 106.60272216796875,
+                "r": 297.8079833984375,
+                "b": 60.47513198852539,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                192
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/177",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 367.3443298339844,
+                "t": 733.1219482421875,
+                "r": 571.8885498046875,
+                "b": 713.3966674804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/178",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 349.2601623535156,
+                "t": 709.0118408203125,
+                "r": 571.8958740234375,
+                "b": 689.3359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                99
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/179",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 349.5856628417969,
+                "t": 684.9406127929688,
+                "r": 571.9410400390625,
+                "b": 580.8635864257812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                414
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/180",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 349.6801452636719,
+                "t": 576.5281372070312,
+                "r": 571.9462890625,
+                "b": 518.2699584960938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                225
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/181",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 349.57513427734375,
+                "t": 516.2266235351562,
+                "r": 571.9409790039062,
+                "b": 470.2041015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                156
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/182",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 349.1761474609375,
+                "t": 468.0347900390625,
+                "r": 571.9179077148438,
+                "b": 376.0673828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                350
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/183",
+          "parent": {
+            "cref": "#/groups/15"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 349.7431640625,
+                "t": 371.6720886230469,
+                "r": 571.89794921875,
+                "b": 327.82611083984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                171
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Obligaciones de los Proveedores."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El incumplimiento de cualesquiera de los requisitos anteriores dará lugar a la suspensión de la acreditación otorgada por la Superintendencia de Servicios de Certificación Electrónica, sin perjuicio de las sanciones establecidas en el presente Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/184",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 331.2179870605469,
+                "t": 311.4303894042969,
+                "r": 571.8958740234375,
+                "b": 253.25299072265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                256
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Obligaciones de los Proveedores."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 36.- La contraprestación por los servicios que los Proveedores de Servicios de Certificación presten, estará sujeta a las reglas de la oferta y la demanda.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/186",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 330.98699951171875,
+                "t": 227.08929443359375,
+                "r": 571.8821411132812,
+                "b": 193.0325469970703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                164
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "La contraprestación del servicio."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 37.- Cuando los Proveedores de Servicios de Certificación decidan cesar en sus actividades, lo notificarán a la Superintendencia de Servicios de Certificación Electrónica, al menos con treinta (30) días de anticipación a la fecha de cesación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/188",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 330.98699951171875,
+                "t": 166.86865234375,
+                "r": 571.90625,
+                "b": 111.02230072021484,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                251
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Notificación del cese de actividades."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el caso de Inhabilitación Técnica, el Proveedor de Servicios de Certificación notificará inmediatamente a la Superintendencia de Servicios de Certificación Electrónica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/189",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 331.29150390625,
+                "t": 94.55619812011719,
+                "r": 571.8917236328125,
+                "b": 60.604454040527344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                171
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Notificación del cese de actividades."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Recibida cualesquiera de las notificaciones señaladas en este artículo, la Superintendencia de Servicios de Certificación Electrónica emitirá un acto por el cual se declare públicamente la cesación de actividades del Proveedor de Servicios de Certificación como prestador de ese servicio, sin perjuicio de las investigaciones que pueda realizar a fin de determinar las causas que originaron el cese de las actividades del Proveedor, y las medidas que fueren necesarias adoptar con el objeto de salvaguardar los derechos de los usuarios. En ese acto la Superintendencia podrá ordenar al Proveedor que realice los trámites que considere necesarios para hacer del conocimiento público la cesación de esas actividades, y para garantizar la conservación de la información que fuere de interés para sus usuarios y el público en general.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/191",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 57.1410026550293,
+                "t": 733.1400146484375,
+                "r": 297.8178405761719,
+                "b": 554.4689331054688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                830
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Notificación del cese de actividades."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En todo caso, el cese de las actividades de un Proveedor de Servicios de Certificación conllevará su retiro del registro llevado por la Superintendencia de Servicios de Certificación Electrónica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/192",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 57.1515007019043,
+                "t": 540.3547973632812,
+                "r": 297.75482177734375,
+                "b": 496.5792236328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                195
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Notificación del cese de actividades."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 38.- El Certificado Electrónico garantiza la autoría de la Firma Electrónica que certifica así como la integridad del Mensaje de Datos. El Certificado Electrónico no confiere la autenticidad o fe pública que conforme a la ley otorguen los funcionarios públicos a los actos, documentos y certificaciones que con tal carácter suscriban.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/195",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 431.9422912597656,
+                "r": 297.8114929199219,
+                "b": 361.79913330078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                343
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Garantía de la autoría de la Firma Electrónica."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 39.- El Proveedor de Servicios de Certificación y el Signatario, de mutuo acuerdo, determinarán la vigencia del Certificado Electrónico.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/197",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 335.5196838378906,
+                "r": 297.7642822265625,
+                "b": 303.7834167480469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                145
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Vigencia del Certificado Electrónico."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 40.- La cancelación de un Certificado Electrónico procederá cuando el Signatario así lo solicite a su Proveedor de Servicios de Certificación. Dicha cancelación no exime al Signatario de las obligaciones contraídas durante la vigencia del Certificado, conforme a lo previsto en este Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/199",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 275.2779846191406,
+                "r": 297.7947082519531,
+                "b": 217.09011840820312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                304
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Cancelación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Signatario estará obligado a solicitar la cancelación del Certificado Electrónico cuando tenga conocimiento del uso indebido de su Firma Electrónica. Si el Signatario en conocimiento de tal situación no solicita dicha cancelación, será responsable por los daños y perjuicios sufridos por terceros de buena fe como consecuencia del uso indebido de la Firma Electrónica certificada mediante el correspondiente Certificado Electrónico.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/200",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 57.077999114990234,
+                "t": 203.02532958984375,
+                "r": 297.73699951171875,
+                "b": 110.9980239868164,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                435
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Cancelación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 41.- El Signatario podrá solicitar la suspensión temporal del Certificado Electrónico, en cuyo caso su Proveedor deberá proceder a suspender el mismo durante el tiempo solicitado por el Signatario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/202",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.84700012207031,
+                "t": 82.4820556640625,
+                "r": 297.73382568359375,
+                "b": 60.48563003540039,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            },
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 331.4283447265625,
+                "t": 733.1219482421875,
+                "r": 571.8352661132812,
+                "b": 711.05517578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                112,
+                206
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Suspensión temporal voluntaria."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 42.- En los contratos que celebren los Proveedores de Servicios de Certificación con sus usuarios, se deberán establecer como causales de suspensión o revocatoria del Certificado Electrónico de la Firma Electrónica, las siguientes:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/204",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 330.9873352050781,
+                "t": 684.9406127929688,
+                "r": 571.9033813476562,
+                "b": 638.7532348632812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                240
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Suspensión o revocatoria forzosa."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Sea solicitado por una autoridad competente de conformidad con la ley.\n2. Se compruebe que alguno de los datos del Certificado Electrónico proporcionado por el Proveedor de Servicios de Certificación es falso.\n3. Se compruebe el incumplimiento de una obligación principal derivada del contrato celebrado entre el Proveedor de Servicios de Certificación y el Signatario.\n4. Se produzca una Quiebra Técnica del sistema de seguridad del Proveedor de Servicios de Certificación que afecte la integridad y confiabilidad del certificado contentivo de la Firma Electrónica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/205",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.7434997558594,
+                "t": 636.7592163085938,
+                "r": 571.88671875,
+                "b": 614.7029418945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/206",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.60699462890625,
+                "t": 612.638671875,
+                "r": 571.9013671875,
+                "b": 580.8530883789062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/207",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.70147705078125,
+                "t": 576.5176391601562,
+                "r": 571.8887329101562,
+                "b": 530.3302612304688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                159
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/208",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.59649658203125,
+                "t": 528.2764282226562,
+                "r": 571.93701171875,
+                "b": 484.4903869628906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                196
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Suspensión o revocatoria forzosa."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Así mismo, se preverá en los referidos contratos que los Proveedores de Servicios de Certificación podrán dejar sin efecto la suspensión temporal del Certificado Electrónico de una Firma Electrónica al verificar que han cesado las causas que originaron dicha suspensión, en cuyo caso el Proveedor de Servicios de Certificación correspondiente estará en la obligación de habilitar de inmediato el Certificado Electrónico de que se trate.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/209",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 330.9873352050781,
+                "t": 480.0950927734375,
+                "r": 571.8970947265625,
+                "b": 385.8418273925781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                436
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Suspensión o revocatoria forzosa."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La vigencia del Certificado Electrónico cesará cuando se produzca la extinción o incapacidad absoluta del Signatario",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/210",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 331.5858459472656,
+                "t": 371.6825866699219,
+                "r": 571.8804321289062,
+                "b": 349.6052551269531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                116
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Suspensión o revocatoria forzosa."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 43.- Los Certificados Electrónicos deberán contener la siguiente información:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/212",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 330.9873352050781,
+                "t": 323.5011901855469,
+                "r": 571.89306640625,
+                "b": 301.42388916015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Contenido de los Certificados Electrónicos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Identificación del Proveedor de Servicios de Certificación que proporciona el Certificado Electrónico, indicando su domicilio y dirección electrónica.\n2. El código de identificación asignado al Proveedor de Servicios de Certificación por la Superintendencia de Servicios de Certificación Electrónica.\n3. Identificación del titular del Certificado Electrónico, indicando su domicilio y dirección electrónica.\n4. Las fechas de inicio y vencimiento del periodo de vigencia del Certificado Electrónico.\n5. La Firma Electrónica del Signatario.\n6. Un serial único de identificación del Certificado Electrónico.\n7. Cualquier información relativa a las limitaciones de uso, vigencia y responsabilidad a las que esté sometido el Certificado Electrónico.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/213",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.7434997558594,
+                "t": 299.37005615234375,
+                "r": 571.8741455078125,
+                "b": 255.59449768066406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                153
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/214",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.60699462890625,
+                "t": 251.18869018554688,
+                "r": 571.867919921875,
+                "b": 219.40306091308594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                149
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/215",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.70147705078125,
+                "t": 215.01824951171875,
+                "r": 571.9046630859375,
+                "b": 193.01132202148438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                106
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/216",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.59649658203125,
+                "t": 190.94696044921875,
+                "r": 571.897216796875,
+                "b": 168.88015747070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/217",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.260498046875,
+                "t": 166.82635498046875,
+                "r": 505.6339111328125,
+                "b": 156.81985473632812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/218",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.58599853515625,
+                "t": 154.77655029296875,
+                "r": 571.889892578125,
+                "b": 135.1111297607422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                65
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/219",
+          "parent": {
+            "cref": "#/groups/17"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 349.68048095703125,
+                "t": 130.75059509277344,
+                "r": 571.91650390625,
+                "b": 98.95449829101562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                139
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Contenido de los Certificados Electrónicos."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 44.- Los Certificados Electrónicos emitidos por proveedores de servicios de certificación extranjeros tendrán la misma validez y eficacia jurídica reconocida en el presente Decreto-Ley, siempre que tales certificados sean garantizados por un Proveedor de Servicios de Certificación, debidamente acreditado conforme a lo previsto en el presente Decreto-Ley, que garantice, en la misma forma que lo hace con sus propios certificados, el cumplimiento de los requisitos, seguridad, validez y vigencia del certificado. Los certificados electrónicos extranjeros, no garantizados por un Proveedor de Servicios de Certificación debidamente acreditado conforme a lo previsto en el presente Decreto-Ley, carecerán de los efectos jurídicos que se atribuyen en el presente Capítulo, sin embargo, podrán constituir un elemento de convicción valorable conforme a las reglas de la sana crítica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/222",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 55.92300033569336,
+                "t": 721.0902099609375,
+                "r": 297.7883605957031,
+                "b": 542.4086303710938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                888
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Certificados electrónicos extranjeros."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 45.- Los Proveedores de Servicios de Certificación serán sancionados con multa de Quinientas Unidades Tributarias (500 U.T.) a Dos Mil Unidades Tributarias (2.000 U.T.), cuando incumplan las obligaciones que les impone el artículo 35 del presente Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/225",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.846988677978516,
+                "t": 480.1236572265625,
+                "r": 297.8450622558594,
+                "b": 421.935791015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                268
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "A los Proveedores de Servicios de Certificación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Proveedores de Servicios de Certificación serán sancionados con multa de Quinientas Unidades Tributarias (500 U.T.) a Dos Mil Unidades Tributarias (2.000 U.T.), cuando dejen de cumplir con alguno de los requisitos establecidos en el artículo 31 del presente Decreto-Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/226",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.07798767089844,
+                "t": 407.82171630859375,
+                "r": 297.78106689453125,
+                "b": 349.6338195800781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                274
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "A los Proveedores de Servicios de Certificación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las sanciones serán impuestas en su término medio, pero podrán ser aumentadas o disminuidas en atención a las circunstancias agravantes o atenuantes existentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/227",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.1409912109375,
+                "t": 335.5091857910156,
+                "r": 297.7473449707031,
+                "b": 301.4419250488281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                160
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "A los Proveedores de Servicios de Certificación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. La reincidencia y la reiteración.\n2. La gravedad del perjuicio causado al Usuario.\n3. La gravedad de la infracción.\n4. La resistencia o reticencia del infractor para esclarecer los hechos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/229",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 75.60313415527344,
+                "t": 263.2670593261719,
+                "r": 213.79681396484375,
+                "b": 253.27105712890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/230",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 75.46662902832031,
+                "t": 251.20672607421875,
+                "r": 269.785888671875,
+                "b": 241.20022583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/231",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 75.56112670898438,
+                "t": 239.14642333984375,
+                "r": 205.64459228515625,
+                "b": 229.13992309570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/232",
+          "parent": {
+            "cref": "#/groups/18"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 75.45612335205078,
+                "t": 227.08612060546875,
+                "r": 297.7411804199219,
+                "b": 207.37132263183594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Circunstancias agravantes y atenuantes. Artículo 46.- Son circunstancias agravantes:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son circunstancias atenuantes:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/233",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.1514778137207,
+                "t": 190.95452880859375,
+                "r": 178.76565551757812,
+                "b": 183.31053161621094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Circunstancias agravantes y atenuantes. Artículo 46.- Son circunstancias agravantes:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. No haber tenido la intención de causar el hecho imputado de tanta gravedad.\n2. Las que se evidencien de las pruebas aportadas por el infractor en su descargo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/234",
+          "parent": {
+            "cref": "#/groups/19"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 75.6031265258789,
+                "t": 178.90472412109375,
+                "r": 297.7326965332031,
+                "b": 156.83792114257812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/235",
+          "parent": {
+            "cref": "#/groups/19"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 75.46662902832031,
+                "t": 154.78411865234375,
+                "r": 297.7463684082031,
+                "b": 132.77713012695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                82
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Circunstancias agravantes y atenuantes. Artículo 46.- Son circunstancias agravantes:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el proceso se apreciará el grado de la culpa para agravar o atenuar la pena.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/236",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.1409797668457,
+                "t": 130.72332763671875,
+                "r": 297.7516784667969,
+                "b": 108.77202606201172,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Circunstancias agravantes y atenuantes. Artículo 46.- Son circunstancias agravantes:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 47.- Las sanciones aplicadas prescriben por el transcurso de tres (3) años, contados a partir de la fecha de notificación al infractor.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/238",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 330.9873046875,
+                "t": 721.0616455078125,
+                "r": 571.8994140625,
+                "b": 689.346435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                144
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Prescripción de las sanciones."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 48.- Serán sancionadas con multa de dos mil (2000) a cinco mil (5000) Unidades Tributarias (U.T.), las personas que presten los servicios de Proveedores de Servicios de Certificación previstos en este Decreto-Ley, sin la acreditación de la Superintendencia de Servicios de Certificación Electrónica, alegando tenerla.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/240",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 330.9872741699219,
+                "t": 661.3135375976562,
+                "r": 571.8993530273438,
+                "b": 590.5718994140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                326
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Falta de acreditación."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 49.- Para la imposición de las multas previstas en los artículos anteriores, la Superintendencia de Servicios de Certificación Electrónica aplicará el procedimiento administrativo ordinario previsto en la Ley Orgánica de Procedimientos Administrativos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/242",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 330.9872741699219,
+                "t": 564.4573364257812,
+                "r": 571.9003295898438,
+                "b": 508.5511169433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                261
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Procedimiento ordinario."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Primera.- El presente Decreto-Ley entrará en vigencia a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/244",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 331.2802734375,
+                "t": 468.0242919921875,
+                "r": 571.89404296875,
+                "b": 436.30902099609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO X DISPOSICIONES FINALES"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Segunda.- Los procedimientos, trámites y recursos contra los actos emanados de la Superintendencia de Servicios de Certificación Electrónica, se regirán por lo previsto en la Ley Orgánica de Procedimientos Administrativos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/245",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 331.2802734375,
+                "t": 419.8534240722656,
+                "r": 571.9224243164062,
+                "b": 373.72589111328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                222
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO X DISPOSICIONES FINALES"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Tercera.- Sin limitación de otros que se constituyan, el Estado creará un Proveedor de Servicios de Certificación de carácter público, conforme a las normas del presente Decreto-Ley. El Presidente de la República determinará la forma y adscripción de este Proveedor de Servicios de Certificación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/246",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 331.0912780761719,
+                "t": 359.61175537109375,
+                "r": 571.9110107421875,
+                "b": 303.765380859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                296
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO X DISPOSICIONES FINALES"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuarta.- La Administración Tributaria y Aduanera adoptará las medidas necesarias para ejercer sus funciones utilizando los mecanismos descritos en este Decreto-Ley, así como para que los contribuyentes puedan dar cumplimiento a sus obligaciones tributarias mediante dichos mecanismos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/247",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 331.2802734375,
+                "t": 287.32025146484375,
+                "r": 571.88037109375,
+                "b": 229.12185668945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                284
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO X DISPOSICIONES FINALES"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]
