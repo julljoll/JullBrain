@@ -16,9 +16,9 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-:: 2. Declaración de Variables de Color usando prompt
-for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (
-    set "ESC=%%b"
+:: 2. Declaración de Variables de Color usando powershell para generar ESC
+for /f "delims=" %%a in ('powershell -Command "[char]27"') do (
+    set "ESC=%%a"
 )
 set "BG_COLOR=%ESC%[40m"
 set "COLOR_H1=%ESC%[93m"
@@ -46,7 +46,7 @@ echo %COLOR_RESET%
 echo %COLOR_H1%   JullBrain RAG-Pipeline - Versión 2.0 (Entorno Local de Python)%COLOR_RESET%
 echo.
 echo %COLOR_TXT% Este script automatiza la conversión y validación de normativas y leyes venezolanas.%COLOR_RESET%
-echo %COLOR_TXT% Autor: Jull Ortiz (Arquitecto de Información IA) | Licencia MIT%COLOR_RESET%
+echo %COLOR_TXT% Autor: Jull Ortiz (Arquitecto de Información IA) ^| Licencia MIT%COLOR_RESET%
 echo %COLOR_TITLE% =========================================================================================%COLOR_RESET%
 echo.
 
@@ -58,7 +58,7 @@ echo %COLOR_H1%[FASE 3] Verificando Entorno Virtual y Dependencias...%COLOR_RESE
 if exist "%VENV_DIR%\Scripts\python.exe" (
     echo   %COLOR_GREEN%[+] Entorno virtual '%VENV_DIR%': DETECTADO%COLOR_RESET%
     set "PYTHON_EXE=%VENV_DIR%\Scripts\python.exe"
-    goto VENV_READY
+    goto :VENV_READY
 )
 
 where python >nul 2>&1
@@ -81,7 +81,7 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 set "PYTHON_EXE=%VENV_DIR%\Scripts\python.exe"
-goto :VENV_READY
+goto :VENV_INSTALL_DEPS
 
 :PYTHON_NOT_FOUND
 echo   %COLOR_RED%[-] Python global: NO DETECTADO o ALIAS DE MICROSOFT STORE ACTIVO%COLOR_RESET%
@@ -90,26 +90,31 @@ echo Por favor, instale Python 3.10+ y asegúrese de agregarlo al PATH.
 pause
 exit /b 1
 
-:VENV_READY
-echo [INFO] Activando el entorno virtual...
+:VENV_INSTALL_DEPS
+echo [INFO] Activando el entorno virtual para instalación inicial...
 call "%VENV_DIR%\Scripts\activate.bat"
-
-:: 4. Instalación de dependencias y ejecución
-echo [INFO] Instalando/Actualizando dependencias de requirements.txt...
-python -m pip install -r requirements.txt
+echo [INFO] Instalando dependencias de requirements.txt (solo primera vez)...
+call python -m pip install -r requirements.txt
 if %errorlevel% neq 0 (
     echo %COLOR_RED%[ERROR] Error al instalar dependencias del sistema.%COLOR_RESET%
     pause
     exit /b 1
 )
+goto :RUN_PIPELINE
 
+:VENV_READY
+echo [INFO] Activando el entorno virtual...
+call "%VENV_DIR%\Scripts\activate.bat"
+goto :RUN_PIPELINE
+
+:RUN_PIPELINE
 echo.
 echo %COLOR_TITLE% =========================================================================================%COLOR_RESET%
 echo %COLOR_GREEN%[FASE 4] Iniciando el procesamiento del Pipeline RAG...%COLOR_RESET%
 echo %COLOR_TITLE% =========================================================================================%COLOR_RESET%
 echo.
 
-python convert_normativas.py
+call python convert_normativas.py
 
 echo.
 echo %COLOR_TITLE% =========================================================================================%COLOR_RESET%
