@@ -814,7 +814,7 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        if RICH_AVAILABLE:
+        if 'console' in globals() and console is not None:
             from rich.panel import Panel
             from rich import box
             console.print("\n")

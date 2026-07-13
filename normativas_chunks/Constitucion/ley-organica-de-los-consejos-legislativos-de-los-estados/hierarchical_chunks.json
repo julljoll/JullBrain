@@ -1,0 +1,5340 @@
+[
+  {
+    "text": "la siguiente,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 274.7462158203125,
+                "t": 606.9553833007812,
+                "r": 341.3447265625,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Decreta"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Esta Ley tiene por objeto establecer las bases y principios del régimen de organización y funcionamiento de los Consejos Legislativos de los Estados y establecer los principios generales para el ejercicio de la función legislativa.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.25123596191406,
+                "t": 482.8241882324219,
+                "r": 525.4629516601562,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Objeto Artículo 1°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Poder Legislativo Estadal se ejercerá en cada estado por un Consejo Legislativo. El Consejo sesionará en la capital de los estados y podrá excepcionalmente, sesionar en otra localidad del estado por acuerdo de la mayoría absoluta de los legisladores que la conforman.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.29926300048828,
+                "t": 400.12213134765625,
+                "r": 525.4894409179688,
+                "b": 347.4734191894531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                270
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Sede Artículo 2°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La denominación de los integrantes del Consejo Legislativo Estadal será de legisladores y legisladoras.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.62342834472656,
+                "t": 248.3494873046875,
+                "r": 525.440185546875,
+                "b": 223.29417419433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                103
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Denominación de los integrantes Artículo 3°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las condiciones de elegibilidad e inelegibilidad de los legisladores y legisladoras a los Consejos Legislativos de los Estados son las mismas establecidas en la Constitución de la República Bolivariana de Venezuela para los diputados y diputadas de la Asamblea Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.26324462890625,
+                "t": 179.2129364013672,
+                "r": 525.45458984375,
+                "b": 126.8403549194336,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                270
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Condiciones de elegibilidad Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son deberes de los legisladores y legisladoras:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 689.8974609375,
+                "r": 343.98126220703125,
+                "b": 678.6478271484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 5"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Cumplir sus obligaciones y compromisos con el pueblo, que derivan del ejercicio de sus funciones, en honor al juramento prestado.\n2. Velar por el cumplimiento de la misión y funciones encomendadas al Poder Legislativo Estadal en la Constitución y demás leyes de la República.\n3. Sostener una vinculación permanente con sus electores y electoras, atender sus opiniones, sugerencias, peticiones y mantenerlos informados e informadas sobre su gestión.\n4. Atender las consultas de la Asamblea Nacional cuando se trate de la aprobación de proyectos de ley en materia relativa a los estados.\n5. Rendir cuenta anual de su gestión a los electores y electoras.\n6. Asistir puntualmente y permanecer en las sesiones del Consejo, comisiones y subcomisiones, salvo causa justificada.\n7. Cumplir todas las funciones que les sean encomendadas a menos que aleguen motivos justificados ante la Junta Directiva.\n8. No divulgar la información emanada de una sesión calificada como secreta por las dos terceras partes de los asistentes, de conformidad con la Constitución y la ley.\n9. Todos los demás deberes que le corresponden conforme a la Constitución, esta Ley y el respectivo Reglamento Interior y de Debates.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 676.091796875,
+                "r": 525.4678955078125,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                132
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 648.4984130859375,
+                "r": 525.4219360351562,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                145
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 620.9050903320312,
+                "r": 525.48583984375,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                172
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 579.3619995117188,
+                "r": 525.4361572265625,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                136
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 551.816650390625,
+                "r": 449.0699768066406,
+                "b": 540.6630249023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                65
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 538.1069946289062,
+                "r": 525.442138671875,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 510.51361083984375,
+                "r": 525.4725952148438,
+                "b": 485.4583435058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 482.92022705078125,
+                "r": 525.500244140625,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                167
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 441.52117919921875,
+                "r": 525.4653930664062,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 5"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los legisladores o legisladoras a los Consejos Legislativos de los Estados no podrán ser propietarios o propietarias, administradores o administradoras o directores o directoras de empresas que contraten con personas jurídicas estatales, ni gestionar causas particulares de interés lucrativo con las mismas. Durante la votación sobre causas en las cuales surjan conflictos de intereses económicos, los y las integrantes de los Consejos Legislativos de los Estados, que estén involucrados o involucradas en dichos conflictos, deberán abstenerse.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 372.52874755859375,
+                "r": 525.5074462890625,
+                "b": 278.61297607421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                544
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los legisladores o legisladoras a los Consejos Legislativos de los Estados no podrán aceptar o ejercer cargos públicos sin perder su investidura, salvo en actividades docentes, académicas, accidentales o asistenciales, siempre que no supongan dedicación exclusiva.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 234.54379272460938,
+                "r": 525.4662475585938,
+                "b": 181.89508056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                264
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A los efectos de esta Ley se entenderá por dedicación exclusiva el deber que tiene el legislador o legisladora de estar en todo momento a disposición de la institución parlamentaria estadal y no podrán excusar el cumplimiento de sus deberes por el ejercicio de actividades públicas o privadas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 165.5513153076172,
+                "r": 525.4913940429688,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                293
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son derechos de los legisladores y legisladoras:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 689.8974609375,
+                "r": 349.9974670410156,
+                "b": 678.6478271484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 8°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Recibir oportunamente, por parte de la Secretaría, toda la documentación relativa a las materias objeto de debate, así como obtener información oportuna de todas las dependencias administrativas del Consejo Legislativo Estadal.\n2. Solicitar, obtener y hacer uso del derecho de palabra en los términos que establezca el Reglamento Interior y de Debates del respectivo Consejo Legislativo Estadal.\n3. Proponer leyes y acuerdos ante el Consejo Legislativo e intervenir en las discusiones y votaciones de los mismos conforme a lo establecido en el respectivo Reglamento Interior y de Debates del Consejo Legislativo Estadal.\n4. Asociarse al grupo o grupos parlamentarios de conformidad con lo establecido en esta Ley y en el Reglamento Interior y de Debates del respectivo Consejo.\n5. Contar con el apoyo administrativo que les permita desempeñar con eficacia su función parlamentaria.\n6. Gozar de un sistema de previsión y protección social, sin perjuicio de los demás beneficios establecidos en la ley.\n7. Realizar sus funciones en un ambiente adecuado.\n8. Recibir protección a su integridad física. Toda autoridad pública, civil o militar de la República, de los estados y municipios prestará cooperación y protección a los legisladores y legisladoras en el ejercicio de sus funciones en el respectivo estado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 676.091796875,
+                "r": 525.555419921875,
+                "b": 625.8203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                230
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 620.9050903320312,
+                "r": 525.4638671875,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                167
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 579.5060424804688,
+                "r": 525.4822387695312,
+                "b": 529.2345581054688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                224
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 524.3192749023438,
+                "r": 525.47509765625,
+                "b": 485.4583435058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                156
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 482.92022705078125,
+                "r": 525.462646484375,
+                "b": 457.99700927734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                103
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 455.326904296875,
+                "r": 525.4642944335938,
+                "b": 430.2715759277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 427.71551513671875,
+                "r": 387.7323913574219,
+                "b": 418.84307861328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 413.92779541015625,
+                "r": 525.4810180664062,
+                "b": 361.41119384765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                256
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 8°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los legisladores y legisladoras de los Consejos Legislativos de los Estados gozarán de inmunidad en el ejercicio de sus funciones en los términos establecidos en la Constitución de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.24042510986328,
+                "t": 317.34197998046875,
+                "r": 525.4642333984375,
+                "b": 278.61297607421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                219
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Tribunal Supremo de Justicia, en Sala Plena, autorizará de manera privativa el enjuiciamiento del legislador o legisladora a quien se le impute la presunta comisión de un hecho punible y, previa autorización del Consejos Legislativo Estadal, podrá ordenar su detención. El expediente respectivo será remitido al tribunal de instancia competente para la continuación del enjuiciamiento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 262.1371765136719,
+                "r": 525.496337890625,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                388
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En caso de delito flagrante, la autoridad competente lo pondrá bajo su custodia en su residencia y comunicará inmediatamente el hecho al Tribunal Supremo de Justicia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.1803970336914,
+                "t": 179.3570098876953,
+                "r": 525.4674072265625,
+                "b": 142.8731689453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                166
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A efectos del procedimiento establecido en el artículo anterior, una vez recibida la autorización formulada por el Tribunal Supremo de Justicia, el Consejo Legislativo Estadal procederá a designar una comisión especial que se encargará de estudiar el asunto y presentar al Cuerpo en pleno, dentro de los treinta (30) días siguientes a su constitución, un informe pormenorizado, con una proposición sobre la procedencia o no de la autorización solicitada, garantizando, a todo evento, al legislador o legisladora involucrado, la aplicación de las reglas del debido proceso consagradas en el artículo 49 de la Constitución de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 89.85504150390625,
+                "t": 689.8974609375,
+                "r": 525.4654541015625,
+                "b": 568.3884887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                662
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La comisión especial podrá recabar de la autoridad judicial solicitante, así como de cualquier otro órgano del estado o de los particulares la información que estime necesaria, y se abstendrá de presentar en el informe opiniones sobre la calificación jurídica del asunto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.26324462890625,
+                "t": 551.816650390625,
+                "r": 525.502685546875,
+                "b": 499.2640075683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                271
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En todo caso, la autorización se entenderá denegada si en el plazo de treinta (30) días siguientes a la presentación del informe por la comisión especial correspondiente, el Consejo Legislativo Estadal respectivo no se hubiere pronunciado sobre el particular.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.32327270507812,
+                "t": 482.8241882324219,
+                "r": 525.4522705078125,
+                "b": 430.40362548828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                259
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El legislador o legisladora, a quien se haya solicitado el levantamiento de su inmunidad, se abstendrá de votar en la decisión que sobre el asunto tome el correspondiente Consejo Legislativo Estadal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.32327270507812,
+                "t": 413.7837219238281,
+                "r": 525.49267578125,
+                "b": 375.0848083496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                199
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los legisladores o legisladoras son representantes del pueblo y de los municipios, no sujetos a mandatos ni instrucciones, sino sólo a su conciencia. Su voto en el Consejo Legislativo es personal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.01111602783203,
+                "t": 330.9855651855469,
+                "r": 525.6846923828125,
+                "b": 292.2866516113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                196
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La remuneración y otros emolumentos de los legisladores o legisladoras serán de hasta ciento treinta unidades tributarias (130 U.T.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/61",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.26324462890625,
+                "t": 248.25343322753906,
+                "r": 525.473876953125,
+                "b": 223.29417419433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                132
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los legisladores y legisladoras no percibirán emolumentos por conceptos distintos a los contemplados en su remuneración ni ningún otro beneficio distinto de los establecidos en la previsión social.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.26324462890625,
+                "t": 206.85433959960938,
+                "r": 525.4974365234375,
+                "b": 168.2394561767578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                197
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El presupuesto anual de los Consejos Legislativos de los Estados no podrá ser mayor al uno coma cinco por ciento (1,5%) del Situado Constitucional correspondiente a cada estado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/65",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.32327270507812,
+                "t": 124.1522216796875,
+                "r": 525.4869995117188,
+                "b": 85.44127655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                177
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 13°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los legisladores y legisladoras de los Consejos Legislativos de los Estados, gozarán de los derechos de pensión y /o jubilación de conformidad con lo establecido en la ley nacional que rige la materia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.24042510986328,
+                "t": 689.8974609375,
+                "r": 525.4555053710938,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                201
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Sección Primera: De sus Atribuciones y de la Delegación Reglamentaria",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 100.69280242919922,
+                "t": 593.3117065429688,
+                "r": 515.0570068359375,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo III De los Consejos Legislativos de los Estados"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Atribuciones",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 448.6927185058594,
+                "t": 565.5563354492188,
+                "r": 525.5023193359375,
+                "b": 556.8279418945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo III De los Consejos Legislativos de los Estados"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Corresponde a los Consejos Legislativos de los Estados:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.45650482177734,
+                "t": 538.1069946289062,
+                "r": 395.9585876464844,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                55
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Sancionar el proyecto de constitución estadal y presentar iniciativas, enmiendas o reformas de conformidad con lo dispuesto en la Constitución de la República Bolivariana de Venezuela.\n2. Sancionar las leyes de desarrollo de aquellas leyes de base dictadas por el Poder Nacional, que regulen las competencias concurrentes.\n3. Sancionar la Ley Orgánica de Hacienda Pública del respectivo estado, conforme a los principios del régimen presupuestario y sistema tributario, establecidos en la Constitución y en la ley, en cuanto sean aplicables.\n4. Sancionar las leyes de descentralización y transferencia de los servicios públicos a los municipios y a las comunidades organizadas, así como aquellas que promuevan la participación de los ciudadanos en los asuntos de la competencia estadal.\n5. Sancionar la Ley de Presupuesto del estado.\n6. Participar en la designación, juramentar y destituir al Contralor o Contralora del estado, de conformidad con lo establecido en la Constitución de la República Bolivariana de Venezuela y con la ley que rige la materia.\n7. Organizar y promover la participación ciudadana e implementar los mecanismos que garanticen la inclusión de las opiniones que emanen de los diferentes sectores, en el ejercicio de las funciones propias del órgano legislativo estadal.\n8. Ejercer funciones de control, seguimiento y evaluación parlamentaria de los órganos de la Administración Pública Estadal, en los términos consagrados en la Constitución de la República Bolivariana de Venezuela, la constitución de los estados y las leyes respectivas.\n9. Recibir para su evaluación el informe anual del Gobernador sobre su gestión durante el año inmediato anterior. A tales efectos, el Consejo Legislativo fijará dentro de los treinta (30) días siguientes a su instalación anual, la sesión en la que el ciudadano Gobernador presentará dicho informe.\n10. Autorizar los créditos adicionales a los presupuestos estadales.\n11. Aprobar las líneas generales del plan de desarrollo del estado, que serán presentadas por el Poder Ejecutivo Regional en el transcurso del tercer trimestre del primer año de cada período constitucional.\n12. Solicitar la remoción, destitución o retiro del Secretario o Secretaria General de Gobierno, y de los directores generales sectoriales que con abuso de autoridad, negligencia e imprudencia en el ejercicio de sus funciones violen o menoscaben los derechos constitucionales o causen perjuicio patrimonial a la administración o a los particulares. Cuando la solicitud de destitución o remoción se apruebe con el voto de las dos terceras partes de los legisladores presentes, su acatamiento será obligatorio para el Gobernador.\n13. Autorizar al Gobernador del estado el nombramiento del Procurador o Procuradora General del Estado de acuerdo a los parámetros establecidos en la Constitución del respectivo estado.\n14. Autorizar la salida del Gobernador del estado, del espacio geográfico venezolano cuando su ausencia se prolongue por un lapso superior a cinco (5) días consecutivos.\n15. Dictar su Reglamento interno de organización y aplicar las sanciones que en él se establezcan.\n16. Organizar su servicio interior de vigilancia y custodia.\n17. Aprobar, modificar y ejecutar su presupuesto de gastos, de acuerdo a su autonomía funcional y administrativa de conformidad con la ley correspondiente.\n18. Autorizar al Ejecutivo Estadal para enajenar bienes muebles e inmuebles, con las excepciones que establezca la ley.\n19. Designar su representante ante el Consejo de Planificación de Políticas Públicas.\n20. Las demás que le señalen la Constitución de la República Bolivariana de Venezuela, la constitución del respectivo estado y la ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 91.16485595703125,
+                "t": 524.3192749023438,
+                "r": 525.4879150390625,
+                "b": 485.59039306640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                187
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20437622070312,
+                "t": 482.92022705078125,
+                "r": 525.5030517578125,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                137
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.3604507446289,
+                "t": 455.33892822265625,
+                "r": 525.479736328125,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                218
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.01227569580078,
+                "t": 413.92779541015625,
+                "r": 525.4954833984375,
+                "b": 361.41119384765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                244
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/79",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.3604507446289,
+                "t": 358.7230224609375,
+                "r": 360.3260498046875,
+                "b": 347.4734191894531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.31243133544922,
+                "t": 344.93536376953125,
+                "r": 525.4810791015625,
+                "b": 306.0923767089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                221
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/81",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.42048645019531,
+                "t": 303.54827880859375,
+                "r": 525.4566650390625,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                236
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.34844970703125,
+                "t": 248.3494873046875,
+                "r": 525.5694580078125,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                269
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.3604507446289,
+                "t": 193.1446990966797,
+                "r": 525.4613037109375,
+                "b": 129.08547973632812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                297
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/84",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 91.16485595703125,
+                "t": 124.05616760253906,
+                "r": 459.0080871582031,
+                "b": 113.03466033935547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/85",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 717.3948364257812,
+                "r": 525.4494018554688,
+                "b": 678.7799072265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                206
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 676.091796875,
+                "r": 525.493896484375,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                527
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 565.7003784179688,
+                "r": 525.4713134765625,
+                "b": 526.9894409179688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                185
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 524.3192749023438,
+                "r": 525.4530029296875,
+                "b": 485.4583435058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                169
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 482.8241882324219,
+                "r": 525.4434204101562,
+                "b": 460.24212646484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                98
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/90",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 455.33892822265625,
+                "r": 404.2703857421875,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/91",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 441.52117919921875,
+                "r": 525.4942016601562,
+                "b": 402.81024169921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 400.01409912109375,
+                "r": 525.4545288085938,
+                "b": 375.0848083496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                119
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/93",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 372.52874755859375,
+                "r": 525.45703125,
+                "b": 349.8505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                85
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 344.93536376953125,
+                "r": 525.4446411132812,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cada Consejo Legislativo dictará su Reglamento Interior y de Debates en el cual regulará su estructura orgánica interna tratando en lo posible de fijar su organización bajo parámetros de homogeneidad con los Consejos Legislativos de los demás estados. Dicho Reglamento regulará todo lo relativo a las sesiones, postulaciones, debates, quórum, deliberaciones, régimen de votaciones y mociones con excepción de las que expresamente prevea la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 275.94287109375,
+                "r": 525.5062255859375,
+                "b": 181.89508056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                453
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 16°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Instalación",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 459.9063415527344,
+                "t": 676.1158447265625,
+                "r": 525.5035400390625,
+                "b": 667.2193603515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Sección Segunda: De la Organización de los Consejos Legislativos de los Estados"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La instalación del Consejo Legislativo Estadal estará a cargo de una comisión preparatoria, presidida por el legislador o la legisladora con mayor edad del estado. Esta comisión se convocará, reunirá, integrará y funcionará en los términos que señale la Constitución Estadal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/101",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 648.4984130859375,
+                "r": 525.496337890625,
+                "b": 595.9818725585938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                275
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El primer período de las sesiones ordinarias de los Consejos Legislativos de los Estados, comenzará, sin convocatoria previa, el cinco de enero de cada año o el día posterior más inmediato posible y durará hasta el quince de agosto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/104",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 551.9126586914062,
+                "r": 525.44580078125,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                232
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El segundo período comenzará el quince de septiembre o el día posterior más inmediato posible y terminará el quince de diciembre.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 496.6119079589844,
+                "r": 525.45703125,
+                "b": 471.6706237792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                129
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Consejos Legislativos de los Estados, se podrán reunir en sesiones extraordinarias para tratar las materias expresadas en la convocatoria y las que les fueren conexas. También podrán considerar las que fueren declaradas de urgencia por la mayoría de sus integrantes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/108",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 427.71551513671875,
+                "r": 525.520263671875,
+                "b": 375.0848083496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                270
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Consejos Legislativos Estadales tendrán una Junta Directiva integrada por un Presidente o Presidenta y un Vicepresidente o Vicepresidenta, la cual será elegida entre los legisladores o legisladoras presentes al inicio del período constitucional en la sesión de instalación y al inicio de cada período anual de sesiones ordinarias, por votación pública e individual. Asimismo, nombrarán, fuera de su seno, un Secretario o Secretaria.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/111",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 303.5362548828125,
+                "r": 525.500244140625,
+                "b": 224.11058044433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                436
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 20°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Junta Directiva del Consejo Legislativo Estadal tendrá las siguientes atribuciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/114",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 179.3570098876953,
+                "r": 525.41943359375,
+                "b": 156.6788787841797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Velar por el cumplimiento de la misión y funciones encomendadas al Poder Legislativo Estadal en la Constitución de la República Bolivariana de Venezuela, la constitución del respectivo estado y la ley.\n2. Cuidar de la efectividad del trabajo legislativo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/115",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 151.74560546875,
+                "r": 525.4521484375,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                204
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/116",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 110.36453247070312,
+                "r": 365.6326904296875,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Integración",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 457.9085388183594,
+                "t": 331.1536560058594,
+                "r": 525.511962890625,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3. Estimular y facilitar la participación ciudadana de conformidad con la Constitución y las leyes.\n4. Dirigir al Consejo Legislativo Estadal hasta tanto se elija la Junta Directiva para el período para el cual fue elegida.\n5. Rendir cuenta pública sobre la gestión anual realizada por el Consejo Legislativo Estadal.\n6. Garantizar el buen funcionamiento de los servicios de apoyo a la gestión del Consejo Legislativo, sus comisiones y subcomisiones, para el cumplimiento de sus funciones.\n7. Las demás que le sean encomendadas por el Consejo Legislativo Estadal, esta Ley y el Reglamento Interior y de Debates correspondiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/118",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 717.4908447265625,
+                "r": 525.442626953125,
+                "b": 692.435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                99
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/119",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 689.8974609375,
+                "r": 525.46875,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                123
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/120",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 662.3041381835938,
+                "r": 525.4182739257812,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 634.6927490234375,
+                "r": 525.505859375,
+                "b": 595.9818725585938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                171
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 593.3117065429688,
+                "r": 525.4666137695312,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                137
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los integrantes de la Junta Directiva cooperarán entre sí en el cumplimiento de sus funciones, sin perjuicio de sus responsabilidades y competencias individuales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/123",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 551.816650390625,
+                "r": 525.4747314453125,
+                "b": 515.4468383789062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                162
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las decisiones de la Junta Directiva se tomarán, en lo posible, por consenso, los asuntos en que no lo hubiere, serán resueltos por el Cuerpo en pleno.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 496.6119079589844,
+                "r": 525.4229736328125,
+                "b": 471.80267333984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                151
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son atribuciones del Presidente o Presidenta del Consejo Legislativo Estadal:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/127",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 427.71551513671875,
+                "r": 506.78643798828125,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Ejercer la representación del Consejo Legislativo Estadal.\n2. Convocar las sesiones ordinarias y extraordinarias del Consejo Legislativo Estadal.\n3. Presidir, abrir, prorrogar, suspender y levantar las sesiones.\n4. Presidir la Comisión Delegada.\n5. Convocar las reuniones de la Junta Directiva.\n6. Conducir los debates y las deliberaciones del pleno, conforme al Reglamento Interior y de Debates del Consejo Legislativo Estadal.\n7. Llamar al orden a los miembros del Consejo Legislativo y al público asistente a las sesiones, dictando las medidas necesarias para conservarlo.\n8. Dirigir la administración y el personal del respectivo Consejo Legislativo, y disponer lo relativo a la formulación, ejecución y control del presupuesto anual del Consejo Legislativo Estadal.\n9. Designar los presidentes o presidentas, vicepresidentes o vicepresidentas e integrantes de cada comisión permanente o especial.\n10. Firmar y autorizar la publicación en la Gaceta Oficial del Consejo Legislativo Estadal los reglamentos, acuerdos, resoluciones, decretos, oficios, comunicaciones y demás documentos que sean sancionados por la Cámara.\n11. Responder oportunamente la correspondencia recibida.\n12. Solicitar a los órganos del Poder Público y a todas las autoridades la cooperación y los informes necesarios para el cumplimiento de las funciones del Consejo Legislativo Estadal.\n13. Rendir cuenta pública, al finalizar cada período anual, de la gestión realizada por el Consejo Legislativo Estadal en el ejercicio de sus funciones.\n14. Coordinar y garantizar el buen funcionamiento de las comisiones del Consejo Legislativo Estadal.\n15. Ejercer las demás que le sean encomendadas por el Consejo Legislativo Estadal, la Constitución, la Asamblea Nacional, esta Ley y el Reglamento Interior y de Debates del Consejo Legislativo Estadal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/128",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 413.92779541015625,
+                "r": 428.31597900390625,
+                "b": 402.6781921386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 400.12213134765625,
+                "r": 525.4570922851562,
+                "b": 377.46197509765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/130",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 372.42071533203125,
+                "r": 439.71728515625,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                65
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 358.7230224609375,
+                "r": 286.25750732421875,
+                "b": 347.4734191894531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/132",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 344.93536376953125,
+                "r": 362.9505920410156,
+                "b": 336.06292724609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 331.129638671875,
+                "r": 525.41943359375,
+                "b": 306.0923767089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 303.5362548828125,
+                "r": 525.47021484375,
+                "b": 267.0704345703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 262.1371765136719,
+                "r": 525.4329833984375,
+                "b": 223.29417419433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                194
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 220.63002014160156,
+                "r": 525.4954833984375,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 193.15670776367188,
+                "r": 525.4906005859375,
+                "b": 142.8731689453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                220
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/138",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 137.849853515625,
+                "r": 417.68707275390625,
+                "b": 126.8403549194336,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/139",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 124.1522216796875,
+                "r": 525.5118408203125,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/140",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 717.4908447265625,
+                "r": 525.4747314453125,
+                "b": 681.0250244140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 676.091796875,
+                "r": 525.4450073242188,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/142",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 648.4984130859375,
+                "r": 525.4774169921875,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                201
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Vicepresidente o Vicepresidenta auxiliará al Presidente de la Junta Directiva en el desempeño de sus funciones y lo suplirá en sus ausencias.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 565.6043701171875,
+                "r": 525.4698486328125,
+                "b": 540.6630249023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                144
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Secretaría garantizará apoyo eficaz y eficiente a las funciones del Consejo Legislativo Estadal y de los legisladores y legisladoras, y estará a cargo del Secretario o Secretaria, bajo la dirección del Presidente o Presidenta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/149",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 469.11456298828125,
+                "r": 525.513427734375,
+                "b": 430.2715759277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                229
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 24°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Secretario o Secretaria durará en el ejercicio de su cargo el mismo período de la Junta Directiva del Consejo Legislativo Estadal, y podrá ser reelegido o reelegida para períodos sucesivos. También podrá ser removido o removida cuando por mayoría así lo decidan los legisladores y legisladoras presentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/152",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 386.33441162109375,
+                "r": 525.4409790039062,
+                "b": 333.6857604980469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                307
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las faltas temporales del Secretario o Secretaria serán suplidas por un funcionario designado a tal efecto por el Cuerpo en pleno.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 317.34197998046875,
+                "r": 525.4450073242188,
+                "b": 292.2866516113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son atribuciones del Secretario o Secretaria del Consejo Legislativo Estadal:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/156",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 248.3494873046875,
+                "r": 501.3280944824219,
+                "b": 237.09986877441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Distribuir oportunamente a los legisladores y legisladoras, la cuenta y el orden del día.\n2. Comprobar al inicio de cada sesión y, en su caso, previo a las votaciones, la existencia del quórum requerido.\n3. Llevar el control de asistencia de los legisladores y legisladoras a las sesiones del Consejo Legislativo Estadal.\n4. Llevar al día el Libro de Actas de sesiones del Consejo Legislativo Estadal y los demás libros de registro necesarios, expedientes y documentos del Consejo Legislativo.\n5. Custodiar el archivo y los sellos del Consejo Legislativo Estadal y garantizar su eficiente organización.\n6. Formar el expediente contentivo de todo proyecto de ley o acuerdo admitido por la plenaria.\n7. Verificar la exactitud y autenticidad de los textos de las leyes aprobadas, acuerdos y demás actos del Consejo Legislativo Estadal, así como de todas las publicaciones que éste ordene.\n8. Cuidar la integración y publicación del Diario de Debates y de cualquier otra publicación que se ordene.\n9. Proveer todo cuanto sea necesario para el mejor desarrollo de las sesiones del Consejo Legislativo.\n10. Recoger y computar las votaciones y comunicar al Presidente de la Junta Directiva sus resultados.\n11. Colaborar con los demás servicios del Consejo Legislativo Estadal.\n12. Las demás que les confiera esta Ley y el Reglamento Interior y de Debates del Consejo Legislativo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/157",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 234.43572998046875,
+                "r": 525.4422607421875,
+                "b": 211.8656463623047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/158",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 206.9503936767578,
+                "r": 525.4747314453125,
+                "b": 182.0271453857422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/159",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 179.2489471435547,
+                "r": 525.4578857421875,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/160",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 151.74560546875,
+                "r": 525.458984375,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                171
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/161",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 110.36453247070312,
+                "r": 525.483154296875,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/162",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 717.3828125,
+                "r": 525.484619140625,
+                "b": 692.567626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/163",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 689.8974609375,
+                "r": 525.49267578125,
+                "b": 651.1865844726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                187
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/164",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 648.4984130859375,
+                "r": 525.6638793945312,
+                "b": 623.5751953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/165",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 620.7970581054688,
+                "r": 525.4666748046875,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/166",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 593.2036743164062,
+                "r": 525.5062255859375,
+                "b": 570.6336059570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                101
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/167",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 565.7003784179688,
+                "r": 478.31854248046875,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/168",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 551.9126586914062,
+                "r": 525.4835205078125,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Consejos Legislativos de los Estados funcionarán en pleno o en comisiones permanentes y especiales las cuales se regirán por lo previsto en esta Ley y en sus reglamentos internos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/174",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 413.92779541015625,
+                "r": 525.4879150390625,
+                "b": 375.0848083496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                183
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Consejos Legislativos Estadales contarán con comisiones permanentes referidas a los sectores de la actividad estadal y cumplirán las funciones de organizar y promover la participación ciudadana; estudiar la materia legislativa a ser discutida en las sesiones; realizar investigaciones; ejercer controles; estudiar, promover, elaborar y evacuar proyectos de acuerdos, resoluciones, solicitudes y demás materias en el ámbito de su competencia, que por acuerdo de sus miembros sean consideradas procedentes, y aquellas que le fueren encomendadas por el Consejo Legislativo Estadal, la Comisión Delegada, los ciudadanos o ciudadanas y las organizaciones de la sociedad en los términos que establece la Constitución y la ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/177",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 331.129638671875,
+                "r": 525.5037841796875,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                724
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los legisladores y legisladoras suplentes también podrán participar con derecho a voz o como asesores o asesoras ad honorem de las comisiones previa notificación del Presidente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/178",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 179.26095581054688,
+                "r": 525.47021484375,
+                "b": 142.8731689453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                177
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las comisiones permanentes no podrán ser más de siete (7) en aquellos Consejos Legislativos Estadales constituidos entre once (11) y quince (15) legisladores o legisladoras, ni más de cuatro (4) en aquellos Consejos que tengan menos de once (11) legisladores o legisladoras, y estarán integradas por un mínimo de tres (3) legisladores o legisladoras, uno de los cuales fungirá como Presidente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/180",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 689.8974609375,
+                "r": 525.6583251953125,
+                "b": 612.0326538085938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                393
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 29°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El respectivo Consejo Legislativo Estadal, podrá crear o suprimir comisiones permanentes con el voto favorable de las dos terceras partes de sus integrantes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/183",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 565.7003784179688,
+                "r": 525.4990844726562,
+                "b": 540.6630249023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                157
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Reglamento Interior y de Debates de cada Consejo Legislativo Estadal establecerá la denominación y objeto de cada comisión permanente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/184",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 524.3192749023438,
+                "r": 525.4554443359375,
+                "b": 499.2640075683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                137
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Consejos Legislativos de los Estados podrán crear comisiones especiales con carácter temporal para investigación y estudio, cuando así lo requiera el tratamiento de alguna materia. El objeto de dichas comisiones no podrá colidir con la materia de estudio de las comisiones permanentes, y estarán integradas por un máximo de tres (3) legisladores o legisladoras quienes no podrán durar más de treinta (30) días en sus funciones salvo que sea prorrogado por el Cuerpo en pleno",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/187",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 455.326904296875,
+                "r": 525.5061645507812,
+                "b": 361.41119384765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                478
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los legisladores o legisladoras de los Consejos Legislativos Estadales podrán integrarse en grupos parlamentarios de opinión a fin de orientar, disciplinar y unificar criterios de sus integrantes en relación con el trabajo parlamentario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/191",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.62461853027344,
+                "t": 289.73052978515625,
+                "r": 525.4678955078125,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                237
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Durante el receso de los Consejos funcionará la Comisión Delegada integrada por el Presidente o Presidenta del respectivo Consejo Legislativo Estadal, quien la presidirá y un número no mayor de cuatro (4) de sus integrantes, quienes representarán en lo posible la composición política del Cuerpo en pleno.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/195",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.62461853027344,
+                "t": 179.3570098876953,
+                "r": 525.46142578125,
+                "b": 126.8403549194336,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                305
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 33°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son atribuciones de la Comisión Delegada:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/198",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 689.8974609375,
+                "r": 323.2803955078125,
+                "b": 678.6478271484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                41
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Convocar al Consejo Legislativo a sesiones extraordinarias, cuando así lo exija la importancia de algún asunto\n2. Autorizar al Gobernador o a la Gobernadora de los estados para salir del espacio geográfico del respectivo estado por más de cinco (5) días.\n3. Autorizar al gobierno estadal para decretar créditos adicionales y traslados de partidas de conformidad con la ley.\n4. Designar comisiones especiales integradas por los miembros del Consejo Legislativo.\n5. Ejercer las funciones de investigación atribuidas a los Consejos.\n6. Autorizar al Ejecutivo Estadal por el voto favorable de las dos terceras partes de sus integrantes para crear, modificar o suspender servicios públicos en caso de emergencia comprobada.\n7. Las demás que establezcan la Constitución de la República Bolivariana de Venezuela, la constitución del respectivo estado y la ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/199",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 676.091796875,
+                "r": 525.4678955078125,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/200",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 648.4984130859375,
+                "r": 525.4351196289062,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/201",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 620.80908203125,
+                "r": 525.4666137695312,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/202",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 593.3117065429688,
+                "r": 525.4930419921875,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/203",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 565.7003784179688,
+                "r": 463.046142578125,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/204",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 551.9126586914062,
+                "r": 525.44091796875,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                188
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/205",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 510.51361083984375,
+                "r": 525.4642333984375,
+                "b": 485.4583435058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Consejos Legislativos Estadales podrán dictar leyes, acuerdos y reglamentos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/208",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 400.12213134765625,
+                "r": 525.4593505859375,
+                "b": 375.0848083496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Ley estadal",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/209",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 457.3262939453125,
+                "t": 358.5789489746094,
+                "r": 525.5023193359375,
+                "b": 347.4734191894531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Ley Estadal es el acto legislativo de efectos generales, sancionado por el Consejo Legislativo como cuerpo legislador.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/211",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.45653533935547,
+                "t": 331.129638671875,
+                "r": 525.4930419921875,
+                "b": 306.0923767089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                121
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El proceso de formación, discusión y aprobación de las leyes, se regulará por lo establecido en la Constitución de la República Bolivariana de Venezuela y lo previsto en el Reglamento Interior y de Debates de cada Consejo Legislativo Estadal. En ningún caso podrán ser aprobadas leyes que no hayan sido sometidas a un mínimo de dos (2) discusiones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/214",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 262.1371765136719,
+                "r": 525.4786376953125,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                348
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Iniciativa de leyes",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/215",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 420.50506591796875,
+                "t": 179.2129364013672,
+                "r": 525.5010986328125,
+                "b": 168.10739135742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La iniciativa para la formación de las leyes corresponde:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/217",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.732666015625,
+                "t": 151.74560546875,
+                "r": 391.97650146484375,
+                "b": 140.49598693847656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. A los legisladores de los Consejos Legislativos, en números no menor de dos (2).\n2. A la Comisión Delegada o a las Comisiones Permanentes.\n3. Al Gobernador del estado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/218",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 137.95791625976562,
+                "r": 525.47021484375,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/219",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 110.36453247070312,
+                "r": 436.3119812011719,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/220",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 96.558837890625,
+                "r": 261.616455078125,
+                "b": 87.67439270019531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                28
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Función legislativa",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/222",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 414.6125183105469,
+                "t": 427.7395324707031,
+                "r": 525.509521484375,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Atribuciones de la Comisión Delegada"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4. A los concejos municipales.\n5. A un número no menor del uno por mil de los electores residentes en el territorio del respectivo estado que reúnan lo s requisitos establecidos en la ley electoral respectiva.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/223",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 717.3468017578125,
+                "r": 268.91729736328125,
+                "b": 706.2412109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/224",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 703.5891723632812,
+                "r": 525.4974365234375,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                178
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Atribuciones de la Comisión Delegada"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando se legisle en materias relativas a los municipios y a la sociedad civil, los mismos serán consultados por el Consejo Legislativo del Estado a través de los mecanismos que establezca la ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/227",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.45653533935547,
+                "t": 620.9050903320312,
+                "r": 525.44140625,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                196
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los actos legislativos de naturaleza no normativa dictados por el Consejo Legislativo se denominaran acuerdos, recibirán una sola discusión, y se notificarán de conformidad con la ley. Serán publicados en la Gaceta Oficial del Estado cuando se trate de asuntos relacionados con el patrimonio estadal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/230",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 538.1069946289062,
+                "r": 525.4605712890625,
+                "b": 485.59039306640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                300
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 40°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Consejos Legislativos de los Estados podrán ejercer su función de control legislativo, mediante los siguientes mecanismos: las interpelaciones, las investigaciones, las preguntas, las autorizaciones y las aprobaciones parlamentarias previstas en la Constitución de la República Bolivariana de Venezuela, en la constitución del estado respectivo y en la ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/234",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 89.90425872802734,
+                "t": 400.12213134765625,
+                "r": 525.4603271484375,
+                "b": 333.6857604980469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                361
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Asimismo, en ejercicio del control parlamentario, podrán declarar la responsabilidad política de los funcionarios y solicitar al Poder Ciudadano que intente las acciones a que haya lugar para hacer efectiva tal responsabilidad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/235",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 317.2459411621094,
+                "r": 525.4554443359375,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                227
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Consejos Legislativos de los Estados o sus comisiones podrán realizar las investigaciones que juzguen convenientes en las materias de su competencia, de conformidad con el Reglamento Interior y de Debates.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/238",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 234.54379272460938,
+                "r": 525.4605712890625,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                209
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Todos los funcionarios o funcionarias públicos estadales están obligados u obligadas, bajo las sanciones que establezca la ley, a comparecer ante el respectivo Consejo Legislativo o sus comisiones y a suministrarle las informaciones y documentos que requieran para el cumplimiento de sus funciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/239",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 179.3570098876953,
+                "r": 525.4893798828125,
+                "b": 115.27978515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                298
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Esta obligación comprende también a los particulares; quedando a salvo los derechos y garantías que consagra la Constitución de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/240",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 717.3948364257812,
+                "r": 525.4774780273438,
+                "b": 681.0250244140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                166
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A los efectos de las investigaciones que se adelanten, los funcionarios responsables de las delegaciones regionales de los organismos de la Administración Pública Nacional, están obligados en las materias de su competencia, a comparecer cuando le sea requerido por los Consejos Legislativos de los Estados.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/243",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 634.6927490234375,
+                "r": 525.4793701171875,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                306
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 43°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El ejercicio de la facultad de investigación no afecta las atribuciones de los demás poderes públicos. Los jueces o juezas estarán obligados u obligadas a evacuar las pruebas para las cuales reciban comisión de los cuerpos legislativos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/246",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 524.3192749023438,
+                "r": 525.4410400390625,
+                "b": 485.4583435058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                236
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 44°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A todo lo no previsto en esta Ley, será aplicable la Constitución de la República Bolivariana de Venezuela, el Reglamento Interior y de Debates de cada uno de los Consejos Legislativos, así como la legislación nacional y estadal, cuando le sea aplicable.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/249",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 413.92779541015625,
+                "r": 525.491455078125,
+                "b": 361.41119384765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                254
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 45°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Quedan derogadas todas las normas que contraríen la presente Ley",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/251",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.37248992919922,
+                "t": 331.14166259765625,
+                "r": 456.7406005859375,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                64
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 46°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Esta Ley entrará en vigencia a partir de la fecha de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/253",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.4325180053711,
+                "t": 289.73052978515625,
+                "r": 525.5117797851562,
+                "b": 264.8253173828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 47°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Consejos Legislativos de los Estados en un término no mayor de un año, contado a partir de la entrada en vigencia de esta Ley, ajustarán las constituciones de los estados a los términos establecidos en esta Ley y dispondrán, de conformidad con lo establecido en la Constitución de la República Bolivariana de Venezuela lo conducente para la aprobación de dichas constituciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/255",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 234.54379272460938,
+                "r": 525.4879150390625,
+                "b": 156.6788787841797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                381
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 48°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La previsión y protección social de los legisladores y las legisladoras se regirá por lo establecido en la ley nacional que rige la materia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/257",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 124.05616760253906,
+                "r": 525.4666137695312,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                140
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La asignación de los recursos presupuestarios establecida en el artículo 13 de esta Ley, entrará en vigencia para el ejercicio fiscal del año 2002, y para el año 2001 se sujetará al presupuesto existente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/259",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 703.5891723632812,
+                "r": 525.4290161132812,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                204
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 50°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dada, firmada y sellada en el Palacio Federal Legislativo, sede de la Asamblea Nacional, en Caracas a los cuatro días del mes de septiembre de dos mil uno. Año 191° de la Independencia y 142° de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/260",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 648.4984130859375,
+                "r": 525.5301513671875,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                209
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 50°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Leopoldo Puchi  Primer Vicepresidente Eustoquio Contreras  Secretario, 1 = Gerardo Saer Pérez  Segundo Vicepresidente  Vladimir Villegas  Subsecretario",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 132.79559326171875,
+                "t": 512.05078125,
+                "r": 480.4974670410156,
+                "b": 415.0570068359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Willian Lara Presidente"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

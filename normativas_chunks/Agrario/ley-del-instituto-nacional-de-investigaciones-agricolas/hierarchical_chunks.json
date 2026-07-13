@@ -1,0 +1,2718 @@
+[
+  {
+    "text": "25 de agosto de 2000 Nº 37022",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 199.0919952392578,
+                "t": 655.3829956054688,
+                "r": 452.7986145019531,
+                "b": 642.686279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "GACETA OFICIAL DE LA REPÚBLICA BOLIVARIANA DE VENEZUELA"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En ejercicio de la atribución que le confiere el artículo 6 numeral 1 del Decreto de la Asamblea Nacional Constituyente mediante el cual se establece el Régimen de Transición del Poder Público, publicado en la Gaceta Oficial No. 36.920 de fecha 28 de marzo del año 2000, en concordancia con el artículo 187 numeral 1 de la Constitución de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 552.9037475585938,
+                "r": 571.8125,
+                "b": 473.9647521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                377
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "COMISIÓN LEGISLATIVA NACIONAL"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La siguiente,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 85.03500366210938,
+                "t": 419.3894958496094,
+                "r": 153.42294311523438,
+                "b": 406.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DECRETA"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 1. El Fondo Nacional de Investigaciones Agropecuarias creado por Decreto N° 446 de fecha 20 de enero de 1961, pasa a ser el Instituto Nacional de Investigaciones Agrícolas, tendrá carácter de instituto autónomo, personalidad jurídica y patrimonio propio adscrito al Ministerio de Ciencia y Tecnología, y gozará de las prerrogativas y privilegios conferidos al Fisco Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 84.5790023803711,
+                "t": 264.8894958496094,
+                "r": 572.2149047851562,
+                "b": 185.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                384
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 2. El Instituto Nacional de Investigaciones Agrícolas, será el órgano ejecutor del Ministerio de Ciencia y Tecnología en la investigación y prestación de servicios especializados para generar y validar los conocimientos y tecnologías demandados por las cadenas agroalimentarias prioritarias para el Estado Venezolano, y tendrá por objeto la investigación científica, el desarrollo tecnológico, el asesoramiento y la prestación de servicios especializados en el área con miras a contribuir al desarrollo sostenible y competitivo del sector agrícola, pecuario, forestal, pesquero y del medio rural.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 165.15374755859375,
+                "r": 571.7862548828125,
+                "b": 86.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                424
+              ]
+            },
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 690.1395263671875,
+                "r": 572.059814453125,
+                "b": 647.0647583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                425,
+                605
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 3. El domicilio del Instituto Nacional de Investigaciones Agrícolas, será la ciudad de Maracay, Estado Aragua, pero podrá crear dependencias y unidades ejecutoras desconcentradas y descentralizadas y realizar actividades en cualquier lugar del territorio nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 623.3895263671875,
+                "r": 571.61181640625,
+                "b": 563.8147583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                273
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 4. El patrimonio del Instituto Nacional de Investigaciones Agrícolas, estará integrado del modo siguiente:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 540.1395263671875,
+                "r": 570.8623657226562,
+                "b": 510.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                115
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Los bienes que legítimamente sean de su propiedad.\n2. Las cantidades que le fueren asignadas anualmente en la Ley de Presupuesto.\n3. Los bienes provenientes de las donaciones y demás liberalidades a que reciba.\n4. El producto de los pagos que se hagan por la venta de tecnología, bienes y servicios que produzca.\n5. Por los demás bienes y valores que por cualquier título adquiera.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 507.1394958496094,
+                "r": 389.8829040527344,
+                "b": 494.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 490.6394958496094,
+                "r": 527.1884765625,
+                "b": 477.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 474.1394958496094,
+                "r": 533.9027099609375,
+                "b": 461.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 457.6394958496094,
+                "r": 569.33203125,
+                "b": 428.2147521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                101
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 85.43399810791016,
+                "t": 424.6394958496094,
+                "r": 459.64825439453125,
+                "b": 411.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 5 . El Instituto Nacional de Investigaciones Agrícolas, tendrá amplias facultades para adquirir, enajenar y gravar bienes muebles e inmuebles y en general para efectuar los actos y celebrar los contratos que sean necesarios para el desarrollo y cumplimiento de sus funciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 390.8894958496094,
+                "r": 572.168212890625,
+                "b": 328.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                284
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 6. El Instituto podrá desarrollar programas educativos en el ámbito de sus competencias, en coordinación y vinculación con los entes educativos correspondientes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 307.6394958496094,
+                "r": 571.4400634765625,
+                "b": 261.7147521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                170
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 7 . Son órganos del Instituto Nacional de Investigaciones Agrícolas:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 172.63949584960938,
+                "r": 514.96142578125,
+                "b": 159.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Organización del Instituto Nacional de Investigaciones Agrícolas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. La Junta Directiva.\n2. El Presidente.\n3. El Gerente General.\n4. El Consejo Consultivo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 121.66725158691406,
+                "t": 139.63949584960938,
+                "r": 236.373291015625,
+                "b": 129.55050659179688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 120.29924774169922,
+                "t": 123.13949584960938,
+                "r": 214.31175231933594,
+                "b": 113.06475067138672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 120.5842514038086,
+                "t": 106.63949584960938,
+                "r": 240.85018920898438,
+                "b": 96.55049896240234,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 120.22799682617188,
+                "t": 90.15374755859375,
+                "r": 263.14532470703125,
+                "b": 77.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Organización del Instituto Nacional de Investigaciones Agrícolas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 8. La Junta Directiva es el máximo órgano del Instituto Nacional de Investigaciones Agrícolas. Está integrada por el Presidente del Instituto, quien la preside, el Gerente General, un representante del Ministerio de la Producción y el Comercio, y dos representantes del Ministerio de Ciencia y Tecnología, designados por los titulares de los respectivos Despachos. Todos los miembros a excepción del Presidente y del Gerente General, tendrán sus respectivos suplentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 656.3895263671875,
+                "r": 571.310546875,
+                "b": 560.936279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                477
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "5. Los Directores de las Unidades Ejecutoras."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los integrantes de la Junta Directiva deberán ser investigadores activos o expertos en las áreas de competencia del Instituto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.03500366210938,
+                "t": 557.3895263671875,
+                "r": 571.3681640625,
+                "b": 527.9647216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "5. Los Directores de las Unidades Ejecutoras."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Establecer la política y estrategia del Instituto, en atención a su vinculación con el sector productivo y con organismos cuya gestión incida en el desarrollo de la agricultura y la agroindustria.\n2. Presentar al Ministerio de Ciencia y Tecnología los proyectos de Plan Operativo y de Presupuesto del Instituto, para cada ejercicio y, una vez aprobados, proceder a su ejecución.\n3. Decidir sobre la organización y funcionamiento de las Unidades y órganos internos del Instituto, aprobando y modificando la estructura organizativa del Instituto.\n4. Autorizar la creación de Unidades Ejecutoras.\n5. Preparar y presentar oportunamente al Ministerio de Ciencia y Tecnología el proyecto de Memoria y Cuenta del Instituto.\n6. Aprobar el Informe Anual de Actividades que debe presentar el Instituto al Ministerio de Ciencia y Tecnología.\n7. Autorizar la celebración de contratos en los que participe el Instituto, para el cumplimiento de su objeto.\n8. Autorizar la enajenación de bienes muebles e inmuebles.\n9. Dictar el Reglamento Interno del Instituto\n10. Dictar las normas de incorporación, evaluación y promoción del personal.\n11. Decidir sobre todo lo que no esté atribuido expresamente por esta Ley al Presidente o al Gerente General.\n12. Las demás que señale esta Ley, su Reglamento y la reglamentación interna del Instituto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 474.1394958496094,
+                "r": 570.5615234375,
+                "b": 428.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                199
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 424.6394958496094,
+                "r": 571.8121337890625,
+                "b": 378.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                181
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 375.1394958496094,
+                "r": 569.2047119140625,
+                "b": 332.06475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                165
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 325.65374755859375,
+                "r": 358.434814453125,
+                "b": 312.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.43399810791016,
+                "t": 309.1394958496094,
+                "r": 569.1700439453125,
+                "b": 279.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.36274719238281,
+                "t": 276.1394958496094,
+                "r": 569.115478515625,
+                "b": 246.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.27725219726562,
+                "t": 243.13949584960938,
+                "r": 569.1489868164062,
+                "b": 213.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                110
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.61924743652344,
+                "t": 210.15374755859375,
+                "r": 414.7742614746094,
+                "b": 197.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 85.31999969482422,
+                "t": 193.63949584960938,
+                "r": 332.7308044433594,
+                "b": 180.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 177.13949584960938,
+                "r": 518.9197387695312,
+                "b": 164.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 160.63949584960938,
+                "r": 569.09814453125,
+                "b": 134.05050659179688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                109
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 127.63949584960938,
+                "r": 569.297607421875,
+                "b": 101.06475067138672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                91
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9. Son atribuciones de la Junta Directiva:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 10. La Junta Directiva se reunirá por lo menos una vez al mes, y podrá reunirse extraordinariamente cuando sea convocada por el Presidente o cuando así lo soliciten dos o más de sus miembros.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 84.83550262451172,
+                "t": 689.3895263671875,
+                "r": 572.12548828125,
+                "b": 646.3147583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                200
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9. Son atribuciones de la Junta Directiva:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Para la constitución válida de las sesiones de la Junta Directiva será requerida la presencia de por lo menos tres de sus cinco miembros, uno de los cuales deberá ser el Presidente. Las decisiones se tomarán por mayoría de votos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 639.8895263671875,
+                "r": 571.353271484375,
+                "b": 593.936279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                229
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9. Son atribuciones de la Junta Directiva:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 11. La dirección y administración del Instituto estará a cargo del Presidente, quien será además su representante legal, y Presidente de la Junta Directiva. El Presidente del Instituto deberá tener título de doctor y será designado por el Presidente de la República a propuesta del Ministro de Ciencia y Tecnología.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 573.1395263671875,
+                "r": 572.3443603515625,
+                "b": 510.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                324
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9. Son atribuciones de la Junta Directiva:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Ejercer la máxima representación del Instituto.\n2. Dirigir las relaciones políticas e institucionales del Instituto.\n3. Presidir la Junta Directiva.\n4. Orientar, supervisar y controlar las actividades del Instituto, de conformidad con esta Ley y su reglamento.\n5. Cumplir y hacer cumplir en nombre del Instituto las decisiones tomadas por la Junta Directiva.\n6. Rendir cuenta de su gestión a la Junta Directiva.\n7. Resolver los asuntos que no estuvieren expresamente reservados a la Junta Directiva.\n8. Rendir cuenta sobre la dirección y administración del Instituto al Ministro de Ciencia y Tecnología.\n9. Las demás que determinen las leyes, reglamentos y resoluciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 456.90374755859375,
+                "r": 358.50537109375,
+                "b": 443.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 440.3894958496094,
+                "r": 431.2450256347656,
+                "b": 427.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 423.8894958496094,
+                "r": 246.08099365234375,
+                "b": 413.8005065917969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 407.3894958496094,
+                "r": 570.9392700195312,
+                "b": 377.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.43399810791016,
+                "t": 374.3894958496094,
+                "r": 569.4183349609375,
+                "b": 347.8005065917969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.36274719238281,
+                "t": 341.3894958496094,
+                "r": 367.50762939453125,
+                "b": 328.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.27725219726562,
+                "t": 324.8894958496094,
+                "r": 569.42138671875,
+                "b": 298.31475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                87
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.61924743652344,
+                "t": 291.8894958496094,
+                "r": 569.078857421875,
+                "b": 262.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                103
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 85.31999969482422,
+                "t": 258.8894958496094,
+                "r": 462.6943054199219,
+                "b": 245.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                66
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12. Son atribuciones del Presidente:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "10.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/56",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 242.13299560546875,
+                "r": 100.67575073242188,
+                "b": 232.3147430419922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12. Son atribuciones del Presidente:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 13. Las faltas temporales o accidentales del Presidente, serán suplidas por el Gerente General. En el caso de falta absoluta el Ministro de Ciencia y Tecnología propondrá al Presidente de la República el nombramiento del nuevo Presidente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 225.13949584960938,
+                "r": 571.52734375,
+                "b": 179.21475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                247
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12. Son atribuciones del Presidente:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 14. El Gerente General, deberá tener doctorado en carrera afin al Instituto, será de libre nombramiento y remoción del Ministro de Ciencia y Tecnología, y será elegido de una terna conformada por los Investigadores del Instituto de conformidad con el Reglamento Interno.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 158.38949584960938,
+                "r": 571.87548828125,
+                "b": 95.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                279
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12. Son atribuciones del Presidente:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Dirigir técnica y administrativamente al Instituto.\n2. Suplir las faltas temporales o accidentales del Presidente.\n3. Convocar a la Junta Directiva.\n4. Ejercer la Secretaría de la Junta Directiva y del Consejo Consultivo.\n5. Nombrar a los Directores de las Unidades Ejecutoras, los cuales serán seleccionados por concurso, según se establezca en el Reglamento Interno.\n6. Hacer seguimiento de los planes y programas de las Unidades Ejecutoras.\n7. Coordinar el funcionamiento de las Unidades Ejecutoras.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/60",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 656.3895263671875,
+                "r": 369.07196044921875,
+                "b": 643.436279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/61",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 639.8895263671875,
+                "r": 418.44195556640625,
+                "b": 626.9647216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 623.3895263671875,
+                "r": 268.50201416015625,
+                "b": 613.3004760742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 606.9037475585938,
+                "r": 474.63525390625,
+                "b": 593.936279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/64",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.43399810791016,
+                "t": 590.4037475585938,
+                "r": 569.3409423828125,
+                "b": 560.936279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/65",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.36274719238281,
+                "t": 557.4037475585938,
+                "r": 509.1595764160156,
+                "b": 544.436279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                74
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.27725219726562,
+                "t": 540.9037475585938,
+                "r": 419.171142578125,
+                "b": 527.936279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15. El Gerente General tendrá las siguientes atribuciones:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 16. El Consejo consultivo es el órgano de consulta de la Junta Directiva, se reunirá por lo menos dos veces al año, y estará integrado por el Presidente del Instituto, el Gerente General y por nueve consejeros designados de la siguiente manera:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/67",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 507.15374755859375,
+                "r": 571.0982055664062,
+                "b": 444.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                253
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15. El Gerente General tendrá las siguientes atribuciones:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Un representante del Ministerio del Ambiente y de los Recursos Naturales, designado por el titular del Despacho.\n2. Tres representantes de los gremios de productores agropecuarios, producción animal, de la pesca y acuicultura y agroindustriales, designados por los gremios más representativos de estos sectores.\n3. Un representante de campesinos y pescadores, artesanales, designados por los gremios más representativos de estos sectores.\n4. Un representante de las Universidades, designado por el Consejo Nacional de Universidades.\n5. Un representante de las Fundaciones del Estado cuyo objeto guarde relación con actividades agropecuarias y pesqueras, designado por el titular del órgano de tutela.\n6. Un representante de los investigadores del Instituto escogido por ellos, según lo establecido en el Reglamento Interno.\n7. Un representante del personal técnico, administrativo y obrero del Instituto, escogido por ellos, según lo establecido en el Reglamento Interno.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.22025299072266,
+                "t": 441.1394958496094,
+                "r": 568.7398681640625,
+                "b": 411.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                115
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 84.83550262451172,
+                "t": 408.1394958496094,
+                "r": 571.7797241210938,
+                "b": 362.2147521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                198
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.17749786376953,
+                "t": 358.6394958496094,
+                "r": 570.0824584960938,
+                "b": 329.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 84.82125091552734,
+                "t": 325.65374755859375,
+                "r": 568.9744873046875,
+                "b": 299.0362548828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.26300048828125,
+                "t": 292.65374755859375,
+                "r": 570.681396484375,
+                "b": 263.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                167
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.27725219726562,
+                "t": 259.6394958496094,
+                "r": 571.1229248046875,
+                "b": 230.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.27725219726562,
+                "t": 226.63949584960938,
+                "r": 568.7066650390625,
+                "b": 197.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                147
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15. El Gerente General tendrá las siguientes atribuciones:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cada Consejero tendrá un suplente, designado de la misma forma que el principal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.26300048828125,
+                "t": 193.65374755859375,
+                "r": 540.7355346679688,
+                "b": 180.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15. El Gerente General tendrá las siguientes atribuciones:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Asesorar al Instituto en la definición de políticas y estrategias para la implementación y ejecución de las actividades que desarrolla el mismo, en especial en",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 85.16325378417969,
+                "t": 126.88949584960938,
+                "r": 572.1865234375,
+                "b": 97.43624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                162
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17. Son atribuciones del Consejo Consultivo:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "la vinculación con el sector productivo y con organismos cuya gestión incide en el desarrollo de la agricultura y la agroindustria.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 85.17749786376953,
+                "t": 690.1395263671875,
+                "r": 569.1300048828125,
+                "b": 660.686279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                131
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17. Son atribuciones del Consejo Consultivo:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2. Apoyar las actividades que se implementen en el sector agroindustrial.\n3. Asesorar a la Junta Directiva en lo relativo al desarrollo de la innovación tecnológica agrícola.\n4. Realizar el seguimiento y supervisión de las actividades que lleve a cabo el Instituto, a fin de efectuar las observaciones, sugerencias o correctivos necesarios.\n5. Elaborar y formular propuestas de programas de investigación, estudios especiales y experimentación agrícola y en todos aquellos asuntos relacionados que le sean consultados por la Junta Directiva.\n6. Cualquier otra actividad de la misma índole que le confiera la Junta Directiva o el Ministro de Ciencia y Tecnología.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/79",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 657.1395263671875,
+                "r": 490.4840393066406,
+                "b": 644.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 85.26300048828125,
+                "t": 640.6395263671875,
+                "r": 572.1318359375,
+                "b": 611.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/81",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 607.6395263671875,
+                "r": 572.564453125,
+                "b": 578.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                165
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.83550262451172,
+                "t": 574.6395263671875,
+                "r": 572.058837890625,
+                "b": 528.7147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.99224853515625,
+                "t": 525.1395263671875,
+                "r": 570.5640258789062,
+                "b": 495.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                120
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17. Son atribuciones del Consejo Consultivo:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 18. Son atribuciones de los Directores de las Unidades Ejecutoras, las siguientes:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/84",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 474.90374755859375,
+                "r": 572.735595703125,
+                "b": 445.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                91
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17. Son atribuciones del Consejo Consultivo:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Dirigir la Unidad Ejecutora y coordinar sus actividades con las demás unidades del Instituto.\n2. Administrar los recursos asignados y generados por la Unidad Ejecutora.\n3. Proponer al Gerente General la designación del personal de investigación, técnico, administrativo y obrero de la Unidad Ejecutora.\n4. Firmar contratos y convenios dentro de las condiciones establecidas por la Junta Directiva.\n5. Presidir el Consejo Regional.\n6. Las demás que le atribuyan al Reglamento de esta Ley y la reglamentación interna del Instituto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/85",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 86.41725158691406,
+                "t": 425.40374755859375,
+                "r": 571.0218505859375,
+                "b": 398.81475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                96
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 392.40374755859375,
+                "r": 509.12042236328125,
+                "b": 379.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                74
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 375.8894958496094,
+                "r": 571.9969482421875,
+                "b": 346.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 342.8894958496094,
+                "r": 571.3135986328125,
+                "b": 316.31475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 85.43399810791016,
+                "t": 309.90374755859375,
+                "r": 262.51171875,
+                "b": 296.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/90",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 85.36274719238281,
+                "t": 293.3894958496094,
+                "r": 571.097412109375,
+                "b": 266.81475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                98
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17. Son atribuciones del Consejo Consultivo:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 19. El Ejecutivo Nacional dispondrá lo conducente para que dentro de los sesenta días siguientes a la fecha de entrada en vigencia de la presente Ley, se conforme la Junta Directiva en los términos consagrados en la misma, a objeto de que ésta proceda a reformar la reglamentación interna del Instituto, para adaptarla a las previsiones de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 174.90374755859375,
+                "r": 571.7113647460938,
+                "b": 95.93624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                358
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III Disposiciones Finales y Transitorias"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 20. A partir del 1° de enero del año 2004, los directores de las Unidades Ejecutoras deberán contar con el título de doctor.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/93",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 689.3895263671875,
+                "r": 571.154052734375,
+                "b": 659.936279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III Disposiciones Finales y Transitorias"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 21. Se deroga el Decreto N° 446 de fecha 20 de enero de 1961, publicado en la Gaceta Oficial N° 26.461 de la misma fecha.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 84.72149658203125,
+                "t": 639.1395263671875,
+                "r": 572.8123779296875,
+                "b": 609.7147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III Disposiciones Finales y Transitorias"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dada, firmada y sellada en el Palacio Federal Legislativo, sede de la Comisión Legislativa Nacional, en Caracas, a los 27 días del mes de julio del año dos mil. Años 190° de la Independencia y 141° de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 85.03500366210938,
+                "t": 589.6395263671875,
+                "r": 572.5623168945312,
+                "b": 543.686279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                215
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III Disposiciones Finales y Transitorias"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Presidente",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 315.99224853515625,
+                "t": 489.1394958496094,
+                "r": 373.26300048828125,
+                "b": 479.06475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "LUIS MIQUILENA"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "BLANCANIEVE PORTOCARRERO  Primera Vicepresidenta, 1 = ELIAS JAUA MILANO Segundo vicepresidente. ELVIS AMOROSO  Secretario, 1 = OLEG ALBERTO OROPEZA Subsecretario",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 82.95435333251953,
+                "t": 457.0408020019531,
+                "r": 521.3665161132812,
+                "b": 374.93548583984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "LUIS MIQUILENA"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

@@ -1,0 +1,3890 @@
+[
+  {
+    "text": "La presente Ley tiene por objeto establecer dentro de la política del desarrollo integral al de la Nación, los principios rectores para la conservación, defensa y mejoramiento del ambiente en beneficio de la calidad de la vida.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.6474380493164,
+                "t": 496.6119079589844,
+                "r": 525.491943359375,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                227
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se declaran de utilidad pública la conservación, la defensa y el mejoramiento del ambiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.26324462890625,
+                "t": 427.71551513671875,
+                "r": 525.4470825195312,
+                "b": 405.05535888671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                91
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 2º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A los efectos de esta Ley, la conservación, defensa y mejoramiento del ambiente comprenderá:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 89.85504150390625,
+                "t": 372.52874755859375,
+                "r": 525.4534301757812,
+                "b": 347.60546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. La ordenación territoriales, y la planificación de los procesos de urbanización, industrialización, poblamiento y desconcentración económica, en función de los valores del ambiente;\n2. El aprovechamiento nacional de los suelos, aguas, flora, fauna, fuentes energéticas y demás recursos naturales, continentales y marinos, en función de los valores del ambiente;\n3. La creación, protección, conservación y mejoramiento de parques nacionales, reservas forestales, monumentos naturales, zonas protectoras, reservas de regiones vírgenes, cuencas hidrográficas, reservas nacionales hidráulicas; refugios, santuarios y reservas de faunas silvestres, parques de recreación a campo abierto o de uso intensivo, áreas verdes en centros urbanos o de cualesquiera otros espacios sujetos a un régimen especial en beneficio del equilibrio ecológico y del bienestar colectivo;\n4. La prohibición o corrección de actividades degradantes del ambiente;\n5. El control, reducción o eliminación de factores, procesos o componentes del ambiente que sean o puedan ocasionar perjuicios a la vida del hombre y de los demás seres;\n6. La orientación de los procesos educativos y culturales a fin de fomentar conciencia ambiental;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 91.1636962890625,
+                "t": 344.93536376953125,
+                "r": 525.4194946289062,
+                "b": 306.9087829589844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                184
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.20321655273438,
+                "t": 303.5362548828125,
+                "r": 525.4578247070312,
+                "b": 265.5096740722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                179
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.35929107666016,
+                "t": 262.0411376953125,
+                "r": 525.4869995117188,
+                "b": 168.10739135742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                499
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.01111602783203,
+                "t": 165.45526123046875,
+                "r": 490.4462890625,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                71
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.35929107666016,
+                "t": 151.74560546875,
+                "r": 525.4794921875,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                169
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.31127166748047,
+                "t": 110.36453247070312,
+                "r": 525.4618530273438,
+                "b": 86.12561798095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Caracas, miércoles 16 de junio de 1976 Número 31.004",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 114.50457000732422,
+                "t": 689.8974609375,
+                "r": 501.5041198730469,
+                "b": 678.6478271484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Gaceta Oficial de la República de Venezuela"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "la siguiente",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 276.4210205078125,
+                "t": 606.9553833007812,
+                "r": 339.68426513671875,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Decreta:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "7. La promoción y divulgación de estudios e investigaciones concernientes al ambiente;\n8. El fomento de iniciativas públicas y privadas que estimulen la participación ciudadana en los problemas relacionados con el ambiente;\n9. La educación y coordinación de las actividades de la Administración Pública y de los particulares, en cuanto tengan relación con el ambiente;\n10. El estudio de la política internacional para la defensa del ambiente, y en especial de la región geográfica donde esta ubicada Venezuela;\n11. Cualesquiera otras actividades que se consideren necesarias al logro del objeto de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 717.3948364257812,
+                "r": 525.453125,
+                "b": 693.251953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 689.8974609375,
+                "r": 525.5074462890625,
+                "b": 664.9742431640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                136
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 662.2081298828125,
+                "r": 525.4459838867188,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                144
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 634.6927490234375,
+                "r": 525.4293212890625,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                141
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 607.0994262695312,
+                "r": 525.46533203125,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                96
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo I Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La suprema dirección de la política nacional sobre el ambiente corresponde al Presidente de la República en Consejo de Ministros. A tal efecto, dictará las normas sobre coordinación de las competencias de los organismos de la Administración Pública Nacional, de los Estados y de los Municipios, en función de los objetivos de la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 551.816650390625,
+                "r": 525.495361328125,
+                "b": 485.4583435058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                342
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La planificación del desarrollo nacional, regional o local deberá realizarse integralmente a los fines de dar cumplimiento al objeto de la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.64859771728516,
+                "t": 413.92779541015625,
+                "r": 525.4375,
+                "b": 388.8725280761719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 5º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los organismos de la Administración Pública Nacional, de los Estados y de los Municipios; las instituciones, corporaciones o entidades de carácter público y aquellas de carácter privado en las cuales el Estado, directa o indirectamente participe con 50% o más de su capital social, deberán programar y ejecutar sus actividades de acuerdo con las previsiones del Plan Nacional de Conservación, Defensa y mejoramiento del Ambiente y de conformidad con las reglas que se dicten en virtud de lo dispuesto en el Artículo 4 de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.264404296875,
+                "t": 358.6269836425781,
+                "r": 525.494140625,
+                "b": 264.6932678222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                530
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Plan Nacional de conservación, defensa y mejoramiento ambiental, formará parte del Plan de la Nación y deberá contener:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.64859771728516,
+                "t": 234.54379272460938,
+                "r": 525.4773559570312,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. La ordenación del territorio nacional según los mejores usos de las espacios de acuerdo a sus capacidades, condiciones específicas y limitaciones ecológicas;\n2. El señalamiento de los espacios sujetos a un régimen especial de protección, conservación o mejoramiento;\n3. El establecimiento de criterios prospectivos y principios que orienten los procesos de urbanización, industrialización desconcentración económica y poblamiento en función de los objetivos de la presente Ley;\n4. Las normas para el aprovechamiento de los recursos naturales basadas en el principio del uso racional de los recursos, en función de los objetivos de la presente Ley;\n5. Los programas de investigación en materia ecológica;\n6. Los objetivos y medidas de instrumentación que se consideren favorables a la conservación, defensa y mejoramiento del ambiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 91.16485595703125,
+                "t": 206.85433959960938,
+                "r": 525.4700927734375,
+                "b": 168.10739135742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                160
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.20437622070312,
+                "t": 165.45526123046875,
+                "r": 525.4422607421875,
+                "b": 140.49598693847656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.3604507446289,
+                "t": 137.849853515625,
+                "r": 525.455810546875,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                210
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 717.3468017578125,
+                "r": 525.4893798828125,
+                "b": 678.6478271484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                169
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 675.9957885742188,
+                "r": 408.3223876953125,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 662.3041381835938,
+                "r": 525.450927734375,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se crea el Consejo Nacional del Ambiente adscrito a la Presidencia de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 565.7003784179688,
+                "r": 525.4798583984375,
+                "b": 540.7951049804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 8º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo estará integrado por un Presidente y por sendos representantes de los Ministerios de Relaciones Interiores, de la Defensa de Fomento, de Obras Públicas, de Educación, de Sanidad y Asistencia Social, de Agricultura y Cría, de Comunicaciones y de Minas e Hidrocarburos; de la Oficina Central de Coordinación y Planificación de la Presidencia de la República, del Instituto Nacional de Obras Sanitarias, de la Comisión del Plan Nacional para el aprovechamiento de los Recursos Hidráulicos, del Instituto Venezolano de Investigaciones Científicas, del Consejo Nacional de Universidades, de los sectores laboral y empresarial y de las sociedades naturalistas de Venezuela. El Presidente y de los representantes mencionados deberán ser personas de reconocida competencia en la materia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 510.51361083984375,
+                "r": 525.6146850585938,
+                "b": 361.41119384765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                790
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente de la República podrá incorporar al Consejo, representantes de otros Despachos Ministeriales, Institutos o Asociaciones de carácter público o privado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 344.93536376953125,
+                "r": 525.4749755859375,
+                "b": 306.22442626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                164
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente del Consejo Nacional del Ambiente será de libre nombramiento y remoción por el Presidente de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 275.94287109375,
+                "r": 525.4074096679688,
+                "b": 251.01962280273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                120
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Nacional de Ambiente forma parte del sistema nacional de coordinación y planificación y tendrá las siguientes atribuciones",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 220.7380828857422,
+                "r": 525.4410400390625,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Actuar como órgano de consulta de la Presidencia de la República;\n2. Proponer las normas de coordinación de las actuaciones que deben cumplir diferentes organismos y entidades a que se refiere el Artículo 6º y que tienen competencia en relación con la conservación, defensa y mejoramiento del ambiente;\n3. 3º Examinar el marco jurídico-institucional del Estado relativo a las materias objeto de la presente Ley y proponer las reformas e innovaciones que fueren menester;\n4. 4º Elaborar, en consulta con la Oficina Central de Coordinación y Planificación, el Plan Nacional de conservación, defensa y mejoramiento ambiental;\n5. 5º Colaborar en la formulación de los programas anuales de los organismos de la Administración Pública relativos al ambiente;\n6. 6º Formular al órgano encargado de preparar el Proyecto de Ley de Presupuesto las recomendaciones de asignaciones presupuestarias para atender los requerimientos de los programas de los organismos de la Administración Pública relativos al ambiente;\n7. 7º Promover la formación y capacitación del personal especializados;\n8. 8º Presentar un informe anual sobre su gestión; así como de los resultados obtenidos en la Ejecución de esta Ley;\n9. 9º Dictar su reglamento interno;\n10. Las demás que le otorgan las leyes y los reglamentos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 193.04864501953125,
+                "r": 479.0365295410156,
+                "b": 181.89508056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 179.26095581054688,
+                "r": 525.5179443359375,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                236
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 124.1522216796875,
+                "r": 525.455810546875,
+                "b": 86.12561798095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                164
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 717.5028686523438,
+                "r": 525.4749755859375,
+                "b": 679.4642333984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                148
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 676.091796875,
+                "r": 525.4510498046875,
+                "b": 651.8709106445312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                125
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 648.4984130859375,
+                "r": 525.4686279296875,
+                "b": 596.6661987304688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                248
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 593.3117065429688,
+                "r": 475.66644287109375,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/56",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 579.5060424804688,
+                "r": 525.421875,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 551.9126586914062,
+                "r": 275.57220458984375,
+                "b": 540.6630249023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 538.010986328125,
+                "r": 411.0322570800781,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los funcionarios de la Administración Pública, en el ejercicio de sus funciones, están en la obligación de colaborar con el Consejo Nacional del Ambiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/60",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 496.70794677734375,
+                "r": 525.4122314453125,
+                "b": 471.6706237792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                154
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Nacional del Ambiente podrá propiciar la creación de Fundaciones para promover y divulgar estudios e investigaciones concernientes al ambiente o para desarrollar tecnologías favorables a su conservación, defensa y mejoramiento. Las fundaciones, para el mejor cumplimiento de sus objetivos, podrán recibir aportaciones del sector público o de los particulares. Estos aportes serán deducibles en los términos y condiciones que disponga la Ley de Impuesto sobre la Renta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 441.52117919921875,
+                "r": 525.493896484375,
+                "b": 347.60546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                479
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 13°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las Fundaciones destinaran los recursos que obtengan, al incremento de programas que realicen los organismos de investigación existentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 330.9855651855469,
+                "r": 525.4354248046875,
+                "b": 306.0923767089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                137
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 13°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se crea la Oficina Nacional del Ambiente, adscrita a la Presidencia de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 234.55580139160156,
+                "r": 525.4962158203125,
+                "b": 209.6205291748047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                84
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Oficina Nacional del Ambiente tendrá las siguientes atribuciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.732666015625,
+                "t": 179.3690185546875,
+                "r": 455.4055480957031,
+                "b": 168.10739135742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Vigilar la ejecución de las normas que dicte el Presidente de la República sobre la coordinación de los organismos de la Administración Pública en el ejercicio de sus atribuciones con incidencia ambiental;\n2. Evaluar y vigilar la ejecución del Plan a que se contrae el ordinal 4º del Artículo 11 de esta Ley;\n3. Coordinar el servicio de guardería ambiental;\n4. Desempeñar la secretaria del Consejo Nacional del Ambiente;\n5. Promover la creación de Juntas para la Conservación, Defensa y Mejoramiento del Ambiente, con la organización y atribuciones que señale el Reglamento respectivo;\n6. Las demás que le señalen la Ley y los reglamentos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 165.45526123046875,
+                "r": 525.4666748046875,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                208
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 124.1522216796875,
+                "r": 525.4762573242188,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 96.558837890625,
+                "r": 360.9635925292969,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 717.4908447265625,
+                "r": 452.33636474609375,
+                "b": 706.2412109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 703.6851806640625,
+                "r": 525.475830078125,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                164
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 662.2081298828125,
+                "r": 397.71282958984375,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente de la República en Consejo de Ministros podrá asignar, parcial o totalmente, a un Despacho Ministerial alguna de las funciones antes enumeradas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 620.9050903320312,
+                "r": 525.4894409179688,
+                "b": 584.4392700195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                158
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La guardería ambiental comprende el examen la vigilancia y la fiscalización de las actividades que directa o indirectamente puedan incidir sobre el ambiente y velar por el cumplimiento de las disposiciones relativas a la conservación, defensa y mejoramiento ambiental",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 551.9126586914062,
+                "r": 525.5003051757812,
+                "b": 499.2640075683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                267
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 16°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Ejercerán las funciones de guardería ambiental la Guardia Nacional, las Juntas para la Conservación, Defensa y Mejoramiento del Ambiente y los demás organismos y funcionarios a quienes las leyes respectivas les confieran atribuciones en las materias objeto de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 469.11456298828125,
+                "r": 525.4833984375,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                269
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional dictará las normas sobre composición, organización y funcionamiento de la Oficina Nacional del Ambiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 386.2383728027344,
+                "r": 525.4761962890625,
+                "b": 363.65631103515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las actividades susceptibles de degradar el ambiente quedan sometidas al control del Ejecutivo Nacional por órgano de las autoridades competentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/85",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 275.7987976074219,
+                "r": 525.4785766601562,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se consideran actividades susceptibles de degradar el ambiente:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 220.7380828857422,
+                "r": 439.3966979980469,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 20°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Las que directa o indirectamente contaminen o deterioren el aire, el agua, los fondos marinos, el suelo o el subsuelo o incidan desfavorablemente sobre la fauna o la flora:\n2. Las alteraciones nocivas de la topografía;\n3. Las alteraciones nocivas del flujo natural de las aguas;\n4. La sedimentación en los cursos y depósitos de aguas;\n5. Los cambios nocivos del lecho de las aguas;\n6. La introducción y utilización de productos o sustancias no bio-degradables;\n7. Las que producen ruidos molestos o nocivos;\n8. Las que deterioran el paisaje;\n9. Las que modifiquen el clima;\n10. Las que produzcan radiaciones ionizantes;\n11. Las que propenden a la acumulación de residuos, basuras, desechos y desperdicios;\n12. Las que propenden a la eutrificación de lagos y lagunas;\n13. Cualesquiera otras actividades capaces de alterar los ecosistemas naturales e incidir negativamente sobre la salud y bienestar del hombre.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 206.8423309326172,
+                "r": 525.487060546875,
+                "b": 170.4845733642578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                175
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 165.5513153076172,
+                "r": 342.94976806640625,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/90",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 151.74560546875,
+                "r": 412.3482971191406,
+                "b": 140.49598693847656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/91",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 137.8618621826172,
+                "r": 409.70697021484375,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 124.00814819335938,
+                "r": 359.0259704589844,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/93",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 110.26847839355469,
+                "r": 520.4600830078125,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 96.41476440429688,
+                "r": 362.3070983886719,
+                "b": 85.44127655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 717.3828125,
+                "r": 278.9878845214844,
+                "b": 706.2412109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/96",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 703.6851806640625,
+                "r": 273.6356201171875,
+                "b": 692.567626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 689.7894287109375,
+                "r": 349.0238037109375,
+                "b": 678.7799072265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/98",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 675.9957885742188,
+                "r": 525.3941650390625,
+                "b": 651.1865844726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                85
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 648.4984130859375,
+                "r": 421.7418212890625,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/100",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 634.6927490234375,
+                "r": 525.45556640625,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 20°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las actividades susceptibles de degradar el ambiente en forma no irreparable y que se consideren necesarias por cuanto reporten beneficios económicos o sociales evidentes, solo podrán ser autorizados si se establecen garantías, procedimientos y normas para su corrección. En el acto de autorización se establecerán las condiciones, limitaciones y restricciones que sean pertinentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/102",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 579.5060424804688,
+                "r": 525.500244140625,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                382
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La autorización prevista en el Artículo anterior, deberá otorgarse en atención a los objetivos, criterios y normas establecidas por el Plan Nacional de conservación, defensa y mejoramiento ambiental.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/104",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 482.8241882324219,
+                "r": 525.4891357421875,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                199
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Quienes realicen actividades sometidas al control de la presente Ley deberán contar con los equipos y el personal técnico apropiados para el control de la contaminación. La clasificación y cantidad del personal dependerá de la magnitud del establecimiento y del riesgo que ocasione. Corresponderá al Reglamento determinar los sistemas y procedimientos de control de la contaminación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/106",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 413.9398193359375,
+                "r": 525.4942626953125,
+                "b": 336.06292724609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                383
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los infractores de las disposiciones relativas a la conservación, defensa y mejoramiento ambiental serán sancionados con multas medidas de seguridad o con penas privativas de la libertad, en los términos que establezcan esta Ley o las demás leyes aplicables.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 262.1371765136719,
+                "r": 525.48828125,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                258
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 24°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La aplicación de las penas a que se refiere el Artículo anterior no obsta para el organismo correspondiente adopte las medidas necesarias para evitar las consecuencias perjudiciales derivada del acto sancionado. Tales medidas podrán consistir:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/111",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 179.3570098876953,
+                "r": 525.4749755859375,
+                "b": 126.8403549194336,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                243
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Ocupación temporal, total o parcial de las fuentes contaminantes, la cual no podrá exceder de seis meses;\n2. Clausura temporal o definitiva de las fábricas o establecimiento que con su actividad alteren el ambiente, degradándolo o contaminándolo, ya sea directa o indirectamente;\n3. Prohibición temporal o definitiva de la actividad origen de la contaminación;\n4. La modificación o demolición de construcciones violatorias de disposiciones sobre protección, conservación o defensa del ambiente;\n5. Cualesquiera otras medidas tendientes a corregir y reparar los daños causados y evitar la contaminación de los actos perjudiciales al ambiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 124.16422271728516,
+                "r": 525.4315185546875,
+                "b": 99.2469711303711,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/113",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 717.4908447265625,
+                "r": 525.4401245117188,
+                "b": 679.4642333984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                173
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/114",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 676.091796875,
+                "r": 521.7723999023438,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/115",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 662.3041381835938,
+                "r": 525.5479125976562,
+                "b": 637.380859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/116",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 634.6927490234375,
+                "r": 525.4698486328125,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El organismo competente para decidir acerca de las sanciones previstas en el Artículo anterior, podrá adoptar en el curso del proceso correspondiente, las medidas preventivas que fueren necesarias para evitar las consecuencias degradante del hecho que se investiga. Tales medidas podrán consistir:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/118",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 579.3619995117188,
+                "r": 525.473876953125,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                297
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Ocupación temporal, total o parcial de las fuentes contaminantes, hasta tanto se corrija o elimine la causa degradante;\n2. Clausura temporal de las fábricas o establecimientos que con su actividad alteren el ambiente, degradándolo o contaminándolo, ya sea directa o indirectamente;\n3. Prohibición temporal de la actividad origen de la contaminación;\n4. La modificación de construcciones violatorias de disposiciones sobre conservación, defensa y mejoramiento del ambiente; y\n5. Cualesquiera otras medidas tendientes a corregir y reparar los daños causados y evitar la contaminación de los actos perjudiciales al ambiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/119",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 524.331298828125,
+                "r": 525.4822387695312,
+                "b": 499.2640075683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/120",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 496.70794677734375,
+                "r": 525.5046997070312,
+                "b": 458.6813659667969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 455.2308654785156,
+                "r": 461.0939636230469,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 441.52117919921875,
+                "r": 525.4278564453125,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                124
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/123",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 413.92779541015625,
+                "r": 525.4698486328125,
+                "b": 388.8725280761719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Sin perjuicio de la aplicación de las penas y sanciones previstas en los Artículo 24 25, de las acciones que se ejerzan en virtud del Artículo 32 de esta Ley o de otras acciones que se deriven del derecho común, quienes realicen actividades que produzcan degradación de los bienes del dominio público, serán responsables ante la República de los daños causados, salvo que demuestren que han sido ocasionados por el hecho de un tercero, por caso fortuito o fuerza mayor. En las mismas condiciones estarán obligados al pago de los daños correspondientes, quienes resulten civilmente responsables en los términos de los Artículos 1.190 al 1.194 del Código Civil.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/125",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 358.7230224609375,
+                "r": 525.520751953125,
+                "b": 237.09986877441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                659
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La determinación de la cuantía de los daños se hará mediante dictamen de tres expertos nombrados por el Tribunal de la causa. El dictamen de los expertos tomará en cuenta el deterioro que se haya causado al ambiente, la situación económica del obligado a reparar el daño y los demás elementos que según el caso deban considerarse como indispensables.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/126",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 220.64202880859375,
+                "r": 525.5106201171875,
+                "b": 154.4337615966797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                350
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las partes podrán impugnar el dictamen si no cumpliese los requisitos que sobre la materia establece el Código Civil en su Artículo 1.425. El Juez, si se demostrare la justicia de la impugnación, ordenará por una sola vez, la realización de una nueva experticia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/127",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 137.8618621826172,
+                "r": 525.44384765625,
+                "b": 85.44127655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                262
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si la indemnización que deba pagarse se fundamenta en daños causados a bienes propiedad de los Estados o de los Municipios, las sumas correspondientes ingresarán al Tesoro de los Estados o de los Consejos Municipales de que se trate, deducidos los costos y gastos judiciales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 703.6851806640625,
+                "r": 525.5061645507812,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                275
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La acción penal que surja en virtud de los hechos sancionados en esta Ley o de las leyes especiales correspondientes, es pública y procede por denunciar o de oficio.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 620.80908203125,
+                "r": 525.4817504882812,
+                "b": 584.4392700195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                165
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los procesos sobre la materia que trata la presente Ley, las leyes especiales y los reglamentos que en ejecución de ellas se dictaren, serán gratuitas, en papel común y sin estampillas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 551.7686157226562,
+                "r": 525.5035400390625,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                185
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 29°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se crea la Procuraduría del Ambiente, con sede en Caracas y jurisdicción en todo el Territorio Nacional, con la organización, funcionamiento y atribuciones que establezca la Ley respectiva.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 441.52117919921875,
+                "r": 525.4530639648438,
+                "b": 402.6781921386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                189
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Corresponde a la Procuraduría del Ambiente ejercer la representación del interés público en los procesos civiles y administrativos a seguirse contra los infractores de esta Ley, las leyes especiales y los reglamentos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/138",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 372.52874755859375,
+                "r": 525.5179443359375,
+                "b": 333.6857604980469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Procuradores de los Estados y los Síndicos Procuradores Municipales, están en la obligación de denunciar por ante la Procuraduría del Ambiente, los hechos que puedan constituir violaciones a la presente Ley y de los cuales tengan conocimiento. En caso de incumplimiento, serán responsables en los términos que establezcan las leyes respectivas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/139",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.27644348144531,
+                "t": 317.34197998046875,
+                "r": 525.455810546875,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                348
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Todo ciudadano puede acudir por ante el Procuraduría del Ambiente o sus auxiliares para demandar el cumplimiento de las disposiciones relativas a la conservación, defensa y mejoramiento del ambiente, a fin de que las actividades o hechos denunciados sean objeto de investigación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 220.64202880859375,
+                "r": 525.4703369140625,
+                "b": 168.10739135742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                279
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Corresponde a los Fiscales del Ministerio Público y a los Síndicos Municipales el ejercicio de la acción penal en los juicios que se prosigan por violación de las disposiciones sobre conservación, defensa y mejoramiento del ambiente. Los Procuradores del Ambiente serán auxiliares del Ministerio Público.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/143",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 137.95791625976562,
+                "r": 525.5010986328125,
+                "b": 87.6864013671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                304
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 33°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Mientras no sean creados y dotados los órganos previstos en esta Ley, las funciones administrativas sobre conservación, defensa y mejoramiento ambiental, las tendrán quienes en la actualidad las ejercen de conformidad con las respectivas leyes vigentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 662.2081298828125,
+                "r": 525.44580078125,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                253
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las prohibiciones y restricciones que se impongan de conformidad con la presente Ley constituyen limitaciones de la propiedad y no darán derecho al pago indemnización.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/147",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 579.5060424804688,
+                "r": 525.4962158203125,
+                "b": 540.6630249023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                167
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En ejecución de esta Ley, deberán dictarse las adecuadas normas penales en garantías de los bienes jurídicos tutelados por la misma y las penas correspondientes serán hasta de un millón de bolívares, si se tratare de multas, y hasta de diez años de presión si consistieren en penas privativas de libertad, debiéndose hacer la fijación de acuerdo a la mayor o menor gravedad del hecho punible, a las condiciones del autor del mismo y las circunstancias de su comisión.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/149",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.24042510986328,
+                "t": 510.4175720214844,
+                "r": 525.4833984375,
+                "b": 418.84307861328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                467
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Hasta tanto se promulgan las leyes que se dicten en ejecución de esta Ley, continuaran aplicándose las sanciones establecidas en los siguientes Artículo: 345, 346, 348, 349, 357, 364 y 365 del Código Penal 19, 20, 21, 22, 23 y 24 de la Ley de Sanidad Nacional; 109, 110, 111, 112, 113, 114, 115, 116, 120, 122 y 123 de la Ley Forestal de Suelos y de Aguas; 206, del Reglamento de la Ley Forestal de Suelos y Aguas; 102, 104, 105, 106, 107, 108, 109, 110 y 113 de la Ley de Protección a la Fauna Silvestre; 27 de la Ley de Pesca; 85 de la Ley de Hidrocarburos en cuanto se refiere al incumplimiento de las obligaciones previstas en el ordinal 5º del Artículo 59 de esa misma Ley; 12 de la Ley de Vigilancia para impedir la Contaminación de las Aguas por el Petróleo, por los hechos punibles tipificados en las citadas disposiciones legales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/150",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 89.90425872802734,
+                "t": 400.0260925292969,
+                "r": 525.5081787109375,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                839
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se derogan las disposiciones contrarias a la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/152",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 220.7380828857422,
+                "r": 403.9834289550781,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dada, firmada y sellada en el Palacio Federal Legislativo, en Caracas, a los siete días del mes de junio de mil novecientos setenta y seis Año 167º de la Independencia y 118º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 193.1446990966797,
+                "r": 525.5010375976562,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                192
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente, (L.S.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/154",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.5886001586914,
+                "t": 124.00814819335938,
+                "r": 167.89402770996094,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Gonzalo Barrios",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/156",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 430.0390319824219,
+                "t": 96.558837890625,
+                "r": 525.4951171875,
+                "b": 87.6864013671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo VIII Disposiciones Transitorias y Finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Vicepresidente,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/157",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.80470275878906,
+                "t": 717.3468017578125,
+                "r": 189.9034423828125,
+                "b": 706.373291015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo VIII Disposiciones Transitorias y Finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Oswaldo Álvarez Paz",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/158",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 402.6365661621094,
+                "t": 705.7862548828125,
+                "r": 525.5011596679688,
+                "b": 694.812744140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo VIII Disposiciones Transitorias y Finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Secretarios,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/159",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.732666015625,
+                "t": 676.091796875,
+                "r": 179.9132080078125,
+                "b": 665.6585693359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo VIII Disposiciones Transitorias y Finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Andrés Eloy Blanco Iturbe",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/160",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 372.11370849609375,
+                "t": 662.3041381835938,
+                "r": 525.4879150390625,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                25
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo VIII Disposiciones Transitorias y Finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Palacio de Miraflores, Caracas, quince de junio de mil novecientos setenta y seis Año 167º de la Independencia y 118º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/161",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 634.6927490234375,
+                "r": 525.45068359375,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo VIII Disposiciones Transitorias y Finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cúmplase (L.S.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/162",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.45653533935547,
+                "t": 593.3117065429688,
+                "r": 147.2041015625,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo VIII Disposiciones Transitorias y Finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Carlos Andrés Pérez",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/163",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 405.3306884765625,
+                "t": 565.7003784179688,
+                "r": 525.48193359375,
+                "b": 556.8279418945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo VIII Disposiciones Transitorias y Finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Y demás miembros del Gabinete",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/164",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 89.89225006103516,
+                "t": 538.1069946289062,
+                "r": 267.91473388671875,
+                "b": 529.2345581054688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo VIII Disposiciones Transitorias y Finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

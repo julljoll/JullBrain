@@ -1,77 +1,120 @@
 @echo off
 setlocal EnableDelayedExpansion
-title JullBrain - Document Converter (Python Native)
 
-:: Set cyan text on black background
-color 0b
+:: Establecer codificación UTF-8 para soporte de emojis y bloques ASCII
+chcp 65001 >nul
 
-echo =========================================================================================
-echo    JullBrain - Version 2.0 (Native Python Environment)
-echo =========================================================================================
-echo.
-echo This project converts PDF files and Word documents to structured Markdown and JSON.
-echo.
-echo [+] Execution: Local Python Virtual Environment.
-echo =========================================================================================
-echo.
-
+:: Asegurar que el directorio de trabajo es el del script
 cd /d "%~dp0"
+
+title JullBrain - Pipeline de Normativas RAG (Entorno Nativo)
+
+:: 1. Auto-Elevación de Privilegios
+net session >nul 2>&1
+if %errorlevel% neq 0 (
+    powershell -Command "Start-Process -FilePath '%~f0' -Verb RunAs"
+    exit /b
+)
+
+:: 2. Declaración de Variables de Color usando prompt
+for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (
+    set "ESC=%%b"
+)
+set "BG_COLOR=%ESC%[40m"
+set "COLOR_H1=%ESC%[93m"
+set "COLOR_TITLE=%ESC%[96m"
+set "COLOR_TXT=%ESC%[97m"
+set "COLOR_GREEN=%ESC%[92m"
+set "COLOR_RED=%ESC%[91m"
+set "COLOR_RESET=%ESC%[0m"
+
+:: Configurar color de fondo negro
+echo %BG_COLOR%
+cls
+
+:: Imprimir logo ASCII y banner
+echo %COLOR_TITLE%
+echo  =========================================================================================
+echo        ██╗██╗   ██╗██╗     ██╗     ██████╗ ██████╗  █████╗ ██╗███╗   ██╗
+echo        ██║██║   ██║██║     ██║     ██╔══██╗██╔══██╗██╔══██╗██║████╗  ██║
+echo        ██║██║   ██║██║     ██║     ██████╔╝██████╔╝███████║██║██╔██╗ ██║
+echo   ██   ██║██║   ██║██║     ██║     ██╔══██╗██╔══██╗██╔══██║██║██║╚██╗██║
+echo   ╚█████╔╝╚██████╔╝███████╗███████╗██████╔╝██║  ██║██║  ██║██║██║ ╚████║
+echo    ╚════╝  ╚═════╝ ╚══════╝╚══════╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝
+echo  =========================================================================================
+echo %COLOR_RESET%
+echo %COLOR_H1%   JullBrain RAG-Pipeline - Versión 2.0 (Entorno Local de Python)%COLOR_RESET%
+echo.
+echo %COLOR_TXT% Este script automatiza la conversión y validación de normativas y leyes venezolanas.%COLOR_RESET%
+echo %COLOR_TXT% Autor: Jull Ortiz (Arquitecto de Información IA) | Licencia MIT%COLOR_RESET%
+echo %COLOR_TITLE% =========================================================================================%COLOR_RESET%
+echo.
+
 set "VENV_DIR=docling_env"
 
-echo [STATUS] Checking system dependencies...
+echo %COLOR_H1%[FASE 3] Verificando Entorno Virtual y Dependencias...%COLOR_RESET%
 
-:: 1. Check if local virtual environment exists and has python
+:: 3. Verificación de Python y Entorno Virtual
 if exist "%VENV_DIR%\Scripts\python.exe" (
-    echo   [+] Virtual environment '%VENV_DIR%': DETECTED
+    echo   %COLOR_GREEN%[+] Entorno virtual '%VENV_DIR%': DETECTADO%COLOR_RESET%
     set "PYTHON_EXE=%VENV_DIR%\Scripts\python.exe"
     goto VENV_READY
 )
 
-:: 2. Check if python is installed globally to create the virtual environment
 where python >nul 2>&1
 if %errorlevel% neq 0 (
-    echo   [-] Global Python: NOT DETECTED
-    echo [ERROR] Python was not found in the system.
-    echo Please install Python 3.10+ and add it to the system PATH.
-    pause
-    exit /b 1
+    goto :PYTHON_NOT_FOUND
 )
 
-echo   [+] Global Python: DETECTED
-echo [INFO] Creating local virtual environment '%VENV_DIR%'...
+:: Verificar si el comando Python funciona realmente (evita el dummy alias de Microsoft Store)
+python --version >nul 2>&1
+if %errorlevel% neq 0 (
+    goto :PYTHON_NOT_FOUND
+)
+
+echo   %COLOR_GREEN%[+] Python global: DETECTADO%COLOR_RESET%
+echo [INFO] Creando el entorno virtual '%VENV_DIR%' local...
 python -m venv --system-site-packages %VENV_DIR%
 if %errorlevel% neq 0 (
-    echo [ERROR] Failed to create virtual environment.
+    echo %COLOR_RED%[ERROR] No se pudo crear el entorno virtual.%COLOR_RESET%
     pause
     exit /b 1
 )
 set "PYTHON_EXE=%VENV_DIR%\Scripts\python.exe"
+goto :VENV_READY
+
+:PYTHON_NOT_FOUND
+echo   %COLOR_RED%[-] Python global: NO DETECTADO o ALIAS DE MICROSOFT STORE ACTIVO%COLOR_RESET%
+echo %COLOR_RED%[ERROR] Python no se encuentra instalado correctamente en el sistema.%COLOR_RESET%
+echo Por favor, instale Python 3.10+ y asegúrese de agregarlo al PATH.
+pause
+exit /b 1
 
 :VENV_READY
-echo [INFO] Activating virtual environment...
+echo [INFO] Activando el entorno virtual...
 call "%VENV_DIR%\Scripts\activate.bat"
 
-:: Instalar dependencias directamente usando pip del venv (evitando autoupgrade de pip para no bloquear archivos en Windows)
-echo [INFO] Instalando dependencias desde requirements.txt...
-pip install -r requirements.txt
+:: 4. Instalación de dependencias y ejecución
+echo [INFO] Instalando/Actualizando dependencias de requirements.txt...
+python -m pip install -r requirements.txt
 if %errorlevel% neq 0 (
-    echo [ERROR] Failed to install dependencies.
+    echo %COLOR_RED%[ERROR] Error al instalar dependencias del sistema.%COLOR_RESET%
     pause
     exit /b 1
 )
 
 echo.
-echo =========================================================================================
-echo [START] Running JullBrain orchestrator...
-echo         Processing PDFs in normativas_pdf to normativas_rag.
-echo =========================================================================================
+echo %COLOR_TITLE% =========================================================================================%COLOR_RESET%
+echo %COLOR_GREEN%[FASE 4] Iniciando el procesamiento del Pipeline RAG...%COLOR_RESET%
+echo %COLOR_TITLE% =========================================================================================%COLOR_RESET%
 echo.
 
 python convert_normativas.py
 
 echo.
-echo =========================================================================================
-echo [END] Conversion process finished.
-echo =========================================================================================
+echo %COLOR_TITLE% =========================================================================================%COLOR_RESET%
+echo %COLOR_GREEN%[FIN] Proceso de conversión y validación completado con éxito.%COLOR_RESET%
+echo %COLOR_TITLE% =========================================================================================%COLOR_RESET%
+echo.
 pause
 exit /b 0

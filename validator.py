@@ -21,6 +21,22 @@ MIN_ARTICLE_CHARS = 50
 # Maximo de articulos cortos permitidos antes de emitir advertencia critica
 MAX_SHORT_ARTICLES_WARNING = 5
 
+# Umbrales de calidad del skill
+QUALITY_THRESHOLDS = {
+    'critical': 0.90,   # Por debajo → ERROR, detener/marcar pipeline
+    'warning': 0.95,    # Por debajo → WARNING, revisar manualmente  
+    'good': 0.98,       # Por debajo → INFO, aceptable
+    'excellent': 1.00,  # Perfecto
+}
+
+try:
+    from rich.console import Console
+    from rich.table import Table
+    from rich import box
+    RICH_AVAILABLE = True
+except ImportError:
+    RICH_AVAILABLE = False
+
 
 @dataclass
 class ValidationReport:
@@ -35,18 +51,28 @@ class ValidationReport:
     has_frontmatter:     bool  = False
     overall_status:      str   = "UNKNOWN"  # OK | WARNING | ERROR
 
+    @property
+    def quality_score(self) -> float:
+        if self.articles_found == 0:
+            return 0.0
+        total_missing = sum(len(gap) for gap in self.sequence_gaps) if isinstance(self.sequence_gaps, list) else 0
+        penalties = total_missing + (len(self.duplicates) * 2) + len(self.short_articles)
+        return max(0.0, 1.0 - (penalties / self.articles_found))
+
     def is_ok(self) -> bool:
         return self.overall_status == "OK"
 
     def summary(self) -> str:
+        total_missing = sum(len(gap) for gap in self.sequence_gaps)
         lines = [
             f"[VALIDACION] {self.filename}",
             f"  [{'OK' if self.articles_found > 0 else '!'}]  Articulos detectados : {self.articles_found}",
-            f"  [{'OK' if not self.sequence_gaps else '!'}]  Saltos de secuencia  : {len(self.sequence_gaps)}",
+            f"  [{'OK' if not self.sequence_gaps else '!'}]  Saltos de secuencia  : {total_missing} artículos faltantes",
             f"  [{'OK' if not self.duplicates else '!'}]  Duplicados           : {len(self.duplicates)}",
             f"  [{'OK' if len(self.short_articles) <= MAX_SHORT_ARTICLES_WARNING else '!'}]  Articulos cortos     : {len(self.short_articles)}",
             f"  [{'OK' if self.has_toc else 'i'}]  Tabla de contenido   : {'Si' if self.has_toc else 'No'}",
             f"  [{'OK' if self.has_frontmatter else 'i'}]  YAML Frontmatter     : {'Si' if self.has_frontmatter else 'No'}",
+            f"  Score de calidad    : {self.quality_score:.1%}",
             f"  >>> Estado global: {self.overall_status}",
         ]
         if self.sequence_gaps:
@@ -176,10 +202,13 @@ def validate_md_file(md_path: str) -> ValidationReport:
     # Validar longitud
     report.short_articles = validate_article_length(articles)
 
-    # Determinar estado global
-    if gaps and len([n for g in gaps for n in g['missing']]) > 5:
+    # Determinar estado global usando score de calidad y thresholds
+    score = report.quality_score
+    total_missing = sum(len(gap) for gap in report.sequence_gaps)
+
+    if score < QUALITY_THRESHOLDS['critical'] or total_missing > 5 or len(report.duplicates) > 2:
         report.overall_status = "ERROR"
-    elif gaps or duplicates or len(report.short_articles) > MAX_SHORT_ARTICLES_WARNING:
+    elif score < QUALITY_THRESHOLDS['good'] or total_missing > 0 or report.duplicates or len(report.short_articles) > MAX_SHORT_ARTICLES_WARNING:
         report.overall_status = "WARNING"
     else:
         report.overall_status = "OK"
@@ -209,25 +238,71 @@ def validate_directory(md_dir: str) -> list[ValidationReport]:
 
 def print_validation_summary(reports: list[ValidationReport]):
     """Imprime un resumen consolidado de las validaciones."""
-    total   = len(reports)
-    ok      = sum(1 for r in reports if r.overall_status == "OK")
-    warning = sum(1 for r in reports if r.overall_status == "WARNING")
-    error   = sum(1 for r in reports if r.overall_status == "ERROR")
-    total_articles = sum(r.articles_found for r in reports)
+    if RICH_AVAILABLE:
+        console = Console()
+        table = Table(title="JullBrain — Reporte de Validación de Normativas RAG", show_lines=True, box=box.MINIMAL_DOUBLE_HEAD)
 
-    print("\n" + "=" * 70)
-    print("  RESUMEN DE VALIDACION - NORMATIVAS RAG")
-    print("=" * 70)
-    print(f"  Archivos validados  : {total}")
-    print(f"  [OK] Sin problemas  : {ok}")
-    print(f"  [!]  Con advertencia: {warning}")
-    print(f"  [X]  Con errores    : {error}")
-    print(f"  Total de articulos  : {total_articles}")
-    print("=" * 70 + "\n")
+        table.add_column("Documento", style="cyan", max_width=35)
+        table.add_column("Artículos", justify="right")
+        table.add_column("Faltantes", justify="right", style="yellow")
+        table.add_column("Duplicados", justify="right", style="red")
+        table.add_column("Cortos", justify="right", style="yellow")
+        table.add_column("TOC", justify="center")
+        table.add_column("Score", justify="right")
+        table.add_column("Estado", justify="center")
 
-    for report in reports:
-        print(report.summary())
-        print()
+        for r in reports:
+            score = r.quality_score
+            score_color = "green" if score >= 0.98 else "yellow" if score >= 0.95 else "red"
+            status = "✅ OK" if r.overall_status == "OK" else "⚠️ WARNING" if r.overall_status == "WARNING" else "❌ ERROR"
+
+            total_missing = sum(len(gap) for gap in r.sequence_gaps)
+
+            table.add_row(
+                r.filename[:35],
+                str(r.articles_found),
+                str(total_missing) if total_missing > 0 else "-",
+                str(len(r.duplicates)) if r.duplicates else "-",
+                str(len(r.short_articles)) if r.short_articles else "-",
+                "✓" if r.has_toc else "✗",
+                f"[{score_color}]{score:.1%}[/{score_color}]",
+                status,
+            )
+
+        console.print(table)
+
+        # Resumen consolidado
+        total = len(reports)
+        ok = sum(1 for r in reports if r.overall_status == "OK")
+        warning = sum(1 for r in reports if r.overall_status == "WARNING")
+        error = sum(1 for r in reports if r.overall_status == "ERROR")
+        total_articles = sum(r.articles_found for r in reports)
+
+        console.print(f"\n[bold]Total:[/bold] {total} documentos | "
+                      f"[green]{ok} OK[/green] | "
+                      f"[yellow]{warning} Advertencias[/yellow] | "
+                      f"[red]{error} Errores[/red] | "
+                      f"Total artículos: {total_articles}")
+    else:
+        total   = len(reports)
+        ok      = sum(1 for r in reports if r.overall_status == "OK")
+        warning = sum(1 for r in reports if r.overall_status == "WARNING")
+        error   = sum(1 for r in reports if r.overall_status == "ERROR")
+        total_articles = sum(r.articles_found for r in reports)
+
+        print("\n" + "=" * 70)
+        print("  RESUMEN DE VALIDACION - NORMATIVAS RAG (Fallback Text)")
+        print("=" * 70)
+        print(f"  Archivos validados  : {total}")
+        print(f"  [OK] Sin problemas  : {ok}")
+        print(f"  [!]  Con advertencia: {warning}")
+        print(f"  [X]  Con errores    : {error}")
+        print(f"  Total de articulos  : {total_articles}")
+        print("=" * 70 + "\n")
+
+        for report in reports:
+            print(report.summary())
+            print()
 
 
 # -----------------------------------------------------------

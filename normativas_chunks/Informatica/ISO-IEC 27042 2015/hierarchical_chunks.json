@@ -1,0 +1,4202 @@
+[
+  {
+    "text": "Recibido/Received: 17/04/2025 • Aprobado/Approved: 15/06/2025 • Publicado/Published: 30/07/2025",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 216.8179168701172,
+                "t": 673.8560180664062,
+                "r": 555.3040161132812,
+                "b": 666.767578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                95
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Vol. 46 (04) 2025 · Jul - Ago · Art. 4"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "DOI: 10.48082/espacios-a25v46n04p04",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 428.3507385253906,
+                "t": 659.2160034179688,
+                "r": 555.5419311523438,
+                "b": 652.1275634765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                35
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Vol. 46 (04) 2025 · Jul - Ago · Art. 4"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Computer forensics in practical cases according to ISO/IEC 27037:2012 and ISO/IEC 27042:2015",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 57.61601257324219,
+                "t": 565.7383422851562,
+                "r": 505.11138916015625,
+                "b": 540.1198120117188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Peritaje informático en casos prácticos conforme a las normas ISO/IEC 27037:2012 e ISO/IEC 27042:2015"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "ALVAREZ, Ivanna P. LOJA, Nancy M. 2",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 77.13201904296875,
+                "t": 528.8901977539062,
+                "r": 154.5161590576172,
+                "b": 508.46527099609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                35
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Peritaje informático en casos prácticos conforme a las normas ISO/IEC 27037:2012 e ISO/IEC 27042:2015"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 155.78781127929688,
+                "t": 530.210693359375,
+                "r": 158.17245483398438,
+                "b": 526.0894165039062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Peritaje informático en casos prácticos conforme a las normas ISO/IEC 27037:2012 e ISO/IEC 27042:2015"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "OCHOA, Heckler R. 3",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 77.44450378417969,
+                "t": 505.7630920410156,
+                "r": 156.14956665039062,
+                "b": 496.5881042480469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Peritaje informático en casos prácticos conforme a las normas ISO/IEC 27037:2012 e ISO/IEC 27042:2015"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Este artículo examina la aplicación del peritaje informático en casos reales, conforme a las normas ISO/IEC 27037:2012 y 27042:2015. Se describe un enfoque metodológico estructurado para la identificación, adquisición, preservación y análisis de evidencia digital. Los hallazgos incluyen la recuperación de archivos eliminados, el análisis de memoria RAM y la detección de un programa oculto tipo keylogger, lo que evidencia la efectividad de las herramientas forenses aplicadas en entornos de investigación digital .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 78.56422424316406,
+                "t": 469.54541015625,
+                "r": 474.9827880859375,
+                "b": 403.4302062988281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                517
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Resumen"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Palabras clave: evidencia digital, peritaje informático, ISO/IEC 27037:2012, herramientas forenses",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 79.0730209350586,
+                "t": 400.26220703125,
+                "r": 456.07196044921875,
+                "b": 391.67022705078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                98
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Resumen"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "This article examines the application of computer forensics in real cases, following the ISO/IEC 27037:2012 and 27042:2015 standards. It presents a structured methodological approach for identifying, acquiring, preserving, and analyzing digital evidence. Findings include the recovery of deleted files, RAM memory analysis, and the detection of a hidden keylogger program, demonstrating the effectiveness of forensic tools in digital investigation environments .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 78.47782135009766,
+                "t": 365.4621887207031,
+                "r": 475.455810546875,
+                "b": 310.55023193359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                462
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Abstract"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Key words: evidence digital, computer expertise, ISO/IEC 27037:2012, forensic tools",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 79.0730209350586,
+                "t": 307.6221923828125,
+                "r": 402.6200866699219,
+                "b": 299.03021240234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Abstract"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el entorno actual, marcado por la globalización de los datos y el acelerado avance tecnológico, se han desarrollado múltiples plataformas digitales que facilitan la comunicación, el almacenamiento y la gestión de información. No obstante, este mismo progreso ha propiciado un crecimiento paralelo de los delitos informáticos, como el fraude electrónico, la ciberextorsión y el acceso no autorizado a sistemas. En este contexto, la evidencia digital se ha convertido en un componente esencial dentro de los procesos de investigación forense. La naturaleza volátil de la evidencia digital, junto con su susceptibilidad a alteraciones, exige el uso de metodologías forenses estructuradas que aseguren su integridad, autenticidad y trazabilidad. En respuesta a esta necesidad, surge el peritaje informático, una disciplina que se encarga de la identificación, adquisición, preservación y análisis de información digital vinculada a actos ilícitos, garantizando su utilidad y admisibilidad en procesos judiciales (Cañarte Rodríguez y otros, 2022) .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 57.57521438598633,
+                "t": 251.56300354003906,
+                "r": 558.4056396484375,
+                "b": 139.7402801513672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1046
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1 Estudiante de Ingeniería en Tecnologías de la Información. Universidad Técnica de Machala. Machala, Ecuador. Correo electrónico: ivanna.alvarez@utmachala.edu",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 57.53899383544922,
+                "t": 116.01485443115234,
+                "r": 485.70416259765625,
+                "b": 99.6348648071289,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                159
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2 Profesora de la Universidad Técnica de Machala. Machala, Ecuador. Correo electrónico: nmloja@utmachala.edu.ec",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 57.39281463623047,
+                "t": 96.60005187988281,
+                "r": 434.4098205566406,
+                "b": 89.56758117675781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3 Perito informático . Independiente, Ecuador. Correo electrónico: heckler.rothwell@gmail.com",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 57.362571716308594,
+                "t": 86.76005554199219,
+                "r": 364.17608642578125,
+                "b": 79.72755432128906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Para regular estas actividades, se han adoptado normativas internacionales como la ISO/IEC 27037:2012, que proporciona directrices específicas para la identificación, recolección, adquisición y preservación de la evidencia digital (International Organization for Standardization; International Electrotechnical Commission, 2012). Esta norma también define roles clave dentro del procedimiento, como el Digital Evidence First Responder (DEFR) y el Digital Evidence Specialist (DES), quienes intervienen según el entorno y tipo de incidente (Gómez, 2018). La correcta aplicación de estos lineamientos resulta fundamental para evitar manipulaciones indebidas y asegurar que la evidencia recolectada mantenga su validez jurídica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.27953338623047,
+                "t": 751.3515014648438,
+                "r": 558.2587890625,
+                "b": 664.6202392578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                725
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "No obstante, esta norma por sí sola no cubre la totalidad del proceso forense. Mientras la ISO/IEC 27037:2012 regula las fases iniciales de la gestión de la evidencia desde su identificación hasta su conservación, la norma ISO/IEC 27042:2015 amplía este marco al proporcionar directrices específicas para el análisis técnico y contextual de los datos recolectados. En este sentido, ambas normativas deben entenderse como complementarias dentro de un flujo metodológico integral: una garantiza que la información digital sea recolectada bajo criterios de fiabilidad técnica, y la otra que sea interpretada de manera rigurosa y forense. Como afirman Coronel Rojas et al., (2020), este enfoque dual resulta fundamental para asegurar la coherencia del proceso pericial, especialmente cuando la evidencia digital sirve de soporte para la formulación de hipótesis investigativas y decisiones judiciales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.53297424316406,
+                "t": 657.511474609375,
+                "r": 558.3915405273438,
+                "b": 558.0602416992188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                897
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Con el propósito de analizar la aplicabilidad del peritaje informático en escenarios reales, este estudio examina distintos casos prácticos relacionados con delitos informáticos, incluyendo la explotación de una computadora portátil y la intervención ante un incidente de seguridad en un entorno de red institucional. A través del análisis de estos casos se busca demostrar cómo la aplicación adecuada de metodologías forenses puede contribuir a la recolección técnica y legalmente válida de evidencia digital, incluso en contextos con limitaciones operativas .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 550.6029663085938,
+                "r": 558.353271484375,
+                "b": 490.1402893066406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                561
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Diversas investigaciones han respaldado la importancia de emplear protocolos formales en el tratamiento de evidencia digital, ya que estos mejoran su trazabilidad y admisibilidad en procesos judiciales (Proaño Escalante & Gavilanes -Molina, 2018). Sin embargo, en América Latina persisten limitaciones estructurales para su implementación, debido a la falta de infraestructura tecnológica adecuada y la escasez de personal capacitado (Banegas Crespo y Andrade Pesantez, 2024). En el caso de Ecuador, se han reportado cifras preocupantes: entre enero y septiembre de 2023, la Policía Nacional registró 5.930 denuncias por extorsión, de las cuales el 57% correspondieron a la modalidad de extorsión virtual, donde se emplearon medios digitales para chantajear a las víctimas (La Hora, 2023; Primicias, 2023) .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 482.6724548339844,
+                "r": 558.3748168945312,
+                "b": 383.6858825683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                807
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Frente a este panorama, surgen interrogantes fundamentales: ¿cómo aplicar correctamente el peritaje informático en contextos reales para asegurar la validez de la evidencia digital recolectada?, y ¿qué criterios permiten seleccionar herramientas adecuadas para cada entorno técnico y judicial?",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.58577346801758,
+                "t": 376.1230163574219,
+                "r": 558.3516845703125,
+                "b": 341.1003112792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                293
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En este sentido, el propósito de este estudio es analizar la aplicación del peritaje informático en casos prácticos, evaluando su efectividad en la identificación, adquisición, preservación y análisis de evidencia digital. Se busca además sustentar técnicamente la selección de herramientas especializadas que permitan actuar con precisión ante diferentes incidentes relacionados con delitos informáticos, garantizando la trazabilidad y validez legal del proceso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.53297424316406,
+                "t": 333.6430358886719,
+                "r": 558.3801879882812,
+                "b": 285.9002990722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                463
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El documento se estructura en tres secciones centrales. En primer lugar, se detalla la metodología adoptada, fundamentada en las normas ISO/IEC 27037:2012 e ISO/IEC 27042:2015, explicando las herramientas y criterios empleados. Posteriormente, se describen los casos prácticos desarrollados, en los que se evidencia la aplicación de principios forenses y la eficacia de los procedimientos utilizados. Finalmente, se presentan las conclusiones generales y específicas del estudio, destacando los hallazgos más relevantes y su aporte a la consolidación de buenas prácticas en informática forense.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 278.2030334472656,
+                "r": 558.3396606445312,
+                "b": 206.56494140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                594
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El presente estudio se enmarca en la aplicación del peritaje informático en varios casos prácticos, desarrollados conforme a los lineamientos de las normas ISO/IEC 27037:2012 e ISO/IEC 27042:2015, las cuales establecen un marco integral para regular los procesos de identificación, adquisición, preservación y análisis de evidencia digital en contextos judiciales. La metodología utilizada tiene como objetivo asegurar la trazabilidad, integridad y validez de la información obtenida desde dispositivos electrónicos vinculados a presuntos actos ilícitos, permitiendo su uso como prueba en procesos legales .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 57.57521438598633,
+                "t": 174.7630157470703,
+                "r": 558.294677734375,
+                "b": 101.34029388427734,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                607
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2. Metodología"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Para visualizar el enfoque metodológico aplicado, en la Figura 1 se presenta un esquema secuencial que resume las fases del procedimiento pericial conforme a los estándares internacionales. Las actividades representadas en color verde corresponden a las fases cubiertas por la ISO/IEC 27037:2012, orientadas a la gestión técnica de la evidencia digital, incluyendo la identificación, adquisición y preservación. El componente en color azul representa el análisis de la evidencia, que puede abordarse de dos formas complementarias.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 751.0029907226562,
+                "r": 558.34228515625,
+                "b": 690.30029296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                530
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2. Metodología"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En primer lugar, la propia ISO/IEC 27037:2012, en su cláusula 7, permite realizar un análisis básico de la evidencia digital, siempre que este se desarrolle con herramientas forenses adecuadas y siguiendo principios que aseguren la trazabilidad y validez de los datos obtenidos. No obstante, cuando se requiere una evaluación más profunda o interpretativa de la información, se recurre a la ISO/IEC 27042:2015, la cual establece directrices específicas para el análisis estructurado y contextualizado en entornos forenses.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 57.27953338623047,
+                "t": 683.1914672851562,
+                "r": 558.322265625,
+                "b": 622.1402587890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                522
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2. Metodología"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Fuente: Archivo de los autores",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 245.45164489746094,
+                "t": 446.3038024902344,
+                "r": 367.9458312988281,
+                "b": 439.3687744140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2. Metodología"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Según (Banegas Crespo y Andrade Pesantez, 2024) , la norma ISO/IEC 27037:2012 presenta una cobertura más amplia y actualizada en comparación con otras normativas internacionales como NIST SP 800-86, ISO/IEC 27041, 27042, 27043, y los RFC 4998 y 6283. A diferencia de estas, que abordan aspectos parciales del proceso forense, la 27037 ofrece un marco metodológico que abarca de forma holística las fases críticas de tratamiento de evidencia digital, asegurando su correcta gestión técnica y legal a lo largo del proceso investigativo .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 430.47149658203125,
+                "r": 558.2349853515625,
+                "b": 369.4203186035156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                535
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2. Metodología"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En concordancia con esta normativa, la ejecución del peritaje informático en este estudio fue dividida en cuatro fases principales, respaldadas por la literatura forense y las buenas prácticas internacionales, las cuales se describen a continuación .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 57.57521438598633,
+                "t": 361.9630432128906,
+                "r": 558.2498168945312,
+                "b": 328.7249450683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                250
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2. Metodología"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Esta etapa implica la localización, reconocimiento y documentación de los elementos de prueba digital en sus dos dimensiones: física (como discos duros o dispositivos USB) y lógica (como archivos del sistema, logs, configuraciones o registros en aplicaciones). De acuerdo con Proaño Escalante & Gavilanes-Molina, (2018), un proceso riguroso de identificación asegura la trazabilidad de la información y su vinculación con los hechos investigados. La ISO/IEC 27037:2012, en su cláusula 5.3, enfatiza que esta fase es crítica para garantizar la autenticidad de la evidencia y su validez posterior en entornos forenses. (Coronel Rojas et al., 2020)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 292.60302734375,
+                "r": 558.3521728515625,
+                "b": 219.18028259277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                645
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.1. Fase 1: Identificación de la evidencia digital"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Una vez identificada la evidencia, se procede a su adquisición utilizando herramientas forenses que aseguren la no alteración de los datos originales (Coronel Rojas y otros, 2020) . Estas técnicas incluyen la clonación bit a bit, la extracción de memoria RAM y la verificación de integridad mediante funciones hash (MD5, SHA-256). Según la ISO/IEC 27037:2012, durante esta fase es esencial emplear métodos que minimicen cualquier riesgo de corrupción o pérdida de datos, permitiendo que la evidencia sea admisible en procedimientos judiciales (International Organization for Standardization; International Electrotechnical Commission, 2012) .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 57.48017120361328,
+                "t": 184.84300231933594,
+                "r": 558.234130859375,
+                "b": 111.52590942382812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                642
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.2. Fase 2: Recolección y adquisición de la evidencia digital"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La preservación de la evidencia digital tiene como objetivo protegerla contra manipulaciones no autorizadas, fallos técnicos o accesos indebidos. Esta fase incluye el uso de dispositivos de almacenamiento seguros, bloqueadores de escritura, empaques antiestáticos y bitácoras que mantengan el control de la cadena de custodia. Además, toda la información recolectada debe estar debidamente documentada y etiquetada, conforme a lo dispuesto en la cláusula 6.5 de la norma 27037 (International Organization for Standardization; International Electrotechnical Commission, 2012) .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 57.27953338623047,
+                "t": 730.1229858398438,
+                "r": 558.3174438476562,
+                "b": 656.8058471679688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                576
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.3. Fase 3: Conservación y preservación de la evidencia digital"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando la intervención del perito incluye la interpretación técnica de los datos recolectados, se aplica la norma ISO/IEC 27042:2015, que proporciona directrices para el análisis estructurado y contextual de evidencia digital. Esta fase abarca tareas como la reconstrucción de cronologías, el análisis de metadatos, la recuperación de archivos eliminados y la detección de patrones de uso, con el fin de sustentar hipótesis investigativas de manera técnica y coherente (Melián Angel, 2022) . A diferencia de las fases previas, esta etapa no se aplica de forma general, sino únicamente cuando la autoridad competente solicita un análisis especializado que complemente la recolección técnica de datos con una valoración forense detallada.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 622.7114868164062,
+                "r": 558.2162475585938,
+                "b": 537.7649536132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                736
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.4. Fase 4: Análisis de la evidencia digital (ISO/IEC 27042:2015)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Esta estructura metodológica no solo permite estandarizar las actuaciones periciales en distintos contextos digitales, sino que también sienta las bases técnicas para su aplicación flexible en escenarios reales. Para comprobar la aplicabilidad de la metodología propuesta, se desarrollaron casos prácticos reales en los que se aplicó el peritaje informático conforme a las normas ISO/IEC 27037:2012 e ISO/IEC 27042:2015. Cada caso corresponde a un escenario distinto vinculado a incidentes digitales y permite demostrar cómo se llevan a cabo los procesos de identificación, adquisición, preservación y análisis de evidencia digital, así como la selección fundamentada de herramientas forenses según las características técnicas y requerimientos específicos del entorno analizado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 57.53297424316406,
+                "t": 528.5230102539062,
+                "r": 558.3203125,
+                "b": 442.3802795410156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                779
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.4. Fase 4: Análisis de la evidencia digital (ISO/IEC 27042:2015)"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Este caso surge de un requerimiento judicial emitido por una unidad fiscal del sur del Ecuador, en el marco de una investigación por un presunto delito. El dispositivo analizado fue una computadora portátil marca HP, modelo 550, serie CNU8331K68X13 -42879 , considerada evidencia clave por contener posibles registros de comunicación, archivos recientes y actividad del usuario relevante para el proceso investigativo .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 57.53297424316406,
+                "t": 383.3124694824219,
+                "r": 558.36279296875,
+                "b": 335.5802917480469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                419
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El peritaje tuvo como objetivo la extracción técnica de información desde el sistema operativo y aplicaciones como WhatsApp, Messenger y Facebook, así como la recuperación de documentos eliminados. Entre los archivos de interés se identificó un documento denominado DENUNCIA.docx, cuya recuperación parcial fue priorizada por su posible relación con los hechos denunciados.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/56",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 57.427371978759766,
+                "t": 328.1230163574219,
+                "r": 558.395263671875,
+                "b": 281.9249572753906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                373
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El procedimiento se ejecutó conforme a los lineamientos establecidos en la norma ISO/IEC 27037:2012, y para el análisis de la evidencia recuperada se complementó con los criterios definidos por la ISO/IEC 27042:2015 ( International Organization for Standardization; International Electrotechnical Commission, 2015), los cuales orientan la interpretación técnica y contextual de los datos digitales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 57.58577346801758,
+                "t": 273.031494140625,
+                "r": 558.3097534179688,
+                "b": 224.94029235839844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                398
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Para ello, se seleccionaron herramientas forenses específicas que respondieran a los requerimientos técnicos del caso, priorizando su compatibilidad, confiabilidad y validación en entornos judiciales. Como lo señalan (Hidalgo Cajo et al., 2018), la eficacia del peritaje informático depende no solo del rigor metodológico, sino también de la idoneidad de las herramientas utilizadas, ya que la calidad de la evidencia digital recolectada puede incidir directamente en su valor legal y en la agilidad para resolver un caso. Por ello, se evaluaron alternativas funcionales disponibles, descartando aquellas cuya complejidad, licencia comercial o limitaciones técnicas no se ajustaban al contexto operativo. La siguiente tabla resume los materiales utilizados y las herramientas comparadas, junto con sus funciones principales:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 57.53297424316406,
+                "t": 217.48301696777344,
+                "r": 558.3474731445312,
+                "b": 131.3402862548828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                824
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuadro 1 Comparación de herramientas para el análisis forense de equipo informático\n\nClonación/adquisición de  disco, Herramientas = FTK Imager Lite 3.1.1. Clonación/adquisición de  disco, Descripción = Creación de imágenes forenses bit a bit  del disco con generación de hash.. Clonación/adquisición de  disco, Sistema Operativo = Windows. Clonación/adquisición de  disco, Formato de salida = E01, DD, AFF, RAW. Clonación/adquisición de  disco, Licencia = Gratuita. Clonación/adquisición de  disco, Herramientas = X - Ways Forensics. Clonación/adquisición de  disco, Descripción = Clonación y análisis avanzado de discos,  orientado a entornos profesionales.. Clonación/adquisición de  disco, Sistema Operativo = Windows  XP/2003/Vista/7/8/10/11. Clonación/adquisición de  disco, Formato de salida = DD, RAW, otros. Clonación/adquisición de  disco, Licencia = Comercial. Clonación/adquisición de  disco, Herramientas = HDClone. Clonación/adquisición de  disco, Descripción = Clonación rápida de discos con soporte  RAID, sin funciones forenses integradas.. Clonación/adquisición de  disco, Sistema Operativo = Windows XP/7/8/10/Server  2003 – 2016. Clonación/adquisición de  disco, Formato de salida = IMG, RAW. Clonación/adquisición de  disco, Licencia = Freemium. Captura de memoria, Herramientas = Magnet RAM Capture. Captura de memoria, Descripción = Captura de memoria RAM sin alterar  datos en ejecución.. Captura de memoria, Sistema Operativo = Windows. Captura de memoria, Formato de salida = RAW, BIN. Captura de memoria, Licencia = Gratuita. Captura de memoria, Herramientas = Belkasoft RAM Capturer. Captura de memoria, Descripción = Alternativa para la extracción de memoria  RAM en sistemas Windows.. Captura de memoria, Sistema Operativo = Windows  XP/Vista/7/8/10/Server  2003/2008. Captura de memoria, Formato de salida = RAW, BIN. Captura de memoria, Licencia = Gratuita. Análisis forense de disco, Herramientas = Autopsy 4.9.0. Análisis forense de disco, Descripción = Análisis estructurado de discos,  recuperación de archivos, cronología  forense.. Análisis forense de disco, Sistema Operativo = Windows, Linux, macOS. Análisis forense de disco, Formato de salida = HTML, CSV, otros. Análisis forense de disco, Licencia = Gratuita. Análisis forense de disco, Herramientas = EnCase. Análisis forense de disco, Descripción = Plataforma comercial robusta para  análisis integral de evidencia digital.. Análisis forense de disco, Sistema Operativo = Windows. Análisis forense de disco, Formato de salida = E01. Análisis forense de disco, Licencia = Comercial. Análisis forense de disco, Herramientas = WinHex. Análisis forense de disco, Descripción = Análisis hexadecimal y recuperación de  datos a nivel bajo.. Análisis forense de disco, Sistema Operativo = Windows. Análisis forense de disco, Formato de salida = Varios formatos. Análisis forense de disco, Licencia = Comercial. Análisis técnico del  sistema, Herramientas = WinAudi 1.8. Análisis técnico del  sistema, Descripción = Captura de parámetros técnicos del  sistema para documentación del entorno  lógico.. Análisis técnico del  sistema, Sistema Operativo = Windows. Análisis técnico del  sistema, Formato de salida = TXT, CSV. Análisis técnico del  sistema, Licencia = Gratuita. Análisis técnico del  sistema, Herramientas = Belarc Advisor. Análisis técnico del  sistema, Descripción = Muestra detalles del hardware, software  y configuraciones del sistema en un solo  informe.. Análisis técnico del  sistema, Sistema Operativo = Windows. Análisis técnico del  sistema, Formato de salida = HTML. Análisis técnico del  sistema, Licencia = Gratuita. Análisis técnico del  sistema, Herramientas = Speccy. Análisis técnico del  sistema, Descripción = Ofrece un resumen técnico del sistema,  incluyendo CPU, RAM, disco y otros  componentes clave.. Análisis técnico del  sistema, Sistema Operativo = Windows. Análisis técnico del  sistema, Formato de salida = TXT, XML, otros. Análisis técnico del  sistema, Licencia = Gratuita",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/tables/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 229.24798583984375,
+                "t": 750.8436279296875,
+                "r": 385.43389892578125,
+                "b": 717.7452392578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/tables/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/62"
+            }
+          ],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 61.896507263183594,
+                "t": 716.6041717529297,
+                "r": 550.7944946289062,
+                "b": 487.51300048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Fuentes: Exterro, (2024); X-Ways Software Technology AG, (2024); Miray Software, (2024); Magnet Forensics, (2024); Belkasoft, (2024); Sleuth Kit Labs, (2024); OpenText, (2024); X-Ways Software Technology AG, (2024); Parmavex Services, (2024); Belarc Inc., (2024); Piriform, (2024)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 61.80910873413086,
+                "t": 484.5948486328125,
+                "r": 554.2408447265625,
+                "b": 451.446044921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                280
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "------",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/64",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 297.61865234375,
+                "t": 435.79180908203125,
+                "r": 315.3241882324219,
+                "b": 435.116455078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Descripción de fases, técnicas y normativas aplicadas en el peritaje digital\n\nIdentificación de la evidencia  digital, Actividad = Identificación de componentes  físicos y lógicos. Identificación de la evidencia  digital, Procedimiento = Se inspeccionó el equipo utilizando  WinAudi y Autopsy, documentando sistema  operativo, cuentas de usuario y  componentes internos.. Identificación de la evidencia  digital, Recomendaciones técnicas = Verificar estado del sistema sin  alterarlo, registrar datos clave  del hardware y software.. Identificación de la evidencia  digital, Cláusula ISO/IEC 27037:2012 = Cláusula 5.3  -  Identificación. Identificación de la evidencia  digital, Actividad = Registro fotográfico del estado  del equipo. Identificación de la evidencia  digital, Procedimiento = Se realizaron fotografías forenses para  registrar el estado físico del equipo antes de  su manipulación.. Identificación de la evidencia  digital, Recomendaciones técnicas = Evitar manipulación previa al  registro visual completo del  equipo.. Identificación de la evidencia  digital, Cláusula ISO/IEC 27037:2012 = Cláusula 5.3. Recolección y adquisición de la  evidencia digital, Actividad = Extracción de memoria RAM. Recolección y adquisición de la  evidencia digital, Procedimiento = Se utilizó Magnet RAM Capture para  obtener una imagen de la memoria RAM,  preservando datos volátiles.. Recolección y adquisición de la  evidencia digital, Recomendaciones técnicas = Capturar la memoria lo antes  posible, usar herramientas  certificadas para asegurar  integridad.. Recolección y adquisición de la  evidencia digital, Cláusula ISO/IEC 27037:2012 = Cláusula 6.3  -  Evidencia volátil. Recolección y adquisición de la  evidencia digital, Actividad = Clonación del disco duro. Recolección y adquisición de la  evidencia digital, Procedimiento = Se aplicó FTK Imager Lite para realizar una  copia bit a bit del disco duro, con  verificación de integridad mediante hash. Recolección y adquisición de la  evidencia digital, Recomendaciones técnicas = Usar bloqueadores de escritura  y generar hash antes y después  del copiado.. Recolección y adquisición de la  evidencia digital, Cláusula ISO/IEC 27037:2012 = Cláusula 7.2  -  Evidencia no volátil. Conservación y preservación  de la evidencia digital, Actividad = Almacenamiento y resguardo  seguro de la evidencia. Conservación y preservación  de la evidencia digital, Procedimiento = Las imágenes forenses obtenidas y los  archivos generados fueron almacenados en  dispositivos externos seguros, con bloqueo  de escritura y empaques  antielectrostáticos. Se verificaron los  valores hash antes y después de la. Conservación y preservación  de la evidencia digital, Recomendaciones técnicas = Usar medios de  almacenamiento certificados,  asegurar integridad con hashes,  mantener bitácoras y cadena  de custodia.. Conservación y preservación  de la evidencia digital, Cláusula ISO/IEC 27037:2012 = Cláusula 7.4  -  Preservación de la  evidencia. Conservación y preservación  de la evidencia digital, Actividad = . Conservación y preservación  de la evidencia digital, Procedimiento = transferencia.. Conservación y preservación  de la evidencia digital, Recomendaciones técnicas = . Conservación y preservación  de la evidencia digital, Cláusula ISO/IEC 27037:2012 = . Análisis de la evidencia digital  (ISO/IEC 27042:2015), Actividad = Análisis de memoria RAM. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Procedimiento = Se empleó Autopsy para analizar los datos  extraídos de la memoria RAM, identificando  procesos y archivos en ejecución.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Recomendaciones técnicas = Preservar los datos analizados,  documentar hallazgos con  precisión.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Cláusula ISO/IEC 27037:2012 = Conforme al marco de análisis  establecido en la norma ISO/IEC  27042:2015, aplicable a la  interpretación técnica y. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Actividad = Análisis de disco y reconstrucción  de línea de tiempo. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Procedimiento = Se reconstruyó una línea de tiempo con  Autopsy desde el 28/03/2020 al  02/01/2021, revelando eventos clave.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Recomendaciones técnicas = Establecer cronología forense  para comprender patrones de  uso.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Cláusula ISO/IEC 27037:2012 = contextual de evidencia digital.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Actividad = Recuperación del archivo  'DENUNCIA.docx '. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Procedimiento = Se localizó y recuperó parcialmente un  archivo eliminado, analizando metadatos y  contenido relevante.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Recomendaciones técnicas = Aplicar técnicas de  recuperación válidas, preservar  estructura y metadatos del  archivo.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Cláusula ISO/IEC 27037:2012 = ",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/tables/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 219.68995666503906,
+                "t": 407.47418212890625,
+                "r": 396.3742980957031,
+                "b": 386.5452575683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/tables/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/66"
+            }
+          ],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 50.55351638793945,
+                "t": 382.28424072265625,
+                "r": 562.0526733398438,
+                "b": 122.7303466796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Cuadro 2"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Fuente: Archivo de los autores",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/67",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 245.45164489746094,
+                "t": 120.14382934570312,
+                "r": 367.9458312988281,
+                "b": 113.20878601074219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Cuadro 2"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las herramientas seleccionadas para este procedimiento fueron FTK Imager Lite 3.1.1, Magnet RAM Capture, Autopsy 4.9.0 y WinAudi 1.8, por su efectividad comprobada en procesos de adquisición, análisis y documentación de evidencia digital. Estas soluciones fueron escogidas no solo por su rendimiento técnico, sino también por ser gratuitas, ampliamente utilizadas en entornos forenses y por ofrecer compatibilidad con sistemas operativos estándar, facilitando su implementación sin comprometer la integridad de los datos. Además, su uso permitió cumplir con los lineamientos normativos sin incurrir en costos adicionales de licenciamiento, lo cual representa una ventaja significativa en contextos institucionales con recursos limitados. La comparación con alternativas funcionales permitió sustentar técnicamente su elección, asegurando que cada fase del procedimiento se ejecutara con medios adecuados al contexto del caso. La siguiente tabla resume las actividades ejecutadas en las etapas de identificación, adquisición y análisis de la evidencia digital, junto con sus recomendaciones técnicas y la cláusula normativa correspondiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 57.35345458984375,
+                "t": 103.95246887207031,
+                "r": 558.06689453125,
+                "b": 82.14031219482422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                229
+              ]
+            },
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 751.0029907226562,
+                "r": 558.2342529296875,
+                "b": 651.9002685546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                230,
+                1139
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Cuadro 2"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Este caso se desarrolló en el laboratorio de cómputo de una institución de educación superior, a raíz de un incidente relacionado con la violación de seguridades lógicas. El personal técnico de la institución identificó comportamientos anómalos en uno de los equipos, lo que llevó a una revisión más detallada del sistema. Durante esta revisión, se detectó un proceso oculto bajo el nombre llsvc.exe, que funcionaba como un Keylogger, es decir, un programa diseñado para registrar todas las pulsaciones del teclado sin el conocimiento del usuario. Este hallazgo activó un procedimiento de respuesta técnica urgente para preservar la integridad de la información y evitar una posible filtración de datos sensibles de la institución (Proaño Escalante & Gavilanes-Molina, 2018) .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 57.30065155029297,
+                "t": 618.7630004882812,
+                "r": 558.2940063476562,
+                "b": 532.48583984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                776
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.2. Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dado que los dispositivos aún se encontraban encendidos y en funcionamiento al momento de la intervención, se aplicaron procedimientos de adquisición en vivo conforme a la norma ISO/IEC 27037:2012, con el fin de preservar la evidencia digital sin alterar su estado original. Se realizaron capturas del disco y memoria del equipo comprometido, aplicando funciones hash (SHA256 y SHA1) para garantizar la integridad de la información recolectada. La siguiente tabla agrupa las herramientas utilizadas y comparadas, clasificadas por tipo y funcionalidad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 57.27953338623047,
+                "t": 524.9229736328125,
+                "r": 558.3338623046875,
+                "b": 464.4602966308594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                551
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.2. Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuadro 3 Comparación de herramientas para el análisis forense en red institucional\n\nClonación/adquisición  de disco, Herramientas = FTK Imager Lite 3.1.1. Clonación/adquisición  de disco, Descripción = Creación de imágenes forenses bit a bit  del disco con generación de hash.. Clonación/adquisición  de disco, Sistema Operativo = Windows. Clonación/adquisición  de disco, Formato de salida = E01, DD, AFF, RAW. Clonación/adquisición  de disco, Licencia = Gratuita. , Herramientas = OSFClone. , Descripción = Utilidad gratuita que permite clonar  discos de forma segura, diseñada para  entornos forenses.. , Sistema Operativo = Independiente del  sistema operativo. , Formato de salida = DD, AFF, EWF. , Licencia = Gratuita. , Herramientas = Guymager. , Descripción = Clonación forense alternativa para  entornos Linux con GUI.. , Sistema Operativo = Linux. , Formato de salida = DD, EWF, AFF. , Licencia = Gratuita. Verificación de  integridad, Herramientas = QuickHash. Verificación de  integridad, Descripción = Verificación de archivos mediante  SHA256 y SHA1.. Verificación de  integridad, Sistema Operativo = Windows, Linux, macOS. Verificación de  integridad, Formato de salida = TXT, CSV. Verificación de  integridad, Licencia = Gratuita. , Herramientas = HashCalc. , Descripción = Generación de hashes básicos para  archivos individuales.. , Sistema Operativo = Windows. , Formato de salida = TXT. , Licencia = Gratuita. , Herramientas = MD5Summer. , Descripción = Comparación de sumas MD5 de  archivos.. , Sistema Operativo = Windows. , Formato de salida = TXT. , Licencia = Gratuita. Análisis de red, Herramientas = Wireshark. Análisis de red, Descripción = Captura de tráfico de red en tiempo  real.. Análisis de red, Sistema Operativo = Windows, Linux, macOS. Análisis de red, Formato de salida = PCAP, TXT, XML. Análisis de red, Licencia = Gratuita. , Herramientas = NetworkMiner. , Descripción = Análisis pasivo de paquetes desde  archivos PCAP.. , Sistema Operativo = Windows. , Formato de salida = HTML, CSV. , Licencia = Gratuita. , Herramientas = SmartSniff. , Descripción = Visualización en tiempo real de  paquetes TCP/IP capturados.. , Sistema Operativo = Windows. , Formato de salida = TXT, CSV. , Licencia = Gratuita",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/tables/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 230.2422637939453,
+                "t": 452.7636413574219,
+                "r": 385.43389892578125,
+                "b": 421.3687744140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                82
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/tables/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/75"
+            }
+          ],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 75.17935180664062,
+                "t": 418.6703186035156,
+                "r": 537.533447265625,
+                "b": 213.5382080078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.2. Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Fuentes: (Exterro, 2024); (Guymager Project, 2024); (OSForensics, 2024); (QuickHash GUI, 2024); (SlavaSoft, 2024); (Krylack Software, 2024); (Wireshark Foundation, 2024); (Netresec, 2024); (NirSoft, 2024) .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 74.68750762939453,
+                "t": 211.23486328125,
+                "r": 538.3597412109375,
+                "b": 190.2252655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                206
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.2. Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las herramientas seleccionadas fueron FTK Imager Lite 3.1.1, QuickHash y Wireshark, por su comprobada eficacia en entornos forenses, su compatibilidad con los sistemas analizados y su capacidad para asegurar la integridad de la evidencia. Estas soluciones permitieron ejecutar la clonación del disco, verificar los archivos extraídos y analizar el tráfico de red en tiempo real, todo sin comprometer el estado original de los datos. Las alternativas como Guymager, OSFClone, HashCalc, MD5Summer, NetworkMiner y SmartSniff fueron consideradas, pero no utilizadas debido a restricciones operativas, licencias o menor adecuación al escenario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 57.27953338623047,
+                "t": 178.5924530029297,
+                "r": 558.3949584960938,
+                "b": 105.18029022216797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                639
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.2. Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las herramientas seleccionadas permitieron aplicar un procedimiento estructurado que abarcó desde la identificación del entorno hasta el análisis de los hallazgos, en cumplimiento con la norma ISO/IEC 27037:2012 y complementado por la ISO/IEC 27042:2015 para la fase interpretativa. La siguiente tabla resume las actividades desarrolladas en cada fase, las recomendaciones técnicas aplicadas y su correspondencia normativa.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 57.60689163208008,
+                "t": 97.72300720214844,
+                "r": 558.32373046875,
+                "b": 75.9002914428711,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                227
+              ]
+            },
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 57.30065155029297,
+                "t": 751.3515014648438,
+                "r": 558.3743286132812,
+                "b": 728.7002563476562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                228,
+                423
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.2. Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuadro 4 Descripción de fases, técnicas y normativas aplicadas en el análisis forense del incidente de red institucional\n\nIdentificación de la evidencia digital, Actividad = Inspección del entorno  físico y digital. Identificación de la evidencia digital, Procedimiento = Se inspeccionaron equipos encendidos  y conectados a red, documentando su  estado sin apagarlos .. Identificación de la evidencia digital, Recomendaciones técnicas = Evitar alteraciones al entorno antes  de su documentación completa.. Identificación de la evidencia digital, Cláusula ISO/IEC 27037:2012 = Cláusula 5.3  -  Identificación. Identificación de la evidencia digital, Actividad = Registro de elementos  asociados al incidente. Identificación de la evidencia digital, Procedimiento = Se identificaron elementos como USBs,  contraseñas visibles, y CD de respaldo  presentes en el área.. Identificación de la evidencia digital, Recomendaciones técnicas = Asegurar la recolección de todos los  objetos físicos y digitales asociados  al incidente.. Identificación de la evidencia digital, Cláusula ISO/IEC 27037:2012 = Cláusula 5.3  -  Identificación. Recolección y adquisición de la  evidencia digital, Actividad = Clonación forense del disco. Recolección y adquisición de la  evidencia digital, Procedimiento = Se aplicó FTK Imager para realizar una  imagen forense bit a bit del disco duro .. Recolección y adquisición de la  evidencia digital, Recomendaciones técnicas = Generar hash de los discos antes y  después del clonado, y usar  bloqueadores de escritura.. Recolección y adquisición de la  evidencia digital, Cláusula ISO/IEC 27037:2012 = Cláusula 7.2  -  Evidencia no  volátil. Recolección y adquisición de la  evidencia digital, Actividad = Captura de tráfico de red. Recolección y adquisición de la  evidencia digital, Procedimiento = Se utilizó Wireshark para capturar  tráfico de red activo durante el uso del  sistema.. Recolección y adquisición de la  evidencia digital, Recomendaciones técnicas = Capturar la mayor cantidad de  tráfico posible durante la  intervención, manteniendo  estabilidad.. Recolección y adquisición de la  evidencia digital, Cláusula ISO/IEC 27037:2012 = Cláusula 6.3  -  Evidencia. Conservación y preservación de la  evidencia digital, Actividad = Almacenamiento y  resguardo de evidencia. Conservación y preservación de la  evidencia digital, Procedimiento = La evidencia fue almacenada en  medios externos con medidas de  seguridad y verificación hash .. Conservación y preservación de la  evidencia digital, Recomendaciones técnicas = Verificar hashes, etiquetar soportes  y mantener registro de cadena de  custodia.. Conservación y preservación de la  evidencia digital, Cláusula ISO/IEC 27037:2012 = Cláusula 7.4  -  Preservación. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Actividad = Análisis de tráfico de red  capturado. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Procedimiento = Se analizaron los paquetes capturados  para detectar conexiones sospechosas  y tráfico anómalo.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Recomendaciones técnicas = Correlacionar eventos en los  paquetes con posibles actividades  maliciosas.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Cláusula ISO/IEC 27037:2012 = Conforme al marco de análisis  establecido en la norma ISO/IEC  27042:2015, aplicable a la  interpretación técnica y  contextual de evidencia digital.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Actividad = Verificación de integridad  con QuickHash. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Procedimiento = Se aplicó QuickHash para validar la  integridad de los archivos adquiridos  mediante SHA256.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Recomendaciones técnicas = Comparar hashes con los originales  para garantizar integridad.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Cláusula ISO/IEC 27037:2012 = Conforme al marco de análisis  establecido en la norma ISO/IEC  27042:2015, aplicable a la  interpretación técnica y  contextual de evidencia digital.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Actividad = Identificación de software  malicioso (keylogger). Análisis de la evidencia digital  (ISO/IEC 27042:2015), Procedimiento = Se detectó un proceso oculto  (llscv.exe) que almacenaba pulsaciones  de teclado en un archivo plano.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Recomendaciones técnicas = Documentar hallazgos, preservar  evidencias recuperadas y su  contexto técnico.. Análisis de la evidencia digital  (ISO/IEC 27042:2015), Cláusula ISO/IEC 27037:2012 = Conforme al marco de análisis  establecido en la norma ISO/IEC  27042:2015, aplicable a la  interpretación técnica y  contextual de evidencia digital.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/tables/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 196.78952026367188,
+                "t": 717.24365234375,
+                "r": 416.3166198730469,
+                "b": 685.8487548828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                120
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/tables/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/82"
+            }
+          ],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 53.31820297241211,
+                "t": 683.0782470703125,
+                "r": 559.7774047851562,
+                "b": 470.57440185546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.2. Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Fuente: Archivo de los autores",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 245.45164489746094,
+                "t": 468.1438293457031,
+                "r": 367.9458312988281,
+                "b": 461.20880126953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2.5.2. Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Finalizadas las fases de identificación, adquisición, preservación y análisis, el peritaje informático permitió recuperar y examinar información clave contenida en el equipo analizado, asegurando la integridad, autenticidad y trazabilidad de la evidencia digital conforme a los lineamientos de la ISO/IEC 27037:2012.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 402.7630310058594,
+                "r": 558.1473388671875,
+                "b": 367.7403259277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                316
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "3.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Figura 2 Resultados de búsqueda por palabra clave \"denuncia\" en Autopsy 4.9.0",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/pictures/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 233.13967895507812,
+                "t": 355.8924560546875,
+                "r": 383.007080078125,
+                "b": 322.94525146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "3.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Fuente: Archivo de los autores",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 245.45164489746094,
+                "t": 126.38381958007812,
+                "r": 367.9458312988281,
+                "b": 119.44877624511719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "3.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Durante el análisis de la memoria RAM, se identificaron archivos recientemente abiertos, entre ellos documentos en formato PDF y Word vinculados directamente con los hechos investigados. Esta información, alojada en la memoria volátil, fue extraída antes de que pudiera perderse por el apagado del sistema.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 110.44300842285156,
+                "r": 558.2968139648438,
+                "b": 75.4203109741211,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                306
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "3.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el disco duro, se reconstruyó una línea de tiempo de eventos que abarcó desde marzo hasta abril de 2020. Este análisis permitió evidenciar la creación, modificación y eliminación de archivos relevantes durante ese período. Uno de los hallazgos más significativos fue la localización de un documento de interés denominado DENUNCIA.docx, el cual había sido eliminado del sistema. Mediante técnicas de recuperación forense, se logró recuperar parcialmente su contenido y analizar los metadatos, revelando fechas clave asociadas al caso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/93",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.57521438598633,
+                "t": 751.0029907226562,
+                "r": 558.2182006835938,
+                "b": 690.30029296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                536
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "3.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La figura 2 muestra una captura del entorno de análisis en la herramienta Autopsy, donde se visualiza el resultado de la búsqueda por palabra clave \"denuncia\". En ella se observa la identificación del archivo recuperado, junto con fragmentos de su contenido donde se evidencian referencias directas al término, reforzando su relevancia dentro de la investigación digital .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.30065155029297,
+                "t": 682.8429565429688,
+                "r": 558.3095703125,
+                "b": 635.1002807617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                372
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "3.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Toda la evidencia extraída fue preservada en medios de almacenamiento externos con medidas de seguridad apropiadas, incluyendo el uso de bloqueadores de escritura, empaques antiestáticos y generación de valores hash, lo que garantiza su validez como prueba digital en el proceso legal correspondiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.18449401855469,
+                "t": 627.6430053710938,
+                "r": 558.218994140625,
+                "b": 592.6202392578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                301
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "3.1. Caso 1: Explotación de computadora portátil HP mediante peritaje informático"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El análisis permitió confirmar que el proceso llsvc.exe estaba activo en segundo plano y capturaba discretamente las pulsaciones del teclado, almacenándolas en un archivo oculto dentro del sistema. Se identificó la ruta exacta del archivo de registro generado por el keylogger, así como fragmentos de texto con datos digitados por usuarios recientes, entre los cuales se encontraron cadenas de texto asociadas a contraseñas, términos de búsqueda y formularios de acceso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.30065155029297,
+                "t": 558.2830200195312,
+                "r": 558.3309326171875,
+                "b": 499.36492919921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                470
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "3.2 . Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si bien no se detectaron conexiones de salida en tiempo real durante el monitoreo con Wireshark, la presencia del software malicioso constituía una amenaza directa a la privacidad de los estudiantes y del personal que utilizaban el equipo intervenido. Para validar la autenticidad de los archivos adquiridos durante la intervención, se aplicaron funciones hash utilizando la herramienta QuickHash. Este proceso permitió verificar que los archivos analizados no presentaran alteraciones, lo cual refuerza la confiabilidad de los hallazgos presentados. El cuadro 5 resume los valores hash generados y el estado de integridad de cada archivo inspeccionado .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/98",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.30065155029297,
+                "t": 490.0701904296875,
+                "r": 558.3572998046875,
+                "b": 416.7002868652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                654
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "3.2 . Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuadro 5",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 288.2425842285156,
+                "t": 405.24365234375,
+                "r": 324.6498718261719,
+                "b": 398.3086242675781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "3.2 . Caso 2: Intervención forense en laboratorio institucional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Nombre del archivo, 1 = Hash SHA256. Nombre del archivo, 2 = Estado. acceso_remoto.exe, 1 = 2f3c4b65d8a8c3fa12d1e9c1a3c75f12345678abcdef1234567890abcdefabcd. acceso_remoto.exe, 2 = Archivo no documentado. index.html, 1 = 83b7f927eb2e7c456a75f6aa987ced45678a9b3cde8911ab23456789abcdef01. index.html, 2 = No alterado. launcher_portable.bat, 1 = 9c7b2da334dc55f998877aa99bbccddeeff00112233445566778899aabbccdde. launcher_portable.bat, 2 = Uso no autorizado detectado. informe.docx, 1 = a3b2c17d9ef26fd01a47c20db7f8349029e8a5f5e61e1234567890abcdef1234. informe.docx, 2 = No alterado",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 101.37548828125,
+                "t": 383.26556396484375,
+                "r": 510.8854064941406,
+                "b": 339.7481994628906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Verificación de integridad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Fuente: Archivo de los autores",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/101",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 245.45164489746094,
+                "t": 337.10382080078125,
+                "r": 367.9458312988281,
+                "b": 330.1687927246094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Verificación de integridad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La correcta ejecución de las fases forenses, el uso de herramientas adecuadas y la preservación rigurosa de la evidencia permitieron establecer con claridad la existencia de una amenaza activa en el entorno institucional. El análisis técnico sirvió no solo para documentar un incidente de seguridad real, sino también para sentar las bases de una respuesta más robusta ante futuros eventos. Este caso evidencia la importancia de contar con protocolos definidos, personal capacitado y metodologías alineadas con los estándares internacionales para garantizar intervenciones efectivas en escenarios de riesgo digital .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/102",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.53297424316406,
+                "t": 320.92303466796875,
+                "r": 558.245361328125,
+                "b": 247.5002899169922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                616
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Verificación de integridad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El desarrollo de este estudio evidenció que la aplicación del peritaje informático bajo un enfoque estructurado, conforme a las normas ISO/IEC 27037:2012 e ISO/IEC 27042:2015, garantiza la integridad, autenticidad y trazabilidad de la evidencia digital recolectada. Estas normas proporcionan una base metodológica sólida que permite intervenir técnicamente sobre dispositivos electrónicos y contextos digitales diversos, asegurando que la información obtenida sea válida y utilizable en entornos judiciales y administrativos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/104",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 57.27953338623047,
+                "t": 217.48301696777344,
+                "r": 558.3721923828125,
+                "b": 156.78028869628906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                525
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4. Conclusiones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Organizar el proceso a partir de fases claramente definidas como la identificación, la adquisición, la preservación y el análisis no solo facilita una ejecución ordenada y reproducible, sino que también permite adaptar los procedimientos al tipo de evidencia, al estado del dispositivo y a las condiciones específicas del incidente. En este contexto, la selección de herramientas forenses desempeña un rol crucial. No basta con que estas sean funcionales: deben ser compatibles con el entorno técnico, validadas en el ámbito pericial y capaces de generar resultados verificables, tanto técnica como jurídicamente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 56.89937210083008,
+                "t": 149.32301330566406,
+                "r": 558.2688598632812,
+                "b": 75.9002914428711,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                613
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4. Conclusiones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los casos analizados permitieron comprobar la efectividad de este enfoque. En el primer escenario, orientado al análisis de una computadora portátil, se logró recuperar parcialmente un archivo eliminado, reconstruir una línea de tiempo de eventos relevantes y extraer información crítica desde la memoria RAM. Esto fue posible gracias al uso combinado de herramientas como FTK Imager, Autopsy y Magnet RAM Capture, seleccionadas por su estabilidad, compatibilidad y aceptación en la práctica forense.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.27953338623047,
+                "t": 750.992431640625,
+                "r": 558.3025512695312,
+                "b": 690.30029296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                500
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4. Conclusiones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Por su parte, el segundo caso abordó un incidente de seguridad informática en un laboratorio institucional, donde los equipos se encontraban encendidos y en red. En este entorno activo, se aplicaron técnicas que permitieron capturar tráfico de red en tiempo real, detectar la presencia de un keylogger oculto y verificar la integridad de los archivos adquiridos mediante QuickHash. La intervención demostró que, incluso en escenarios complejos y operativamente limitados, es posible preservar la evidencia sin comprometer su valor legal, siempre que se sigan estándares y protocolos establecidos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/110",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.27953338623047,
+                "t": 682.8429565429688,
+                "r": 558.3400268554688,
+                "b": 609.4202880859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                596
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4. Conclusiones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A lo largo del estudio, se realizó además una comparación técnica entre herramientas utilizadas y descartadas, lo cual permitió sustentar de forma justificada cada decisión tomada. Esta evaluación reforzó la importancia de contar con criterios de selección claros que consideren no solo el rendimiento de la herramienta, sino también su adecuación al contexto, facilidad de implementación y licencia de uso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/111",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 601.9630126953125,
+                "r": 558.2625122070312,
+                "b": 554.2202758789062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                407
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4. Conclusiones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En conjunto, los resultados confirman que la combinación de una metodología forense estandarizada con un criterio técnico riguroso permite actuar eficazmente ante distintos tipos de incidentes digitales. Tanto en dispositivos individuales como en entornos de red, el uso de buenas prácticas garantiza que la evidencia digital sea recolectada, analizada y preservada de forma confiable, transparente y legalmente admisible.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.27953338623047,
+                "t": 546.7630004882812,
+                "r": 558.2939453125,
+                "b": 498.7803039550781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                422
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4. Conclusiones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A partir de los resultados obtenidos, se considera pertinente continuar con investigaciones que integren el análisis forense automatizado mediante inteligencia artificial, así como la incorporación de herramientas que permitan acelerar la detección de amenazas en tiempo real. Asimismo, se plantea como línea futura la creación de protocolos de respuesta adaptados a distintos entornos (educativos, corporativos y gubernamentales), que utilicen marcos normativos como la ISO/IEC 27037:2012 y la ISO/IEC 27042:2015 como base metodológica estandarizada.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/114",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 464.4430236816406,
+                "r": 558.33642578125,
+                "b": 403.9803161621094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                551
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4.1 . Perspectivas futuras"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- International Organization for Standardization; International Electrotechnical Commission. (2015). ISO/IEC 27042:2015. Information technology – Security techniques – Guidelines for the analysis and interpretation of digital evidence. Geneva: ISO/IEC.\n- Banegas Crespo, D. A., y Andrade Pesantez, D. J. (2024). Análisis Forense en Dispositivos Móviles Android para Casos de Ciberextorsión, Revisión Sistemática de Literatura. MQRInvestigar, 8(3), 22. https://doi.org/https://doi.org/10.56048/MQR20225.8.3.2024.4076-4097%20%20%20%20\n- Belarc Inc. (10 de Febrero de 2024). Belarc Advisor. Belarc: https://www.belarc.com/products/belarc-advisor\n- Belkasoft. (05 de Febrero de 2024). Belkasoft RAM Capturer. Belkasoft: https://belkasoft.com/es/ram-capturer\n- Cañarte Rodríguez, T., Idrovo Flores, P., Pinargote Vásquez, A., & Ponce Toala, F. (14 de 09 de 2022). PERITAJE DIGITAL Y DELITO INFORMÁTICO. Revista Científica Arbitrada Multidisciplinaria PENTACIENCIAS, 4(5), 22 -30. https://editorialalema.org/index.php/pentaciencias/article/view/271\n- Coronel Rojas, L. A., Areniz Arévalo, Y., Cuesta Quintero, F., & Rico Bautista, D. (2020). Definición de una metodología de\n- adquisición. Revista Ibérica de Sistemas e Tecnologias de Informação, 266–282.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/116",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 374.20684814453125,
+                "r": 543.1885375976562,
+                "b": 339.1985168457031,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 330.2748718261719,
+                "r": 543.5657348632812,
+                "b": 295.1052551269531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                277
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/118",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 287.08685302734375,
+                "r": 498.86907958984375,
+                "b": 278.0652770996094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/119",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 269.8068542480469,
+                "r": 507.14276123046875,
+                "b": 260.7852783203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/120",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.58433151245117,
+                "t": 252.51486206054688,
+                "r": 546.393310546875,
+                "b": 217.3452606201172,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                286
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.58433151245117,
+                "t": 208.83486938476562,
+                "r": 547.1897583007812,
+                "b": 200.0652618408203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                123
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 78.81417846679688,
+                "t": 195.79420471191406,
+                "r": 402.624267578125,
+                "b": 187.10523986816406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias bibliográficas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "https://www.proquest.com/openview/0f5c06f94949d96044de8ebf92986bed/1?cbl=1006393&pq-origsite=gscholar",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/123",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 79.1165771484375,
+                "t": 182.92686462402344,
+                "r": 549.2772216796875,
+                "b": 173.90525817871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                101
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias bibliográficas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Cruz Vela, E. M. (2015). Modelo para el Análisis y Gestión de Riesgos en. REVISTA PGI.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.58433151245117,
+                "t": 165.39486694335938,
+                "r": 406.271728515625,
+                "b": 156.62525939941406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias bibliográficas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "http://repositorio.umsa.bo/xmlui/handle/123456789/8754",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/125",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 79.1165771484375,
+                "t": 152.4468536376953,
+                "r": 319.5003662109375,
+                "b": 143.4252471923828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias bibliográficas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Exterro. (18 de Marzo de 2024). FTK Imager. FTK Imager: https://www.exterro.com/digital-forensics-software/ftk-imager\n- Gómez, L. S. (2018). Evidencia digital en la investigación penal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/126",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 135.40687561035156,
+                "r": 547.6890869140625,
+                "b": 126.3852767944336,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/127",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 57.55409240722656,
+                "t": 117.8748779296875,
+                "r": 312.40155029296875,
+                "b": 109.10527801513672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                65
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias bibliográficas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "https://www.researchgate.net/publication/323613054_Evidencia_digital_en_la_investigacion_penal",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/128",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 79.1165771484375,
+                "t": 104.92686462402344,
+                "r": 487.48382568359375,
+                "b": 95.90526580810547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias bibliográficas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Guymager Project. (21 de Febrero de 2024). Guymager – A fast forensic imager. Guymager Project: https://guymager.sourceforge.io/\n- Hidalgo Cajo, I. M., Pucuna, S. Y., Hidalgo Cajo, G. B., Cevallos Paredes, A. K., Hidalgo Cajo, P. D., & Oquendo Coronado, M. V. (31 de 12 de 2018). Análisis Comparativo De Herramientas Forenses Informáticas Para La Realización De Peritajes En Medios Digitales. European Scientific Journal, 14(34).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/132",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.55409240722656,
+                "t": 750.9948120117188,
+                "r": 460.70721435546875,
+                "b": 729.0252075195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                128
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 720.3837890625,
+                "r": 550.8120727539062,
+                "b": 685.34521484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                298
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias bibliográficas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "https://doi.org/https://doi.org/10.19044/esj.2018.v14n34p80",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 79.1165771484375,
+                "t": 681.4068603515625,
+                "r": 330.40704345703125,
+                "b": 672.38525390625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias bibliográficas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- International Organization for Standardization; International Electrotechnical Commission. (2012). ISO/IEC 27037:2012. Geneva: ISO/IEC.\n- Krylack Software. (12 de Enero de 2024). MD5Summer – Check file hashes. Krylack Software: https://www.md5summer.org/download.html\n- La Hora. (25 de Septiembre de 2023). Las extorsiones han crecido un 85% este 2023 en Ecuador. La Hora Ecuador: https://www.lahora.com.ec/pais/las-extorsiones-han-crecido-un-85-este-2023-en-ecuador/\n- Magnet Forensics. (10 de Marzo de 2024). Magnet RAM Capture. Magnet Forensics: https://www.magnetforensics.com/resources/magnet-ram-capture/\n- Melián Angel, J. (23 de Octubre de 2022). Análisis forense de la huella digital de un usuario en sistemas informáticos. Análisis forense de la huella digital de un usuario en sistemas informáticos. Valencia. https://riunet.upv.es/entities/publication/5389ffab-b389-4a42-a2b7-55f2653df181\n- Miray Software. (01 de Enero de 2024). HDClone. Miray Software: https://www.miray.de/products/sat.hdclone.html\n- Netresec. (05 de Febrero de 2024). NetworkMiner – Network forensic analysis tool. Netresec: URL: https://www.netresec.com/?page=NetworkMiner\n- NirSoft. (08 de Marzo de 2024). SmartSniff – Packet sniffer tool. NirSoft: https://www.nirsoft.net/utils/smsniff.html\n- OpenText. (08 de Marzo de 2024). EnCase Forensic. OpenText: https://www.opentext.com/es-es/productos/forensic\n- OSForensics. (10 de Marzo de 2024). OSFClone – Disk Cloning Tool. OSForensics: https://www.osforensics.com/tools/create-disk-images.html\n- Parmavex Services. (15 de Enero de 2024). WinAudit. Parmavex Services: http://parmavex.co.uk/winaudit.html\n- Piriform. (12 de Enero de 2024). Speccy. CCleaner: https://www.ccleaner.com/eses/speccy/download?srsltid=AfmBOopuahFL4Eu8TF9ckDqvTxduEXxetZRi3s6lRiG2Lh98yrP1Xrb4\n- Primicias . (27 de Junio de 2023). Primicias El periodismo comprometido. Ecuador: cada vez hay más víctimas de extorsiones 'clásicas' y virtuales: https://www.primicias.ec/noticias/en-exclusiva/ecuador-extorsiones-denunciasvirtual -siciliana/\n- Proaño Escalante, R. A., & Gavilanes-Molina, A. F. (2018). Estrategia para responder a incidentes de inseguridad informática ambientado en la legalidad ecuatoriana. Enfoque UTE, 9(1), 90-101. https://doi.org/https://doi.org/10.29019/enfoqueute.v9n1.229\n- QuickHash GUI. (15 de Enero de 2024). QuickHash GUI – Data hashing tool. QuickHash: https://www.quickhash-gui.org/\n- SlavaSoft. (10 de Febrero de 2024). HashCalc – Free Hash Calculator. SlavaSoft: https://hashcalc.software.informer.com/download/\n- Sleuth Kit Labs. (12 de Enero de 2024). Autopsy. Autopsy: https://www.autopsy.com/\n- Wireshark Foundation. (01 de Abril de 2024). Wireshark – Network protocol analyzer. Wireshark: https://www.wireshark.org/\n- X -Ways Software Technology AG. (10 de Febrero de 2024). WinHex: Computer Forensics & Data Recovery Software. XWays: https://x-ways.net/winhex/\n- X -Ways Software Technology AG. (21 de Febrero de 2024). X-Ways Forensics: Integrated Computer Forensics Software. XWays: https://www.x-ways.net/forensics/",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 664.1268310546875,
+                "r": 543.269775390625,
+                "b": 642.3185424804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 633.6348266601562,
+                "r": 435.40631103515625,
+                "b": 611.6652221679688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                129
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 603.1548461914062,
+                "r": 520.9627685546875,
+                "b": 581.1852416992188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                197
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/138",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 572.914794921875,
+                "r": 400.4361877441406,
+                "b": 550.9452514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                140
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/139",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 542.434814453125,
+                "r": 533.1362915039062,
+                "b": 507.2652587890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                287
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/140",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 499.246826171875,
+                "r": 529.742919921875,
+                "b": 490.2252502441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                110
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 481.71484375,
+                "r": 459.88922119140625,
+                "b": 459.7452697753906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                140
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/142",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 451.7268371582031,
+                "r": 524.46044921875,
+                "b": 442.70526123046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/143",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.59441375732422,
+                "t": 434.44683837890625,
+                "r": 531.3026123046875,
+                "b": 425.4252624511719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                109
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/144",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.59441375732422,
+                "t": 417.1548767089844,
+                "r": 384.7386779785156,
+                "b": 395.1852722167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                136
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 386.92681884765625,
+                "r": 507.59417724609375,
+                "b": 377.9052429199219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                106
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/146",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 369.8868408203125,
+                "r": 466.694580078125,
+                "b": 347.6652526855469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/147",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 339.15484619140625,
+                "r": 538.3873901367188,
+                "b": 304.6385498046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                242
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/148",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.95729446411133,
+                "t": 295.7148742675781,
+                "r": 511.58966064453125,
+                "b": 260.5452575683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                252
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/149",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.59441375732422,
+                "t": 252.52687072753906,
+                "r": 543.1451416015625,
+                "b": 243.50526428222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                114
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/150",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.46337127685547,
+                "t": 234.994873046875,
+                "r": 379.11651611328125,
+                "b": 213.02525329589844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                128
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/151",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.46337127685547,
+                "t": 205.00685119628906,
+                "r": 403.835205078125,
+                "b": 195.98524475097656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                82
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/152",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.41297149658203,
+                "t": 187.474853515625,
+                "r": 453.04425048828125,
+                "b": 165.50526428222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                121
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.342411041259766,
+                "t": 157.23486328125,
+                "r": 537.054443359375,
+                "b": 135.26524353027344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/154",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 57.342411041259766,
+                "t": 126.75485229492188,
+                "r": 550.4627685546875,
+                "b": 104.78527069091797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias bibliográficas"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Anexo A. Evidencia documental del caso de análisis forense aplicado a equipo portátil HP",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/159",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 57.29009246826172,
+                "t": 728.2030029296875,
+                "r": 435.4022216796875,
+                "b": 719.1002807617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                88
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "5. Anexos"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuadro 6 Listado de archivos que contienen la imagen del disco duro de la computadora portátil objeto del examen pericial\n\n01, Nombre del archivo = DISCOC.001. 01, MD5 = a5d94b6799da560f68e7676800932ea3. 01, SHA1 = b7b55a17fb282382945e12efe6676671daf934a0. 01, Fecha Creación = 22/07/2020 19:01. 01, Tamaño (byte) = 1,572,864,000. 02, Nombre del archivo = DISCOC.001.txt. 02, MD5 = ca942a8d832241364ab5b7b7f0bc01f1. 02, SHA1 = 2e054d6f1fd28599180dffa75245c4fb03bb64c3. 02, Fecha Creación = 22/07/2020 20:16. 02, Tamaño (byte) = 2,959. 03, Nombre del archivo = DISCOC.002. 03, MD5 = df3cf3f65f5c70e8f94451ee217c88db. 03, SHA1 = 4b062f67c76c183afed57a81cc4c71c2a3cc4c3e. 03, Fecha Creación = 22/07/2020 19:03. 03, Tamaño (byte) = 1,572,864,000. 04, Nombre del archivo = DISCOC.003. 04, MD5 = 883a9524fb4a988d26af5e79b585405c. 04, SHA1 = 65fd4df4933073fd68e999136542d8518e93f5bc. 04, Fecha Creación = 22/07/2020 19:04. 04, Tamaño (byte) = 1,572,864,000. 05, Nombre del archivo = DISCOC.004. 05, MD5 = 4d29d9ec1a06eb5d282460f39d82a49d. 05, SHA1 = fd3c963b32af73dfc775008f9378047fafb309df. 05, Fecha Creación = 22/07/2020 19:05. 05, Tamaño (byte) = 1,572,864,000. 06, Nombre del archivo = DISCOC.005. 06, MD5 = eeba7b4eee6de684b86e346a3c11d4d5. 06, SHA1 = 6b88401616531a34691ff457d6c347fb07be5fc8. 06, Fecha Creación = 22/07/2020 19:06. 06, Tamaño (byte) = 1,572,864,000. 07, Nombre del archivo = DISCOC.006. 07, MD5 = e593ecfd886b3d72cbf568b51f611143. 07, SHA1 = 0a2014e90c0d1edc044885181e65cee644d49a48. 07, Fecha Creación = 22/07/2020 19:08. 07, Tamaño (byte) = 1,572,864,000. 08, Nombre del archivo = DISCOC.007. 08, MD5 = 3f73135fb79478f680a7b03fe5352d9e. 08, SHA1 = 8c16273274a80e9f502d67733c44cad3ee63c376. 08, Fecha Creación = 22/07/2020 19:09. 08, Tamaño (byte) = 1,572,864,000. 09, Nombre del archivo = DISCOC.008. 09, MD5 = 1f72cd1b3228fcee4c115b7ecf1ad9e4. 09, SHA1 = c8fbf253aa0815bb3aa3adc94f3cb6b16e8bf9fb. 09, Fecha Creación = 22/07/2020 19:11. 09, Tamaño (byte) = 1,572,864,000. 10, Nombre del archivo = DISCOC.009. 10, MD5 = e5b07803ee364a81fac2ec96dc26af8c. 10, SHA1 = 75c75dc9a83d590dcea3cb1d71231327130eeef8. 10, Fecha Creación = 22/07/2020 19:12. 10, Tamaño (byte) = 1,572,864,000. 11, Nombre del archivo = DISCOC.010. 11, MD5 = 75358171b8843b9e87fc9763123e1e2c. 11, SHA1 = d2da19eab4d29c92374757742eb01265f7956922. 11, Fecha Creación = 22/07/2020 19:13. 11, Tamaño (byte) = 1,572,864,000. 12, Nombre del archivo = DISCOC.011. 12, MD5 = 4363346b4650de7b6efd4aebf7087907. 12, SHA1 = cbe28fa40431e5939496101b91c5f06f63ffc597. 12, Fecha Creación = 22/07/2020 19:15. 12, Tamaño (byte) = 1,572,864,000. 13, Nombre del archivo = DISCOC.012. 13, MD5 = 6be13021b2be7e8a4cde2473097ecbb6. 13, SHA1 = 4b7028b7492c9b5c1b6570da4be9da114498baf1. 13, Fecha Creación = 22/07/2020 19:16. 13, Tamaño (byte) = 1,572,864,000. 14, Nombre del archivo = DISCOC.013. 14, MD5 = 22ac016fc45ab569998dc53364c8ddc4. 14, SHA1 = 25b92d38d0316346f6adef04bbdb6fb5bff7e98e. 14, Fecha Creación = 22/07/2020 19:18. 14, Tamaño (byte) = 1,572,864,000. 15, Nombre del archivo = DISCOC.014. 15, MD5 = 31d112d0c7d747ac51e9fc2551397877. 15, SHA1 = 943413cd7598d5d22bd27f8171d8febac9a9feaa. 15, Fecha Creación = 22/07/2020 19:19. 15, Tamaño (byte) = 1,572,864,000. 16, Nombre del archivo = DISCOC.015. 16, MD5 = d749b8ada6527bd9d7e139ec2c694b72. 16, SHA1 = 95b4b759b4e79cf5b3651ed0c609b8e960eee14b. 16, Fecha Creación = 22/07/2020 19:20. 16, Tamaño (byte) = 1,572,864,000. 17, Nombre del archivo = DISCOC.016. 17, MD5 = b63412691d1eeaad8730725a8651de88. 17, SHA1 = 723e5acaa2a4d66850a4b0241891b7d95938721d. 17, Fecha Creación = 22/07/2020 19:22. 17, Tamaño (byte) = 1,572,864,000. 18, Nombre del archivo = DISCOC.017. 18, MD5 = 3585f298cf89c8284bc6f57843a885f3. 18, SHA1 = 9955c1e9e3455b0fe99d4e4adf9518601c320a55. 18, Fecha Creación = 22/07/2020 19:23. 18, Tamaño (byte) = 1,572,864,000. 19, Nombre del archivo = DISCOC.018. 19, MD5 = 1ba65d1c9d27975616b1bb4083ff176b. 19, SHA1 = cc0f7bfe2075b2e61ab59c14cef2a5ebfbae4cae. 19, Fecha Creación = 22/07/2020 19:25. 19, Tamaño (byte) = 1,572,864,000. 20, Nombre del archivo = DISCOC.019. 20, MD5 = 5bdbdf326fa871e8e154fd92b8169d2f. 20, SHA1 = d6298e0c2f6f9787f8f3e246b776436b430ded8a. 20, Fecha Creación = 22/07/2020 19:26. 20, Tamaño (byte) = 1,572,864,000. 21, Nombre del archivo = DISCOC.020. 21, MD5 = 6a07cd0cc167be0cb8013120a1262ddf. 21, SHA1 = cb3b31a9853af4e6768c8c39ad217e6dbc1a0567. 21, Fecha Creación = 22/07/2020 19:28. 21, Tamaño (byte) = 1,572,864,000. 22, Nombre del archivo = DISCOC.021. 22, MD5 = 5243142338390b05edc0040c441a7dc3. 22, SHA1 = 5696e4be47f934793b987ef3c1d0f09a848d6d3f. 22, Fecha Creación = 22/07/2020 19:29. 22, Tamaño (byte) = 1,572,864,000. 23, Nombre del archivo = DISCOC.022. 23, MD5 = d72166a1190ec23c57b8a02e9ae74c13. 23, SHA1 = 916b0c1c2029487edccc40f03947603cd86bab46. 23, Fecha Creación = 22/07/2020 19:30. 23, Tamaño (byte) = 1,572,864,000. 24, Nombre del archivo = DISCOC.023. 24, MD5 = d25a30705fad0cd23ba51465f4dd9a1e. 24, SHA1 = 14acedf3e680905809c7d322e60d4367ee295892. 24, Fecha Creación = 22/07/2020 19:32. 24, Tamaño (byte) = 1,572,864,000. 25, Nombre del archivo = DISCOC.024. 25, MD5 = 07b675a3011bc8c56344d60c25b5281a. 25, SHA1 = d801eb809f4cf86eba39176d0754a16b20cbe666. 25, Fecha Creación = 22/07/2020 19:33. 25, Tamaño (byte) = 1,572,864,000. 26, Nombre del archivo = DISCOC.025. 26, MD5 = ff2c1bea977f900e8e0a305b73ab53e7. 26, SHA1 = fdc8cefdcceaf00946ff4a3833a546d5b51279bb. 26, Fecha Creación = 22/07/2020 19:35. 26, Tamaño (byte) = 1,572,864,000. 27, Nombre del archivo = DISCOC.026. 27, MD5 = b42eb925a24d4cdec193faf3d1e39fe4. 27, SHA1 = a3040d527402be436392524309861a82d37571cc. 27, Fecha Creación = 22/07/2020 19:36. 27, Tamaño (byte) = 1,572,864,000. 28  29, Nombre del archivo = DISCOC.027  DISCOC.028. 28  29, MD5 = 03e814afb16e56d2848a0f7128de74f5  afe8ea5cc287869a30b1a8f9030f90e6. 28  29, SHA1 = 0139e725c8e5dffc37959d7934a831a862e00fb8  f611f8fb53678ab7d9803216eab6492c6ea2e0ec. 28  29, Fecha Creación = 22/07/2020 19:38  22/07/2020 19:39. 28  29, Tamaño (byte) = 1,572,864,000 1,572,864,000. 30, Nombre del archivo = DISCOC.029. 30, MD5 = 0328fcac56e2e36482ab8625b78955e8. 30, SHA1 = bebf8ce9fde765180c5011217f5b5ae6ddaebac4. 30, Fecha Creación = 22/07/2020 19:40. 30, Tamaño (byte) = . 31, Nombre del archivo = . 31, MD5 = . 31, SHA1 = . 31, Fecha Creación = . 31, Tamaño (byte) = 1,572,864,000. 32, Nombre del archivo = DISCOC.030. 32, MD5 = f0c2c64bb25fea4ed13849ccaee1d195  1638f3719882d5f89945c38af4b29b7d. 32, SHA1 = a45e958e7ba97096fe94d84bc08df109461c9217. 32, Fecha Creación = 22/07/2020 19:42. 32, Tamaño (byte) = 1,572,864,000. , Nombre del archivo = DISCOC.031. , MD5 = . , SHA1 = 2c8de71109a7c11b646536bd8ab4a71aabc12cf1. , Fecha Creación = 22/07/2020 19:43. , Tamaño (byte) = 1,572,864,000. 33, Nombre del archivo = DISCOC.032. 33, MD5 = 97eae9b0745f3f03a2f69952fa690caa. 33, SHA1 = db366d7f2f516d6e73a2a0bf5618098fcad53d2d. 33, Fecha Creación = 22/07/2020 19:45. 33, Tamaño (byte) = 1,572,864,000. 34, Nombre del archivo = DISCOC.033. 34, MD5 = 5ec00608e59c4dc61f68b9f9a073992d. 34, SHA1 = 2e0636fddb718483ec137a2355aba226f8561c8e. 34, Fecha Creación = 22/07/2020 19:46. 34, Tamaño (byte) = 1,572,864,000. 35  36, Nombre del archivo = DISCOC.034  DISCOC.035. 35  36, MD5 = 7fce3810b2c477de0118c8a2e6aaeb89  4b883290b64ff40bbbd8871e287b254d. 35  36, SHA1 = d831e3a9eb95b00342bad5a268bd8c6a57376a62  466c5c8bb703c4d3697e20dae3267c75da6bdd48. 35  36, Fecha Creación = 22/07/2020 19:48  22/07/2020 19:49. 35  36, Tamaño (byte) = 1,572,864,000 1,572,864,000. 37, Nombre del archivo = DISCOC.036. 37, MD5 = 8a9def8c732e14a69f2bb9277540b6c6. 37, SHA1 = d520c6cd4a865687585e22b19d84b3c1e20d6cdf. 37, Fecha Creación = 22/07/2020 19:50. 37, Tamaño (byte) = 1,572,864,000. 39, Nombre del archivo = . 39, MD5 = . 39, SHA1 = 57eb4b3fb9d10e32a9becb40370b794d0b2a2387. 39, Fecha Creación = 22/07/2020 19:52. 39, Tamaño (byte) = 1,572,864,000. 38, Nombre del archivo = DISCOC.037. 38, MD5 = 012ceecdf045972cbf4d3bc6e1de0e75. 38, SHA1 = . 38, Fecha Creación = . 38, Tamaño (byte) = . , Nombre del archivo = DISCOC.038. , MD5 = eeba7b4eee6de684b86e346a3c11d4d5. , SHA1 = 6b88401616531a34691ff457d6c347fb07be5fc8. , Fecha Creación = 22/07/2020 19:53. , Tamaño (byte) = 1,572,864,000. 40  41, Nombre del archivo = DISCOC.039  DISCOC.040. 40  41, MD5 = 7388cef642707da7f7107c42a2974c08  440ea56b4409f75e1e6c6ae977d978ca. 40  41, SHA1 = 0aadab7ba55463b44a76f59283ebfe0fe6b05d8b  d84914452473123b7b575ea1ea3b1377057d19ed. 40  41, Fecha Creación = 22/07/2020 19:55  22/07/2020 19:56. 40  41, Tamaño (byte) = 1,572,864,000. , Nombre del archivo = DISCOC.041. , MD5 = . , SHA1 = . , Fecha Creación = . , Tamaño (byte) = 1,572,864,000. 42, Nombre del archivo = . 42, MD5 = 415a63de06d3d959a5a8e2ca84047cd4. 42, SHA1 = 7997fa5765d1bc134ffeb71b6a56c2710b01d513. 42, Fecha Creación = 22/07/2020 19:58. 42, Tamaño (byte) = 1,572,864,000. 43, Nombre del archivo = DISCOC.042. 43, MD5 = 3385a1ccec3e45680d4c4f4d3959fb57. 43, SHA1 = 45d24a623d19f3d22c360b846f6a9c0506ad3a73. 43, Fecha Creación = 22/07/2020 19:59. 43, Tamaño (byte) = 1,572,864,000. 44, Nombre del archivo = DISCOC.043. 44, MD5 = eeba7b4eee6de684b86e346a3c11d4d5. 44, SHA1 = 6b88401616531a34691ff457d6c347fb07be5fc8. 44, Fecha Creación = 22/07/2020 20:00. 44, Tamaño (byte) = 1,572,864,000. 45  46, Nombre del archivo = DISCOC.044. 45  46, MD5 = 7397d874d1e57a83261e31b4b72019b8  5800b786d88944befb22cb0df0030e09. 45  46, SHA1 = f7a71569d514e696da7a4523b6f36e0af226c675  64afcb7a70e6c97e57ff7b73fda30ae1a7f8fbb9. 45  46, Fecha Creación = 22/07/2020 20:02. 45  46, Tamaño (byte) = 1,572,864,000. , Nombre del archivo = DISCOC.045. , MD5 = . , SHA1 = . , Fecha Creación = 22/07/2020 20:03. , Tamaño (byte) = 1,572,864,000. 47, Nombre del archivo = DISCOC.046. 47, MD5 = 9e327c9285c94769144942816a7f21cf. 47, SHA1 = 1406ff82e8a6296f27d48c759618a39a52317b65. 47, Fecha Creación = 22/07/2020 20:05. 47, Tamaño (byte) = 1,572,864,000. 48, Nombre del archivo = DISCOC.047. 48, MD5 = c34c834871d9fbb48f781aa502d0c631. 48, SHA1 = f8312eb63bb99c2dd304c965caa5805ed1648f3c. 48, Fecha Creación = 22/07/2020 20:06. 48, Tamaño (byte) = 1,572,864,000. 50, Nombre del archivo = DISCOC.049. 50, MD5 = 00e3446f6cdbce5b6ed840d766e139f1. 50, SHA1 = a29e0663f8ca56bef3e27d286adfa7a19cf556c9. 50, Fecha Creación = 22/07/2020 20:09. 50, Tamaño (byte) = 1,572,864,000. 51  52, Nombre del archivo = DISCOC.050  DISCOC.051. 51  52, MD5 = 8bc0b6d69c4fe07e4c0a6cf0502ad11e  fb985dbf4ff8674e42be5d74291f4203. 51  52, SHA1 = b2b68a07bb5752df1e3c70f8224d664e5a9ec49f  3f16ffa2e26bab940959560a4cb86e57a9e414a9. 51  52, Fecha Creación = 22/07/2020 20:10  22/07/2020 20:12. 51  52, Tamaño (byte) = 1,572,864,000 1,572,864,000. 53, Nombre del archivo = DISCOC.052. 53, MD5 = e8b328422f436df44be7fd8ad044a597. 53, SHA1 = 3f1deddb6c7fe5a3c3400f3cb13e346ec0cd76db. 53, Fecha Creación = 22/07/2020 20:13. 53, Tamaño (byte) = 1,572,864,000. 54, Nombre del archivo = DISCOC.053. 54, MD5 = a145d2e37f76ef108b92eea46124022b. 54, SHA1 = 09ed0c8622b59d6ff34632bfbb658dda44a8345d. 54, Fecha Creación = 22/07/2020 20:14. 54, Tamaño (byte) = 1,572,864,000. 55, Nombre del archivo = DISCOC.054. 55, MD5 = a5dac9bcb15a87644e5d9210d4c6f6e3. 55, SHA1 = 896c5896195fbf0b8d61fdf68b27b1fb37df7a78. 55, Fecha Creación = 22/07/2020 20:15. 55, Tamaño (byte) = 535,822,336",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/160",
+          "parent": {
+            "cref": "#/tables/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "caption",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 76.8017807006836,
+                "t": 707.4036254882812,
+                "r": 536.1289672851562,
+                "b": 686.5452270507812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                121
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/tables/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/160"
+            }
+          ],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 61.548362731933594,
+                "t": 685.3896408081055,
+                "r": 550.8796997070312,
+                "b": 177.36480712890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "5. Anexos"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Fuente: Archivo de los autores",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/161",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 245.45164489746094,
+                "t": 174.62380981445312,
+                "r": 367.9458312988281,
+                "b": 167.6887664794922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "5. Anexos"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Esta obra está bajo una Licencia Creative Commons Atribución -NoComercial 4.0 Internacional",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/162",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 228.8573455810547,
+                "t": 118.62581634521484,
+                "r": 384.33551025390625,
+                "b": 104.34990692138672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                91
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "5. Anexos"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

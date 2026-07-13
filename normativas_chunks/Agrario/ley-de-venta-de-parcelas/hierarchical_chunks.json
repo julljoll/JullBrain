@@ -1,0 +1,1826 @@
+[
+  {
+    "text": "Caracas: jueves 18 de agosto de 1983",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 197.82000732421875,
+                "t": 648.6472778320312,
+                "r": 431.06256103515625,
+                "b": 635.936279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                36
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "GACETA OFICIAL DE LA REPUBLICA DE VENEZUELA"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La enajenación de inmuebles urbanos y rurales por parcelas y por oferta pública, se rige por las disposiciones de la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 219.72149658203125,
+                "t": 451.65374755859375,
+                "r": 541.0571899414062,
+                "b": 407.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "LEY DE VENTA DE PARCELAS"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se entiende como oferta pública a los fines de esta Ley, la que se haga por cualesquiera de los medios usuales de propaganda comercial.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 219.72149658203125,
+                "t": 388.6394958496094,
+                "r": 543.4241333007812,
+                "b": 344.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "LEY DE VENTA DE PARCELAS"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Antes de proceder a la enajenación de un inmueble por parcelas y por oferta pública, el propietario o los copropietarios protocolizarán en la correspondiente Oficina Subalterna de Registro de la ubicación del inmueble, un documento que se denominará \"Documento de Urbanización o Parcelamiento\", en el cual harán constar:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 219.72149658203125,
+                "t": 324.90374755859375,
+                "r": 544.2036743164062,
+                "b": 220.3147430419922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                320
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "LEY DE VENTA DE PARCELAS"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- a) La voluntad de destinar el inmueble a la enajenación por parcelas;\n- b) la denominación del inmueble, si la tiene, y su ubicación, área, linderos, medidas y demás características que sirvan para hacerlo conocer distintamente;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 219.72149658203125,
+                "t": 198.90374755859375,
+                "r": 542.0621948242188,
+                "b": 170.21475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 219.73574829101562,
+                "t": 151.63949584960938,
+                "r": 541.036376953125,
+                "b": 92.1344985961914,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                156
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "LEY DE VENTA DE PARCELAS"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 312.0817565917969,
+                "t": 72.53925323486328,
+                "r": 312.2797546386719,
+                "b": 72.0,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "LEY DE VENTA DE PARCELAS"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- c) la relación cronológica de los títulos de adquisición en los veinte años anteriores, con indicación de la naturaleza de estos títulos y de la fecha y datos de registro de los documentos correspondientes;\n- d) el porcentaje que represente el valor atribuido a cada parcela en relación con el valor fijado para la totalidad del área destinada a la venta, a los efectos del artículo 13 de esta Ley;\n- e) el número de parcelas en que se dividirá el inmueble conforme al plano de urbanismo o parcelamiento, con indicación a su vez del número de parcelas destinadas a un mismo uso y con igual zonificación;\n- f) las condiciones generales de urbanización o parcelamiento, y, especialmente, la relación de las obras y servicios esenciales con indicación del término dentro del cual estarán terminadas y en capacidad de cumplir cabalmente su finalidad de conformidad con las leyes y ordenanzas municipales, así como la constancia de la aceptación de los respectivos proyectos por los organismos competentes;\n- g) los gravámenes y las limitaciones de la propiedad que existan sobre el inmueble, con indicación de la fecha y datos de registro de los documentos respectivos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 219.8354949951172,
+                "t": 690.1395263671875,
+                "r": 544.3125,
+                "b": 629.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                206
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 219.72149658203125,
+                "t": 610.6537475585938,
+                "r": 543.0275268554688,
+                "b": 550.436279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                189
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 219.76425170898438,
+                "t": 531.8895263671875,
+                "r": 543.3123779296875,
+                "b": 471.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                202
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 219.72149658203125,
+                "t": 453.1394958496094,
+                "r": 543.5623168945312,
+                "b": 329.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                395
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 220.17750549316406,
+                "t": 311.3894958496094,
+                "r": 541.837890625,
+                "b": 266.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La protocolización de los documentos exigidos en este artículo podrá ser hecha para sectores parciales de la urbanización o parcelamiento general proyectado, en cuyo caso sólo se podrán ofrecer y enajenar las parcelas comprendidas en dichos sectores.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 219.76425170898438,
+                "t": 247.63949584960938,
+                "r": 543.8440551757812,
+                "b": 171.71475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                250
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Registrador no protocolizará el Documento de Urbanización o Parcelamiento si no contiene todas las menciones exigidas por el artículo anterior. Al protocolizar el documento deberá estampar las notas",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 219.72149658203125,
+                "t": 152.38949584960938,
+                "r": 541.7833862304688,
+                "b": 92.21475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                201
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 312.0217590332031,
+                "t": 72.53925323486328,
+                "r": 312.37725830078125,
+                "b": 72.0,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "marginales a que se refiere el artículo 1.926 del Código Civil.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 219.86399841308594,
+                "t": 690.8895263671875,
+                "r": 542.8123779296875,
+                "b": 665.0504760742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 4º. -, 1 = Las modificaciones o reformas en la zonificación de la  urbanización o parcelamiento que fueren aprobadas por  las autoridades competentes, con posterioridad a la fecha  de protocolización del documento requerido por el artículo 2º de esta Ley, se harán constar en un documento que también será protocolizado. El documento mencionado deberá acompañarse con los  planos y memorias técnicas correspondientes, que serán  agregados al respectivo cuaderno de comprobantes, y el. Artículo 5º. -, 1 = Toda enajenación por parcelas y por oferta pública será  nula si no se hubiere protocolizado previamente el correspondiente Documento de Urbanización o Parcelamiento. El propietario o los copropietarios de un  inmueble que procedan a su enajenación por parcelas y  por oferta pública sin haber protocolizado el Documento  de Urbanización o Parcelamiento serán castigados con prisión de cinco a veinte meses.. Artículo 6º. -, 1 = El registrador no protocolizará el Documento de Urbanización o Parcelamiento, en los casos en que el inmueble destinado a ser vendido por parcelas y por oferta pública hubiese sido dado en garantía hipotecaria,  si no consta en forma auténtica el consentimiento del acreedor hipotecario para tal destino.. Artículo 7º. -, 1 = Las regulaciones del Documento de Urbanización o Parcelamiento, se considerarán incluidas en los contratos  entre el propietario o los copropietarios del inmueble y  los adquirentes de las parcelas y producirán efectos también para los causahabientes de las partes por cualquier título.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 82.3888168334961,
+                "t": 646.2514953613281,
+                "r": 541.84521484375,
+                "b": 106.122314453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 312.031494140625,
+                "t": 72.53925323486328,
+                "r": 312.38323974609375,
+                "b": 71.99099731445312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 8º. -, 1 = El Registrador no protocolizará título alguno de propiedad o de cualquier otro derecho real sobre una parcela enajenada por oferta pública, si no se ha protocolizado el Documento de Urbanización o Parcelamiento. Sin perjuicio de lo establecido en la Ley de Registro Público para los documentos que se presenten para la  protocolización, esos títulos deberán contener las menciones correspondientes al registro del Documento  de Urbanización o Parcelamiento y la descripción de la  parcela de modo que sirva para hacerla conocer distintamente con expresa referencia a su ubicación en el  plano acompañado al dicho Documento de Urbanización  o Parcelamiento.. Artículo 9º. -, 1 = El contrato por el cual el propietario o los copropietarios  enajenen una parcela a título oneroso, es anulable no obstante pacto en contrario, a solicitud del adquirente cuando éste se obligue a pagar todo o parte del precio  antes de otorgarse el respectivo documento registrado.  Esta sanción procederá igualmente cuando el comprador  se haya obligado con anterioridad a aquél otorgamiento  por letras de cambio u otros documentos negociables. Anulado el contrato, se castigará con pena de prisión de  cinco a veinte meses, y a instancias del adquirente, al enajenante que hubiese recibido pagos en razón del contrato o de letras de cambio u otros documentos negociables emitidos en su ejecución o que hubiese trasmitido tales títulos.. Artículo 10. -, 1 = El Registrador no protocolizará el documento constitutivo de una hipoteca, en los casos en que un inmueble destinado a ser vendido por parcelas y por oferta pública fuere dado en garantía hipotecaria, con posterioridad a la protocolización del Documento de Urbanización o Parcelamiento, si no indica la destinación  del inmueble y hace mención expresa de los datos de",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 81.9978256225586,
+                "t": 692.369384765625,
+                "r": 542.3431396484375,
+                "b": 75.03704833984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 312.0097351074219,
+                "t": 72.53700256347656,
+                "r": 312.3810119628906,
+                "b": 72.0,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": ", 1 = registro del Documento de Urbanización o Parcelamiento.. Artículo 11. -, 1 = Si las partes presentaren para su protocolización un documento de enajenación de parcelas que formen parte  de un inmueble gravado por cualquier título, y en el documento no se indica la existencia del gravamen ni, en  caso de que éste fuera una hipoteca, las menciones exigidas en el artículo 13, el Registrador advertirá expresamente al adquirente, de la existencia de los gravámenes y de todos sus particulares, dejando constancia de ello en la correspondiente nota de registro.. Artículo 12. -, 1 = El contrato por el cual se enajena una parcela perteneciente a un inmueble gravado por cualquier título,  es anulable a solicitud del adquirente si no se expresa en  él la existencia del gravamen o no se hace, en el caso a  que se refiere el artículo anterior, la advertencia correspondiente.. Artículo 13. -, 1 = La enajenación de parcelas que formen parte de un inmueble hipotecado produce de pleno derecho la división del crédito garantizado y de la hipoteca, en proporción al porcentaje atribuido a cada parcela en el Documento de Urbanización o Parcelamiento. A tal efecto, en el documento de enajenación se indicará  el monto de la hipoteca con que queda gravada la parcela  y la parte del precio que deba pagar el adquirente al enajenante, después de deducido de dicho precio lo que  deberá entregar directamente al acreedor hipotecario. Sólo respecto de la parte del precio que ha de pagarse al  enajenante podrán emitirse letras de cambio u otros documentos negociables.. Artículo 14. -, 1 = Queda prohibida la venta de parcelas ubicadas en zonas  que, en los documentos protocolizados según el artículo  2º de esta Ley, aparezcan destinadas a áreas verdes o a",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 81.16133117675781,
+                "t": 691.82568359375,
+                "r": 541.97314453125,
+                "b": 74.1324462890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 312.031494140625,
+                "t": 72.52950286865234,
+                "r": 312.3869934082031,
+                "b": 71.99175262451172,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": ", 1 = otros servicios comunales. En consecuencia, será nulo  cualquier acto o documento otorgado en contravención a  lo dispuesto en este artículo y su protocolización se tendrá como inexistente.. Artículo 15. -, 1 = Sin perjuicio de la responsabilidad civil en que incurra, el  Registrador que contravenga lo establecido en los artículos 3º, 5º, 7º, 9º y 10 de esta Ley será sancionado  con multa de quinientos bolívares (Bs. 500), a diez mil bolívares (Bs. 10.000), de conformidad con el procedimiento previsto en la Ley de Registro Público.  En caso de reincidencia será sancionado con la destitución del cargo.. Artículo 16. -, 1 = En los contratos de venta de parcelas cuyo precio haya  de pagarse mediante cuotas; la falta de pago de menos de  tres cuotas, y no obstante convenio en contrario, no dará  lugar a la resolución del contrato ni a la pérdida del beneficio del plazo, sino al cobro de las cuotas insolutas  y de los intereses moratorios a la rata corriente en el mercado.. Artículo 17. -, 1 = Resuelto el contrato de venta de parcelas a plazo por cualquier causa que sea, si se ha convenido que las cuotas pagadas o determinado porcentaje de éstas  queden a beneficio del vendedor, a título de indemnización, el Juez, según las circunstancias, podrá reducir la indemnización convenida si el comprador ha pagado ya mas de una cuarta parte del precio total.. Artículo 18. -, 1 = Las disposiciones anteriores, se aplicarán sin perjuicio de  la denominación que las partes den al contrato, así como  también a las promesas de venta y a los arrendamientos  con opción de compra.. Artículo 19. -, 1 = En cuanto a las ventas de parcelas en inmuebles rurales,  se aplicarán, sin perjuicio de lo establecido en esta Ley,  las disposiciones de la Ley de Reforma Agraria.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 82.49150085449219,
+                "t": 692.0814971923828,
+                "r": 541.6983032226562,
+                "b": 90.1053466796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "6",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 312.02850341796875,
+                "t": 72.53925323486328,
+                "r": 312.38250732421875,
+                "b": 71.99175262451172,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 20. -, 1 = En los anuncios u otros medios de propaganda de venta  de parcelas, deberá mencionarse la fecha y datos de registro del Documento de Urbanización o Parcelamiento  y las fechas y números de los permisos de construcción  respectivos. El incumplimiento de esta disposición será  sancionada con multas de cien bolívares (Bs. 100) a un  mi mil bolívares (Bs. 1.000), por cada infracción. Para la  aplicación de las multas se seguirá el procedimiento pautado en los artículos 413 y siguientes del Código de  Enjuiciamiento Criminal.. Artículo 21. -, 1 = Serán castigados con pena de prisión de cinco a veinte  meses quienes en anuncios u otros medios de propaganda de venta de parcelas hagan falsas afirmaciones sobre la urbanización o parcelamiento, que  induzcan a engaño al público. Podrá imponerse, además de la pena de prisión, multa de  quinientos bolívares (Bs. 500), a diez mil bolívares (Bs.  10.000). Son competentes para el conocimiento de estos  juicios los Jueces de Primera Instancia en lo Penal de la. Artículo 22. -, 1 = En caso de que los hechos incriminados en esta Ley fueren imputables a una persona jurídica, la pena corporal prevista recaerá sobre sus administradores responsables. No obstante, las multas se impondrán a  las personas jurídicas.. Artículo 23. -, 1 = La presente Ley entrará en vigencia ciento ochenta días  después de su publicación en la GACETA OFICIAL DE  LA REPUBLICA DE VENEZUELA. No obstante, los  artículos 21 y 22 serán de aplicación inmediata.. Artículo 24. -, 1 = El Documento de Urbanización o Parcelamiento a que se  refiere el artículo 22 de esta Ley deberá ser protocolizado también por el propietario o los",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 81.4209213256836,
+                "t": 691.341194152832,
+                "r": 544.981689453125,
+                "b": 72.2056884765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "7",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 312.0352478027344,
+                "t": 72.5302505493164,
+                "r": 312.38323974609375,
+                "b": 72.0,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Parágrafo Unico.-",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 85.10624694824219,
+                "t": 438.0112609863281,
+                "r": 194.9032440185547,
+                "b": 425.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 25. - copropietarios que hayan iniciado, pero no concluido, la enajenación de su inmueble por parcelas y por oferta pública, con anterioridad a la entrada en vigencia de esta Ley. Sin embargo, en este caso, si el inmueble hubiere sido dado en garantía hipotecaria, el Documento de Urbanización o Parcelamiento podrá ser protocolizado sin el consentimiento del acreedor hipotecario requerido por el artículo 6º, pero si faltare dicho consentimiento, no se aplicará lo dispuesto en el artículo 13.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 84.86399841308594,
+                "t": 327.0112609863281,
+                "r": 161.1532440185547,
+                "b": 317.06475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            },
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 219.72149658203125,
+                "t": 690.8895263671875,
+                "r": 543.5618896484375,
+                "b": 551.9647216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                15,
+                504
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si el término fijado por los propietarios o los copropietarios conforme al inciso f) del artículo 2º fuere considerado excesivo por cualquiera de los adquirentes de parcelas, este podrá pedir judicialmente la definitiva fijación de dicho término.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 220.22024536132812,
+                "t": 533.4037475585938,
+                "r": 542.9635009765625,
+                "b": 457.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                246
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando la enajenación del inmueble prevista en este artículo hubiere concluido sin haber terminado las obras y servicios determinados en el inciso f) del artículo 2º de esta Ley, los adquirentes de parcelas podrán pedir judicialmente la fijación de término para la ejecución de aquéllos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 218.66700744628906,
+                "t": 438.15374755859375,
+                "r": 543.374267578125,
+                "b": 346.4647521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                287
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se declaran inaplicables a la materia objeto de esta Ley todas las disposiciones que se opongan al cumplimiento de las mismas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 219.8925018310547,
+                "t": 327.15374755859375,
+                "r": 543.5628662109375,
+                "b": 285.56475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dada, firmada y sellada en el Palacio Federal Legislativo, en Caracas a los cuatro días del mes de agosto de mil novecientos ochenta y tres. - Año 173º de la Independencia y 124º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 85.10624694824219,
+                "t": 264.1394958496094,
+                "r": 543.7125244140625,
+                "b": 219.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                196
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 201.13949584960938,
+                "r": 160.05029296875,
+                "b": 188.88450622558594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "(L. S.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 185.38949584960938,
+                "r": 121.58149719238281,
+                "b": 172.46475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "GODOFREDO GONZALEZ.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 372.4987487792969,
+                "t": 169.39724731445312,
+                "r": 539.1637573242188,
+                "b": 159.55050659179688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Vicepresidente,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 85.04924774169922,
+                "t": 138.13949584960938,
+                "r": 184.81471252441406,
+                "b": 125.21475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "ARMANDO SANCHEZ BUENO.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 347.364013671875,
+                "t": 122.14724731445312,
+                "r": 540.0361328125,
+                "b": 112.28624725341797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Secretarios,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 85.03500366210938,
+                "t": 90.88949584960938,
+                "r": 175.55728149414062,
+                "b": 78.6344985961914,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "8",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 312.03076171875,
+                "t": 72.53925323486328,
+                "r": 312.3840026855469,
+                "b": 71.99175262451172,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Héctor Carpio Castillo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 84.99224853515625,
+                "t": 675.1395263671875,
+                "r": 213.64154052734375,
+                "b": 662.2147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Palacio de Miraflores, en Caracas a los diecisiete días del mes de agosto de mil novecientos ochenta y tres. - Año 173º de la Independencia, 124º de la Federación y Bicentenario del Natalicio del Libertador Simón Bolívar.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 84.97799682617188,
+                "t": 643.6395263671875,
+                "r": 543.7125854492188,
+                "b": 599.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                221
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cúmplase.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 85.26300048828125,
+                "t": 580.6395263671875,
+                "r": 142.4671630859375,
+                "b": 567.7147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                9
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "(L.S.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 85.3342514038086,
+                "t": 564.8895263671875,
+                "r": 117.83150482177734,
+                "b": 551.9647216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Y demás miembros del Gabinete.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 84.87825012207031,
+                "t": 517.6395263671875,
+                "r": 269.2139892578125,
+                "b": 507.5505065917969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                30
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "9",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 312.031494140625,
+                "t": 72.53925323486328,
+                "r": 312.3840026855469,
+                "b": 71.99175262451172,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "José Rafael García.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 431.54925537109375,
+                "t": 690.8895263671875,
+                "r": 539.1072387695312,
+                "b": 680.8004760742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "LUIS HERRERA CAMPINS.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 371.5350036621094,
+                "t": 548.8972778320312,
+                "r": 539.899658203125,
+                "b": 539.0362548828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

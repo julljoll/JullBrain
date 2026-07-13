@@ -1,0 +1,3972 @@
+[
+  {
+    "text": "Toda persona natural habitante de la República, o persona jurídica domiciliada en ésta, podrá solicitar ante los Tribunales competentes el amparo previsto en el Artículo 49 de la Constitución, para el goce y el ejercicio de los Derechos y Garantías Constitucionales, aun de aquellos derechos fundamentales de la persona humana que no figuren expresamente en la Constitución, con el propósito de que se restablezca inmediatamente la situación jurídica infringida o la situación que más se asemeje a ella.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 496.6119079589844,
+                "r": 525.4593505859375,
+                "b": 402.6781921386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                503
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La garantía de libertad personal que regula el hábeas corpus constitucional, se regirá por esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 386.2383728027344,
+                "r": 525.4510498046875,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                100
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La acción de amparo procede contra cualquier hecho, acto u omisión provenientes de los órganos del Poder Público Nacional, Estadal o Municipal. También procede contra el hecho, acto u omisión originados por ciudadanos, personas jurídicas, grupos u organizaciones privadas, que hayan violado, violen o amenacen violar cualquiera de las garantías o derechos amparados por esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 331.0335998535156,
+                "r": 525.50341796875,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                379
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 2º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se entenderá como amenaza valida para la procedencia de la acción de amparo aquella que sea inminente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 234.54379272460938,
+                "r": 525.4505615234375,
+                "b": 209.6205291748047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 2º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "También es procedente la acción de amparo, cuando la violación o amenaza de violación deriven de una norma que colida con la Constitución. En este caso, la providencia judicial que resuelva la acción interpuesta deberá apreciar la inaplicación de la norma impugnada y el Juez informará a la Corte Suprema de Justicia acerca de la respectiva decisión.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 179.26095581054688,
+                "r": 525.4738159179688,
+                "b": 113.03466033935547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                350
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Caracas, martes 27 de septiembre de 1988 Número 34.060",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 108.16899871826172,
+                "t": 689.8974609375,
+                "r": 507.7550964355469,
+                "b": 678.7799072265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Gaceta Oficial de la República de Venezuela"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "la siguiente,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 274.7462158203125,
+                "t": 606.9553833007812,
+                "r": 341.3447265625,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Decreta:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La acción de amparo también podrá ejercerse conjuntamente con la acción popular de inconstitucionalidad de las leyes y demás actos estatales normativos, en cuyo caso, la Corte Suprema de Justicia, si lo estima procedente para la protección constitucional, podrá suspender la aplicación de la norma respecto de la situación jurídica concreta cuya violación se alega, mientras dure el juicio de nulidad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 717.3948364257812,
+                "r": 525.4930419921875,
+                "b": 639.6259765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                401
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Título I Disposiciones Fundamentales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Igualmente procede la acción de amparo cuando un Tribunal de la República, actuando fuera de su competencia, dicte una resolución o sentencia u ordene un acto que lesione un derecho constitucional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 607.00341796875,
+                "r": 525.4686279296875,
+                "b": 568.3884887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                197
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En estos casos, la acción de amparo debe interponerse por ante un Tribunal Superior al que emitió el pronunciamiento, quien decidirá, en forma breve, sumaria y efectiva.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 551.816650390625,
+                "r": 525.491455078125,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                169
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La acción de amparo procede contra todo acto administrativo, actuaciones materiales, vías de hecho, abstenciones u omisiones que violen o amenacen violar un derecho o una garantía constitucionales, cuando no exista un medio procesal breve, sumario y eficaz acorde con la protección constitucional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 482.8241882324219,
+                "r": 525.511962890625,
+                "b": 430.2715759277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                297
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 5°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando la acción de amparo se ejerza contra actos administrativos de efectos particulares o contra abstenciones o negativas de la Administración, podrá formularse ante el Juez Contencioso-Administrativo competente, si lo hubiere en la localidad conjuntamente con el recurso contencioso administrativo de anulación de actos administrativos o contra las conductas omisivas, respectivamente, que se ejerza. En estos casos, el Juez, en forma breve, sumaria, efectiva y conforme a lo establecido en el artículo 22, si lo considera procedente para la protección constitucional, suspenderá los efectos del acto recurrido como garantía de dicho derecho constitucional violado, mientras dure el juicio.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 413.92779541015625,
+                "r": 525.520751953125,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                693
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 5°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando se ejerza la acción de amparo contra actos administrativos conjuntamente con el recurso Contencioso-Administrativo que se fundamente en la violación de un derecho constitucional, el ejercicio del recurso procederá en cualquier tiempo, aun después de transcurridos los lapsos de caducidad previstos en la Ley y no será necesario el agotamiento previo de la vía administrativa.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 248.3494873046875,
+                "r": 525.4915771484375,
+                "b": 170.4845733642578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                382
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "No se admitirá la acción de amparo:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.7686538696289,
+                "t": 96.46278381347656,
+                "r": 285.2561950683594,
+                "b": 85.44127655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                35
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1) Cuando hayan cesado la violación o amenaza de algún derecho o garantía constitucionales, que hubiesen podido causarla;\n- 2) Cuando la amenaza contra el derecho o la garantía constitucionales, no sea inmediata, posible y realizable por el imputado;\n- 3) Cuando la violación del derecho o la garantía constitucionales constituya una evidente situación irreparable, no siendo posible el restablecimiento de la situación jurídica infringida.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 717.4908447265625,
+                "r": 525.4521484375,
+                "b": 692.567626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                121
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 676.091796875,
+                "r": 525.4482421875,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 634.6927490234375,
+                "r": 525.4606323242188,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                187
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se entenderá que son irreparables los actos que, mediante el amparo, no puedan volver las cosas al estado que tenían antes de la violación;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 579.5060424804688,
+                "r": 525.4554443359375,
+                "b": 554.5828247070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                139
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 4) Cuando la acción u omisión, el acto o la resolución que violen el derecho o la garantía constitucionales hayan sido consentidos expresa o tácitamente, por el agraviado, a menos que se trate de violaciones que infrinjan el orden público o las buenas costumbres.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 538.1069946289062,
+                "r": 525.5074462890625,
+                "b": 485.59039306640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                263
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se entenderá que hay consentimiento expreso, cuando hubieren transcurrido los lapsos de prescripción establecidos en leyes especiales o en su defecto seis (6) meses después de la violación o la amenaza al derecho protegido.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 469.11456298828125,
+                "r": 525.4578247070312,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                223
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El consentimiento tácito es aquel que entraña signos inequívocos de aceptación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 400.0260925292969,
+                "r": 525.4833984375,
+                "b": 375.21685791015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 5) Cuando el agraviado haya optado por recurrir a la vías judiciales ordinarias o hecho uso de los medios judiciales preexistentes. En tal caso, al alegarse la violación o amenaza de violación de un derecho o garantía constitucionales, el Juez deberá acogerse al procedimiento y a los lapsos establecidos en los artículos 23, 24 y 26 de la presente Ley, a fin de ordenar la suspensión provisional de los efectos del acto cuestionado;\n- 6) Cuando se trate de decisiones emanadas de la Corte Suprema de Justicia;\n- 7) En caso de suspensión de derechos y garantías constitucionales conforme al artículo 241 de la Constitución, salvo que el acto que se impugne no tenga relación con la especificación del derecho de suspensión de los mismos;\n- 8) Cuando esté pendiente de decisión una acción de amparo ejercida ante un Tribunal en relación con los mismos hechos en que se hubiese fundamentado la acción propuesta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 358.7230224609375,
+                "r": 525.5166625976562,
+                "b": 278.61297607421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                433
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 262.1371765136719,
+                "r": 520.373291015625,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                74
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 234.54379272460938,
+                "r": 525.484619140625,
+                "b": 182.71148681640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                224
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 165.5513153076172,
+                "r": 525.4510498046875,
+                "b": 126.8403549194336,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                169
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son competentes para conocer de la acción de amparo, los Tribunales de Primera Instancia que lo sean en la materia afín con la naturaleza del derecho o de la garantía constitucionales violados o amenazados de violación, en la jurisdicción correspondiente al lugar donde ocurrieren el hecho, acto u omisión que motivaren la solicitud de amparo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 89.31596374511719,
+                "t": 662.3041381835938,
+                "r": 525.5025634765625,
+                "b": 595.9818725585938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                343
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En caso de duda, se observarán, en lo pertinente, las normas sobre competencia en razón de la materia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 579.4100341796875,
+                "r": 525.4749755859375,
+                "b": 556.8279418945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si un Juez se considerare incompetente, remitirá las actuaciones inmediatamente al que tenga competencia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 538.1069946289062,
+                "r": 525.4410400390625,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                105
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Del amparo de la libertad y seguridad personales conocerán los Tribunales de Primera Instancia en lo Penal, conforme al procedimiento establecido en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.732666015625,
+                "t": 496.6119079589844,
+                "r": 525.47509765625,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                158
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Corte Suprema de Justicia conocerá, en única instancia y mediante aplicación de los lapsos y formalidades previstos en la Ley, en la sala de competencia afín con el derecho o garantía constitucionales violados o amenazados de violación, de la acciones de amparo contra los hechos, actos y omisiones emanados del Presidente de la República, de los Ministros, del Consejo Supremo Electoral y demás organismos electorales del país, del Fiscal General de la República, del Procurador de la República o del Contralor General de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 427.71551513671875,
+                "r": 525.4774169921875,
+                "b": 333.81781005859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                539
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 8°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando los hechos, actos u omisiones constitutivos de la violación o amenaza de violación del derecho o de la garantía constitucionales se produzcan en lugar donde no funcionen Tribunales de Primera Instancia, se interpondrá la acción de amparo ante cualquier Juez de la localidad quien decidirá conforme a lo establecido en esta Ley. Dentro de las veinticuatro (24) horas siguientes a la adopción de la decisión, el juez la enviará en consulta al Tribunal de Primera Instancia competente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 303.5362548828125,
+                "r": 525.4822998046875,
+                "b": 209.6205291748047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                489
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando un mismo acto, hecho u omisión en perjuicio de algún derecho o garantía constitucionales afectare el interés de varias personas, conocerá de todas estas acciones el Juez que hubiese prevenido, ordenándose, sin dilación procesal alguna y sin incidencias, la acumulación de autos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 179.3570098876953,
+                "r": 525.4785766601562,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                285
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando un Juez que conozca de la acción de amparo, advirtiere una causal de inhibición prevista en la Ley, se abstendrá de conocer e inmediatamente levantará un acta y remitirá las actuaciones, en el estado en que se encuentren, al tribunal competente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 703.6851806640625,
+                "r": 525.5001220703125,
+                "b": 651.1865844726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                252
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si se tratare de un Magistrado de la Corte Suprema de Justicia, el Presidente de la Sala convocará de inmediato al Suplente respectivo, para integrar el tribunal de Amparo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 634.6927490234375,
+                "r": 525.5023193359375,
+                "b": 595.9818725585938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                172
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En ningún caso será admisible la recusación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.80470275878906,
+                "t": 579.4100341796875,
+                "r": 333.95489501953125,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los conflictos sobre competencia que se susciten en materia de amparo entre Tribunales de Primera Instancia serán decididos por el Superior respectivo. Los trámites serán breves y sin incidencias procesales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 538.1069946289062,
+                "r": 525.5026245117188,
+                "b": 499.2640075683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                207
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La acción de amparo constitucional puede ser interpuesta ante el Juez competente por cualquier persona natural o jurídica, por representación o directamente, quedando a salvo las atribuciones del Ministerio Público y de los Procuradores de Menores, Agrarios y del Trabajo, si fuere el caso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 427.6194763183594,
+                "r": 525.4833984375,
+                "b": 375.0848083496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                290
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 13°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Todo el tiempo será hábil y el Tribunal dará preferencia al trámite de amparo sobre cualquier otro asunto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/59",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 358.7230224609375,
+                "r": 525.462646484375,
+                "b": 333.81781005859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                106
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 13°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La acción de amparo, tanto en lo principal como en lo incidental y en todo lo que de ella derive, hasta la ejecución de la providencia respectiva, es de inminente orden público.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/61",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 303.4402160644531,
+                "r": 525.500244140625,
+                "b": 264.8253173828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                177
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las atribuciones inherentes al Ministerio Público no menoscaban los derechos y acciones de los particulares. La no intervención del Ministerio Público en la acción de amparo no es causal de reposición ni de acción de nulidad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 248.25343322753906,
+                "r": 525.5062866210938,
+                "b": 209.6205291748047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                225
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Jueces que conozcan de la acción de amparo no podrán demorar el trámites o diferirlo so pretexto de consulta al Ministerio Público. Se entenderá a derecho en el proceso de amparo el representante del Ministerio Público a quien el Juez competente le hubiere participado, por oficio o por telegrama, la apertura del procedimiento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/64",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 179.26095581054688,
+                "r": 525.520263671875,
+                "b": 113.03466033935547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                332
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La acción de amparo es gratuita por excelencia. Para su tramitación no se empleará papel sellado ni estampillas y en caso de urgencia, podrá interponerse por vía telegráfica. De ser así, deberá ser ratificada personalmente o mediante apoderado dentro de los tres (3) días siguientes. También procede su ejercicio en forma verbal y, en tal caso, el Juez deberá recogerla en un acta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 703.5891723632812,
+                "r": 525.4833984375,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                381
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 16°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Juez que conozca de la acción de amparo podrá ordenar, siempre que no signifique perjuicio irreparable para el actor, la evacuación de las pruebas que juzgue necesarias para el esclarecimiento de los hechos que aparezcan dudosos u oscuros.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 89.31596374511719,
+                "t": 607.00341796875,
+                "r": 525.505859375,
+                "b": 556.8279418945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                242
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se entenderá que hay perjuicio irreparable cuando exista otro medio de comprobación más acorde con la brevedad del procedimiento o cuando la prueba sea de difícil o improbable evacuación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 538.1069946289062,
+                "r": 525.4833984375,
+                "b": 499.39605712890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                187
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En la solicitud de amparo se deberá expresar:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.80470275878906,
+                "t": 469.0185241699219,
+                "r": 338.0046691894531,
+                "b": 457.99700927734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1) Los datos concernientes a la identificación de la persona agraviada y de la persona que actúe en su nombre, y en este caso con la suficiente identificación del poder conferido;\n- 2) Residencia, lugar y domicilio, tanto del agraviado como del agraviante;\n- 3) Suficiente señalamiento e identificación del agraviante, si fuere posible, e indicación de la circunstancia de localización;\n- 4) Señalamiento del derecho o de la garantía constitucionales violados o amenazados de violación;\n- 5) Descripción narrativa del hecho, acto, omisión y demás circunstancias que motiven la solicitud de amparo;\n- 6) Y, cualquiera explicación complementaria relacionada con la situación jurídica infringida, a fin de ilustrar el criterio jurisdiccional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 455.326904296875,
+                "r": 525.475830078125,
+                "b": 416.59796142578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                179
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 413.92779541015625,
+                "r": 497.0191955566406,
+                "b": 402.6781921386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                74
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 400.12213134765625,
+                "r": 525.44580078125,
+                "b": 375.9012145996094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                127
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 372.52874755859375,
+                "r": 525.4362182617188,
+                "b": 348.2898254394531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 344.93536376953125,
+                "r": 525.5062255859375,
+                "b": 320.0120849609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 317.34197998046875,
+                "r": 525.4747314453125,
+                "b": 292.2866516113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                139
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En caso de instancia verbal, se exigirán, en lo posible, los mismos requisitos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 118.98638153076172,
+                "t": 275.8468322753906,
+                "r": 525.455322265625,
+                "b": 251.01962280273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si la solicitud fuere oscura o no llenare los requisitos exigidos anteriormente especificados, se notificará al solicitante del amparo para que corrija el defecto u omisión dentro del lapso de cuarenta y ocho horas siguientes a la correspondiente notificación. Si no lo hiciere, la acción de amparo será declarada inadmisible.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 220.7380828857422,
+                "r": 525.451904296875,
+                "b": 156.6788787841797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                326
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Juez que haya suscitado una cuestión de competencia manifiestamente infundada será sancionado por el Superior con multa no menor de cinco mil bolívares (Bs. 5.000,00) ni mayor de diez mil bolívares (Bs. 10.000,00).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 124.1522216796875,
+                "r": 525.5250244140625,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 20°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En la acción de amparo los Jueces deberán mantener la absoluta igualdad entre las partes y cuando el agraviante sea una autoridad pública quedarán excluidos del procedimiento los privilegios procesales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/84",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 703.5891723632812,
+                "r": 525.462646484375,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                202
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Tribunal que conozca de la solicitud de amparo tendrá potestad para restablecer la situación jurídica infringida, prescindiendo de consideraciones de mera forma y sin ningún tipo de averiguación sumaria que la preceda.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 634.5967407226562,
+                "r": 525.4794921875,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                221
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En este caso, el mandamiento de amparo deberá ser motivado y estar fundamentado en un medio de prueba que constituya presunción grave de la violación o de la amenaza de violación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 579.4100341796875,
+                "r": 525.4822387695312,
+                "b": 543.0402221679688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                179
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si el Juez no optare por restablecer inmediatamente la situación jurídica infringida, conforme al artículo anterior, ordenará a la autoridad, entidad, organización social o a los particulares imputados de violar o amenazar el derecho o la garantía constitucionales, que en el termino de cuarenta y ocho (48) horas, contadas a partir de la respectiva notificación, informe sobre la pretendida violación o amenaza que hubiere motivado la solicitud de amparo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 510.51361083984375,
+                "r": 525.58984375,
+                "b": 430.40362548828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                456
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La falta de informe correspondiente se entenderá como aceptación de los hechos incriminados.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/90",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 413.92779541015625,
+                "r": 525.48095703125,
+                "b": 391.24969482421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El informe a que se refiere el artículo anterior contendrá una relación sucinta y breve de las pruebas en las cuales el presunto agraviante pretenda fundamentar su defensa, sin perjuicio de la potestad evaluativa que el artículo 17 de la presente Ley confiere al Juez competente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 358.7230224609375,
+                "r": 525.482177734375,
+                "b": 306.0923767089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                279
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 24°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Quedan excluidas del procedimiento constitucional del amparo todas las formas de arreglo entre las partes, sin perjuicio de que el agraviado pueda, en cualquier estado y grado de la causa, desistir de la acción interpuesta, salvo que se trate de un derecho de eminente orden público o que pueda afectar las buenas costumbres.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 275.95489501953125,
+                "r": 525.4700927734375,
+                "b": 211.8656463623047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                325
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El desistimiento malicioso o el abandono del trámite por el agraviado será sancionado por el Juez de la causa o por el Superior, según el caso con multa de Dos mil bolívares (Bs. 2.000,00) a Cinco mil bolívares (Bs. 5.000,00).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 193.04864501953125,
+                "r": 525.4410400390625,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                226
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Juez que conozca del amparo, fijará dentro de las noventa y seis (96) horas siguientes a la presentación del Informe por el presunto agraviante o de la extinción del termino correspondiente, la oportunidad para que las partes o sus representantes legales expresen, en forma oral y pública, los argumentos respectivos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 124.1522216796875,
+                "r": 525.5050659179688,
+                "b": 85.44127655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                234
+              ]
+            },
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 717.4908447265625,
+                "r": 525.41943359375,
+                "b": 692.567626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                235,
+                320
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Efectuado dicho acto, el Juez dispondrá de un termino improrrogable de veinticuatro (24) horas para decidir la solicitud de amparo constitucional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/98",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 676.091796875,
+                "r": 525.4459228515625,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Tribunal que conozca de la solicitud de amparo remitirá copia certificada de su decisión a la autoridad competente, a fin de que resuelva sobre la procedencia o no de medida disciplinaria contra el funcionario público culpable de la violación o de la amenaza contra el derecho o la garantía constitucionales, sin perjuicio de las responsabilidades civiles o penales que le resulten atribuibles.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/100",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 620.9050903320312,
+                "r": 525.6763305664062,
+                "b": 554.5828247070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                397
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A tal efecto, el Tribunal remitirá también los recaudos pertinentes al Ministerio Público.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/101",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 538.1069946289062,
+                "r": 525.469970703125,
+                "b": 515.4468383789062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                90
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando fuese negado el amparo, el Tribunal se pronunciará sobre la temeridad de la acción interpuesta y podrá imponer sanción hasta de diez (10) días de arresto al quejoso cuando aquella fuese manifiesta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/103",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 482.92022705078125,
+                "r": 525.4385986328125,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                204
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Juez que acuerde el restablecimiento de la situación jurídica infringida ordenará, en el dispositivo de la sentencia, que el mandamiento sea acatado por todas las autoridades de la República, so pena de incurrir en desobediencia a la autoridad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 413.92779541015625,
+                "r": 525.48828125,
+                "b": 363.65631103515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                247
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 29°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando la acción de amparo se ejerciere con fundamento en violación de un derecho constitucional, por acto o conducta omisiva, o por falta de cumplimiento de la autoridad respectiva, la sentencia ordenará la ejecución inmediata e incondicional del acto incumplido.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/107",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 331.129638671875,
+                "r": 525.4818115234375,
+                "b": 278.61297607421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                264
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Quien incumpliere el mandamiento de amparo constitucional dictado por el Juez, será castigado con prisión de seis (6) a quince (15) meses.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 248.3614959716797,
+                "r": 525.4146728515625,
+                "b": 223.29417419433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La sentencia que acuerde el amparo constitucional deberá cumplir las siguientes exigencias formales:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/111",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 193.04864501953125,
+                "r": 525.4954833984375,
+                "b": 168.10739135742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                100
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- A) Mención concreta de la autoridad, del ente privado o de la persona contra cuya resolución o acto u omisión se conceda el amparo;\n- B) Determinación precisa de la orden a cumplirse, con las especificaciones necesarias para su ejecución;\n- C) Plazo para cumplir lo resuelto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 165.5513153076172,
+                "r": 525.4881591796875,
+                "b": 140.49598693847656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                131
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/113",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.732666015625,
+                "t": 137.95791625976562,
+                "r": 525.47021484375,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                104
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/114",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.45653533935547,
+                "t": 110.36453247070312,
+                "r": 282.94024658203125,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                34
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando se trate de quejas contra particulares, se impondrán las costas al vencido, quedando a salvo las acciones a que pudiere haber lugar. No habrá imposición de costas cuando los efectos del acto u omisión hubiesen cesado antes de abrirse la averiguación. El Juez podrá exonerar de costas a quien intentare el amparo constitucional por fundado temor de violación o de amenaza, o cuando la solicitud no haya sido temeraria.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/116",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 703.6851806640625,
+                "r": 525.469970703125,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                424
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 33°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo de la Judicatura registrará como falta grave al cumplimiento de sus obligaciones la inobservancia, por parte de los jueces, de los lapsos establecidos en esta Ley para conocer y decidir sobre las solicitudes de amparo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/118",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 593.3117065429688,
+                "r": 525.50341796875,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                229
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Contra la decisión dictada en primera instancia sobre la solicitud de amparo se oirá apelación en un solo efecto. Si transcurridos tres (3) días de dictado el fallo, las partes, el Ministerio Público o los procuradores no interpusieren apelación, el fallo será consultado con el Tribunal Superior respectivo, al cual se le remitirá inmediatamente copia certificada de lo conducente. Este Tribunal decidirá dentro de un lapso no mayor de treinta (30) días.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/120",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 524.3192749023438,
+                "r": 525.48583984375,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                455
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La sentencia firme de amparo producirá efectos jurídicos respecto al derecho o garantía objetos del proceso, sin perjuicio de las acciones o recursos que legalmente correspondan a las partes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.24042510986328,
+                "t": 413.92779541015625,
+                "r": 525.520751953125,
+                "b": 375.0848083496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                191
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La desestimación del amparo no afecta la responsabilidad civil o penal en que hubiese podido incurrir el autor del agravio, ni prejuzga sobre ninguna otra materia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 344.93536376953125,
+                "r": 525.4282836914062,
+                "b": 308.46954345703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                163
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Procede la acción de amparo para proteger la libertad y seguridad personales de acuerdo con las disposiciones del presente titulo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/127",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.2872543334961,
+                "t": 234.44773864746094,
+                "r": 525.4446411132812,
+                "b": 209.6205291748047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A esta acción le serán aplicables las disposiciones de esta Ley pertinentes al amparo en general.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/128",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 89.85504150390625,
+                "t": 193.04864501953125,
+                "r": 525.5118408203125,
+                "b": 168.10739135742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Toda persona que fuere objeto de privación o restricción de su libertad, o se viere amenazada en su seguridad personal, con violación de las garantías constitucionales, tiene derecho a que un Juez competente con jurisdicción en el lugar donde se hubiese ejecutado el acto causante de la solicitud o donde se encontrare la persona agraviada, expida un mandamiento de Hábeas Corpus.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/130",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.01111602783203,
+                "t": 137.95791625976562,
+                "r": 525.484619140625,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                230
+              ]
+            },
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 717.3468017578125,
+                "r": 525.4798583984375,
+                "b": 692.435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                231,
+                380
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Juzgados de Primera Instancia en lo Penal son competentes para conocer y decidir sobre el amparo de la libertad y seguridad personales. Los respectivos Tribunales Superiores conocerán en consulta de las sentencias dictadas por aquellos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/132",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 662.1600952148438,
+                "r": 525.4942626953125,
+                "b": 609.7875366210938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                240
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 40°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La solicitud podrá ser hecha por el agraviado o por cualquier persona que gestione en favor de aquel, por escrito, verbalmente o por vía telegráfica, sin necesidad de asistencia de abogado, y el Juez, al recibirla abrirá una averiguación sumaria, ordenando inmediatamente al funcionario bajo cuya custodia se encuentre la persona agraviada que informe dentro del plazo de veinticuatro (24) horas, sobre los motivos de la privación o restricción de la libertad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 579.4100341796875,
+                "r": 525.4967041015625,
+                "b": 487.83551025390625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                460
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las solicitudes referidas a la seguridad personal se tramitarán en cuanto les resulten aplicables, conforme a las previsiones de este artículo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 469.11456298828125,
+                "r": 525.4459228515625,
+                "b": 444.2093505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Juez decidirá en un termino no mayor de noventa y seis (96) horas después de recibida la solicitud, la inmediata libertad del agraviado o el cese de las restricciones que se le hubiesen impuesto, si encontrare que para la privación o restricción de la libertad no se hubieren cumplido las formalidades legales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 413.92779541015625,
+                "r": 525.5014038085938,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                313
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Juez, caso de considerarlo necesario, sujetará esta decisión a caución personal o a prohibición de salida del país de la persona agraviada por un termino no mayor de treinta (30) días.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/138",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 344.8393249511719,
+                "r": 525.460205078125,
+                "b": 306.0923767089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                187
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El mandamiento de hábeas corpus o, en su defecto, la decisión que lo niegue, se consultará con el Superior, al que deberán enviarse los recaudos en el mismo día o en el siguiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/140",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 275.94287109375,
+                "r": 525.4794921875,
+                "b": 237.09986877441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                179
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 43°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La consulta no impedirá la ejecución inmediata de la decisión y el Tribunal Superior decidirá dentro de las setenta y dos (72) horas después de haber recibido los autos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 220.64202880859375,
+                "r": 525.5025634765625,
+                "b": 184.2722625732422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                169
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 43°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las detenciones que conforme a la Ley, ordenen y practiquen las autoridades policiales u otras autoridades administrativas, no excederán de ocho (8) días. Las que pasen de cuarenta y ocho (48) horas deberán imponerse mediante resolución motivada. Quedan a salvo las disposiciones legales aplicables al proceso penal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/143",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 151.74560546875,
+                "r": 525.4942016601562,
+                "b": 85.44127655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                316
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 44°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando se hubiere cometido un hecho punible, las autoridades de policía que, de acuerdo con la Ley, sean auxiliares de la administración de justicia, podrán adoptar, como medidas provisionales de necesidad y de urgencia, la detención del presunto culpable o su presentación periódica durante la averiguación sumaria, a la autoridad respectiva. En cualquiera de los dos supuestos anteriores, la orden deberá ser motivada y constar por escrito.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 703.6851806640625,
+                "r": 525.491455078125,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                442
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 45°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el caso del artículo anterior, el detenido deberá ser puesto a la orden del Juez competente, dentro del termino de ocho (8) días.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/147",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 593.2156982421875,
+                "r": 525.4486083984375,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                132
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 46°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La autoridad que tuviere bajo su guarda o custodia a cualquier persona detenida, estará en el deber de permitirle, conforme a las normas reglamentarias correspondientes, comunicación con su abogado y con sus parientes más cercanos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/149",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 537.9629516601562,
+                "r": 525.5657958984375,
+                "b": 487.83551025390625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 47°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Serán supletorias de las disposiciones anteriores las normas procesales en vigor.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/151",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 455.326904296875,
+                "r": 525.44384765625,
+                "b": 430.2715759277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                81
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 48°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Quedan derogadas las disposiciones legales vigentes que colidan con la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.37248992919922,
+                "t": 400.1341552734375,
+                "r": 525.4437866210938,
+                "b": 375.0848083496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                84
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dada, firmada y sellada en el Palacio Federal Legislativo, en Caracas a los diecisiete días del mes de septiembre de mil novecientos ochenta y ocho. Año 178º de la Independencia y 129º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/154",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 358.7230224609375,
+                "r": 525.4794921875,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                202
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente, (L.S.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/155",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.5886001586914,
+                "t": 303.3921813964844,
+                "r": 167.89402770996094,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Vicepresidente, ( Encargado)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/156",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.80470275878906,
+                "t": 234.54379272460938,
+                "r": 197.23068237304688,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Secretarios, Reinaldo Leandro Mora Humberto Celli Héctor Carpio Castillo José Rafael García Palacio de Miraflores, en Caracas, a los veintisiete días del mes de septiembre de mil novecientos ochenta y ocho. Año 178º de la Independencia y 129º. de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/157",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.732666015625,
+                "t": 165.5513153076172,
+                "r": 179.89524841308594,
+                "b": 155.11810302734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            },
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 397.65045166015625,
+                "t": 261.99310302734375,
+                "r": 525.478271484375,
+                "b": 253.26473999023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                17,
+                38
+              ]
+            },
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 443.7786865234375,
+                "t": 193.1446990966797,
+                "r": 525.4867553710938,
+                "b": 184.2722625732422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                39,
+                53
+              ]
+            },
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 406.4112243652344,
+                "t": 151.74560546875,
+                "r": 525.4747314453125,
+                "b": 129.08547973632812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                54,
+                95
+              ]
+            },
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 717.4908447265625,
+                "r": 525.4690551757812,
+                "b": 681.0250244140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                96,
+                265
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cúmplase (L.S.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/158",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.45653533935547,
+                "t": 662.3041381835938,
+                "r": 147.2041015625,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Y demás miembros del Gabinete Simón Alberto Consalvi Encargado de la Presidencia de la República",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/159",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 89.89221954345703,
+                "t": 579.5060424804688,
+                "r": 267.91473388671875,
+                "b": 570.6336059570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            },
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 283.60302734375,
+                "t": 620.9050903320312,
+                "r": 525.4866943359375,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                30,
+                96
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

@@ -1,0 +1,5416 @@
+[
+  {
+    "text": "la siguiente,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 274.7462158203125,
+                "t": 606.9553833007812,
+                "r": 341.3447265625,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Decreta"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Poder Ciudadano forma parte del Poder Público Nacional y se ejerce por el Consejo Moral Republicano, el cual es su órgano de expresión, integrado por el Defensor o Defensora del Pueblo, el Fiscal o la Fiscal General de la República y el Contralor o Contralora General de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 496.70794677734375,
+                "r": 525.4547119140625,
+                "b": 444.2093505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                287
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son órganos del Poder Ciudadano la Defensoría del Pueblo, el Ministerio Público y la Contraloría General de la República; uno o una de sus titulares será designado o designada por el Consejo Moral Republicano como su Presidente o Presidenta por período de un (1) año, pudiendo ser reelecto o reelecta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.04832458496094,
+                "t": 413.92779541015625,
+                "r": 525.462646484375,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                301
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 2°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Poder Ciudadano es independiente de los demás Poderes Públicos y, en consecuencia, no podrá ser impedido ni coartado en el ejercicio de sus funciones por ninguna autoridad. Los órganos que integran el Poder Ciudadano gozan de autonomía funcional, financiera y administrativa.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 331.129638671875,
+                "r": 525.4606323242188,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                278
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dentro del presupuesto general del Estado se asignará una partida anual variable para el funcionamiento del Consejo Moral Republicano.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 248.25343322753906,
+                "r": 525.45703125,
+                "b": 223.29417419433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los actos, disposiciones y resoluciones que dicte el Consejo Moral Republicano estarán dirigidos tanto a los funcionarios públicos como a los particulares, con excepción de aquellos actos que tengan contenidos sancionatorios.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 193.1446990966797,
+                "r": 525.4627685546875,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                225
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 5°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el ejercicio de la atribución contenida en el numeral 1 del artículo 10 de la presente Ley, se entenderá por ética pública el sometimiento de la actividad que desarrollan los servidores públicos, a los principios de honestidad, equidad, decoro, lealtad, vocación de servicio, disciplina, eficacia, responsabilidad, transparencia y pulcritud; y por moral administrativa, la obligación que tienen los funcionarios, empleados y obreros, de los organismos públicos, de actuar dando preeminencia a los intereses de Estado por encima de los intereses de naturaleza particular o de grupos dirigidos a la satisfacción de las necesidades colectivas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 124.05616760253906,
+                "r": 525.4999389648438,
+                "b": 85.44127655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                239
+              ]
+            },
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 717.4908447265625,
+                "r": 525.4846801757812,
+                "b": 639.6259765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                240,
+                643
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las autoridades de la República prestarán al Poder Ciudadano la colaboración que éste requiera para el mejo r cumplimiento de sus funciones. Quienes al ser requeridos le negaren su auxilio serán sancionados de conformidad con las leyes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.27644348144531,
+                "t": 607.0994262695312,
+                "r": 525.45068359375,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                236
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las actuaciones del Poder Ciudadano se extenderán en papel común y sin estampillas fiscales, y estarán exentas del pago de cualquier otra clase de tasas, impuestos o contribuciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 524.3192749023438,
+                "r": 525.4846801757812,
+                "b": 485.59039306640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                181
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 8°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano es el órgano de expresión del Poder Ciudadano y estará integrado por el Defensor o Defensora del Pueblo, el Fiscal o la Fiscal General de la República, y el Contralor o Contralora General de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 372.52874755859375,
+                "r": 525.4942016601562,
+                "b": 333.6857604980469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                233
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano tiene las siguientes competencias:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.80470275878906,
+                "t": 303.5362548828125,
+                "r": 440.6545104980469,
+                "b": 292.2866516113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Prevenir, investigar y sancionar los hechos que atenten contra la ética pública y la moral administrativa.\n2. Velar por la buena gestión y la legalidad en el uso del patrimonio público.\n3. Velar por el cumplimiento de los principios constitucionales del debido proceso y de la legalidad, en toda la actividad administrativa del Estado.\n4. Promover la educación como proceso creador de la ciudadanía, así como las actividades pedagógicas dirigidas al conocimiento y estudio de la Constitución de la República Bolivariana de Venezuela, al amor a la patria, a las virtudes cívicas y democráticas, a los valores trascendentales de la República, y a la observancia y respeto de los derechos humanos.\n5. Promover la solidaridad, la libertad, la democracia, la responsabilidad social y el trabajo.\n6. Presentar ante la Asamblea Nacional los proyectos de leyes relativos a los órganos que lo integran.\n7. Participar y hacer uso del derecho de palabra ante la Asamblea Nacional en la discusión de las leyes que le sean afines o que sean de su competencia.\n8. Efectuar la segunda preselección de los candidatos o candidatas a magistrados o magistradas del Tribunal Supremo de Justicia, la cual será presentada a la Asamblea Nacional.\n9. Postular ante la Asamblea Nacional a un miembro principal del Consejo Nacional Electoral y a sus dos suplentes.\n10. Calificar las faltas graves que hubieren cometido los magistrados o las magistradas del Tribunal Supremo de Justicia.\n11. Intentar por órgano del Ministerio Público las acciones a que haya lugar, para hacer efectiva la responsabilidad de los funcionarios públicos o funcionarias públicas que hayan sido objeto, en ejecución del control parlamentario, de declaración de responsabilidad política por la Asamblea Nacional.\n12. Solicitar de los funcionarios públicos o funcionarias públicas la colaboración que requiera para el desempeño de sus funciones, los cuales estarán obligados a prestarla con carácter preferente y urgente, y a suministrar los documentos e informaciones que le sean requeridos, incluidos aquellos que hayan sido clasificados como confidenciales o secretos de acuerdo con la ley.\n13. Formular a las autoridades y funcionarios o funcionarias de la Administración Pública las advertencias sobre las faltas en el cumplimiento de sus obligaciones.\n14. Imponer a las autoridades y funcionarios o funcionarias de la Administración Pública las sanciones establecidas en la presente Ley.\n15. Remitir a los órganos competentes del Estado las denuncias, solicitudes y actuaciones cuyo conocimiento les corresponda, sin perjuicio de la actuación que pudiera tener el Consejo Moral Republicano.\n16. Convocar un Comité de Evaluación de Postulaciones del Poder Ciudadano, de acuerdo con lo previsto en la Constitución de la República Bolivariana de Venezuela y en el Capítulo II del Título II de esta Ley.\n17. Elegir a su Presidente o Presidenta dentro de los diez (10) días siguientes a la instalación del Consejo. Para los siguientes períodos, dicha elección se realizará al finalizar cada año de gestión.\n18. Designar al Secretario Ejecutivo o Secretaria Ejecutiva, demás funcionarios o funcionarias y empleados o empleadas de la Secretaría del Consejo Moral Republicano, así como a los asesores y asesoras ad honorem que requiera para el mejor desempeño de sus funciones.\n19. Dictar las decisiones con ocasión de los procedimientos sancionatorios previstos en esta Ley.\n20. Dictar el ordenamiento jurídico interno del Consejo Moral Republicano que sea necesario para el cumplimiento de sus funciones.\n21. Aprobar los planes y programas de prevención y promoción educativa elaborados por la Secretaría Permanente del Consejo Moral Republicano.\n22. Las demás que le sean atribuidas por las leyes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 289.6344909667969,
+                "r": 525.4866943359375,
+                "b": 264.6932678222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                109
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 262.0411376953125,
+                "r": 510.43511962890625,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 248.24142456054688,
+                "r": 525.4654541015625,
+                "b": 223.29417419433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                149
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 220.64202880859375,
+                "r": 525.477294921875,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                358
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 151.60153198242188,
+                "r": 525.6199951171875,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                95
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 124.0441665649414,
+                "r": 525.5003051757812,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 717.3468017578125,
+                "r": 525.4926147460938,
+                "b": 678.7799072265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 676.091796875,
+                "r": 525.4578857421875,
+                "b": 637.380859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                176
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 634.6927490234375,
+                "r": 525.491455078125,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                114
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 607.0994262695312,
+                "r": 525.4990234375,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                121
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 579.4100341796875,
+                "r": 525.483154296875,
+                "b": 515.4468383789062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                301
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 510.51361083984375,
+                "r": 525.5179443359375,
+                "b": 430.2715759277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                379
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 427.71551513671875,
+                "r": 525.4966430664062,
+                "b": 388.8725280761719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                163
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 386.33441162109375,
+                "r": 525.4555053710938,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 358.6269836425781,
+                "r": 525.5155029296875,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                202
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 317.34197998046875,
+                "r": 525.4747314453125,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                208
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 275.94287109375,
+                "r": 525.4653930664062,
+                "b": 237.09986877441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                201
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 234.54379272460938,
+                "r": 525.4290161132812,
+                "b": 181.89508056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                267
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 179.26095581054688,
+                "r": 525.497802734375,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 151.74560546875,
+                "r": 525.4686279296875,
+                "b": 126.8403549194336,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 124.05616760253906,
+                "r": 525.45068359375,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                141
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 96.46278381347656,
+                "r": 374.9975891113281,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                51
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se consideran faltas graves de los magistrados o las magistradas del Tribunal Supremo de Justicia, las siguientes:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 703.6851806640625,
+                "r": 525.436279296875,
+                "b": 678.6478271484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                114
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Cuando atenten, amenacen, o lesionen la ética pública y la moral administrativa establecida en la presente Ley.\n2. Cuando incurran en algunas de las causales de destitución del cargo previsto en el Código de Ética del Juez Venezolano o Jueza Venezolana.\n3. Cuando actúen con grave e inexcusable ignorancia de la Constitución de la República Bolivariana de Venezuela, de la ley y del derecho.\n4. Cuando adopten decisiones que atenten o lesionen los intereses de la Nación.\n5. Cuando violen, amenacen, o menoscaben los principios fundamentales establecidos en la Constitución de la República Bolivariana de Venezuela.\n6. Cuando lleven a cabo activismo político partidista, gremial, sindical o de índole semejante, o realicen actividades privadas lucrativas incompatibles con su función por sí, o por interpuesta persona, o ejerzan cualquier otra función pública, a excepción de actividades educativas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 676.091796875,
+                "r": 525.4866943359375,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                114
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 648.4984130859375,
+                "r": 525.4722900390625,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                141
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/56",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 620.9050903320312,
+                "r": 525.453369140625,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                137
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 593.3117065429688,
+                "r": 525.397705078125,
+                "b": 570.6336059570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 565.7003784179688,
+                "r": 525.4398803710938,
+                "b": 540.7951049804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/59",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 538.1069946289062,
+                "r": 525.5074462890625,
+                "b": 485.59039306640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                283
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el ejercicio de estas atribuciones, el Consejo Moral Republicano podrá delegar su conocimiento, trámite, ejecución y seguimiento en alguno de los órganos del Poder Ciudadano.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/61",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 455.326904296875,
+                "r": 525.4362182617188,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                177
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano se reunirá en sesiones ordinarias y en sesiones extraordinarias. Las sesiones ordinarias se realizarán al menos una vez cada quince (15) días y las sesiones extraordinarias cuando sean convocadas por su Presidente o Presidenta, de oficio o a requerimiento de cualquiera de sus otros dos (2) integrantes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 386.33441162109375,
+                "r": 525.504638671875,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                332
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 13°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "De las reuniones ordinarias y extraordinarias del Consejo Moral Republicano se levantará un acta en la cual se dejará constancia de los asuntos tratados, un resumen de las exposiciones de sus integrantes y las decisiones adoptadas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/65",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.62461853027344,
+                "t": 289.73052978515625,
+                "r": 525.4447021484375,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las decisiones del Consejo Moral Republicano se adoptaran mediante el voto favorable de la mayoría de sus integrantes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/67",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 220.7380828857422,
+                "r": 525.4653930664062,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son atribuciones y deberes del Presidente o Presidenta del Consejo Moral Republicano:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 165.5513153076172,
+                "r": 525.453125,
+                "b": 140.6280517578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                85
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 16°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Dirigir y coordinar las labores del Consejo Moral Republicano.\n2. Ejecutar el presupuesto de funcionamiento del Consejo Moral Republicano.\n3. Ejercer la representación oficial del Consejo Moral Republicano y del Poder Ciudadano.\n4. Convocar, coordinar y presidir las reuniones del Consejo Moral Republicano.\n5. Presentar a la Asamblea Nacional un informe anual del Consejo Moral Republicano y todos los demás informes que le sean solicitados por ese órgano legislativo.\n6. Efectuar intercambios con instituciones públicas o privadas, educativas y de investigación, nacionales, internacionales o extranjeras, para la mejor divulgación y promoción de los valores, principios y derechos previstos en la Constitución de la República Bolivariana de Venezuela y las leyes, así como el amor a la patria, las virtudes cívicas y democráticas, y los valores trascendentales de la República.\n7. Comunicar a los funcionarios públicos o funcionarias públicas, incursos o incursas en faltas en el cumplimiento de sus obligaciones legales, las advertencias y sanciones respectivas.\n8. Remitir el informe correspondiente al ente público en el cual preste su servicio el sancionado, en caso de contumacia por parte de éste, respecto a sus obligaciones legales.\n9. Delegar alguna de sus atribuciones en cualesquiera de los otros miembros del Consejo Moral Republicano.\n10. Administrar conjuntamente con el Secretario Ejecutivo o Secretaria Ejecutiva los recursos que le sean asignados, con sujeción a las disposiciones establecidas en la Constitución de la República Bolivariana de Venezuela y las leyes.\n11. Cumplir y hacer cumplir las decisiones del Consejo Moral Republicano.\n12. Convocar a los miembros del Consejo Moral Republicano a sesiones ordinarias y extraordinarias.\n13. Suscribir la correspondencia del Consejo Moral Republicano, pudiendo delegar esta atribución en el Secretario Ejecutivo o Secretaria Ejecutiva con autorización del Presidente o Presidenta.\n14. Participar en las reuniones del Consejo de Defensa de la Nación.\n15. Expedir copias certificadas solicitadas por las autoridades o por los particulares al Consejo Moral Republicano.\n16. Las demás que se establezcan en el ordenamiento jurídico interno del Consejo Moral Republicano.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 137.95791625976562,
+                "r": 450.3545837402344,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                65
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 124.1522216796875,
+                "r": 522.4735107421875,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                75
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 110.36453247070312,
+                "r": 525.3966064453125,
+                "b": 87.6864013671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                89
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 717.4908447265625,
+                "r": 525.438720703125,
+                "b": 692.567626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 689.8974609375,
+                "r": 525.4661865234375,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 648.4984130859375,
+                "r": 525.515869140625,
+                "b": 568.3884887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                410
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 565.7003784179688,
+                "r": 525.449462890625,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                185
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 524.3192749023438,
+                "r": 525.458984375,
+                "b": 485.4583435058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                176
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 482.81219482421875,
+                "r": 525.460205078125,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                106
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/79",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 455.326904296875,
+                "r": 525.427734375,
+                "b": 402.6781921386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                235
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 400.12213134765625,
+                "r": 499.6800842285156,
+                "b": 388.8725280761719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/81",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 386.33441162109375,
+                "r": 525.4374389648438,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                98
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 358.7230224609375,
+                "r": 525.613525390625,
+                "b": 322.2572021484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                192
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 317.34197998046875,
+                "r": 468.4056396484375,
+                "b": 306.0923767089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/84",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 303.5362548828125,
+                "r": 525.49658203125,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                116
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/85",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 275.8468322753906,
+                "r": 525.4530029296875,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                99
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 16°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Para su funcionamiento el Consejo Moral Republicano contará con la Secretaría Permanente dirigida por el Secretario Ejecutivo, quien será un funcionario de libre nombramiento y remoción del referido Consejo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.62461853027344,
+                "t": 220.7380828857422,
+                "r": 525.497802734375,
+                "b": 181.89508056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                207
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Secretaría Permanente contará con el personal que el Consejo Moral Republicano estime necesario para el desempeño de sus funciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.732666015625,
+                "t": 165.5513153076172,
+                "r": 525.4962158203125,
+                "b": 140.6280517578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Para ejercer el cargo de Secretario Ejecutivo o Secretaria Ejecutiva, se requiere ser venezolano, mayor de treinta (30) años, profesional, de reconocida honorabilidad, no estar sujeto a interdicción civil o inhabilitación política y tener idoneidad para ejercer el cargo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/90",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 110.36453247070312,
+                "r": 525.4698486328125,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            },
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 717.3948364257812,
+                "r": 525.4385986328125,
+                "b": 692.435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                153,
+                271
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son atribuciones y deberes del Secretario Ejecutivo o Secretaria Ejecutiva:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 662.3041381835938,
+                "r": 491.3198547363281,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Velar por la ejecución de las decisiones que dicte el Consejo Moral Republicano.\n2. Preparar, por instrucciones del Presidente o Presidenta, la agenda de las sesiones ordinarias y extraordinarias, tramitar las convocatorias, asistir a las mismas con derecho a voz y levantar las actas correspondientes.\n3. Expedir las copias certificadas de las decisiones, resoluciones, acuerdos y demás actuaciones del Consejo Moral Republicano, así como de cualquier otro documento original que repose en sus archivos de conformidad con el Título VI de esta Ley.\n4. Recibir en nombre del Consejo las comunicaciones dirigidas al mismo y suscribir las que sean autorizadas por el Presidente o Presidenta, según corresponda.\n5. Las demás que le atribuye el ordenamiento jurídico interno y el Presidente del Consejo Moral Republicano.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/93",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 648.4984130859375,
+                "r": 525.458251953125,
+                "b": 623.5751953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 620.7970581054688,
+                "r": 525.444580078125,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                221
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 579.5060424804688,
+                "r": 525.50732421875,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                245
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/96",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 524.3192749023438,
+                "r": 525.4833374023438,
+                "b": 485.59039306640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                158
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 482.8241882324219,
+                "r": 525.4482421875,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                108
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano tendrá su sede en la Capital de la República y jurisdicción en todo el territorio nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 89.31596374511719,
+                "t": 427.71551513671875,
+                "r": 525.4365844726562,
+                "b": 402.6781921386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                120
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 20°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano podrá contar con unidades de apoyo, de servicio técnico y administrativo que sean necesarias para el cumplimiento de sus deberes. Cuando lo estime conveniente, dispondrá de la colaboración de profesionales y técnicos adscritos a los diferentes órganos del Poder Público. Las normas referentes a su funcionamiento, competencias, integración y coordinación serán señaladas en el ordenamiento jurídico interno que a tal efecto se dicte.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/101",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 372.52874755859375,
+                "r": 525.47265625,
+                "b": 280.85809326171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                462
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los integrantes del Consejo Moral Republicano serán removidos o removidas de sus cargos por la Asamblea Nacional, previo pronunciamiento del Tribunal Supremo de Justicia en Sala Plena, que declare que hay mérito para su enjuiciamiento en los siguientes casos:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/103",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 248.3494873046875,
+                "r": 525.4510498046875,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                259
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Por manifiesta incapacidad física o mental permanente, certificada por una junta médica designada por el Tribunal Supremo de Justicia, con la aprobación de la Asamblea Nacional.\n2. Por abandono del cargo, declarado por el Tribunal Supremo de Justicia.\n3. Por no cumplir con las obligaciones que les imponen los artículos 274, 275 y 278 de la Constitución de la República Bolivariana de Venezuela como integrantes del Consejo Moral Republicano, y las demás obligaciones que les impone la ley, por su condición de tal.\n4. Por incumplimiento o negligencia manifiesta en el ejercicio de sus atribuciones y deberes.\n5. Cuando sus actos públicos atenten contra la respetabilidad del Consejo Moral Republicano y de los órganos que representan, y cometan hechos graves que, sin constituir delitos, pongan en peligro su credibilidad e imparcialidad comprometiendo la dignidad del cargo.\n6. Cuando ejerzan influencia directa en la designación de quienes cumplan funciones públicas.\n7. Cuando incurran en abuso o exceso de autoridad.\n8. Cuando en sus decisiones administrativas incurran en grave e inexcusable error, reconocido en sentencia.\n9. Cuando en sus decisiones administrativas hagan constar hechos que no sucedieron o dejen de relacionar los que ocurrieron.\n10. Cuando infrinjan alguna de las prohibiciones establecidas en la Constitución de la República Bolivariana de Venezuela y en las leyes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/104",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 193.1446990966797,
+                "r": 525.458984375,
+                "b": 154.4337615966797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                180
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 151.74560546875,
+                "r": 504.3680419921875,
+                "b": 140.49598693847656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/106",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 137.8618621826172,
+                "r": 525.494140625,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                264
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/107",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 717.4908447265625,
+                "r": 525.50390625,
+                "b": 692.435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/108",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 689.8974609375,
+                "r": 525.4901123046875,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                266
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 634.6927490234375,
+                "r": 525.454345703125,
+                "b": 609.7875366210938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/110",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 607.0994262695312,
+                "r": 387.731201171875,
+                "b": 598.2269897460938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/111",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 593.3117065429688,
+                "r": 525.4266357421875,
+                "b": 569.0728149414062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 565.7003784179688,
+                "r": 525.500244140625,
+                "b": 540.6630249023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                124
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/113",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 538.1069946289062,
+                "r": 525.462890625,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                137
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Comité de Evaluación de Postulaciones se integrará con representantes de diversos sectores de la sociedad, quienes deberán ser venezolanos por nacimiento, y en pleno goce y ejercicio de sus derechos civiles y políticos, en un número no mayor de veinticinco (25) integrantes, y cuyos requisitos serán establecidos en el Ordenamiento Jurídico Interno del Consejo Moral Republicano, que lo convocará sesenta días antes del vencimiento del período para el cual fueron designados los titulares de los órganos del Poder Ciudadano, a efectos de seleccionarlos mediante proceso público, de conformidad con lo establecido en el artículo 279 de la Constitución de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/116",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 89.90425872802734,
+                "t": 441.52117919921875,
+                "r": 525.484619140625,
+                "b": 308.46954345703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                695
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En caso de no haber sido convocado el Comité de Evaluación de Postulaciones del Poder Ciudadano en el lapso indicado, la Asamblea Nacional procederá a la designación de los titulares de los órganos del Poder Ciudadano en un tiempo no mayor de treinta (30) días continuos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 289.73052978515625,
+                "r": 525.4617919921875,
+                "b": 237.09986877441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                271
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los miembros del Comité de Evaluación de Postulaciones deberán ser ciudadanos mayores de edad y de reconocida honorabilidad y prestigio en el desempeño de las funciones que ejerzan o les haya correspondido ejercer.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/119",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 206.9503936767578,
+                "r": 525.460205078125,
+                "b": 168.10739135742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                214
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 24°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La convocatoria del Comité de Evaluación de Postulaciones se realizará por lo menos con ciento veinte (120) días de anticipación al vencimiento del período de siete (7) años establecidos para el ejercicio del cargo correspondiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 137.95791625976562,
+                "r": 525.48583984375,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano procurará la participación del mayor número de sectores de la sociedad en la designación de los miembros del Comité de Evaluación de Postulaciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/123",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 703.6851806640625,
+                "r": 525.47705078125,
+                "b": 667.2193603515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                176
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano fijará en el ordenamiento jurídico interno respectivo las normas, procedimientos y baremos para la postulación y evaluación de los miembros del Poder Ciudadano.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/125",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 634.6927490234375,
+                "r": 525.4906005859375,
+                "b": 598.2269897460938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                189
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los procedimientos que se cumplan en el ejercicio de las competencias del Consejo Moral Republicano se regirán por los principios de gratuidad, accesibilidad, celeridad, informalidad, impulso de oficio, oralidad, discrecionalidad, eficacia y flexibilidad. No se requerirá la asistencia de abogado y, en todos los casos, se respetará la garantía del debido proceso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.04832458496094,
+                "t": 482.7761535644531,
+                "r": 525.4618530273438,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                364
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cualquier persona puede presentar solicitudes o denuncias, verbales o escritas, ante los órganos del Poder Ciudadano, sin ningún tipo de discriminaciones ni exclusiones por razones de nacionalidad, residencia, sexo, edad, incapacidad legal, internamiento en centro de salud o de reclusión, relación de sujeción o dependencia, o por cualquier otra razón.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 386.33441162109375,
+                "r": 525.465087890625,
+                "b": 320.0120849609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                353
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 29°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La solicitud o denuncia puede ser hecha en defensa de los derechos o intereses del solicitante, de un tercero, o de intereses colectivos o difusos. En la denuncia se debe hacer constar: 1) la identificación del interesado y, en su caso, de la persona que actúe como su representante, con expresión de los nombres y apellidos, domicilio, nacionalidad, estado civil, profesión y número de cédula de identidad o pasaporte; 2) la dirección del lugar donde se harán las notificaciones pertinentes; 3) los hechos, razones y pedimentos correspondientes, expresando con toda claridad, la materia objeto de la solicitud; 4) referencia a los anexos que lo acompañan, si tal es el caso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/132",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 303.5362548828125,
+                "r": 525.4810180664062,
+                "b": 182.0271453857422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                675
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 29°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La interposición de solicitudes o denuncias, o el inicio de procedimientos por parte del Consejo Moral Republicano no suspende ni interrumpe plazos en procedimientos administrativos o judiciales relacionados con los mismos hechos, actos u omisiones, ni anula o modifica lo actuado o resuelto en estos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 151.64955139160156,
+                "r": 525.4558715820312,
+                "b": 99.93131256103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                301
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La correspondencia dirigida al Consejo Moral Republicano no puede ser objeto de censura o interferencia, incluso la proveniente de centros de detención, internamiento o custodia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 717.4908447265625,
+                "r": 525.464111328125,
+                "b": 681.0250244140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                178
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano podrá solicitar a los funcionarios o funcionarias de la Administración Pública la exhibición o remisión de los documentos, expedientes, libros o registros que reposen en sus archivos, aun los clasificados con el carácter de secretos o confidenciales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 648.4984130859375,
+                "r": 525.4602661132812,
+                "b": 598.2269897460938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                279
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los ciudadanos o ciudadanas o los representantes de los Poderes Públicos podrán solicitar al Consejo Moral Republicano la calificación de la falta en que presuntamente se encuentre incurso el magistrado o magistrada del Tribunal Supremo de Justicia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/140",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.39530944824219,
+                "t": 510.4175720214844,
+                "r": 525.4786376953125,
+                "b": 457.99700927734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                249
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Una vez recibida la solicitud, el Presidente o Presidenta del Consejo Moral Republicano notificará al magistrado para que dentro de los siguientes ocho (8) días hábiles presente el escrito de descargo correspondiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/142",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.26324462890625,
+                "t": 427.71551513671875,
+                "r": 525.521484375,
+                "b": 388.8725280761719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 33°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Seguidamente el Presidente o Presidenta convocará a una sesión extraordinaria a los fines de que el Secretario Ejecutivo de dicho órgano dé lectura a la solicitud y al escrito de descargo, y los miembros del referido Consejo analicen la documentación y el soporte que acompañen a la solicitud. En todo caso deberán garantizarle el debido proceso; luego de deliberar, y por mayoría simple, adoptarán la resolución correspondiente, salvo que alguno de los miembros del Consejo Moral Republicano estime necesario recoger la información complementaria, caso en el cual ordenarán al Secretario Ejecutivo realizar dentro de los cinco (5) días hábiles siguientes las gestiones tendentes al cumplimiento de tal finalidad. La calificación de falta grave se llevará a cabo en la sesión extraordinaria que deberá ser fijada en ese mismo acto, y en todo caso no podrá excederse de los diez (10) días hábiles siguientes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/143",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.04713439941406,
+                "t": 372.52874755859375,
+                "r": 525.6651611328125,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                907
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 33°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano informará por escrito a la Asamblea Nacional los hechos pormenorizados de la conducta del magistrado o magistrada que contenga la calificación de faltas graves en un lapso de tres (3) días hábiles contados a partir de la fecha de la decisión. En el informe se anexarán todos los documentos probatorios de los hechos que dieron lugar a la calificación de la falta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 89.96309661865234,
+                "t": 179.3570098876953,
+                "r": 525.521484375,
+                "b": 101.49209594726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                392
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Para el cumplimiento de su labor preventiva, el Consejo Moral Republicano desarrollará y promoverá actividades pedagógicas dirigidas al conocimiento y estudio de la Constitución, al amor a la patria, a las virtudes trascendentales del Estado venezolano, como estado democrático y social de derecho y de justicia, de acuerdo al principio de colaboración de poderes, en especial lo dispuesto en el Título V, artículos 54, 55, 56 y 57 de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/147",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 662.3041381835938,
+                "r": 525.4869995117188,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                444
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Igualmente, el Consejo Moral Republicano podrá formular las recomendaciones y sugerencias que estime pertinentes a cualquier ente público o privado, con la finalidad de asegurar la legalidad, eficiencia y respeto a la ética pública y a la moral administrativa, en el desempeño de su gestión.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/148",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 565.7003784179688,
+                "r": 525.467529296875,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                291
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las recomendaciones a las que se refiere el artículo anterior, deben ser formuladas a la máxima autoridad jerárquica del ente correspondiente a quien le esté atribuida la competencia para adoptar las medidas y girar las instrucciones, a los fines de que se atiendan las recomendaciones y sugerencias del Consejo Moral Republicano.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/150",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 482.92022705078125,
+                "r": 525.493896484375,
+                "b": 416.59796142578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                330
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los destinatarios de tales recomendaciones deben contestar las comunicaciones del Consejo Moral Republicano dentro de los quince (15) días siguientes a su recepción, e informar las medidas ejecutadas o las razones por las cuales no se adoptarán las recomendaciones formuladas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/151",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 399.9780578613281,
+                "r": 525.4930419921875,
+                "b": 347.60546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                276
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano es responsable por las sanciones y recomendaciones emitidas en el ejercicio de sus funciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 317.34197998046875,
+                "r": 525.480712890625,
+                "b": 292.2866516113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el ejercicio de sus potestades de investigación, el Consejo Moral Republicano podrá requerir de cualquier ente público o privado las informaciones y documentos que sean necesarios, e invitar a comparecer ante ellos a cualquier persona, funcionario, cuyo testimonio considere de interés para esclarecer los hechos que se investigan.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/155",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 262.1371765136719,
+                "r": 525.4942626953125,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                334
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las personas requeridas por el Consejo Moral Republicano deben colaborar de manera diligente y oportuna proporcionando las informaciones, documentos o testimonios que se le soliciten, o excusarse formalmente y por escrito, expresando las razones que así lo determinen. El Consejo Moral Republicano valorará las razones alegadas y podrá insistir en la solicitud si las considera procedentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/156",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 179.3570098876953,
+                "r": 525.491455078125,
+                "b": 99.2469711303711,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                390
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A los fines de determinar la competencia del Consejo Moral Republicano, el Presidente evaluará la solicitud o denuncia dentro de los cinco (5) días siguientes a la fecha de su presentación y resolverá sobre su admisión.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/159",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 703.6851806640625,
+                "r": 525.4698486328125,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                219
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En caso de que del análisis se desprenda que su conocimiento corresponde a otro organismo, se remitirá a éste para su tramitación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/160",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 648.4024047851562,
+                "r": 525.4554443359375,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La labor de investigación se cumplirá mediante un procedimiento que deberá concluir con una decisión, dicha investigación tendrá un lapso de treinta (30) días continuos, contados a partir de la admisión de la solicitud o denuncia, o del acuerdo de investigación de oficio. El Consejo Moral Republicano podrá prorrogar el referido plazo hasta por un lapso igual, mediante resolución expresa, cuando la complejidad del asunto así lo determine.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/162",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 593.2156982421875,
+                "r": 525.4906616210938,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                441
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 40°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El objeto de este procedimiento es constatar la veracidad de los hechos y situaciones, y determinar las responsabilidades a que hubiere lugar. En todo caso, el Consejo Moral Republicano deberá escuchar en audiencia oral y pública los alegatos y defensa de las partes y de cualquier interesado. En todos los actos del proceso se observará rigurosamente el principio de publicidad de los mismos y el más amplio acceso a los medios de comunicación social.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/164",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 482.7761535644531,
+                "r": 525.48193359375,
+                "b": 402.6781921386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                452
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Concluido el lapso para la investigación o de su prórroga si fuere el caso, el Consejo Moral Republicano dispondrá de diez (10) días hábiles para emitir su decisión, la cual puede consistir, de acuerdo con los resultados de la investigación, en recomendaciones, imposición de sanciones, o el archivo del expediente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/166",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 372.52874755859375,
+                "r": 525.48095703125,
+                "b": 306.22442626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                315
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Contra las sanciones impuestas por el Consejo Moral Republicano podrá interponerse recurso de reconsideración, el cual debe ser ejercido dentro de los cinco (5) días siguientes a la notificación. El Consejo Moral Republicano deberá decidir el recurso dentro de un término de diez (10) días continuos al recibo del mismo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/168",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 275.94287109375,
+                "r": 525.4785766601562,
+                "b": 211.8656463623047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                320
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 43°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La no interposición del recurso de reconsideración dentro del plazo establecido se entenderá de conformidad con la sanción impuesta y, por tanto, ésta quedará definitivamente firme y se remitirá al ente correspondiente para su incorporación en el expediente respectivo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/169",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 193.04864501953125,
+                "r": 525.471435546875,
+                "b": 140.6280517578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                269
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 43°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los pronunciamientos del Consejo Moral Republicano que decidan el recurso de reconsideración agotan el procedimiento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/171",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 110.36453247070312,
+                "r": 525.407470703125,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 44°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se entenderá que atentan contra la ética pública y la moral administrativa, los funcionarios públicos o funcionarias públicas, que cometan hechos contrarios a los principios de honestidad, equidad, decoro, lealtad, vocación de servicio, disciplina, eficacia, responsabilidad, puntualidad y transparencia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/173",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 662.3041381835938,
+                "r": 525.4483032226562,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                304
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 45°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Tales principios rectores de los deberes y conductas de los funcionarios públicos o funcionarias públicas se definirán en los términos siguientes:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/174",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 593.3117065429688,
+                "r": 525.5218505859375,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 45°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- a) La honestidad obliga a todo funcionario público o funcionaria pública a actuar con probidad y honradez, lo cual excluye cualquier comportamiento en desmedro del interés colectivo.\n- b) La equidad obliga a todo funcionario público o funcionaria pública a actuar, respecto de las personas que demanden o soliciten su servicio, sin ningún tipo de preferencias y sólo en razón del mérito, legalidad, motivaciones objetivas con base al principio constitucional de la no discriminación, y sin consideraciones ajenas al fondo del asunto y a la justicia.\n- c) El decoro impone a todo funcionario público o funcionaria pública la obligación de exteriorizarse en un lenguaje adecuado, y con respeto en la manera de conducirse durante el ejercicio de las funciones y tareas asignadas.\n- d) La lealtad impone para todo funcionario público o funcionaria pública la obligación de respetar el ejercicio legítimo de las funciones encomendadas a otras instituciones; de ponderar, en el ejercicio de las funciones propias, la totalidad de los intereses públicos implicados, y la fidelidad, constancia y solidaridad para con el ente en el cual presta sus servicios.\n- e) La vocación de servicio implica que los funcionarios públicos o funcionarias públicas están al servicio de las personas, y en su actuación darán preferencia a los requerimientos de la población y a la satisfacción de sus necesidades, con exclusión de conducta s, motivaciones e intereses distintos de los del ente para el cual prestan sus servicios.\n- f) La disciplina comporta la observancia y estricto cumplimiento al orden legal establecido por parte de los funcionarios públicos o funcionarias públicas.\n- g) La eficacia entraña el deber de todo funcionario público o funcionaria pública de dar cumplimiento óptimo y en el menor tiempo posible a los objetivos y metas fijados en las normas, planes y compromiso de gestión, bajo la orientación de políticas y estrategias establecidas por los órganos del Poder Público Nacional.\n- h) La responsabilidad significa disposición y diligencia en el ejercicio de las competencias, funciones y tareas encomendadas; tomar la iniciativa de ofrecerse a realizarlas, así como la permanente disposición a rendir cuentas y a asumir las consecuencias de la conducta, sin excusas de ninguna naturaleza, cuando se requiera o juzgue obligante.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/175",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 565.7003784179688,
+                "r": 525.4505615234375,
+                "b": 529.2345581054688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                182
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/176",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 524.3192749023438,
+                "r": 525.4822998046875,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                364
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/177",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 455.326904296875,
+                "r": 525.4689331054688,
+                "b": 402.6781921386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                224
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/178",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 400.12213134765625,
+                "r": 525.4797973632812,
+                "b": 333.81781005859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                370
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/179",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 331.129638671875,
+                "r": 525.464111328125,
+                "b": 264.8253173828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                352
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/180",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 262.1371765136719,
+                "r": 525.489501953125,
+                "b": 237.23193359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/181",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.24042510986328,
+                "t": 234.54379272460938,
+                "r": 525.5037841796875,
+                "b": 170.4845733642578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                320
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/182",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 165.5513153076172,
+                "r": 525.4713745117188,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                345
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 45°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- i) La puntualidad exige de todo funcionario público o funcionaria pública que los compromisos contraídos y las tareas, encargos y trabajos asignados sean cumplidos eficazmente, dentro de los lapsos establecidos en las normas o los que se haya convenido a tal efecto.\n- j) La transparencia exige de todo funcionario público o funcionaria pública la ejecución diáfana de los actos de servicio y el respeto del derecho de toda persona a conocer la verdad, sin omitirla ni falsearla, en observancia de las garantías establecidas en el artículo 143 de la Constitución de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/184",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 717.4908447265625,
+                "r": 525.4821166992188,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                266
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/185",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 89.31596374511719,
+                "t": 662.3041381835938,
+                "r": 525.4853515625,
+                "b": 598.2269897460938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                335
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Título IV De las Sanciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los representantes del Consejo Moral Republicano formularán a los funcionarios públicos o funcionarias públicas, en sus casos, las advertencias sobre las faltas en el cumplimiento de sus obligaciones legales. De no acatarse estas advertencias, el Consejo Moral Republicano podrá imponer las sanciones legales establecidas en la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/187",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 565.7003784179688,
+                "r": 525.45068359375,
+                "b": 499.2640075683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                341
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 46°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano aplicará las siguientes sanciones legales:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/189",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.80470275878906,
+                "t": 469.11456298828125,
+                "r": 478.0693054199219,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                71
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 47°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- a) amonestación;\n- b) censura.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/190",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 455.326904296875,
+                "r": 199.58627319335938,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/191",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 441.52117919921875,
+                "r": 167.5662841796875,
+                "b": 430.2715759277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 47°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las sanciones previstas en este artículo se aplicarán sin perjuicio de otras a que haya lugar.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/192",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 413.8317565917969,
+                "r": 521.4278564453125,
+                "b": 388.8725280761719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 47°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La amonestación consiste en la comunicación escrita dirigida al sancionado, mediante la cual se describe el acto, hecho u omisión en el que hubiere incurrido y que atente contra la ética pública o la moral administrativa, instándole a corregir su conducta y previniéndole sobre la aplicación de sanciones más severas en caso de contumacia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/194",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.04832458496094,
+                "t": 358.6269836425781,
+                "r": 525.4786376953125,
+                "b": 294.663818359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                339
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 48°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La censura constituye la manifestación pública dirigida al sancionado, en la que se le reprocha un acto, hecho u omisión de tal connotación que infringe de manera intolerable, perjudicial o notoria, los deberes que sustentan los valores trascendentales de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/196",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 262.1371765136719,
+                "r": 525.495361328125,
+                "b": 209.6205291748047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                269
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se aplicará también la censura pública a los sancionados que, habiendo sido amonestados por el Consejo Moral Republicano, mantengan su actitud contumaz.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/197",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 193.1446990966797,
+                "r": 525.4918212890625,
+                "b": 156.6788787841797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Aplicada la sanción a que haya lugar, y en caso de contumacia por parte del sancionado, el Presidente del Consejo Moral Republicano presentará un informe al órgano o dependencia correspondiente, para que esa instancia tome los correctivos necesarios. En este informe podrá recomendarse o solicitarse que se imponga la suspensión, remoción o destitución del sancionado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/199",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 124.05616760253906,
+                "r": 525.4650268554688,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                226
+              ]
+            },
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 717.4908447265625,
+                "r": 525.4722900390625,
+                "b": 692.435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                227,
+                368
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 50°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando la sanción que se aplique sea la de censura pública, el Consejo Moral Republicano podrá, de acuerdo con las características propias del caso concreto, recomendar o solicitar a la autoridad competente la imposición de la suspensión, remoción o destitución del censurado, conforme a las disposiciones de la Constitución de la República Bolivariana de Venezuela o leyes respectivas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/201",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 662.3041381835938,
+                "r": 525.5014038085938,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                386
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 51°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano ejercerá la potestad sancionatoria que la Constitución de la República Bolivariana de Venezuela le asigna en todos aquellos casos en que los funcionarios no colaboren con carácter preferente y urgente con sus investigaciones. Asimismo, cuando no acaten sin causa justificada las advertencias y recomendaciones que se les hubiesen formulado, el Consejo Moral Republicano podrá imponerles las sanciones establecidas en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/203",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 89.31596374511719,
+                "t": 565.7003784179688,
+                "r": 525.4986572265625,
+                "b": 471.6706237792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                455
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las sanciones impuestas por el Consejo Moral Republicano, una vez que estén firmes serán publicadas en el informe correspondiente, y cuando la sanción se trate de censura pública será difundida por los medios de comunicación social.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/205",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 441.52117919921875,
+                "r": 525.48095703125,
+                "b": 402.81024169921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                232
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 53°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano, por sí mismo o en coordinación con el Ministerio de Educación, Cultura y Deportes, las academias nacionales, universidades y demás instituciones públicas y privadas, vinculadas con la educación y la cultura, diseñará programas pedagógicos e informativos para el conocimiento de los valores, virtudes y derechos ciudadanos, consagrados en la Constitución de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/208",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.01111602783203,
+                "t": 331.129638671875,
+                "r": 525.50146484375,
+                "b": 251.01962280273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                425
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 54°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ministerio de Educación, Cultura y Deportes y las instituciones educacionales deberán elaborar planes, propuestas o proyectos educativos y pedagógicos orientados a divulgar y afirmar los valores, virtudes y derechos ciudadanos; y coordinarán con el Consejo Moral Republicano la organización de seminarios, talleres, conferencias y demás actividades a nivel nacional, regional o local, promoviendo la participación colectiva y gratuita de la comunidad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/210",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.07115173339844,
+                "t": 220.7380828857422,
+                "r": 525.4833984375,
+                "b": 140.49598693847656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                454
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 55°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las corporaciones, sociedades, fundaciones y demás organizaciones públicas o privadas deberán colaborar en la labor educativa y de formación de los valores patrios, y podrán desarrollar actividades educativas periódicas, a cuyos fines el Consejo Moral Republicano les brindará asesoramiento en el diseño de tales actividades, y participará en ellas, en la medida en que las posibilidades lo permitan.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/212",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.6474380493164,
+                "t": 110.36453247070312,
+                "r": 525.4785766601562,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            },
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 717.4908447265625,
+                "r": 525.4930419921875,
+                "b": 664.9742431640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                156,
+                400
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 56°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los medios de comunicación impresos, televisivos, radiales e informáticos, tanto públicos como privados, deberán incluir dentro de su programación diaria información destinada a promover y difundir el conocimiento de los valores patrios, las virtudes ciudadanas y los derechos y deberes inherentes a la convivencia pacífica de la vida en sociedad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/214",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 634.6927490234375,
+                "r": 525.4893798828125,
+                "b": 568.3884887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                347
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 57°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El archivo del Poder Ciudadano es, por su naturaleza, reservado para el servicio oficial, salvo para quienes demuestren un interés legítimo, personal y directo. Las Leyes Orgánicas de la Defensoría del Pueblo, del Ministerio Público y de la Contraloría General de la República y del Sistema Nacional de Control Fiscal, determinarán las condiciones de acceso al archivo y el uso de sus respectivos documentos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/217",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 496.70794677734375,
+                "r": 525.495361328125,
+                "b": 418.84307861328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                408
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 58°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los funcionarios o funcionarias, empleados o empleadas del Consejo Moral Republicano guardarán secreto sobre los asuntos de que conozcan en razón de sus funciones. Se les prohíbe conservar para sí, tomar o publicar copias de papeles, documentos o expedientes del archivo físico o electrónico, de los despachos respectivos, quedando sujetos a las sanciones correspondientes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/219",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 386.33441162109375,
+                "r": 525.4638671875,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                373
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 59°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "No se podrá ordenar la exhibición o inspección del archivo del Consejo Moral Republicano. Podrá acordarse judicialmente la copia, exhibición o inspección de determinado documento, expediente, libro o registro que corresponda al archivo, a excepción de aquella documentación, libro, expediente o registro que tenga carácter reservado o confidencial, de acuerdo a la consideración del Presidente del Consejo Moral Republicano.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/221",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 289.73052978515625,
+                "r": 525.4810180664062,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                424
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 60°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las copias certificadas solicitadas por las autoridades o por los particulares al Consejo Moral Republicano, serán expedidas por el Secretario Ejecutivo, en los casos en que su Presidente lo considere procedente. Podrán expedirse copias certificadas por procedimientos fotográficos, fotostáticos u otros semejantes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/223",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 179.3570098876953,
+                "r": 525.500244140625,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                315
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 61°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Quienes hubieren presentado documentos originales ante el Consejo Moral Republicano tienen derecho a su restitución, previa certificación en el expediente respectivo, salvo que sea necesaria su presentación en algún proceso o procedimiento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/225",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.37248992919922,
+                "t": 703.6972045898438,
+                "r": 525.4987182617188,
+                "b": 651.1865844726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                240
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 62°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El sello del Consejo Moral Republicano será de forma elíptica vertical y tendrá cincuenta milímetros (50 mm) de diámetro mayor y cuarenta milímetros (40 mm) de diámetro menor, el Escudo de Armas de la República en el centro, y alrededor una inscripción en la parte superior, en forma también elíptica y superpuesta que diga: \"República Bolivariana de Venezuela\" \"Poder Ciudadano\" y en la inferior: \"Presidente\" \"Consejo Moral Republicano\". El sello de la Secretaría Permanente del Consejo Moral Republicano será circular de cuarenta milímetros (40 mm) de diámetro, el Escudo de Armas de la República en el centro, y alrededor una inscripción: en la parte superior, en forma también circular y superpuesta que diga: \"República Bolivariana de Venezuela\" \"Poder Ciudadano\" y en la parte inferior alrededor del Escudo: \"Secretaría Permanente\" \"Consejo Moral Republicano\".",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/227",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.04832458496094,
+                "t": 620.9050903320312,
+                "r": 525.4879760742188,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                867
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 63°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Poder ciudadano estará sujeto a las leyes y reglamentos sobre la elaboración, ejecución y control del presupuesto, en cuanto le sean aplicables. A los efectos de garantizar su independencia y la autonomía funcional, financiera y administrativa de sus órganos, del Presupuesto General del Estado se le asignará una partida anual variable, que será solicitada por el Presidente o Presidenta del Consejo Moral Republicano con la anuencia del resto de sus integrantes, donde se incluirán los recursos para el funcionamiento del mencionado Consejo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/230",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 386.2383728027344,
+                "r": 525.5014038085938,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                546
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 64°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo Moral Republicano presentará ante la Asamblea Nacional, dentro de los primeros noventa (90) días de cada año, una memoria y cuenta razonada y suficiente sobre la Gestión del Consejo, en el año inmediatamente anterior, de conformidad con esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/233",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.22722625732422,
+                "t": 206.9503936767578,
+                "r": 525.490234375,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                257
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 65°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se declara con carácter de urgencia la reorganización y reestructuración de los órganos integrantes del Poder Ciudadano. Los parámetros y lapsos para hacer efectiva la referida reorganización y reestructuración se fijarán en los respectivos despachos, de conformidad con la Constitución de la República Bolivariana de Venezuela y las leyes orgánicas de cada uno de los órganos que conforman el mencionado Poder.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/235",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 89.90425872802734,
+                "t": 662.3041381835938,
+                "r": 525.5070190429688,
+                "b": 584.4392700195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                411
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 66°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La presente Ley entrará en vigencia a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/237",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 90.4325180053711,
+                "t": 551.9126586914062,
+                "r": 525.436279296875,
+                "b": 526.9894409179688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                125
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 67°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dada, firmada y sellada en el Palacio Federal Legislativo, sede de la Asamblea Nacional, en Caracas a los veintisiete días del mes de septiembre de dos mil uno. Año 191° de la Independencia y 142° de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/238",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 90.62461853027344,
+                "t": 510.51361083984375,
+                "r": 525.5131225585938,
+                "b": 471.6706237792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                214
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 67°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Leopoldo Puchi  Primer Vicepresidente Eustoquio Contreras  Secretario, 1 = Gerardo Saer Pérez  Segundo Vicepresidente  Vladimir Villegas  Subsecretario",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 133.45645141601562,
+                "t": 387.27618408203125,
+                "r": 480.0182800292969,
+                "b": 292.11956787109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Willian Lara Presidente"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Palacio de Miraflores, en Caracas, a los veinticinco días del mes de octubre de dos mil uno. Año 191° de la Independencia y 142° de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/240",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 90.265625,
+                "t": 262.1359558105469,
+                "r": 525.4591064453125,
+                "b": 237.09866333007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Willian Lara Presidente"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Hugo Chávez Frías",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/241",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 414.9858703613281,
+                "t": 206.9491729736328,
+                "r": 525.4771118164062,
+                "b": 195.69955444335938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Willian Lara Presidente"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]
