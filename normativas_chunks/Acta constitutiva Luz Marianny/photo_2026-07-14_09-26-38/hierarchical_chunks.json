@@ -1,0 +1,905 @@
+[
+  {
+    "text": "juicio, uos se a a la forma conjunta o separada. Ambos el Presidente y el Vicepresidente, estarán encargados de echo",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 61.29031880696615,
+                "t": 192.76595052083337,
+                "r": 85.8064473470052,
+                "b": 123.82975260416663,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 260.0,
+                "t": 44.04256184895837,
+                "r": 287.0967610677083,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                8,
+                11
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 336.77419026692706,
+                "t": 45.31917317708337,
+                "r": 365.1612955729167,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                12,
+                16
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 374.1935221354167,
+                "t": 45.95743815104163,
+                "r": 403.8709716796875,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                17,
+                21
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 436.1290283203125,
+                "t": 908.9361673990885,
+                "r": 470.9677327473958,
+                "b": 126.38297526041663,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                22,
+                111
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 413.5483805338542,
+                "t": 46.595703125,
+                "r": 442.5806477864583,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                112,
+                116
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "a",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 452.9031982421875,
+                "t": 46.595703125,
+                "r": 482.5806477864583,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "ənb emanadas de la Junta Directiva.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 494.1935221354167,
+                "t": 49.14892578125,
+                "r": 525.1612548828125,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 552.258056640625,
+                "t": 409.7872314453125,
+                "r": 585.8064371744791,
+                "b": 130.21272786458337,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                4,
+                35
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "sol las TÍTULO V",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 530.9677327473959,
+                "t": 49.78719075520837,
+                "r": 562.5806477864584,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 571.6128743489584,
+                "t": 51.7021484375,
+                "r": 603.2257893880209,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                4,
+                7
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 587.0967610677084,
+                "t": 586.5957438151042,
+                "r": 620.0,
+                "b": 492.1276448567708,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                8,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "CLÁUSULA 17º. - La Compañía tendrá un (1) Comisario designado por la Asamblea de",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 653.5483805338541,
+                "t": 923.6170221964518,
+                "r": 707.741943359375,
+                "b": 132.76595052083337,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "cual erán orice TÍTULO VI",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 610.9677327473959,
+                "t": 53.61702473958337,
+                "r": 643.2257893880209,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                4
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 654.1935221354166,
+                "t": 52.34041341145837,
+                "r": 682.5806070963541,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                5,
+                9
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 694.1935221354166,
+                "t": 54.25528971354163,
+                "r": 721.290283203125,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                10,
+                15
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 975.4838053385416,
+                "t": 605.7446695963542,
+                "r": 1009.6774088541666,
+                "b": 502.9787190755208,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                16,
+                25
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DEL COMISARIO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "desempeñar las demás funciones que la ley y este documento le atribuyen.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 920.6451009114584,
+                "t": 773.6170247395834,
+                "r": 1001.290283203125,
+                "b": 135.95743815104163,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DEL COMISARIO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "EJERCICIO, UTILIDADES Y RESERVAS",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1001.9354654947916,
+                "t": 730.8510538736979,
+                "r": 1067.0967610677083,
+                "b": 373.40425618489587,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DEL COMISARIO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "e los estén istas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 896.1289876302084,
+                "t": 60.0,
+                "r": 931.6128743489584,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 936.1289876302084,
+                "t": 61.276611328125,
+                "r": 972.9031575520834,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                6,
+                11
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 980.6451009114584,
+                "t": 61.276611328125,
+                "r": 1013.54833984375,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                12,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DEL COMISARIO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "ntes a oun da por ABOGADOT",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1019.3548177083334,
+                "t": 65.74471028645837,
+                "r": 1057.4193522135417,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1061.290283203125,
+                "t": 68.2978515625,
+                "r": 1094.1935221354167,
+                "b": 19.14892578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                7,
+                10
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1101.9354654947917,
+                "t": 69.574462890625,
+                "r": 1140.0,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                11,
+                17
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1226.4515787760417,
+                "t": 960.0,
+                "r": 1270.9676920572917,
+                "b": 854.0425516764323,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                18,
+                26
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DEL COMISARIO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "carta",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1225.1612141927083,
+                "t": 72.76595052083337,
+                "r": 1267.7418619791667,
+                "b": 1.9148763020833712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DEL COMISARIO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "C.1. V-14.759.348",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1195.4838053385417,
+                "t": 958.7234042485555,
+                "r": 1252.258056640625,
+                "b": 835.5319112141927,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DEL COMISARIO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "HERRERA DAVILEXZ",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1172.258056640625,
+                "t": 960.0,
+                "r": 1224.51611328125,
+                "b": 809.3617045084635,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DEL COMISARIO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "y egresos y",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1170.9676920572917,
+                "t": 250.85107421875,
+                "r": 1200.0,
+                "b": 150.0,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DEL COMISARIO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "agńe mbleas",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1143.8709309895833,
+                "t": 67.021240234375,
+                "r": 1184.51611328125,
+                "b": 7.021240234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                4
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 1187.0967610677083,
+                "t": 70.85107421875,
+                "r": 1223.2257486979167,
+                "b": 0.6382649739583712,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                5,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "DEL COMISARIO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 9721879482813194824,
+        "filename": "photo_2026-07-14_09-26-38.jpg",
+        "uri": null
+      }
+    }
+  }
+]

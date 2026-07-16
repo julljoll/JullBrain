@@ -7,7 +7,7 @@ Toma el Markdown crudo generado por IBM Docling y produce un Markdown
 estructurado con jerarquia legal formal:
   LIBRO > TITULO > CAPITULO > SECCION > Articulo > Paragrafo
 
-# Autor: Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) - Copyright (c) 2026 MIT License
+# Autor: Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) - Copyright (c) 2026 Apache License 2.0
 """
 
 import re
@@ -285,7 +285,7 @@ def legalize_file(input_path, output_path=None):
     """
     Procesa un archivo Markdown y escribe el resultado legalizado.
     Soporta dos formatos de entrada:
-    1. Archivos existentes con header MIT (#/> [!NOTE]...---\ncontent\n---\nfooter)
+    1. Archivos existentes con header de licencia (#/> [!NOTE]...---\ncontent\n---\nfooter)
     2. Archivos nuevos con YAML frontmatter (---\nkey: val\n---\ncontent)
     """
     from pathlib import Path

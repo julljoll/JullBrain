@@ -78,7 +78,7 @@
 - **Rol**: Verifica la calidad de la conversión legal para garantizar que RAGFlow no alucine.
 - **Checks**: Secuencia numérica, duplicados, saltos de artículos.
 
-### 6. `iniciar_conversion.bat` — Lanzador Nativo
+### 6. `orquestador_JullBrain.bat` — Lanzador Nativo
 - **Rol**: Crea y activa el entorno virtual de Python, instala dependencias automáticamente y ejecuta la conversión de forma segura.
 
 ---

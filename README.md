@@ -2,7 +2,7 @@
 
 > Conversión automatizada de PDFs jurídicos y documentos a Markdown estructurado y JSON Jerárquico para sistemas de IA — Powered by IBM Docling.
 
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org) [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE) [![IBM Docling](https://img.shields.io/badge/IBM-Docling-purple)](https://github.com/DS4SD/docling)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org) [![Licencia Apache 2.0](https://img.shields.io/badge/Licencia-Apache%202.0-blue.svg)](LICENSE) [![IBM Docling](https://img.shields.io/badge/IBM-Docling-purple)](https://github.com/docling-project/docling)
 
 **📖 Documentación completa:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | **🗺️ Mapa del framework:** [`FRAMEWORK.md`](FRAMEWORK.md) | **🤖 Skills IA:** [`.AGENTS/_index.md`](.AGENTS/_index.md) | **📊 Diagramas:** [Arquitectura](jullbrain_architecture.svg) y [Pipeline](jullbrain_pipeline.svg)
 
@@ -24,7 +24,7 @@ Los modelos de lenguaje (LLM) fallan con PDFs de documentos legales y normativos
 ## Arquitectura del Pipeline V-2.0
 
 ```text
-[iniciar_conversion.bat]     ← Interfaz de inicio (Control Visual, Ctrl+C)
+[orquestador_JullBrain.bat]     ← Interfaz de inicio (Control Visual, Ctrl+C)
        │
        ▼
 [Entorno Virtual Python]     ← Entorno aislado (Instalación automática)
@@ -64,7 +64,7 @@ normativas_rag/                                          normativas_chunks/
 | `HierarchicalChunker` | Integrado vía Docling. Extrae chunks semánticos listos para RAGFlow. |
 | `metadata_extractor.py` | Inyecta YAML frontmatter con Gaceta, fecha, tipo de documento y huella digital (SHA-256). |
 | `validator.py` | Verifica secuencia numérica, previene duplicados y detecta artículos corruptos o cortos. |
-| `iniciar_conversion.bat` | Lanzador principal. Instala automáticamente dependencias en un entorno virtual aislado y ejecuta la conversión. |
+| `orquestador_JullBrain.bat` | Lanzador principal. Instala automáticamente dependencias en un entorno virtual aislado y ejecuta la conversión. |
 
 ---
 
@@ -105,7 +105,7 @@ Solo necesitas tener [Python 3.10+](https://www.python.org/downloads/) instalado
 cd "ruta/a/JullBrain"
 
 :: 2. Ejecuta el orquestador principal
-iniciar_conversion.bat
+orquestador_JullBrain.bat
 ```
 
 > **Autoinstalación**: El archivo `.bat` detectará si falta el entorno virtual, lo creará, instalará todas las dependencias necesarias de `requirements.txt` automáticamente y comenzará la conversión de tus archivos PDF.
@@ -113,5 +113,5 @@ iniciar_conversion.bat
 ---
 
 ## Licencia
-Distribuido bajo Licencia MIT.
-Desarrollado para avanzar en la transformación tecnológica del ecosistema RAG/IA venezolano.
+Distribuido bajo Licencia Apache 2.0. Ver [LICENSE](LICENSE) para más detalles.
+Desarrollador para avanzar en la transformación tecnológica del ecosistema RAG/IA venezolano.

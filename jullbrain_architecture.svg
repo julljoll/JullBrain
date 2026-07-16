@@ -1,87 +1,125 @@
-<svg width="100%" viewBox="0 0 800 550" xmlns="http://www.w3.org/2000/svg" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-  <title>JullBrain V2.0 Native Architecture</title>
+<svg width="100%" viewBox="0 0 900 680" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Courier New', Courier, monospace; background-color: #1a1400;">
+  <title>JullBrain V2.0 Native Architecture with Streamlit</title>
+  
   <defs>
+    <!-- Filtro de sombra drop-shadow para las cajas -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+    <!-- Marcadores de Flechas -->
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M2 1L8 5L2 9" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
     </marker>
-    <linearGradient id="envGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1D63ED" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#002C66" stop-opacity="0.05"/>
-    </linearGradient>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
   </defs>
 
   <!-- Title -->
-  <text x="400" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#333">JullBrain V2.0 Pipeline Architecture</text>
-  <text x="400" y="60" text-anchor="middle" font-size="14" fill="#666">Native Python Automated Legal RAG Pipeline</text>
+  <text x="450" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#FECF06">JullBrain V2.0 Pipeline Architecture</text>
+  <text x="450" y="62" text-anchor="middle" font-size="12" fill="#00FF41">Orquestador de Conocimientos Automatizado para IA Juridica</text>
+  <line x1="100" y1="80" x2="800" y2="80" stroke="#FECF06" stroke-width="2" />
+
+  <!-- 1. Bootstrap Launcher (Outer layer) -->
+  <g transform="translate(50, 100)" filter="url(#shadow)">
+    <rect width="220" height="70" rx="8" fill="#3b2e00" stroke="#FECF06" stroke-width="2"/>
+    <text x="110" y="28" text-anchor="middle" font-size="12" font-weight="bold" fill="#FECF06">orquestador_JullBrain.bat</text>
+    <text x="110" y="46" text-anchor="middle" font-size="10" fill="#00FF41">Bootstrap de Entorno Virtual</text>
+    <text x="110" y="58" text-anchor="middle" font-size="9" fill="#00FF41">&amp; Lanzador Headless de Streamlit</text>
+  </g>
+
+  <!-- Flecha del lanzador a la UI de Streamlit -->
+  <path d="M 270 135 L 350 135" fill="none" stroke="#FECF06" stroke-width="2" marker-end="url(#arrowGold)" />
+
+  <!-- 2. Streamlit UI Control Panel (Master control layer) -->
+  <g transform="translate(360, 100)" filter="url(#shadow)">
+    <rect width="490" height="80" rx="10" fill="#524000" stroke="#00FF41" stroke-width="2"/>
+    <text x="245" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Panel de Control Visual (Streamlit App - app.py)</text>
+    <text x="245" y="48" text-anchor="middle" font-size="10" fill="#00FF41">Dashboard KPIs | Orquestador de Subprocesos | Auditoria de Calidad</text>
+    <text x="245" y="64" text-anchor="middle" font-size="10" fill="#00FF41">Editor de Leyes RAG (Ace Editor) | Logs de Ejecucion en Vivo</text>
+  </g>
+
+  <!-- Python Environment Boundary -->
+  <rect x="50" y="220" width="800" height="230" rx="15" fill="#2a2000" stroke="#FECF06" stroke-width="2" stroke-dasharray="8,4" filter="url(#shadow)"/>
+  <text x="70" y="245" font-size="12" font-weight="bold" fill="#FECF06">Entorno Virtual Aislado (docling_env - Python 3.10+)</text>
 
   <!-- Input Sources -->
-  <g transform="translate(100, 100)">
-    <rect width="180" height="60" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
-    <text x="90" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#7F1D1D">normativas_pdf/</text>
-    <text x="90" y="48" text-anchor="middle" font-size="12" fill="#991B1B">PDFs, Imágenes</text>
+  <g transform="translate(80, 275)" filter="url(#shadow)">
+    <rect width="180" height="60" rx="8" fill="#3b2e00" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="90" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="#FECF06">normativas_pdf/</text>
+    <text x="90" y="40" text-anchor="middle" font-size="10" fill="#00FF41">PDFs de Leyes (Gaceta)</text>
+    <text x="90" y="52" text-anchor="middle" font-size="9" fill="#00FF41">&amp; Formatos Word (.doc, .docx)</text>
   </g>
 
-  <g transform="translate(520, 100)">
-    <rect width="180" height="60" rx="8" fill="#E0E7FF" stroke="#3B82F6" stroke-width="2"/>
-    <text x="90" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E3A8A">formatos_word/</text>
-    <text x="90" y="48" text-anchor="middle" font-size="12" fill="#1E40AF">.doc, .docx</text>
+  <!-- Flecha de Entrada a Docling -->
+  <line x1="260" y1="305" x2="290" y2="305" stroke="#00FF41" stroke-width="1.5" marker-end="url(#arrow)" />
+
+  <!-- Core Pipeline: IBM Docling -->
+  <g transform="translate(290, 275)" filter="url(#shadow)">
+    <rect width="130" height="130" rx="8" fill="#1a1400" stroke="#FECF06" stroke-width="1.5"/>
+    <text x="65" y="26" text-anchor="middle" font-size="12" font-weight="bold" fill="#FECF06">IBM Docling</text>
+    <text x="65" y="44" text-anchor="middle" font-size="9" fill="#00FF41">OCR &amp; Layout</text>
+    <text x="65" y="58" text-anchor="middle" font-size="9" fill="#00FF41">Extraccion JSON</text>
+    <line x1="15" y1="72" x2="115" y2="72" stroke="#524000" />
+    <text x="65" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#FECF06">Caché SHA-256</text>
+    <text x="65" y="106" text-anchor="middle" font-size="9" fill="#00FF41">Evita Reprocesar</text>
+    <text x="65" y="118" text-anchor="middle" font-size="9" fill="#00FF41">con manifest.json</text>
   </g>
 
-  <!-- Python Environment Background -->
-  <rect x="50" y="200" width="700" height="200" rx="15" fill="url(#envGrad)" stroke="#10B981" stroke-width="2" stroke-dasharray="8,4"/>
-  <text x="70" y="225" font-size="14" font-weight="bold" fill="#047857">Entorno Virtual (Python 3.10+ Aislado)</text>
+  <!-- Flecha de Docling a los Scripts de Orquestación -->
+  <line x1="420" y1="330" x2="455" y2="330" stroke="#00FF41" stroke-width="1.5" marker-end="url(#arrow)" />
 
-  <!-- Processing Modules in Environment -->
-  <!-- Docling -->
-  <g transform="translate(80, 250)">
-    <rect width="140" height="120" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
-    <text x="70" y="30" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400E">IBM Docling</text>
-    <text x="70" y="55" text-anchor="middle" font-size="11" fill="#B45309">OCR &amp; Layout</text>
-    <text x="70" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400E">Chunker</text>
-    <text x="70" y="105" text-anchor="middle" font-size="11" fill="#B45309">JSON Nativo</text>
+  <!-- Core Pipeline: Orquestación Python -->
+  <g transform="translate(455, 275)" filter="url(#shadow)">
+    <rect width="220" height="130" rx="8" fill="#3b2e00" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="110" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">Orquestador Python</text>
+    <text x="110" y="42" text-anchor="middle" font-size="9" fill="#00FF41">convert_normativas.py</text>
+    <line x1="15" y1="52" x2="205" y2="52" stroke="#524000" />
+    <text x="110" y="70" text-anchor="middle" font-size="10" fill="#00FF41">legalizer.py (Articulos y TOC)</text>
+    <text x="110" y="88" text-anchor="middle" font-size="10" fill="#00FF41">metadata_extractor.py (YAML metadata)</text>
+    <text x="110" y="106" text-anchor="middle" font-size="10" fill="#00FF41">validator.py (Verificacion anti-saltos)</text>
   </g>
 
-  <line x1="220" y1="310" x2="260" y2="310" marker-end="url(#arrow)" stroke="#555" stroke-width="1.5"/>
+  <!-- Flecha de Orquestación a Resultados -->
+  <line x1="675" y1="330" x2="705" y2="330" stroke="#00FF41" stroke-width="1.5" marker-end="url(#arrow)" />
 
-  <!-- Legalizer & Metadata -->
-  <g transform="translate(260, 250)">
-    <rect width="280" height="120" rx="8" fill="#ECFCCB" stroke="#84CC16" stroke-width="2"/>
-    <text x="140" y="35" text-anchor="middle" font-size="14" font-weight="bold" fill="#3F6212">Orquestador Python</text>
-    <text x="140" y="60" text-anchor="middle" font-size="12" fill="#4D7C0F">legalizer.py (TOC, Artículos)</text>
-    <text x="140" y="85" text-anchor="middle" font-size="12" fill="#4D7C0F">metadata_extractor.py (YAML)</text>
-    <text x="140" y="110" text-anchor="middle" font-size="12" fill="#4D7C0F">validator.py (Integridad)</text>
+  <!-- Core Pipeline: Resultados -->
+  <g transform="translate(705, 275)" filter="url(#shadow)">
+    <rect width="120" height="130" rx="8" fill="#1a1400" stroke="#FECF06" stroke-width="1.5"/>
+    <text x="60" y="32" text-anchor="middle" font-size="12" font-weight="bold" fill="#FECF06">Salida RAG</text>
+    <line x1="15" y1="48" x2="105" y2="48" stroke="#524000" />
+    <text x="60" y="70" text-anchor="middle" font-size="10" fill="#00FF41">Leyes en .md</text>
+    <text x="60" y="86" text-anchor="middle" font-size="10" fill="#00FF41">con Metadatos</text>
+    <text x="60" y="106" text-anchor="middle" font-size="10" fill="#00FF41">JSON Chunks</text>
   </g>
 
-  <line x1="540" y1="310" x2="580" y2="310" marker-end="url(#arrow)" stroke="#555" stroke-width="1.5"/>
-
-  <!-- Output Generation -->
-  <g transform="translate(580, 250)">
-    <rect width="140" height="120" rx="8" fill="#F3E8FF" stroke="#A855F7" stroke-width="2"/>
-    <text x="70" y="45" text-anchor="middle" font-size="14" font-weight="bold" fill="#581C87">Resultados</text>
-    <text x="70" y="70" text-anchor="middle" font-size="12" fill="#6B21A8">.md Files</text>
-    <text x="70" y="95" text-anchor="middle" font-size="12" fill="#6B21A8">.json Chunks</text>
-  </g>
+  <!-- Conexiones Bidireccionales UI <--> Proceso en Venv -->
+  <path d="M 605 180 L 605 220" fill="none" stroke="#FECF06" stroke-width="2" marker-end="url(#arrowGold)" />
+  <path d="M 590 220 L 590 180" fill="none" stroke="#00FF41" stroke-width="2" marker-end="url(#arrow)" />
+  <text x="615" y="206" font-size="9" fill="#FECF06">Lanza subprocesos</text>
+  <text x="475" y="206" font-size="9" fill="#00FF41">Devuelve Logs/Resultados</text>
 
   <!-- Output Folders -->
-  <g transform="translate(150, 460)">
-    <rect width="200" height="60" rx="8" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
-    <text x="100" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#065F46">normativas_rag/</text>
-    <text x="100" y="48" text-anchor="middle" font-size="12" fill="#047857">ley_completa.md</text>
+  <g transform="translate(180, 500)" filter="url(#shadow)">
+    <rect width="220" height="65" rx="8" fill="#1a1400" stroke="#00FF41" stroke-width="2"/>
+    <text x="110" y="26" text-anchor="middle" font-size="12" font-weight="bold" fill="#FECF06">normativas_rag/</text>
+    <text x="110" y="44" text-anchor="middle" font-size="10" fill="#00FF41">leyes_estructuradas.md</text>
+    <text x="110" y="56" text-anchor="middle" font-size="9" fill="#00FF41">Estructura Markdown RAG limpia</text>
   </g>
 
-  <g transform="translate(450, 460)">
-    <rect width="200" height="60" rx="8" fill="#CCFBF1" stroke="#14B8A6" stroke-width="2"/>
-    <text x="100" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#115E59">normativas_chunks/</text>
-    <text x="100" y="48" text-anchor="middle" font-size="12" fill="#0F766E">hierarchical_chunks.json</text>
+  <g transform="translate(500, 500)" filter="url(#shadow)">
+    <rect width="220" height="65" rx="8" fill="#1a1400" stroke="#00FF41" stroke-width="2"/>
+    <text x="110" y="26" text-anchor="middle" font-size="12" font-weight="bold" fill="#FECF06">normativas_chunks/</text>
+    <text x="110" y="44" text-anchor="middle" font-size="10" fill="#00FF41">hierarchical_chunks.json</text>
+    <text x="110" y="56" text-anchor="middle" font-size="9" fill="#00FF41">Estructura atómica para RAGFlow</text>
   </g>
 
-  <!-- Connections -->
-  <!-- Inputs to Environment -->
-  <path d="M 190 160 C 190 180, 150 180, 150 250" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
-  <path d="M 610 160 C 610 180, 150 180, 150 250" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- Conexiones de entorno virtual a las carpetas físicas -->
+  <path d="M 765 405 C 765 460, 290 460, 290 500" fill="none" stroke="#00FF41" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 765 405 C 765 460, 610 460, 610 500" fill="none" stroke="#00FF41" stroke-width="1.5" marker-end="url(#arrow)"/>
 
-  <!-- Environment to Outputs -->
-  <path d="M 650 370 C 650 420, 250 420, 250 460" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
-  <path d="M 650 370 C 650 420, 550 420, 550 460" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
-
+  <!-- Footer con firma de orquestador -->
+  <line x1="100" y1="600" x2="800" y2="600" stroke="#524000" stroke-width="1" />
+  <text x="450" y="628" font-size="11" fill="#FECF06" text-anchor="middle">Jull Ortiz - Rol: Arquitecto de Datos con y para la IA Juridica</text>
+  <text x="450" y="646" font-size="10" fill="#00FF41" text-anchor="middle">Propósito: Transformación tecnológica para prevenir corrupción y retardo procesal</text>
 </svg>

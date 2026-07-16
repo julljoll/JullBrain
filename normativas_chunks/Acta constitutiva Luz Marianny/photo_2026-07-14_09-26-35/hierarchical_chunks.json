@@ -1,0 +1,878 @@
+[
+  {
+    "text": "ará en la",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 1261.935484568278,
+                "r": 74.0425516764323,
+                "b": 1232.2580668131511,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                9
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "LA 20°.-",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 1226.4516143798828,
+                "r": 73.40425618489583,
+                "b": 1194.8387145996094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "o menos,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 1183.8709716796875,
+                "r": 72.76595560709636,
+                "b": 1157.4193623860676,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "ho Fond",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 1147.741943359375,
+                "r": 68.93617248535156,
+                "b": 1120.0,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "reservas",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 1109.6774291992188,
+                "r": 77.87233988444011,
+                "b": 1084.516133626302,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "Ivencia de",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 1072.258076985677,
+                "r": 78.51064046223958,
+                "b": 1046.4516194661458,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "entre los",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 8.936169942220053,
+                "t": 1039.3548380533855,
+                "r": 81.70212809244792,
+                "b": 1007.741943359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                9
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "SULA",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 21.06383005777995,
+                "t": 1002.5806477864583,
+                "r": 83.61701965332031,
+                "b": 970.967753092448,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "nte suscrito",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 959.3548583984375,
+                "r": 86.1702168782552,
+                "b": 936.1290283203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "Se",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 59.36170450846354,
+                "t": 926.4516194661458,
+                "r": 90.0,
+                "b": 899.3548583984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "del",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 51.06383260091146,
+                "t": 890.9677734375,
+                "r": 88.08510335286458,
+                "b": 862.5806477864583,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "TE MIL",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 18.510637919108074,
+                "t": 854.8387044270833,
+                "r": 88.08510335286458,
+                "b": 828.3871256510417,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "er período",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 709.0322672526041,
+                "r": 85.5319112141927,
+                "b": 681.9355061848959,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "lentificado,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 674.1935628255209,
+                "r": 86.1702168782552,
+                "b": 643.225830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "ULA 24°.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 638.709716796875,
+                "r": 88.72340901692708,
+                "b": 607.741943359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "tutario a la",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 596.1290690104166,
+                "r": 84.2553202311198,
+                "b": 572.258056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "domicilio y",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 559.3548990885416,
+                "r": 95.7446797688802,
+                "b": 531.6129557291666,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "Varacuy",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 15.957447052001953,
+                "t": 522.5806477864584,
+                "r": 85.5319112141927,
+                "b": 495.48388671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "lúmero: vpresente iscripción dirigida a los accionistas, con no menos de Ocho (8) días de anticipacián. En toda convocatoria serán indicados los asuntos que se tratarán, así como también el locat, ef dia y la ora en que se celebrará la reunión. La Convocatoría no será necesaria cuando en la Asamblea representada la totalidad de las acciones, caso éste en el cual, aún cuando haya habido nvocatoria, podrán ser considerados y decididos toda clase de asuntos, así no hayan sido incluidos en ella. CLÁuSULA 11º - La Asamblea sea ordinaria o extraordinaria, se considerará capiíal social, salvo los casos en que la Ley o estos Estatutos exijan una representación mayor. quedará diferida para el día que e ije en la nueva convocatoría que se hará inmediatamente, día en el cual la Asamblea quedará constituída, sea cual fuere el número de accionistas que concurra a lla, debíendo hacerse constar así en la nueva convocatoria. Las decisiones que se tomen en esta Asamblea serán válidas sin necesidad de ratificación ulterior. Si la Asamblea fuere extraordínaria, o hubíere de tratarse en ella alguno o algunos de los puntos para los cuales requiere la Ley Quórum mayor que el ordinario, y no concurriere el número de accionistas requerido, se hará inmediatamente una segunda convocatoria, con las formalidades legales y lapsos indicados en los Artículos 276 y 281 del Código de Comercio. CLÁusuLA 12º. - Para La Validęz de las decisiones de la Asamblea, sean ordinarias o extraordinarias, se requíere, ademas del \"quórum\" legal o estatutariamente previsto para el caso, el voto favorable de más de nitad de las acciones que representan el capital social en la Asamblea, a no ser que exista disposición contraria de estos Estatutos o de la Ley que exija mayoría especial para el asunto de que se trate.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 0.0,
+                "t": 411.61295572916663,
+                "r": 88.08510335286458,
+                "b": 303.87101236979163,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                28
+              ]
+            },
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 135.31915283203125,
+                "t": 1189.0322570800781,
+                "r": 921.7021484375,
+                "b": 392.258056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                29,
+                1797
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "CLÁUSULA 13° - La Dreión general de la compañía estaáa cargo de na Junt Drctiva, compuesta por UN (01) PRESIDENTE, UN (01) ViCEPRESIDENTE, quienes actuando conjuntamente o bien de manera idividual, separada e indistintamente cualesquiera de ellos HERRERA DAVILEXZA",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 130.85106404622397,
+                "t": 312.258056640625,
+                "r": 959.3617350260416,
+                "b": 75.48388671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                264
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "TÍTULO IV ADMINISTRACIÓN"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 14978370888318399243,
+        "filename": "photo_2026-07-14_09-26-35.jpg",
+        "uri": null
+      }
+    }
+  }
+]

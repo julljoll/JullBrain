@@ -1,23 +1,23 @@
 ---
 name: JullBrain-controlador-iniciador-bat
 description: >
-  Skill para administrar, proteger y modificar la lógica visual y estructural del orquestador iniciar_conversion.bat.
+  Skill para administrar, proteger y modificar la lógica visual y estructural del orquestador orquestador_JullBrain.bat.
   Úsalo siempre que el usuario pida: modificar el .bat, arreglar problemas de consola que se cierra automáticamente, 
   actualizar el menú de inicio en CMD, o problemas de ejecución de permisos de administrador al abrir la ventana.
 compatibility:
   tools: [bash_tool, create_file, str_replace, view]
 ---
 
-# JullBrain Launcher (`iniciar_conversion.bat`)
+# JullBrain Launcher (`orquestador_JullBrain.bat`)
 
 Este "Skill" existe para proteger la integridad del archivo `.bat` principal de JullBrain. Los agentes de IA frecuentemente corrompen este archivo al modificarlo (por problemas de codificación de Windows), lo que resulta en que la ventana de la consola parpadee y se cierre inmediatamente al ejecutarse.
 
 ## Reglas Críticas (Encoding y Saltos de Línea)
-1. El archivo `iniciar_conversion.bat` **DEBE** guardarse estrictamente con codificación **UTF-8 SIN BOM** y saltos de línea **CRLF**.
+1. El archivo `orquestador_JullBrain.bat` **DEBE** guardarse estrictamente con codificación **UTF-8 SIN BOM** y saltos de línea **CRLF**.
 2. **ACCIÓN OBLIGATORIA:** Cada vez que la IA utilice herramientas de edición de archivos (`write_to_file`, `replace_file_content`) sobre el archivo `.bat`, deberá ejecutar INMEDIATAMENTE este comando en PowerShell para reparar la codificación y evitar que el script quede inservible:
 
 ```powershell
-$path = 'c:\VS CODE\CODIGO\JullBrain\iniciar_conversion.bat'
+$path = 'c:\VS CODE\CODIGO\JullBrain\orquestador_JullBrain.bat'
 $content = Get-Content $path -Raw
 $content = $content -replace "`r`n", "`n" -replace "`n", "`r`n"
 $utf8NoBom = New-Object System.Text.UTF8Encoding $False

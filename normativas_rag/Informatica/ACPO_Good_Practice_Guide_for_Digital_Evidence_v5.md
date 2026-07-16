@@ -1,37 +1,24 @@
----
-tipo_instrumento: "Norma"
-nombre_oficial: "ACPO Good Practice Guide ACPO Good Practice Guide Good Good Practice Practice Guide Guide for Digital Evidence for Digital Evidence r r Digital Digital Evidence Evidence March 2012"
-gaceta_oficial: ""
-fecha_publicacion: ""
-articulos_detectados: 0
-categorias: ["informatico", "constitucional", "internacional"]
-hash_pdf_sha256: "3bfbfef11be8dd338d056204389db46b69d19f3ee1459943b80d416c11cb6128"
-autor_procesamiento: "Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)"
-sistema: "IBM Docling + LegalProcessor v2"
-version_md: "2.0"
-procesado_en: "2026-07-11T19:02:30"
----
 # 🏛️ PROCESAMIENTO ESTRUCTURADO DE NORMATIVAS Y LEYES
 
 > [!NOTE]
-> **DERECHOS DE AUTOR Y LICENCIA MIT**
->
-> Este archivo de texto estructurado ha sido generado y optimizado automáticamente para su consumo por sistemas de Inteligencia Artificial (RAG).
+> **JULLBRAIN RAG-PIPELINE - VERSIÓN 2.0 (ENTORNO LOCAL DE PYTHON)**
 > 
-> * **Creador:** Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)
-> * **Propósito:** Avanzar en la transformación tecnológica del sistema de justicia venezolano.
-> * **Licencia:** MIT License
-> * **Copyright (c) 2026 Jull Ortiz**
->
-> Se concede permiso por la presente, sin cargo, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados, para utilizarlo sin restricciones, incluyendo el derecho a usar, copiar, modificar, fusionar y publicar. El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del archivo.
+> Este script Orquesta el Diseño y Estructura de Conocimientos para la Inteligencia Artificial, está especializado en convertir leyes venezolanas a estructuras para el entrenamiento de IAs.
+> 
+> * **Motor de IA:** IBM Docling (Licencia MIT) - https://github.com/docling-project/docling-ibm-models.git
+> * **Propósito:** Aportar tecnología y automatización al Estado venezolano para prevenir la corrupción y el retardo procesal.
+> * **Desarrollado por:** Jull Ortiz - Rol: Arquitecto de Datos con y para la Inteligencia Artificial Jurídica - Web: http://www.sha256.us/
+> * **Licencia del Orquestador:** Apache 2.0
 
 ---
+
+<!-- image -->
 
 <!-- image -->
 
 ## ACPO Good Practice Guide ACPO Good Practice Guide Good Good Practice Practice Guide Guide for Digital Evidence for Digital Evidence r r Digital Digital Evidence Evidence March 2012
 
-<!-- image -->
+S70P
 
 <!-- image -->
 
@@ -1175,21 +1162,8 @@ Sexual Orientation
 
 Author:- DAC Janet Williams QPM Metropolitan Police Service Crime BA
 
+PCeu
+
 <!-- image -->
 
 Any queries relating to this document should be directed to either the author detailed above or the ACPO Programme Support Office on 020 7084 8958/8959.
-
----
-
-<!-- RAG_IGNORE_START -->
-> **DERECHOS DE AUTOR Y LICENCIA MIT**
->
-> Este archivo de texto estructurado ha sido generado y optimizado automáticamente para su consumo por sistemas de Inteligencia Artificial (RAG).
-> 
-> * **Creador:** Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)
-> * **Propósito:** Avanzar en la transformación tecnológica del sistema de justicia venezolano.
-> * **Licencia:** MIT License
-> * **Copyright (c) 2026 Jull Ortiz**
->
-> Se concede permiso por la presente, sin cargo, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados, para utilizarlo sin restricciones, incluyendo el derecho a usar, copiar, modificar, fusionar y publicar. El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del archivo.
-<!-- RAG_IGNORE_END -->

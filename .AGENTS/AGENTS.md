@@ -94,6 +94,7 @@ Todas las habilidades técnicas y de diseño descritas a continuación están fu
 6. **No sustitución del criterio humano** — ningún proyecto de decisión tiene efecto jurídico sin validación humana explícita.
 7. **Sin fabricación de antecedentes locales** — los antecedentes UFT/UNELLEZ se mantienen como placeholder verificado, nunca inventados.
 8. **RAG no es garantía por sí sola** — cada entregable debe recordar que la arquitectura RAG reduce pero no elimina el riesgo sin verificación humana.
+9. **Formato de Documentos de Salida (Encabezado y Footer)** — El encabezado de cada documento Markdown generado por Docling debe coincidir exactamente con el banner de presentación del orquestador (`orquestador_JullBrain.bat`), y no se debe inyectar ningún pie de página (footer vacío) al final de los archivos.
 
 ---
 

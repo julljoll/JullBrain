@@ -87,43 +87,25 @@ WORD_INPUT_DIR   = BASE_DIR / "formatos_word"
 WORD_OUTPUT_DIR  = BASE_DIR / "formatos_rag"
 WORD_MANIFEST_PATH = CACHE_DIR / "manifest_word.json"
 
-# Cabecera de derechos de autor y licencia (MIT)
+# Cabecera de derechos de autor y licencia (Apache 2.0)
 HEADER_TEMPLATE = """# 🏛️ PROCESAMIENTO ESTRUCTURADO DE NORMATIVAS Y LEYES
 
 > [!NOTE]
-> **DERECHOS DE AUTOR Y LICENCIA MIT**
->
-> Este archivo de texto estructurado ha sido generado y optimizado automáticamente para su consumo por sistemas de Inteligencia Artificial (RAG).
+> **JULLBRAIN RAG-PIPELINE - VERSIÓN 2.0 (ENTORNO LOCAL DE PYTHON)**
 > 
-> * **Creador:** Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)
-> * **Propósito:** Avanzar en la transformación tecnológica del sistema de justicia venezolano.
-> * **Licencia:** MIT License
-> * **Copyright (c) 2026 Jull Ortiz**
->
-> Se concede permiso por la presente, sin cargo, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados, para utilizarlo sin restricciones, incluyendo el derecho a usar, copiar, modificar, fusionar y publicar. El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del archivo.
+> Este script Orquesta el Diseño y Estructura de Conocimientos para la Inteligencia Artificial, está especializado en convertir leyes venezolanas a estructuras para el entrenamiento de IAs.
+> 
+> * **Motor de IA:** IBM Docling (Licencia MIT) - https://github.com/docling-project/docling-ibm-models.git
+> * **Propósito:** Aportar tecnología y automatización al Estado venezolano para prevenir la corrupción y el retardo procesal.
+> * **Desarrollado por:** Jull Ortiz - Rol: Arquitecto de Datos con y para la Inteligencia Artificial Jurídica - Web: http://www.sha256.us/
+> * **Licencia del Orquestador:** Apache 2.0
 
 ---
 
 """
 
-# Pie de página de derechos de autor y licencia (MIT)
-FOOTER_TEMPLATE = """
-
----
-
-<!-- RAG_IGNORE_START -->
-> **DERECHOS DE AUTOR Y LICENCIA MIT**
->
-> Este archivo de texto estructurado ha sido generado y optimizado automáticamente para su consumo por sistemas de Inteligencia Artificial (RAG).
-> 
-> * **Creador:** Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)
-> * **Propósito:** Avanzar en la transformación tecnológica del sistema de justicia venezolano.
-> * **Licencia:** MIT License
-> * **Copyright (c) 2026 Jull Ortiz**
->
-> Se concede permiso por la presente, sin cargo, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados, para utilizarlo sin restricciones, incluyendo el derecho a usar, copiar, modificar, fusionar y publicar. El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del archivo.
-<!-- RAG_IGNORE_END -->
-"""
+# Pie de página de derechos de autor y licencia (Apache 2.0)
+FOOTER_TEMPLATE = ""
 
 def get_pdf_page_count(file_path):
     if file_path.suffix.lower() == ".pdf":
@@ -265,7 +247,7 @@ def main():
             sys.exit(1)
         console.print("\n[bold cyan][RUN] Modo post-procesado: Aplicando pipeline legal a archivos .md existentes...\n[/]")
         post_count = 0
-        for md_file in sorted(OUTPUT_DIR.glob("*.md")):
+        for md_file in sorted(OUTPUT_DIR.rglob("*.md")):
             try:
                 raw    = md_file.read_text(encoding='utf-8')
                 
@@ -276,13 +258,15 @@ def main():
                     if end_fm > 0:
                         rest = raw[end_fm + 5:]
                 
-                # 2. Separar la cabecera MIT, el cuerpo y el pie de página MIT
+                # 2. Separar la cabecera, el cuerpo y el pie de página de licencia
                 first_sep = rest.find('\n---\n')
                 if first_sep >= 0:
-                    mit_header = rest[:first_sep + 5]
+                    mit_header = HEADER_TEMPLATE
                     body_and_footer = rest[first_sep + 5:]
                     
                     footer_idx = body_and_footer.rfind('FIN DEL DOCUMENTO ESTRUCTURADO')
+                    if footer_idx < 0:
+                        footer_idx = body_and_footer.rfind('DERECHOS DE AUTOR Y LICENCIA APACHE 2.0')
                     if footer_idx < 0:
                         footer_idx = body_and_footer.rfind('DERECHOS DE AUTOR Y LICENCIA MIT')
                     
@@ -315,8 +299,9 @@ def main():
                 pdf_path  = str(pdf_match) if pdf_match.exists() else ''
                 with_meta = inject_frontmatter(full_structured, pdf_path, md_file.stem)
                 md_file.write_text(with_meta, encoding='utf-8')
-                if not getattr(args, 'no_chunks', False):
-                    chunk_file(str(md_file))
+                # En post-procesado no re-generamos chunks JSON ya que requiere el documento original parseado
+                # if not getattr(args, 'no_chunks', False):
+                #     chunk_file(str(md_file))
                 post_count += 1
                 console.print(f"[bold green][OK] Post-procesado:[/] {md_file.name}")
             except Exception as e:
@@ -328,8 +313,8 @@ def main():
     banner_text = Text()
     banner_text.append("[SYS] JULLBRAIN - MI CEREBRO PERSONAL\n", style="bold yellow")
     banner_text.append("JullBrain: Convertidor de Normativas y Formatos a RAG / IA\n", style="bold cyan")
-    banner_text.append("Motor de Extracción: IBM Docling\n\n", style="italic white")
-    banner_text.append("Desarrollador: Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) | Copyright (c) 2026 MIT License", style="bold green")
+    banner_text.append("Motor de Extracción: IBM Docling (https://github.com/docling-project/docling)\n\n", style="italic white")
+    banner_text.append("Desarrollador: Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) | Copyright (c) 2026 Apache License 2.0", style="bold green")
     console.print(Panel(banner_text, border_style="cyan", box=box.ROUNDED, expand=False))
 
     try:

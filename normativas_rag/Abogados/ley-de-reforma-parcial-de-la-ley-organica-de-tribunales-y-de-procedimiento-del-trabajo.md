@@ -1,80 +1,49 @@
----
-tipo_instrumento: "Norma"
-nombre_oficial: "PREAMBULO"
-gaceta_oficial: ""
-fecha_publicacion: "1959-11-19"
-articulos_detectados: 10
-categorias: ["civil", "laboral", "informatico", "constitucional", "internacional"]
-hash_pdf_sha256: "591c73379aa39b15fa4626e6a98c295d08ba9fba6d7867010ad7ba9d8c7a9cf0"
-autor_procesamiento: "Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)"
-sistema: "IBM Docling + LegalProcessor v2"
-version_md: "2.0"
-procesado_en: "2026-07-12T19:06:34"
----
 # 🏛️ PROCESAMIENTO ESTRUCTURADO DE NORMATIVAS Y LEYES
 
 > [!NOTE]
-> **DERECHOS DE AUTOR Y LICENCIA MIT**
->
-> Este archivo de texto estructurado ha sido generado y optimizado automáticamente para su consumo por sistemas de Inteligencia Artificial (RAG).
+> **JULLBRAIN RAG-PIPELINE - VERSIÓN 2.0 (ENTORNO LOCAL DE PYTHON)**
 > 
-> * **Creador:** Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)
-> * **Propósito:** Avanzar en la transformación tecnológica del sistema de justicia venezolano.
-> * **Licencia:** MIT License
-> * **Copyright (c) 2026 Jull Ortiz**
->
-> Se concede permiso por la presente, sin cargo, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados, para utilizarlo sin restricciones, incluyendo el derecho a usar, copiar, modificar, fusionar y publicar. El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del archivo.
+> Este script Orquesta el Diseño y Estructura de Conocimientos para la Inteligencia Artificial, está especializado en convertir leyes venezolanas a estructuras para el entrenamiento de IAs.
+> 
+> * **Motor de IA:** IBM Docling (Licencia MIT) - https://github.com/docling-project/docling-ibm-models.git
+> * **Propósito:** Aportar tecnología y automatización al Estado venezolano para prevenir la corrupción y el retardo procesal.
+> * **Desarrollado por:** Jull Ortiz - Rol: Arquitecto de Datos con y para la Inteligencia Artificial Jurídica - Web: http://www.sha256.us/
+> * **Licencia del Orquestador:** Apache 2.0
 
 ---
 
-## PREAMBULO
+## GACETA OFICIAL DE LA REPUBLICA DE VENEZUELA
 
 Caracas, jueves 19 de noviembre de 1959 Número 26.116
+
+## EL CONGRESO DE LA REPUBLICA DE VENEZUELA
+
+## Decreta:
+
 la siguiente,
+
+## LEY ORGANICA DE TRIBUNALES Y DE PROCEDIMIENTO DEL TRABAJO
+
+## TITULO I
+
+## Organización y competencia de los Tribunales Del Trabajo
+
+## CAPITULO I
+
+## Disposiciones generales
+
 - Los asuntos contenciosos del trabajo, que no correspondan a la conciliación ni al arbitraje, y en todo caso, las cuestiones disposiciones legales y de las estipulaciones de los contratos de trabajo, serán sustanciados y decididos por los Tribunales
+
 de carácter contencioso que suscite la aplicación de las del Trabajo que se indican en la presente Ley.
+
 Los Tribunales del Trabajo son:
+
 - a) Los Tribunales del Trabajo, que conocen en primera instancia; y
 - b) Los Tribunales Superiores del Trabajo, que conocen en segunda instancia.
 
+## Artículo 1º. -
 
----
-
-## INDICE DE ARTICULOS
-
-| Art. | Descripcion | Ubicacion |
-|------|-------------|-----------|
-| 1 | . -  ##... | TITULO I / CAPITULO I |
-| 2 | . -  | Artículo 3º. -    | Los Tribunales Superiores del Tra... | TITULO I / CAPITULO I |
-| 8 | . - Los demás empleados de estos Tribunales serán nombrados... | TITULO I / CAPITULO I |
-| 15 | La parte que haya pedido la constitución del Tribunal con As... | TITULO I / CAPITULO I |
-| 24 | Artículo 25 | TITULO I / CAPITULO II |
-| 26 | 4).- Dirimir las competencias que se susciten entre los Juec... | TITULO I / CAPITULO II |
-| 30 | h) Ejercer las demás atribuciones que señale la Legislación... | TITULO I / CAPITULO III |
-| 56 | Artículo 57 | TITULO II / CAPITULO II - Procedimiento en Primera Instancia |
-| 59 | ## Artículo 60. -  2. -Nombre, apellido y dirección del patr... | TITULO II / CAPITULO II - Procedimiento en Primera Instancia |
-| 76 | A los expediente recibidos en el Tribunal Superior del Traba... | TITULO II / CAPITULO III |
-
-
----
-
-
-### TITULO I
-
-
-#### CAPITULO I
-
-
-###### Articulo 1
-
-. -
-
-##
-
-
-###### Articulo 2
-
-. -
+## Artículo 2º. -
 
 | Artículo 3º. -    | Los Tribunales Superiores del Trabajo pueden ser colegiados o unipersonales. Los primeros estarán constituidos por tres Jueces, un Secretario y un Alguacil y  los segundos, por un Juez, un Secretario y un Alguacil.                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -83,10 +52,7 @@ Los Tribunales del Trabajo son:
 | Artículo 6º. -    | Los Jueces y demás funcionarios accidentales de los Tribunales del Trabajo cobrarán por sus actuaciones los elementos fijados en la Ley de Arancel Judicial.                                                                                                                                                                                                                                                                                                                                                                                              |
 | Artículo 7º. -    | Los Tribunales del Trabajo tendrán un Secretario y un Alguacil de libre nombramiento y remoción de los Jueces,  quienes participarán las decisiones correspondientes al Ministerio de Justicia.                                                                                                                                                                                                                                                                                                                                                           |
 
-
-###### Articulo 8
-
-. - Los demás empleados de estos Tribunales serán nombrados y removidos en la forma y condiciones que determina la Ley Orgánica del poder judicial.
+Artículo 8º. - Los demás empleados de estos Tribunales serán nombrados y removidos en la forma y condiciones que determina la Ley Orgánica del poder judicial.
 
 Son deberes y atribuciones de los Secretarios de los Tribunales del Trabajo:
 
@@ -122,10 +88,7 @@ Son deberes y atribuciones de los Escribientes de los Tribunales del Trabajo:
 | Artículo 12. -    | Todos los cargos de los funcionarios permanentes y de los  empleados subalternos de los Tribunales del Trabajo, son incompatibles con el ejercicio de las profesiones de Abogado y de Procurador, y con el desempeño de cualquier  cargo público, excepto los edificios docentes, asistenciales y  electorales.                                                                                                                                                                                                                                                                                                                                |
 | Artículo 13. -    | En los juicios del trabajo las partes podrán pedir en cualquier  instancia, antes de empezar la vista de la causa, la constitución del Tribunal con dos Asociados, que se elegirán  en la forma indicada en el artículo siguiente. El Tribunal se constituirá, en tales casos, bajo la presidencia  del Juez en Primera Instancia o del Presidente del Tribunal en  Segunda: y así constituido, oirá informes y sentenciará, sin  perjuicio de que, si no se lograre la constitución de los Asociados en la fecha que señale, la causa continúe como si  estos no se hubiesen pedido. Con la sentencia finaliza la actuación de los Asociados. |
 
-
-###### Articulo 15
-
-La parte que haya pedido la constitución del Tribunal con Asociados, deberá consignar, dentro de los tres días siguientes a la de éstos, los elementos correspondientes a ambos Asociados, calculados conforme a la Ley de Arancel Judicial, el recibo donde conste el convenio que, sobre tales emolumentos, se hubiere hecho de acuerdo con la misma Ley de Arancel. Si no lo hiciere, la causa seguirá su curso legal.
+Artículo 15. - La parte que haya pedido la constitución del Tribunal con Asociados, deberá consignar, dentro de los tres días siguientes a la de éstos, los elementos correspondientes a ambos Asociados, calculados conforme a la Ley de Arancel Judicial, el recibo donde conste el convenio que, sobre tales emolumentos, se hubiere hecho de acuerdo con la misma Ley de Arancel. Si no lo hiciere, la causa seguirá su curso legal.
 
 - Artículo 14 . -Juez o al Presidente del Tribunal Superior del Trabajo, según sea el caso, una lista con los nombres de tres Abogados,
 
@@ -146,6 +109,7 @@ Toda infracción a lo dispuesto en este artículo, será sancionada de conformid
 | Artículo 19. -     | Toda autoridad de policía, cualquiera que sea su categoría,  deberá ejecutar sin dilación alguna las instrucciones que le comuniquen los Tribunales del Trabajo, en el ejercicio de sus  funciones legales.                                                                                                                                                                                                                                                                                                                                                                 |
 | Artículo 20. -     | En todo lo que no sea contrario a lo dispuesto en la presente  Ley, se observarán las disposiciones del Código de Procedimiento Civil, de la Ley Orgánica del poder Judicial,  de la Ley Orgánica de la Corte Federal y de la Ley Orgánica  de la Corte de Casación, en lo relativo a la organización y a la  competencia de los Tribunales del Trabajo y a los procedimientos que han de seguirse ante ellos.                                                                                                                                                              |
 
+## CAPITULO II
 
 ## De los Tribunales Superiores del Trabajo
 
@@ -154,16 +118,11 @@ Toda infracción a lo dispuesto en este artículo, será sancionada de conformid
 | Artículo 22. -    | El Suplente que haya aprehendido el conocimiento de uno o  más asuntos, continuará actuando hasta la conclusión del asunto o asuntos respectivos, o de la incidencia de que  estuviere conociendo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Artículo 23. -    | Los Tribunales Superiores del Trabajo tendrán las atribuciones siguientes: 1).- Conocer de los juicios de responsabilidad contra cualquiera de los Jueces, permanentes o accidentales, de los  Tribunales del Trabajo de Primera Instancia. 2).- Conocer de los recursos de hecho contra los fallos de  los Tribunales del Trabajo de Primera Instancia, cuando éstos no oigan o no den curso a las apelaciones dentro de  los términos legales, y de las solicitudes sobre omisión, retardo o denegación de justicia de aquellos Tribunales. 3).- Conocer de las apelaciones y recursos que se intenten  contra las decisiones que dictare el Presidente del Tribunal , como Juez de Substanciación, suplido éste debidamente. |
 
-
-#### CAPITULO II
-
-
-###### Articulo 24 - Artículo 25
+Artículo 24. -
 
 Artículo 25. -
 
-
-###### Articulo 26
+Artículo 26. -
 
 4).- Dirimir las competencias que se susciten entre los Jueces del Trabajo de Primera Instancia.
 
@@ -177,6 +136,7 @@ Artículo 25. -
 
 Cuando se trate de Tribunales colegiados se aplicarán, en cuando a las atribuciones de sus miembros, las disposiciones contenidas en la Ley Orgánica del Poder Judicial.
 
+## CAPITULO III
 
 ## Tribunales de Primera Instancia del Trabajo
 
@@ -198,21 +158,17 @@ con ella.
 - f) Compeler con multas hasta de cien bolívares, por cada vez, a los Asociados que, sin justa causa, a juicio del propio Juez, falten a las audiencias del Tribunal a las cuales deben legalmente comparecer; se nieguen a recibir citaciones y convocatorias para concurrir al Tribunal; no concurran a las conferencias privadas que debe celebrar el Juez con los Asociados para preparar las decisiones y sentencias del Tribunal; y, en general, contribuyan de cualquier modo a demorar o entorpecer el mas rápido y eficaz despacho de los asuntos de que conozca el Tribunal. De la imposición de esas multas se podrá apelar por ante el mismo Juez que las haya impuesto y para ante el Tribunal Superior del Trabajo, quien decidirá en definitiva.
 - g) Suministrar al Tribunal Superior del Trabajo, con la mayor rapidez posible, los datos, informes, memorias y estadísticas a que se refieren los incisos 5o) y 6o) del artículo 23 de esta Ley.
 
-
-#### CAPITULO III
-
-
-###### Articulo 30
-
-h) Ejercer las demás atribuciones que señale la Legislación del Trabajo y otras Leyes.
+Artículo 30. - h) Ejercer las demás atribuciones que señale la Legislación del Trabajo y otras Leyes.
 
 - Los Tribunales del Trabajo de Primera Instancias podrán decretar y practicar todas las medidas preventivas necesarias en los juicios del Trabajo, de acuerdo con las normas que se
 
 indican en la presente Ley.
 
+## TITULO II
 
 ## Procedimiento ante los Tribunales del Trabajo
 
+## CAPITULO I
 
 ## Disposiciones Generales
 
@@ -267,19 +223,11 @@ Si no pudiere practicarse personalmente la citación del demandado, en el termin
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Artículo 55. -    | Los Tribunales del Trabajo, especiales u ordinarios, liquidarán todos los gastos que la parte perdidosa deba, en  concepto de costas, reintegrar al Tesoro Nacional; y expedirán la correspondiente planilla para que se consigne en  la Oficina Receptora de Fondo Nacionales de la jurisdicción,  en el término que se fije, la cantidad liquidada. De igual modo procederá estos Tribunales para hacer efectivas las multas que, en aplicación de la presente Ley, se  vean precisado a imponer, dando aviso inmediato al Ministerio correspondiente. |
 
+## CAPITULO II Procedimiento en Primera Instancia
 
 Los Procuradores de Trabajo procederán a instaurar a requerimiento de parte interesada o del Inspector o SubInspector de su jurisdicción, por ante los Tribunales del Trabajo competentes, los juicios en reclamación de derechos que competan o trabajadores menores de edad, y a otros incapacitados civilmente, cuando no lo hubiere hecho oportunamente sus respectivos representante legales. Lo dispuesto en este artículo se aplicará también a reclamaciones o demandas por accidentes de trabajo o por enfermedades profesionales cuando el accidentado o enfermo no pudiere hacer por si mismo la correspondiente reclamación.
 
-
-### TITULO II
-
-
-#### CAPITULO II - Procedimiento en Primera Instancia
-
-
-###### Articulo 56 - Artículo 57
-
-Artículo 57. - Artículo 58. - A los efectos de lo aquí dispuesto, los Inspectores y los Sub -Inspectores del Trabajadores están obligados a señalar a los Procuradores de Trabajadores los casos en que juzguen deban intervenir, según queda ordenado en el presente artículo.
+Artículo 56. - Artículo 57. - Artículo 58. - A los efectos de lo aquí dispuesto, los Inspectores y los Sub -Inspectores del Trabajadores están obligados a señalar a los Procuradores de Trabajadores los casos en que juzguen deban intervenir, según queda ordenado en el presente artículo.
 
 Toda demanda que se intente ante un Tribunal del Trabajo de Primera Instancia, debe contener los siguientes datos:
 
@@ -297,10 +245,7 @@ Las demandas concernientes a los accidentes del trabajo deben contener , además
 
 1. -Nombre y dirección de la empresa.
 
-##
-
-
-###### Articulo 59
+## Artículo 59. -
 
 ## Artículo 60. -
 
@@ -349,19 +294,15 @@ Si la demanda por accidente del trabajo no se acompañare con certificado médic
 | Artículo 74. -    | En las tercerías que se propongan en los juicios del trabajo,  el término a que se refiere el párrafo primero del artículo 390  del Código de Procedimiento Civil, no excederá de sesenta  días, sea cual fuere el número de tercerías propuestas.                                                                                                                                                                                                                                                                                                                                                               |
 | Artículo 75. -    | El Ejecutivo Nacional podrá crear cargos de Jueces de Sustanciación en Primera Instancia cuando lo considere necesario, de conformidad con lo dispuesto en la Ley Orgánica del Poder Judicial.                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
+## CAPITULO III
 
 ## Procedimiento en Segunda Instancia
 
-
-#### CAPITULO III
-
-
-###### Articulo 76
-
-A los expediente recibidos en el Tribunal Superior del Trabajo por consulta o apelación de los fallos definitivos de Primera Instancia, se les dará entrada, se fijará un lapso de ocho días hábiles para constituir asociados, promover y evacuar las pruebas procedentes en Segunda Instancia, según el artículo 410 del Código de Procedimiento Civil, e instruir las que crea pertinentes el Tribunal de conformidad con esta Ley.
+Artículo 76. -A los expediente recibidos en el Tribunal Superior del Trabajo por consulta o apelación de los fallos definitivos de Primera Instancia, se les dará entrada, se fijará un lapso de ocho días hábiles para constituir asociados, promover y evacuar las pruebas procedentes en Segunda Instancia, según el artículo 410 del Código de Procedimiento Civil, e instruir las que crea pertinentes el Tribunal de conformidad con esta Ley.
 
 Vencido este lapso, se oirán en la segunda audiencia siguiente los alegatos de las partes y se sentenciará dentro de los dos días hábiles que siguen, sin perjuicio de la facultad de dictar autos para mejor promover.
 
+## CAPITULO IV
 
 ## Recursos de casación en materia del trabajo
 
@@ -383,6 +324,7 @@ Vencidos los lapsos que indican en el artículo anterior, la Corte de Casación 
 
 - Artículo 84. -El término de diez días para anunciar el recurso de nulidad, que se indica en el párrafo segundo del artículo 439 del Código de Procedimiento Civil, se reducirá a cinco días en los juicios del trabajo.
 
+## CAPITULO V
 
 ## Ejecución de sentencias
 
@@ -406,19 +348,3 @@ Palacio de Miraflores, en Caracas a dieciocho de noviembre de mil novecientos ci
 (L.S.)
 
 ROMULO BETANCOURT
-
-
----
-
-<!-- RAG_IGNORE_START -->
-> **DERECHOS DE AUTOR Y LICENCIA MIT**
->
-> Este archivo de texto estructurado ha sido generado y optimizado automáticamente para su consumo por sistemas de Inteligencia Artificial (RAG).
-> 
-> * **Creador:** Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)
-> * **Propósito:** Avanzar en la transformación tecnológica del sistema de justicia venezolano.
-> * **Licencia:** MIT License
-> * **Copyright (c) 2026 Jull Ortiz**
->
-> Se concede permiso por la presente, sin cargo, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados, para utilizarlo sin restricciones, incluyendo el derecho a usar, copiar, modificar, fusionar y publicar. El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del archivo.
-<!-- RAG_IGNORE_END -->

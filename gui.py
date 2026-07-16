@@ -195,10 +195,10 @@ class JullBrainApp:
             ft.Markdown(
                 """
 ### Licencias
-Este software está distribuido bajo la **Licencia MIT**.
+Este software está distribuido bajo la **Licencia Apache 2.0**.
 
 * **Desarrollador de JullBrain**: Jull Ortiz (Copyright (c) 2026)
-* **Motor de Extracción**: IBM Docling (Copyright (c) 2024-present IBM Corp.)
+* **Motor de Extracción**: IBM Docling (Licencia MIT, Copyright (c) 2024-present IBM Corp.)
                 """
             )
         ], spacing=15, scroll=ft.ScrollMode.AUTO)

@@ -6,7 +6,7 @@ Extractor de metadatos semanticos para el sistema RAG de Normativas Venezolanas.
 Genera un bloque YAML frontmatter con datos estructurados que el indexador
 vectorial puede usar para filtrar, clasificar y enriquecer las busquedas.
 
-Autor: Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) - Copyright (c) 2026 MIT License
+Autor: Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) - Copyright (c) 2026 Apache License 2.0
 """
 
 import re

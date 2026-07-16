@@ -1,0 +1,221 @@
+[
+  {
+    "text": "INPREN°114876",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 182.5532023111979,
+                "t": 1279.3548387289047,
+                "r": 275.10638427734375,
+                "b": 1257.419354756673,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 1169621348497726356,
+        "filename": "photo_2026-07-14_09-26-39.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "NOSOTrOS, MENDOZA JIMENEZ LUIS ALFREDO y PELAEZ RAMIREZ CARMÉNSA,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 109.7872314453125,
+                "t": 1212.2580668131511,
+                "r": 933.8297526041666,
+                "b": 1177.4193623860676,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                65
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 1169621348497726356,
+        "filename": "photo_2026-07-14_09-26-39.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "Venezolanos, mayores de edad, solteros, civilmente hábiles, titulares de las Cédulas de tidad Nos, V-9,577.375 y V-11,188,636, domiciliados en la vía Principal a Cubiro entre Venidas 4 y 5, Sector Ceiba Sur de esta Ciudad de Quíbor, Municipio Jiménez del Estado Lara, hemos convenido en constituir, como en efecto constituimos, una Compañía Anónima que se regirá por las síguientes cláusulas contenidas en la presente Acta Constitutiva, la cual es elaborada en forma amplia a fin de que sirva también de Estatutos Sociales:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 112.34042358398438,
+                "t": 1169.6774190266926,
+                "r": 935.7447102864584,
+                "b": 943.8709716796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                523
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 1169621348497726356,
+        "filename": "photo_2026-07-14_09-26-39.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "CLÁUSULA 1°. - La compañía se denominará, \"INVERSiONES MARIANYEL, C.A\", la misma es una Compañía Anónima, y su domicilio legal será ubicado en la vía Principal a Cubiro entre Avenidas 4 y 5, Sector Ceiba Sur de esta Ciudad de Quíbor, Municipio Jiménez del Estado Lara, pudiendo establecer Sucursales, agencias, representaciones u oficinas, dentro o fuera del territorio nacíonal. CLÁusULA 2º. - La duración de la compañía será de treínta (30) años contados desde la fecha de la inscripción del documento constitutivo en el Registro de Comercio. Antes del término de este período se convocará una asamblea para decidir la prórroga o liquidación de la misma con el cumplimiento de los trámites legales, al igual que pòdrá decidir cerrar la compañía antes del término señalado, si así lo decidiere la asamblea, ÁUSULÀ 3º. - La compañía tendrá por Objeto principal: Todo lo relacionado con la Compra, enta y Distríbución de todo tipo de Repuestos de Vehículos, accesoríos, pínturas, auto periquitos y de igual forma efectuar actividades a fín con este ramo, podrá celebrar negocios ue  co  ed seio o  eos   eio e oio finalidades o que contribuyan al logro del objeto principal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 111.06383260091145,
+                "t": 882.5806477864583,
+                "r": 936.3829752604166,
+                "b": 338.06453450520837,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1173
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "TITULOI DENOMINACIÓN. DOMICILIO. DURACIÓN Y OBJETO"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 1169621348497726356,
+        "filename": "photo_2026-07-14_09-26-39.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "CLÁUSULA 4º. - El capital social es la Cantidad de VEINTE MIL BOLÍVARES (Bs. 20.000,0), nomínal de VEINTE BOLIVARES (Bs. 20, oo) cada una. Todas las accíones confieren a los accionistas los mismos derechos y les imponen las mísmas obligaciones. Las Cuales han sído suscritas y pagadas en su totalidad, tal como se evidencia de Balance de Apertura de la",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 107.87234497070312,
+                "t": 261.935546875,
+                "r": 933.1914876302084,
+                "b": 80.0,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                352
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "TÍTULOI EL CAPITAL"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 1169621348497726356,
+        "filename": "photo_2026-07-14_09-26-39.jpg",
+        "uri": null
+      }
+    }
+  }
+]

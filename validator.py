@@ -6,7 +6,7 @@ Validador de integridad de articulos para el sistema RAG de Normativas Venezolan
 Verifica que los archivos Markdown generados contengan todos los articulos
 sin saltos, duplicados ni articulos con extraccion fallida.
 
-Autor: Jull Ortiz - Copyright (c) 2026 MIT License
+Autor: Jull Ortiz - Copyright (c) 2026 Apache License 2.0
 """
 
 import re

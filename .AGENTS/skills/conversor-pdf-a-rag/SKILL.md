@@ -71,7 +71,7 @@ No diseñes para LangChain, LlamaIndex o LanceDB a menos que se indique lo contr
 
 ## Comandos de Referencia Rápida
 
-El proyecto se ejecuta en un entorno virtual local de Python. Se recomienda usar `iniciar_conversion.bat` para una ejecución automatizada.
+El proyecto se ejecuta en un entorno virtual local de Python. Se recomienda usar `orquestador_JullBrain.bat` para una ejecución automatizada.
 
 ```cmd
 # Crear entorno virtual (si no existe)

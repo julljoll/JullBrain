@@ -1,7 +1,7 @@
 ; ===================================================================
 ;  JullBrain - Instalador Windows
 ;  Creado con Inno Setup 6
-;  Autor: Jull Ortiz | MIT License (C) 2026
+;  Autor: Jull Ortiz | Apache License 2.0 (C) 2026
 ; ===================================================================
 
 #define AppName    "JullBrain"

@@ -17,7 +17,7 @@ src/                                *.py (raíz del proyecto)
   ├── pipeline/                     metadata_extractor.py   ← YAML frontmatter
   └── pipeline/                     validator.py            ← Validación de integridad
 
-scripts/                            iniciar_conversion.bat  ← Lanzador Automático
+scripts/                            orquestador_JullBrain.bat  ← Lanzador Automático
 
 data/                               
   ├── input/                        normativas_pdf/         ← PDFs de entrada
@@ -76,7 +76,7 @@ IBM DOCLING/
 │   📄 [config]   requirements.txt             ← Dependencias Python
 │   📄 [config]   .gitignore                   ← Exclusiones git
 │
-│   📄 [scripts]  iniciar_conversion.bat       ← Lanzador inteligente
+│   📄 [scripts]  orquestador_JullBrain.bat       ← Lanzador inteligente
 │
 │   📄 FRAMEWORK.md                            ← Este archivo
 │   📄 README.md                               ← README principal
@@ -87,7 +87,7 @@ IBM DOCLING/
 ## Convenciones del Framework
 
 ### Entorno Nativo
-Toda la ejecución de Python 3.10+ y dependencias complejas (Docling, PyTorch, OCR) ocurren dentro de un entorno virtual local administrado automáticamente por `iniciar_conversion.bat`.
+Toda la ejecución de Python 3.10+ y dependencias complejas (Docling, PyTorch, OCR) ocurren dentro de un entorno virtual local administrado automáticamente por `orquestador_JullBrain.bat`.
 
 ### Pipeline de Datos
 El flujo es estrictamente unidireccional y secuencial:

@@ -50,7 +50,7 @@ normativas_rag/                                          normativas_chunks/
 | `legalizer.py` | Detecta TÍTULO/CAPÍTULO/Artículo para guiar al chunker | `jullbrain-legalizer` |
 | `metadata_extractor.py` | YAML frontmatter con Gaceta, fecha, tipo, SHA-256 | `jullbrain-metadata` |
 | `validator.py` | Verifica secuencia, duplicados, artículos corruptos | `jullbrain-validator` |
-| `iniciar_conversion.bat`| Orquestador Docker (Auto-instala Chocolatey/Docker) | `jullbrain-pdf-to-rag` |
+| `orquestador_JullBrain.bat`| Orquestador Docker (Auto-instala Chocolatey/Docker) | `jullbrain-pdf-to-rag` |
 
 > **NOTA IMPORTANTE**: El antiguo módulo `chunker.py` fue deprecado y eliminado en favor del `HierarchicalChunker` nativo de Docling.
 
@@ -78,7 +78,7 @@ No diseñes para LangChain, LlamaIndex o LanceDB a menos que se indique lo contr
 Todo el sistema es autogestionado mediante scripts por lotes. 
 
 > **Ejecución Recomendada**:
-> Simplemente haz doble clic en `iniciar_conversion.bat` en tu computadora. 
+> Simplemente haz doble clic en `orquestador_JullBrain.bat` en tu computadora. 
 > 
 > El script solicitará permisos de administrador e instalará automáticamente `Chocolatey` y `Docker Desktop` si no están presentes. Finalmente, compilará y ejecutará el contenedor de JullBrain procesando los PDFs.
 
@@ -108,7 +108,7 @@ JullBrain/
 ├── legalizer.py                 Jerarquía legal
 ├── metadata_extractor.py        YAML frontmatter + metadata legal
 ├── validator.py                 Validación de integridad
-├── iniciar_conversion.bat       Orquestador interactivo (Auto-instalador Docker)
+├── orquestador_JullBrain.bat       Orquestador interactivo (Auto-instalador Docker)
 │
 └── .AGENTS/                     [IA]        Skills de asistencia de IA (jullbrain-*)
 ```
