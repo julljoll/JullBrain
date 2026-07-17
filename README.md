@@ -63,42 +63,43 @@ normativas_rag/                                          normativas_chunks/
 | `legalizer.py` | Detecta jerarquía (TÍTULO/CAPÍTULO/Artículo) y genera TOC interactivos en Markdown. |
 | `HierarchicalChunker` | Integrado vía Docling. Extrae chunks semánticos listos para RAGFlow. |
 | `metadata_extractor.py` | Inyecta YAML frontmatter con Gaceta, fecha, tipo de documento y huella digital (SHA-256). |
-| `validator.py` | Verifica secuencia numérica, previene duplicados y detecta artículos corruptos o cortos. |
-| `orquestador_JullBrain.bat` | Lanzador principal. Instala automáticamente dependencias en un entorno virtual aislado y ejecuta la conversión. |
+| `validator.py` | Verifica secuencia numérica, previene duplicados, detecta artículos corruptos y ejecuta validación cruzada con PyMuPDF. |
+| `pipeline_config.json` | Configuración persistente del pipeline (OCR, umbrales de integridad, Granite, RAGFlow). |
+| `app.py` | Dashboard Streamlit: 6 módulos (Capas de Arquitectura, Orquestador de Conversión, Integridad Legal, Cadena de Custodia, Editor RAG, Ajustes del Pipeline). |
+| `orquestador_JullBrain.bat` | Lanzador principal. Activa el entorno virtual e inicia la interfaz interactiva en Streamlit. |
 
 ---
 
 ## Funciones Avanzadas
 
-**Arquitectura Python Nativa** — JullBrain V2.0 corre directamente en tu sistema utilizando entornos virtuales (`docling_env`) de forma transparente, instalando todo automáticamente.
+**Doble Validación Cruzada** — Implementación del Principio 10 (Error Cero). Compara los artículos detectados por el legalizer en Markdown contra el texto extraído directamente del PDF usando PyMuPDF (`fitz`), señalando discrepancias de forma exacta.
 
-**Progress Bars TTY** — Monitoreo hiper-visual del proceso en consola, con animaciones fluidas y detalladas de cada etapa de extracción.
+**Cadena de Custodia Digital** — Trazabilidad forense completa (ISO/IEC 27037 / R7). Genera un seguimiento de hashes SHA-256 de todas las normativas cargadas con opción de exportar el Acta de Custodia.
 
-**Interrupción Segura (Ctrl+C)** — Puedes detener el análisis en cualquier momento. JullBrain interceptará la señal y guardará a salvo todo el progreso que ya había logrado procesar.
+**Ajustes Persistentes** — Control completo del pipeline almacenado en `pipeline_config.json` y manejado directamente en el menú de Streamlit.
 
-**Recuperación automática de fallos** — Si un lote falla con OCR activo, el sistema reintenta automáticamente sin OCR en ese lote en lugar de interrumpir la conversión.
-
-**Soporte de Subcarpetas Recursivas** — Preserva la estructura jerárquica y de carpetas del origen (`normativas_pdf/` y `formatos_word/`) directamente en las salidas (`normativas_rag/`, `formatos_rag/` y `normativas_chunks/`), manteniendo la clasificación de documentos intacta.
+**Progress Bars y Procesamiento Uno a Uno** — Barra de progreso dinámica e interactiva en la interfaz visual de Streamlit para no congelar la UI y realizar ejecuciones controladas y secuenciales.
 
 **Caché SHA-256 dinámica** — Cada PDF procesado se registra en `.conversion_cache/manifest.json`. Si arrastras un archivo sin cambios, lo salta en un milisegundo.
 
 ---
 
-## Resultados Actuales
+## Compatibilidad con IBM Granite 4.0
 
-| Documento | Artículos | Tasa de Conversión |
-|-----------|-----------|--------------------|
-| Código Penal | 640 | 98.3% |
-| Código Orgánico Procesal Penal | 355 | 99.4% |
-| Ley Especial de Delitos Informáticos | 35 | 100% |
-| Ley sobre Mensajes de Datos | 56 | 98.2% |
-| Creación del CENIF | 74 | 100% |
+| Parámetro | Valor Recomendado / Configurado |
+|-----------|---------------------------------|
+| Modelo de Inferencia | `granite4.1:8b` (o superior) |
+| Temperatura Jurídica | ≤ 0.2 (fija para reducir variabilidad no verificable) |
+| Ventana de Contexto | 128,000 tokens |
+| Embeddings del Dataset | `granite-embedding-30m-english` (RAGFlow) |
+| Chunking Strategy | `hierarchical_chunks.json` (Hierarchical Chunker) |
+| Política del Modelo | Abstención obligatoria si no existe respaldo documental |
 
 ---
 
 ## Instalación y Ejecución
 
-Solo necesitas tener [Python 3.10+](https://www.python.org/downloads/) instalado. Todo el resto es automatizado.
+Solo necesitas tener [Python 3.10+](https://www.python.org/downloads/) instalado.
 
 ```cmd
 :: 1. Clona el proyecto y entra en la carpeta
@@ -108,10 +109,11 @@ cd "ruta/a/JullBrain"
 orquestador_JullBrain.bat
 ```
 
-> **Autoinstalación**: El archivo `.bat` detectará si falta el entorno virtual, lo creará, instalará todas las dependencias necesarias de `requirements.txt` automáticamente y comenzará la conversión de tus archivos PDF.
+> El archivo `.bat` detectará si falta el entorno virtual (`docling_env`), lo creará, instalará todas las dependencias necesarias de `requirements.txt` automáticamente e iniciará la interfaz visual en `http://localhost:8501`.
 
 ---
 
 ## Licencia
+
 Distribuido bajo Licencia Apache 2.0. Ver [LICENSE](LICENSE) para más detalles.
-Desarrollador para avanzar en la transformación tecnológica del ecosistema RAG/IA venezolano.
+Desarrollado para avanzar en la transformación tecnológica y la mitigación de alucinación en el ecosistema RAG/IA jurídica venezolano.

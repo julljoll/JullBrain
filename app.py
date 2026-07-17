@@ -437,6 +437,69 @@ elif menu_selected == "Orquestar Conversiones":
     st.header("🚀 Ingesta e Indexacion (Fase 2 de Arquitectura)", divider="orange")
     st.caption("Ejecuta la conversion de archivos origen en subprocesos usando la cache SHA-256")
     
+    # ─── SECCIÓN DE CARGA Y CREACIÓN DE CARPETAS (COMPONENTE 7) ───
+    with st.expander("📥 Cargar Nuevas Normativas o Documentos (PDF/Word)", expanded=False):
+        # Escanear subdirectorios existentes en normativas_pdf
+        subdirs = [p.name for p in INPUT_DIR.iterdir() if p.is_dir() and not p.name.startswith(".")]
+        subdirs = sorted(subdirs)
+        
+        folder_options = ["📂 Raíz (normativas_pdf/)", "📁 [Crear Nueva Carpeta]"] + subdirs
+        selected_folder = st.selectbox("Seleccione la carpeta de destino:", folder_options)
+        
+        new_folder_name = ""
+        if selected_folder == "📁 [Crear Nueva Carpeta]":
+            new_folder_name = st.text_input("Nombre de la nueva carpeta (ej: Penal, Civil):", "")
+            
+        uploaded_file = st.file_uploader(
+            "Seleccione el archivo a subir (PDF o Word):", 
+            type=["pdf", "docx", "doc"]
+        )
+        
+        if st.button("📥 Subir Documento"):
+            if uploaded_file is None:
+                st.error("Por favor, seleccione un archivo antes de subir.")
+            else:
+                import re
+                # Determinar subcarpeta destino
+                dest_dir = INPUT_DIR
+                valid_path = True
+                
+                if selected_folder == "📁 [Crear Nueva Carpeta]":
+                    if not new_folder_name.strip():
+                        st.error("Por favor, ingrese un nombre para la nueva carpeta.")
+                        valid_path = False
+                    else:
+                        # Sanitizar nombre de la carpeta (remover caracteres especiales, espacios extra)
+                        sanitized = re.sub(r'[\\/*?:"<>|]', "", new_folder_name.strip())
+                        sanitized = sanitized.replace(" ", "_")
+                        if not sanitized:
+                            st.error("El nombre de la carpeta no es valido.")
+                            valid_path = False
+                        else:
+                            dest_dir = INPUT_DIR / sanitized
+                elif selected_folder != "📂 Raíz (normativas_pdf/)":
+                    dest_dir = INPUT_DIR / selected_folder
+                
+                if valid_path:
+                    try:
+                        dest_dir.mkdir(parents=True, exist_ok=True)
+                        dest_file_path = dest_dir / uploaded_file.name
+                        
+                        # Escribir el archivo
+                        dest_file_path.write_bytes(uploaded_file.getbuffer())
+                        
+                        st.success(f"🎉 Archivo `{uploaded_file.name}` subido exitosamente a `{dest_dir.relative_to(BASE_DIR)}`")
+                        
+                        # Invalidar variables de entorno o estados para que refresque
+                        pdfs_files = list(INPUT_DIR.rglob("*.pdf")) + list(INPUT_DIR.rglob("*.docx")) + list(INPUT_DIR.rglob("*.doc"))
+                        
+                        time.sleep(1.5)
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Error al subir el archivo: {e}")
+                        
+    st.markdown("---")
+    
     table_data = []
     for f in pdfs_files:
         try:
