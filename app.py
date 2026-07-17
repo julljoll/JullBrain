@@ -23,6 +23,13 @@ try:
 except ImportError:
     VALIDATOR_AVAILABLE = False
 
+# Importar motor de embeddings Granite
+try:
+    from granite_embedder import GraniteEmbedder
+    EMBEDDER_AVAILABLE = True
+except ImportError:
+    EMBEDDER_AVAILABLE = False
+
 # Configuración de página
 st.set_page_config(
     page_title="JullBrain IA - Orquestador Juridico",
@@ -212,9 +219,10 @@ with st.sidebar:
             "Integridad y Reportes",
             "Cadena de Custodia",
             "Editor de Leyes RAG",
+            "🧬 Granite Embedding",
             "Ajustes del Pipeline"
         ],
-        icons=["diagram-3", "play-circle", "shield-check", "link-45deg", "pencil-square", "gear"],
+        icons=["diagram-3", "play-circle", "shield-check", "link-45deg", "pencil-square", "cpu", "gear"],
         menu_icon="cast",
         default_index=0,
         styles={
@@ -993,9 +1001,192 @@ elif menu_selected == "Editor de Leyes RAG":
                         st.error(f"Error al guardar el archivo: {e}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# MÓDULO 6: AJUSTES DEL PIPELINE (CONFIGURACIÓN PERSISTENTE)
+# MÓDULO 6: GRANITE EMBEDDING — Motor de Embeddings Semánticos
+# ═══════════════════════════════════════════════════════════════════════
+elif menu_selected == "🧬 Granite Embedding":
+    st.header("🧬 Granite Embedding R2 — Motor Semántico del Pipeline", divider="orange")
+    st.caption(
+        "IBM Granite Embedding (ModernBERT) — 768 dimensiones — 8 192 tokens de contexto — "
+        "Diseñado para recuperación semántica en corpus jurídico venezolano"
+    )
+
+    if not EMBEDDER_AVAILABLE:
+        st.error(
+            "⛔ `granite_embedder.py` no se pudo importar. "
+            "Asegúrate de que el archivo existe en la raíz del proyecto."
+        )
+    else:
+        # ── Resumen de configuración activa ──────────────────────────────
+        emb_cfg_col1, emb_cfg_col2, emb_cfg_col3 = st.columns(3)
+        emb_cfg_col1.metric("Modelo Activo", PIPELINE_CONFIG.get("ragflow_embedding_model", "N/A").split("/")[-1])
+        emb_cfg_col2.metric("Backend", PIPELINE_CONFIG.get("embedding_backend", "sentence-transformers"))
+        emb_cfg_col3.metric("Dispositivo", PIPELINE_CONFIG.get("embedding_device", "cpu").upper())
+
+        st.markdown("---")
+
+        # ── SECCIÓN 1: Estado del Modelo ─────────────────────────────────
+        with st.expander("🔍 Verificar Estado del Modelo", expanded=True):
+            st.info(
+                "Esta verificación carga el modelo en memoria por primera vez "
+                "(puede tardar 30–120 segundos en la primera ejecución mientras descarga ~1.2 GB de HuggingFace)."
+            )
+            if st.button("⚡ Ejecutar Verificación de Salud", key="btn_health"):
+                with st.spinner("Cargando modelo Granite Embedding R2…"):
+                    try:
+                        embedder_health = GraniteEmbedder()
+                        health = embedder_health.validate_model_health()
+                        if health["status"] == "ok":
+                            hc1, hc2, hc3, hc4 = st.columns(4)
+                            hc1.metric("✅ Estado", "OK")
+                            hc2.metric("Dimensión", health["dim"])
+                            hc3.metric("Backend", health["backend"])
+                            hc4.metric("Tiempo de Carga", f"{health['load_time_s']}s")
+                            st.success(f"Modelo `{health['model']}` listo y operativo.")
+                            st.caption(f"Muestra (primeros 5 valores): `{health['sample_preview']}`")
+                        else:
+                            st.error(f"❌ Error: {health.get('error', 'Desconocido')}")
+                    except Exception as exc:
+                        st.error(f"Error al verificar el modelo: {exc}")
+
+        st.markdown("---")
+
+        # ── SECCIÓN 2: Embedding de Texto de Prueba ───────────────────────
+        with st.expander("🧪 Embedding de Texto de Prueba", expanded=False):
+            st.caption("Ingresa un fragmento de texto legal para visualizar su representación vectorial.")
+            test_text = st.text_area(
+                "Texto legal de prueba:",
+                value="Artículo 1. La presente Ley tiene por objeto regular el uso de las tecnologías de la información.",
+                height=100,
+                key="test_text_area"
+            )
+            if st.button("🔬 Generar Embedding", key="btn_embed_test"):
+                if not test_text.strip():
+                    st.warning("Ingresa un texto antes de generar el embedding.")
+                else:
+                    with st.spinner("Generando vector…"):
+                        try:
+                            embedder_test = GraniteEmbedder()
+                            vec = embedder_test.embed_text(test_text)
+                            et_col1, et_col2 = st.columns(2)
+                            et_col1.metric("Dimensión del Vector", len(vec))
+                            et_col2.metric("Modelo", PIPELINE_CONFIG.get("ragflow_embedding_model", "N/A").split("/")[-1])
+                            st.caption("**Primeros 10 valores del vector:**")
+                            st.code(str([round(v, 6) for v in vec[:10]]), language="python")
+                            st.caption("**Últimos 5 valores del vector:**")
+                            st.code(str([round(v, 6) for v in vec[-5:]]), language="python")
+                        except Exception as exc:
+                            st.error(f"Error al generar embedding: {exc}")
+
+        st.markdown("---")
+
+        # ── SECCIÓN 3: Embeber Chunks del Pipeline ────────────────────────
+        with st.expander("📦 Embeber Chunks del Pipeline (hierarchical_chunks.json)", expanded=False):
+            st.caption(
+                "Selecciona un archivo de chunks para añadir el campo `embedding` a cada fragmento. "
+                "El archivo original **NO se modifica** — se genera `<nombre>_embedded.json`."
+            )
+
+            chunk_files = list(CHUNKS_DIR.rglob("hierarchical_chunks.json"))
+            if not chunk_files:
+                st.info("No hay archivos `hierarchical_chunks.json` en `normativas_chunks/`. "
+                        "Ejecuta primero el pipeline de conversión.")
+            else:
+                chunk_options = {str(f.relative_to(BASE_DIR)): f for f in chunk_files}
+                selected_chunk = st.selectbox(
+                    "Selecciona el archivo de chunks:",
+                    options=list(chunk_options.keys()),
+                    key="chunk_selector"
+                )
+                chunk_path = chunk_options[selected_chunk]
+
+                # Mostrar preview del archivo seleccionado
+                try:
+                    with chunk_path.open(encoding="utf-8") as _f:
+                        _raw = json.load(_f)
+                    _chunks_list = _raw["chunks"] if isinstance(_raw, dict) and "chunks" in _raw else _raw
+                    st.caption(f"Total de chunks en el archivo: **{len(_chunks_list)}**")
+                except Exception:
+                    st.caption("No se pudo leer el archivo para preview.")
+
+                if st.button("🧬 Generar Embeddings para este archivo", key="btn_embed_file"):
+                    progress_bar = st.progress(0, text="Iniciando…")
+                    status_text  = st.empty()
+
+                    def _update_progress(current: int, total: int) -> None:
+                        pct = current / total
+                        progress_bar.progress(pct, text=f"Procesando chunk {current}/{total}…")
+                        status_text.caption(f"Procesando: {current}/{total} chunks ({pct*100:.1f}%)")
+
+                    with st.spinner("Cargando modelo y generando embeddings…"):
+                        try:
+                            embedder_file = GraniteEmbedder()
+                            out_path = embedder_file.embed_chunks_file(
+                                input_path=chunk_path,
+                                progress_callback=_update_progress,
+                            )
+                            progress_bar.progress(1.0, text="✅ Completado")
+                            st.success(
+                                f"✅ Embeddings generados y guardados en:\n\n"
+                                f"`{out_path.relative_to(BASE_DIR)}`"
+                            )
+                            # Verificar dimensión
+                            with out_path.open(encoding="utf-8") as _fv:
+                                _ev = json.load(_fv)
+                            _ec = _ev["chunks"] if isinstance(_ev, dict) and "chunks" in _ev else _ev
+                            if _ec and "embedding" in _ec[0]:
+                                st.info(f"Dimensión de vectores confirmada: **{len(_ec[0]['embedding'])}**")
+                        except Exception as exc:
+                            st.error(f"Error al embeber chunks: {exc}")
+
+        st.markdown("---")
+
+        # ── SECCIÓN 4: Guía de integración con RAGFlow ────────────────────
+        with st.expander("📡 Guía de Integración con RAGFlow", expanded=False):
+            st.markdown("""
+**Paso 1 — Opción A: sentence-transformers (sin Ollama)**
+
+RAGFlow no consume `sentence-transformers` directamente. Para usar el modelo local,
+debes servir los embeddings a través de un servidor compatible con la API de OpenAI.
+Una opción es usar [litserve](https://github.com/Lightning-AI/litserve) o
+simplemente subir los chunks embebidos directamente al Knowledge Base de RAGFlow
+usando la API REST de ingesta.
+
+**Paso 1 — Opción B: Ollama (recomendado para producción)**
+```bash
+# En la máquina donde corre Ollama:
+ollama pull granite-embedding
+# Verificar:
+curl http://localhost:11434/api/embeddings -d '{"model":"granite-embedding","prompt":"test"}'
+```
+
+**Paso 2 — Registrar en RAGFlow UI**
+
+1. Ir a **Settings → Model Providers → Add Model**.
+2. Seleccionar tipo: **Embedding**.
+3. Base URL: `http://localhost:11434/v1` (Ollama OpenAI-compatible endpoint).
+4. Model ID: `granite-embedding` (o el nombre que configuraste en Ollama).
+5. API Key: cualquier valor (Ollama no la valida).
+
+**Paso 3 — Asignar al Knowledge Base**
+
+En el Knowledge Base de RAGFlow, cambia el *Embedding Model* al modelo recién registrado.
+
+> ⚠️ **Aviso de compatibilidad:** Si ya tienes documentos indexados con `granite-embedding-30m-english`,
+> RAGFlow detectará incompatibilidad (espacio vectorial diferente: 384-dim vs 768-dim) y
+> requerirá re-indexar los documentos. Esto es esperado y necesario para aprovechar
+> el contexto extendido de 8 192 tokens de R2.
+
+**Verificar via API:**
+```bash
+curl http://localhost:9380/api/v1/embedding_model/list -H "Authorization: Bearer <API_KEY>"
+```
+""")
+
+# ═══════════════════════════════════════════════════════════════════════
+# MÓDULO 7: AJUSTES DEL PIPELINE (CONFIGURACIÓN PERSISTENTE)
 # ═══════════════════════════════════════════════════════════════════════
 elif menu_selected == "Ajustes del Pipeline":
+
     st.header("⚙️ Parametros y Ajustes del Pipeline", divider="orange")
     st.caption("Configuracion persistente — Los valores se guardan en pipeline_config.json")
     
@@ -1055,9 +1246,58 @@ elif menu_selected == "Ajustes del Pipeline":
         value=PIPELINE_CONFIG.get("ragflow_api_url", "http://localhost:9380/api/v1")
     )
     ragflow_embedding = st.text_input(
-        "Modelo de Embeddings",
-        value=PIPELINE_CONFIG.get("ragflow_embedding_model", "granite-embedding-30m-english")
+        "Modelo de Embeddings (Hugging Face ID u Ollama name)",
+        value=PIPELINE_CONFIG.get("ragflow_embedding_model", "ibm-granite/granite-embedding-english-r2")
     )
+
+    st.markdown("---")
+    st.markdown("### 🧬 Configuracion de Granite Embedding R2")
+    st.caption("Parámetros del motor de embeddings semánticos (granite_embedder.py)")
+
+    emb_backend_options = ["sentence-transformers", "ollama"]
+    emb_backend_current = PIPELINE_CONFIG.get("embedding_backend", "sentence-transformers")
+    emb_backend_idx = emb_backend_options.index(emb_backend_current) if emb_backend_current in emb_backend_options else 0
+    emb_backend = st.selectbox(
+        "Backend de Embeddings",
+        options=emb_backend_options,
+        index=emb_backend_idx,
+        help=(
+            "**sentence-transformers** → corre el modelo localmente en Python (recomendado para desarrollo). "
+            "**ollama** → usa Ollama como API local en localhost:11434 (recomendado para producción con RAGFlow)."
+        )
+    )
+
+    emb_device_options = ["cpu", "cuda", "mps"]
+    emb_device_current = PIPELINE_CONFIG.get("embedding_device", "cpu")
+    emb_device_idx = emb_device_options.index(emb_device_current) if emb_device_current in emb_device_options else 0
+    emb_device = st.selectbox(
+        "Dispositivo de Cómputo",
+        options=emb_device_options,
+        index=emb_device_idx,
+        help="**cpu** = universal | **cuda** = GPU NVIDIA | **mps** = GPU Apple Silicon",
+        disabled=(emb_backend == "ollama")
+    )
+
+    emb_batch = st.number_input(
+        "Tamaño de Lote (chunks por iteración)",
+        min_value=1, max_value=256, step=8,
+        value=PIPELINE_CONFIG.get("embedding_batch_size", 32),
+        help="Valores altos (64–128) son más rápidos pero requieren más RAM/VRAM.",
+        disabled=(emb_backend == "ollama")
+    )
+
+    if emb_backend == "sentence-transformers":
+        st.info(
+            "📦 El modelo se descargará automáticamente desde Hugging Face la primera vez "
+            f"(`~1.2 GB` para `granite-embedding-english-r2`). "
+            "Requiere `sentence-transformers>=3.0.0` y `torch>=2.1.0` instalados en el entorno virtual."
+        )
+    else:
+        st.info(
+            "🦙 **Modo Ollama activo.** Asegúrate de que Ollama esté corriendo en `localhost:11434` "
+            "y de que el modelo de embeddings esté disponible. "
+            "Esto permite integración directa con RAGFlow via OpenAI-compatible endpoint."
+        )
     
     st.markdown("---")
     
@@ -1072,7 +1312,10 @@ elif menu_selected == "Ajustes del Pipeline":
             "granite_temperature": granite_temp,
             "granite_context_window": granite_ctx,
             "ragflow_api_url": ragflow_url,
-            "ragflow_embedding_model": ragflow_embedding
+            "ragflow_embedding_model": ragflow_embedding,
+            "embedding_backend": emb_backend,
+            "embedding_batch_size": int(emb_batch),
+            "embedding_device": emb_device,
         }
         save_pipeline_config(new_config)
         st.success("✅ Configuracion guardada en `pipeline_config.json`.")

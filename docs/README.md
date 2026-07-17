@@ -1,25 +1,33 @@
-# JullBrain — Documentación
+# JullBrain — Documentación Técnica
 
-Bienvenido a la documentación técnica de JullBrain V-2.0.
+Bienvenido a la documentación técnica de JullBrain **V-2.1**.
 
-## Índice
+## Índice de Documentación
 
 | Documento | Descripción |
 |---|---|
-| `ARCHITECTURE.md` | Arquitectura completa del sistema, pipeline, módulos, flujo de datos |
-| `../FRAMEWORK.md` | Mapa del repositorio organizado como framework IBM |
-| `../.AGENTS/_index.md` | Índice maestro de skills para asistentes de IA |
-| `../.AGENTS/jullbrain-pdf-to-rag/SKILL.md` | Skill: Pipeline PDF → RAG |
-| `../.AGENTS/jullbrain-legalizer/SKILL.md` | Skill: Legalizer + Chunker |
-| `../.AGENTS/jullbrain-metadata/SKILL.md` | Skill: Metadata extraction |
-| `../.AGENTS/jullbrain-validator/SKILL.md` | Skill: Validador de integridad |
-| `../.AGENTS/references/docling-troubleshooting.md` | Guía de errores de Docling |
-| `../.AGENTS/references/section-numbering-extension.md` | Soporte ISO/NIST sections |
-| `../README.md` | README principal del proyecto |
+| [`ARCHITECTURE.md`](ARCHITECTURE.md) | Arquitectura completa V-2.1: pipeline de 6 etapas, 7 paneles Streamlit, tabla `pipeline_config.json` |
+| [`../FRAMEWORK.md`](../FRAMEWORK.md) | Mapa del repositorio organizado como framework IBM |
+| [`../README.md`](../README.md) | README principal del proyecto |
+
+---
+
+## Skills de IA (`.agents/skills/`)
+
+| Skill | Descripción |
+|---|---|
+| [`conversor-pdf-a-rag`](../.agents/skills/conversor-pdf-a-rag/SKILL.md) | Pipeline maestro: PDF → Markdown → JSON → RAGFlow |
+| [`analizador-jerarquia-legal`](../.agents/skills/analizador-jerarquia-legal/SKILL.md) | Depuración de `legalizer.py`: jerarquía TÍTULO/CAPÍTULO/Artículo |
+| [`extractor-metadata-legal`](../.agents/skills/extractor-metadata-legal/SKILL.md) | YAML frontmatter, Gaceta Oficial, SHA-256 |
+| [`validador-calidad-ocr`](../.agents/skills/validador-calidad-ocr/SKILL.md) | Integridad de artículos, validación cruzada PyMuPDF |
+| [`granite-embedder`](../.agents/skills/granite-embedder/SKILL.md) | **[NUEVO V-2.1]** Motor de embeddings semánticos Granite R2 multilingüe |
+| [`controlador-iniciador-bat`](../.agents/skills/controlador-iniciador-bat/SKILL.md) | Administración del orquestador `.bat` |
+
+---
 
 ## Guías Rápidas
 
-- [Primeros pasos](../README.md#instalación)
-- [Modos de ejecución](../README.md#modos-de-ejecución)
-- [Formato de salida](../README.md#formato-de-salida)
-- [Integración RAG](../README.md#integración-con-sistemas-rag)
+- [Instalación y ejecución](../README.md#instalación-y-ejecución)
+- [Módulos del sistema](../README.md#módulos-del-sistema)
+- [Compatibilidad IBM Granite](../README.md#compatibilidad-con-ibm-granite)
+- [Motor de Embeddings](../README.md#nota-sobre-el-modelo-de-embeddings)

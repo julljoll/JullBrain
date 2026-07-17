@@ -15,7 +15,8 @@ src/                                *.py (raíz del proyecto)
   ├── core/                         convert_normativas.py   ← Orquestador
   ├── pipeline/                     legalizer.py            ← Jerarquía legal
   ├── pipeline/                     metadata_extractor.py   ← YAML frontmatter
-  └── pipeline/                     validator.py            ← Validación de integridad
+  ├── pipeline/                     validator.py            ← Validación de integridad
+  └── pipeline/                     granite_embedder.py     ← Embeddings semánticos R2
 
 scripts/                            orquestador_JullBrain.bat  ← Lanzador Automático
 
@@ -72,6 +73,7 @@ IBM DOCLING/
 │   📄 [src/pipeline] legalizer.py             ← Estructurador legal
 │   📄 [src/pipeline] metadata_extractor.py    ← Extractor de metadatos
 │   📄 [src/pipeline] validator.py             ← Validador de integridad
+│   📄 [src/pipeline] granite_embedder.py      ← Embeddings semánticos Granite R2
 │
 │   📄 [config]   requirements.txt             ← Dependencias Python
 │   📄 [config]   .gitignore                   ← Exclusiones git

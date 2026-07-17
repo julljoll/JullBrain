@@ -7,6 +7,9 @@
   "granite_model": "granite4.1:8b",
   "granite_temperature": 0.15,
   "ragflow_api_url": "http://localhost:9380/api/v1",
-  "ragflow_embedding_model": "granite-embedding-30m-english",
+  "ragflow_embedding_model": "ibm-granite/granite-embedding-311m-multilingual-r2",
+  "embedding_backend": "sentence-transformers",
+  "embedding_batch_size": 32,
+  "embedding_device": "cpu",
   "granite_context_window": 128000
 }
