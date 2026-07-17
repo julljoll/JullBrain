@@ -49,8 +49,10 @@ normativas_rag/                                          normativas_chunks/
 | `convert_normativas.py` | Motor principal: Docling + OCR + HierarchicalChunker | `jullbrain-pdf-to-rag` |
 | `legalizer.py` | Detecta TÍTULO/CAPÍTULO/Artículo para guiar al chunker | `jullbrain-legalizer` |
 | `metadata_extractor.py` | YAML frontmatter con Gaceta, fecha, tipo, SHA-256 | `jullbrain-metadata` |
-| `validator.py` | Verifica secuencia, duplicados, artículos corruptos | `jullbrain-validator` |
-| `orquestador_JullBrain.bat`| Orquestador Docker (Auto-instala Chocolatey/Docker) | `jullbrain-pdf-to-rag` |
+| `validator.py` | Verifica secuencia, duplicados, artículos corruptos + validación cruzada PDF | `jullbrain-validator` |
+| `pipeline_config.json` | Configuración persistente del pipeline (OCR, umbrales, Granite, RAGFlow) | — |
+| `app.py` | Dashboard Streamlit: 6 módulos (Arquitectura, Conversiones, Integridad, Custodia, Editor, Ajustes) | — |
+| `orquestador_JullBrain.bat`| Orquestador (lanza Streamlit con entorno virtual) | `jullbrain-pdf-to-rag` |
 
 > **NOTA IMPORTANTE**: El antiguo módulo `chunker.py` fue deprecado y eliminado en favor del `HierarchicalChunker` nativo de Docling.
 
@@ -63,6 +65,25 @@ normativas_rag/                                          normativas_chunks/
 **Hierarchical Chunking** — Integración nativa con el motor de fragmentación de IBM Docling, generando salidas en `JSON` con bounding boxes, jerarquía y categorías detectadas por IA.
 
 **Recuperación automática de fallos** — Si un lote falla con OCR activo, el sistema reintenta automáticamente sin OCR en ese lote.
+
+**Doble Validación Cruzada** — El validator.py extrae artículos del PDF original con PyMuPDF y los contrasta contra el Markdown generado por el legalizer, asegurando que ningún artículo se pierda en la conversión (Principio 10: Error Cero).
+
+**Cadena de Custodia Digital** — Módulo integrado en el dashboard que registra y verifica hashes SHA-256 de todos los documentos del pipeline, con exportación de acta forense (Requisito R7, ISO/IEC 27037).
+
+**Configuración Persistente** — Todos los parámetros del pipeline se almacenan en `pipeline_config.json` y se gestionan desde el dashboard de Streamlit (Principio 11).
+
+---
+
+## Compatibilidad con IBM Granite 4.0
+
+| Parámetro | Valor Recomendado |
+|-----------|-------------------|
+| Modelo de Inferencia | `granite4.1:8b` (piloto) — Granite 4.0 cuando esté disponible |
+| Temperatura Jurídica | ≤ 0.2 (fija, no configurable por usuario final) |
+| Ventana de Contexto | 128,000 tokens |
+| Modelo de Embeddings | `granite-embedding-30m-english` |
+| Formato de Chunks | `hierarchical_chunks.json` (IBM Docling HierarchicalChunker) |
+| Abstención Obligatoria | Sí — el sistema dice "no encontrado" si no hay respaldo documental |
 
 ---
 
@@ -100,15 +121,16 @@ JullBrain/
 ├── normativas_pdf/              [ENTRADA]   PDFs originales
 ├── normativas_rag/              [SALIDA]    Markdown completo por ley (YAML + TOC)
 ├── normativas_chunks/           [SALIDA]    JSON (hierarchical_chunks.json) para RAGFlow
-├── .conversion_cache/           [SISTEMA]   Caché SHA-256
-├── docker-compose.yml           [SISTEMA]   Configuración del contenedor y volúmenes
-├── Dockerfile                   [SISTEMA]   Receta de la imagen base (tesseract + dependencias)
+├── .conversion_cache/           [SISTEMA]   Caché SHA-256 + manifest.json
+├── .streamlit/config.toml       [SISTEMA]   Tema visual del dashboard
 │
+├── app.py                       Dashboard Streamlit (6 módulos)
 ├── convert_normativas.py        Motor principal + Hierarchical Chunking
 ├── legalizer.py                 Jerarquía legal
 ├── metadata_extractor.py        YAML frontmatter + metadata legal
-├── validator.py                 Validación de integridad
-├── orquestador_JullBrain.bat       Orquestador interactivo (Auto-instalador Docker)
+├── validator.py                 Validación de integridad + validación cruzada PDF
+├── pipeline_config.json         Configuración persistente del pipeline
+├── orquestador_JullBrain.bat    Orquestador (lanza Streamlit con venv)
 │
-└── .AGENTS/                     [IA]        Skills de asistencia de IA (jullbrain-*)
+└── .AGENTS/                     [IA]        Skills, fases y directrices del agente
 ```

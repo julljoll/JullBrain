@@ -95,6 +95,8 @@ Todas las habilidades técnicas y de diseño descritas a continuación están fu
 7. **Sin fabricación de antecedentes locales** — los antecedentes UFT/UNELLEZ se mantienen como placeholder verificado, nunca inventados.
 8. **RAG no es garantía por sí sola** — cada entregable debe recordar que la arquitectura RAG reduce pero no elimina el riesgo sin verificación humana.
 9. **Formato de Documentos de Salida (Encabezado y Footer)** — El encabezado de cada documento Markdown generado por Docling debe coincidir exactamente con el banner de presentación del orquestador (`orquestador_JullBrain.bat`), y no se debe inyectar ningún pie de página (footer vacío) al final de los archivos.
+10. **Doble Validación Cruzada (Error Cero)** — Todo documento que pase del pipeline de conversión al estado "OK" debe haber sido validado por al menos dos métodos independientes de conteo de artículos: (a) el regex del legalizer sobre el Markdown generado y (b) extracción directa del PDF original con PyMuPDF (`cross_validate_against_pdf()` en `validator.py`). Ningún documento se considera definitivamente correcto sin esta doble verificación.
+11. **Configuración Persistente del Pipeline** — Todo parámetro del pipeline que afecte la calidad del output RAG (OCR, umbrales de calidad, temperatura de inferencia, modelo de embeddings) debe estar almacenado en `pipeline_config.json`, nunca en valores hardcodeados. Los cambios de configuración realizados desde el dashboard de Streamlit se persisten automáticamente.
 
 ---
 

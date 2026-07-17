@@ -1,0 +1,12 @@
+{
+  "ocr_activo": true,
+  "generar_chunks": true,
+  "min_article_chars": 50,
+  "quality_threshold_critical": 0.90,
+  "quality_threshold_warning": 0.95,
+  "granite_model": "granite4.1:8b",
+  "granite_temperature": 0.15,
+  "ragflow_api_url": "http://localhost:9380/api/v1",
+  "ragflow_embedding_model": "granite-embedding-30m-english",
+  "granite_context_window": 128000
+}

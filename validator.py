@@ -5,6 +5,7 @@ Validador de integridad de articulos para el sistema RAG de Normativas Venezolan
 
 Verifica que los archivos Markdown generados contengan todos los articulos
 sin saltos, duplicados ni articulos con extraccion fallida.
+Incluye doble validación cruzada contra el PDF original (PyMuPDF).
 
 Autor: Jull Ortiz - Copyright (c) 2026 Apache License 2.0
 """
@@ -13,6 +14,7 @@ import re
 import logging
 from pathlib import Path
 from dataclasses import dataclass, field
+from typing import Optional
 
 logger = logging.getLogger("validator")
 
@@ -50,6 +52,7 @@ class ValidationReport:
     has_toc:             bool  = False
     has_frontmatter:     bool  = False
     overall_status:      str   = "UNKNOWN"  # OK | WARNING | ERROR
+    cross_validation:    Optional[dict] = None  # {pdf_articles, md_articles, missing_in_md, extra_in_md}
 
     @property
     def quality_score(self) -> float:
@@ -214,6 +217,88 @@ def validate_md_file(md_path: str) -> ValidationReport:
         report.overall_status = "OK"
 
     return report
+
+
+def cross_validate_against_pdf(pdf_path: str, md_path: str) -> dict:
+    """
+    Doble validación cruzada: extrae artículos del PDF original
+    con PyMuPDF y los contrasta con los detectados en el Markdown.
+    Retorna diccionario con discrepancias para revisión humana.
+    
+    Este método implementa el Principio 10 (Doble Validación Cruzada)
+    del proyecto JullBrain: todo documento debe ser validado por al menos
+    dos métodos independientes de conteo de artículos.
+    """
+    result = {
+        'pdf_articles': [],
+        'md_articles': [],
+        'missing_in_md': [],
+        'extra_in_md': [],
+        'match': False,
+        'error': None
+    }
+    
+    # 1. Extraer artículos del Markdown
+    md_file = Path(md_path)
+    if md_file.exists():
+        md_text = md_file.read_text(encoding='utf-8', errors='replace')
+        md_articles = extract_article_blocks(md_text)
+        result['md_articles'] = sorted(set(a['number'] for a in md_articles))
+    else:
+        result['error'] = f"Archivo MD no encontrado: {md_path}"
+        return result
+    
+    # 2. Extraer artículos directamente del PDF con PyMuPDF
+    pdf_file = Path(pdf_path)
+    if not pdf_file.exists():
+        result['error'] = f"PDF original no encontrado: {pdf_path}"
+        return result
+    
+    try:
+        import fitz  # PyMuPDF
+        doc = fitz.open(str(pdf_file))
+        full_text = ""
+        for page in doc:
+            full_text += page.get_text() + "\n"
+        doc.close()
+        
+        # Patrón independiente del legalizer para detección directa
+        pdf_art_pattern = re.compile(
+            r'(?:^|\n)\s*(?:Art[íi]culo|Art\.?)\s+(\d+)',
+            re.IGNORECASE
+        )
+        pdf_nums = sorted(set(int(m.group(1)) for m in pdf_art_pattern.finditer(full_text)))
+        result['pdf_articles'] = pdf_nums
+        
+    except ImportError:
+        result['error'] = "PyMuPDF (fitz) no disponible para validación cruzada"
+        return result
+    except Exception as e:
+        result['error'] = f"Error leyendo PDF: {e}"
+        return result
+    
+    # 3. Calcular discrepancias
+    pdf_set = set(result['pdf_articles'])
+    md_set = set(result['md_articles'])
+    
+    result['missing_in_md'] = sorted(pdf_set - md_set)
+    result['extra_in_md'] = sorted(md_set - pdf_set)
+    result['match'] = (pdf_set == md_set)
+    
+    if result['missing_in_md']:
+        logger.warning(
+            f"[CROSS-VAL] {pdf_file.name}: {len(result['missing_in_md'])} artículos "
+            f"en PDF no encontrados en MD: {result['missing_in_md'][:10]}"
+        )
+    if result['extra_in_md']:
+        logger.warning(
+            f"[CROSS-VAL] {pdf_file.name}: {len(result['extra_in_md'])} artículos "
+            f"en MD no encontrados en PDF: {result['extra_in_md'][:10]}"
+        )
+    if result['match']:
+        logger.info(f"[CROSS-VAL] {pdf_file.name}: Validación cruzada OK — {len(pdf_set)} artículos coinciden.")
+    
+    return result
 
 
 def validate_directory(md_dir: str) -> list[ValidationReport]:
