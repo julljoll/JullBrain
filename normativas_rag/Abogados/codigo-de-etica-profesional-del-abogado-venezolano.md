@@ -9,7 +9,7 @@ hash_pdf_sha256: "b6f6b11ac30b9152247f43325da10324fdd601b6a28a467d235327c054933d
 autor_procesamiento: "Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)"
 sistema: "IBM Docling + LegalProcessor v2"
 version_md: "2.0"
-procesado_en: "2026-07-16T15:34:03"
+procesado_en: "2026-07-17T19:11:42"
 ---
 # 🏛️ PROCESAMIENTO ESTRUCTURADO DE NORMATIVAS Y LEYES
 

@@ -1,3 +1,16 @@
+---
+tipo_instrumento: "Norma"
+nombre_oficial: "ACPO Good Practice Guide ACPO Good Practice Guide Good Good Practice Practice Guide Guide for Digital Evidence for Digital Evidence r r Digital Digital Evidence Evidence March 2012"
+gaceta_oficial: ""
+fecha_publicacion: ""
+articulos_detectados: 0
+categorias: ["informatico"]
+hash_pdf_sha256: "3bfbfef11be8dd338d056204389db46b69d19f3ee1459943b80d416c11cb6128"
+autor_procesamiento: "Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)"
+sistema: "IBM Docling + LegalProcessor v2"
+version_md: "2.0"
+procesado_en: "2026-07-18T12:52:28"
+---
 # 🏛️ PROCESAMIENTO ESTRUCTURADO DE NORMATIVAS Y LEYES
 
 > [!NOTE]
