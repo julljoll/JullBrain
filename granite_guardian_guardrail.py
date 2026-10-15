@@ -59,8 +59,8 @@ class GraniteGuardianAuditor:
         """
         query_lower = user_query.lower()
         forbidden_keywords = [
-            "ignora las instrucciones", "ignore previous instructions",
-            "borra la base de datos", "drop database", "rm -rf",
+            "ignora las instrucciones", "ignore previous instructions", "ignora todas las",
+            "ignora las leyes", "borra la base de datos", "drop database", "rm -rf",
             "system prompt", "delete all tables"
         ]
 

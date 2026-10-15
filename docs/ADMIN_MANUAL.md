@@ -1,59 +1,58 @@
-# Manual de Administración y Operaciones — JullBrain Enterprise
+# Manual de Administración y Operaciones — JullBrain V-2.0
 
 ---
 
-## 🐋 1. Operación de Contenedores con Podman
+## 🏛️ 1. Operación Local Nativa (100% Air-Gapped)
 
-JullBrain está diseñado para operar nativamente en entornos **Podman Rootless** sin depender de Docker ni servicios en la nube.
+JullBrain V-2.0 opera nativamente en **Python 3.12** sin depender de contenedores (Docker/Podman) ni servicios en la nube. Todas las operaciones se ejecutan de manera aislada y autónoma en la estación de trabajo o servidor local.
 
-### Construcción de la Imagen OCI
+### Inicio del Sistema
 
-- **Windows:**
+- **En Windows:**
+  Doble clic en:
   ```cmd
-  build_podman.bat
+  orquestador_JullBrain.bat
   ```
-- **Linux:**
+  Esto inicializará el entorno virtual `docling_env` y abrirá la **Interfaz Web HTML5** en:
+  `http://localhost:8050`
+
+- **En Linux / Servidor:**
   ```bash
-  chmod +x build_podman.sh
-  ./build_podman.sh
+  source docling_env/bin/activate
+  python app.py
   ```
 
 ---
 
-## 📦 2. Exportación e Importación de Imágenes Air-Gapped
+## 📤 2. Ingesta y Gestión de Normativas (`RAG/datos_brutos`)
 
-Para trasladar el sistema a un equipo o servidor sin conexión a Internet:
-
-### Exportar en el Equipo de Origen:
-- **Windows:** Ejecutar `export_image.bat`
-- **Linux:** Ejecutar `./export_image.sh`
-- *Resultado:* Se generará el archivo único portátil `jullbrain.tar`.
-
-### Importar en el Equipo de Destino:
-1. Copia el archivo `jullbrain.tar` al nuevo equipo.
-2. Ejecuta el script de importación:
-   - **Windows:** `import_image.bat`
-   - **Linux:** `./import_image.sh`
+Para incorporar leyes o sentencias al corpus:
+1. Desde la **Interfaz Web**: pestaña *Carga de Normativas*, selecciona la categoría jurídica y sube el PDF. El navegador calcula automáticamente el hash SHA-256 para la cadena de custodia digital antes de guardar el archivo en `RAG/datos_brutos/<categoría>/`.
+2. Desde **Consola / Explorador**: copia directamente los PDFs en `RAG/datos_brutos/<Categoría>/` (ej: `Penal`, `Civil`, `Informatica`).
 
 ---
 
-## 🚀 3. Orquestación Completa con Podman Compose
+## ☁️ 3. Operación en la Nube con Google Colab
 
-Para lanzar el stack completo (JullBrain API, Open WebUI, OpenSearch y PostgreSQL + pgvector):
+Para procesar grandes volúmenes de documentos legales con aceleración GPU sin carga local:
+1. Abre el cuaderno interactivo [`JullBrain_Colab.ipynb`](../JullBrain_Colab.ipynb) en Google Colab con el botón oficial.
+2. Selecciona **GPU NVIDIA T4** en el entorno de ejecución.
+3. Ejecuta las celdas para sincronizar con GitHub, procesar los PDFs mediante Docling, validar la jerarquía legal y generar los embeddings semánticos.
 
+---
+
+## 🔐 4. Auditoría, Integridad SHA-256 y Cadena de Custodia
+
+JullBrain mantiene trazabilidad forense continua conforme al estándar **ISO/IEC 27037**:
+- Cada expediente / cuaderno está sellado con un hash criptográfico **SHA-256 inmutable**. Si cualquier archivo es manipulado externamente, el sistema bloquea el acceso inmediatamente lanzando `NotebookIntegrityError`.
+- Los eventos de creación, lectura, carga de documentos y consultas RAG quedan registrados en el log append-only [`audit_trail.jsonl`](../audit_trail.jsonl).
+
+---
+
+## 🧪 5. Verificación de Integridad del Sistema (QA Testing)
+
+Para validar el funcionamiento del sistema en cualquier momento:
 ```bash
-podman-compose -f compose.yaml up -d
+python -m unittest discover tests
 ```
-
-### Puertos Expuestos:
-- **`8050`:** JullBrain Administrative Dashboard
-- **`3000`:** Interfaz de usuario Open WebUI
-- **`9200`:** Motor de búsqueda OpenSearch
-- **`5432`:** Base de datos PostgreSQL + pgvector
-
----
-
-## 🔐 4. Auditoría e Inspección de Seguridad
-
-Para auditar la cadena de custodia y la verificación de firmas SHA-256:
-- Revisa el registro de auditoría en la base de datos PostgreSQL (`audit_logs`) o en el archivo append-only local [`audit_trail.jsonl`](file:///c:/VS%20CODE/CODIGO/JullBrain/audit_trail.jsonl).
+Certifica en menos de 10 segundos las 24 pruebas críticas de jerarquía jurídica, algoritmos de búsqueda híbrida, guardrails anti-alucinación y aislamiento *air-gapped*.

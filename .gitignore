@@ -33,6 +33,13 @@ scratch/temp_*
 scratch/*.pdf
 scratch/*.docx
 
+# Runtime storage
+RAG/notebooks_db/*
+!RAG/notebooks_db/.gitkeep
+RAG/lightrag_db/*
+!RAG/lightrag_db/.gitkeep
+audit_trail.jsonl
+
 # Sistema operativo
 .DS_Store
 Thumbs.db

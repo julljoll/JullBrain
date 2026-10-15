@@ -27,13 +27,19 @@ except ImportError:
 class TestFastAPIEndpoints(unittest.TestCase):
     def setUp(self):
         if not FASTAPI_AVAILABLE:
-            self.skipTest("FastAPI no está instalado en el entorno local. Se probará dentro del contenedor Podman.")
+            self.skipTest("FastAPI no está instalado en el entorno local.")
         self.client = TestClient(app)
 
     def test_root_endpoint(self):
-        response = self.client.get("/")
+        # 1. Prueba API JSON
+        response = self.client.get("/", headers={"Accept": "application/json"})
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json()["ui"], "Open WebUI Official Interface")
+
+        # 2. Prueba Interfaz Web HTML5
+        res_web = self.client.get("/")
+        self.assertEqual(res_web.status_code, 200)
+        self.assertIn("text/html", res_web.headers.get("content-type", ""))
 
     def test_health_endpoint(self):
         response = self.client.get("/health")

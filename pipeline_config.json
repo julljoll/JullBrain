@@ -22,11 +22,11 @@
   "guardian_enabled": true,
   "guardian_model": "granite3.1-dense:8b-guardian",
   "guardian_confidence_threshold": 0.85,
-  "opensearch_enabled": true,
-  "opensearch_host": "opensearch",
+  "opensearch_enabled": false,
+  "opensearch_host": "localhost",
   "opensearch_port": 9200,
-  "postgres_enabled": true,
-  "postgres_host": "postgres",
+  "postgres_enabled": false,
+  "postgres_host": "localhost",
   "postgres_port": 5432,
   "postgres_db": "jullbrain_db"
 }

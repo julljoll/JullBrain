@@ -1,89 +1,115 @@
-# JullBrain Enterprise — Legal Document Intelligence Platform
+# ⚖️ JullBrain V-2.0 — Legal-RAG & Informática Forense
 
-> **Plataforma Enterprise de Inteligencia Documental Legal estilo NotebookLM especializada en departamentos jurídicos, cumplimiento normativo, auditoría y gobierno corporativo. Operación 100% LOCAL (air-gapped), impulsada por IBM Granite 3.3 8B, IBM Docling, Open WebUI, OpenSearch y PostgreSQL + pgvector.**
+> **Plataforma Enterprise de Inteligencia Documental Legal especializada en normativas, auditoría forense y control judicial venezolano. Operación dual: 100% LOCAL NATIVO OFFLINE (Air-Gapped) y aceleración en la nube con GOOGLE COLAB (GPU T4 gratuita). Impulsada por IBM Granite 3.3 8B, IBM Docling, Hierarchical Chunking y validación criptográfica SHA-256.**
 
-[![Python 3.11](https://img.shields.io/badge/Python-3.11-blue)](https://python.org) [![Licencia Apache 2.0](https://img.shields.io/badge/Licencia-Apache%202.0-blue.svg)](LICENSE) [![Podman Desktop](https://img.shields.io/badge/Podman-Rootless%20OCI-purple)](https://podman-desktop.io) [![IBM Granite](https://img.shields.io/badge/IBM-Granite%203.3%208B-blue)](https://huggingface.co/ibm-granite) [![Open WebUI](https://img.shields.io/badge/UI-Open%20WebUI-green)](https://github.com/open-webui/open-webui)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/julljoll/JullBrain/blob/main/JullBrain_Colab.ipynb)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://python.org)
+[![Licencia Apache 2.0](https://img.shields.io/badge/Licencia-Apache%202.0-blue.svg)](LICENSE)
+[![IBM Granite](https://img.shields.io/badge/IBM-Granite%203.3%208B-purple.svg)](https://huggingface.co/ibm-granite)
+[![IBM Docling](https://img.shields.io/badge/Engine-IBM%20Docling-green.svg)](https://github.com/docling-project/docling)
+[![Air-Gapped](https://img.shields.io/badge/Security-100%25%20Air--Gapped-success.svg)](#)
 
 ---
 
 ## 🏛️ Descripción General
 
-**JullBrain Enterprise** transforma documentos complejos (contratos, reglamentos, gacetas oficiales, normas ISO, expedientes judiciales) en una base de conocimiento activa sin alucinaciones.
+**JullBrain V-2.0** transforma leyes complejas (Constitución, Códigos, Gacetas Oficiales, Resoluciones y Manuales Forenses) en una base de conocimientos estructurada con estricto control de jerarquía jurídica y cero alucinaciones.
 
-### 🌟 Pilares de la Arquitectura Enterprise:
-1. **Inferencia 100% Local (CPU Optimized):** Inferencia con `ibm-granite/granite-3.3-8b-instruct-GGUF` calibrada para servidores con 16 GB o 32 GB RAM.
-2. **Componentes Oficiales IBM:** Extracción con IBM Docling + DocTags, Embeddings con IBM Granite Embedding 311M Multilingual R2, Guardrails con IBM Granite Guardian y IBM Prompt Templates.
-3. **Interfaz Oficial (Open WebUI):** Chat documental, workspaces, notebooks y colaboración impulsados por Open WebUI vía API REST de Pipelines.
-4. **Búsqueda Híbrida OpenSearch:** Motor léxico BM25 + k-NN Vectorial + Fusión Recíproca de Rangos (RRF) + Cross-Encoder Reranker.
-5. **Cuadernos Independientes (Expedientes):** Firma criptográfica inmutable **SHA-256** por expediente y borrado transaccional con rollback.
-6. **Reglas RAG Estrictas Cero Alucinación:** `temperature=0.0`, citas obligatorias estructuradas y aviso automático de falta de evidencia o contradicciones normativas.
-7. **Contenerización Podman Multi-Etapa:** Scripts automáticos de compilación, exportación e importación `.bat` (Windows) y `.sh` (Linux) para despliegue en entornos *air-gapped*.
+### 🌟 Pilares de la Arquitectura:
+
+1. **Operación 100% Local Nativa (Air-Gapped):** Sin dependencias de Docker ni Podman. Corre nativamente en Python con entorno virtual local (`docling_env`) garantizando que ninguna evidencia o consulta salga a internet.
+2. **Interfaz Web HTML5/CSS3 Unificada (`http://localhost:8050`):** Centro de operaciones visual con modo oscuro cyber-legal, consola de terminal en tiempo real, gestor de subida de PDFs con cálculo previo de SHA-256 en cliente, y asistente RAG interactivo.
+3. **Aceleración Google Colab en 1 Clic:** Cuaderno interactivo [`JullBrain_Colab.ipynb`](JullBrain_Colab.ipynb) listo para procesar volúmenes masivos de leyes utilizando GPU NVIDIA T4 gratuita en la nube.
+4. **Motor Híbrido Local Autónomo:** Búsqueda Léxica BM25 + Búsqueda Vectorial por Similitud Coseno con NumPy + Fusión Recíproca de Rangos (RRF) + Cross-Encoder Reranker sin necesidad de levantar clústeres externos.
+5. **Cadena de Custodia e Integridad Forense:** Firma criptográfica inmutable **SHA-256** por expediente y doble validación cruzada PDF vs Markdown (Principio de Error Cero).
+6. **Reglas RAG Estrictas Anti-Alucinación:** `temperature=0.0`, verificación de citas obligatoria y guardrail de seguridad con IBM Granite Guardian.
 
 ---
 
-## 🛠️ Estructura Completa del Proyecto
+## 🛠️ Estructura del Repositorio
 
 ```text
 JullBrain/
-├── app.py                         # Dashboard administrativo Plotly Dash + Flask + DBC
-├── convert_normativas.py          # Ingesta documental con IBM Docling (PDF, DOCX, PPTX, XLSX, TXT, CSV, HTML, MD, EPUB, imágenes)
-├── legalizer.py                   # Chunking jerárquico legal y detección regex de artículos
-├── metadata_extractor.py         # Extracción de YAML Frontmatter y hash SHA-256
-├── validator.py                   # Validación cruzada PDF vs Markdown e indicador de confianza
-├── granite_embedder.py            # Generación de embeddings con IBM Granite Embedding R2
-├── granite_guardian_guardrail.py # Guardrails de seguridad IBM Granite Guardian
-├── opensearch_indexer.py         # Motor de búsqueda híbrida BM25 + Vector + RRF + Reranker
-├── notebook_manager.py            # Gestor de Cuadernos/Expedientes con SHA-256 y Rollback
-├── audit_logger.py                # Registro de auditoría inmutable (RBAC, JWT, UTC, IP)
-├── openwebui_pipeline.py          # Pipeline de integración con Open WebUI API
-├── db_schema.sql                  # Esquema relacional y vectorial PostgreSQL + pgvector
+├── app.py                         # Backend API REST FastAPI y Servidor Web HTML5
+├── web/                           # Interfaz Web Unificada (HTML5, CSS3 Cyber-Legal, JS)
+│   ├── index.html                 # Centro de Control, Drag-and-Drop y Consultas RAG
+│   ├── styles.css                 # Diseño moderno Dark Mode con acentos verde y dorado
+│   └── app.js                     # Lógica cliente, cálculo SHA-256 y streaming de logs
+├── JullBrain_Colab.ipynb          # Cuaderno Jupyter oficial para Google Colab con GPU T4
+├── orquestador_JullBrain.bat      # Lanzador y Centro de Control nativo para Windows
+├── convert_normativas.py          # Ingesta con IBM Docling + Hierarchical Chunking
+├── legalizer.py                   # Jerarquía legal venezolana (Libro, Título, Capítulo, Artículo)
+├── metadata_extractor.py         # Extracción de YAML Frontmatter y SHA-256
+├── validator.py                   # Doble validación cruzada PDF vs MD y reporte de calidad
+├── granite_embedder.py            # Embeddings semánticos con IBM Granite Embedding R2
+├── granite_guardian_guardrail.py # Guardrails de seguridad y auditoría de anclaje
+├── opensearch_indexer.py         # Motor Híbrido Local (BM25 + Vectores NumPy + RRF + Reranker)
+├── notebook_manager.py            # Gestor de Cuadernos/Expedientes con firma SHA-256
+├── audit_logger.py                # Registro inmutable de eventos y trazabilidad forense
+├── openwebui_pipeline.py          # Integración directa con Open WebUI API
 ├── pipeline_config.json           # Configuración técnica persistente del sistema
 ├── requirements.txt               # Dependencias Python de producción
-├── Dockerfile / Containerfile     # Multi-stage build OCI optimizado para Podman
-├── compose.yaml                   # Orquestación Podman Compose (Open WebUI, OpenSearch, Postgres, JullBrain API)
-├── podman-compose.yml             # Alias de compatibilidad Podman Compose
-├── build_podman.bat / .sh         # Script de construcción automática (Windows / Linux)
-├── export_image.bat / .sh         # Script de exportación a .tar (Windows / Linux)
-├── import_image.bat / .sh         # Script de importación desde .tar (Windows / Linux)
-├── tests/                         # Suite de pruebas unitarias e integración
-└── docs/                          # Documentación Técnica, Manuales de Usuario/Admin y UML
+├── tests/                         # Suite de QA Testing (Unit, Integration, Air-Gapped)
+│   ├── test_qa_offline.py         # 14 pruebas de jerarquía, hashes, búsqueda híbrida y guardrail
+│   ├── test_unit.py               # Pruebas unitarias de endpoints y almacenamiento
+│   └── test_integration.py        # Pruebas de integración del pipeline RAG
+└── docs/                          # Manuales de Arquitectura, Usuario y Guías Forenses
 ```
 
 ---
 
-## 🚀 Guía Rápida de Despliegue con Podman
+## 🚀 Puesta en Marcha Rápida en Local (Windows / Linux)
 
-### 1. Construir la Imagen OCI
+### En Windows:
+Basta con hacer doble clic en el archivo orquestador:
+```cmd
+orquestador_JullBrain.bat
+```
+El orquestador activará automáticamente el entorno virtual `docling_env` y abrirá la **Interfaz Web HTML5** en tu navegador (`http://localhost:8050`).
 
-- **Windows:** Ejecutar `build_podman.bat`
-- **Linux:** Ejecutar `./build_podman.sh`
+### En Linux / Mac o Terminal Manual:
+```bash
+# 1. Crear y activar entorno virtual
+python -m venv docling_env
+source docling_env/bin/activate  # En Windows: docling_env\Scripts\activate
 
-### 2. Exportar la Imagen Portátil (Air-Gapped)
+# 2. Instalar dependencias
+pip install -r requirements.txt
 
-- **Windows:** Ejecutar `export_image.bat`
-- **Linux:** Ejecutar `./export_image.sh`
-*Resultado:* Genera el archivo único `jullbrain.tar`.
+# 3. Iniciar el Centro de Control Web
+python app.py
+```
+Abre tu navegador en: **`http://localhost:8050`**
 
-### 3. Importar en Otro Equipo
+---
 
-- **Windows:** Ejecutar `import_image.bat`
-- **Linux:** Ejecutar `./import_image.sh`
+## ☁️ Ejecución en Google Colab desde GitHub
 
-### 4. Lanzar el Stack Enterprise Completo
+Para procesar leyes pesadas con GPU NVIDIA T4 gratuita sin gastar recursos de tu máquina local:
+
+1. Haz clic en el botón superior **[Open In Colab](https://colab.research.google.com/github/julljoll/JullBrain/blob/main/JullBrain_Colab.ipynb)**.
+2. En Google Colab, selecciona en el menú: `Entorno de ejecución` > `Cambiar tipo de entorno de ejecución` > **GPU T4**.
+3. Ejecuta las celdas secuencialmente para clonar el repositorio, instalar dependencias, estructurar leyes con IBM Docling y correr consultas RAG.
+
+---
+
+## 🧪 Control de Calidad (QA Testing Air-Gapped)
+
+Para certificar la integridad del sistema en modo 100% desconectado:
 
 ```bash
-podman-compose -f compose.yaml up -d
+python -m unittest discover tests
 ```
-- **Open WebUI (Interfaz de Usuario):** `http://localhost:3000`
-- **Plotly Dash (Dashboard Administrativo):** `http://localhost:8050`
+*Garantiza:*
+- ✅ Jerarquía normativa y separación atómica de artículos (COPP, Leyes Especiales).
+- ✅ Detección inmediata de alteración o manipulación de expedientes (SHA-256).
+- ✅ Búsqueda Híbrida local en memoria y persistencia en disco con 0 ms de retardo.
+- ✅ Resistencia ante inyecciones de prompt mediante IBM Granite Guardian.
+- ✅ Cero alucinaciones y abstención explícita ante hechos no probados.
+- ✅ Aislamiento estricto *air-gapped* sin peticiones salientes de red.
 
 ---
 
-## 📚 Documentación y Manuales
+## 📄 Licencia
 
-- [Manual Técnico](docs/TECHNICAL_MANUAL.md)
-- [Manual de Usuario](docs/USER_MANUAL.md)
-- [Manual de Administración](docs/ADMIN_MANUAL.md)
-- [Diagramas UML y Arquitectura](docs/UML_DIAGRAMS.md)
-- [Registro de Cambios (Changelog)](docs/CHANGELOG.md)
-- [Guía Detallada de Podman](README_PODMAN.md)
+Distribuido bajo la **Licencia Apache 2.0**. Consulte el archivo [LICENSE](LICENSE) para más detalles.

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JullBrain V-2.0 — Centro de Control Legal-RAG & IA Jurídica</title>
+  <meta name="description" content="Plataforma de Procesamiento Estructurado y Búsqueda Híbrida para Normativas Venezolanas con IBM Docling e IBM Granite.">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+  <!-- Encabezado Principal -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-wrapper">
+        <div class="brand-icon">⚖️</div>
+        <div>
+          <h1 class="brand-title">JullBrain V-2.0</h1>
+          <p class="brand-subtitle">IBM Technology Architecture Design • Venezuela Legal-RAG</p>
+        </div>
+      </div>
+
+      <div class="system-status-badges">
+        <div class="badge badge-offline">
+          <span class="pulse-dot"></span>
+          <span>100% Local Offline (Air-Gapped)</span>
+        </div>
+        <a href="https://github.com/julljoll/JullBrain" target="_blank" class="badge badge-colab">
+          <span>☁️ GitHub / Colab Ready</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navegación por Pestañas -->
+  <nav class="app-nav">
+    <button class="nav-tab active" data-tab="tab-control">
+      <span>🎛️ Centro de Operaciones</span>
+    </button>
+    <button class="nav-tab" data-tab="tab-upload">
+      <span>📤 Carga de Normativas</span>
+    </button>
+    <button class="nav-tab" data-tab="tab-colab">
+      <span>🚀 Google Colab GPU</span>
+    </button>
+    <button class="nav-tab" data-tab="tab-query">
+      <span>🔍 Consultas RAG</span>
+    </button>
+    <button class="nav-tab" data-tab="tab-docs">
+      <span>📚 Expedientes & Documentos</span>
+    </button>
+  </nav>
+
+  <!-- Contenido Principal -->
+  <main class="app-content">
+
+    <!-- ════════════ PESTAÑA 1: CENTRO DE OPERACIONES (.BAT EQUIVALENTE) ════════════ -->
+    <section id="tab-control" class="tab-pane active">
+      <div class="section-header">
+        <h2 class="section-title">⚡ Orquestador y Automatización del Pipeline</h2>
+        <p class="section-desc">Ejecuta las fases del pipeline con IBM Docling, jerarquía jurídica y control de calidad directamente desde el navegador.</p>
+      </div>
+
+      <div class="actions-grid">
+        <!-- Acción 1: Conversión Completa -->
+        <div class="action-card">
+          <div>
+            <div class="card-top">
+              <div class="card-icon">🏛️</div>
+              <div>
+                <h3 class="card-title">[1] Conversión Completa Docling</h3>
+                <p class="card-desc">Ingesta de PDFs en <code>RAG/datos_brutos</code>, OCR, Legalizer, Frontmatter YAML y Hierarchical Chunks.</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block" onclick="triggerAction('convert')">
+            <span>Iniciar Conversión</span>
+          </button>
+        </div>
+
+        <!-- Acción 2: Validador Cruzado QA -->
+        <div class="action-card">
+          <div>
+            <div class="card-top">
+              <div class="card-icon">🔬</div>
+              <div>
+                <h3 class="card-title">[2] Verificación QA Cruzada</h3>
+                <p class="card-desc">Valida la integridad de artículos comparando el conteo de regex vs extracción directa del PDF original (Doble Verificación).</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-secondary btn-block" onclick="triggerAction('qa_validate')">
+            <span>Ejecutar Validador QA</span>
+          </button>
+        </div>
+
+        <!-- Acción 3: Solo Post-Procesado Legal -->
+        <div class="action-card">
+          <div>
+            <div class="card-top">
+              <div class="card-icon">📜</div>
+              <div>
+                <h3 class="card-title">[3] Solo Post-Procesado Legal</h3>
+                <p class="card-desc">Aplica jerarquía legal y metadatos sobre los archivos Markdown ya extraídos sin re-procesar con Docling.</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-secondary btn-block" onclick="triggerAction('postprocess')">
+            <span>Post-Procesar Markdown</span>
+          </button>
+        </div>
+
+        <!-- Acción 4: Generar Embeddings Granite R2 -->
+        <div class="action-card">
+          <div>
+            <div class="card-top">
+              <div class="card-icon">🧠</div>
+              <div>
+                <h3 class="card-title">[4] Embeddings IBM Granite R2</h3>
+                <p class="card-desc">Vectoriza los fragmentos semánticos (768 dimensiones) usando Sentence-Transformers u Ollama local.</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-gold btn-block" onclick="triggerAction('embed')">
+            <span>Generar Embeddings</span>
+          </button>
+        </div>
+
+        <!-- Acción 5: Suite QA Offline -->
+        <div class="action-card">
+          <div>
+            <div class="card-top">
+              <div class="card-icon">🧪</div>
+              <div>
+                <h3 class="card-title">[5] Suite QA Testing Air-Gapped</h3>
+                <p class="card-desc">Ejecuta las pruebas unitarias y de integración offline: COPP, hashes SHA-256, búsqueda híbrida y guardrail.</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-secondary btn-block" onclick="triggerAction('qa_test')">
+            <span>Correr Suite de Pruebas</span>
+          </button>
+        </div>
+
+        <!-- Acción 6: Limpieza de Caché -->
+        <div class="action-card">
+          <div>
+            <div class="card-top">
+              <div class="card-icon">🧹</div>
+              <div>
+                <h3 class="card-title">[6] Limpiar Caché y Reiniciar</h3>
+                <p class="card-desc">Purga archivos de caché temporal (<code>.conversion_cache</code>) y libera memoria del motor.</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-danger btn-block" onclick="triggerAction('clean_cache')">
+            <span>Purgar Caché Local</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Consola de Terminal Integrada -->
+      <div class="terminal-wrapper">
+        <div class="terminal-header">
+          <div class="terminal-title">
+            <span>💻 CONSOLA EN TIEMPO REAL (ORQUESTADOR JULLBRAIN)</span>
+          </div>
+          <div class="terminal-actions">
+            <button class="terminal-btn" onclick="clearTerminal()">Limpiar</button>
+            <button class="terminal-btn" onclick="refreshLogs()">Refrescar</button>
+          </div>
+        </div>
+        <div id="terminal-body" class="terminal-body">
+[INIT] JullBrain Enterprise Legal Platform — Sistema Listo.
+[OK] Motor Híbrido Local Offline activo (BM25 + Vectores NumPy + RRF + Reranker).
+[INFO] Selecciona una acción superior o arrastra un PDF para comenzar...
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════ PESTAÑA 2: CARGA DE DOCUMENTOS A RAG/DATOS_BRUTOS ════════════ -->
+    <section id="tab-upload" class="tab-pane">
+      <div class="section-header">
+        <h2 class="section-title">📤 Carga de Normativas y Leyes a Datos Brutos</h2>
+        <p class="section-desc">Incorpora nuevos archivos PDF a <code>RAG/datos_brutos/</code> con cálculo forense instantáneo de SHA-256 para prepararlos para transformación local o en Google Colab.</p>
+      </div>
+
+      <div class="upload-container">
+        <!-- Zona Dropzone -->
+        <div>
+          <div id="dropzone" class="dropzone-box" onclick="document.getElementById('file-input').click()">
+            <div class="dropzone-icon">📥</div>
+            <div class="dropzone-text">
+              <h4>Arrastra y suelta tu archivo PDF aquí</h4>
+              <p>O haz clic para seleccionar desde tu computadora (PDF hasta 100MB)</p>
+            </div>
+            <input type="file" id="file-input" accept=".pdf" style="display: none;" onchange="handleFileSelect(this.files)">
+          </div>
+
+          <div class="upload-form-group">
+            <label class="form-label" for="category-select">Categoría Jurídica:</label>
+            <select id="category-select" class="form-select">
+              <option value="Penal">Penal (COPP, Leyes Penales Especiales)</option>
+              <option value="Civil">Civil (Código Civil, Registro Civil)</option>
+              <option value="Mercantil">Mercantil (Código de Comercio, Seguros, Aduanas)</option>
+              <option value="Informatica">Informática Forense & Ciberseguridad (CENIF, SUSCERTE, ISO)</option>
+              <option value="Tributario">Tributario (COT, Decretos, Aduanas)</option>
+              <option value="Agrario">Agrario & Tierras</option>
+              <option value="Constitucion">Constitución & Leyes Orgánicas</option>
+              <option value="Jurisprudencias">Jurisprudencias (Sentencias TSJ)</option>
+              <option value="Otras">Otras Normativas</option>
+            </select>
+          </div>
+
+          <!-- Tarjeta de Vista Previa del Archivo Seleccionado -->
+          <div id="file-preview" class="file-preview-card">
+            <div class="file-info-row">
+              <strong>Archivo:</strong>
+              <span id="preview-name">-</span>
+            </div>
+            <div class="file-info-row">
+              <strong>Tamaño:</strong>
+              <span id="preview-size">-</span>
+            </div>
+            <div class="file-info-row">
+              <strong>Hash SHA-256 (Cliente):</strong>
+            </div>
+            <div class="file-hash" id="preview-hash">Calculando hash criptográfico...</div>
+
+            <div style="margin-top: 1rem;">
+              <button id="btn-upload" class="btn btn-primary btn-block" onclick="uploadCurrentFile()">
+                <span>Subir a RAG/datos_brutos</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instrucciones y Acciones Post-Carga -->
+        <div>
+          <div class="doc-table-card">
+            <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">📋 Protocolo de Integridad (Cadena de Custodia)</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              Al cargar un PDF legal, JullBrain calcula su huella digital SHA-256 de forma previa para garantizar la inmutabilidad de la prueba digital según las directrices ISO/IEC 27037.
+            </p>
+            <div style="background: rgba(0, 255, 101, 0.05); border: 1px solid rgba(0, 255, 101, 0.2); border-radius: var(--radius-md); padding: 1rem; margin-bottom: 1.5rem;">
+              <h4 style="color: var(--accent-green); font-size: 0.9rem; margin-bottom: 0.4rem;">¿Qué hacer tras subir la ley?</h4>
+              <ul style="font-size: 0.83rem; color: var(--text-muted); padding-left: 1.25rem;">
+                <li><strong>En local:</strong> Ir al Centro de Operaciones y presionar <em>[1] Conversión Completa</em>.</li>
+                <li><strong>En Google Colab:</strong> Subir los cambios a GitHub (o sincronizar) e iniciar la celda de transformación en Colab con GPU T4 gratuita.</li>
+              </ul>
+            </div>
+
+            <button class="btn btn-gold btn-block" onclick="goToTab('tab-colab')">
+              <span>🚀 Proceder a Transformar en Google Colab</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════ PESTAÑA 3: PUENTE Y GUÍA GOOGLE COLAB ════════════ -->
+    <section id="tab-colab" class="tab-pane">
+      <div class="section-header">
+        <h2 class="section-title">🚀 Google Colab — Ingesta & Aceleración GPU T4</h2>
+        <p class="section-desc">Ejecuta el pipeline de transformación de leyes pesadas en la nube de Google Colab sin consumir recursos de tu computadora local.</p>
+      </div>
+
+      <div class="colab-hero-card">
+        <div class="colab-badge-lg">☁️ + ⚡</div>
+        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">Ejecución en 1 Clic desde GitHub</h3>
+        <p style="color: var(--text-muted); max-width: 800px; font-size: 0.95rem;">
+          Puedes abrir directamente el cuaderno interactivo de JullBrain en Google Colab, clonar el repositorio, aprovechar la GPU NVIDIA T4 gratuita para procesar documentos de cientos de páginas con IBM Docling y descargar los Markdown legalizados o sincronizarlos con GitHub.
+        </p>
+
+        <div style="margin-top: 1.5rem;">
+          <a href="https://colab.research.google.com/github/julljoll/JullBrain/blob/main/JullBrain_Colab.ipynb" target="_blank" class="btn btn-gold" style="padding: 0.85rem 1.8rem; font-size: 1rem;">
+            <span>Abrir JullBrain en Google Colab</span>
+            <span>↗</span>
+          </a>
+        </div>
+
+        <div class="colab-steps">
+          <div class="step-card">
+            <div class="step-num">01</div>
+            <h4 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Sube tus leyes</h4>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">Carga los PDFs desde esta interfaz local a <code>RAG/datos_brutos</code> y comitea con Git a tu repositorio.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">02</div>
+            <h4 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Abre en Colab</h4>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">Presiona el botón superior. Colab clonará automáticamente las últimas normativas agregadas.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">03</div>
+            <h4 style="font-size: 0.95rem; margin-bottom: 0.3rem;">Ejecuta con GPU T4</h4>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">El motor Docling + Hierarchical Chunking procesa los PDFs a máxima velocidad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════ PESTAÑA 4: CONSULTAS RAG ════════════ -->
+    <section id="tab-query" class="tab-pane">
+      <div class="section-header">
+        <h2 class="section-title">🔍 Asistente Jurídico Legal-RAG & Guardrail</h2>
+        <p class="section-desc">Formula consultas jurídicas contra el corpus normativo. El sistema aplica verificación de evidencia, cero alucinación y auditoría con IBM Granite Guardian.</p>
+      </div>
+
+      <div class="query-box-container">
+        <textarea id="query-input" class="query-textarea" placeholder="Ejemplo: ¿Qué especifica el artículo 15 sobre la auditoría y los procedimientos probatorios?"></textarea>
+        <div style="display: flex; justify-content: flex-end;">
+          <button class="btn btn-primary" onclick="submitQuery()">
+            <span>Realizar Consulta Normativa</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tarjeta de Respuesta -->
+      <div id="response-box" class="response-card">
+        <div class="response-header">
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <span style="font-size: 1.2rem;">⚖️</span>
+            <h4 style="font-size: 1rem; font-weight: 600;">Dictamen Basado en Evidencia Documental</h4>
+          </div>
+          <div id="guardian-badge" class="guardian-badge guardian-safe">
+            <span>🛡️ GUARDIAN: ANCLADO</span>
+          </div>
+        </div>
+
+        <div id="response-text" style="line-height: 1.7; font-size: 0.92rem; color: var(--text-main); white-space: pre-wrap;"></div>
+
+        <div class="citation-list" id="citation-list"></div>
+      </div>
+    </section>
+
+    <!-- ════════════ PESTAÑA 5: DOCUMENTOS Y EXPEDIENTES ════════════ -->
+    <section id="tab-docs" class="tab-pane">
+      <div class="section-header">
+        <h2 class="section-title">📚 Inventario Documental y Chunks Generados</h2>
+        <p class="section-desc">Monitoreo de leyes en datos brutos, Markdown legalizados y fragmentos JSON estructurados.</p>
+      </div>
+
+      <div class="doc-table-card">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+          <h3 style="font-size: 1.05rem;">Documentos en <code>RAG/datos_brutos</code></h3>
+          <button class="btn btn-secondary" onclick="loadDocumentsList()">Refrescar Lista</button>
+        </div>
+
+        <table class="doc-table">
+          <thead>
+            <tr>
+              <th>Categoría</th>
+              <th>Nombre del Archivo</th>
+              <th>Tamaño</th>
+              <th>Estado RAG</th>
+            </tr>
+          </thead>
+          <tbody id="docs-table-body">
+            <tr>
+              <td colspan="4" style="text-align: center; color: var(--text-dim);">Cargando inventario de documentos...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Contenedor de Notificaciones Toast -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

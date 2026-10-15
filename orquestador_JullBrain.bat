@@ -1,21 +1,21 @@
 @echo off
-
 chcp 65001 >nul 2>nul
 cd /d "%~dp0"
-title JullBrain - Orquestador de Conocimientos para IA Juridica
+title JullBrain - Orquestador Legal-RAG & Centro de Control Web
 
-:: --- Definir colores exactos ---
-set "C_BG=[48;2;82;64;0m"
-set "C_H1=[38;2;254;207;6m"
-set "C_TXT=[38;2;0;255;65m"
-set "C_OK=[38;2;0;255;0m"
-set "C_ERR=[38;2;255;85;85m"
-set "C_R=[0m%C_BG%%C_TXT%"
+:: --- Definir colores exactos ANSI ---
+set "ESC="
+set "C_BG=%ESC%[48;2;18;22;26m"
+set "C_H1=%ESC%[38;2;254;207;6m"
+set "C_TXT=%ESC%[38;2;0;255;65m"
+set "C_OK=%ESC%[38;2;0;255;0m"
+set "C_ERR=%ESC%[38;2;255;85;85m"
+set "C_R=%ESC%[0m"
 
-:: Aplicar color de fondo a toda la ventana
 echo %C_BG%%C_TXT%
 cls
 
+:BANNER
 echo.
 echo %C_H1%  =========================================================================================%C_R%
 echo %C_H1%    _____       _ _   ____            _                                                    %C_R%
@@ -44,6 +44,12 @@ echo %C_H1%  ===================================================================
 echo.
 
 :: --- Activar Entorno Virtual ---
+if not exist "docling_env\Scripts\activate.bat" (
+    echo %C_ERR%  [ERROR] Entorno virtual docling_env no encontrado.%C_R%
+    echo %C_TXT%  Creando entorno virtual local...%C_R%
+    python -m venv docling_env
+)
+
 echo %C_H1%  [INIT] Activando entorno virtual JullBrain...%C_R%
 call docling_env\Scripts\activate.bat
 if errorlevel 1 (
@@ -54,16 +60,85 @@ if errorlevel 1 (
 echo %C_OK%  [OK] Entorno virtual activado.%C_R%
 echo.
 
-:: --- Mostrar Enlace Local y Lanzar ---
-echo %C_H1%  =========================================================================================%C_R%
-echo %C_OK%    SERVIDOR WEB INICIADO CON EXITO%C_R%
-echo %C_TXT%    Abre la interfaz visual en tu navegador web:%C_R%
-echo %C_H1%    ^>^>^> URL Local: http://localhost:8501%C_R%
-echo %C_TXT%    Presione Ctrl + C en esta ventana para apagar el servidor de Streamlit.%C_R%
-echo %C_H1%  =========================================================================================%C_R%
+:MENU
+echo %C_H1%  SELECCIONE UNA OPCION DEL CENTRO DE OPERACIONES:%C_R%
 echo.
-call streamlit run app.py
+echo     %C_OK%[1] Iniciar Centro de Control Web (HTML5/CSS3) - http://localhost:8050%C_R%
+echo     %C_TXT%[2] Conversion Completa con IBM Docling (Ingesta + Legalizer + Metadata + QA)%C_R%
+echo     %C_TXT%[3] Verificacion QA Cruzada (Validador Cruzado PDF vs MD)%C_R%
+echo     %C_TXT%[4] Solo Post-Procesado Legal (Legalizer + Frontmatter YAML)%C_R%
+echo     %C_TXT%[5] Generar Embeddings Semanticos con Granite R2 (Vectores 768-dim)%C_R%
+echo     %C_TXT%[6] Ejecutar Suite de QA Testing Offline (Air-Gapped)%C_R%
+echo     %C_TXT%[7] Purgar Cache Temporal y Resetear Memoria%C_R%
+echo     %C_TXT%[0] Salir%C_R%
 echo.
-echo %C_OK%  Servidor de Streamlit finalizado.%C_R%
+echo %C_H1%  =========================================================================================%C_R%
+set /p OPTION="  Ingrese el numero de la opcion deseada [0-7]: "
+
+if "%OPTION%"=="1" goto LAUNCH_WEB
+if "%OPTION%"=="2" goto EXEC_FULL
+if "%OPTION%"=="3" goto EXEC_QA
+if "%OPTION%"=="4" goto EXEC_POST
+if "%OPTION%"=="5" goto EXEC_EMBED
+if "%OPTION%"=="6" goto EXEC_TEST
+if "%OPTION%"=="7" goto EXEC_CLEAN
+if "%OPTION%"=="0" goto EXIT_PROG
+
+echo %C_ERR%  [ERROR] Opcion no valida.%C_R%
+goto MENU
+
+:LAUNCH_WEB
+echo.
+echo %C_OK%  [INIT] Levantando Servidor Web FastAPI e Interfaz HTML5...%C_R%
+echo %C_H1%  >>> Abre tu navegador en: http://localhost:8050%C_R%
+start http://localhost:8050
+python -m uvicorn app:app --host 127.0.0.1 --port 8050
 pause
+goto MENU
+
+:EXEC_FULL
+echo.
+echo %C_OK%  [INIT] Ejecutando Conversion Completa con IBM Docling...%C_R%
+python convert_normativas.py
+pause
+goto MENU
+
+:EXEC_QA
+echo.
+echo %C_OK%  [INIT] Ejecutando Validador QA de Integridad Cruzada...%C_R%
+python validator.py
+pause
+goto MENU
+
+:EXEC_POST
+echo.
+echo %C_OK%  [INIT] Ejecutando Post-Procesado Legal sobre Markdown...%C_R%
+python convert_normativas.py --post-process-only
+pause
+goto MENU
+
+:EXEC_EMBED
+echo.
+echo %C_OK%  [INIT] Generando Embeddings con Granite R2...%C_R%
+python granite_embedder.py
+pause
+goto MENU
+
+:EXEC_TEST
+echo.
+echo %C_OK%  [INIT] Ejecutando Suite Exhaustiva de QA Testing Offline...%C_R%
+python -m unittest discover tests
+pause
+goto MENU
+
+:EXEC_CLEAN
+echo.
+echo %C_OK%  [INIT] Purgando cache temporal y liberando memoria...%C_R%
+python cleanup.py
+pause
+goto MENU
+
+:EXIT_PROG
+echo.
+echo %C_OK%  Sesion finalizada correctamente.%C_R%
 exit /b 0
