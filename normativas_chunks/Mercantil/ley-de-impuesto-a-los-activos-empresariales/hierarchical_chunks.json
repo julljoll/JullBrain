@@ -1,0 +1,2190 @@
+[
+  {
+    "text": "Caracas, 01 de diciembre de 1993",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 203.07000732421875,
+                "t": 683.1614990234375,
+                "r": 413.8133544921875,
+                "b": 671.0205078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "GACETA OFICIAL DE LA REPUBLICA DE VENEZUELA"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "DECRETO Nº 3.266 26 de noviembre de 1993",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 150.9352569580078,
+                "t": 545.1614990234375,
+                "r": 460.29400634765625,
+                "b": 535.3004760742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                40
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "PRESIDENCIA DE LA REPUBLICA"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "De conformidad con lo establecido en el ordinal 8º del artículo 190 de la Constitución y en lo dispuesto en el Ordinal 2º del Artículo 1º de la Ley que autoriza al Presidente de la República para dictar medidas Extraordinarias en Materia Económica y Financiera, en Consejo de Ministros,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 79.74224853515625,
+                "t": 477.8894958496094,
+                "r": 534.232177734375,
+                "b": 415.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                286
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "RAMON J. VELASQUEZ, PRESIDENTE DE LA REPUBLICA,"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se crea un impuesto que pagará toda persona jurídica o natural comerciante sujeta al impuesto sobre la renta, sobre el valor de los activos tangibles e intangibles de su propiedad, situados en el país o reputados como tales, que durante el ejercicio anual tributario correspondiente a dicho impuesto, estén incorporados a la producción de enriquecimientos provenientes de actividades comerciales, industriales, o de explotación de minas e hidrocarburos y actividades conexas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 205.47149658203125,
+                "t": 242.40374755859375,
+                "r": 536.2132568359375,
+                "b": 100.31475067138672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                475
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Del Sujeto y del Hecho Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Parágrafo Primero. Se considerarán actividades industriales y comerciales las",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 79.85624694824219,
+                "t": 717.8895263671875,
+                "r": 535.7416381835938,
+                "b": 704.936279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "así definidas objetivamente por la legislación que regula la materia. A los fines de la presente Ley se consideran comerciales los arrendamientos o cesiones del uso, cualquiera sea la forma que se adopte, de bienes muebles o inmuebles destinados al ejercicio de actividades comerciales o industriales. Se excluyen los activos representados por inmuebles destinados a vivienda.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 205.5854949951172,
+                "t": 701.4037475585938,
+                "r": 535.91455078125,
+                "b": 589.4647216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                376
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Parágrafo Segundo. Cuando se trate de bienes objeto de contratos de",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 79.85624694824219,
+                "t": 568.6537475585938,
+                "r": 532.91162109375,
+                "b": 555.686279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                67
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "arrendamiento financiero celebrados con empresas regidas por la Ley General de Bancos y otras Instituciones Financieras, el arrendatario será el contribuyente del impuesto establecido en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 205.47149658203125,
+                "t": 552.1395263671875,
+                "r": 536.56103515625,
+                "b": 489.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                196
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Artículo 2º. -material susceptible de ser percibido por los sentidos, tales como las mercaderías, el dinero, el mobiliario, los vehículos, aquellos bienes corporales sujetos a sufrir deterioro por su uso, desuso, destrucción o por la acción del tiempo y de los adquiridos, pagados o adeudados por el contribuyente, tales",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 468.7612609863281,
+                "r": 536.8124389648438,
+                "b": 323.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                320
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se entenderá por activo tangible todo bien de naturaleza las maquinarias, los terrenos, las construcciones y todos elementos. Asimismo, se consideran como activos intangibles aquellos bienes de naturaleza inmaterial como las marcas, patentes, fórmulas, procedimientos, denominaciones comerciales, derechos, acreencias, plusvalías y otros de similar naturaleza también incorporales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 192.72149658203125,
+                "t": 468.8894958496094,
+                "r": 533.4273681640625,
+                "b": 274.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                381
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1º. -"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Estén exentos del impuesto:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 193.04925537109375,
+                "t": 202.63949584960938,
+                "r": 348.4564514160156,
+                "b": 189.71475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                27
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1º -Las entidades venezolanas de carácter público, el Banco Central de Venezuela y el Fondo de Inversiones de Venezuela, así como los demás institutos oficiales autónomos que determine la Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 192.8782501220703,
+                "t": 169.63949584960938,
+                "r": 536.0614013671875,
+                "b": 107.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                192
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 3º. -",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 202.51124572753906,
+                "r": 152.9032440185547,
+                "b": 192.5647430419922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2º -Las instituciones benéficas y de asistencia social, siempre que sus enriquecimientos sean procurados como, medio para lograr los fines antes señalados; que no distribuyan ganancias o beneficios de cualquier índole a sus fundadores, asociados o miembros y que no realicen pagos a titulo de reparto de utilidades.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 192.72149658203125,
+                "t": 718.6395263671875,
+                "r": 536.6434326171875,
+                "b": 623.2147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                315
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3º -Los productores agrícolas, pecuarios o pesqueros, por los activos invertidos en tales actividades, cuando sean realizadas a nivel primario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 192.8354949951172,
+                "t": 603.1395263671875,
+                "r": 535.0137329101562,
+                "b": 557.2147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4º -Las instituciones religiosas, universitarias, artísticas, científicas, tecnológicas, culturales, deportivas y las asociaciones profesionales o gremiales, siempre que no persigan fines de lucro, por los activos invertidos para lograr sus fines, que no distribuyan ganancias o beneficios de cualquier índole a sus fundadores, asociados o miembros de cualquier naturaleza y que sólo realicen pagos normales y necesarios para el desarrollo de las actividades que les son propias. Igualmente, las instituciones educacionales, por sus activos, cuando presten servicios dentro de las condiciones generales fijadas por el Ejecutivo Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 192.72149658203125,
+                "t": 537.1395263671875,
+                "r": 536.1677856445312,
+                "b": 359.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                637
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5º -Las empresas durante el periodo preoperativo, entendiéndose como tal el transcurrido para la inversión, instalación, arranque y puesta en marcha de la empresa; así como en los dos primeros años del inicio de operaciones, salvo que se trate de empresas urbanizadoras o que vendan edificaciones a terceros y empresas de corta duración previstas para lograr su objeto en un periodo menor de tres (3) años, las cuales comenzaran a tributar en el ejercicio en que inicien sus ventas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 192.72149658203125,
+                "t": 339.1394958496094,
+                "r": 535.857421875,
+                "b": 194.21475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                482
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "6º -Los bienes invertidos en la prestación de servicios cuyos precios estén sujetos a regulación por parte del Estado. La presente exención será del cincuenta por ciento (50%) del impuesto causado y por un lapso de tres años contados a partir de la entrada en vigencia de la presente ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 192.72149658203125,
+                "t": 174.13949584960938,
+                "r": 536.8135375976562,
+                "b": 95.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                288
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 5º. -",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 187.51124572753906,
+                "r": 152.9032440185547,
+                "b": 177.5647430419922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "7º -La inversiones en acciones o cuotas de capital en otras empresas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 193.27725219726562,
+                "t": 718.6395263671875,
+                "r": 535.447265625,
+                "b": 689.2147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "8º -Los activos invertidos en su totalidad en la producción de rentas exoneradas del impuesto sobre la renta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 193.22024536132812,
+                "t": 669.1395263671875,
+                "r": 534.639892578125,
+                "b": 639.7147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                109
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "9º -Los activos invertidos en la prestación de servicios públicos de transporte en general, bien sean terrestres, lacustres, aéreos, fluviales o marítimos, por el termino de tres años, que se contara a partir de la entrada en vigencia de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 192.72149658203125,
+                "t": 619.6395263671875,
+                "r": 535.944091796875,
+                "b": 540.686279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                247
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO II De las Exenciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 4º. -La base imponible esta constituida por el monto neto promedio anual de los valores de los activos gravables, determinados de la siguiente manera:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 468.8894958496094,
+                "r": 532.9623413085938,
+                "b": 422.9362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                159
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. -El valor de los activos será el promedio simple de los valores al inicio y cierre del ejercicio.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 192.86399841308594,
+                "t": 402.8894958496094,
+                "r": 534.8126220703125,
+                "b": 373.4362487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                100
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2. -A los costos de los bienes, valores y derechos monetarios, menos la desvalorización por efectos de la inflación, se le añadirán los valores actualizados obtenidos conforme a las disposiciones establecidas en el Titulo IX de la Ley de Impuesto sobre la Renta y su Reglamento, para las fechas de inicio y cierre del ejercicio gravable, menos la suma de las depreciaciones y amortizaciones acumuladas que les corresponda, a los fines del impuesto sobre la renta, si las hubiere.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 192.86399841308594,
+                "t": 353.3894958496094,
+                "r": 536.62548828125,
+                "b": 211.3147430419922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                479
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los activos del contribuyente trasladados de Venezuela al exterior se considerarán como situados en el país y por ende determinantes de la base imponible, para las respectivas fechas de inicio y cierre del ejercicio, salvo que los valores de tales activos estén o hayan estado sustituidos por otros activos situados o consumidos por la empresa en Venezuela. Igualmente se consideraran situados en el país los activos",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 193.03500366210938,
+                "t": 187.63949584960938,
+                "r": 536.7318115234375,
+                "b": 75.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                416
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Artículo 6º. -",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 651.76123046875,
+                "r": 152.9032440185547,
+                "b": 641.8147583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "que estén en el exterior pertenecientes a las empresas de transporte internacional constituidas y domiciliadas en Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 192.8782501220703,
+                "t": 718.6395263671875,
+                "r": 533.4107666015625,
+                "b": 675.5504760742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                124
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En los casos de arrendamiento financiero la materia imponible se determinará sobre la base del monto en bolívares del contrato celebrado entre el arrendador y el arrendatario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 192.73574829101562,
+                "t": 651.8895263671875,
+                "r": 533.4440307617188,
+                "b": 592.3147583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                175
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Artículo 7º. -Se excluirán de la base imponible del presente impuesto:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 568.6395263671875,
+                "r": 506.7784118652344,
+                "b": 555.7147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                70
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "a) Las partidas del balance general representativas de activos monetarios, cuando el contribuyente sea una entidad bancaria, de ahorro y préstamo o financiera regida por la Ley General de Bancos y otras Instituciones Financieras o por leyes especiales, domiciliada en el país, hasta la concurrencia del monto en dinero depositado o captado por o de los clientes del contribuyente a las respectivas fechas de inicio y cierre del ejercicio. En consecuencia, solo el excedente formara parte de la materia gravable.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 192.73574829101562,
+                "t": 535.6395263671875,
+                "r": 536.560302734375,
+                "b": 390.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                511
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A estos efectos, se consideran como activos monetarios aquellos que representan valores líquidos en moneda nacional o que al momento de liquidarse, generalmente lo hacen con el mismo valor histórico con los cuales fueron registrados.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 192.8354949951172,
+                "t": 370.6394958496094,
+                "r": 534.3099975585938,
+                "b": 291.6862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                233
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- b) Las nuevas inversiones en maquinarias, equipos y plantas productoras, durante el periodo de diseño, construcción, montaje e instalación en empresas que estén en funcionamiento. Los valores de los activos antes señalados formarán parte de la base imponible en el ejercicio gravable anual en el cual tales activos se incorporen al proceso de producción.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 192.72149658203125,
+                "t": 271.6394958496094,
+                "r": 536.3113403320312,
+                "b": 159.71475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                354
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "c) Las partidas del balance general representativas de activos monetarios, cuando el contribuyente sea una empresa de seguros o de reaseguros, domiciliada en el país, hasta la concurrencia del monto en dinero entregado por concepto de primas por los clientes del contribuyente a las respectivas fechas de inicio y cierre del ejercicio. En consecuencia, solo el excedente formara parte de la materia gravable. A estos efectos, se considerarán como activos monetarios aquellos que se definen en el literal a).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 192.86399841308594,
+                "t": 139.63949584960938,
+                "r": 536.8126220703125,
+                "b": 77.18624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            },
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 193.22024536132812,
+                "t": 718.6395263671875,
+                "r": 536.5142211914062,
+                "b": 639.7147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                232,
+                507
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Artículo 8º. -En los casos de bienes cedidos o dados en arrendamiento por personas naturales o jurídicas no comerciantes, los valores de tales bienes serán los correspondientes a sus costos históricos y mejoras, menos las depreciaciones acumuladas procedentes, conforme a la Ley de Impuesto sobre la Renta.\n- Artículo 9º. -Los contribuyentes que durante el ejercicio gravable exporten bienes y servicios, gozarán de un desgravamen de la base imponible, igual a la cantidad representativa de la proporción existente entre el ingreso por venta de bienes o servicios exportados y el total obtenido por los bienes y servicios producidos en el ejercicio gravable.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 618.8895263671875,
+                "r": 535.1605224609375,
+                "b": 526.3147583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                306
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 502.65374755859375,
+                "r": 535.387939453125,
+                "b": 407.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                349
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "CAPITULO III De la Base Imponible"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Artículo 10. -La alícuota del impuesto aplicable a la base imponible será del uno por ciento (1%) anual.\n- Artículo 11. -Al monto del impuesto determinado conforme a esta Ley, se le rebajara el impuesto sobre la renta del contribuyente causado en el ejercicio tributario, con excepción del tributo establecido en el artículo 91 de la Ley de Impuesto sobre la Renta. En tal virtud, el impuesto a pagar según esta Ley será la cantidad que exceda del total del impuesto sobre la renta causado en el ejercicio anual gravable, si lo hubiere. Luego este excedente se trasladará como crédito contra el impuesto sobre la renta que se cause solo en los tres ejercicios anuales subsiguientes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 335.3894958496094,
+                "r": 534.7106323242188,
+                "b": 305.9647521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                104
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 285.1394958496094,
+                "r": 536.686279296875,
+                "b": 123.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                575
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Alícuota del Impuesto"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 12. -, 1 = El impuesto de esta Ley no será deducible a los fines de la determinación de los enriquecimientos netos gravables por la  Ley de Impuesto sobre la Renta.. Artículo 13. -, 1 = Cuando se trate de sociedades de personas o de comunidades no sujetas al pago del impuesto sobre la renta,  el monto del impuesto de esta Ley, se distribuirá en forma  proporcional a la participación de cada socio o comunero en  los enriquecimientos obtenidos en la sociedad o comunidad.  La porción de impuesto sobre la renta aplicable contra la cuota parte de impuesto correspondiente a esta Ley, será la  que igualmente resulte de una distribución proporcional, habida cuenta de los diversos montos obtenidos como enriquecimientos en cada ejercicio gravable. Los respectivos  impuestos determinados conforme a este artículo deberán ser pagados por los socios o comuneros de las respectivas  sociedades o comunidades.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 76.25299072265625,
+                "t": 719.3698577880859,
+                "r": 536.8609008789062,
+                "b": 440.4360656738281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Alícuota del Impuesto"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los contribuyentes, y en su caso, los responsables del impuesto, deberán presentar dentro de los tres primeros meses siguientes a la terminación de su ejercicio anual tributario, una declaración en la cual dejarán constancia del monto del valor de los activos tangibles e intangibles sujetos al impuesto de esta Ley, la cual será elaborada en los formularios que al efecto edite o autorice el Ministerio de Hacienda. Las informaciones suministradas en tales formularios deberán ser tomadas por el contribuyente de los asientos y demás anotaciones que consten en sus libros y registros contables. La declaración a que se contrae este artículo deberá ser presentada ante un funcionario u oficina dependiente de la Administración de Hacienda con jurisdicción en el domicilio fiscal del contribuyente, o ante la institución que señale la Administración Tributaria.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 191.66700744628906,
+                "t": 316.6394958496094,
+                "r": 536.3619384765625,
+                "b": 72.71475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                860
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Declaración"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 14. - Artículo 17. -",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 316.5112609863281,
+                "r": 155.9032440185547,
+                "b": 306.56475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            },
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 399.0112609863281,
+                "r": 155.9032440185547,
+                "b": 389.06475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                15,
+                29
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Declaración"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 15. -, 1 = El impuesto que resulta de la aplicación de esta Ley deberá  ser pagado en una oficina receptora de fondos nacionales,  antes de la presentación de la declaración, todo de acuerdo a  la oportunidad, forma y modalidades que determine el Reglamento.. Artículo 16. -, 1 = El Ejecutivo Nacional podrá designar a las instituciones financieras a que se refiere el Parágrafo segundo del artículo  1º, como agentes de percepción del impuesto creado por esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 77.91410827636719,
+                "t": 651.3845825195312,
+                "r": 537.2799682617188,
+                "b": 487.03094482421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Del pago del Impuesto"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional podrá acordar que aquellos contribuyentes obligados a presentar declaración estimada a los fines del impuesto sobre la renta, igualmente presenten declaración estimada a los efectos de esta Ley, por los valores de sus activos gravables correspondientes al ejercicio tributario en curso, a objeto de la autodeterminación del impuesto establecido en esta Ley y su consiguiente pago, en una oficina receptora de fondos nacionales, todo de conformidad con las normas, condiciones, plazos y formas que establezca el Reglamento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 192.86399841308594,
+                "t": 399.15374755859375,
+                "r": 536.7378540039062,
+                "b": 237.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                544
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Declaración Estimada y de su Pago"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "No obstante, el Ejecutivo Nacional podrá sustituir la declaración estimada en referencia, por el pago anticipado de un impuesto mensual equivalente a un dozavo (12) del impuesto de esta naturaleza causado en el ejercicio anual inmediatamente anterior del contribuyente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/64",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 192.57899475097656,
+                "t": 217.65374755859375,
+                "r": 536.1432495117188,
+                "b": 138.68624877929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                269
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Declaración Estimada y de su Pago"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La declaración que sirva de base para el pago anticipado a que se contrae este artículo, deberá elaborarse en los formularios que al efecto edite o autorice el Ministerio de Artículo 18 . -",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/65",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 193.03500366210938,
+                "t": 118.63949584960938,
+                "r": 534.765869140625,
+                "b": 72.71475219726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                173
+              ]
+            },
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 567.76123046875,
+                "r": 155.9032440185547,
+                "b": 557.8147583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                174,
+                189
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Declaración Estimada y de su Pago"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Artículo 19. -",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 79.61399841308594,
+                "t": 433.5112609863281,
+                "r": 155.9032440185547,
+                "b": 423.56475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Declaración Estimada y de su Pago"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Hacienda y presentarse dentro de los mismos lapsos en que deba presentarse la declaración de impuesto sobre la renta, por ante la Administración de Hacienda de la jurisdicción del domicilio fiscal del contribuyente o ante la institución que señale la Administración Tributaria.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/67",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 192.72149658203125,
+                "t": 718.6395263671875,
+                "r": 535.481201171875,
+                "b": 642.5647583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                277
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Declaración Estimada y de su Pago"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las acciones u omisiones violatorias de las normas establecidas en la presente Ley, serán sancionadas de conformidad con lo previsto en el Código Orgánico Tributario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 193.03500366210938,
+                "t": 567.8895263671875,
+                "r": 532.920166015625,
+                "b": 508.31475830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                166
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De las Infracciones y Sanciones"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ministerio de Hacienda establecerá la organización y funcionamiento de las oficinas que tendrán a su cargo la administración, liquidación y fiscalización del impuesto establecido en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 193.04925537109375,
+                "t": 433.6394958496094,
+                "r": 533.53173828125,
+                "b": 371.1862487792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                194
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Administración y Control del Tributo"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 20. -, 1 = La presente Ley empezara a regir el 1º de diciembre de 1993,  y sólo se aplicará a los ejercicio que se inicien dentro de su  vigencia.. Artículo 21. -, 1 = Dése cuenta especial y suficientemente detallada al Congreso  de la República de la forma y contenido del presente Decreto, de conformidad con el Artículo 4 de la Ley que  Autoriza al Presidente de la República para Dictar Medidas  Extraordinarias en Materia Económica y Financiera.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 77.99517822265625,
+                "t": 250.75726318359375,
+                "r": 535.8416748046875,
+                "b": 103.63299560546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dado, en Caracas a los 26 días del mes de noviembre de mil novecientos noventa y tres. Año 183º de la Independencia y 134º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 79.58550262451172,
+                "t": 718.6395263671875,
+                "r": 532.8997802734375,
+                "b": 689.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                140
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "(L. S.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 80.0842514038086,
+                "t": 669.1395263671875,
+                "r": 116.33149719238281,
+                "b": 656.2147216796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Refrendado:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 79.74224853515625,
+                "t": 619.6395263671875,
+                "r": 148.81198120117188,
+                "b": 609.5647583007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Y demás miembros del gabinete RAMON J. VELASQUEZ",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/79",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 79.62825012207031,
+                "t": 603.1395263671875,
+                "r": 257.8250732421875,
+                "b": 590.186279296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            },
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 384.24224853515625,
+                "t": 652.3972778320312,
+                "r": 533.1202392578125,
+                "b": 639.9712524414062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                30,
+                48
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposiciones finales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

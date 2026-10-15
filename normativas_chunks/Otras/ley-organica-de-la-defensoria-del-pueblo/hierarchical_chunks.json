@@ -1,0 +1,5816 @@
+[
+  {
+    "text": "Objeto. La presente Ley Orgánica, tiene por objeto regular la naturaleza, organización y funcionamiento de la Defensoría del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.27620697021484,
+                "t": 552.0488891601562,
+                "r": 520.98388671875,
+                "b": 526.9929809570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                132
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1º .-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Naturaleza. La Defensoría del Pueblo tiene a su cargo la promoción, defensa y vigilancia de los derechos de la persona humana o bajo cualquier expresión social, organizada o no, que estén establecidos en la Constitución de la República Bolivariana de Venezuela y los instrumentos internacionales sobre derechos humanos. También corresponde a la Defensoría del Pueblo, la promoción, defensa y vigilancia de las garantías constitucionales, los intereses legítimos, colectivos o difusos dentro del territorio; y de estos casos cuando estén sujetos a la jurisdicción de la República en el exterior.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.03620147705078,
+                "t": 496.8370056152344,
+                "r": 525.498779296875,
+                "b": 388.9934997558594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                594
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 2°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Objetivos. Los objetivos de la Defensoría del Pueblo son la promoción, defensa y vigilancia de:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.07220458984375,
+                "t": 358.8975830078125,
+                "r": 525.5162353515625,
+                "b": 333.85369873046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                95
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Los derechos humanos;\n2. Los derechos, garantías e intereses de las personas en relación con la actividad administrativa de todo el sector público;\n3. Los derechos, garantías e intereses de las personas en relación con los servicios públicos, sea que fueren prestados por personas jurídicas públicas o privadas;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 91.18820190429688,
+                "t": 317.389892578125,
+                "r": 234.7285919189453,
+                "b": 307.0699157714844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.22820281982422,
+                "t": 289.802001953125,
+                "r": 525.4613037109375,
+                "b": 264.986083984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                125
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.25220489501953,
+                "t": 248.40220642089844,
+                "r": 525.466796875,
+                "b": 209.78639221191406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                163
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Promoverá en todo caso la erradicación de fallas sistemáticas y generales que detecte en el cumplimiento de sus objetivos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.28820037841797,
+                "t": 193.29849243164062,
+                "r": 525.4926147460938,
+                "b": 168.25460815429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Independencia y autonomía. La Defensoría del Pueblo, es independiente en el ejercicio de sus funciones y goza de autonomía funcional, financiera y administrativa. Su titular es el Defensor del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.31220245361328,
+                "t": 138.09860229492188,
+                "r": 525.4959106445312,
+                "b": 101.63079833984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                200
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Régimen jurídico. La Defensoría del Pueblo ejerce sus funciones de conformidad con la Constitución y esta Ley así como a las demás leyes pertinentes y reglamentos internos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.34809875488281,
+                "t": 690.0361938476562,
+                "r": 525.4872436523438,
+                "b": 651.1923217773438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                172
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 5°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Ámbito de actuación. La actividad de la Defensoría del Pueblo abarca las actuaciones de cualquier órgano y funcionario perteneciente al Poder Público Nacional, Estadal o Municipal, en sus ramas Ejecutiva, Legislativa, Judicial, Electoral y demás órganos del Poder Ciudadano, incluso en el ámbito militar. Abarca igualmente la actuación de particulares que presten servicios públicos o cualquier otra actividad de conformidad con la Constitución y las leyes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 89.87989807128906,
+                "t": 623.1364135742188,
+                "r": 525.5343017578125,
+                "b": 526.9927978515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                457
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Principios de Funcionamiento. Son principios de actuación de la Defensoría del Pueblo en el cumplimiento de sus objetivos y funciones la oralidad, inmediatez, gratuidad, discrecionalidad, accesibilidad, celeridad, informalidad e impulso de oficio.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.28789520263672,
+                "t": 496.8367919921875,
+                "r": 525.5253295898438,
+                "b": 444.3251037597656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                247
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Principios Doctrinarios. Son principios doctrinarios de la Defensoría del Pueblo, la progresividad e irreversibilidad, no discriminación, goce pleno y ejercicio irrenunciable, indivisible e interdependiente de los derechos humanos, garantizando la participación social efectiva de los sectores de la sociedad en la elaboración y ejecución de sus políticas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.26390075683594,
+                "t": 414.0370788574219,
+                "r": 525.489501953125,
+                "b": 347.6532897949219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                356
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 8°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Magistratura de la Persuasión. La función de la Defensoría del Pueblo no significa vía procesal alternativa, complementaria o instancia y no tendrá función judicial ni competencia ejecutiva para dictar, modificar o anular autos, sentencias, o actos emanados de cualquier rama del Poder Público. Los acuerdos que en virtud de la atribución conferida en el num.5 del Art. 14 de la presente Ley, se suscriban mediante la intervención de esta institución tendrán carácter de documento público y serán de obligatorio cumplimiento entre las partes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 89.33989715576172,
+                "t": 317.4972839355469,
+                "r": 525.5363159179688,
+                "b": 209.78579711914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                542
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9° ."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Prerrogativas. La Defensoría del Pueblo gozará de las mismas prerrogativas del Fisco Nacional y de la Procuraduría General de la República, igualmente no será condenable en costas bajo ningún concepto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.347900390625,
+                "t": 179.49789428710938,
+                "r": 525.5253295898438,
+                "b": 140.6540069580078,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                201
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Obligación de colaborar y de no obstaculizar. Todo funcionario o persona a quienes se refiere el artículo 6° de esta Ley, que sea requerida por la Defensoría del Pueblo, deberá colaborar, auxiliar, brindar todas las facilidades, suministrar los informes, expedientes, documentos, informaciones y explicaciones, permitir el libre acceso a lugares y documentos, en forma preferente y urgente, de manera inmediata o dentro el lapso establecido en el Artículo 56 de esta Ley. Toda persona está obligada a abstenerse de obstaculizar el ejercicio de las funciones de la Defensoría del Pueblo. Los incumplimientos al presente deber de colaboración, harán incurrir en las responsabilidades previstas en el Título IV de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.29969787597656,
+                "t": 110.49800109863281,
+                "r": 525.5245971679688,
+                "b": 85.45409393310547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                157
+              ]
+            },
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 89.98809814453125,
+                "t": 717.6360473632812,
+                "r": 525.5482177734375,
+                "b": 609.7926025390625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                158,
+                720
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Irrecurribilidad. Contra las recomendaciones y resoluciones dictadas por el Defensor del Pueblo no cabrá recurso judicial alguno, si bien éste podría reconsiderarlas cuando nuevos hechos o circunstancias así lo requieran.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 89.88009643554688,
+                "t": 579.6365966796875,
+                "r": 525.4935913085938,
+                "b": 540.9247436523438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                221
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Organización interna. La Defensoría del Pueblo, tanto en sus dependencias centrales como en las desconcentradas que sean creadas por disposición del Defensor del Pueblo, se organizará según lo establecido en el Reglamento Interno de Organización y Funcionamiento que dictará esta Institución, el cual dispondrá lo necesario para que cumpla con las funciones de promoción , defensa y vigilancia a que se refiere el artículo 2° de esta Ley",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.28820037841797,
+                "t": 510.63677978515625,
+                "r": 525.4985961914062,
+                "b": 430.3930969238281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                437
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 13°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Atribuciones de la Defensoría del Pueblo. En el cumplimiento de sus objetivos la Defensoría del Pueblo tendrá las siguientes atribuciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 89.88020324707031,
+                "t": 358.8974914550781,
+                "r": 521.6102294921875,
+                "b": 333.853515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Iniciar y proseguir de oficio o a petición del interesado, cualquier investigación conducente al esclarecimiento de asuntos de su competencia;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.34820556640625,
+                "t": 317.4976806640625,
+                "r": 525.527099609375,
+                "b": 292.585693359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                145
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2. Interponer, adherirse o de cualquier modo intervenir en las acciones de inconstitucionalidad, amparo, hábeas corpus, hábeas data, medidas cautelares y demás acciones o recursos judiciales, y cuando lo estime justificado y procedente, las acciones subsidiarias de resarcimiento, para la indemnización y reparación por daños y perjuicios;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.22820281982422,
+                "t": 275.9898986816406,
+                "r": 525.4970703125,
+                "b": 209.65420532226562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                339
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3. Actuar frente a cualquier jurisdicción, bien sea de oficio, a instancia de parte o por solicitud del órgano jurisdiccional correspondiente;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.38420104980469,
+                "t": 193.29830932617188,
+                "r": 525.5048217773438,
+                "b": 168.25440979003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4. Mediar, conciliar o servir de arbitro en conflictos materia de su competencia , cuando las circunstancias permitan deducir un mayor y más rápido beneficio a los fines tutelados;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.03620147705078,
+                "t": 151.89859008789062,
+                "r": 525.38623046875,
+                "b": 113.87069702148438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                180
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5. Velar por la situación de personas que por cualquier causa, hubieren sido privadas de libertad, recluidas, internadas, detenidas o que de alguna manera tengan limitada su libertad, sea bajo régimen institucionalizado o no;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.09609985351562,
+                "t": 717.5400390625,
+                "r": 525.4671630859375,
+                "b": 678.7921752929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                225
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "6. Ingresar libremente, a cualquier centro en que se realicen actividades relacionadas al ámbito de su competencia, para los fines señalados en el artículo 3° de esta Ley;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.33609771728516,
+                "t": 662.3283081054688,
+                "r": 525.5640869140625,
+                "b": 623.592529296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                171
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "7. Velar por los derechos de los Pueblos Indígenas;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.44409942626953,
+                "t": 607.140625,
+                "r": 368.135986328125,
+                "b": 595.9926147460938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                51
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "8. Solicitar a los sujetos indicados en el artículo 6° de esta Ley, la información o documentación con relación al ejercicio de sus funciones, sin que pueda oponérsele reserva alguna; y formular las recomendaciones y observaciones necesarias para el cumplimiento de sus objetivos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.2761001586914,
+                "t": 579.6368408203125,
+                "r": 525.5567626953125,
+                "b": 526.9929809570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                280
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "9. Denunciar ante las autoridades correspondientes, incluso en la vía penal, al funcionario que incumpliere con su deber de colaboración preferente y urgente, en el suministro de información o documentación requerida en ejercicio de las atribuciones conferidas en el numeral 8 de este artículo o que de alguna manera obstaculizare el acceso a los lugares contemplados en el numeral 6 de este artículo .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 89.98809814453125,
+                "t": 510.5411071777344,
+                "r": 525.4822998046875,
+                "b": 432.7695007324219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                402
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "10. Solicitar ante el órgano competente la aplicación de los correctivos y las sanciones a que hubiere lugar por la violación de los derechos del público consumidor y usuario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.2520980834961,
+                "t": 414.0376892089844,
+                "r": 525.4967651367188,
+                "b": 375.1938171386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                175
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "11. Promover la suscripción, ratificación, y adhesión de tratados y convenios sobre derechos humanos, así como promover su difusión y aplicación;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.2520980834961,
+                "t": 358.8977966308594,
+                "r": 525.4959716796875,
+                "b": 333.8539123535156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                145
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "12. Realizar estudios e investigaciones, con el objeto de proponer iniciativas de ley o formular recomendaciones de conformidad con lo establecido en el artículo 3° de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.38409423828125,
+                "t": 317.3899841308594,
+                "r": 525.4722900390625,
+                "b": 278.6542053222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                177
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "13. Sensibilizar, promover y poner en marcha programas educativos y de investigación en las materias de su competencia;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.6720962524414,
+                "t": 262.2983093261719,
+                "r": 525.4681396484375,
+                "b": 237.25440979003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                119
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "14. Impulsar la participación ciudadana para vigilar los derechos y garantías constitucionales y demás objetivos de la Defensoría del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.34809875488281,
+                "t": 220.80259704589844,
+                "r": 525.5042114257812,
+                "b": 195.85459899902344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                141
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "15. Las demás atribuciones y facultades que establecen la Constitución y la ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.18809509277344,
+                "t": 179.49880981445312,
+                "r": 518.2415771484375,
+                "b": 168.2548065185547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Actividad en estados de excepción. La declaratoria de estados de excepción no interrumpirá la actividad de la Defensoría del Pueblo ni el acceso de los ciudadanos a ésta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 89.88009643554688,
+                "t": 138.09878540039062,
+                "r": 525.523681640625,
+                "b": 101.63099670410156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                170
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Defensoría del Pueblo actúa bajo la dirección y responsabilidad del Defensor del Pueblo, quien será designado por un único período de siete años, por la Asamblea Nacional mediante el voto favorable de las dos terceras partes de sus integrantes, según lo establecido en el artículo 279 de la Constitución de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/56",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 89.88009643554688,
+                "t": 662.4363403320312,
+                "r": 525.4946899414062,
+                "b": 596.1246337890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                323
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Forma de elección ."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Principio de independencia. El Defensor del Pueblo es independiente y actúa bajo la libertad de conciencia y según su criterio, en el ejercicio de sus facultades constitucionales y legales. No está sujeto a mandato imperativo ni a instrucciones provenientes de ninguna autoridad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.34809875488281,
+                "t": 565.8367309570312,
+                "r": 525.5424194335938,
+                "b": 513.1929321289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                279
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Condiciones de elegibilidad. El Defensor del Pueblo será venezolano por nacimiento y sin otra nacionalidad, mayor de treinta años, en el pleno disfrute de sus derechos civiles y políticos, y deberá manifestar y demostrar competencia en materia de derechos humanos. Debe contar además, con reconocida honorabilidad en su trayectoria pública, buena reputación, solvencia moral, prestigio cívico y un compromiso íntegro con los derechos humanos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/60",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.2520980834961,
+                "t": 483.0368957519531,
+                "r": 525.547607421875,
+                "b": 402.7933044433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                442
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Incompatibilidades. El cargo de Defensor del Pueblo es incompatible con todo mandato representativo, con todo cargo o actividad de carácter político partidista, con la afiliación o desempeño de funciones directivas en un partido político o en un sindicato, gremio o asociación y con el empleo al servicio de los mismos; con el ejercicio de cualquier cargo público remunerado, con el ejercicio privado de la profesión ni siquiera a título de consulta; con la participación en la gestión y administración ordinaria de actividades privadas lucrativas, ni por sí ni por interpuesta persona, a excepción de las actividades docentes y la afiliación a las corporaciones gremiales nacionales o internacionales propias de la institución de la Defensoría del Pueblo. No podrá ser Defensor del Pueblo quien haya sido sancionado u objeto de condena por tribunales en sentencia definitivamente firme, por violaciones a los derechos humanos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.26409912109375,
+                "t": 372.6372985839844,
+                "r": 525.518798828125,
+                "b": 209.78599548339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                927
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Una vez investido del cargo, deberá cumplir con la declaración jurada de bienes. El Defensor del Pueblo deberá cesar, dentro de los diez días siguientes a su designación y antes de la juramentación y toma de posesión del cargo, a toda situación de incompatibilidad que pudiera afectarle, entendiéndose en caso contrario que no acepta tal designación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.25189971923828,
+                "t": 193.2021026611328,
+                "r": 525.5050048828125,
+                "b": 126.8543930053711,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                350
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si la condición de incompatibilidad fuere sobrevenida una vez posesionado del cargo, se entenderá que renuncia al mismo en la fecha en que aquélla se hubiere producido.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/65",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.34809875488281,
+                "t": 717.6360473632812,
+                "r": 525.4559326171875,
+                "b": 678.9241943359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                168
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo II: Del Defensor del Pueblo"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Incompatibilidades por parentesco. No podrá ser Defensor del Pueblo quien tenga parentesco dentro del cuarto grado de consanguinidad y segundo de afinidad, o quien tenga vínculos por matrimonio o relacionados en uniones estables de hecho con miembros de la Asamblea Nacional o del Comité de Evaluación de Postulaciones que intervienen en su designación, con los titulares de los órganos del Poder Ciudadano, con los Magistrados del Tribunal Supremo de Justicia, con los integrantes del Consejo Nacional Electoral y con el Presidente de la República o quien haga sus veces.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/67",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.09609985351562,
+                "t": 648.63623046875,
+                "r": 525.5311279296875,
+                "b": 540.792724609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                572
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 20°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Prerrogativas y facultades exclusivas. El Defensor del Pueblo goza de inmunidad en el ejercicio de sus funciones, no puede ser perseguido, detenido ni enjuiciado por actos relacionados con sus facultades constitucionales y legales , salvo en los casos de flagrante delito.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.25220489501953,
+                "t": 510.63677978515625,
+                "r": 525.5123291015625,
+                "b": 457.9930114746094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                272
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Defensor del Pueblo no responde civil ni penalmente por las opiniones que emita o los actos que realice en el ejercicio de sus facultades. Para su inculpación, procesamiento, enjuiciamiento, prisión o calificación de las causales de cesación del cargo o de cualquier otra conocerá de manera privativa, el Tribunal Supremo de Justicia en pleno de acuerdo con lo establecido en la Constitución de la República y en los casos de flagrante delito de conformidad con el procedimiento previsto en el artículo 200 de la Constitución.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.15609741210938,
+                "t": 441.6370849609375,
+                "r": 525.5217895507812,
+                "b": 347.7854919433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                529
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los funcionarios responsables de la violación de esta disposición, serán penados de conformidad con la ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.6720962524414,
+                "t": 331.297607421875,
+                "r": 525.5033569335938,
+                "b": 306.2536926269531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cesación y declaración de vacancia del cargo. El Defensor del Pueblo cesará en sus funciones, por cualquiera de las siguientes causales:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.3240966796875,
+                "t": 276.0976867675781,
+                "r": 525.5098266601562,
+                "b": 251.05380249023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                136
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Renuncia al cargo o muerte del titular;\n2. Incapacidad sobrevenida certificada por junta médica designada por el Tribunal Supremo de Justicia;\n3. Por expiración del período constitucional de su designación;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.18809509277344,
+                "t": 234.58990478515625,
+                "r": 309.3708190917969,
+                "b": 223.4539031982422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.15609741210938,
+                "t": 207.09811401367188,
+                "r": 525.4647216796875,
+                "b": 182.18609619140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.38409423828125,
+                "t": 165.602294921875,
+                "r": 426.0121154785156,
+                "b": 154.4542999267578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4. Por actuar con negligencia inexcusable o por violaciones graves al ordenamiento jurídico en el cumplimiento de las atribuciones y los deberes del cargo;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.03609466552734,
+                "t": 137.9543914794922,
+                "r": 525.4550170898438,
+                "b": 99.25460052490234,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5. Por haber incurrido en cualquiera de las incompatibilidades previstas en esta ley;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.38409423828125,
+                "t": 717.4920043945312,
+                "r": 525.4862670898438,
+                "b": 692.5921020507812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                85
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "6. Por haber sido condenado, en sentencia firme, por delito doloso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/79",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.33609771728516,
+                "t": 676.236328125,
+                "r": 450.21356201171875,
+                "b": 665.1243286132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                67
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente de la Asamblea Nacional declarará la vacante del cargo en los casos referidos a los numerales 1, 3 y 6. En los demás casos, la remoción se decidirá por las dos terceras partes de los miembros de la Asamblea Nacional, mediante debate y con notificación para la audiencia del interesado, con garantías del debido proceso y previo pronunciamiento del Tribunal Supremo de Justicia. En los casos de incapacidad, la Asamblea Nacional solicitará con el voto de la mayoría simple de sus miembros, la certificación la designación de la junta médica por del Tribunal Supremo de Justicia, antes de proceder a la remoción.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 89.34009552001953,
+                "t": 648.5404052734375,
+                "r": 525.5404663085938,
+                "b": 529.3689575195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                624
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Vacante el cargo, se iniciará el procedimiento para la designación del nuevo Defensor del Pueblo, en un plazo no mayor de treinta días continuos, según lo establecido en el artículo 279 de la Constitución.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/81",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 89.92809295654297,
+                "t": 510.5411071777344,
+                "r": 525.4970092773438,
+                "b": 474.1693115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                205
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Vacancia y ausencias temporales. En los casos de declaratoria de vacancia del cargo o de ausencias temporales del Defensor del Pueblo, y en tanto no se proceda a una nueva designación, desempeñará sus funciones interinamente el Defensor Adjunto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 89.88020324707031,
+                "t": 441.4933166503906,
+                "r": 525.4921875,
+                "b": 388.9934997558594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                245
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Si una ausencia temporal del Defensor del Pueblo se prolonga por más de noventa días continuos, la Asamblea Nacional decidirá, por las dos terceras partes de sus integrantes, si debe considerarse que hay un cese de sus funciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/84",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 89.98820495605469,
+                "t": 372.6376953125,
+                "r": 525.4777221679688,
+                "b": 322.4298095703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                229
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "De la juramentación y la remuneración. El Defensor del Pueblo prestará juramento ante la Asamblea Nacional reunida para tal efecto, dentro de los diez días posteriores a su designación, la cual será publicada en Gaceta Oficial. El Defensor del Pueblo tendrá las consideraciones de alta autoridad del Estado y una remuneración igual a la de los otros miembros del Consejo Moral Republicano.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 89.34020233154297,
+                "t": 289.8977966308594,
+                "r": 525.5067138671875,
+                "b": 209.78619384765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                389
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 24°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Facultades del Defensor del Pueblo. Son facultades del Defensor del Pueblo para el logro de los objetivos establecidos en el artículo 3° :",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.67220306396484,
+                "t": 179.49819946289062,
+                "r": 525.429931640625,
+                "b": 154.4542999267578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Pronunciarse sobre la actuación de las personas involucradas en las investigaciones llevadas a cabo por la Defensoría del Pueblo, de acuerdo a las atribuciones establecidas en el artículo 2° de la presente Ley;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.31220245361328,
+                "t": 138.0023956298828,
+                "r": 525.4992065429688,
+                "b": 99.25460052490234,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                213
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2. Solicitar al Consejo Moral Republicano que adopte las medidas a las que hubiere lugar contra los funcionarios públicos, responsables de la violación o menoscabo de los derechos humanos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/90",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.22809600830078,
+                "t": 717.6360473632812,
+                "r": 525.5748291015625,
+                "b": 681.1681518554688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                188
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3. Instar al Fiscal General de la República para que intente las acciones o recursos a los que hubiere lugar contra los funcionarios públicos responsables de la violación o menoscabo de los derechos humanos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/91",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 662.4363403320312,
+                "r": 525.5640869140625,
+                "b": 625.968505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                207
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4. Recomendar pública o privadamente y con conocimiento del superior jerárquico de los funcionarios cuestionados, la modificación de comportamientos o prácticas que constituyan obstáculo al logro de los derechos y garantías a los que se refiere el artículo 2° de la presente Ley;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 89.34009552001953,
+                "t": 607.140625,
+                "r": 525.4992065429688,
+                "b": 554.5928344726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                279
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5. Dictar resoluciones defensoriales en el ámbito de su competencia, las cuales deberán ser publicadas en Gaceta Oficial;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/93",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 538.2369995117188,
+                "r": 521.6744995117188,
+                "b": 513.3251342773438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                121
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "6. Orientar al personal a su cargo para garantizar la unidad de criterio en la interpretación jurídica de los asuntos sometidos a conocimiento de la institución;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.33609771728516,
+                "t": 496.84918212890625,
+                "r": 525.4560546875,
+                "b": 471.7933044433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "7. Calificar en el Estatuto de Personal los servicios esenciales de la Defensoría del Pueblo, para garantizar su prestación en casos de conflictos laborales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 455.4373779296875,
+                "r": 525.4898681640625,
+                "b": 430.39349365234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                157
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "8. Emitir y publicar el informe anual institucional, informes especiales y los demás informes a los que se refiere el artículo 276 de la Constitución de la República;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/96",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 414.0376892089844,
+                "r": 525.4326782226562,
+                "b": 375.3258056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                166
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "9. Proponer la suscripción, ratificación, adhesión de tratados y convenios sobre derechos humanos y promover su difusión y aplicación;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 358.8977966308594,
+                "r": 525.47802734375,
+                "b": 333.8539123535156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "10. Presentar, ante los órganos legislativos, proyectos de ley dentro del ámbito de su competencia, así como promover y sustentar otras reformas ante los órganos correspondientes del Estado;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/98",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.2761001586914,
+                "t": 317.4020080566406,
+                "r": 525.4837036132812,
+                "b": 278.6542053222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                190
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "11. Ejercer, cada vez que lo juzgue necesario ante los cuerpos deliberantes, derecho de palabra, a fin de sustentar la opinión institucional, respecto a proyectos de ley dentro del ámbito de su competencia; así mismo, podrá optar por el derecho de palabra para respaldar explícitamente su presentación;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.28789520263672,
+                "t": 262.1903076171875,
+                "r": 525.5673828125,
+                "b": 209.78659057617188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                302
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "12. Llevar a cabo la representación legal y judicial de la Defensoría del Pueblo pudiendo para ello otorgar los poderes o mandatos que fueren necesarios;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/100",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.6720962524414,
+                "t": 193.2987060546875,
+                "r": 525.4907836914062,
+                "b": 168.2548065185547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                153
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "13. Presentar de manera autónoma peticiones, opiniones, informes, escritos y amicus curiae en casos de violación de derechos humanos, ante los órganos de protección de derechos humanos en el orden internacional, de conformidad con lo dispuesto en los correspondientes instrumentos normativos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/101",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.31209564208984,
+                "t": 151.89889526367188,
+                "r": 525.544677734375,
+                "b": 99.38710021972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                292
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "14. Proteger y defender, de oficio o a petición de parte, las violaciones de derechos humanos que sufran los venezolanos residentes o en tránsito en el exterior, mediante la utilización de vías diplomática o judicial internacional.\n15. Celebrar contratos y expedir los actos administrativos que se requieran para el funcionamiento de la Institución;\n16. 0rganizar y dirigir la institución, crear cargos y nombrar, evaluar, promover, premiar, sancionar, remover y destituir el personal permanente o temporal, de conformidad con el Reglamento Interno, dentro de los límites presupuestarios;\n17. Dictar, aprobar y modificar sus reglamentos internos, de manera que responda a los objetivos institucionales;\n18. Presentar y preparar lo relativo al presupuesto de la Defensoría del Pueblo.\n19. Reservarse el ejercicio de cualesquiera de las atribuciones otorgadas por esta Ley a otros funcionarios de la Defensoría del Pueblo;\n20. Intervenir como parte en asuntos relacionados con el medio ambiente y del patrimonio cultural resguardando el interés colectivo.\n21. Delegar sus funciones, salvo la de presentar el informe ante la Asamblea Nacional, en los Directores Generales, de línea, en los Defensores Especiales, Defensores Estadales, Defensores Municipales y en los demás funcionarios de la institución.\n22. Las demás que la ley y la Constitución señalan para la Defensoría del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/102",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 717.6360473632812,
+                "r": 525.5236206054688,
+                "b": 678.7921752929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/103",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.3240966796875,
+                "t": 662.4363403320312,
+                "r": 525.4703979492188,
+                "b": 638.2083740234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/104",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.34809875488281,
+                "t": 620.9406127929688,
+                "r": 525.5280151367188,
+                "b": 582.1926879882812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                238
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.66009521484375,
+                "t": 565.8368530273438,
+                "r": 525.5376586914062,
+                "b": 540.7929077148438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/106",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.18809509277344,
+                "t": 524.4371337890625,
+                "r": 514.907958984375,
+                "b": 513.193115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/107",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.3240966796875,
+                "t": 496.72918701171875,
+                "r": 525.474365234375,
+                "b": 471.7933044433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                136
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/108",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.22809600830078,
+                "t": 455.3293762207031,
+                "r": 525.501708984375,
+                "b": 430.39349365234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                132
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.22809600830078,
+                "t": 414.0376892089844,
+                "r": 525.5255126953125,
+                "b": 363.7698974609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                247
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/110",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.22809600830078,
+                "t": 345.097900390625,
+                "r": 525.4871826171875,
+                "b": 322.4300231933594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                81
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "De los informes del Defensor del Pueblo. Los informes anuales a los que se refiere el numeral 8 del artículo 25 de la presente Ley , se orientarán a ilustrar a la Asamblea Nacional como fuente de referencia especializada y autónoma, sobre los temas de su competencia para toma de decisiones políticas, en los ámbitos de su competencia. Dichos informes contendrán, entre otros, indicadores sobre la situación de los derechos humanos; funcionamiento de la administración pública y los servicios públicos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.25189971923828,
+                "t": 289.8979797363281,
+                "r": 525.5134887695312,
+                "b": 195.85440063476562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                502
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°.-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Carácter. El Defensor Adjunto es de libre nombramiento y remoción del Defensor del Pueblo. Cuando ejerza las atribuciones previstas en los numerales 4 y 5 del artículo 25 de la presente Ley, el Defensor Adjunto gozará de las mismas prerrogativas previstas en el artículo 21 de la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/115",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 89.87989807128906,
+                "t": 138.09860229492188,
+                "r": 525.5038452148438,
+                "b": 85.45479583740234,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                293
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Facultades del Defensor Adjunto. Son facultades del Defensor Adjunto:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.76809692382812,
+                "t": 703.8361206054688,
+                "r": 485.3879699707031,
+                "b": 692.5921020507812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Representar al Defensor del Pueblo cuando éste lo disponga, en el ejercicio de las funciones y atribuciones que le atribuye la Constitución y la ley;\n2. Suplir al Defensor del Pueblo en caso de ausencia temporal;\n3. Ejercer el cargo de Defensor del Pueblo en caso de vacancia absoluta, hasta el momento que sea designado el titular;\n4. Las demás que le asigne el Defensor del Pueblo y el Reglamento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/118",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.28820037841797,
+                "t": 676.236328125,
+                "r": 525.5234375,
+                "b": 651.1923217773438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/119",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.22820281982422,
+                "t": 634.8365478515625,
+                "r": 428.9139404296875,
+                "b": 623.7245483398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/120",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.32420349121094,
+                "t": 607.2366333007812,
+                "r": 525.4297485351562,
+                "b": 582.1926879882812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                119
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.03620147705078,
+                "t": 565.8368530273438,
+                "r": 458.2196960449219,
+                "b": 554.5928344726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                66
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Nombramiento de Defensores Especiales. Los cargos de defensor especial serán creados por el Defensor del Pueblo, de conformidad con el numeral 16 del artículo 25 de esta Ley, con el objeto de atender determinadas materias y en determinados espacios territoriales y dependen directamente del Defensor del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.2520980834961,
+                "t": 455.43719482421875,
+                "r": 525.4945068359375,
+                "b": 391.3695068359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                311
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 29°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Facultades de los Defensores Especiales. Los defensores especiales tendrán las facultades que le delegue el Defensor del Pueblo en la materia de su especialidad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/126",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.3240966796875,
+                "t": 358.8975830078125,
+                "r": 525.526611328125,
+                "b": 320.185791015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Nombramiento de los Defensores Estadales. El nombramiento de los Defensores Estadales lo realizará el Defensor del Pueblo una vez haya oído la opinión de los diversos sectores del Estado en el cual ha de ser nombrado el Defensor Estadal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/128",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.2761001586914,
+                "t": 289.8977966308594,
+                "r": 525.4849243164062,
+                "b": 239.62998962402344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                237
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En todo lo referente a los requisitos que de cumplir y llenar el Defensor Estadal, se establecerá en el Estatuto de la Defensoría del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.2520980834961,
+                "t": 220.898193359375,
+                "r": 521.004150390625,
+                "b": 198.2303009033203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                141
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Facultades de los Defensores Estadales: Son facultades de los Defensores Estadales dentro del ámbito de su competencia territorial:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.76809692382812,
+                "t": 165.69830322265625,
+                "r": 525.4847412109375,
+                "b": 140.78639221191406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                131
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Representar a la Defensoría del Pueblo;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/132",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 91.18809509277344,
+                "t": 124.29850006103516,
+                "r": 320.779296875,
+                "b": 113.1865005493164,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2. Ejercer las funciones establecidas en los numerales 1, 3, 4, 5, 6, 7, 8, 9, 12 y 13 del artículo 14 de la presente Ley;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.22809600830078,
+                "t": 717.6360473632812,
+                "r": 525.5064697265625,
+                "b": 692.5921020507812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3. Interponer las acciones de hábeas corpus, hábeas data y demás acciones o recursos judiciales contra actos de efectos particulares que resulten procedentes de acuerdo al ordenamiento jurídico;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 676.1403198242188,
+                "r": 525.5037841796875,
+                "b": 637.3923950195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                194
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4. Ejercer la representación de la Defensoría del Pueblo en la interposición de las acciones de amparo contra actos de efectos generales, en el ámbito de su competencia;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.03609466552734,
+                "t": 621.03662109375,
+                "r": 525.47998046875,
+                "b": 582.32470703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                169
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5. Presentar, ante los órganos legislativos municipales, estadales y nacionales, proyectos de ley dentro del ámbito de su competencia, así como promover y sustentar otras reformas ante los órganos correspondientes del Estado;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.2520980834961,
+                "t": 565.7408447265625,
+                "r": 525.54248046875,
+                "b": 526.9929809570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                225
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "6. Ejercer, cada vez que lo juzgue necesario, ante los cuerpos deliberantes de su región, derecho de palabra, a fin de sustentar la opinión institucional, respecto a proyectos de ley u ordenanzas dentro del ámbito de su competencia;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.33609771728516,
+                "t": 510.5290832519531,
+                "r": 525.5328369140625,
+                "b": 471.7933044433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                232
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "7. Dirigir y coordinar las labores de su Despacho;\n8. Las demás que les sean delegadas por el Defensor del Pueblo.\n9. Coordinación de las Defensorías del Pueblo en el ámbito de su jurisdicción.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/138",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.44409942626953,
+                "t": 455.29339599609375,
+                "r": 355.4689636230469,
+                "b": 444.1933898925781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/139",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.3720932006836,
+                "t": 427.83758544921875,
+                "r": 439.8598937988281,
+                "b": 416.5935974121094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/140",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.38409423828125,
+                "t": 400.2377014160156,
+                "r": 508.21441650390625,
+                "b": 388.99371337890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Del Defensor Estadal Adjunto y de los Defensores Auxiliares. El Defensor Estadal Adjunto y los Defensores Auxiliares son colaboradores directos del Defensor Estadal, cumplirán las funciones que éste les asigne, las cuales serán definidas por el correspondiente reglamento orgánico y de funcionamiento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/142",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 358.8977966308594,
+                "r": 525.4949951171875,
+                "b": 306.2539978027344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                301
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 33°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Facultades del Defensor Estadal Adjunto. El Defensor Estadal Adjunto tendrá, además las siguientes facultades específicas:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/144",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.31220245361328,
+                "t": 276.09808349609375,
+                "r": 525.4825439453125,
+                "b": 251.05410766601562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Representar al Defensor Estadal en el ejercicio de las funciones y atribuciones que le atribuye la Constitución y la ley;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.30020141601562,
+                "t": 234.69830322265625,
+                "r": 521.6139526367188,
+                "b": 209.65440368652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                124
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2. Suplir al Defensor Estadal en caso de ausencia temporal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/146",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.22820281982422,
+                "t": 193.29849243164062,
+                "r": 412.08984375,
+                "b": 182.18649291992188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Artículo 35°.- Defensor Municipal: La organización y funcionamiento de las Defensorías Municipales serán determinadas por Resolución motivada del Defensor del Pueblo y tendrán las competencias que les atribuya el Defensor del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/147",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 89.88020324707031,
+                "t": 165.698486328125,
+                "r": 525.5641479492188,
+                "b": 115.43069458007812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                233
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Competencias internas. El Estatuto de Personal identificará los funcionarios y los órganos que, dentro de la Defensoría del Pueblo desarrollarán los objetivos de la institución.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/149",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 662.4363403320312,
+                "r": 525.489013671875,
+                "b": 625.968505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                177
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Funcionarios. La Defensoría del Pueblo estará integrada por funcionarios de libre nombramiento y remoción; funcionarios de carrera; empleados administrativos; contratados y personal obrero. La ley de Carrera Defensorial regulará todo lo concerniente a estos funcionarios.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/151",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.31209564208984,
+                "t": 593.4365234375,
+                "r": 525.501708984375,
+                "b": 540.792724609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                271
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Ámbito de aplicación. El régimen laboral es aplicable a todo el personal permanente de la Defensoría del Pueblo según lo establecido en esta Ley y en el Reglamento de la Defensoría del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 89.88009643554688,
+                "t": 512.73681640625,
+                "r": 525.5858154296875,
+                "b": 471.79290771484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                192
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Sanciones disciplinarias. Los funcionarios de carrera y demás empleados permanentes de la Defensoría del Pueblo podrán ser sancionados disciplinariamente por las faltas en el servicio, sin perjuicio de la responsabilidad por los delitos o faltas en que incurran, de conformidad con la Ley de Carrera Defensorial y el Estatuto de Personal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/155",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.28820037841797,
+                "t": 441.6369934082031,
+                "r": 525.509033203125,
+                "b": 375.1932067871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                338
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Prerrogativa especial de los Defensores Estadales. Los Defensores Delegados Estadales sólo podrán ser investigados por iniciativa expresa del Fiscal Superior del Estado respectivo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/157",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.75640106201172,
+                "t": 345.0971984863281,
+                "r": 525.4931030273438,
+                "b": 306.3852844238281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                180
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 40°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Procedimientos. Todos los asuntos de competencia de la Defensoría del Pueblo serán tramitados por los procedimientos que se establezcan en su reglamento interno, siguiendo los principios establecidos en la Constitución y en los artículos 7° y 8° de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/161",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.64859771728516,
+                "t": 220.89761352539062,
+                "r": 518.8781127929688,
+                "b": 168.25390625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                258
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Gratuidad de las Actuaciones y Procedimientos Las actuaciones o solicitudes de la Defensoría del Pueblo ante otros órganos o entes públicos, no estarán sujeta al pago por concepto alguno, igualmente los procedimientos que se abran",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/163",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.25260162353516,
+                "t": 138.097900390625,
+                "r": 525.5601806640625,
+                "b": 99.25399780273438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                230
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "en cualquiera de sus dependencias. Tampoco se requerirá la asistencia de abogado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/165",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.31209564208984,
+                "t": 717.5400390625,
+                "r": 525.481201171875,
+                "b": 692.5921020507812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                81
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo V: Del Régimen Laboral y de Carrera"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Sujetos Legitimados. Cualquier persona puede presentar solicitud o queja, sin exclusión por razones de nacionalidad, residencia, sexo, minoría de edad, incapacidad legal, internamiento en centro de salud o de reclusión, o por cualquier relación de sujeción o dependencia a tercera persona o a ente público, o por cualquier otra razón. El solicitante puede ser persona natural o jurídica, privada o pública. Estarán excluidas las quejas sobre asuntos de competencia o responsabilidad del solicitante.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/167",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.27620697021484,
+                "t": 662.4360961914062,
+                "r": 525.521484375,
+                "b": 568.5245971679688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                499
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 43°.-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Derechos e intereses. La solicitud o queja puede ser hecha en defensa de los derechos o intereses del solicitante, de los de un tercero, o de intereses colectivos o difusos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/169",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.28839874267578,
+                "t": 538.2366333007812,
+                "r": 521.6307373046875,
+                "b": 501.768798828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                173
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 44°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Objetivo de los procedimientos. El procedimiento que la Defensoría del Pueblo decida iniciar y proseguir incidirá sobre el ejercicio ilegítimo, defectuoso, irregular, moroso, abusivo, excesivo, arbitrario, discriminatorio, negligente, gravemente inconveniente o inoportuno del funcionario público o agente infractor y de los niveles de autoridad que resultaren implicados.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/171",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.07220458984375,
+                "t": 469.2367858886719,
+                "r": 525.5426025390625,
+                "b": 402.7930908203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                372
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 45°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Defensoría del Pueblo podrá optar, cuando lo estime pertinente, por omitir algunas de las fases de los procedimientos establecidos en el reglamento interno. Los procedimientos establecidos nunca podrán ser interpretados de forma alguna que pueda restringir los derechos del interesado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/172",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 89.98820495605469,
+                "t": 386.43719482421875,
+                "r": 525.4640502929688,
+                "b": 333.8533020019531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                288
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 45°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Inadmisión. Respecto a todos los procedimientos que pueden ser iniciados a solicitud de parte, operarán las causales de inadmisión establecidas en el presente artículo. La Defensoría del Pueblo podrá rechazar la solicitud o queja, por acto motivado, orientando al solicitante o quejoso sobre las vías, procedimientos o actuaciones oportunas para reclamar sus derechos, que, en su opinión puedan utilizar, en cualquiera de los siguientes casos:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/174",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.25220489501953,
+                "t": 303.6973876953125,
+                "r": 525.4923095703125,
+                "b": 223.45370483398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                443
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 46°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Sea anónima la solicitud o queja;\n2. Se advierta la mala fe o se fundamente en una pretensión inexistente o en un motivo fútil o trivial;\n3. Fuere esencialmente la misma examinada anteriormente y no contenga hechos, datos o elementos o indicios nuevos suficientemente importantes;\n4. No sea de su competencia;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/175",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 91.18820190429688,
+                "t": 207.097900390625,
+                "r": 282.66265869140625,
+                "b": 195.85389709472656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/176",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.22820281982422,
+                "t": 179.49798583984375,
+                "r": 525.4718017578125,
+                "b": 155.2700958251953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                103
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/177",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.38420104980469,
+                "t": 137.9903106689453,
+                "r": 525.4935913085938,
+                "b": 113.1863021850586,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/178",
+          "parent": {
+            "cref": "#/groups/9"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.0363998413086,
+                "t": 96.55450439453125,
+                "r": 252.04116821289062,
+                "b": 85.58650207519531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                28
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 46°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5. Cuando se fundamente en lineamientos de inadmisibilidad previamente fijados por la Defensoría del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/179",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.38409423828125,
+                "t": 703.8361206054688,
+                "r": 525.4654541015625,
+                "b": 678.9241943359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                108
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 46°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Defensoría del Pueblo ofrecerá dictámenes producidos previamente en casos similares, para que puedan utilizarlos como mecanismos de persuasión ante determinadas autoridades.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/180",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.25189971923828,
+                "t": 662.4363403320312,
+                "r": 525.55908203125,
+                "b": 625.968505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                176
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 46°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Lineamientos que fundamenten la inadmisión. La Defensoría del Pueblo podrá fijar lineamientos que fundamenten la inadmisión de solicitudes y quejas, con el objeto de orientar recursos y esfuerzos al desempeño de su función de vigilancia del cumplimiento de la obligación de protección de derechos humanos por el Estado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/182",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.03589630126953,
+                "t": 593.4365234375,
+                "r": 525.498046875,
+                "b": 527.1248168945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                319
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 47°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Confidencialidad. El solicitante, la víctima y los testigos tendrán derecho a que su identidad se mantenga en reserva, cuando así lo soliciten. Esta reserva de identidad también podrá ser acordada de oficio, en caso de que la Defensoría del Pueblo lo considere necesario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/184",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.25189971923828,
+                "t": 496.8367919921875,
+                "r": 525.5135498046875,
+                "b": 446.5691223144531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                271
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 48°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Secreto de funcionarios y empleados. Los funcionarios y empleados de la Defensoría del Pueblo, guardaran secreto sobre los asuntos que conozcan en razón de sus funciones. Se les prohíbe conservar para si, tomar o publicar copias de papeles, documentos o expedientes del archivo físico o electrónico de los Despachos de la Defensoría.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/186",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.31189727783203,
+                "t": 414.0370788574219,
+                "r": 525.5519409179688,
+                "b": 347.7852783203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                333
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Reserva de los Archivos: El Archivo de la Defensoría del Pueblo es por naturaleza reservado para el servicio oficial, salvo para quienes demuestren un interés legítimo, personal y directo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/188",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.6718978881836,
+                "t": 317.4972839355469,
+                "r": 525.4407958984375,
+                "b": 278.65350341796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                188
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 50°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Sello de la Defensoría del Pueblo. El sello de la Defensoría del Pueblo será de forma elíptica vertical y tendrá cincuenta milímetros (50 mm) de diámetro mayor y cuarenta milímetros (40 mm) de diámetro menor, el Escudo de Armas de la República en el centro, y alrededor una inscripción que diga: en la parte superior en forma también elíptica y superpuesta \"República Bolivariana de Venezuela\" \"Poder Ciudadano\" y en la inferior \"Defensoría del Pueblo\". El sello de la Dirección General será circular de cuarenta milímetros (40 mm) de diámetro, el Escudo de Armas de la República en el centro, y alrededor una inscripción que diga: en la parte superior en forma también circular y superpuesta: \"República Bolivariana de Venezuela\" \"Poder Ciudadano\" y en la inferior alrededor del Escudo \"Dirección General\" \"Defensoría del Pueblo\".",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/190",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 89.98789978027344,
+                "t": 248.49749755859375,
+                "r": 525.5365600585938,
+                "b": 101.63019561767578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                831
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 51°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Acceso a información y reserva de contenido. Durante el curso de los procedimientos en que hubiere partes, éstas tendrán acceso al conocimiento de las actuaciones y diligencias, aunque la Defensoría del Pueblo podrá mantener reserva sobre su contenido. En todo caso la Defensoría del Pueblo mantendrá reserva del contenido frente a terceros; esta obligación de mantener reserva se extiende a los peritos o expertos que presten servicios ocasionales a la Defensoría del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/192",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 89.88009643554688,
+                "t": 690.0361938476562,
+                "r": 525.5279541015625,
+                "b": 598.3685913085938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                476
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Privacidad de las comunicaciones. La correspondencia y las comunicaciones dirigidas a la Defensoría del Pueblo, tales como las provenientes de centros de detención, internamiento o custodia, no pueden ser objeto de censura o interferencia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/194",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 565.6926879882812,
+                "r": 525.4910888671875,
+                "b": 515.5689086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                239
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 53°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Investigación. La Defensoría del Pueblo podrá iniciar y proseguir de oficio, o a petición de parte, las verificaciones e investigaciones necesarias para el esclarecimiento de los hechos, cuya competencia sea atribuida a esta institución, de acuerdo con lo consagrado en el Artículo 14 de la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/197",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 455.4371032714844,
+                "r": 525.5304565429688,
+                "b": 402.7933044433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                304
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 54°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Para tal fin podrá comparecer, incluso sin previo aviso, para obtener los datos o informaciones necesarias, realizar entrevistas, estudiar expedientes, documentación, antecedentes y cualquier otro elemento que a su juicio sea útil para su investigación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/198",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 386.4373779296875,
+                "r": 525.5040283203125,
+                "b": 333.853515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                253
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 54°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Suministro de Información. A los efectos de lo establecido en el Artículo 11° de la presente Ley, todos los organismos y personas a los que se refiere el Artículo 6°, y sus agentes, están obligados a suministrar la información que le sea requerida por la Defensoría del Pueblo, sin que sea posible oponer reserva alguna.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/200",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 89.88009643554688,
+                "t": 303.6976013183594,
+                "r": 525.5130615234375,
+                "b": 237.25390625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                320
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 55°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando la Defensoría del Pueblo requiera información que por disposición legal deba mantenerse en reserva, tal información le será proporcionada por el funcionario que la posea, quedando la Defensoría del Pueblo obligada a mantener la misma reserva. No podrá por consiguiente, difundirla o hacerla pública sirviéndole únicamente como elemento para continuar la investigación que se esté desarrollando.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/201",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 89.98809814453125,
+                "t": 220.89801025390625,
+                "r": 525.5367431640625,
+                "b": 140.78639221191406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                401
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 55°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Lapso para responder. La información requerida por la",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/203",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.8041000366211,
+                "t": 703.8361206054688,
+                "r": 391.97528076171875,
+                "b": 692.72412109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 56°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Defensoría del Pueblo será suministrada por el funcionario o persona requerida, en un término no mayor a cinco (5) días hábiles y sólo podrá extenderse si se justifica fehacientemente ante el Defensor del Pueblo la necesidad de una prórroga, que en ningún caso podrá ser mayor del término antes mencionado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/204",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 89.34009552001953,
+                "t": 690.0361938476562,
+                "r": 525.4580688476562,
+                "b": 637.3923950195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                306
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 56°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La persistencia en una actitud entorpecedora de la labor de investigación de la Defensoría del Pueblo por parte de cualquier organismo o autoridad pública, puede ser objeto de informe especial cuando justificadas razones así lo requieran, además de incluirla dentro del informe anual que deberá presentar ante la Asamblea Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/206",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.31209564208984,
+                "t": 607.1404418945312,
+                "r": 525.4907836914062,
+                "b": 543.168701171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                331
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cooperación entre autoridades. En el ejercicio de sus funciones la Defensoría del Pueblo actuará en cooperación con otras autoridades públicas, a través de los siguientes mecanismos, entre otros: 1. Cuando un asunto esté siendo conocido por otra autoridad, la Defensoría del Pueblo tendrá acceso a las informaciones pertinentes, y podrá aportarles los elementos provenientes de su investigación;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/208",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.28809356689453,
+                "t": 510.63677978515625,
+                "r": 525.4827270507812,
+                "b": 430.3930969238281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                395
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 57°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2. Cuando la Defensoría del Pueblo requiera a otras autoridades a asumir determinadas actuaciones de su competencia, estas la mantendrán informada de los trámites sobre dichos asuntos, y en su defecto, la Defensoría del Pueblo podrá solicitar la información correspondiente;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/209",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.22809600830078,
+                "t": 414.03729248046875,
+                "r": 525.5119018554688,
+                "b": 361.5254821777344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                274
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 57°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3. Cuando la Defensoría del Pueblo siga procedimientos vinculados a la administración de justicia, pondrá en conocimiento a la Dirección Ejecutiva de la Magistratura; y podrá ejercer acciones ante los tribunales competentes de la jurisdicción disciplinaria judicial;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/210",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 89.34009552001953,
+                "t": 345.0975036621094,
+                "r": 525.4942016601562,
+                "b": 292.4537048339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                266
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 57°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4. Cuando en el ejercicio de sus funciones, la Defensoría del Pueblo conozca de hechos que son competencia de la Fiscalía General de la República y de la Contraloría General de la República solicitará la intervención de estos, según corresponda;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/211",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.03609466552734,
+                "t": 276.097900390625,
+                "r": 525.5680541992188,
+                "b": 223.58609008789062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                245
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 57°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5. Cuando en ejercicio de sus funciones, los órganos del Poder Público conozcan de hechos que sean competencia de la Defensoría del Pueblo, informarán y solicitarán la intervención de ésta.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/212",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.34809875488281,
+                "t": 207.09829711914062,
+                "r": 525.4971923828125,
+                "b": 168.25440979003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                189
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 57°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Elementos de Convicción. La Defensoría del Pueblo podrá recurrir a cualquier medio o elemento de convicción, para la formulación de sus decisiones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/214",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.6720962524414,
+                "t": 138.098388671875,
+                "r": 522.3026123046875,
+                "b": 113.1865005493164,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                147
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 58°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Autonomía presupuestaria. La Defensoría del Pueblo estará sujeta a las leyes y reglamentos sobre la elaboración y ejecución del presupuesto, en cuanto le sean aplicables. No obstante, a los efectos de garantizar su autonomía e independencia en cuanto órgano del Poder Ciudadano en el ejercicio de sus deberes y atribuciones, regirán las disposiciones previstas en la Constitución y la ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/216",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 89.87989807128906,
+                "t": 207.09811401367188,
+                "r": 525.4989013671875,
+                "b": 126.8543930053711,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                389
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 62°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Responsabilidad por desobediencia. La persona que incumpla las obligaciones de colaborar y de no obstaculizar a las que se hace referencia en los artículos 11°, 54°, 55° y 56° de esta Ley, será castigado con arresto de quince (15) a treinta (30) días, o multa de 10 a 30 unidades tributarias.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/220",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 90.2761001586914,
+                "t": 579.4927978515625,
+                "r": 525.5219116210938,
+                "b": 526.9929809570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                292
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 59°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Responsabilidad disciplinaria por desobediencia. El incumplimiento por parte de funcionario público de las obligaciones de colaborar y de no obstruir las labores de la Defensoría del Pueblo, constituirá además, una falta en el servicio que acarreará sanción disciplinaria, que consistirá en amonestación verbal, amonestación escrita, suspensión o destitución, dependiendo de la gravedad del caso. La autoridad superior correspondiente estará obligada a calificar la falta e imponer la sanción correspondiente y cumplir con el fondo de la solicitud.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/222",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 90.28789520263672,
+                "t": 496.6930236816406,
+                "r": 525.510986328125,
+                "b": 402.79351806640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                548
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 60°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Responsabilidad administrativa y contractual. El incumplimiento de las obligaciones de colaborar y de no obstruir por parte de los particulares a que se refiere el artículo 6° de esta Ley, constituirá además, una falta frente a la cual la autoridad competente de vigilar y controlar la correspondiente autorización, aprobación, registro o contrato de prestación de servicio público, tomará las medidas pertinentes de conformidad con la ley o el contrato correspondientes. En los contratos de prestación de servicios públicos, se incluirá una cláusula previendo las consecuencias que tendrá el incumplimiento de esta obligación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/224",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 90.2759017944336,
+                "t": 372.4934997558594,
+                "r": 525.5299072265625,
+                "b": 264.8539123535156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                627
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 61°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Elaboración del Presupuesto. El proyecto de presupuesto elaborado por la Defensoría del Pueblo, será remitido al Ejecutivo Nacional para su incorporación sin modificación al correspondiente Proyecto de Ley de Presupuesto, que se presentará para su consideración en la Asamblea Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/227",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 90.2520980834961,
+                "t": 703.8361206054688,
+                "r": 525.5035400390625,
+                "b": 651.3243408203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                286
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 63°."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Asamblea Nacional, dentro de (1) un año a la entrada en vigencia de la presente Ley sancionará la Ley de Carrera Defensorial.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/230",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 90.6720962524414,
+                "t": 593.4365234375,
+                "r": 525.4393310546875,
+                "b": 568.392578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                128
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposición Transitoria Primera ."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Defensor del Pueblo, dentro del primer año a la promulgación de esta Ley, dictará los reglamentos internos relativos a los procedimientos, a la organización y el funcionamiento y el estatuto de personal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/232",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 90.07209777832031,
+                "t": 538.2366333007812,
+                "r": 525.5076904296875,
+                "b": 499.3927917480469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                206
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposición Transitoria Segunda.-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Entre tanto se dicte el Reglamento respectivo, el régimen sobre pensiones y jubilaciones de los funcionarios y empleados al servicio de la Defensoría del Pueblo, se establecerá en Resolución dictada al efecto por el Defensor del Pueblo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/234",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 89.34009552001953,
+                "t": 469.14080810546875,
+                "r": 525.5107421875,
+                "b": 418.9690246582031,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                236
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Disposición Transitoria Tercera ."
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

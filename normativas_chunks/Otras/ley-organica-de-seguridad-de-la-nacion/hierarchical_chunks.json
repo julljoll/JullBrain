@@ -1,0 +1,4830 @@
+[
+  {
+    "text": "Nº 37594 del 18-12-2002",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 239.98887634277344,
+                "t": 689.8974609375,
+                "r": 376.2329406738281,
+                "b": 681.0130615234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Gaceta Oficial de la República Bolivariana de Venezuela"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "la siguiente,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 274.7462158203125,
+                "t": 606.9553833007812,
+                "r": 341.3447265625,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Decreta"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La presente Ley tiene por objeto regular la actividad del Estado y la sociedad, en materia de seguridad y defensa integral, en concordancia a los lineamientos, principios y fines constitucionales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 482.7761535644531,
+                "r": 525.4674072265625,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                196
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La seguridad de la Nación está fundamentada en el desarrollo integral, y es la condición, estado o situación que garantiza el goce y ejercicio de los derechos y garantías en los ámbitos económico, social, político, cultural, geográfico, ambiental y militar de los principios y valores constitucionales por la población, las instituciones y cada una de las personas que conforman el Estado y la sociedad, con proyección generacional, dentro de un sistema democrático, participativo y protagónico, libre de amenazas a su sobrevivencia, su soberanía y a la integridad de su territorio y demás espacios geográficos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 400.12213134765625,
+                "r": 525.46630859375,
+                "b": 292.2866516113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                611
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 2°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Defensa integral, a los fines de esta Ley, es el conjunto de sistemas, métodos, medidas y acciones de defensa, cualesquiera sean su naturaleza e intensidad, que en forma activa formule, coordine y ejecute el Estado con la participación de las instituciones públicas y privadas, y las personas naturales y jurídicas, nacionales o extranjeras, con el objeto de salvaguardar la independencia, la libertad, la democracia, la soberanía, la integridad territorial y el desarrollo integral de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.27644348144531,
+                "t": 248.3494873046875,
+                "r": 525.4842529296875,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                496
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El desarrollo integral, a los fines de esta Ley, consiste en la ejecución de planes, programas, proyectos y procesos continuos de actividades y labores que",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 110.36453247070312,
+                "r": 525.482177734375,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Objeto acordes, con la política general del Estado y en concordancia con el ordenamiento jurídico vigente, se realicen con la finalidad de satisfacer las necesidades individuales y colectivas de la población, en los ámbitos económico, social, político, cultural, geográfico, ambiental y militar.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 485.2090148925781,
+                "t": 510.51361083984375,
+                "r": 525.5035400390625,
+                "b": 499.2640075683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            },
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 717.3948364257812,
+                "r": 525.613525390625,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                7,
+                295
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Estado y la sociedad son corresponsables en materia de seguridad y defensa integral de la Nación, y las distintas actividades que realicen en los ámbitos económico, social, político, cultural, geográfico, ambiental y militar, estarán dirigidas a garantizar la satisfacción de los intereses y objetivos nacionales plasmados en la Constitución y las leyes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 620.9050903320312,
+                "r": 525.493896484375,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                357
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Corresponsabilidad entre el Estado y la sociedad Artículo 5°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El alcance de la seguridad y defensa integral está circunscrito a lo establecido en la Constitución y las leyes de la República, en los tratados, pactos y convenciones internacionales, no viciados de nulidad, que sean suscritos y ratificados por la República, y en aquellos espacios donde estén localizados nuestros intereses vitales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 510.51361083984375,
+                "r": 525.47509765625,
+                "b": 446.4544677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                334
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las disposiciones de la presente Ley serán de obligatorio cumplimiento para las personas naturales o jurídicas venezolanas, bien sean de derecho público o privado, cualquiera sea el lugar donde se encuentren, y para las personas naturales o jurídicas extranjeras, residentes o transeúntes en el espacio geográfico nacional con las excepciones que determinen las leyes respectivas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.24042510986328,
+                "t": 400.0260925292969,
+                "r": 525.47265625,
+                "b": 333.6857604980469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                380
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Estado debe fortalecer, a través de sus órganos gubernamentales, la institucionalidad democrática sobre la base de la pluralidad política y la libre participación ciudadana en los asuntos públicos, por medio de los mecanismos establecidos en la Constitución y las leyes, apoyándose en los principios de honestidad, participación, celeridad, eficacia, eficiencia, transparencia, rendición de cuentas y responsabilidad en el ejercicio de la función pública y en el principio de corresponsabilidad que rige la seguridad de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 206.9503936767578,
+                "r": 525.5634765625,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                533
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 8°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La familia será protegida como unidad insustituible en el desarrollo y formación integral del individuo, a través de políticas que garanticen el derecho a la vida y los servicios básicos, vivienda, salud, asistencia y previsión social, trabajo, educación, cultura, deporte, ciencia y tecnología, seguridad ciudadana y alimentaria, en armonía con los intereses nacionales, dirigidos a fortalecer y preservar la calidad de vida de venezolanos y venezolanas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 689.8974609375,
+                "r": 525.47265625,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                455
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El patrimonio cultural, material e inmaterial, será desarrollado y protegido mediante un sistema educativo y de difusión del mismo, entendido éste como manifestación de la actividad humana que por sus valores sirven de testimonio y fuente de conocimiento, esencial para la preservación de la cultura, tradición e identidad nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 565.6043701171875,
+                "r": 525.4843139648438,
+                "b": 501.64117431640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                332
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los pueblos indígenas como parte integrante del pueblo venezolano, único, soberano e indivisible, participarán activamente en la formulación, aplicación y evaluación de los planes y programas de seguridad, defensa y desarrollo integral de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 455.2308654785156,
+                "r": 525.5062255859375,
+                "b": 405.05535888671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                249
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La diversidad biológica, los recursos genéticos, los procesos ecológicos, los parques nacionales y monumentos naturales y las demás áreas de importancia ecológica serán conservadas, resguardadas y protegidas como patrimonio vital de la Nación, garantizándose a las generaciones futuras el uso y disfrute de una vida y ambiente sano, seguro y ecológicamente equilibrado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.01236724853516,
+                "t": 344.8393249511719,
+                "r": 525.489501953125,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                369
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Estado se reserva el derecho de supervisión y control a toda actividad científica destinada a realizar investigaciones con el material genético de los seres humanos, las cuales deberán realizarse dentro de los límites establecidos en la Constitución y las leyes nacionales, tratados, convenios y acuerdos internacionales vigentes y no viciados de nulidad suscritos por la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.22847747802734,
+                "t": 234.44773864746094,
+                "r": 525.49072265625,
+                "b": 168.10739135742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                385
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 13°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El conocimiento, la ciencia y la tecnología son recursos estratégicos para lograr el desarrollo sustentable, productivo y sostenible de nuestras generaciones. El",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.3005142211914,
+                "t": 124.05616760253906,
+                "r": 525.4579467773438,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Estado tiene la obligación de vigilar que las actividades tecnológicas y científicas que se realicen en el país no representen riesgo para la seguridad de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.27644348144531,
+                "t": 717.4908447265625,
+                "r": 525.4290161132812,
+                "b": 692.435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                165
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Defensa Integral de la Nación abarca el territorio y demás espacios geográficos de la República, así como los ciudadanos y ciudadanas, y los extranjeros que se encuentren en él. Igualmente, contempla a los venezolanos y venezolanas, y bienes fuera del ámbito nacional, pertenecientes a la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.01111602783203,
+                "t": 607.0994262695312,
+                "r": 525.502685546875,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                302
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En materia de seguridad, defensa y desarrollo, se considera fundamental garantizar la definición y administración de políticas integrales, mediante la actuación articulada de los Poderes Públicos nacional, estadal y municipal, cuyos principios rectores serán la integridad territorial, cooperación, solidaridad, concurrencia y corresponsabilidad, a los fines de ejecutar dichas políticas en forma armónica en los distintos niveles e instancias del Poder Público.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 89.96309661865234,
+                "t": 510.51361083984375,
+                "r": 525.4810791015625,
+                "b": 432.64874267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                462
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 16°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La calidad de vida de los ciudadanos y ciudadanas es objetivo fundamental para el Estado venezolano, el cual conjuntamente con la inicia tiva privada fomentará a nivel nacional, estadal y municipal, el desarrollo integral, sustentable, productivo y sostenible, a fin de garantizar la participación de la sociedad y así otorgar el mayor bienestar a la población.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/60",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.25123596191406,
+                "t": 386.33441162109375,
+                "r": 525.4530639648438,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                361
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Estado garantiza la preservación del orden interno, entendido éste como el estado en el cual se administra justicia y se consolidan los valores y principios consagrados en la Constitución y las leyes, mediante las previsiones y acciones que aseguren el cumplimiento de los deberes y el disfrute de los derechos y garantías por parte de los ciudadanos y ciudadanas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.2392349243164,
+                "t": 275.8468322753906,
+                "r": 525.4581298828125,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                367
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La política exterior del Estado venezolano es un elemento esencial y concordante con los planes de la República; su proyección ante la comunidad internacional está basada fundamentalmente en la autodeterminación, la solidaridad y cooperación entre los pueblos, promocionando y favoreciendo la integración en sintonía con el desarrollo integral de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.22722625732422,
+                "t": 165.45526123046875,
+                "r": 525.5025634765625,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                357
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Fuerza Armada Nacional constituye uno de los elementos fundamentales para la defensa integral de la Nación, organizada por el Estado para conducir su defensa militar en corresponsabilidad con la sociedad. Sus componentes, en sus respectivos ámbitos de acción, tienen como responsabilidad la planificación, ejecución y control de las operaciones militares, a los efectos de garantizar la independencia y soberanía de la Nación, asegurar la integridad del territorio y demás espacios geográficos de la República, así como la cooperación en el mantenimiento del orden interno. Las leyes determinarán la participación de la Fuerza Armada Nacional en el desarrollo integral de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 689.8974609375,
+                "r": 525.4798583984375,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                685
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 20°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Estado promueve la iniciativa pública y privada en el desarrollo de la tecnología e industria militar, sin más limitaciones que las previstas en la Constitución y las leyes, con el objeto de fortalecer el poder nacional; a tales efectos, podrá establecer alianzas estratégicas con otros Estados y con empresas nacionales e internacionales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 524.2232666015625,
+                "r": 525.46142578125,
+                "b": 457.99700927734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                342
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El material de guerra y otras armas, municiones, explosivos y afines, serán reglamentadas y controladas por el Ejecutivo Nacional a través de la Fuerza Armada Nacional, de acuerdo con la ley respectiva y sus reglamentos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 413.92779541015625,
+                "r": 525.4470825195312,
+                "b": 375.0848083496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                220
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "De acuerdo con lo previsto en la Constitución y las leyes, el Ejecutivo Nacional organizará un cuerpo uniformado de policía nacional, un cuerpo de investigaciones científicas, penales y criminalísticas, un cuerpo de bomberos y una organización de protección civil que atenderá las emergencias y desastres, las cuales, sin menoscabo de las funciones específicas que se les asignen, deben trabajar coordinadamente a los fines de garantizar la preservación del orden interno.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 331.129638671875,
+                "r": 525.4762573242188,
+                "b": 239.47705078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                472
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Sistema de Protección Civil se entenderá como una gestión social de riesgo en la cual actúan los distintos órganos del Poder Público a nivel nacional, estadal y municipal, con la participación de la sociedad, y se extiende desde la planificación del Estado hasta procesos específicos, con miras a la reducción de la vulnerabilidad ante los eventos de orden natural, técnico y social.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.04832458496094,
+                "t": 193.1446990966797,
+                "r": 525.497802734375,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                386
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 24°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La gestión social de riesgo comprende los objetivos, programas y acciones que dentro del proceso de planificación y desarrollo de la Nación, están orientadas a garantizar la calidad de vida de los ciudadanos y las ciudadanas, promoviendo el desenvolvimiento de los aspectos de prevención, preparación, mitigación, respuesta y recuperación ante eventos de orden natural, técnico y social que puedan afectar a la población, sus bienes y entorno, a nivel nacional, estadal y municipal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.24042510986328,
+                "t": 689.8014526367188,
+                "r": 525.513427734375,
+                "b": 595.9818725585938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                482
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Sistema Nacional de Inteligencia y Contrainteligencia se entenderá como el procesamiento del conjunto de actividades, informaciones y documentos que se produzcan en los sectores públicos y privados, en los ámbitos nacional e internacional, los cuales, por su carácter y repercusión, son de vital importancia a los fines de determinar las vulnerabilidades o fortalezas, tanto internas como externas, que afecten la seguridad de la Nación. La ley respectiva regulará lo atinente a su organización y funcionamiento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 551.9126586914062,
+                "r": 525.483154296875,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                515
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las actividades, informaciones y documentos derivados de la planificación y ejecución de actividades u operaciones concernientes a la seguridad y defensa de la Nación, obtenidas por el Sistema Nacional de Inteligencia y Contrainteligencia, serán agrupados, según la naturaleza de su contenido, en clasificados y no clasificados. Los clasificados se regirán por la ley respectiva, y los no clasificados serán de libre acceso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 413.92779541015625,
+                "r": 525.4530639648438,
+                "b": 336.06292724609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                424
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La movilización, a los fines de esta Ley, es el conjunto de previsiones y acciones preparatorias y ejecutivas destinadas a organizar el potencial existente y convertirlo en poder nacional, abarcando todos los sectores de la Nación tanto públicos como privados, para hacer más efectiva, armónica y oportuna la transición de una situación ordinaria a otra extraordinaria.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.07231140136719,
+                "t": 248.3494873046875,
+                "r": 525.4805908203125,
+                "b": 184.2722625732422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                369
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Decretado el estado de excepción, el Presidente o Presidenta de la República podrá ordenar la movilización total o parcial en cualquiera de los ámbitos que establece la Constitución y las leyes respectivas, en todo o en parte del territorio. La movilización de la Fuerza Armada Nacional se regirá por las disposiciones",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.30042266845703,
+                "t": 137.8618621826172,
+                "r": 525.487060546875,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                318
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 29°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Movilización que sobre ella establezca la ley, sin que sea necesario decretar el estado de excepción.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 451.3208312988281,
+                "t": 275.9668884277344,
+                "r": 525.5106811523438,
+                "b": 267.0704345703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            },
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.27644348144531,
+                "t": 717.3468017578125,
+                "r": 525.5086669921875,
+                "b": 692.567626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                13,
+                101
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Gestión social de riesgo"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El reglamento respectivo dispondrá las medid as necesarias para la preparación, movilización, aplicación eficiente del poder nacional y desmovilización.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/98",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 675.9957885742188,
+                "r": 525.4962158203125,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Gestión social de riesgo"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente o Presidenta de la República es la máxima autoridad políticoadministrativa que dirige la movilización, y será asistido en esta actividad por el Consejo de Defensa de la Nación, los Ministerios y demás organismos involucrados.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/101",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 607.00341796875,
+                "r": 525.4266357421875,
+                "b": 556.8279418945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                239
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Ministerios y otros organismos especializados, son los encargados de la elaboración y ejecución de los planes de movilización, de acuerdo con sus competencias y a las directrices emanadas del Presidente o Presidenta de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/104",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 510.3695373535156,
+                "r": 525.5098266601562,
+                "b": 457.99700927734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                236
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los gastos a que dé lugar la movilización se consideran inherentes a la seguridad y defensa de la Nación. El Presidente o Presidenta de la República adoptará las medidas que crea conducentes para adecuar el presupuesto de gastos a las circunstancias de excepción, de conformidad con las leyes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 441.4251403808594,
+                "r": 525.479736328125,
+                "b": 388.8725280761719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                293
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente o Presidenta de la República podrá disponer el empleo de la Fuerza Armada Nacional para coadyuvar en el control y funcionamiento de los servicios públicos o de las empresas básicas del Estado para la vida económicosocial de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/108",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 344.8393249511719,
+                "r": 525.48583984375,
+                "b": 292.418701171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                251
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Igualmente, podrá ordenar que el personal de tales servicios o empresas quede sometido temporalmente al régimen militar, si se hubiere decretado el estado de excepción.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 275.8468322753906,
+                "r": 525.4630126953125,
+                "b": 237.23193359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                168
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Decretada la movilización, el Presidente o Presidenta de la República podrá ordenar la requisición de los bienes necesarios para la defensa nacional, de acuerdo con lo establecido en el Reglamento respectivo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 193.04864501953125,
+                "r": 525.433837890625,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                208
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 33°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo de Defensa de la Nación es el máximo órgano de consulta para la planificación y asesoramiento del Poder Público nacional, estadal y municipal, en los asuntos relacionados con la seguridad y defensa integral de la Nación, su soberanía y la integridad del territorio y demás espacios geográficos de la República, debiendo para ello, formular, recomendar y evaluar políticas y estrategias, así como otros asuntos relacionados con la materia que le sean sometidos a consulta por parte del Presidente o Presidenta de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/114",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.22722625732422,
+                "t": 607.0994262695312,
+                "r": 525.478271484375,
+                "b": 513.2017211914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                536
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Integrantes",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/115",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 457.9073486328125,
+                "t": 496.5638732910156,
+                "r": 525.49755859375,
+                "b": 485.4583435058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo de Defensa de la Nación contará con miembros permanentes y miembros no permanentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.6474380493164,
+                "t": 469.11456298828125,
+                "r": 525.4722900390625,
+                "b": 444.2093505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son miembros permanentes el Presidente o Presidenta de la República, quien ejercerá la Presidencia; el Vicepresidente o Vicepresidenta Ejecutivo, el Presidente o Presidenta de la Asamblea Nacional, el Presidente o Presidenta del Tribunal Supremo de Justicia, el Presidente o Presidenta del Consejo Moral Republicano, y los Ministros o Ministras de los sectores de la defensa, la seguridad interior, las relaciones exteriores, la planificación y el ambiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/118",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.13117980957031,
+                "t": 427.71551513671875,
+                "r": 525.5194091796875,
+                "b": 347.4734191894531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                457
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los miembros no permanentes son de libre nombramiento y remoción por parte del Presidente o Presidenta del Consejo, y su participación se considerará pertinente, cada vez que la problemática a consultar lo amerite. Los miembros no permanentes sólo tendrán derecho a voz y cumplirán las funciones que se les asignen en su nombramiento, mientras se encuentren en el ejercicio de sus actividades dentro del Consejo de Defensa de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/119",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.26324462890625,
+                "t": 331.0335998535156,
+                "r": 525.48828125,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                436
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo de Defensa de la Nación contará con una Secretaría General, organismo que cumplirá funciones permanentes como órgano de apoyo administrativo, técnico y de investigación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.25123596191406,
+                "t": 206.9503936767578,
+                "r": 525.4798583984375,
+                "b": 168.10739135742188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                180
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo de Defensa de la Nación se reunirá de manera ordinaria por lo menos dos veces al año y de manera extraordinaria, cuando las circunstancias lo justifiquen.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/125",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.62342834472656,
+                "t": 124.1522216796875,
+                "r": 525.4967041015625,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                165
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Misión La convocatoria estará a cargo del Presidente o Presidenta, la cual podrá realizar a través de la Secretaría General. El Reglamento establecerá todo lo referente a la convocatoria y el procedimiento a seguir en las reuniones respectivas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/128",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 484.6555480957031,
+                "t": 634.716796875,
+                "r": 525.5023803710938,
+                "b": 625.8203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            },
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 717.3948364257812,
+                "r": 525.4906005859375,
+                "b": 664.9742431640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                7,
+                244
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo I Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo de Defensa de la Nación tendrá las siguientes atribuciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.80470275878906,
+                "t": 620.9050903320312,
+                "r": 470.7468566894531,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                70
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Asesorar al Poder Público en la elaboración de los planes de seguridad, desarrollo y defensa integral, en los diversos ámbitos de la vida nacional.\n2. Formular la política de seguridad, en armonía con los intereses y objetivos de la Nación para garantizar los fines supremos del Estado.\n3. Elaborar el concepto estratégico de la Nación, teniendo como base vinculante el contenido de los principios fundamentales consagrados en la Constitución y las leyes de la República, con un avance progresivo que atienda la coyuntura y en sintonía con los intereses nacionales.\n4. Actualizar cuando se requiera el concepto estratégico de la Nación y sugerir lineamientos al Poder Público para la elaboración y ejecución de los planes que de él se deriven.\n5. Constituir Comités de Trabajo Interinstitucionales y de Emergencia, los cuales estarán integrados por representantes de los distintos organismos involucrados en la problemática objeto de análisis y por otros expertos que se consideren necesarios. Las funciones de estos Comités serán establecidas en el Reglamento de esta Ley.\n6. Fomentar la participación activa y permanente del Poder Público y de la sociedad, en los asuntos relacionados con la seguridad de la Nación.\n7. Requerir de las personas naturales o jurídicas de carácter público y privado los datos, estadísticas e informaciones relacionados con la seguridad de la Nación, así como su necesario apoyo.\n8. Asegurar que los sistemas de inteligencia, protección civil y demás organismos de seguridad ciudadana del Estado e instituciones afines, remitan los datos, informaciones y estadísticas relacionadas con la seguridad de la Nación.\n9. Proponer al Presidente o Presidenta de la República intervenir aquellos órganos de seguridad del Estado, en cualquiera de sus niveles y espacios cuando las circunstancias lo ameriten.\n10. Aprobar directivas para colaborar con la movilización y desmovilización total o parcial, en los diversos ámbitos.\n11. Asegurar que los integrantes del Sistema de Protección Civil en sus diferentes niveles, programen y coordinen con el órgano respectivo, los recursos públicos y privados necesarios, a fin de prevenir, mitigar, dar respuestas y recuperar los daños ocasionados por eventos de origen natural, técnico y social, que obligatoriamente requieran del apoyo de las estructuras políticas, técnicas, sociales y económicas del Estado.\n12. Fomentar la formación de equipos multidisciplinarios especializados en seguridad y defensa, del sector público y privado.\n13. Dictar el reglamento para su organización y funcionamiento.\n14. Otras que sean decididas en el seno del Consejo, al menos por las dos terceras partes de sus miembros permanentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/132",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 607.00341796875,
+                "r": 525.500244140625,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                150
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 579.4100341796875,
+                "r": 525.47265625,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 551.816650390625,
+                "r": 525.4713134765625,
+                "b": 499.2640075683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                278
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 496.6119079589844,
+                "r": 525.48583984375,
+                "b": 457.99700927734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                177
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 455.326904296875,
+                "r": 525.489501953125,
+                "b": 388.8725280761719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                329
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 386.2383728027344,
+                "r": 525.5037841796875,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/138",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 358.6269836425781,
+                "r": 525.5191040039062,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                192
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/139",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 317.2459411621094,
+                "r": 525.5074462890625,
+                "b": 264.6932678222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/140",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 262.0411376953125,
+                "r": 525.4689331054688,
+                "b": 225.67135620117188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                186
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 220.64202880859375,
+                "r": 525.4510498046875,
+                "b": 195.8328399658203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/142",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 193.1446990966797,
+                "r": 525.4625854492188,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                425
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/143",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 110.36453247070312,
+                "r": 525.458251953125,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                125
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/144",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 717.4908447265625,
+                "r": 441.0655212402344,
+                "b": 706.2412109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                63
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 703.6972045898438,
+                "r": 525.4461669921875,
+                "b": 678.7799072265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Atribuciones",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/148",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 448.6927490234375,
+                "t": 620.7610473632812,
+                "r": 525.5023193359375,
+                "b": 612.0326538085938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De los Miembros Permanentes Del Consejo de Defensa de la Nación"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los miembros permanentes del Consejo de Defensa de la Nación tienen las siguientes atribuciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/150",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 593.3117065429688,
+                "r": 525.4268798828125,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                96
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Acudir a la convocatoria del Presidente o Presidenta del Consejo.\n2. Solicitar ante el Presidente o Presidenta del Consejo la convocatoria del mismo.\n3. Derecho a voz y voto en las deliberaciones del Consejo de Defensa de la Nación.\n4. Aportar toda la información y las recomendaciones necesarias para apoyar el proceso de decisiones.\n5. Formar parte de los Comités de Trabajo Interinstitucionales y de Emergencia, o designar sus representantes, cuando sean requeridos.\n6. Evaluar y analizar las propuestas presentadas por el Presidente o Presidenta del Consejo y emitir recomendaciones.\n7. Proponer políticas de seguridad y defensa, así como las medidas para realizar los planes propuestos.\n8. Las demás que señalen la Constitución, leyes de la República y el Reglamento de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/151",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 565.7003784179688,
+                "r": 470.4298400878906,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/152",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 551.9126586914062,
+                "r": 525.4630126953125,
+                "b": 529.2345581054688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 524.3192749023438,
+                "r": 525.4686279296875,
+                "b": 501.64117431640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                82
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/154",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 496.70794677734375,
+                "r": 525.4749755859375,
+                "b": 471.80267333984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                101
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/155",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 469.11456298828125,
+                "r": 525.4315185546875,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/156",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 441.41314697265625,
+                "r": 525.4278564453125,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/157",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 413.92779541015625,
+                "r": 525.504638671875,
+                "b": 389.00457763671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                103
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/158",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 386.33441162109375,
+                "r": 525.435302734375,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente o Presidenta del Consejo de Defensa de la Nación tiene las siguientes atribuciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/161",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.22957611083984,
+                "t": 289.73052978515625,
+                "r": 525.427734375,
+                "b": 264.6932678222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 40°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Presidir el Consejo de Defensa de la Nación.\n2. Convocar al Consejo de Defensa de la Nación por propia iniciativa o respondiendo a la solicitud de uno o más miembros permanentes del Consejo.\n3. Nombramiento y remoción del Secretario o Secretaria General del Consejo.\n4. Dirigir y coordinar las sesiones de trabajo del Consejo.\n5. Solicitar opinión sobre las políticas, estrategias y demás asuntos que orienten la acción de gobierno en materia de seguridad y defensa integral.\n6. Solicitar de las autoridades nacionales, estadales, distritales y municipales la colaboración necesaria para atender los requerimientos del Consejo de Defensa de la Nación, a fin de cumplir con la misión encomendada.\n7. Presentar ante el Consejo de Ministros, para su conocimiento y deliberación, los asuntos discutidos en el seno del Consejo de Defensa de",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/162",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 91.16604614257812,
+                "t": 262.1371765136719,
+                "r": 360.29962158203125,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/163",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.20556640625,
+                "t": 248.3494873046875,
+                "r": 525.437744140625,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                145
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/164",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.36164093017578,
+                "t": 206.9503936767578,
+                "r": 523.6868896484375,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                75
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/165",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.01346588134766,
+                "t": 193.1446990966797,
+                "r": 411.6795654296875,
+                "b": 181.89508056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/166",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.36164093017578,
+                "t": 179.3570098876953,
+                "r": 525.4642333984375,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                148
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/167",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.3136215209961,
+                "t": 151.74560546875,
+                "r": 525.4482421875,
+                "b": 113.03466033935547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                219
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/168",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.42167663574219,
+                "t": 110.36453247070312,
+                "r": 525.4844970703125,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                139
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 40°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "la Nación y que se corresponden con sus atribuciones como Presidente o Presidenta de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/169",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 118.97438049316406,
+                "t": 717.3948364257812,
+                "r": 525.4445190429688,
+                "b": 692.567626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                98
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 40°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "8. Las demás que le sean asignadas por el Consejo de Defensa de la Nación, a los fines de facilitar su desempeño como Presidente o Presidenta del referido Consejo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/170",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 689.8974609375,
+                "r": 525.48583984375,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                163
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 40°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Secretario o Secretaria",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/173",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 392.19012451171875,
+                "t": 593.3117065429688,
+                "r": 525.5010986328125,
+                "b": 584.4392700195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "De la Secretaría General del Consejo de Defensa de la Nación"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Secretaría General estará a cargo de un Secretario o Secretaria quien será de libre nombramiento y remoción por parte del Presidente o Presidenta del Consejo de Defensa de la Nación. Los requisitos del cargo serán establecidos en el Reglamento de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/175",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 565.7003784179688,
+                "r": 525.4951171875,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                259
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Secretario o Secretaria General del Consejo de Defensa de la Nación tiene las siguientes funciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/178",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 469.11456298828125,
+                "r": 525.4437866210938,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Asistir a las reuniones ordinarias o extraordinarias del Consejo de Defensa de la Nación.\n2. Levantar las actas de las reuniones del Consejo de Defensa de la Nación.\n3. Mantener informado al Presidente y demás miembros del Consejo de las actividades técnicas, administrativas y de investigación que se realicen en la Secretaría.\n4. Asistir al Presidente o Presidenta del Consejo de Defensa de la Nación en la dirección y coordinación de las reuniones o sesiones de trabajo de dicho Consejo.\n5. Apoyar, con el personal profesional especializado y técnico bajo su dirección y supervisión, el trabajo del Consejo de Defensa de la Nación y de los diferentes Comités que se constituyan.\n6. Realizar seguimiento a las decisiones que se tomen en el Consejo y en los diferentes Comités que se constituyan.\n7. Supervisar el funcionamiento de los sistemas automatizados para el manejo de la información requerida por el Consejo de Defensa de la Nación.\n8. Velar por el cumplimiento de los requerimientos y solicitudes que realice el Consejo de Defensa de la Nación a las personas naturales o jurídicas, de derecho público o privado, de la información y documentación relacionada con la seguridad y defensa integral de la Nación necesaria para el cumplimiento de la misión del Consejo.\n9. Dictar su Reglamento Interno, previa aprobación del Consejo de Defensa de la Nación y preparar los manuales que sean requeridos para su funcionamiento.\n10. Las demás que por su naturaleza le correspondan.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/179",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 441.52117919921875,
+                "r": 525.4638671875,
+                "b": 418.84307861328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/180",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 413.92779541015625,
+                "r": 515.114990234375,
+                "b": 402.6781921386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                75
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/181",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 400.12213134765625,
+                "r": 525.4810791015625,
+                "b": 363.65631103515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                162
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/182",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 358.7230224609375,
+                "r": 525.482177734375,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/183",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 317.34197998046875,
+                "r": 525.4157104492188,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                190
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/184",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 275.94287109375,
+                "r": 525.4625244140625,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                115
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/185",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 248.3494873046875,
+                "r": 525.449462890625,
+                "b": 211.8656463623047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                144
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/186",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 206.8423309326172,
+                "r": 525.4855346679688,
+                "b": 140.49598693847656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                331
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/187",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 137.95791625976562,
+                "r": 525.4734497070312,
+                "b": 101.49209594726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                154
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/188",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 96.46278381347656,
+                "r": 392.3655090332031,
+                "b": 85.44127655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Secretaría General del Consejo de Defensa de la Nación estará integrada por los Comités Coordinadores, el Centro de Evaluación Estratégica, el Centro de Políticas y Estrategias, y una oficina administrativa que apoye su funcionamiento, de acuerdo con lo establecido en la presente Ley y en su respectivo Reglamento Interno.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/191",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 89.96306610107422,
+                "t": 689.8974609375,
+                "r": 525.478271484375,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                326
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 43°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Comités Coordinadores son los encargados de analizar la información para elaborar los planes, estudios e investigaciones que requieran los Comités de Trabajo, Interinstitucionales y de Emergencia, y están conformados por personal profesional civil y/o militar.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/194",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.13114929199219,
+                "t": 579.5060424804688,
+                "r": 525.5050048828125,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                264
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 44°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Centro de Evaluación Estratégica es el encargado de realizar el seguimiento y evaluación continua de la situación para producir oportunamente las alertas necesarias; teniendo bajo su responsabilidad la operación de la Sala de Situación del Presidente o Presidenta de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/197",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.29923248291016,
+                "t": 482.92022705078125,
+                "r": 525.4677734375,
+                "b": 430.40362548828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                283
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 45°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Centro de Políticas y Estrategias es el encargado de proponer al Consejo de Defensa de la Nación a través de los Comités de Trabajo Interinstitucionales y Comités de Emergencia, políticas y estrategias para la solución de los problemas relacionados con la seguridad y defensa integral.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/200",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.45531463623047,
+                "t": 386.33441162109375,
+                "r": 525.507080078125,
+                "b": 333.6857604980469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                288
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 46°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se entiende por Zonas de Seguridad, los espacios del territorio nacional, que por su importancia estratégica, características y elementos que los conforman, están sujetos a regulación especial, en cuanto a las personas, bienes y actividades que ahí se encuentren, con la finalidad de garantizar la protección de estas zonas ante peligros o amenazas internas o externas. El Reglamento respectivo regulará todo lo referente a la materia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/204",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.09513092041016,
+                "t": 206.9503936767578,
+                "r": 525.5086059570312,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                435
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 47°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional, oída la opinión del Consejo de Defensa de la Nación, podrá declarar Zonas de Seguridad, los espacios geográficos del territorio nacional señalados a continuación:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/207",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.64740753173828,
+                "t": 689.8974609375,
+                "r": 525.4630126953125,
+                "b": 653.4317016601562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                185
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 48°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Una Zona de Seguridad Fronteriza.\n2. Una zona adyacente a la orilla del mar, de los lagos, de las islas y ríos navegables.\n3. Los corredores de transmisión de oleoductos, gasoductos, poliductos, acueductos y tendidos eléctricos principales.\n4. Las zonas que circundan las instalaciones militares y públicas, las industrias básicas, estratégicas y los servicios esenciales.\n5. El espacio aéreo sobre las instalaciones militares, las industrias básicas, estratégicas y los servicios esenciales.\n6. Las zonas adyacentes a las vías de comunicación aérea, terrestre y acuáticas de primer orden.\n7. Cualquier otra zona de Seguridad que se considere necesaria para la seguridad y defensa de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/208",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 91.16366577148438,
+                "t": 648.4984130859375,
+                "r": 309.67047119140625,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/209",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.20318603515625,
+                "t": 634.5967407226562,
+                "r": 525.4854736328125,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                88
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/210",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.35926055908203,
+                "t": 607.00341796875,
+                "r": 525.4314575195312,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                117
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/211",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.0110855102539,
+                "t": 579.4100341796875,
+                "r": 525.433837890625,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                131
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/212",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.35926055908203,
+                "t": 551.816650390625,
+                "r": 525.4362182617188,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                119
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/213",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.31124114990234,
+                "t": 524.2232666015625,
+                "r": 525.5181884765625,
+                "b": 499.39605712890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                96
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/214",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.41929626464844,
+                "t": 496.70794677734375,
+                "r": 525.4810791015625,
+                "b": 471.6706237792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                104
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 48°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A los efectos de esta Ley, se entiende por Zona de Seguridad Fronteriza, un área delimitada que comprende una franja de seguridad de fronteras, así como una extensión variable del territorio nacional, adyacente al límite políticoterritorial de la República, sujeta a regulación especial que estimule el desarrollo integral, con la finalidad de resguardar las fronteras y controlar la presencia y actividades de personas nacionales y extranjeras, quienes desde esos espacios geográficos, pudieran representar potenciales amenazas que afecten la integridad territorial y por ende la seguridad de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/217",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 89.85501098632812,
+                "t": 427.71551513671875,
+                "r": 525.50146484375,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                604
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional, previa opinión del Consejo de Defensa de la Nación, por vía reglamentaria podrá declarar de utilidad pública, a los fines de la presente Ley, los espacios geográficos que comprenden las Zonas de Seguridad, fijando la extensión de los mismos, en su totalidad o por sectores, pudiendo modificarlas cuando las circunstancias lo requieran y ejercer su control, regulando la presencia y actividad de personas nacionales y extranjeras, naturales y jurídicas en dichas áreas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/220",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.0110855102539,
+                "t": 275.94287109375,
+                "r": 525.4834594726562,
+                "b": 184.2722625732422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                491
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 50°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los corredores viales terrestres, aéreos o acuáticos que dan acceso a las instalaciones que estén declaradas Zonas de Seguridad, no podrán ser obstruidos. En caso de presentarse esta situación, los responsables serán sancionados de acuerdo con lo establecido por las leyes y reglamentos que",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/223",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.2271957397461,
+                "t": 137.8618621826172,
+                "r": 525.4674072265625,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                290
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 51°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "rigen la materia, estando obligadas las autoridades competentes a restituir de inmediato el libre acceso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/225",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.6366195678711,
+                "t": 717.3468017578125,
+                "r": 525.4146728515625,
+                "b": 694.812744140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                105
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Clasificación de las Zonas de Seguridad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los reglamentos especiales de las zonas de seguridad determinarán el procedimiento para su declaratoria, el régimen sobre personas, bienes y actividades en las mismas, así como las sanciones a que hubiera lugar, todo de conformidad con lo dispuesto en la presente Ley y el ordenamiento legal vigente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/228",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 648.4024047851562,
+                "r": 525.4385986328125,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                300
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Quedan obligadas todas las personas residentes o transeúntes en el territorio nacional a atender los requerimientos que le hicieren los organismos del Estado en aquellos asuntos relacionados con la seguridad y defensa de la Nación; su incumplimiento acarreará la aplicación de sanciones civiles, penales, administrativas y pecuniarias de acuerdo con lo previsto en el ordenamiento legal vigente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/232",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 510.525634765625,
+                "r": 525.47509765625,
+                "b": 430.2715759277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                395
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 53°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las personas naturales o jurídicas, nacionales o extranjeras, así como los funcionarios públicos que tengan la obligación de suministrar los datos e informaciones a que se refiere la presente Ley y se negaren a ello, o que las dieren falsas, serán penados con prisión de dos (2) a cuatro (4) años, en el caso de los particulares; y de cuatro (4) a seis (6) años, en el caso de los funcionarios públicos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/235",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 386.2383728027344,
+                "r": 525.4810180664062,
+                "b": 306.22442626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                403
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 54°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Todos aquellos funcionarios o funcionarias que presten servicio en cualquiera de los órganos del Poder Público o cualquier institución del Estado y divulguen o suministren datos o informaciones a cualquier particular o a otro Estado, comprometiendo la seguridad y defensa de la Nación, serán penados con prisión de cinco (5) a diez (10) años.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/238",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 262.1371765136719,
+                "r": 525.4906616210938,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                342
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 55°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cualquiera que organice, sostenga o instigue a la realización de actividades dentro de las zonas de seguridad, que estén dirigidas a perturbar o afectar la organización y funcionamiento de las instalaciones militares, de los servic ios públicos, industrias y empresas básicas, o la vida económico social del país, será penado con prisión de cinco (5) a diez (10) años.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/241",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 151.74560546875,
+                "r": 525.468994140625,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                368
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 56°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las autoridades nacionales, estadales y municipales o aquellas que tengan dentro de sus funciones el registro y control de las personas, bienes y actividades que se encuentran dentro de las zonas de seguridad establecidas en esta Ley, tendrán la obligación de actualizar y suministrar dichos datos e informaciones en un lapso no mayor de seis (6) meses, contados a partir de la publicación de la presente Ley, a los fines de su remisión al Ejecutivo Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/243",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 606.9553833007812,
+                "r": 525.4937744140625,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                459
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 57°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Consejo de Defensa de la Nación está obligado a la creación de un registro nacional de las zonas de seguridad, a los fines de servir de resguardo de los datos e informaciones que permitan el seguimiento, control y supervisión de las personas, bienes y actividades que se encuentren en las mismas, por parte del Estado a través de sus órganos competentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/244",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 510.51361083984375,
+                "r": 525.486572265625,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                357
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 57°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las leyes y reglamentos que regulan los procedimientos para la declaratoria de las zonas de seguridad y el control de los bienes, personas y actividades que ahí se encuentran, se mantendrán vigentes siempre que no colidan con la presente Ley, hasta la promulgación del reglamento respectivo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/247",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 399.9780578613281,
+                "r": 525.4906005859375,
+                "b": 347.4734191894531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                291
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 58°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional deberá dictar los reglamentos que determina la presente Ley, dentro de los seis (6) meses siguientes a su promulgación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/250",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.732666015625,
+                "t": 262.0411376953125,
+                "r": 525.4530639648438,
+                "b": 237.09986877441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                141
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 59°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El régimen sancionatorio previsto en la presente Ley continuará en vigencia hasta tanto no sean contempladas las sanciones respectivas en el Código Penal o en el Código Orgánico de Justicia Militar, según sea el caso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/253",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.25242614746094,
+                "t": 193.04864501953125,
+                "r": 525.44580078125,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 60°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Derogatoria",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/254",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 455.3224792480469,
+                "t": 137.8138427734375,
+                "r": 525.4951171875,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 60°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Queda derogada la Ley Orgánica de Seguridad y Defensa publicada en la Gaceta Oficial de la República de Venezuela Nº 1.899, Extraordinario, de fecha",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/256",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.37248992919922,
+                "t": 110.37653350830078,
+                "r": 525.4930419921875,
+                "b": 85.44127655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                148
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 61°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "26 de agosto de 1976; así mismo, quedan derogadas todas las normas que en cuanto a la Seguridad de la Nación colindan con la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/261",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 717.3948364257812,
+                "r": 525.4281616210938,
+                "b": 692.435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Reglamentación de la ley"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Entrada en vigencia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/262",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 409.290283203125,
+                "t": 675.94775390625,
+                "r": 525.4951171875,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Reglamentación de la ley"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Esta Ley entrará en vigencia a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/264",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.80470275878906,
+                "t": 648.5104370117188,
+                "r": 525.4650268554688,
+                "b": 623.5751953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 62°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dada, firmada y sellada en el Palacio Federal Legislativo, sede de la Asamblea Nacional, en Caracas, a los veintiocho días del mes de noviembre de dos mil dos. Año 192º de la Independencia y 143º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/265",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 607.0994262695312,
+                "r": 525.471435546875,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                213
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 62°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Rafael Simón Jiménez  Primer Vicepresidente, 1 = Noelí Pocaterra  Segunda Vicepresidenta. Eustoquio Contreras  Secretario, 1 = Zulma Torres De Melo  Subsecretaria",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 129.80337524414062,
+                "t": 470.76165771484375,
+                "r": 479.953857421875,
+                "b": 374.61114501953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Presidente"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Palacio de Miraflores, en Caracas, a los dieciocho días del mes de diciembre de dos mil dos. Años 192º de la Independencia y 143º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/268",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.264404296875,
+                "t": 344.93536376953125,
+                "r": 525.443359375,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                147
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Presidente"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cúmplase (L.S.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/269",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.45650482177734,
+                "t": 289.73052978515625,
+                "r": 147.20407104492188,
+                "b": 264.6932678222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Presidente"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Hugo Chávez Frías",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/270",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 414.9846496582031,
+                "t": 248.3494873046875,
+                "r": 525.4758911132812,
+                "b": 237.09986877441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Presidente"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

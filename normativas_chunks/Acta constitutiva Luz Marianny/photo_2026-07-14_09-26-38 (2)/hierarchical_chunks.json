@@ -1,0 +1,315 @@
+[
+  {
+    "text": "BOLIVARES (Bs. 20.000.00).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 164.68084716796875,
+                "t": 780.6451822916667,
+                "r": 383.6170247395833,
+                "b": 754.8387451171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 3816758390021980326,
+        "filename": "photo_2026-07-14_09-26-38 (2).jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "CLÁusuLA 23º; Desígnación de la JUNTA DIRECTIVA de la Compañía para el primer período estatutario: PRESIDENTE: MENDOZA JIMENEZ LUIS ALFREDO, ya identificado, VICEPRESIDENTE: PELAEZ RAMIREZ CARMENSA, ya identificada. CLÁUSULA_24 si o ood eo e eo oso io is o coiso p iaaisa Lic. MARY CARMEN SANCHEZ ACOSTA, venezolana, mayor de edad, de este domicio titular de la Cédula de ldentidad No. V- 14.709.754, inscrito en el C.P.C. del Estado Yaracuy bajo el No. 88.360 habiendo otros asuntos que tratar, se declaró terminada la reunión previa elaboració lectra fima de la resente Acta Se Autoria al ciudadan MGDALA SALAS, Judia de stad Lara En la Cud d e Baruisiet a ecea e presentación LOS OTORGANTES;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 132.76596069335938,
+                "t": 685.8064778645834,
+                "r": 898.0851236979166,
+                "b": 193.54842122395826,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                694
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "TITULO VII DISPOSICIONES TRANSITORIAS"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 3816758390021980326,
+        "filename": "photo_2026-07-14_09-26-38 (2).jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "dir",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 937.6595865885416,
+                "t": 1156.1290384928386,
+                "r": 959.3617350260416,
+                "b": 1128.3871053059895,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "TITULO VII DISPOSICIONES TRANSITORIAS"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 3816758390021980326,
+        "filename": "photo_2026-07-14_09-26-38 (2).jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "co",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 939.574462890625,
+                "t": 1120.0,
+                "r": 959.3617350260416,
+                "b": 1096.1290283203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "TITULO VII DISPOSICIONES TRANSITORIAS"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 3816758390021980326,
+        "filename": "photo_2026-07-14_09-26-38 (2).jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "V",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 946.5957845052084,
+                "t": 937.4193522135417,
+                "r": 959.3617350260416,
+                "b": 919.3548583984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "TITULO VII DISPOSICIONES TRANSITORIAS"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 3816758390021980326,
+        "filename": "photo_2026-07-14_09-26-38 (2).jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "0)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 949.14892578125,
+                "t": 869.0322672526042,
+                "r": 959.3617350260416,
+                "b": 847.0968017578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "TITULO VII DISPOSICIONES TRANSITORIAS"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 3816758390021980326,
+        "filename": "photo_2026-07-14_09-26-38 (2).jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "0",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 950.425537109375,
+                "t": 825.8064778645833,
+                "r": 959.3617350260416,
+                "b": 810.3225911458333,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "TITULO VII DISPOSICIONES TRANSITORIAS"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 3816758390021980326,
+        "filename": "photo_2026-07-14_09-26-38 (2).jpg",
+        "uri": null
+      }
+    }
+  }
+]

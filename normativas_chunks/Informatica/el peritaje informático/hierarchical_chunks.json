@@ -1,0 +1,5732 @@
+[
+  {
+    "text": "público",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 436.8157043457031,
+                "t": 629.291748046875,
+                "r": 438.4439697265625,
+                "b": 629.291748046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El peritaje informático y la evidencia digital en Colombia. Conceptos, retos y propuestas es el quinto libro publicado por",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 231.07569885253906,
+                "t": 552.9451904296875,
+                "r": 438.4439697265625,
+                "b": 525.792724609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "el Grupo de Estudios en Comercio Electrónico, Telecomunica-",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 231.22869873046875,
+                "t": 518.8975830078125,
+                "r": 438.4439697265625,
+                "b": 508.78936767578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "ciones e Informática (gecti) de la Facultad de Derecho de la",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 231.13690185546875,
+                "t": 501.8941650390625,
+                "r": 438.4439697265625,
+                "b": 492.1429748535156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "fundir conocimientos para poner en marcha una articulación",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 231.21849060058594,
+                "t": 399.873779296875,
+                "r": 438.4439697265625,
+                "b": 389.7655944824219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "valiosa entre expertos de distintas disciplinas que le permita",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 231.0858917236328,
+                "t": 382.870361328125,
+                "r": 438.4439697265625,
+                "b": 372.7621765136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "fomentar un trabajo multidisciplinario y establecer un puente",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 231.21849060058594,
+                "t": 365.866943359375,
+                "r": 438.4439697265625,
+                "b": 355.7587585449219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                61
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "entre la universidad y la sociedad con el fin de promover re-",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 231.2388916015625,
+                "t": 348.86358642578125,
+                "r": 438.4439697265625,
+                "b": 338.7554016113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                61
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "flexiones y acciones en materia de Internet, la sociedad de la",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 231.1368865966797,
+                "t": 331.86016845703125,
+                "r": 438.4439697265625,
+                "b": 321.7519836425781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "información, las telecomunicaciones y temas convergentes. En",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 231.21849060058594,
+                "t": 314.85675048828125,
+                "r": 438.4439697265625,
+                "b": 304.7485656738281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "desarrollo de dicho objetivo, el profesor Cano se encargó de la definición temática y metodológica de los capítulos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 231.32049560546875,
+                "t": 297.8533935546875,
+                "r": 438.4439697265625,
+                "b": 270.7417907714844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                116
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Jeimy José Cano Martínez",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 629.291748046875,
+                "r": 438.4439697265625,
+                "b": 508.61468505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "informático",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 455.0168151855469,
+                "r": 438.4439697265625,
+                "b": 364.1960144042969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "peritaje",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 358.0437927246094,
+                "r": 438.4439697265625,
+                "b": 301.83099365234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "el",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 295.58648681640625,
+                "r": 438.4439697265625,
+                "b": 281.7320861816406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": ")",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 629.291748046875,
+                "r": 438.4439697265625,
+                "b": 629.291748046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Coord.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 629.291748046875,
+                "r": 438.4439697265625,
+                "b": 616.6867065429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "(",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 614.5986938476562,
+                "r": 438.4439697265625,
+                "b": 612.45068359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "digital",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 448.66748046875,
+                "r": 438.4439697265625,
+                "b": 397.40509033203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "evidencia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 391.3155212402344,
+                "r": 438.4439697265625,
+                "b": 323.3987121582031,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                9
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "la",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 317.32220458984375,
+                "r": 438.4439697265625,
+                "b": 302.1462097167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "y",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 296.0264892578125,
+                "r": 438.4439697265625,
+                "b": 288.2088928222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "gecti",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 629.291748046875,
+                "r": 438.4439697265625,
+                "b": 627.0482177734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "colombia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 413.9181213378906,
+                "r": 438.4439697265625,
+                "b": 345.9453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "en",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 339.60009765625,
+                "r": 438.4439697265625,
+                "b": 323.15850830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "el peritaje informático\r\nel peritaje informático",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 546.5673828125,
+                "r": 438.4439697265625,
+                "b": 527.4153442382812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "el peritaje informático\r\nel peritaje informático",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 545.4902954101562,
+                "r": 438.4439697265625,
+                "b": 526.3382568359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "y la evidencia digital\r\ny la evidencia digital",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 507.2154846191406,
+                "r": 438.4439697265625,
+                "b": 494.73309326171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "y la evidencia digital\r\ny la evidencia digital",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 506.31640625,
+                "r": 438.4439697265625,
+                "b": 493.8340148925781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "en colombia\r\nen colombia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 471.0218811035156,
+                "r": 438.4439697265625,
+                "b": 458.6402893066406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "en colombia\r\nen colombia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 470.30078125,
+                "r": 438.4439697265625,
+                "b": 457.919189453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "conceptos\r\nconceptos",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 430.947509765625,
+                "r": 438.4439697265625,
+                "b": 422.62591552734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "conceptos\r\nconceptos",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 430.40447998046875,
+                "r": 438.4439697265625,
+                "b": 422.0828857421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": ", \r\n,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 424.5436706542969,
+                "r": 438.4439697265625,
+                "b": 419.5036926269531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "retos y propuestas\r\nretos y propuestas",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 430.40447998046875,
+                "r": 438.4439697265625,
+                "b": 422.0828857421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                38
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": ", \r\n,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 425.0867004394531,
+                "r": 438.4439697265625,
+                "b": 420.0467224121094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "retos y propuestas\r\nretos y propuestas",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 430.947509765625,
+                "r": 438.4439697265625,
+                "b": 422.62591552734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                38
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Jeimy José Cano Martínez",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 364.0635986328125,
+                "r": 438.4439697265625,
+                "b": 351.54461669921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "(Coord.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 340.5075988769531,
+                "r": 438.4439697265625,
+                "b": 328.07958984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "gecti",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 314.3760986328125,
+                "r": 438.4439697265625,
+                "b": 306.5010986328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Universidad de los andes · FacUltad de derecho",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 132.1418914794922,
+                "r": 438.4439697265625,
+                "b": 121.73189544677734,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "ediciones Uniandes",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 438.4439697265625,
+                "t": 115.14189910888672,
+                "r": 438.4439697265625,
+                "b": 104.73189544677734,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital. El gecti se ha propuesto aunar esfuerzos, compartir y di-"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "g e c t i",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 195.7086181640625,
+                "t": 405.129150390625,
+                "r": 229.73953247070312,
+                "b": 398.2638244628906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                9
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "e l p e r i t a j e i n fo r m á t i c o y l a ev i d e n c i a d i g i t a l e n c o l o m b i a . c o n c e p t o s , r e t o s y p r o p u e s t a s"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Universidad de los Andes – Facultad de Derecho Ediciones Uniandes Bogotá, 2010",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 92.86579895019531,
+                "t": 98.1543960571289,
+                "r": 331.90008544921875,
+                "b": 55.723995208740234,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                78
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "e l p e r i t a j e i n fo r m á t i c o y l a ev i d e n c i a d i g i t a l e n c o l o m b i a . c o n c e p t o s , r e t o s y p r o p u e s t a s"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El peritaje informático y la evidencia digital en Colombia: conceptos, retos y propuestas / Jeimy José Cano Martínez, coordinador.-- Bogotá: Universidad de los Andes, Facultad de Derecho, Ediciones Uniandes, 2010.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 74.25009155273438,
+                "t": 554.9650268554688,
+                "r": 378.9620361328125,
+                "b": 527.3330078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                213
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "e l p e r i t a j e i n fo r m á t i c o y l a ev i d e n c i a d i g i t a l e n c o l o m b i a . c o n c e p t o s , r e t o s y p r o p u e s t a s"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "372 p. ; 16 x 23 cm (Colección Biblioteca Jurídica Uniandina)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 88.09009552001953,
+                "t": 524.9650268554688,
+                "r": 302.80206298828125,
+                "b": 517.0370483398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                61
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "e l p e r i t a j e i n fo r m á t i c o y l a ev i d e n c i a d i g i t a l e n c o l o m b i a . c o n c e p t o s , r e t o s y p r o p u e s t a s"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "ISBN 978-958-695-492-1",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 85.65809631347656,
+                "t": 504.5570068359375,
+                "r": 173.50607299804688,
+                "b": 498.7409973144531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "e l p e r i t a j e i n fo r m á t i c o y l a ev i d e n c i a d i g i t a l e n c o l o m b i a . c o n c e p t o s , r e t o s y p r o p u e s t a s"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Prueba (Derecho) – Investigaciones – Colombia 2. Derecho informático - Colombia 3. Delitos por computador – Legislación – Investigaciones - Colombia I. Cano Martínez, Jeimy José II. Universidad de los Andes (Colombia). Facultad de Derecho. Grupo de Estudios en Internet, Comercio Electrónico, Telecomunicaciones e Informática III. Universidad de los Andes (Colombia). Facultad de Derecho IV. Tít.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 74.0740966796875,
+                "t": 484.9649963378906,
+                "r": 379.09002685546875,
+                "b": 437.3169860839844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                399
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "e l p e r i t a j e i n fo r m á t i c o y l a ev i d e n c i a d i g i t a l e n c o l o m b i a . c o n c e p t o s , r e t o s y p r o p u e s t a s"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "CDD 347.064 SBUA",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 88.13809204101562,
+                "t": 424.6610107421875,
+                "r": 339.45001220703125,
+                "b": 418.7409973144531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "e l p e r i t a j e i n fo r m á t i c o y l a ev i d e n c i a d i g i t a l e n c o l o m b i a . c o n c e p t o s , r e t o s y p r o p u e s t a s"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Primera edición: mayo de 2010",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.0740966796875,
+                "t": 403.80499267578125,
+                "r": 178.466064453125,
+                "b": 395.8769836425781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "e l p e r i t a j e i n fo r m á t i c o y l a ev i d e n c i a d i g i t a l e n c o l o m b i a . c o n c e p t o s , r e t o s y p r o p u e s t a s"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- © Jeimy José Cano, Nelson Remolina, Andrea Rueda, Javier Pimentel, Ángela Ramírez, Martha Segrera y Luis Andrés Iregui",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.15409851074219,
+                "t": 382.94097900390625,
+                "r": 382.5860900878906,
+                "b": 362.8769836425781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "e l p e r i t a j e i n fo r m á t i c o y l a ev i d e n c i a d i g i t a l e n c o l o m b i a . c o n c e p t o s , r e t o s y p r o p u e s t a s"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Ediciones Uniandes",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/56",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.1220932006836,
+                "t": 337.80499267578125,
+                "r": 137.65809631347656,
+                "b": 331.58099365234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Carrera 1ª No. 19-27, edificio AU 6, piso 2",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.33009338378906,
+                "t": 326.80499267578125,
+                "r": 218.30609130859375,
+                "b": 318.8769836425781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Bogotá, D. C., Colombia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.15409851074219,
+                "t": 315.80499267578125,
+                "r": 155.49807739257812,
+                "b": 307.8769836425781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Teléfono: 339 49 49 - 339 49 99, ext. 2133",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/59",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 70.99409484863281,
+                "t": 304.80499267578125,
+                "r": 219.674072265625,
+                "b": 297.1730041503906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "http//:ediciones.uniandes.edu.co",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/60",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.08209991455078,
+                "t": 293.80499267578125,
+                "r": 180.78607177734375,
+                "b": 285.8769836425781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Correo: infeduni@uniandes.edu.co",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/61",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.33009338378906,
+                "t": 282.80499267578125,
+                "r": 189.85809326171875,
+                "b": 276.58099365234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                32
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "ISBN: 978-958-695-492-1",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.0740966796875,
+                "t": 260.3970031738281,
+                "r": 161.14608764648438,
+                "b": 254.58099365234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Diseño de la colección: Magda Salazar",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.09809875488281,
+                "t": 238.80499267578125,
+                "r": 203.58609008789062,
+                "b": 230.8769989013672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                37
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Diagramación: Leonardo Cuéllar V.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/64",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.09809875488281,
+                "t": 227.80499267578125,
+                "r": 193.42608642578125,
+                "b": 219.8769989013672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Corrección de estilo: Julio Eduardo Mateus",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/65",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.33009338378906,
+                "t": 216.80499267578125,
+                "r": 220.3460693359375,
+                "b": 208.9969940185547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Impresión y acabados: Editorial Kimpres Ltda.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.0740966796875,
+                "t": 194.80499267578125,
+                "r": 231.62606811523438,
+                "b": 186.8769989013672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Calle 19 sur No. 69 C-17, Bogotá, D. C.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/67",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.33009338378906,
+                "t": 183.80499267578125,
+                "r": 208.70608520507812,
+                "b": 175.8769989013672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                39
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Pbx: 413 6884 - Fax: 290 7539",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.0740966796875,
+                "t": 172.80499267578125,
+                "r": 179.37808227539062,
+                "b": 166.58099365234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "info@kimpres.com",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.1220932006836,
+                "t": 161.80499267578125,
+                "r": 135.29010009765625,
+                "b": 153.8769989013672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Bogotá, D. C., Colombia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.15409851074219,
+                "t": 150.80499267578125,
+                "r": 155.49807739257812,
+                "b": 142.8769989013672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Impreso en Colombia - Printed in Colombia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 71.0740966796875,
+                "t": 128.80499267578125,
+                "r": 222.59408569335938,
+                "b": 120.87699127197266,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                41
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Todos los derechos reservados. Esta publicación no puede ser reproducida ni en su todo ni en sus partes, ni registrada en o transmitida por un sistema de recuperación de información, en ninguna forma ni por ningún medio sea mecánico, fotoquímico, electrónico, magnético, electro-óptico, por fotocopia o cualquier otro, sin el permiso",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 70.99409484863281,
+                "t": 106.80499267578125,
+                "r": 382.5299987792969,
+                "b": 65.87699127197266,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                333
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "previo por escrito de la editorial",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 170.25808715820312,
+                "t": 62.80499267578125,
+                "r": 283.1861267089844,
+                "b": 54.876991271972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                34
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "© Universidad de los Andes, Facultad de Derecho"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El peritaje informático y la evidencia digital en Colombia. Conceptos, retos y propuestas es el quinto libro publicado por el Grupo de Estudios en Comercio Electrónico, Telecomunicaciones e Informática (gecti) de la Facultad de Derecho de la Universidad de los Andes. Se trata de una obra, dirigida por el profesor Jeimy Cano Martínez, que reúne un conjunto de investigaciones especializadas sobre el peritaje informático y la evidencia digital.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.84590148925781,
+                "t": 356.8836975097656,
+                "r": 371.36285400390625,
+                "b": 244.71432495117188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                445
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "prólogo"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El gecti se ha propuesto aunar esfuerzos, compartir y difundir conocimientos para poner en marcha una articulación valiosa entre expertos de distintas disciplinas que le permita fomentar un trabajo multidisciplinario y establecer un puente entre la universidad y la sociedad con el fin de promover reflexiones y acciones en materia de Internet, la sociedad de la información, las telecomunicaciones y temas convergentes. En desarrollo de dicho objetivo, el profesor Cano se encargó de la definición temática y metodológica de los capítulos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 56.89690399169922,
+                "t": 237.81910705566406,
+                "r": 371.3526306152344,
+                "b": 108.68711853027344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                540
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "prólogo"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el libro se analizan los conceptos fundamentales de la ley 527 de 1999 que son relevantes en materia de peritaje informático y evidencia digital. Posteriormente, se aborda el estudio nacional e internacional de los aspectos que se deben tener en cuenta para valorar el precitado tipo de evidencia. A continuación, se realiza una revisión de las principales consideraciones sobre el estado actual del peritaje informático y los estándares de manipulación de pruebas electrónicas, así como del contexto de la formación del perito informático en el escenario internacional y su realidad en Colombia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 57.131492614746094,
+                "t": 101.79193115234375,
+                "r": 371.3832702636719,
+                "b": 57.67694091796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                213
+              ]
+            },
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 71.11089324951172,
+                "t": 558.4254150390625,
+                "r": 385.5462341308594,
+                "b": 465.47283935546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                214,
+                599
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "prólogo"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A partir de lo anterior, se plantean reflexiones sobre la formación de los jueces en temas de delito informático y la evidencia digital en el campo internacional y sus implicaciones en la administración de justicia colombiana, destacando la necesidad de una justicia especializada en la materia, para lo cual se ha presentado una propuesta dirigida a dicha formación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 71.11089324951172,
+                "t": 456.405029296875,
+                "r": 385.5564270019531,
+                "b": 363.4524230957031,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                367
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "prólogo"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Finalmente, los autores hacen una revisión de los delitos informáticos en Colombia, con particular énfasis en la ley 1273 de 2009, y analizan la noción de almacenamiento electrónico de la información, destacando los principales conceptos y técnicas de las investigaciones forenses en informática.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/81",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 71.19249725341797,
+                "t": 354.3846435546875,
+                "r": 385.52587890625,
+                "b": 278.4354553222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                296
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "prólogo"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Eduardo Cifuentes Muñoz Decano de la Facultad de Derecho Universidad de los Andes",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 246.95989990234375,
+                "t": 251.66139221191406,
+                "r": 382.3562927246094,
+                "b": 220.5102081298828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                81
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "prólogo"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "prólogo  ...................................................................................., 1 = prólogo  ..................................................................................... prólogo  ...................................................................................., 2 = vii. agradecimientos  ....................................................................., 1 = agradecimientos  ...................................................................... agradecimientos  ....................................................................., 2 = xvii. los autores  .............................................................................., 1 = los autores  ............................................................................... los autores  .............................................................................., 2 = xix. introducción  .............................................................................., 1 = introducción  ............................................................................... introducción  .............................................................................., 2 = 1. capítulo i, 1 = capítulo i. capítulo i, 2 = capítulo i. conceptos fundamentales, 1 = conceptos fundamentales. conceptos fundamentales, 2 = conceptos fundamentales. de la ley 527 de 1999, 1 = de la ley 527 de 1999. de la ley 527 de 1999, 2 = de la ley 527 de 1999. I., 1 = Introducción  ........................................................................... I., 2 = 3. , 1 = A.Principales aspectos de la ley 527 de 1999  .............................. , 2 = 5. , 1 = 1. Ámbito de aplicación ........................................................... , 2 = 6. , 1 = 2. Principios  ............................................................................ , 2 = 7. , 1 = 3. Reconocimiento jurídico de los mensajes de datos  ............ , 2 = 11. , 1 = 4. Documento físico original   y documento electrónico original. , 2 = .....................................  13. , 1 = 5. Prueba y archivos electrónicos  .......................................... , 2 = 16. II., 1 = La firma electrónica y la firma digital:. II., 2 = 18. III., 1 = realidades y restricciones  .................................................  Entidades de certificación:  escenarios y limitaciones probatorias. III., 2 = ..............................  33",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "document_index",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 55.315799713134766,
+                "t": 355.6849365234375,
+                "r": 368.1695556640625,
+                "b": 56.5045166015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "t a b l a d e c o n t e n i d o"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "IV., 1 = ¿Hacia una reglamentación de la firma electrónica? ..... IV., 2 = 39. V., 1 = Anexo ...................................................................................... V., 2 = 44. VI., 1 = Bibliografía  ........................................................................... VI., 2 = 51. capítulo ii valoración de la evidencia digital:  análisis y propuesta en el contexto de la administración, 1 = capítulo ii valoración de la evidencia digital:  análisis y propuesta en el contexto de la administración. capítulo ii valoración de la evidencia digital:  análisis y propuesta en el contexto de la administración, 2 = capítulo ii valoración de la evidencia digital:  análisis y propuesta en el contexto de la administración. I., 1 = Introducción  ......................................................................... I., 2 = 53. II., 1 = La prueba electrónica en el derecho comparado. II., 2 = ..........  55. III., 1 = Problemática sobre la valoración  de la prueba electrónica en Colombia. III., 2 = .............................  60. IV., 1 = Análisis de posibilidades probatorias. IV., 2 = ..............................  74. V., 1 = Hacia un estándar de valoración  de la prueba electrónica  ..................................................... V., 2 = 78. VI., 1 = Propuesta para Colombia. VI., 2 = ...................................................  80. , 1 = VII. Conclusiones  ......................................................................... , 2 = 85. , 1 = VIII. Bibliografía  ........................................................................... , 2 = 87. A.Regulación ...........................................................................  89 capítulo iii consideraciones sobre el estado actual del peritaje  informático y los estándares de manipulación  de pruebas electrónicas en el mundo, 1 = A.Regulación ...........................................................................  89 capítulo iii consideraciones sobre el estado actual del peritaje  informático y los estándares de manipulación  de pruebas electrónicas en el mundo. A.Regulación ...........................................................................  89 capítulo iii consideraciones sobre el estado actual del peritaje  informático y los estándares de manipulación  de pruebas electrónicas en el mundo, 2 = A.Regulación ...........................................................................  89 capítulo iii consideraciones sobre el estado actual del peritaje  informático y los estándares de manipulación  de pruebas electrónicas en el mundo. I., 1 = Introducción  ......................................................................... I., 2 = 91. II., 1 = ¿Qué es el peritaje?  ............................................................... II., 2 = 93. III., 1 = Aproximación al derecho informático. III., 2 = ............................  97. IV., 1 = Consideraciones sobre la prueba electrónica  ................. IV., 2 = 99. V., 1 = Consideraciones sobre peritaje informático  ................. V., 2 = 103. VI., 1 = ¿Por qué es necesario un perito informático? ................ VI., 2 = 104. , 1 = VII. Peritaje informático y manipulación  de evidencia digital en Europa  .............................................. , 2 = 107. , 1 = VIII. Peritaje informático y manipulación  de evidencia digital en Estados Unidos. , 2 = .........................  112",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "document_index",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 69.3275375366211,
+                "t": 559.7791061401367,
+                "r": 381.8382263183594,
+                "b": 58.7359619140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "t a b l a d e c o n t e n i d o"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "IX., 1 = Peritaje informático y manipulación  de evidencia digital en Australia ..................................... IX., 2 = 120. X., 1 = El caso Singapur .................................................................. X., 2 = 123. XI., 1 = Conclusiones  ....................................................................... XI., 2 = 125. , 1 = XII. Bibliografía  ......................................................................... , 2 = 126. capítulo iv contexto actual de la formación del perito informático  en el escenario internacional, 1 = capítulo iv contexto actual de la formación del perito informático  en el escenario internacional. capítulo iv contexto actual de la formación del perito informático  en el escenario internacional, 2 = capítulo iv contexto actual de la formación del perito informático  en el escenario internacional. I., 1 = Introducción  ....................................................................... I., 2 = 129. II., 1 = Manifestaciones por parte de los organismos  internacionales sobre la necesidad de profundizar  en el tema de la profesionalización  del perito informático  ...................................................... II., 2 = 134. III., 1 = ¿Quién es un perito informático?  .................................... III., 2 = 136. , 1 = A.El perito informático en Estados Unidos  ............................ , 2 = 138. , 1 = B. El perito informático en Australia  ....................................... , 2 = 142. , 1 = C.El perito informático en Colombia ...................................... , 2 = 143. IV., 1 = Acciones legislativas y políticas  ...................................... IV., 2 = 147. , 1 = A.Plan Nacional de tic ........................................................... , 2 = 149. V., 1 = Formación de un perito informático  .............................. V., 2 = 154. , 1 = A.Programas sobre informática existentes en Estados Unidos 156. , 2 = . , 1 = B. Programas académicos ........................................................ , 2 = 159. , 1 = 1. Carreras técnicas ............................................................. , 2 = 160. , 1 = 2. Pregrado  ......................................................................... , 2 = 160. , 1 = 3. Maestrías  ........................................................................ , 2 = 160. , 1 = 4. Programas profesionales de certificación  ......................... , 2 = 161. , 1 = C.Programas existentes en Colombia ...................................... , 2 = 163. VI., 1 = Propuesta sobre la formación de peritos informáticos  en Colombia ........................................................................  166. VI., 2 = . , 1 = VII. Conclusiones  ....................................................................... , 2 = 169. , 1 = VIII. Bibliografía  ......................................................................... , 2 = 172",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "document_index",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 55.214576721191406,
+                "t": 559.6883392333984,
+                "r": 367.9656677246094,
+                "b": 71.4049072265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "t a b l a d e c o n t e n i d o"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": ", 1 = A.Doctrina y publicaciones  .................................................... , 2 = 172. ................................................., 1 = B. Documentos del Gobierno. ................................................., 2 = 174. , 1 = C.Códigos, proyectos de ley y manuales. , 2 = ...............................  174. ............................................................., 1 = D.Trabajo de campo. ............................................................., 2 = 174. IX.  ................................................................................., 1 = Anexos. IX.  ................................................................................., 2 = 176. , 1 = capítulo v la formación de los jueces en temas de delito  informático y la evidencia digital en el contexto. , 2 = . internacional y sus implicaciones en la administración  de justicia en colombia, 1 = I.  Introducción  ......................................................................  II.  Planteamiento del problema jurídico  III.  Indeterminación en la definición. internacional y sus implicaciones en la administración  de justicia en colombia, 2 = 179 ...........................  181. IV., 1 = Incremento y perfeccionamiento  de los delitos informáticos .............................................. IV., 2 = 183. V., 1 = Inexistencia de jueces formados y especializados  en temas de delito informático y evidencia digital. V., 2 = . VI., 1 = Necesidad de una justicia especializada  en delito informático y evidencia digital  ...................... VI., 2 = ....  184 185. , 1 = VII. Administración de Justicia. , 2 = . , 1 = en temas de delito informático ........................................ , 2 = 189. , 1 = B. Delito informático en Europa  ............................................. , 2 = 195. .........................................................................., 1 = 1. España. .........................................................................., 2 = 195. ........................................................................, 1 = . ........................................................................, 2 = 198. ..........................................................................., 1 = 2. Alemania  3. Francia. ..........................................................................., 2 = 200. , 1 = . , 2 = 202. , 1 = 4. Gran Bretaña  .................................................................. , 2 = . ................................................, 1 = C.Delito informático en Asia. ................................................, 2 = 204. ............................................................................., 1 = 1. China. ............................................................................., 2 = 204. ........................................................................., 1 = 2. La India. ........................................................................., 2 = 207. , 1 = 3. Japón  .............................................................................. , 2 = 209. , 1 = D.Delito informático en América Latina. , 2 = ................................  211",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "document_index",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 69.50545501708984,
+                "t": 558.6951370239258,
+                "r": 382.04241943359375,
+                "b": 58.6805419921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "t a b l a d e c o n t e n i d o"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": ", 1 = 1. Venezuela  ........................................................................ , 2 = 211. , 1 = 2. Chile  ............................................................................... , 2 = 213. , 1 = 3. Argentina. , 2 = ......................................................................  214. , 1 = 4. México  ........................................................................... , 2 = 215. , 1 = 5. Colombia. , 2 = ......................................................................  217. VIII. Formación de jueces en temas, 1 = VIII. Formación de jueces en temas. VIII. Formación de jueces en temas, 2 = VIII. Formación de jueces en temas. , 1 = de delito informático  ....................................................... , 2 = 221. , 1 = A.Programas existentes en Estados Unidos. , 2 = ...........................  222. , 1 = 1. Cursos de entrenamiento ................................................. , 2 = 224. , 1 = 2. Cursos de educación superior. , 2 = .........................................  224. IX., 1 = Exposición a las tecnologías informáticas. IX., 2 = ...................  225. , 1 = en temas de delito informático en Colombia. , 2 = ...............  226. XI., 1 = Propuesta sobre la formación de jueces en temas de  delito informático y evidencia digital en Colombia  ... XI., 2 = 228. , 1 = XII. Bibliografía  ......................................................................... , 2 = 233. capítulo vi, 1 = capítulo vi. capítulo vi, 2 = capítulo vi. I., 1 = Introducción  ....................................................................... I., 2 = 237. II., 1 = Antecedentes. II., 2 = .....................................................................  238. III., 1 = Comentarios sobre algunos tipos penales. III., 2 = .....................  240. , 1 = A.Delito de acceso abusivo a un sistema informático .............. , 2 = 240. , 1 = B. Delito de obstaculización ilegítima de sistema informático  o red de telecomunicación  .................................................. , 2 = 244. , 1 = C.Delito de interceptación de datos informáticos .................... , 2 = 245. , 1 = D.Delito de daño informático. , 2 = ................................................  246. , 1 = E. Delito de uso de software malicioso. , 2 = ...................................  247. , 1 = F. Delito de violación de datos personales. , 2 = .............................  248. , 1 = G.Delito de suplantación de sitios webs para capturar  datos personales  ................................................................. , 2 = 252. , 1 = H. Delito de hurto por medios informáticos y semejantes ....... , 2 = 254. , 1 = I. Delito de transferencia no consentida de activos ................. , 2 = 254. IV., 1 = Bibliografía  ......................................................................... IV., 2 = 255",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "document_index",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 54.93617630004883,
+                "t": 558.3567199707031,
+                "r": 367.29296875,
+                "b": 52.05279541015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "t a b l a d e c o n t e n i d o"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "I., 1 = Introducción  ....................................................................... I., 2 = 257. II., 1 = Concepto de iea ................................................................... II., 2 = 266. , 1 = A.Caso Estados Unidos ........................................................... , 2 = 266. , 1 = B. Caso Australia. , 2 = ...................................................................  274. , 1 = C.Concepto de iea y sus elementos  ........................................ , 2 = 285. III., 1 = El peritaje informático desde la óptica  del concepto de la iea  ....................................................... III., 2 = 293. IV., 1 = La iea en el Código de Procedimiento  Civil de Colombia  .............................................................. IV., 2 = 297. V., 1 = Propuesta  ............................................................................. V., 2 = 306. , 1 = A.Definición de iea  ................................................................ , 2 = 307. , 1 = B. Incorporación de elementos de la iea. , 2 = ................................  310. , 1 = 1. Elemento del alcance  ....................................................... , 2 = 310. , 1 = 2. Elemento categórico  ........................................................ , 2 = 312. , 1 = 3. Elemento procesal  ........................................................... , 2 = 316. , 1 = 4. Elemento de la carga probatoria. , 2 = ....................................  317. , 1 = 5. Elemento de accesibilidad/pii  .......................................... , 2 = 319. VI., 1 = Conclusiones y reflexiones ............................................... VI., 2 = 328. , 1 = VII. Bibliografía  ......................................................................... , 2 = 329. , 1 = capítulo viii. , 2 = . , 1 = estrategias antiforenses en informática:  retos y reflexiones. , 2 = . I., 1 = Introducción. I., 2 = ......................................................................  333. II., 1 = Evolución técnica de los ataques:. II., 2 = . , 1 = conociendo al enemigo ...................................................... , 2 = . , 1 = . , 2 = 335. III., 1 = Conceptos y técnicas de las investigaciones forenses. III., 2 = . , 1 = en informática. , 2 = ...................................................................  337. IV., 1 = Un marco conceptual de estrategias antiforenses. IV., 2 = .......  339",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "document_index",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 69.54286193847656,
+                "t": 508.6833267211914,
+                "r": 381.64569091796875,
+                "b": 75.1976318359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "el concepto de la información electrónicamente almacenada en el ordenamiento jurídico colombiano: análisis y propuesta para colombia"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "V., 1 = Retos emergentes para los investigadores forenses  en informática  ...................................................................  343. , 1 = A.Rastros en ambientes virtuales  ..........................................  343. , 1 = B. Informática forense en bases de datos ................................  345. VI., 1 = Repensando las investigaciones forenses. , 1 = en informática: aprendiendo con el enemigo  ...............  346. , 1 = VII. Reflexiones finales  ...........................................................  347. , 1 = VIII. Bibliografía  ........................................................................  349",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/tables/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "document_index",
+          "prov": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 55.7701416015625,
+                "t": 559.0614166259766,
+                "r": 367.1580505371094,
+                "b": 443.20628356933594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "el concepto de la información electrónicamente almacenada en el ordenamiento jurídico colombiano: análisis y propuesta para colombia"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El poeta y novelista James Joyce, citado por John Maxwell en su libro Líder de 360 grados, dice: \"Su mente le devolverá lo que usted pone en ella\", una frase ajustada exactamente a lo ocurrido con esta obra que usted tiene en sus manos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 57.01930236816406,
+                "t": 356.8426818847656,
+                "r": 371.3628845214844,
+                "b": 297.89691162109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                236
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "agradecimientos"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando iniciamos este proyecto de investigación en 2007 éramos conscientes de estar ante un reto importante, dada la realidad desbordante de unos hechos y frente al desafío de navegar en medio de lo desconocido. Gracias a la confianza del Grupo de Estudios en Comercio Electrónico, Telecomunicaciones e Informática (gecti) y de la Facultad de Derecho de la Universidad de los Andes, es posible entregar el resultado de muchas horas de trabajo y revisión, de numerosas reflexiones y debates, de considerables lecturas y modificaciones, el cual no busca otra cosa que tratar de mirar al futuro y ver cómo hacemos de la práctica del derecho y la tecnología un espacio conjunto para crear y construir.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 56.866302490234375,
+                "t": 288.8290710449219,
+                "r": 371.37310791015625,
+                "b": 108.68690490722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                697
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "agradecimientos"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Damos las gracias a todos los que creyeron en esta empresa académica; a la dedicación y entrega de cada uno de los estudiantes, hoy destacados abogados: Javier Pimentel, Andrea Rueda, Ángela Ramírez, Martha Segrera y Luis Andrés Iregui, quienes se lanzaron a descubrir nuevas posibilidades y distinciones para el derecho moderno, sabiendo que, a pesar de la neblina densa que se presentaba, era posible llegar al destino trazado. Igualmente, muchas gracias al profesor Nelson Remolina Angarita, quien como integrante del equipo académico contribuyó con la redacción de algunos capítulos de la obra.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/96",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 17,
+              "bbox": {
+                "l": 57.121299743652344,
+                "t": 101.79171752929688,
+                "r": 371.3832702636719,
+                "b": 57.676727294921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                199
+              ]
+            },
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 71.10069274902344,
+                "t": 558.4251098632812,
+                "r": 385.5359802246094,
+                "b": 463.2999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                200,
+                598
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "agradecimientos"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "También nuestros agradecimientos a la Facultad de Derecho y en su nombre al decano, doctor Eduardo Cifuentes Muñoz, por la oportunidad para plasmar en este libro el resultado de nuestras inquietudes académicas, nuestras \"locuras\" conceptuales, fruto de ese deseo constante para ver más allá de la realidad y materializar de manera concreta y real lo expuesto en la misión de la Facultad: \"promover estudiantes y profesionales competentes, críticos y comprometidos con la sociedad\" y su entorno nacional e internacional. De la misma forma, expresamos nuestra gratitud a la doctora Tatiana González Abaunza, quien desde la Facultad de Derecho nos brindó apoyo incondicional y profesional para que la obra fuese publicada.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 71.03949737548828,
+                "t": 456.40472412109375,
+                "r": 385.5462951660156,
+                "b": 276.2625427246094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                719
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "agradecimientos"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Jeimy J. Cano, Ph.D, cfe Profesor distinguido Miembro investigador del gecti Facultad de Derecho Universidad de los Andes Bogotá, D. C. Colombia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/100",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 254.59510803222656,
+                "t": 251.19189453125,
+                "r": 382.4566955566406,
+                "b": 172.52268981933594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                144
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "agradecimientos"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "jeimy josé cano martínez. Ph. D., cfe. Miembro investigador del Grupo de Estudios en Comercio Electrónico, Telecomunicaciones e Informática (gecti), Facultad de Derecho, Universidad de los Andes, Colombia. Ingeniero de Sistemas y Computación, Universidad de los Andes. Magíster en Ingeniería de Sistemas y Computación, Universidad de los Andes. Ph. D. en Business Administration, Newport University. Diplomado en Sistema Penal Acusatorio, Universidad Militar Nueva Granada, Colombia. Profesional certificado en Computer Forensic Analysis (cfa) del World Institute for Security Enhancement, Estados Unidos. Profesional acreditado como Certified Fraud Exami -ner (cfe) por la Association of Certified Fraud Examiners. Contacto: jjcano@yahoo.com.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/102",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 56.79490280151367,
+                "t": 356.8426818847656,
+                "r": 371.36260986328125,
+                "b": 159.6970977783203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                743
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "los autores"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "nelson remolina angarita. Abogado y especialista en Derecho Comercial, Universidad de los Andes. Master of Laws, London School of Economics and Political Sciences. Doctorando en Ciencias Jurídicas, Pontificia Universidad Javeriana. Profesor asociado, Facultad de Derecho de la Universidad de los Andes. Fundador y director del Grupo de Estudios en Comercio Electrónico, Telecomunicaciones e Informá -tica (gecti) [http://gecti.uniandes.edu.co/], Facultad de Derecho de la Universidad de los Andes. Director de la Especialización en Derecho Comercial, Facultad de Derecho de la Universidad de los Andes. Con -tacto: nremolin@uniandes.edu.co.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/103",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 56.94786071777344,
+                "t": 135.80870056152344,
+                "r": 371.3321838378906,
+                "b": 57.686920166015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                332
+              ]
+            },
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 70.98849487304688,
+                "t": 558.4255981445312,
+                "r": 385.51568603515625,
+                "b": 482.4764099121094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                333,
+                640
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "los autores"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "andrea rueda. Abogada, Universidad de los Andes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/106",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 70.96809387207031,
+                "t": 456.4154052734375,
+                "r": 300.4476623535156,
+                "b": 446.3072204589844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "los autores"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "javier pimentel. Abogado, Universidad de los Andes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/107",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 70.96809387207031,
+                "t": 422.4187927246094,
+                "r": 308.65869140625,
+                "b": 412.31060791015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                51
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "los autores"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "ángela ramírez. Abogada, Universidad de los Andes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/108",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 70.96809387207031,
+                "t": 388.4222106933594,
+                "r": 309.49505615234375,
+                "b": 378.31402587890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "los autores"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "martha segrera. Abogada, Universidad de los Andes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 71.2332992553711,
+                "t": 354.42559814453125,
+                "r": 311.0862731933594,
+                "b": 344.3174133300781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "los autores"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "luis andrés iregui. Abogado, Universidad de los Andes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/110",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 71.50869750976562,
+                "t": 320.42901611328125,
+                "r": 323.0509033203125,
+                "b": 310.3208312988281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "los autores"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Afirma Russell Ackoff en su libro Cápsulas de Ackoff que la creatividad es \"la habilidad para identificar restricciones autoimpuestas, removerlas y explorar las consecuencias de la remoción\". En ese contexto, este libro trata de confrontar las restricciones propias de dos disciplinas, las tecnologías de la información y la comunicación (tic) y el derecho, como una forma de cuestionarnos sobre las posibilidades que se pueden abrir cuando removemos los límites de cada una de ellas y experimentamos la novedad de su complementariedad y la exigente ruta para construir posibilidades donde otros no las ven.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 56.876502990722656,
+                "t": 407.84320068359375,
+                "r": 371.3932800292969,
+                "b": 263.88043212890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                607
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En tal sentido, el Grupo de Estudios en Comercio Electrónico, Telecomunicaciones e Informática (gecti), de la Facultad de Derecho de la Uni -versidad de los Andes, busca constantemente abrir reflexiones interdisciplinarias y multidisciplinarias que procuren propuestas aplicadas a la realidad colombiana y latinoamericana de tal forma que se establezcan puntos de encuentro de diversas perspectivas que promuevan avances efectivos entre las tic y las ciencias jurídicas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/113",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 56.87651062011719,
+                "t": 254.8126220703125,
+                "r": 371.3728942871094,
+                "b": 142.6840362548828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                470
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Confrontando la realidad actual del incremento de la cibercriminalidad, de la evolución de los ataques informáticos de los intrusos, el avance de una delincuencia organizada y tecnificada, así como la realidad concreta de un mundo de transacciones digitales y electrónicas, se hace necesario revisar las consecuencias prácticas para el derecho y su relación con una sociedad de la información y del conocimiento. Por lo tanto, el estudio de las mejores prácticas para el manejo de la evidencia digital, la formación de los peritos informáticos, la actualización de los jueces en temas como el delito informático y la evidencia digital, así como la revisión de las técnicas antiforenses, se hacen temáticas fundamentales para entender cómo el derecho y las tecnologías de la información comparten escenario con el fin de avanzar en el entendimiento de las nuevas condiciones de la delincuencia ahora en medios digitales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/114",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 21,
+              "bbox": {
+                "l": 56.92750549316406,
+                "t": 135.78883361816406,
+                "r": 371.3626403808594,
+                "b": 57.667022705078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                365
+              ]
+            },
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 71.11089324951172,
+                "t": 558.4251098632812,
+                "r": 385.5562438964844,
+                "b": 429.2931213378906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                366,
+                919
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dado lo anterior, los autores de este libro estamos decididos a evitar la zona de confort y lanzarnos a proponer un análisis sobre esta nueva realidad, decirle a los \"malos\" que avanzamos tan rápido como ellos —a —aunque no sabemos si suficientemente— para comprender sus estrategias y ofrecerle una nueva excusa a la comunidad científica para repensar lo que conocemos y sugerir los cambios que sean requeridos con el objetivo de vigorizar el discurso jurídico en Internet y los avances tecnológicos frente al reto permanente de la evolución de la sociedad y las tic .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 70.86609649658203,
+                "t": 422.3979187011719,
+                "r": 385.54608154296875,
+                "b": 293.2659606933594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                569
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Fieles a la tradición de innovación y visión de futuro de la Facultad de Derecho de la Universidad de los Andes, se presenta esta obra que busca anticipar nuevas preguntas y oportunidades para crear un nuevo momentum en la disciplina jurídica latinoamericana que nos permita avanzar en la predicción del mañana, lo cual no es otra cosa que lanzarnos a identificar nuevas propuestas, opciones novedosas y combinaciones de ideas y conceptos no convencionales para continuar aprendiendo de ese derecho emergente denominado derecho informático.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/118",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 71.05987548828125,
+                "t": 286.3707275390625,
+                "r": 385.54638671875,
+                "b": 159.4113311767578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                540
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Jeimy J. Cano, Ph.D, cfe Profesor distinguido Miembro investigador del gecti Facultad de Derecho Universidad de los Andes Bogotá, D. C. Colombia",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/119",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 254.59510803222656,
+                "t": 132.19189453125,
+                "r": 382.4566955566406,
+                "b": 53.522705078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                144
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La regulación colombiana evidencia que la ley 527 de 1999 no fue la primera norma que trató lo concerniente a derecho y tecnología. 1 Una labor de \"arqueología jurídica\" podría concluir que fue la ley 8 a de 1970 la pionera en la materia al autorizar en el artículo 7° al presidente de la república para, entre otras, \"adoptar las medidas necesarias para generalizar el uso del computador electrónico en los trámites administrativos",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 56.88670349121094,
+                "t": 254.84619140625,
+                "r": 371.37298583984375,
+                "b": 159.72439575195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                432
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I . Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "* El autor agradece los aportes y comentarios del doctor Rafael Hernando Gamboa Bernate a gran parte de este texto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 56.82310104370117,
+                "t": 136.4509735107422,
+                "r": 368.330078125,
+                "b": 116.43949890136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                115
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I . Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "** Remolina Angarita, Nelson, \"Falacias en torno a las discusiones de la firma digital\", en Ámbito Jurídico, núm. 283, 2009, p. 15. Disponible en: http://gecti.uniandes. edu.co/columna.php?Op=columna.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/123",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 56.20711135864258,
+                "t": 110.78166961669922,
+                "r": 368.24609375,
+                "b": 90.77020263671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                200
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I . Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1 Éstas son algunas normas, expedidas con anterioridad a la ley 527 de 1999, que trataban temas sobre la materia en cuestión: leyes 8 de 1970, 27 de 1990 y 270 de 1996; decretos 1748 de 1995 y 1094 de 1996.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 56.984100341796875,
+                "t": 83.91838836669922,
+                "r": 368.23907470703125,
+                "b": 56.58890151977539,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                206
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I . Introducción"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Nelson Remolina Angarita *",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/128",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 249.13360595703125,
+                "t": 390.07879638671875,
+                "r": 367.9032287597656,
+                "b": 382.9211730957031,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                26
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La firma digital no es mala; lo malo es imponerla por ley, a la fuerza, a las malas **",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 254.23159790039062,
+                "t": 356.07879638671875,
+                "r": 368.25677490234375,
+                "b": 312.9583740234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "relacionados con los impuestos nacionales y poner especial énfasis en el mejoramiento y organización de las oficinas de Cobranzas y Ejecuciones Fiscales\".",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 24,
+              "bbox": {
+                "l": 71.11089324951172,
+                "t": 558.42529296875,
+                "r": 385.5563659667969,
+                "b": 516.48291015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                154
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Con posterioridad a la ley 527, el marco legal colombiano se viene nutriendo de normas 2 relacionadas con mensajes de datos, firmas digitales, firmas electrónicas, entidades de certificación, tecnologías de información y comunicación, protección de datos personales, delitos informáticos, antecedentes disciplinarios y judiciales electrónicos, títulos valores electrónicos, teletrabajo, contratación electrónica, nombres de dominio, gobierno electrónico, factura electrónica, voto electrónico, y la utilización de medios electrónicos e informáticos en el cumplimiento de las funciones de Administración de Justicia. Esto pone de presente no sólo la inmersión masiva de lo \"electrónico\" en el sistema jurídico del país sino que cada día gran parte de los asuntos jurídicos cotidianos guardan relación con la amalgama derecho-tecnología.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 24,
+              "bbox": {
+                "l": 71.05300903320312,
+                "t": 507.41510009765625,
+                "r": 385.5391845703125,
+                "b": 310.2831115722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                835
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La ley 527 de 1999 es producto de la labor de armonización que organismos internacionales han liderado con la finalidad de lograr a nivel mundial un consenso sobre fundamentos jurídicos mínimos para el desarrollo del comercio electrónico y el uso de los mensajes de datos como una nueva forma jurídica válida de manifestar la voluntad y como medio de prueba. La Organización de las Naciones Unidas (onu), a través de la Comisión de las Naciones Unidas para el Desarrollo Mercantil Internacional (cnudmi) 3 (o Uncitral, su acrónimo en inglés), publicó en 1996 la Ley Modelo sobre Comercio Electrónico, cuyos principales propósitos son los siguientes: 1) \"ofrecer al legislador nacional un conjunto de reglas aceptables en el ámbito internacional que le permitan",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 24,
+              "bbox": {
+                "l": 71.0219955444336,
+                "t": 303.38787841796875,
+                "r": 385.55938720703125,
+                "b": 123.30690002441406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                760
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2 Las normas pueden ser consultadas en http://gecti.uniandes.edu.co/legislacion.php.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 24,
+              "bbox": {
+                "l": 83.9579086303711,
+                "t": 89.65774536132812,
+                "r": 342.3722839355469,
+                "b": 80.77330017089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                84
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3 Comisión de las Naciones Unidas para el Derecho Mercantil Internacional. Su principal función es la de fomentar la armonización y la unificación progresivas del derecho mercantil internacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 24,
+              "bbox": {
+                "l": 71.1012954711914,
+                "t": 73.98844909667969,
+                "r": 382.4822692871094,
+                "b": 55.10100173950195,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                195
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "[…] crear un marco jurídico que permita un desarrollo más seguro de las vías electrónicas de negociación designadas por el nombre de comercio electrónico\", 4 y 2) \"conceder igualdad de trato a los usuarios de mensajes consignados sobre un soporte informático que a los usuarios de la documentación consignada sobre papel\". 5",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/140",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 56.92609786987305,
+                "t": 558.42529296875,
+                "r": 371.342529296875,
+                "b": 480.310302734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                324
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La precitada ley es una disposición cardinal en todo lo relacionado con el uso de los mensajes de datos como medio mediante el cual se manifiestan la voluntad y el soporte de documentos electrónicos. De allí surgieron equivalentes funcionales centrales para cualquier actividad y reglas atinentes a lo denominado evidencia digital o electrónica. Su importancia es indiscutible, razón para iniciar este libro haciendo referencia a ciertos tópicos trascendentales de ella que serán objetos de consideraciones a lo largo de la obra.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 56.933902740478516,
+                "t": 473.42529296875,
+                "r": 371.3489990234375,
+                "b": 344.2933044433594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                529
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La ley 527 de 1999 constituye el marco jurídico integral y general que avala, salvo algunas excepciones, el uso de los mensajes de datos en todas las actividades de los sectores público y privado. Su importancia es indiscutible, sin perjuicio de que con anterioridad a ella existieran ya algunas normas sectoriales que trataban ciertas cuestiones relacionadas con temas como la desmaterialización, la factura electrónica, la Administración de Justicia y los medios electrónicos, entre otros. En las siguientes líneas se hará referencia a varios de los principales aspectos de la citada ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/143",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 56.36270523071289,
+                "t": 286.4083251953125,
+                "r": 371.3796081542969,
+                "b": 157.27633666992188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                590
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "A. Principales aspectos de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4 Los problemas básicos detectados en su momento y que se quieren solucionar con la ley modelo fueron los siguientes: 1) no validez jurídica al uso de los mensajes de datos como medio para manifestar la voluntad, 2) no aceptación de los datos almacenados en soportes informáticos como prueba en los litigios; 3) exigencia normativa y práctica de que los documentos estuviesen firmados o consignados sobre papel.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/144",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 56.91400146484375,
+                "t": 129.65774536132812,
+                "r": 368.31597900390625,
+                "b": 80.76129913330078,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                411
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "A. Principales aspectos de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5 Tanto la ley modelo como su guía explicativa pueden consultarse en http://www.uncitral. org/sp-index.htm.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 25,
+              "bbox": {
+                "l": 56.98400115966797,
+                "t": 73.91848754882812,
+                "r": 368.2599792480469,
+                "b": 55.10100173950195,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "A. Principales aspectos de la ley 527 de 1999"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El campo de acción de la ley va más allá de las operaciones comerciales a través de medios electrónicos (comercio electrónico). Aunque regula aspectos de dicha materia y es conocida como la ley de comercio electrónico, 6 fue redactada de manera que comprenda, salvo las dos únicas excepciones que explícitamente menciona, 7 todas las actividades en donde se involucre el uso de mensajes de datos. 8 La ley 527, por ejemplo, tiene aplicación en las actividades del Estado con otras entidades estatales y con los particulares. Lo anterior se deriva del texto de la norma avalado y desarrollado en sentencias de la Corte Constitucional, así como por algunos conceptos de entidades públicas que hacen referencia a la ley aludida. 9 La Corte, concretamente, señaló: \"[…] la ley 527 de 1999 no se restringe a las operaciones comerciales sino que hace referencia en forma genérica al acceso y uso de los mensajes de datos, lo que obliga a una comprensión sistemática de sus disposiciones con el conjunto de normas que se refieren a este tema dentro de nuestro ordenamiento jurídico\". 10",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/149",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 26,
+              "bbox": {
+                "l": 71.10070037841797,
+                "t": 525.189208984375,
+                "r": 385.552734375,
+                "b": 260.0639953613281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1079
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Ámbito de aplicación"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "6 Este término no sólo es utilizado por el común de la gente sino que también nuestros jueces lo emplean para referirse (de manera imprecisa o parcial) a la ley 527 de 1999. Así, el Consejo de Estado, mediante concepto 1376 del 11 de diciembre de 2001, da a entender que la ley 527 rige sólo el \"comercio electrónico\" y que ésta no contiene los postulados fundamentales para el uso de los mensajes de datos y las firmas digitales en todas las actividades hechas por particulares entre sí o con el Estado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/150",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 26,
+              "bbox": {
+                "l": 71.03129577636719,
+                "t": 197.59115600585938,
+                "r": 382.60833740234375,
+                "b": 147.7690887451172,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                504
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Ámbito de aplicación"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "7 1) Las obligaciones contraídas por el Estado colombiano en virtud de convenios o tratados internacionales; y 2) Las advertencias escritas que por disposición legal deban ir necesariamente impresas en cierto tipo de productos en razón del riesgo que implica su comercialización, uso o consumo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/151",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 26,
+              "bbox": {
+                "l": 71.08729553222656,
+                "t": 140.92630004882812,
+                "r": 382.3912353515625,
+                "b": 112.1058120727539,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                294
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Ámbito de aplicación"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "8 Cfr. ley 527 de 1999, artículo 1°.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/152",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 26,
+              "bbox": {
+                "l": 84.03709411621094,
+                "t": 106.25042724609375,
+                "r": 192.18728637695312,
+                "b": 96.4425048828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                36
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Ámbito de aplicación"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "9 Por ejemplo, consultar el concepto 1007028, del 21 de marzo de 2001, de la Superintendencia de Industria y Comercio.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 26,
+              "bbox": {
+                "l": 71.04529571533203,
+                "t": 89.65764617919922,
+                "r": 382.46826171875,
+                "b": 70.77020263671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Ámbito de aplicación"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "10 Colombia, Corte Constitucional (2001), \"Sentencia C-831\".",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/154",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 26,
+              "bbox": {
+                "l": 84.12571716308594,
+                "t": 63.988346099853516,
+                "r": 274.42327880859375,
+                "b": 55.348899841308594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Ámbito de aplicación"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los mensajes de datos 11 son el núcleo fundamental de la ley porque se convierten en otro medio jurídicamente válido de manifestar la voluntad y, por ende, de realizar cualquier actividad (contratos). Su concepto legal 12 se redactó de manera que abarque los antiguos, actuales y futuros medios que permitan crear, archivar y comunicar información.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/157",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 56.888816833496094,
+                "t": 558.4251708984375,
+                "r": 371.346923828125,
+                "b": 480.3135986328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                348
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Ámbito de aplicación"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Existe un grupo de principios que irradian el alcance e interpretación de la ley. Algunos están incorporados explícitamente en ésta, mientras que otros forman parte de los mencionados en la Ley Modelo sobre Comercio Electrónico, de la Uncitral, los cuales no son sólo un elemento de interpretación sino un eje orientador en la fijación de algunas políticas públicas y de la reglamentación sobre la materia. Dentro de los principales principios se destacan los siguientes: internacionalidad, primacía de la autonomía de la voluntad, equivalencia funcional y neutralidad tecnológica. Cada uno de ellos será explicado a continuación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/159",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 56.88670349121094,
+                "t": 422.4251708984375,
+                "r": 371.3731384277344,
+                "b": 261.4590148925781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                630
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2. Principios"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El artículo 3o de la ley 527 envía un mensaje al operador de la ley (jueces, abogados y autoridades, entre otros) para que al momento de interpretarla siempre tenga en cuenta los principios y objetivos que inspiraron dicha regulación, así como la connotación que ella ha adquirido en el contexto internacional. Con esto se pretende que la labor interna- cional de armonización de normas no se diluya vía interpretación local de cada operador.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/161",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 56.88820266723633,
+                "t": 201.42520141601562,
+                "r": 371.3540954589844,
+                "b": 123.30339813232422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                353
+              ]
+            },
+            {
+              "page_no": 28,
+              "bbox": {
+                "l": 71.12109375,
+                "t": 558.4254150390625,
+                "r": 385.474853515625,
+                "b": 531.3137817382812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                354,
+                442
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "a) Internacionalidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "11 Es decir, a \"toda la información generada, enviada, recibida, almacenada o comunicada por medios electrónicos, ópticos o similares, como pudieran ser, entre otros, el Intercambio Electrónico de Datos (edi), Internet, el correo electrónico, el telegrama, el télex o el telefax\" (artículo 2º, literal 2).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/162",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 56.85810089111328,
+                "t": 99.58768463134766,
+                "r": 368.35809326171875,
+                "b": 70.76720428466797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                305
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "a) Internacionalidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "12 Cfr. ley 527 de 1999, artículo 2º, literal a).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/163",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 69.9525146484375,
+                "t": 63.988346099853516,
+                "r": 206.65109252929688,
+                "b": 55.10390090942383,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                49
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "a) Internacionalidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En virtud de lo anterior, el citado artículo ordena que a la hora de ser interpretada la ley deben tenerse en cuenta los siguientes factores: 1) su origen internacional; 2) la necesidad de promover la uniformidad de su aplicación, y 3) la observancia de la buena ley. Para el caso de temas regidos por la ley pero que no estén explícitamente resueltos por ella, se han de tener en cuenta los principios generales en que dicha norma se inspira, tales como: \"[…] 1) facilitar el comercio electrónico en el interior y más allá de las fronteras nacionales; 2) validar las operaciones efectuadas por medio de las nuevas tecnologías de la información; 3) fomentar y estimular la aplicación de nuevas tecnologías de la información; 4) promover la uniformidad del derecho aplicable en la materia; y 5) apoyar las nuevas prácticas comerciales\". 13",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/166",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 28,
+              "bbox": {
+                "l": 71.05989837646484,
+                "t": 524.4186401367188,
+                "r": 385.5564270019531,
+                "b": 327.2730407714844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                838
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "a) Internacionalidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Según la Uncitral, el artículo 3º de la ley en comento sigue lo señalado en el artículo 7º de la Convención de las Naciones Unidas sobre los Con -tratos de Compraventa Internacional de Mercaderías.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/167",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 28,
+              "bbox": {
+                "l": 71.05610656738281,
+                "t": 320.4253845214844,
+                "r": 385.50189208984375,
+                "b": 276.3103942871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                197
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "a) Internacionalidad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La ley da prevalencia a la autonomía de la voluntad de las partes 14 sobre aspectos fundamentales en la realización de actividades a través del intercambio de mensajes de datos, a saber: ¿Cuándo se entiende perfeccionado un contrato electrónico? ¿Cuándo se entiende recibido el mensaje de datos? ¿Desde dónde se entienden enviados o recibidos los mensajes de datos? ¿Cómo sabrán las partes que el mensaje fue efectivamente enviado o recibido? ¿Cuándo una parte debe entender que el mensaje de datos recibido proviene de determinada persona y no de otra? ¿Cómo tener certeza de que un mensaje de datos fue enviado o recibido por la persona indicada y no por un tercero? ¿Si el destinatario recibe varios mensajes de contenido idéntico y provenientes del mismo remitente se debe entender que se trata de copias, o de que estamos frente a mensajes diferentes? ¿Cómo establecer que el contenido del texto no fue alterado o modificado? ¿Cómo determinar que durante la transmisión del mensaje de datos su contenido no fue leído por terceros?",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/169",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 28,
+              "bbox": {
+                "l": 71.05699157714844,
+                "t": 218.42539978027344,
+                "r": 385.532958984375,
+                "b": 106.29680633544922,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                474
+              ]
+            },
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 56.88670349121094,
+                "t": 558.4254150390625,
+                "r": 371.3729248046875,
+                "b": 412.2900390625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                475,
+                1035
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "b) Primacía de la autonomía de la voluntad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "13 Cfr. Ley Modelo sobre Comercio Electrónico, de la Uncitral.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/170",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 28,
+              "bbox": {
+                "l": 84.12581634521484,
+                "t": 79.65774536132812,
+                "r": 274.9202880859375,
+                "b": 70.77330017089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "b) Primacía de la autonomía de la voluntad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "14 Cfr. ley 527 de 1999, artículo 4°.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/171",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 28,
+              "bbox": {
+                "l": 84.12581634521484,
+                "t": 63.98844528198242,
+                "r": 192.18728637695312,
+                "b": 55.104000091552734,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                37
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "b) Primacía de la autonomía de la voluntad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La respuesta a estos interrogantes comprende un aspecto cardinal en el uso y comunicación de los mensajes, como lo es la absoluta certeza en cuanto a la transmisión de éstos y respecto de la integridad y confidencialidad del contenido de los mensajes de datos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/174",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 57.039703369140625,
+                "t": 405.39483642578125,
+                "r": 371.38323974609375,
+                "b": 344.2764587402344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                260
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "b) Primacía de la autonomía de la voluntad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "De no pactar nada las partes, en virtud del principio de la autonomía, entonces se dará aplicación a las respuestas que para cada caso trae la ley en los artículos 16 a 25.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/175",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 57.01930236816406,
+                "t": 337.3812255859375,
+                "r": 371.38323974609375,
+                "b": 293.2662658691406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                172
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "b) Primacía de la autonomía de la voluntad"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los equivalentes funcionales son los pares de instituciones del mundo material en el contexto digital. Se basan en un análisis de los objetivos y funciones del requisito tradicional con miras a determinar la manera de satisfacer sus fines en el contexto tecnológico. Así por ejemplo, a partir del conocimiento de las funciones y la labor jurídica que cumple el papel 15 como medio físico se diseñó una solución técnico-jurídica en un medio electrónico que cumpla los mismos cometidos y, además, le imprima al documento electrónico las bondades propias de la tecnología (ahorro de tiempo, etcétera).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/177",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 56.866302490234375,
+                "t": 235.42539978027344,
+                "r": 371.3730773925781,
+                "b": 140.30020141601562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                430
+              ]
+            },
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 71.10069274902344,
+                "t": 558.4254150390625,
+                "r": 385.5360412597656,
+                "b": 514.3104248046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                431,
+                598
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "c) La equivalencia funcional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "15 Un documento en papel procura cumplir, entre otras, las siguientes funciones: 1) proporciona legibilidad a todos; 2) asegura su inalterabilidad a lo largo del tiempo; 3) permite su reproducción a fin de que cada una de las partes disponga de un ejemplar de lo escrito; 4) facilita la autenticación de los datos consignados suscribiéndolos con una firma; y 5) proporciona una forma aceptable para su presentación ante las autoridades públicas y los tribunales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/178",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 29,
+              "bbox": {
+                "l": 56.82310104370117,
+                "t": 103.91848754882812,
+                "r": 368.2880859375,
+                "b": 55.09199905395508,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                462
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "c) La equivalencia funcional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La ley 527 de 1999 no buscó establecer un equivalente informático para cada clase de documento, sino que incorporó pautas y condiciones aplicables a cualquier situación. La ley consagra los equivalentes funcionales 16 de escrito, firma y original en el contexto digital. Con éstos se busca que dichas instituciones cumplan las mismas funciones que tienen mediante el uso de medios tradicionales. Para la Corte Constitucional, la ley 527 \"adoptó el criterio flexible de 'equivalente funcional', que tuviera en cuenta los requisitos de forma, fiabilidad, inalterabilidad y rastreabilidad, que son aplicables a la documentación consignada sobre papel, ya que los mensajes de datos por su naturaleza, no equivalen en estricto sentido a un documento consignado en papel\". 17",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/181",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 71.05989837646484,
+                "t": 507.41522216796875,
+                "r": 385.55059814453125,
+                "b": 327.29339599609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                769
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "c) La equivalencia funcional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los artículos 6º, 7º y 8º de la ley comparten una misma estructura en el sentido de señalar los requisitos o condiciones que debe cumplir un mensaje de datos para que entenderse que es \"escrito\", está \"firmado\" y se trata de un \"original\", tal como sucede con los documentos en medio físico.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/182",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 71.1029052734375,
+                "t": 320.4219970703125,
+                "r": 385.53814697265625,
+                "b": 244.47279357910156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                291
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "c) La equivalencia funcional"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Este principio reconoce algo evidente: la tecnología cambia constantemente. Si la ley se \"casa\" con una tecnología en particular, muy seguramente la norma quedará obsoleta pronto. Por eso es trascendental que las autori-",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/184",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 71.05989837646484,
+                "t": 184.42539978027344,
+                "r": 385.51580810546875,
+                "b": 140.31039428710938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                220
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "d) Neutralidad tecnológica"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "16 Un desarrollo completo y crítico de este tema se puede encontrar en el artículo: Umaña Chaux, Andrés Felipe, \"Algunos comentarios sobre el principio del equivalente funcional en la ley 527 de 1999\", en Revista de Derecho, Comunicaciones y Nuevas Tecnologías, núm. 1, abril de 2005.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/185",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 70.98929595947266,
+                "t": 120.58122253417969,
+                "r": 382.5663146972656,
+                "b": 90.76729583740234,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                284
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "d) Neutralidad tecnológica"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "17 Colombia, Corte Constitucional (2000), \"Sentencia C-662\". En igual sentido, consultar los siguientes conceptos de la Superintendencia de Industria y Comercio: 1007028, del 21 de marzo de 2001, y 3046333, del 25 de junio de 2003.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/186",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "footnote",
+          "prov": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 71.02429962158203,
+                "t": 83.91848754882812,
+                "r": 382.41229248046875,
+                "b": 55.097999572753906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "d) Neutralidad tecnológica"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

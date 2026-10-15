@@ -1,0 +1,4432 @@
+[
+  {
+    "text": "El Crédito Público se rige por las disposiciones de esta Ley Orgánica y su Reglamento, y por las leyes especiales, decretos, resoluciones y convenios relativos a cada operación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.77999877929688,
+                "t": 565.8485107421875,
+                "r": 525.3189697265625,
+                "b": 527.1246948242188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                177
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Están sujetos a las disposiciones de la presente Ley:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.947998046875,
+                "t": 496.74072265625,
+                "r": 374.749267578125,
+                "b": 485.59271240234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 2°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1.-La República, los Estados, las Municipalidades, los Institutos Autónomos y demás personas de derecho público.\n- 2.-Las sociedades en las cuales la República y demás personas a que se refiere el presente artículo tengan participación igual o superior al cincuenta y uno por ciento (51%) del capital social.\n- 3.-Las sociedades en las cuales las personas a que se refiere el ordinal anterior tengan participación igual o superior al cincuenta y uno por ciento (51%).\n- 4.-Las fundaciones constituidas y dirigidas por alguna de las personas referidas en el presente artículo, o aquellas de cuya gestión pudiera derivarse compromisos financieros para esas personas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 469.1408996582031,
+                "r": 525.3587036132812,
+                "b": 444.32489013671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                112
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.3479995727539,
+                "t": 427.83709716796875,
+                "r": 525.365966796875,
+                "b": 388.9931945800781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                193
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.21600341796875,
+                "t": 372.63739013671875,
+                "r": 525.2484130859375,
+                "b": 347.6532897949219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                156
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.15599822998047,
+                "t": 331.2974853515625,
+                "r": 525.2879638671875,
+                "b": 292.5856018066406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                194
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 2°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las operaciones de Crédito Público tendrán por objeto arbitrar fondos o recursos para realizar obras productivas, atender casos de evidente necesidad o de conveniencia nacional y cubrir necesidades transitorias de tesorería.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.46800231933594,
+                "t": 262.2976989746094,
+                "r": 525.310791015625,
+                "b": 223.4538116455078,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                224
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Conjuntamente con el Proyecto de la Ley de Presupuesto de cada año, el Ejecutivo Nacional presentará al Congreso, para su autorización mediante ley especial que será promulgada simultáneamente con la Ley de Presupuesto, el monto máximo de endeudamiento neto que podrá contraer la República durante el respectivo ejercicio fiscal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.44400024414062,
+                "t": 207.09799194335938,
+                "r": 525.3264770507812,
+                "b": 140.65420532226562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                329
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El monto máximo a contratar de las operaciones de crédito público a ser celebradas durante el ejercicio presupuestarios respectivo por los entes de carácter nacional sujetos al régimen autorizatorio de esta Ley, así como el monto",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.46800231933594,
+                "t": 124.20240020751953,
+                "r": 525.423583984375,
+                "b": 85.45449829101562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                229
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "máximo de letras del Tesoro que podrán (estar en circulación al cierre del ejercicio del respectivo ejercicio presupuestario, será presentado por el Ejecutivo Nacional al Congreso de la República para su autorización mediante ley especial, acompañado de una exposición que incluya los programas y proyectos a ser financiados por las operaciones de crédito a realizar y la opinión del Banco Central de Venezuela de conformidad con lo establecido en el artículo 32 de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.43199920654297,
+                "t": 717.6361083984375,
+                "r": 525.320556640625,
+                "b": 623.592529296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                475
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Título I. Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El monto máximo referido se determinará atendiendo a la capacidad de pago y a los requerimientos de un desarrollo ordenado de la economía, y tomará como referencia los ingresos fiscales ordinarios previstos para el año, las exigencias del servicio de la deuda existente, el Producto Interno Bruto, el ingreso de exportaciones y aquellos índices macroeconómicos del Banco Central de Venezuela, que permitan medir la capacidad económica del país para atender las obligaciones de la Deuda Pública.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.0479965209961,
+                "t": 607.2366943359375,
+                "r": 525.3263549804688,
+                "b": 513.193115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                494
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Título I. Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Por encima del monto máximo autorizado conforme al aparte anterior, sólo podrán celebrarse aquellas operaciones requeridas para hacer frente a gastos extraordinarios como consecuencia de calamidades o de catástrofes públicas, las cuales deberán autorizarse mediante ley especial.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.44400024414062,
+                "t": 496.8372802734375,
+                "r": 525.3360595703125,
+                "b": 444.1935119628906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                279
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Título I. Disposiciones Generales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En los casos en que haya reconducción del Presupuesto, se entenderá que el monto autorizado para el endeudamiento del año será igual al del año anterior.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.79199981689453,
+                "t": 413.9415283203125,
+                "r": 525.3116455078125,
+                "b": 388.99359130859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                153
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Deuda Pública puede originarse en:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.8759994506836,
+                "t": 358.8017272949219,
+                "r": 300.56634521484375,
+                "b": 347.6537170410156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                37
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1.-La emisión y colocación de títulos, incluyendo Letras del Tesoro, constitutivos de unos empréstitos, externos o internos, o de operaciones de tesorería.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 331.2018127441406,
+                "r": 525.35400390625,
+                "b": 306.3858947753906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2.-La apertura de crédito de cualquier naturaleza.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.3479995727539,
+                "t": 289.8021240234375,
+                "r": 356.135986328125,
+                "b": 278.7861022949219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3.-La contratación de obras, servicios o adquisiciones cuyo pago total o parcial se estipule realizar en el transcurso de uno o más ejercicios fiscales posteriores al vigente;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 262.20220947265625,
+                "r": 525.295166015625,
+                "b": 223.45440673828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                175
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "4.-El otorgamiento de garantías en los casos de excepción previstos en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.15599822998047,
+                "t": 207.00250244140625,
+                "r": 525.319091796875,
+                "b": 182.0546112060547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "5.-La consolidación, conversión unificación u otras operaciones destinadas a refinanciar o reestructurar Deuda Pública existente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.50399780273438,
+                "t": 165.69869995117188,
+                "r": 525.3251342773438,
+                "b": 143.03079223632812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                129
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los títulos de la Deuda Pública, emitidos al portador, deberán ser colocados en el mercado por el Banco Central de Venezuela, salvo que la Ley que autorice la respectiva operación prevea otros procedimientos. El Banco Central de Venezuela podrá autorizar a tal fin los servicios de cualquier otra persona natural o jurídica de carácter público o privado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.44400024414062,
+                "t": 110.40280151367188,
+                "r": 525.3409423828125,
+                "b": 85.45489501953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                158
+              ]
+            },
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.0479965209961,
+                "t": 717.6361083984375,
+                "r": 525.31201171875,
+                "b": 678.7921752929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                159,
+                354
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 5°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se exceptúan del cumplimiento de los requisitos establecidos en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.54000091552734,
+                "t": 648.6363525390625,
+                "r": 488.66607666015625,
+                "b": 637.392333984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                73
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1.-Los contratos de obras que reúnan las siguientes condiciones:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.30799865722656,
+                "t": 620.9404296875,
+                "r": 439.45416259765625,
+                "b": 609.7924194335938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                64
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "a.-Que su ejecución se extienda más allá de un ejercicio presupuestario y que los pagos se hagan a medida que se ejecutan las obras, de tal manera que, en ningún ejercicio o concluidas éstas, el ente público contratante que de afecto a obligación alguna;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.39600372314453,
+                "t": 593.4486083984375,
+                "r": 525.3048095703125,
+                "b": 540.7927856445312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                254
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "b.-Que los pagos a efectuarse en ejercicios posteriores al vigente, tanto por los contratos que se celebren durante el ejercicio presupuestario en curso como por los celebrados en ejercicios anteriores, no excedan en total del cinco por ciento (5%) de los ingresos ordinarios estimados inicialmente en el presupuesto del ente público contratante. En el caso de la República, dicho porcentaje se calculará sobre la cantidad que resulte de deducir a los mencionados ingresos ordinarios los aportes presupuestarios destinados al Fondo de Inversiones de Venezuela, a los que constituyan el Situado establecido por el Artículo 229 de la Constitución y los aportes específicos establecidos por leyes especiales e incluidos en la Ley de Presupuesto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.0479965209961,
+                "t": 524.4489135742188,
+                "r": 525.3587646484375,
+                "b": 388.99359130859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                742
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Antes del último día del mes febrero de cada año, todos los entes públicos presentarán al Presidente de la República, por intermedio del Ministro de Hacienda, para su aprobación en Consejo de Ministros, una relación de los contratos de obras que pretendan celebrar en el año, en los términos previstos en este numeral. Una copia de dicha relación, ya aprobada será remitida al contralor general de la república.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.0,
+                "t": 372.6376953125,
+                "r": 525.3143920898438,
+                "b": 292.4540100097656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                411
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "2.-Los contratos que tengan por objeto la adquisición o construcción de inmuebles destinados a la prestación de los servicios de los respectivos entes públicos, inclusive los inmuebles que requiera en el exterior, el servicio diplomático y consular de la República, siempre que se encuentren comprendidos dentro del correspondiente programa que apruebe el Ejecutivo Nacional por órgano del Ministerio de Hacienda, y siempre que el pago deba realizarse en un plazo no menor de siete (7) años.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.3479995727539,
+                "t": 276.0021057128906,
+                "r": 525.3431396484375,
+                "b": 182.0546112060547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                491
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "3.-Las obligaciones derivadas de la participación de la República en instituciones financieras internacionales en las cuales esta sea miembro.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.10800170898438,
+                "t": 165.6027069091797,
+                "r": 525.2689208984375,
+                "b": 143.03079223632812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el caso de los contratos a los cuales se refiere el literal c) del artículo 4o, la Ley de Presupuesto en la cual se incluya el primer pago autorizará al Ejecutivo Nacional para contratar una parte del costo total, guardando una adecuada proporción con la asignación que en la misma Ley de Presupuesto se destine a dichas contrataciones, de acuerdo al número de ejercicios fiscales en los cuales se vaya a cancelar y ejecutar. En tal caso dicha Ley indicará expresamente la autorización para contratar que se dé al Ejecutivo Nacional, enumerará las obras a las cuales se contrae la autorización y ordenará la inclusión en los sucesivos presupuesto de las asignaciones anuales requeridas por el programa de ejecución y los cuales se indicarán. El costo de las obras que se contraten según este artículo no se tomará en cuenta para el cálculo del porcentaje a que se refiere la letra b) del numeral 1° del artículo 6 ni para el monto máximo a que se refiere el artículo 3 en los montos que no correspondan al año de que se trate",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 703.8359985351562,
+                "r": 525.342041015625,
+                "b": 527.1249389648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1028
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7°°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "No se podrá contratar operaciones de crédito público con garantía o privilegios sobre bienes o rentas nacionales, estatales o municipales.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.37220001220703,
+                "t": 496.74090576171875,
+                "r": 525.26904296875,
+                "b": 471.92498779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 8°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "No se podrá variar o modificar, directa o indirectamente, el destino de la operación de crédito público sin nueva autorización del ente autorizante.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.39620208740234,
+                "t": 441.6369934082031,
+                "r": 525.278564453125,
+                "b": 416.72509765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                148
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las obligaciones provenientes de la deuda pública o los títulos que la representen prescriben a los diez (10) años, los intereses o los cupones representativos de éstos prescriben a los tres (3) años, ambos lapsos se contarán desde las respectivas fechas de vencimiento de las obligaciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.46820068359375,
+                "t": 386.34112548828125,
+                "r": 525.360107421875,
+                "b": 333.85321044921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                290
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En los presupuestos de los entes públicos deberán incluirse las partidas correspondientes al servicio de la Deuda Pública, sin perjuicio de que éste se centralice, total o parcialmente, en el Ministerio de Hacienda.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/48",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.46820068359375,
+                "t": 303.601318359375,
+                "r": 525.3025512695312,
+                "b": 264.9853820800781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                215
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A los afectos del cumplimiento de lo dispuesto en este artículo, los recursos previstos para el Servicio de la Deuda Pública no estarán sujetos al régimen de dozavo presupuestario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.00019836425781,
+                "t": 248.49758911132812,
+                "r": 525.3072509765625,
+                "b": 209.7856903076172,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                180
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los títulos de la Deuda Pública podrán generar intereses y ser colocados a la par, a descuento o con prima.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/51",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.79219818115234,
+                "t": 179.4019012451172,
+                "r": 525.3446044921875,
+                "b": 154.58599853515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Contraloría General de la República llevará en cuenta especial el movimiento de las erogaciones con cargo a los recursos originados en operaciones de Crédito Público, ya se efectúen mediante apertura de crédito o colocación o entrega de títulos de la Deuda Pública, igualmente, llevará la relación de las garantías concedidas por los entes sujetos a esta Ley con especial indicación de las obligaciones principales a que ellas se refieren.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.40819549560547,
+                "t": 124.2979965209961,
+                "r": 525.3181762695312,
+                "b": 85.45419311523438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                228
+              ]
+            },
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.38400268554688,
+                "t": 717.5401000976562,
+                "r": 525.304931640625,
+                "b": 678.7921752929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                229,
+                442
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 13°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Además del control financiero establecido en este artículo, la Contraloría General de la República, para asegurar el cumplimiento del objeto de cada operación de Crédito Público, dictará las normas de control perceptivo que juzgue adecuado.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 89.45999908447266,
+                "t": 648.6363525390625,
+                "r": 525.2965087890625,
+                "b": 595.9924926757812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                240
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las normas para la emisión, canje, depósito, sorteos, operaciones de mercado para rescate anticipado y cancelación de títulos de la Deuda Pública al portador, serán establecidas en el Reglamento de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 565.7405395507812,
+                "r": 525.3179321289062,
+                "b": 526.99267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                207
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Sólo podrán realizar operaciones de endeudamiento a corto plazo la República, los institutos autónomos y las Sociedades del Estado dentro de los términos establecidos en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/59",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.44400024414062,
+                "t": 496.8367004394531,
+                "r": 525.297607421875,
+                "b": 457.9928894042969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                179
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La opinión de las comisiones permanentes de finanzas y de cualquier otra comisión permanente del congreso cuando fuere requeridas por esta ley o por las leyes de crédito público que se dicten conforme a ella, deben ser remitidas al Ejecutivo Nacional dentro de los veinte (20) días siguientes a la fecha en la cual se dé cuenta de la solicitud en reunión ordinaria de la Comisión de Finanzas de la Cámara de Diputados, en caso de que dicha opinión no sea remitida dentro del lapso aquí indicado, se considerara como favorable a la realización de las operaciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/61",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 427.8368835449219,
+                "r": 525.3216552734375,
+                "b": 320.185302734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                562
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 16°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional indicará en la exposición que dirija al Congreso, a los fines previstos en el artículo 3o, con la aproximación que permitan los datos existentes, los principales efectos económicos y sociales que ocasionarán los proyectos a ser financiados con las operaciones de crédito público de que se trate. El Congreso podrá exigir al Ejecutivo Nacional cualesquiera otros datos que considere necesarios para otorgar la autorización solicita.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/64",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.21600341796875,
+                "t": 262.2974853515625,
+                "r": 525.3072509765625,
+                "b": 182.05380249023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                453
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En uso de la autorización a que se refiere el primer aparte del artículo 3 de esta Ley, el Ejecutivo Nacional podrá establecer que los organismos de la administración descentralizada realicen directamente aquellas operaciones que sean de su competencia o bien que la República les transfiera los fondos obtenidos en las operaciones que ésta realice. Esta transferencia se hará en la forma que determine el Ejecutivo Nacional y en todo caso le corresponderá decidir si mantiene, cede, remite o capitalizada la acreencia, total o parcialmente, en los términos y condiciones que el mismo determine.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 151.89788818359375,
+                "r": 525.3262939453125,
+                "b": 85.58619689941406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                382
+              ]
+            },
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.10800170898438,
+                "t": 717.6361083984375,
+                "r": 525.3036499023438,
+                "b": 678.7921752929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                383,
+                595
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Antes de celebrar cada operación de crédito público, el Ejecutivo Nacional oirá la opinión del Banco Central de Venezuela así como la opinión favorable de las Comisiones Permanentes de Finanzas del Senado y de la Cámara de Diputados sobre las condiciones financiera aplicables a dicha operación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.0,
+                "t": 648.5403442382812,
+                "r": 525.328857421875,
+                "b": 596.12451171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                295
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las Letras del Tesoro y los bonos de la Deuda Pública tendrán las Condiciones que se establezcan en los respectivos decretos de emisión, previo el cumplimiento de los requisitos determinados en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.41999816894531,
+                "t": 565.8365478515625,
+                "r": 525.2781982421875,
+                "b": 526.99267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                203
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 20°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional podrá emitir Letras del Tesoro durante el ejercicio presupuestario, siempre que su monto en circulación al final de cada ejercicio no exceda del máximo fijado por el Congreso, de conformidad con lo previsto en el artículo 3° de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.43199920654297,
+                "t": 496.74072265625,
+                "r": 525.300048828125,
+                "b": 444.1929016113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                259
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las Letras del Tesoro y toda obligación de Deuda Pública a corto plazo deberán ser canceladas a su vencimiento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 413.9410095214844,
+                "r": 525.263916015625,
+                "b": 391.3691101074219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los contratos de empréstitos y los títulos de la Deuda Pública de la República, llevarán la firma del Ministro de Hacienda o del funcionario designado al efecto por el Presidente de la República. Se exceptúan aquellos títulos para los cuales se establezcan otras modalidades de emisión, incluidas la utilización de procedimiento electrónicos, de acuerdo con lo que disponga el respectivo decreto de emisión.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 358.8011169433594,
+                "r": 525.317626953125,
+                "b": 281.0295104980469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                407
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Para la ejecución de las operaciones a que se refiere esta Ley, la República, podrá aceptar letras de cambio, emitir pagarés o cualquier otro título valor.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.79199981689453,
+                "t": 248.49758911132812,
+                "r": 525.33837890625,
+                "b": 223.45359802246094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 24°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los títulos de la Deuda Pública son admisibles por su valor nominal en toda garantía que haya de constituirse a favor del Fisco Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.38400268554688,
+                "t": 193.2017059326172,
+                "r": 525.3287963867188,
+                "b": 168.2537078857422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                137
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los títulos de Deuda Pública al portador emitidos por la República serán pagaderos desde las fechas de su vencimiento contra entrega de los mismos, en la Tesorería Nacional o en las entidades auxiliares de la misma. En las leyes especiales que autoricen operaciones de Crédito Público podrá establecerse que los mencionados títulos de Deuda Pública sean utilizados a su vencimiento para el pago de cualquier impuesto o contribución nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.44400024414062,
+                "t": 138.00180053710938,
+                "r": 525.3406982421875,
+                "b": 85.58599853515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                307
+              ]
+            },
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.44400024414062,
+                "t": 717.5401000976562,
+                "r": 525.2686767578125,
+                "b": 692.5922241210938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                308,
+                441
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los títulos nominativos se pagarán a su vencimiento previa comprobación derecho a percibir el pago, la cual se hará en los términos que establezca el Reglamento de esta Ley,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 676.1403198242188,
+                "r": 525.3119506835938,
+                "b": 637.3925170898438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                173
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La república no podrá otorgar ninguna garantía para respaldar obligaciones de personas naturales o jurídicas de cualquier naturaleza.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/85",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.79199981689453,
+                "t": 607.1405029296875,
+                "r": 525.25927734375,
+                "b": 582.192626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                133
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "No se otorgaran nuevas garantías a las personas naturales o jurídicas, públicas o privadas, que se encuentren en mora en el pago de obligaciones garantizadas por la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.39600372314453,
+                "t": 551.9406127929688,
+                "r": 525.2855834960938,
+                "b": 513.3248291015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                175
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las operaciones de Crédito Público, cualquiera que sea su cuantía deberán ser consultadas previamente por el Ejecutivo Nacional con el Banco Central de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/90",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.0479965209961,
+                "t": 455.4367980957031,
+                "r": 525.3095703125,
+                "b": 418.9689025878906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                162
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 29°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional deberá oír la opinión del Banco Central de Venezuela antes de otorgar cualquier garantía o de autorizar, en los términos de esta Ley, cualquier operación de Crédito Público de los entes sujetos a la misma.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.43199920654297,
+                "t": 386.4368896484375,
+                "r": 525.35400390625,
+                "b": 347.65301513671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                227
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A los efectos de lo establecido en el artículo 3 de la presente Ley, el Ejecutivo Nacional solicitará la opinión del Banco Central de Venezuela sobre los efectos fiscales y macroeconómicos del endeudamiento neto y el monto máximo de Letras del Tesoro a las que se refiere el mismo artículo 3o.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.0,
+                "t": 317.4969787597656,
+                "r": 525.3382568359375,
+                "b": 264.9851989746094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                293
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La opinión del Banco Central de Venezuela sobre las operaciones de crédito público, versará sobre las condiciones financieras de las operaciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/96",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.79180145263672,
+                "t": 234.69729614257812,
+                "r": 525.2841796875,
+                "b": 209.78529357910156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                145
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando se trate de las operaciones de crédito público previstas en los artículos 34, 38 y 39 de la presente Ley, el Banco Central de Venezuela deberá evaluar también la capacidad de pago del ente público que propone realizar la operación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.21580505371094,
+                "t": 193.2974853515625,
+                "r": 525.3237915039062,
+                "b": 140.7856903076172,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                238
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ministerio de Hacienda deberá enviar al Banco Central de Venezuela una información mensual sobre el movimiento y estado de cada una de las deudas y demás operaciones de Crédito Público de la Nación, los Estados, las Municipalidades, Institutos Autónomos, Sociedades o Empresas del Estado y de las obligaciones que tengan fianza de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.79180145263672,
+                "t": 110.4979019165039,
+                "r": 525.322509765625,
+                "b": 85.45399475097656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                150
+              ]
+            },
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 717.6361083984375,
+                "r": 525.3179931640625,
+                "b": 678.7921752929688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                151,
+                344
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 33°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Estados y las Municipalidades y los entes por ellos creados, no podrán realizar operaciones de crédito público externas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/102",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.77999877929688,
+                "t": 607.1405029296875,
+                "r": 525.3505249023438,
+                "b": 582.3246459960938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                124
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Estados, las Municipalidades y los entes por ellos creados, no podrán realizar operaciones de crédito público interno sin la autorización del Congreso de la República mediante ley especial. La solicitud de autorización para la realización de dichas operaciones será formulada por medio de acuerdo de la respectiva Asamblea Legislativa o Consejo Municipal, que deberá ser trasmitida al Congreso, a través del Ejecutivo Nacional, y contener la aprobación de éste, la opinión del Banco Central de Venezuela, en los términos establecidos en el Título III de este Ley y, además las siguientes indicaciones: programas de inversiones, plazo para amortización, tasa máxima de interés, forma de pago, garantías ofrecidas y cualesquiera otras características financiera de la operación. Deberá, así mismo, someterse a los requisitos que señale el Reglamento de esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/104",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.2760009765625,
+                "t": 551.9406127929688,
+                "r": 525.4007568359375,
+                "b": 388.993408203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                864
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las operaciones de crédito público interno que hayan de celebrar los Estados y las Municipalidades deberán ser autorizadas por las respectivas Asamblea Legislativas o Consejos Municipales mediante leyes u ordenanzas en las que se incluirán las menciones y la autorización a que se refiere el artículo anterior.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/106",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.76799774169922,
+                "t": 358.801513671875,
+                "r": 525.3276977539062,
+                "b": 306.2536926269531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                310
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Estados y Municipalidades deberán enviar al Ministerio de Hacienda una información mensual sobre le movimiento y estado de cada una de las operaciones de Crédito Público y de las demás deudas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/108",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.39600372314453,
+                "t": 276.0018005371094,
+                "r": 525.300048828125,
+                "b": 237.25390625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                196
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Institutos Autónomos y todas las personas jurídicas públicas que no revistan el carácter de sociedades mercantiles, así como las fundaciones constituidas y dirigidas por alguna de las personas referidas en el artículo 2 de la presente Ley, no podrán realizar operaciones de crédito público. Se exceptúan de lo dispuesto en este artículo los institutos autónomos cuyo objeto principal sea la actividad financiera, sólo a los efectos del cumplimiento de dicho objeto.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/114",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.10800170898438,
+                "t": 703.739990234375,
+                "r": 525.3504638671875,
+                "b": 623.5924072265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                469
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las personas jurídicas exceptuadas conforme a este artículo deberán publicar en dos (2) diarios de circulación nacional, dentro de los quince (15) días siguientes a la terminación de su ejercicio económico, el balance con indicación expresa del monto de endeudamiento pendiente, debidamente suscrito por un Contador Público inscrito en el Registro de Contadores Públicos en Ejercicio Independiente de la Profesión que lleva la Comisión Nacional de Valores.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/116",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 593.4364013671875,
+                "r": 525.3251953125,
+                "b": 513.3248291015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                456
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Un ejemplar de dicha publicación deberá remitirse a las Comisiones Permanentes de Finanzas del Senado y de la Cámara de Diputados, dentro de los cinco (5) días siguientes a aquel en que fue publicado el correspondiente balance.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.76799774169922,
+                "t": 510.63677978515625,
+                "r": 525.3358764648438,
+                "b": 460.3691101074219,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                227
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las sociedades del Estado sólo podrán realizar operaciones de crédito público, conforme a lo establecido en este artículo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/120",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.46800231933594,
+                "t": 386.34112548828125,
+                "r": 525.2939453125,
+                "b": 363.76922607421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En ningún caso podrán garantizar obligaciones de personas naturales o jurídicas de cualquier naturaleza.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/121",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 345.001220703125,
+                "r": 525.27001953125,
+                "b": 320.185302734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                104
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las sociedades del Estado podrán realizar operaciones de crédito público con la sola autorización del Presidente de la República en Consejo de Ministros, previa opinión del Banco Central de Venezuela, donde se haga constar la factibilidad del endeudamiento y capacidad de pago de la respectiva sociedad y además la opinión favorable de las Comisiones Permanentes de Finanzas del Senado y de la Cámara de Diputados, reunidas conjuntamente. En todo caso el monto de las obligaciones pendientes por tales operaciones, mas el monto de las operaciones a tramitarse no debe exceder de dos (2) veces el patrimonio de la respectiva sociedad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 303.6014099121094,
+                "r": 525.3311767578125,
+                "b": 184.42999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                633
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Quedan exceptuadas del régimen previsto en esta Ley, las sociedades del Estado dedicadas a la intermediación de créditos regidas por la Ley General de Bancos y otros Institutos de Crédito, las regidas por la Ley de Empresas de Seguro y Reaseguros, las creadas o que se crearen de conformidad con la Ley Orgánica que reserva al Estado la Industria y el Comercio de los Hidrocarburos las creadas o que sea crearen de conformidad con el artículo 10 del Decreto Ley No 580 del 26 de noviembre de 1974, mediante el cual se reservó el Estado la industria de la explotación del mineral de hierro, siempre y cuando se certifique la capacidad de pago de estas sociedades.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.51599884033203,
+                "t": 151.91009521484375,
+                "r": 525.3468017578125,
+                "b": 85.45439910888672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                381
+              ]
+            },
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.76799774169922,
+                "t": 717.6361083984375,
+                "r": 525.3251342773438,
+                "b": 664.9923095703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                382,
+                662
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Primero"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La respectiva sociedad deberá publicar en un (1) diario de circulación nacional y por lo menos en un (1) diario de la zona donde tenga su sede principal, dentro de los quince (15) días siguientes a la terminación de su ejercicio económico, el balance con indicación expresa del monto de endeudamiento pendiente, debidamente suscrito por un Contador Público inscrito en el Registro de Contadores Públicos en Ejercicio Independiente de la Profesión que lleva la Comisión Nacional de Valores.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/126",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 634.83642578125,
+                "r": 525.339599609375,
+                "b": 543.1687622070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                489
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Segundo:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Un ejemplar de dicha publicación deberá remitirse a las Comisiones Permanentes de Finanzas del Senado y de la Cámara de Diputados, dentro de los cinco (5) días siguientes a aquel en que fue publicado el correspondiente balance.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/127",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.76799774169922,
+                "t": 524.4369506835938,
+                "r": 525.34326171875,
+                "b": 474.1692199707031,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                227
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Segundo:"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las sociedades del Estado, no podrán garantizar obligaciones asumidas por terceros. Se exceptúan las sociedades cuyo objeto es el otorgamiento de garantías, las cuales deben ser autorizadas en forma general para este propósito mediante Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.21600341796875,
+                "t": 441.5412292480469,
+                "r": 525.30712890625,
+                "b": 388.993408203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                240
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 40°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Queda exceptuado del régimen previsto en esta Ley el Banco Central de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.04779815673828,
+                "t": 358.90948486328125,
+                "r": 525.2794189453125,
+                "b": 336.2296142578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                80
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La consolidación, conversión, unificación o cualquier forma de refinanciamiento de la Deuda Pública, cuando exceda del monto máximo de endeudamiento neto autorizado de conformidad con lo establecido en el tercer aparte del artículo 3 de esta Ley deberá ser autorizada expresamente por el Congreso mediante ley especial.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/134",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.40779876708984,
+                "t": 289.897705078125,
+                "r": 525.3321533203125,
+                "b": 223.58599853515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                319
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cuando las condiciones existentes en los mercados financieros internacionales lo aconsejen, el Ejecutivo Nacional podrá adoptar programas generales de refinanciamiento de la totalidad o parte de la deuda pública externa de los entes mencionados en el artículo 2°. En este caso, el Congreso de la República podrá otorgar al Ejecutivo Nacional una autorización general para celebrar, en un plazo determinado, operaciones de crédito público, dentro de los límites y condiciones fijados por el Congreso.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.10780334472656,
+                "t": 193.29800415039062,
+                "r": 525.33349609375,
+                "b": 99.2544937133789,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                499
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 43°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En esta autorización se podrá establecer que la deuda de los entes distintos a la República a ser refinanciada sea asumida por ésta o contratada directamente por el respectivo ente deudor, a juicio del Ejecutivo Nacional, en cuyo caso se establecería expresamente el criterio adoptado y se informará al Congreso de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/137",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.44400024414062,
+                "t": 717.5401000976562,
+                "r": 525.3336181640625,
+                "b": 651.3244018554688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                328
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 43°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Ley especial que autorice el refinanciamiento a que se refiere el artículo anterior, podrá establecer que la negociación de las operaciones de crédito público sea realizada por órgano del Ministro de Hacienda, sin participación de los diversos entes deudores. Estos quedarán sometidos a lo que al respecto disponga el Ministro de Hacienda en relación al refinanciamiento total o parcial de su deuda.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/139",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 621.03662109375,
+                "r": 525.307373046875,
+                "b": 543.1690063476562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                402
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 44°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En los supuestos previstos en los artículos 42 y 43, el Ejecutivo Nacional presentará al Congreso de la República una exposición razonada de la solicitud de autorización y la opinión del Banco Central de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 510.541015625,
+                "r": 525.2953491210938,
+                "b": 471.793212890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                214
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 45°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Obtenida la autorización prevista en el artículo 43, el Ejecutivo Nacional podrá celebrar las operaciones de crédito público que sean necesarias para el refinanciamiento, en las oportunidades, plazos, formas y, modalidades que considere más convenientes a los intereses nacionales, dentro de las condiciones existentes en los mercados financieros internacionales. Antes de celebrar cada operación, el Ejecutivo Nacional deberá oír la opinión del Banco Central de Venezuela.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/143",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.46800231933594,
+                "t": 441.6492004394531,
+                "r": 525.3431396484375,
+                "b": 350.0295104980469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                473
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 46°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional, dentro de los treinta (30) días siguientes a la celebración de cada operación, deberá informar al Congreso o a la Comisión Delegada, de las actuaciones cumplidas en virtud de la autorización dada conforme al artículo 43.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.15599822998047,
+                "t": 317.4975891113281,
+                "r": 525.290283203125,
+                "b": 267.2177734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                243
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 47°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La negociación y administración de la Deuda Pública estará bajo la dirección y responsabilidad del Ministerio de Hacienda. En el Ministerio de Hacienda se llevará la contabilidad de la Deuda Pública y un registro de las operaciones de crédito público realizados por los entes sujetos a la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/148",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.46800231933594,
+                "t": 207.00180053710938,
+                "r": 525.308349609375,
+                "b": 154.45401000976562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                302
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 48°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El registro a que se refiere este artículo contendrá los montos que se efectúen por concepto de amortizaciones y pago de intereses. Los entes sujetos a esta Ley deberán suministrar al Ministerio de hacienda la información relativa a operaciones realizadas, desembolsos y el servicio de su deuda dentro de los primeros diez (10) días de cada mes. Esta información estará a disposición del Congreso cuando éste la solicite.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/149",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.39600372314453,
+                "t": 138.09811401367188,
+                "r": 525.3637084960938,
+                "b": 85.45439910888672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                308
+              ]
+            },
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.5999984741211,
+                "t": 717.6361083984375,
+                "r": 525.275634765625,
+                "b": 692.5922241210938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                309,
+                421
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 48°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Quedan exceptuados de la obligación establecida en este artículo el Banco Central de Venezuela y las sociedades del Estado dedicadas a la intermediación de créditos regidas por la Ley General de Bancos y otros Institutos de Crédito, y las regidas por la Ley de empresas de seguros y de reaseguros.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/150",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 676.248291015625,
+                "r": 525.3467407226562,
+                "b": 623.592529296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                297
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 48°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los entes sujetos a esta Ley deberán suministrar al Ministerio de Hacienda todas las informaciones que éste le solicitare sobre las operaciones de Crédito Público realizadas o en trámite.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/152",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.21600341796875,
+                "t": 593.3406372070312,
+                "r": 525.3084716796875,
+                "b": 556.9686889648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                187
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Antes de realizar las operaciones de crédito público autorizadas por el Congreso los respectivos entes públicos deberán solicitar la intervención del Ministerio de Hacienda para iniciar conjuntamente las gestiones necesarias a fin de llevar a cabo la operación. Una vez celebrada la operación el ente deudor deberá registrarla en el Ministerio de Hacienda.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/154",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.0,
+                "t": 524.4368286132812,
+                "r": 525.3094482421875,
+                "b": 457.99310302734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                356
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 50°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el caso de refinanciamiento a que se refiere el Título VI de la presente Ley los directores y administradores de los entes sujetos a esta Ley, así como los directores o gerentes de Finanzas y quienes desempeño en funciones similares, están obligados a cumplir las instrucciones, que les imparta el Ministro de Hacienda.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/156",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 427.83709716796875,
+                "r": 525.3539428710938,
+                "b": 363.7694091796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                322
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 51°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dentro de los sesenta (60) días del vencimiento de cada semestre el Ministerio de Hacienda presentará a las Comisiones Permanentes de Finanzas del Senado y de la Cámara de Diputados, un uniforme pormenorizado sobre la situación de la Deuda Pública que deberá comprender los siguientes elementos;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/158",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.19200134277344,
+                "t": 331.29730224609375,
+                "r": 525.29296875,
+                "b": 278.65350341796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                295
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El monto colocado y amortizado de cada operación autorizada por el Congreso y el saldo de la misma con señalamiento de la Ley respectiva;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/159",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.44400024414062,
+                "t": 262.2976989746094,
+                "r": 525.286865234375,
+                "b": 237.2537078857422,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                137
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las operaciones que tengan por objeto la reducción del tipo de interés;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/160",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.8759994506836,
+                "t": 220.80189514160156,
+                "r": 470.7961120605469,
+                "b": 209.65390014648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                71
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las cantidades asignadas en la Ley de Presupuesto para el Servicio de la Deuda Pública a cargo de la República, los Institutos Autónomos y las Sociedades del Estado y las efectivamente pagadas por concepto de cada operación de Crédito Público autorizadas, en cuanto a los Estados, las Municipalidades y demás entes sujetos a esta Ley, una relación del movimiento y estado de sus operaciones del Crédito Público autorizadas;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/161",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.19200134277344,
+                "t": 193.29800415039062,
+                "r": 525.3383178710938,
+                "b": 113.05439758300781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                423
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La aplicación de los recursos provenientes de cada operación en función del programa que sirvió de fundamento a la autorización respectiva, tanto en términos reales como financieros; 5) Las condiciones en que se han celebrado las operaciones autorizadas;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/162",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.21600341796875,
+                "t": 717.6361083984375,
+                "r": 525.3189697265625,
+                "b": 665.1243286132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                254
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Una relación de las operaciones de Créditos Público de los institutos autónomos y sociedades del Estado, autorizadas por el Ejecutivo Nacional; así como una de las operaciones a corto plazo realizadas y de las garantías otorgadas por dichos entes;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/163",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.19200134277344,
+                "t": 648.6365356445312,
+                "r": 525.3720703125,
+                "b": 596.8086547851562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                247
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Una información sobre las tendencias prevalecientes tanto en el mercado interno como en el mercado internacional de capitales en cuanto a plazos, tipos de interés y descuentos;",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/164",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.46800231933594,
+                "t": 579.6368408203125,
+                "r": 525.2986450195312,
+                "b": 540.7930297851562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                176
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Información sobre la capacidad el mercado para absorber los títulos valores, bonos y otros documentos financieros, emitidos o por emitir por la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/165",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.77999877929688,
+                "t": 524.4371337890625,
+                "r": 525.2588500976562,
+                "b": 499.3932189941406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                154
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 52°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ministerio de Hacienda acompañará a su informe los contratos de apertura de crédito que se hayan suscrito en el semestre de acuerdo con las autorizaciones otorgadas.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/167",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.39600372314453,
+                "t": 469.2371826171875,
+                "r": 525.3094482421875,
+                "b": 430.3934020996094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                168
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Serán sancionados con destitución del cargo o con multa hasta de diez mil bolívares (Bs. 10.000,00) de acuerdo con la gravedad de la falta, quienes no remitan al Ministerio de Hacienda, dentro del plazo que se les haya fijado, las informaciones y documentos que les hubieren sido requeridos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/169",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.54000091552734,
+                "t": 400.2373962402344,
+                "r": 525.3070678710938,
+                "b": 347.65350341796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                291
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 53°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La destitución será aplicada por la autoridad que hubiere hecho el nombramiento. La multa la impondrá el Ministro de Hacienda.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/170",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.79199981689453,
+                "t": 331.20172119140625,
+                "r": 525.27587890625,
+                "b": 306.38568115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                126
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 53°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Sin perjuicio de la aplicación de la Ley Orgánica de Salvaguarda del Patrimonio Público, quienes incumplieren los deberes establecidos en los artículos 50 y 51 serán sancionados, según la gravedad de la falta, con multa o con destitución o despido. Estas sanciones serán impuestas de oficio por el superior- jerárquico del ente deudor o a requerimiento del Ministro de Hacienda. Las multas serán calculadas de conformidad con lo previsto en el artículo 100 de la Ley Orgánica de Procedimientos Administrativos y aplicadas de acuerdo con el procedimiento señalado en el artículo 102 de la misma.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/172",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 276.1097717285156,
+                "r": 525.3359375,
+                "b": 170.6302947998047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                594
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 54°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el caso de que la falta deba ser castigada con destitución o despido, la sanción se aplicará en procedimiento sumario, con audiencia del presunto responsable.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/173",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 151.89840698242188,
+                "r": 525.2771606445312,
+                "b": 113.18659973144531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 54°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las personas naturales o jurídicas cuyas obligaciones fueren garantizadas por cualesquiera de los entes sujetos a la presente Ley, estarán obligados a permitir la inspección y fiscalización de la Contraloría General de la República y a contratar auditorias externas de sus actividades económicas, a solicitud de aquella o del garante.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/175",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.43199920654297,
+                "t": 703.8359985351562,
+                "r": 525.33837890625,
+                "b": 637.392333984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                334
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 55°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las operaciones de Crédito Público celebradas en contravención de lo dispuesto en la presente Ley, son nulas y sin efecto, sin perjuicio de la responsabilidad personal de los que las celebren. Las obligaciones que se derivan de las mismas no serán oponibles ni a la República ni al ente contratante.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/178",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.44400024414062,
+                "t": 579.6363525390625,
+                "r": 525.3611450195312,
+                "b": 527.12451171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                299
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 56°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los funcionarios con capacidad para obligar a los organismos públicos en razón de las funciones que ejerzan, que celebren o autoricen operaciones de Crédito Público nulas, sin perjuicio de las responsabilidades administrativas, civiles o penales en que incurran, serán sancionadas con destitución del cargo y prohibición para ejercer cualquier cargo público por cinco (5) años.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/179",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 510.6366882324219,
+                "r": 525.31201171875,
+                "b": 444.1929016113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                377
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 56°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las controversias que surjan entre las personas sujetas a la presente Ley y los particulares con ocasión de las operaciones previstas en la misma, serán de la competencia de la Corte Suprema de Justicia en Sala Político-Administrativa.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/181",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.46800231933594,
+                "t": 413.89300537109375,
+                "r": 525.2904052734375,
+                "b": 375.3251037597656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                235
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 57°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A los efectos de lo establecido en esta Ley, se autoriza a la Sociedad Nacional de Garantías Reciprocas para la Mediana y Peque a Industria (SOGAMPI) a otorgar garantías para respaldar obligaciones de terceros.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/183",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.0,
+                "t": 345.0971984863281,
+                "r": 525.3034057617188,
+                "b": 306.25341796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                210
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 58°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional presentará el primer proyecto de ley especial a que se refiere el artículo 3o de la presente Ley, dentro de los sesenta (60) días siguientes a la entrada en vigencia de la misma, a fin de que el Congreso de la República lo apruebe antes del inicio del próximo ejercicio presupuestario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/185",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.37200164794922,
+                "t": 276.00140380859375,
+                "r": 525.33837890625,
+                "b": 223.45359802246094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                307
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 59°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Ejecutivo Nacional y los demás entes sujetos a esta Ley, podrán contratar las operaciones de crédito público y otorgar las garantías a que estén autorizados por leyes especiales de créditos público que hubieren sido aprobadas antes de la entrada en vigencia de la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/187",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.39600372314453,
+                "t": 193.2017059326172,
+                "r": 525.3624877929688,
+                "b": 140.65390014648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                280
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 60°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dada, firmada y sellada en el Palacio Federal Legislativo, en Caracas, veintiséis días del mes de octubre de mil novecientos noventa y dos. Años 182° de la Independencia y 133° de la Federación L.S.) Carlos Andrés Pérez Refrendado. El Ministro de Relaciones Interiores, Luis Piñerua Ordaz El Ministro de Relaciones Exteriores (E), Fernando Gerbasi El Ministro de Hacienda, Pedro Rosas Bravo El Ministro de la Defensa, Iván Jiménez Sánchez El Ministro de Fomento, Frank de Armas Moreno El Ministro de Educación, Pedro Augusto Beauperthuy El Ministro de Sanidad y Asistencia Social (E), Rodrigo Infante El Ministro de Agricultura y Cría, Jonathan Coles Ward El Ministro del Trabajo, Jesús Rubén Rodríguez V El Ministro de Transporte y Comunicaciones, Fernández Martínez M El Ministro de Justicia, José Mendoza Angulo El Ministro de Energía y Minas (E), Rafael M Guevara El Ministro del Ambiente y de los Recursos Naturales Renovables Enrique Colmenares Finol El Ministro del Desarrollo Urbano, Diógenes Mújica La Ministra de la Familia, Teresa Albanez Barnola El Ministro de la Secretaría de la Presidencia, Celestino Armas El Ministro de Estado, Ricardo Haussmann El Ministro de Estado, Leopoldo Sucre Figarella Trascrito de la Gaceta Oficial N° 35.077 del 26 de octubre de 1992",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/188",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.40799713134766,
+                "t": 124.2979965209961,
+                "r": 525.3323974609375,
+                "b": 85.45419311523438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                193
+              ]
+            },
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 90.2760009765625,
+                "t": 717.6361083984375,
+                "r": 525.3143310546875,
+                "b": 115.41910552978516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                194,
+                1277
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 60°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "NOTA 1: Reformas: La Ley de 1992 reforma a la Ley de 22-08-1983 (G.O. 3.253 de 14-09-1981). La Ley de 1983 reforma a la Ley de 27-08-1981 (G.O. 2.845 de 27-08-1981). La Ley de 1981 reforma a la Ley de 30-12-1980 (G.O. 2.714 de 30-12-1980). La Ley de 1980 reforma a la Ley de 30-07-1976 (G.O. 1.893 de 30-07-1976). Derogatorias:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/189",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.8759994506836,
+                "t": 717.6480712890625,
+                "r": 502.43505859375,
+                "b": 540.7930297851562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                327
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 60°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Ley de 1976 derogó a la Ley de 18-09-1970 (G.O. 29322 de 18-09-1970).",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/190",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 90.8759994506836,
+                "t": 524.4490966796875,
+                "r": 501.6477355957031,
+                "b": 513.193115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 60°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

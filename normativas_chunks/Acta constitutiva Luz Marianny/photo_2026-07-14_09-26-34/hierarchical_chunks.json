@@ -1,0 +1,131 @@
+[
+  {
+    "text": "por la dirección, indicando que ya son enajenables.\"En este sentido se depositará un total del 10% del total de las acciones, es decir, Cen (10) acciones; las cuales tendrán como finalidad garantizar la gestión de los Administradores en su periodo. CLÁUSULA 15º. El Presidente, o quien haga sus veces, es el representante legal de la Compañíia y tienen a su cargo la Dirección General de la misma, con las más amplias facultades de administración y de disposición de modo que, mientras no esté reunida la Asamblea de Accionistas, sus poderes son plenos en todo aquello que no esté expresamente atribuído a la Asamblea. Sin más límitaciones que las establecidas en la Ley o en este documento Constitutivo y Estatutario, En consecuencia, actuando en su nombre podrá comprar, vender, gravar y en cualquier forma, términos y condiciones comprometer sus bienes muebles e inmuebles; librar, aceptar y endosar todo género de efectos de comercio y títulos valores en general incluyendo los chequeșos cuales serán pagaderos con su sola firma; queda expresamente facultados para abrir, cerrar y movilizar cuentas corrientes bancarias o de créditos; para otorgar fianzas y avales y toda clase de garantías deberán contar con la aprobación de la Asamblea de Accionistas; y en fin, realizar a nombre de la Compañía, cuanto negocio o gestión estimaren necesario y conveniente a los intereses de la compañía, CLÁuSULA 16º. - Igualmente, tanto El Presidente como el Vicepresidente, o quien haga sus veces están facultado para expedir copias certificadas en las Actas de Asambleas de Accionistas y de los demás documentos de la Compañía, además, tendrán a su cargo la dirección, administración y operatividad total de la empresa; en",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 124.4680887858073,
+                "t": 927.741943359375,
+                "r": 883.404296875,
+                "b": 241.935546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1715
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 1548785828973226404,
+        "filename": "photo_2026-07-14_09-26-34.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "modo y muy especialmente estará bajo su responsabilidad lavigilancia de la gestión diaria de",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 124.4680887858073,
+                "t": 214.193603515625,
+                "r": 884.0425618489584,
+                "b": 169.677490234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 1548785828973226404,
+        "filename": "photo_2026-07-14_09-26-34.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "22",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 947.872314453125,
+                "t": 523.225830078125,
+                "r": 959.3617350260416,
+                "b": 481.29036458333337,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 1548785828973226404,
+        "filename": "photo_2026-07-14_09-26-34.jpg",
+        "uri": null
+      }
+    }
+  }
+]

@@ -1,0 +1,1258 @@
+[
+  {
+    "text": "A continuación, presento el documento estructurado en formato \r\n () , p\r\nMarkdown (.md) con la extracción integral de la información () g\r\ncontenida tanto en el documento borrador para lista de leyespy\r\nbibliografias.pdf como en las imágenes normativas 2, 3 y 4. Se ha gpg, y \r\norganizado de manera categórica incluyendo un índice interactivo.\n\r\nÍ g\r\nÍndice",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 49.98400115966797,
+                "t": 1366.0,
+                "r": 521.327880859375,
+                "b": 1259.8079833984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                357
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias Bibliográficas y g\r\nMarco Normativo Forense"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- Normativas y Estándares Internacionales\n\r\n    (\n- yy ()\n\r\nGuías y Documentos Técnicos Internacionales\n- y \r\nLeyes y Protocolos Nacionales (Venezuela)\n- y \r\nPolíticas de Gestión Documental y Cero Papel\n- pg, y p\r\n1. Normativas y Estándares Internacionales\n\r\n  ()\n- y p\r\nCriptografía, Redes y Conceptos Informáticos\n- y \r\nISO/IEC 27001 (2022): Seguridad de la información,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 61.864437103271484,
+                "t": 1258.0,
+                "r": 351.6883850097656,
+                "b": 1238.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.8479995727539,
+                "t": 1222.0,
+                "r": 403.90252685546875,
+                "b": 1202.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                51
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.16799926757812,
+                "t": 1240.0,
+                "r": 382.0049743652344,
+                "b": 1220.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.23200225830078,
+                "t": 1204.0,
+                "r": 401.9039306640625,
+                "b": 1184.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 51.74399948120117,
+                "t": 1168.0,
+                "r": 358.8319396972656,
+                "b": 1148.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.80000305175781,
+                "t": 1186.0,
+                "r": 397.05596923828125,
+                "b": 1166.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                49
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.48799896240234,
+                "t": 1150.0,
+                "r": 449.2959289550781,
+                "b": 1130.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias Bibliográficas y g\r\nMarco Normativo Forense"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "gy p\r\nde la seguridad de la información.\n\r\n  ()",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.54399871826172,
+                "t": 1114.0,
+                "r": 312.719970703125,
+                "b": 1094.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias Bibliográficas y g\r\nMarco Normativo Forense"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "()g, \r\nciberseguridad y protección de la privacidad. Sistemas de gestión",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.6240005493164,
+                "t": 1132.0,
+                "r": 543.535888671875,
+                "b": 1112.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                72
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias Bibliográficas y g\r\nMarco Normativo Forense"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "g\r\nISO/IEC 27002 (2022): Seguridad de la información,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.48799896240234,
+                "t": 1096.0,
+                "r": 449.2959289550781,
+                "b": 1076.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias Bibliográficas y g\r\nMarco Normativo Forense"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- g\r\nISO/IEC 27037 (2012): Information technology — Security ()gy y \r\ntechniques — Guidelines for identification, collection, acquisition, q, , \r\nand preservation of digital evidence. Primera edición.\n\r\n  (  )",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.28800201416016,
+                "t": 1042.0,
+                "r": 537.3118896484375,
+                "b": 986.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                207
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias Bibliográficas y g\r\nMarco Normativo Forense"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "()g, \r\nciberseguridad y protección de la privacidad. Controles de gy pp\r\nseguridad de la información. Tercera edición.\n\r\n  ()",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.49600219726562,
+                "t": 1078.0,
+                "r": 490.1759033203125,
+                "b": 1040.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                125
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias Bibliográficas y g\r\nMarco Normativo Forense"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- pg\r\nISO/IEC 27042 (2015 / 2020): Tecnología de la información. ()g\r\nTécnicas de seguridad. Directrices para el análisis e g\r\ninterpretación de evidencia digital.\n\r\n  ()\n- p\r\nUNE 71505 (2013): Tecnologías de la información (TI) – Sistema \r\n     () ()g\r\nde gestión de evidencias electrónicas (SGEE).\n\r\n    ()\n- pg\r\nUNE 197010:2015 (España): Norma española orientada a la (p)\r\nelaboración de informes periciales.\n\r\n  ()\n- g(\r\n2. Leyes y Protocolos Nacionales (Venezuela)\n- yy ()\n\r\nConstitución de la República Bolivariana de Venezuela (1999): p(\r\nPublicada en Gaceta Oficial N° 36.860 del jueves 30 de diciembre.\n- Ley Especial Contra los Delitos Informáticos (2001): Publicada en y p()\r\nGaceta Oficial N° 37.313 de fecha martes 30 de octubre.\n- Ley sobre Mensajes de Datos y Firmas Electrónicas: Documento y \r\nde CONATEL.\n- Creación del CENIF (2012): Centro Nacional de Informática ()\r\nForense. Publicado en Gaceta Oficial N° 39.847 de fecha 20 de enero.\n- Manual Único de Cadena de Custodia de Evidencias Físicas (2017): República Bolivariana de Venezuela.\n- gy \r\n3. Guías y Documentos Técnicos Internacionales\n\r\n   (  )\n- ()p\r\nCompendio de Protocolos de Actuación: Para el Fortalecimiento \r\n         (  ) p\r\nde la Investigación en Venezuela. Tomos I y II (2022 y 2023).\n- y \r\nGuía de ACPO (Reino Unido, 2012): ACPO Good Practice Guide (\r\nfor Digital Evidence.\n\r\n   (\n- ()\r\nNIST SP 800-86 (2006): Integración de técnicas forenses en ()\r\nrespuesta a incidentes.\n\r\n  ()\n- g\r\nNIST SP 800-101 (2014): Guidelines on Mobile Device Forensics.\n\r\n   ()\n- p\r\nRFC 3227 (2002): Guías para la recolección y archivo de evidencias.\n- IEEE (2019): Publicaciones sobre Informática Forense.\n\r\n ()\n- ()g\r\nOEA: Documentos jurídicos sobre delitos informáticos en Ecuador.\n- ()\r\nINCIBE (2020): Glosario de Términos de Ciberseguridad. V2.\n4. Políticas de Gestión Documental y Cero Papel\n- p\r\nDepartamento Técnico Administrativo del Medio Ambiente \r\n( ) p\r\n(Colombia, 2000): Visión ambiental Bogotá 2015: Síntesis del (, )g\r\nPlan de Gestión Ambiental del Distrito Capital.\n\r\n   ()\n- y p\r\nMINEC (s.f.): Taller de los trabajadores sobre \"Gobierno ()\r\nElectrónico / Papel Cero\".\n- p\r\nUniversidad de Chile (s.f.): Cero Papel y preguntas frecuentes.\n\r\n   ()\n- ()\r\n5. Criptografía, Redes y Conceptos Informáticos\n\r\n ()\n- ()py pg\r\nFuerza Aérea Colombiana (s.f.): Política Cero Papel.\n- pg, y p\r\nGoogle (2025): Tetraedro - Referenciado vía Gemini.\n\r\n  ()\n- pg\r\nRediris (s.f.): Criptología y seguridad UNIX.\n\r\n  ()\n- g()\r\nJuniper Network (s.f.): Infraestructura de Clave Pública (PKI) y p()\r\nconceptos de seguridad.\n\r\n ()\n- ()pgy g\r\nKeepcoding Bootcamps (s.f.): Explicaciones sobre ¿Qué es el Criptoanálisis?.\n- ()\r\nIDTY (2018): Gestión Documental con Firma Digital Perú.\n- p\r\nViafirma FAQs (s.f.): Beneficios de la firma electrónica.\n\r\n ()\n- ()g\r\nGeneral: Funcionamiento de la Firma Electrónica.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.36799621582031,
+                "t": 988.0,
+                "r": 502.4166564941406,
+                "b": 932.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                168
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.54399871826172,
+                "t": 898.0,
+                "r": 537.0406494140625,
+                "b": 860.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.59200286865234,
+                "t": 934.0,
+                "r": 507.1039123535156,
+                "b": 896.8159790039062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 50.4640007019043,
+                "t": 862.0,
+                "r": 375.7969665527344,
+                "b": 842.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.54399871826172,
+                "t": 844.0,
+                "r": 521.3328857421875,
+                "b": 791.8079833984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                139
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.8479995727539,
+                "t": 790.0,
+                "r": 543.5198974609375,
+                "b": 755.7919921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                128
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.54399871826172,
+                "t": 754.0,
+                "r": 538.159912109375,
+                "b": 719.8079833984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.59200286865234,
+                "t": 718.0,
+                "r": 529.535888671875,
+                "b": 665.8079833984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.97599792480469,
+                "t": 664.0,
+                "r": 507.9679260253906,
+                "b": 626.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 50.672000885009766,
+                "t": 592.0,
+                "r": 397.69451904296875,
+                "b": 572.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.54399871826172,
+                "t": 628.0,
+                "r": 531.9967041015625,
+                "b": 590.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                147
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.14399719238281,
+                "t": 574.0,
+                "r": 538.24951171875,
+                "b": 536.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.04000091552734,
+                "t": 520.0,
+                "r": 506.5492248535156,
+                "b": 482.8160095214844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.21600341796875,
+                "t": 538.0,
+                "r": 538.0052490234375,
+                "b": 518.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.59200286865234,
+                "t": 484.0,
+                "r": 483.055908203125,
+                "b": 449.8080139160156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.48799896240234,
+                "t": 448.0,
+                "r": 462.991943359375,
+                "b": 428.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.76799774169922,
+                "t": 412.0,
+                "r": 483.0399475097656,
+                "b": 377.8080139160156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.48799896240234,
+                "t": 430.0,
+                "r": 506.2705078125,
+                "b": 410.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                62
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 50.20800018310547,
+                "t": 376.0,
+                "r": 395.6959228515625,
+                "b": 356.6400146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.97599792480469,
+                "t": 322.0,
+                "r": 513.9266357421875,
+                "b": 266.8160095214844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                190
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.18399810791016,
+                "t": 358.0,
+                "r": 474.22467041015625,
+                "b": 320.8160095214844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.26399993896484,
+                "t": 268.0,
+                "r": 517.23193359375,
+                "b": 248.63999938964844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                74
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 50.672000885009766,
+                "t": 232.0,
+                "r": 390.84796142578125,
+                "b": 212.63999938964844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/37",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.31199645996094,
+                "t": 250.0,
+                "r": 445.2127685546875,
+                "b": 230.63999938964844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.8479995727539,
+                "t": 214.0,
+                "r": 445.8406982421875,
+                "b": 194.63999938964844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.26399993896484,
+                "t": 160.0,
+                "r": 379.3599548339844,
+                "b": 140.63999938964844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/40",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.43199920654297,
+                "t": 196.0,
+                "r": 520.367919921875,
+                "b": 158.63999938964844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                104
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.80000305175781,
+                "t": 142.0,
+                "r": 517.743896484375,
+                "b": 104.81600189208984,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                85
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 75.48799896240234,
+                "t": 88.0,
+                "r": 480.4547119140625,
+                "b": 68.63999938964844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/43",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.06400299072266,
+                "t": 106.0,
+                "r": 460.0195007324219,
+                "b": 86.63999938964844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                66
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/44",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 74.8479995727539,
+                "t": 70.0,
+                "r": 424.7359619140625,
+                "b": 53.80799865722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Referencias Bibliográficas y g\r\nMarco Normativo Forense"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

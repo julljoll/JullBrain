@@ -1,0 +1,5298 @@
+[
+  {
+    "text": "De conformidad con lo dispuesto en el artículo 7º de la Constitución Nacional, los Territorios Federales son: El Amazonas y el Delta Amacuro.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 496.70794677734375,
+                "r": 525.6259765625,
+                "b": 471.6706237792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                141
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 1º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Territorio Federal Amazonas, antes Río Negro, en que se refundió el antiguo Territorio Alto Orinoco, lo forma la región comprendida dentro de los siguientes linderos: al Norte, el Estado Bolívar, al Este, el Estado Bolívar y los Estados Unidos del Brasil; al Sur, los Estados Unidos de Brasil, y al Oeste, la República de Colombia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 400.12213134765625,
+                "r": 525.4603271484375,
+                "b": 336.06292724609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                334
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 2º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Capital del Territorio Federal Amazonas es la población de Puerto Ayacucho, pero el Ejecutivo Nacional podrá trasladarla a otra población del territorio cuando las necesidades del Servicio Público así lo requieran.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.62461853027344,
+                "t": 303.5362548828125,
+                "r": 525.4617919921875,
+                "b": 264.8253173828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 3º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Territorio Federal Amazonas se divide para su régimen político en cuatro Departamentos, a saber:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.78069305419922,
+                "t": 234.44773864746094,
+                "r": 525.4567260742188,
+                "b": 209.6205291748047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                99
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Departamento Atabapo, Capital San Fernando de Atabapo.\n2. Departamento Atures, Capital Puerto Ayacucho.\n3. Departamento Casiquiare, Capital Maroa.\n4. Departamento Río Negro, Capital San Carlos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 206.9503936767578,
+                "r": 437.13714599609375,
+                "b": 195.8328399658203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 193.1446990966797,
+                "r": 377.6675109863281,
+                "b": 181.89508056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 179.3570098876953,
+                "r": 342.9642333984375,
+                "b": 168.2394561767578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 165.5513153076172,
+                "r": 365.63873291015625,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 4º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Caracas, 18 de junio de 1984 Nº 3404 Ext",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 137.99427795410156,
+                "t": 689.8974609375,
+                "r": 478.0214538574219,
+                "b": 678.6478271484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                40
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Gaceta Oficial de la República de Venezuela"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Territorio Federal Delta Amacuro lo forma la región comprendida dentro de los siguientes linderos: por el Norte, el Golfo de Paria y el Océano Atlántico; por el Este, el Océano Atlántico y la República Cooperativa de Guyana; por el Oeste, el Estado Monagas, del que lo separa el Caño Mánamo y el Brazo del Orinoco hasta el pie de la Sierra Imataca entre San Miguel y Aramaya; y por el Sur, el Estado Bolívar.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 662.3041381835938,
+                "r": 525.7387084960938,
+                "b": 584.4392700195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                411
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 5º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Capital del Territorio Federal Delta Amacuro es la población de Tucupita, pero el Ejecutivo Nacional podrá trasladarla a otra cuando lo estime necesario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 551.9126586914062,
+                "r": 525.4866943359375,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                156
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 6º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Territorio Delta Amacuro, queda dividido en tres Departamentos a saber:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.80470275878906,
+                "t": 496.5638732910156,
+                "r": 493.9924621582031,
+                "b": 485.59039306640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                74
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "1. Departamento Tucupita, Capital Tucupita.\n2. Departamento Pedernales, Capital Pedernales.\n3. Departamento Antonio Díaz, Capital Curiapo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/26",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 482.92022705078125,
+                "r": 343.641357421875,
+                "b": 471.80267333984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/27",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 469.11456298828125,
+                "r": 372.9983825683594,
+                "b": 457.99700927734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/28",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 455.326904296875,
+                "r": 362.3106689453125,
+                "b": 444.2093505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La Jurisdicción Territorial que anteriormente correspondía al Departamento Amacuro, queda comprendida en la del Departamento Antonio Díaz.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/29",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 427.6194763183594,
+                "r": 525.4302978515625,
+                "b": 402.81024169921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                138
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 7º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cada Departamento deberá tener una base de población civilizada no menos de un mil habitantes. Cuando resultare que según el último censo aprobado un Departamento tenga una población inferior a la base requerida por esta Ley, perderá dicha categoría y su jurisdicción será atribuida a la de un Departamento limítrofe del respectivo territorio, por este Decreto del Presidente de la República.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.45653533935547,
+                "t": 331.129638671875,
+                "r": 525.49658203125,
+                "b": 264.8253173828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                392
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 8º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "De acuerdo con la atribución 20 del artículo 198 de la Constitución Nacional, la administración de los Territorios corresponde al Presidente de la República, quien la ejercerá con sujeción a la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 90.27525329589844,
+                "t": 151.74560546875,
+                "r": 525.462646484375,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                207
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 9º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Cada Territorio tendrá para su administración, un Gobernador de libre nombramiento y remoción del Presidente de la República, y un Concejo Municipal, que se elegirá de conformidad con la Ley. Cada una de los Departamentos tendrá un Prefecto y una Junta Comunal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/39",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.45653533935547,
+                "t": 703.6851806640625,
+                "r": 525.508544921875,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                261
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 10°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Todos los Funcionarios de los Territorios deberán reunir condiciones exigidas en el artículo 82 de la Constitución Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 620.80908203125,
+                "r": 525.4581909179688,
+                "b": 598.2269897460938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                124
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 11°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Gobernador será el órgano inmediato del Presidente de la República en el Territorio, y en todo lo relativo al régimen civil y político la primera autoridad Ejecutiva.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/45",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 482.92022705078125,
+                "r": 525.489501953125,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                169
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 12°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Gobernador tendrá para su despacho un Secretario de su libre elección y remoción, quien refrendará sus actos oficiales y cuidará del archivo, que recibirá por inventario y del cual enviará copias al Ministerio de Relaciones Interiores; además tendrá los otros empleados que sean necesarios.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/47",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 413.92779541015625,
+                "r": 525.4522705078125,
+                "b": 361.41119384765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                293
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 13°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Gobernador no podrá separarse de su destino sin previo aviso del Presidente de la República; y sus faltas temporales serán suplidas por el Secretario.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/49",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 331.129638671875,
+                "r": 525.4822998046875,
+                "b": 306.0923767089844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                153
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Este mismo funcionario suplirá las faltas absolutas del Gobernador mientras el Presidente de la República llene la vacante y el nombrado se encargue de sus funciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/50",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 289.73052978515625,
+                "r": 525.484619140625,
+                "b": 253.26473999023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                166
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 14°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son atribuciones y deberes del Gobernador:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 220.7380828857422,
+                "r": 328.6326599121094,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1) Velar por la integridad del Territorio.\n- 2) Cumplir y hacer cumplir en su jurisdicción la Constitución y Leyes de la República, los Decretos, Reglamentos y Resoluciones del Presidente de la República y del Ejecutivo Nacional y las Ordenanzas Especiales del Territorio.\n- 3) Velar por el mantenimiento del orden, la moral y la decencia pública, la seguridad social y por la protección de las personas y de las propiedades, con facultad en el cumplimiento de estos deberes para reprimir toda",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 206.9503936767578,
+                "r": 312.9697265625,
+                "b": 195.70077514648438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 193.1446990966797,
+                "r": 525.4723510742188,
+                "b": 142.8731689453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                227
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 137.95791625976562,
+                "r": 525.4805297851562,
+                "b": 99.2469711303711,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                218
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "tentativa o violación de las finalidades citadas, con arresto policial hasta por siete días o multa proporcional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/56",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 118.42210388183594,
+                "t": 717.4908447265625,
+                "r": 525.3787231445312,
+                "b": 692.567626953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En caso de que la detención haya de pasar de 48 horas, la medida se aplicará por Resolución escrita y motivada.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 118.6382064819336,
+                "t": 689.8014526367188,
+                "r": 525.4349365234375,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 4) Proteger a los Indígenas de su jurisdicción y fomentar por cuantos medios estén a su alcance, su cultura y bienestar.\n- 5) Procurar que los Indígenas adquieran hábitos de residencia y de trabajo.\n- 6) Evitar que se explote la ignorancia de los indígenas o se abuse de ella en cualquier forma o que se les envilezca por el juego, el alcohol y otros vicios degradantes.\n- 7) Hacer cumplir en cuanto sea aplicable en favor de los indígenas la Ley del Trabajo y sus Reglamentos,\n- 8) Cuidar de que la persona a quien en la poblaciones o en los campos preste servicios en alguna forma un indígena, asegure a éste su manutención, educación y equitativa remuneración.\n- 9) Comunicar a los jefes de las Misiones establecidas en el Territorio las deficiencias o abusos que notare, y si a pesar de esta intervención no se hiciere la debida corrección, dará aviso al Ejecutivo Nacional con los informes y recaudos pertinentes.\n- 10) Cuidar de que los artículos que se introduzcan expresamente con destino a los indígenas, les sean vendidos a un precio justo y equitativo.\n- 11) Velar por el fomento de los poblados existentes y promover con empeño la función de otros.\n- 12) Ejercer las funciones que las Leyes señalan a los Gobernadores de Estado.\n- 13) Cuidar de que todos los funcionarios públicos del Territorio Federal cumplan a cabalidad con sus deberes y pedir ante quien corresponda, el enjuiciamiento de quienes los infringieren cuando haya lugar a ello.\n- 14) Prestar el debido apoyo a los funcionarios públicos que lo requieran y muy especialmente a los jueces para la ejecución de las providencias y decisiones que dictaren en uso de sus atribuciones legales.\n- 15) Promover y fomentar los intereses del Territorio, especialmente en la Instrucción Primaria y en las Industrias locales.\n- 16) Velar por la conservación de los productos y recursos naturales del Territorio.\n- 17) Prestar su cooperación para la conservación y defensa de los intereses fiscales de la Nación.\n- 18) Remitir sin dilación al Ministerio de Fomento los datos requeridos por la Ley de Estadística y de Censos Nacionales, y muy especialmente los que se refieren a las familias indígenas reducidas en cada poblado, caserío o lugar del Territorio.\n- 19) Recoger y remitir a los respectivos Despachos muestras y datos relativos a productos naturales del territorio, ya conocidos o que se descubran, con las observaciones que correspondan en cada caso.\n- 20) Visitar las distintas Secciones del Territorio por sí o por intermedio de un comisionado, a fin de imponerse de sus necesidades como el cumplimiento",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/58",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 662.3041381835938,
+                "r": 525.521484375,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                120
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/59",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 634.6927490234375,
+                "r": 508.45892333984375,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                75
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/60",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 620.9050903320312,
+                "r": 525.4954833984375,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                169
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/61",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 579.5060424804688,
+                "r": 525.4326171875,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                104
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/62",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 551.9126586914062,
+                "r": 525.4637451171875,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                183
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/63",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 510.51361083984375,
+                "r": 525.4990234375,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                252
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/64",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 455.326904296875,
+                "r": 525.47021484375,
+                "b": 430.2715759277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/65",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 427.71551513671875,
+                "r": 525.4373779296875,
+                "b": 405.05535888671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/66",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 400.12213134765625,
+                "r": 525.44580078125,
+                "b": 377.46197509765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/67",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 372.52874755859375,
+                "r": 525.46142578125,
+                "b": 333.6857604980469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                212
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/68",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 331.129638671875,
+                "r": 525.4798583984375,
+                "b": 292.2866516113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                205
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/69",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 289.73052978515625,
+                "r": 525.4954223632812,
+                "b": 264.6932678222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                123
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/70",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 262.1371765136719,
+                "r": 525.473876953125,
+                "b": 239.47705078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/71",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 234.54379272460938,
+                "r": 525.43017578125,
+                "b": 211.8656463623047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/72",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 206.9503936767578,
+                "r": 525.524169921875,
+                "b": 156.6788787841797,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                244
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/73",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 151.74560546875,
+                "r": 525.5430908203125,
+                "b": 113.03466033935547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/74",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 110.36453247070312,
+                "r": 525.4927368164062,
+                "b": 85.44127655029297,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "de las leyes y del proceder y conducta de los empleados oyendo las quejas que se le dirijan contra estos para resolverlas si estuvieren dentro de sus facultades o para transmitirlas a quienes competa su decisión caso de que no estuvieren dentro de sus atribuciones. Del resultado de estas visitas dará cuenta al Ejecutivo Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/75",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 118.31404876708984,
+                "t": 717.3468017578125,
+                "r": 525.5081787109375,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                331
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 21) Velar por la buena administración de las propiedades nacionales existentes en el territorio, con sujeción a las Leyes vigentes sobre la materia.\n- 22) Presentar anualmente al Presidente de la República una exposición detallada de todas sus actuaciones y la cuenta de la Administración a su cargo, las cuales serán sometidas a la consideración del Congreso Nacional, por órgano del Ministerio de Relaciones Interiores, en la oportunidad que señala el artículo 207 de la Constitución Nacional.\n- 23) Cooperar con los funcionarios nacionales de instrucción pública en la vigilancia y buena marcha de los planteles de Educación transmitiendo al Ejecutivo Nacional todos los informes del caso.\n- 24) Velar especialmente por el exacto cumplimiento de las Leyes y Reglamentos de Sanidad, debiendo remitir al respectivo Ministerio, los datos, informes o denuncias que lleguen al Despacho, acerca de la existencia de epidemias, enfermedades contagiosas, focos de infección o algún otro hecho que pueda afectar la salubridad pública.\n- 25) Velar por el orden en los espectáculos públicos, por el cumplimiento de los Reglamentos que los rigen y dar o negar permiso para los espectáculos públicos y ordenar la cláusula de éstos, cuando haya motivo suficiente para ello.\n- 26) Llevar el libro de Registros de Títulos Profesionales conforme a los respectivos reglamentos.\n- 27) Presentar al Concejo Municipal cuando este organismo lo solicite, proyectos de Ordenanzas y Resoluciones para su estudio y discusión por este Cuerpo.\n- 28) Elaborar el Presupuesto anual del Territorio, según la cuota del Situado Constitucional que le corresponda administrar directamente; y remitir el proyecto al Ejecutivo Nacional en tiempo oportuno para que el Ministerio de Hacienda lo presente a la consideración de las Cámaras Legislativas como sección especial del presupuesto correspondiente al departamento de Relaciones Interiores.\n- 29) Concurrir personalmente o por medio del Secretario de Gobierno a las sesiones del Concejo de Municipal cuando sea llamado por este Cuerpo o cuando lo considere oportuno, para tratar acerca de materias que requieran la coordinación administrativa entre el Concejo Municipal y el Gobierno del Territorio.\n10. En estos casos tendrá derecho de palabra durante el curso de las deliberaciones; pero deberá retirarse, necesariamente, al procederse a cualquier acto de votación.\n- 30) Solicitar de la autoridad judicial competente la nulidad de las Ordenanzas, Resoluciones o Acuerdos del Concejo Municipal, cuando aparezcan contradictorias con la Constitución Nacional o las Leyes de la República.\n- 31) Dictar las normas pertinentes para la ejecución de las ordenanzas, resoluciones y acuerdos del Concejo Municipal, sin alterar su espíritu, propósito o razón.\n- 32) Celebrar con el Concejo Municipal los contratos de servicios públicos previstos en la letra d) del artículo 111 de la Constitución Nacional.\n- 33) Las demás que le confieran las leyes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/76",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 648.4984130859375,
+                "r": 525.4566650390625,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                148
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/77",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 620.9050903320312,
+                "r": 525.4869995117188,
+                "b": 554.5828247070312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                344
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/78",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 551.9126586914062,
+                "r": 525.4833984375,
+                "b": 513.0696411132812,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                194
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/79",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 510.51361083984375,
+                "r": 525.4918212890625,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                332
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/80",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 441.52117919921875,
+                "r": 525.5013427734375,
+                "b": 391.24969482421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/81",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 386.33441162109375,
+                "r": 525.458984375,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/82",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 358.7230224609375,
+                "r": 525.5217895507812,
+                "b": 320.0120849609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                153
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/83",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 317.34197998046875,
+                "r": 525.46142578125,
+                "b": 239.47705078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                389
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/84",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 234.54379272460938,
+                "r": 525.479736328125,
+                "b": 170.4845733642578,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                306
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/85",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.80470275878906,
+                "t": 165.45526123046875,
+                "r": 525.4698486328125,
+                "b": 126.8403549194336,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                163
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/86",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 124.16422271728516,
+                "r": 525.442138671875,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/87",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 717.4908447265625,
+                "r": 525.478515625,
+                "b": 678.7799072265625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                161
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/88",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 676.091796875,
+                "r": 525.45556640625,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                144
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/89",
+          "parent": {
+            "cref": "#/groups/5"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 648.4984130859375,
+                "r": 322.3188171386719,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                41
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 15°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Prefectos de Departamento serán nombrados y removidos libremente por el Gobernador del Territorio. Cada Prefecto tendrá para su Despacho, un Secretario de su libre nombramiento y remoción.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/92",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 565.7003784179688,
+                "r": 525.4762573242188,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                192
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 16°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son atribuciones y deberes de los Prefectos de Departamento:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/94",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 496.70794677734375,
+                "r": 427.3858642578125,
+                "b": 485.4583435058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1) Cumplir y hacer cumplir en su jurisdicción respectiva la Constitución y Leyes de la República, los Derechos y Resoluciones del Presidente de la República y del Ejecutivo Nacional, las ordenanzas del Territorio, las resoluciones y acuerdos del Concejo Municipal, y las disposiciones que en uso de sus atribuciones legales les trasmita el Gobernador.\n- 2) Velar por el mantenimiento del orden, la moral y la decencia pública, la seguridad social y la protección de las personas y las propiedades, con facultad en el cumplimiento de estos deberes para reprimir toda tentativa o violación de las finalidades citadas con arresto policial hasta por tres días o multas proporcional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/95",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 482.92022705078125,
+                "r": 525.4979248046875,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                351
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/96",
+          "parent": {
+            "cref": "#/groups/6"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 413.92779541015625,
+                "r": 525.5013427734375,
+                "b": 347.60546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                324
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En caso de que la detención haya de pasar de cuarenta y ocho horas, la medida se aplicará por resolución escrita y motivada.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/97",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 118.9983901977539,
+                "t": 344.8393249511719,
+                "r": 525.4666137695312,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                124
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 3) Cumplir respecto a los indígenas los mismos deberes que esta Ley señala al Gobernador.\n- 4) Llevar con el debido orden y regularidad los registros civiles y los de Estadísticas.\n- 5) Iniciar averiguación sumaria de los hechos que requieran procedimiento de oficio.\n- 6) Nombrar los Comisarios que crea indispensables para el buen orden policial de las localidades de su jurisdicción.\n- 7) Ejercer las demás atribuciones que señalen las leyes a los Prefectos de Distrito y de Municipio.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/98",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 317.34197998046875,
+                "r": 525.4518432617188,
+                "b": 294.663818359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                89
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/99",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 289.73052978515625,
+                "r": 525.4818725585938,
+                "b": 267.0704345703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                88
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/100",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 262.1371765136719,
+                "r": 525.47265625,
+                "b": 239.47705078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                84
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/101",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 234.54379272460938,
+                "r": 525.47021484375,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                116
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/102",
+          "parent": {
+            "cref": "#/groups/7"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 206.9503936767578,
+                "r": 525.521484375,
+                "b": 181.89508056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                99
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 17°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Comisarios de Caseríos velarán por la conservación del orden público, cumplirán las disposiciones de policía vigentes y las ordenes que les",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/105",
+          "parent": {
+            "cref": "#/groups/8"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 110.36453247070312,
+                "r": 525.4627685546875,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                143
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "comuniquen sus respectivos superiores, y tendrán además los siguientes deberes:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/106",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 717.3948364257812,
+                "r": 525.4942016601562,
+                "b": 694.812744140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1) Ejercer la autoridad superior del caserío.\n- 2) Tomar nota de los nacimientos y defunciones para dar cumplimiento a las disposiciones legales pertinentes.\n- 3) Dar cuenta al inmediato superior de los huérfanos que se encuentren en su jurisdicción o comisaría con expresión del nombre de quienes fueron sus padres y de las personas en cuyas casas se encuentren.\n- 4) Informar sobre las personas forasteras que lleguen a establecerse en la Comisaría con la especificación de si son nacionales o extranjeras.\n- 5) Poner en conocimiento de su inmediato superior y a la brevedad posible, de las enfermedades contagiosas como también las epidemias que se presentaren en su jurisdicción.\n- 6) Dictar las medidas necesarias para evitar riñas, y desavenencias entre los ciudadanos y vecinos de la Comisaría, aprehendiendo a los infractores o delincuentes o a cualquiera que haya cometido un hecho punible, exigiendo la cooperación de los ciudadanos hasta poner a aquellos a disposición de la autoridad competente.\n- 7) Prestar el apoyo de su autoridad a los Tribunales de justicia cuando éstos lo requieran.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/107",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 689.8974609375,
+                "r": 337.61553955078125,
+                "b": 678.6478271484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/108",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 676.091796875,
+                "r": 525.4337768554688,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                109
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/109",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 648.4984130859375,
+                "r": 525.4605712890625,
+                "b": 609.6554565429688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                203
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/110",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 607.0994262695312,
+                "r": 525.4459228515625,
+                "b": 582.0620727539062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/111",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 579.5060424804688,
+                "r": 525.4965209960938,
+                "b": 540.6630249023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                172
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/112",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 538.1069946289062,
+                "r": 525.5301513671875,
+                "b": 471.80267333984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                321
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/113",
+          "parent": {
+            "cref": "#/groups/10"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 469.11456298828125,
+                "r": 525.505859375,
+                "b": 444.2093505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                91
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 18º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La gestión administrativa y económica de todo cuanto concierne a la competencia municipal, estará a cargo de un Concejo, cuyo número de integrantes será determinado por la aplicación del artículo 31 de la Ley Orgánica de Régimen Municipal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/117",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.26324462890625,
+                "t": 344.8393249511719,
+                "r": 525.4638671875,
+                "b": 292.2866516113281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                239
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dicho Concejo Municipal tendrá como sede a la capital del Territorio Federal y se elegirá de conformidad con lo establecido en la Ley Orgánica del Sufragio.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/118",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.29926300048828,
+                "t": 275.94287109375,
+                "r": 525.4639282226562,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                156
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 19°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son de la competencia del Municipio los servicios enumerados en el artículo 112 de la Constitución Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/120",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.26324462890625,
+                "t": 220.7380828857422,
+                "r": 525.4566650390625,
+                "b": 198.0779571533203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                108
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 20°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Concejales durarán en sus funciones por un período de tres años contados a partir del 1º de junio de 1950.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/122",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.2872543334961,
+                "t": 165.5513153076172,
+                "r": 525.449462890625,
+                "b": 140.49598693847656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                110
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 21°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El cargo de Concejal es obligatorio pero puede renunciarse por impedimento legítimo comprobado, a juicio del Concejo Municipal. Este último fijará",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/124",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 90.62342834472656,
+                "t": 110.36453247070312,
+                "r": 525.4290771484375,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "anualmente el sueldo del Presidente y la remuneración que deba darse a los concejales por cada asistencia a las sesiones del Cuerpo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/125",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 717.3948364257812,
+                "r": 525.47265625,
+                "b": 692.435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                132
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 22°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Concejo se instalará el 1º de junio del año en que comience su período, con la mayoría de sus miembros cuando menos, y deberá celebrar sesiones ordinarias de acuerdo con lo estipulado en su propio reglamento. Podrá también celebrar sesiones extraordinarias cuando lo convoque el Presidente o cuando asó lo acordare la mayoría de sus miembros. El quórum para las sesiones será de la mitad más uno de los miembros asistentes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/127",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.2284164428711,
+                "t": 662.3041381835938,
+                "r": 525.560302734375,
+                "b": 584.4392700195312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                426
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 23°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las faltas de los principales serán llenadas por sus respectivos suplentes en la forma establecida por las Leyes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/129",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 551.9126586914062,
+                "r": 525.4630126953125,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Concejales continuarán en el ejercicio de sus cargos aún después de vencidos sus respectivos períodos hasta que se instale el Concejo con los nuevamente elegidos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/131",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 496.70794677734375,
+                "r": 525.500244140625,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                166
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 24°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Concejo Municipal será representado por su Presidente o el que haga sus veces. Tendrá un Secretario de su libre nombramiento y remoción , escogido de fuera de su seno a quien corresponderá refrendar todos los actos de aquél y ejercer todas las atribuciones y facultades que le asignen esta Ley, las Ordenanzas, Resoluciones y Reglamento del Cuerpo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/133",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 427.71551513671875,
+                "r": 525.5026245117188,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                351
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 25°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Entre las rentas municipales se considera incluida la cantidad correspondiente a la cuota del Situado Constitucional asignada al Distrito Municipal que constituye cada Territorio, según la distribución que cada año se fije en la Ley de Presupuesto General de Rentas y Gastos Públicos de la Nación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/135",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 330.9855651855469,
+                "r": 525.4822998046875,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                297
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Todas las Rentas del Municipio deben ser recaudadas por la Administración Municipal a través del funcionamiento que designe el organismo competente, quien tendrá la representación del Municipio para tal efecto, sin perjuicio de las atribuciones del Síndico Procurador.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/136",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 262.0411376953125,
+                "r": 525.4627685546875,
+                "b": 211.8656463623047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                268
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 26°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La representación del Municipio corresponde al Concejo Municipal y será ejercida por su Presidente, salvo las atribuciones del Síndico Procurador.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/138",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 179.3570098876953,
+                "r": 525.4906005859375,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                146
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 27°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son atribuciones del Concejo Municipal:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/140",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 124.1522216796875,
+                "r": 306.59808349609375,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                39
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1) Nombrar de su seno un Presidente y un Vicepresidente.\n- 2) Dictar ordenanzas, acuerdos y resoluciones que reglamenten la autonomía municipal, en todas las ramas que se expresen en el artículo 18 de esta Ley.\n- 3) Dictar su Reglamento Interior y de Debates.\n- 4) Sostener escuelas primarias, dotarlas y dictar medidas que aseguren su eficaz funcionamiento; se concederá preferente atención a las escuelas rurales, especialmente a las que se establezcan en los centro indígenas.\n- 5) Crear centros de asistencia social, dotarlos y reglamentarlos de acuerdo con las leyes nacionales.\n- 6) Dar o negar su aprobación a los contratos que celebre su Presidente y modificarlos.\n- 7) Elegir los funcionarios que le correspondan de acuerdo con esta Ley; nombrar y remover los empleados de la Administración Municipal.\n- 8) Fijar las fianzas que deben prestar el Tesorero Municipal y los recaudadores de los Departamentos.\n- 9) Admitir y resolver sin dilación las solicitudes que se le dirijan sobre el cumplimiento de sus atribuciones, en cuanto se relacione con el interés público o privado.\n- 10) Dictar anualmente las Ordenanzas de Presupuesto General de Rentas y Gastos Públicos Municipales.\n- 11) Calificar a sus miembros y resolver sobre sus renuncias.\n- 12) Conceder licencia a sus Miembros hasta por treinta días, pero estas licencias no podrán exceder de quince días sin llenar la falta por el Suplente respectivo. Y en caso de que un miembro de la Mesa Directiva tuviere que separarse de su cargo por más de un mes, el Cuerpo procederá a llenar la vacante del Cargo definitivamente.\n- 13) Elegir de su seno o fuera de él, en la oportunidad de la elecció n de la Mesa Directiva, el Síndico Procurador Municipal y su respectivo Suplente. En caso de falta absoluta del Síndico Procurador Municipal o del Suplente, el Concejo procederá a nombrarlos inmediatamente por lo que falte del período.\n- 14) Indicar al Gobernador del Territorio con justificación correspondiente, los empleados de la dependencia de éste cuya remoción o enjuiciamiento proceda de acuerdo con las Leyes.\n- 15) Conceder jubilaciones y pensiones, de acuerdo con las Ordenanzas respectivas.\n- 16) Acordar la construcción y disponer la ejecución de obras públicas municipales.\n- 17) Ordenar erogaciones que excedan de la suma total fijada por el Presupuesto Municipal o no previstas en él. El acuerdo que ordene estas erogaciones extraordinarias deberá sufrir tres discusiones.\n- 18) Crear depósitos de previsión municipal; ferias, mercados libres, casas de abastos, y en los casos en que lo crea necesario, tomar las providencias que fueren pertinentes para impedir que el abuso o acaparamiento acarreen el alza injustificada del precio de los artículos de primera necesidad.\n- 19) Ordenar la constitución de apoderados por intermedio del Presidente del Concejo Municipal, cuando por imposibilidad justificada del Síndico Procurador Municipal éste no pueda asumir en uno o más asuntos la representación establecida en la atribución 2ª del artículo 36 de esta Ley.\n- 20) Ejercer y cumplir las demás atribuciones y deberes que le señale la presente Ley o cualquier otra.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/141",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 110.36453247070312,
+                "r": 419.7212219238281,
+                "b": 99.11490631103516,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/142",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 717.4908447265625,
+                "r": 525.5013427734375,
+                "b": 678.6478271484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                151
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/143",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 676.091796875,
+                "r": 354.9030456542969,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/144",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 662.3041381835938,
+                "r": 525.509765625,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/145",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 620.9050903320312,
+                "r": 525.4385986328125,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                101
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/146",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.31246185302734,
+                "t": 593.3117065429688,
+                "r": 525.433837890625,
+                "b": 570.6336059570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/147",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.42051696777344,
+                "t": 565.7003784179688,
+                "r": 525.5130615234375,
+                "b": 540.6630249023438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                135
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/148",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.34848022460938,
+                "t": 538.1069946289062,
+                "r": 525.4833984375,
+                "b": 513.2017211914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                101
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/149",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 510.51361083984375,
+                "r": 525.4894409179688,
+                "b": 471.80267333984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                168
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/150",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 469.1265869140625,
+                "r": 525.438720703125,
+                "b": 444.2093505859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/151",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 441.52117919921875,
+                "r": 422.31817626953125,
+                "b": 430.2715759277344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/152",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 427.71551513671875,
+                "r": 525.5098266601562,
+                "b": 361.2791442871094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                331
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/153",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 358.7230224609375,
+                "r": 525.510986328125,
+                "b": 292.418701171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                304
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/154",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 289.73052978515625,
+                "r": 525.4738159179688,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                180
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/155",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 248.3614959716797,
+                "r": 525.4686279296875,
+                "b": 223.42623901367188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                81
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/156",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 220.7380828857422,
+                "r": 525.471435546875,
+                "b": 195.8328399658203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                82
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/157",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 193.15670776367188,
+                "r": 525.4893188476562,
+                "b": 154.30169677734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                198
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/158",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 151.74560546875,
+                "r": 525.5286254882812,
+                "b": 87.6864013671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                296
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/159",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 717.5028686523438,
+                "r": 525.4830322265625,
+                "b": 664.8421630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                285
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/160",
+          "parent": {
+            "cref": "#/groups/11"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 662.3041381835938,
+                "r": 525.460693359375,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 28°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los miembros del Concejo Municipal deben ser tratados con el respeto y consideración propios de su dignidad y a ello están obligados las demás autoridades.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/162",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 607.0994262695312,
+                "r": 525.4738159179688,
+                "b": 570.6336059570312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 29°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son atribuciones y deberes del Presidente del Concejo Municipal:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/165",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 496.70794677734375,
+                "r": 442.6643371582031,
+                "b": 485.4583435058594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                64
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1) Prestar ante el Concejo el juramento de Ley al tomar posesión de su cargo; y tomarlo a los demás Concejales.\n- 2) Mandar a ejecutar las Ordenanzas, Acuerdos y Resoluciones del Concejo Municipal.\n- 3) Celebrar contratos de interés para el Municipio sometiéndolos a la aprobación del Concejo Municipal, sin cuyo requisito no se considerarán válidas ni podrán ponerse en ejecución.\n- 4) Practicar mensualmente por sí o por medio de un comisionado, en unión de dos delegados del Concejo Municipal elegidos por dicho Cuerpo, tanteo de caja en la Tesorería Municipal, pasando copia de lo actuado al Concejo.\n- 5) Cumplir y ejercer los demás deberes y atribuciones que establezcan las leyes y las ordenanzas, resoluciones y acuerdos del Concejo Municipal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/166",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 482.92022705078125,
+                "r": 525.455810546875,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/167",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 455.33892822265625,
+                "r": 525.4591064453125,
+                "b": 430.40362548828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                83
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/168",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 427.71551513671875,
+                "r": 525.4578247070312,
+                "b": 388.8725280761719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                181
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/169",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 386.33441162109375,
+                "r": 525.4314575195312,
+                "b": 347.4734191894531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                220
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/170",
+          "parent": {
+            "cref": "#/groups/12"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 344.93536376953125,
+                "r": 525.4630126953125,
+                "b": 319.8800354003906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                144
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 30°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente del Concejo Municipal podrá ordenar arresto hasta por cinco días o imponer multa proporcional a quienes desobedezcan las ordenes que dicte en ejercicio legítimo de su autoridad.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/172",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 289.73052978515625,
+                "r": 525.4486083984375,
+                "b": 250.88755798339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                191
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En el caso de que su detención deba pasar de 48 horas, la medida se aplicará por resolución motivada y escrita.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/173",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 234.44773864746094,
+                "r": 525.46142578125,
+                "b": 209.48846435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 31°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Vicepresidente suplirá las faltas del Presidente, pero si en una sesión faltare el Presidente y tampoco estuviere el Vicepresidente, los miembros asistentes, si hubiere quórum, podrán elegir por mayoría de votos dentro de ellos mismos, el Concejal que deba presidir aquella sesión, todo lo cual se hará constar en el acta respectiva.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/175",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 179.3570098876953,
+                "r": 525.4990234375,
+                "b": 113.03466033935547,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                336
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 32°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "En cada uno de los Departamentos del Territorio habrá una Junta Departamental con residencia en la capital, compuesta por tres miembros principales y sus correspondientes suplentes, elegidos por el Concejo Municipal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/177",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 662.2081298828125,
+                "r": 525.49658203125,
+                "b": 623.443115234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                216
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 33°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La elección a que se contrae el presente artículo garantizará la representación proporcional de las diversas corrientes políticas representadas en el seno del respectivo Concejo Municipal, y a este efecto cada fracción presentará su respectiva lista de candidatos principales y suplentes, cuya proporción será equivalente a la misma que prive en el Concejo Municipal.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/179",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.30045318603516,
+                "t": 593.2156982421875,
+                "r": 525.5074462890625,
+                "b": 526.8573608398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                367
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Parágrafo Único"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dicha junta deberá celebrar sesiones ordinarias dos veces al mes, por lo menos, y extraordinarias cuando fuese necesario; y elegirá y removerá libremente un Secretario, de fuera de su seno.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/181",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.04832458496094,
+                "t": 496.6119079589844,
+                "r": 525.4869384765625,
+                "b": 458.6813659667969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                189
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 34°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Son deberes y atribuciones de las Juntas Departamentales:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/183",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.39649963378906,
+                "t": 427.71551513671875,
+                "r": 410.726318359375,
+                "b": 416.4659118652344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1) Dictar su Reglamento Interior.\n- 2) Velar dentro de su jurisdicción por el buen funcionamiento de los servicios Municipales y por su perfeccionamiento y mejora a cuyo efecto podrá dirigirse al Concejo Municipal, denunciando las faltas que observe y sometiéndole sus proyectos de reformas y mejoras.\n- 3) Oír las quejas y reclamos de los ciudadanos en todo cuanto atañe a los servicios municipales, para trasmitirlos a quienes corresponda, si los encontrare fundados.\n- 4) Visitar los Hospitales, Planteles de Educación, Casas de Beneficencia, Mercados y demás dependencias Municipales del Departamento para inspeccionar su funcionamiento y estado sanitario.\n- 5) Elaborar los informes y consultas que les pida el Concejo Municipal, sobre asuntos de interés para el Departamento.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/184",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 413.92779541015625,
+                "r": 280.9088439941406,
+                "b": 402.6781921386719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/185",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 400.12213134765625,
+                "r": 525.5013427734375,
+                "b": 347.4734191894531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                265
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/186",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 344.9473876953125,
+                "r": 525.4530639648438,
+                "b": 308.46954345703125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                165
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/187",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 303.5362548828125,
+                "r": 525.4520874023438,
+                "b": 264.6932678222656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                188
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/188",
+          "parent": {
+            "cref": "#/groups/13"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 262.1371765136719,
+                "r": 525.4326171875,
+                "b": 237.23193359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                118
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 35°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Además de los deberes que especialmente atribuyen el Código Civil y otras Leyes al Síndico Procurador Municipal, este funcionario tendrá las atribuciones y deberes siguientes:",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/191",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 165.5513153076172,
+                "r": 525.4810180664062,
+                "b": 126.70829010009766,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                175
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 1) Promover ante el Concejo Municipal cuanto crea necesario y útil para el Territorio.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/192",
+          "parent": {
+            "cref": "#/groups/14"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 11,
+              "bbox": {
+                "l": 91.16488647460938,
+                "t": 124.1522216796875,
+                "r": 525.453125,
+                "b": 101.49209594726562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 36°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "- 2) Sostener y defender judicial y extrajudicialmente los derechos del Municipio en todos los asuntos y negocios en que tenga interés cuando el Concejo se lo ordenare.\n- 3) Apercibir a los empleados del Territorio, que en el ejercicio de sus funciones incurrieren en faltas perjudiciales al público o a los intereses del Municipio. En caso de reincidencia del empleado amonestado, lo notificará al superior inmediato.\n- 4) Desempeñar las demás funciones que le encomienden las Ordenanzas, Resoluciones o Acuerdos del Concejo, dictados en uso de sus atribuciones.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/194",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 717.4908447265625,
+                "r": 525.4710083007812,
+                "b": 681.0250244140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                166
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/195",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.36048126220703,
+                "t": 676.091796875,
+                "r": 525.4462890625,
+                "b": 623.5751953125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                247
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/196",
+          "parent": {
+            "cref": "#/groups/16"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.0123062133789,
+                "t": 620.9171142578125,
+                "r": 525.43505859375,
+                "b": 595.8497924804688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                142
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Capítulo III De las Juntas Departamentales"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Todo ciudadano a cuyo conocimiento llegue la noticia de alguna infracción que pueda o deba ser denunciada por el Síndico, lo comunicará a éste verbalmente o por escrito, a fin de que dicho funcionario proceda en consecuencia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/198",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 565.7003784179688,
+                "r": 525.454345703125,
+                "b": 526.9894409179688,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                225
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 37°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Todas las autoridades del Territorio prestarán al Síndico el apoyo y cooperación que él solicite para el ejercicio de sus atribuciones y deberes.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/200",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.13236999511719,
+                "t": 496.70794677734375,
+                "r": 525.473876953125,
+                "b": 471.6706237792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                145
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 38°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los empleados nacionales o municipales de los Territorios que tengan a su cargo el manejo de fondos públicos deberán hacer ante un Juez competente la declaración jurada de sus bienes en los términos y en las oportunidades pautadas por la Ley respectiva.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/203",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 399.9780578613281,
+                "r": 525.487060546875,
+                "b": 347.4734191894531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                253
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 39º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Ningún funcionario político o administrativo de los Territorios podrá recibir derechos o emolumentos distintos de su sueldo por razón de las funciones inherentes al desempeño de su cargo.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/205",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 317.34197998046875,
+                "r": 525.4638671875,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                187
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 40º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La fiscalización y control de todos los ingresos y egresos de los Territorios, así como de los que corresponden a la administración de los Municipios, se ejercerá por la Contraloría General de la Nación de acuerdo con lo previsto en el artículo 247 de la Constitución Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/207",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 90.20440673828125,
+                "t": 248.3494873046875,
+                "r": 525.4690551757812,
+                "b": 198.0779571533203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                277
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "A este efecto, el Contralor General de la Nación, designará delegados permanentes en los Territorios sin perjuicio de practicar personalmente o por órgano de los funcionarios de su dependencia que designe, las diligencias que estime conveniente para el mejor cumplimiento de las funciones que se le atribuyen en el presente artículo .",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/208",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 12,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 179.3570098876953,
+                "r": 525.4918212890625,
+                "b": 112.90259552001953,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                334
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Contralor dará cuenta pormenorizada de esta gestión en su informe Anual al Congreso Nacional.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/209",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.45653533935547,
+                "t": 717.4908447265625,
+                "r": 525.4505615234375,
+                "b": 692.435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                96
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 41º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "La administración de justicia y el Ministerio Público en los territorios estarán a cargo de los funcionarios que establezca la Ley de la materia.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/211",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 662.2081298828125,
+                "r": 525.56591796875,
+                "b": 637.248779296875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                145
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 42°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente de la República nombrará, cada vez que lo crea conveniente, un agente que visite el Territorio e informe circunstanciadamente acerca de todo lo relativo a su marcha administrativa y a su progreso moral y material.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/213",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.28844451904297,
+                "t": 607.00341796875,
+                "r": 525.489501953125,
+                "b": 568.2564086914062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                227
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 43°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente de la República, por órgano del Ministro de Relaciones Interiores, proveerá a las necesidades de los Territorios en todo lo que no esté previsto en la presente Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/215",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.62461853027344,
+                "t": 538.010986328125,
+                "r": 525.47265625,
+                "b": 499.2640075683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                178
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 44°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El año económico de los Municipios de los Territorios comenzará el 1º de julio de cada año y terminará el 30 de junio del siguiente.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/217",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.324462890625,
+                "t": 469.11456298828125,
+                "r": 525.4913940429688,
+                "b": 444.0773010253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                132
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 45°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Las autoridades de los Territorios deberán dar entera fe de los actos públicos de las autoridades nacionales, de los Estados, de las Municipalidades y del Distrito Federal y harán que se cumplan y ejecuten.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/219",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.62461853027344,
+                "t": 413.92779541015625,
+                "r": 525.4366455078125,
+                "b": 375.0848083496094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                206
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 46°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El mandato de los Concejales actualmente en ejercicio en los Territorios, terminará el primero de junio de 1950.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/222",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.07234191894531,
+                "t": 303.5362548828125,
+                "r": 525.4508056640625,
+                "b": 278.4809265136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                112
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 47°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dentro de los quince días siguientes a la promulgación de la presente Ley, el Concejo Municipal de cada territorio procederá a designar al Síndico Procurador Municipal y su Suplente quienes durarán en sus funciones hasta la oportunidad en que deba elegirse la Mesa Directiva de cada Concejo, de conformidad con lo dispuesto en esta Ley.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/224",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 248.25343322753906,
+                "r": 525.4581909179688,
+                "b": 181.89508056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                336
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 48°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Al entrar en vigencia la Ley de Presupuesto General de Rentas y Gastos Públicos para el año económico 1948-1949, los Gobernadores de los Territorios presentarán al Presidente de la República para su aprobación, y por esta vez, sendos proyectos de Presupuestos que deberán regir en cada Territorio hasta el 30 de junio de 1949.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/226",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 89.85623168945312,
+                "t": 151.74560546875,
+                "r": 525.4866943359375,
+                "b": 85.30921173095703,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                326
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 49°"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Los Concejos Municipales de los Territorios procederán a dictar sus respectivas Ordenanzas de Presupuesto de Ley de Rentas y Gastos Públicos Municipales, a fin de que entren en vigencia el primero de julio de 1948, para el año económico que terminará el 30 de junio de 1949.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/228",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 89.96428680419922,
+                "t": 703.6851806640625,
+                "r": 525.4517822265625,
+                "b": 651.0545043945312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                274
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 50º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Se deroga la Ley Orgánica del Territorio Federal Amazonas de 31 de junio de 1940, y la Ley Orgánica del Territorio Federal Delta Amacuro, de veintitrés de julio de 1940, reformadas con fecha 9 de agosto de 1948.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/231",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 89.31596374511719,
+                "t": 593.32373046875,
+                "r": 525.4822998046875,
+                "b": 554.4507446289062,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                211
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 51º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Dada, firmada y sellada en el Palacio Federal Legislativo, en Caracas, a los once días del mes de abril de mil novecientos ochenta y cuatro.-Año 173º de la Independencia y 125º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/232",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.26443481445312,
+                "t": 538.1069946289062,
+                "r": 525.6039428710938,
+                "b": 499.2640075683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                194
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 51º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "El Presidente (L.S.)",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/233",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.5886001586914,
+                "t": 482.7761535644531,
+                "r": 164.5731658935547,
+                "b": 457.8649597167969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Artículo 51º"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  },
+  {
+    "text": "Palacio de Miraflores, en Caracas, a los cuatro días del mes de mayo de mil novecientos ochenta y cuatro.- Año 174º de la Independencia y 125º de la Federación.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/235",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 90.64862823486328,
+                "t": 413.92779541015625,
+                "r": 525.473876953125,
+                "b": 377.46197509765625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                160
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Reinaldo Leandro Mora"
+      ],
+      "captions": null,
+      "origin": null
+    }
+  }
+]

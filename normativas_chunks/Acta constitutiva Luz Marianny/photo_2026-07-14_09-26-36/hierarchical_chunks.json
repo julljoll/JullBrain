@@ -1,0 +1,1125 @@
+[
+  {
+    "text": "preferente de suscribir nuevas acciones en los casos de aumento de capital, o venta de las mismas. CLÁusuLA 6º. - Las acciones de la Compañía estarán representadas en títulos que contendrán las menciones exigidas por el Código de Comercio y llevarán la firma de uno de los Administradores. CLÁusULA_7º. La Compañía solo reconocerá como propietario de las acciones a quienes aparezcan como tales en el Libro de Accíonístas de la Compañía en el cual deberán anotarse todas las cesiones en propiedad o garantia. Las referidas cesiones deberán ser firmadas por uno de los Admínistradores de la Compañía, o por la persona que éste autoríce para ello, conjuntamente con el cedente y el cesionario, tanto en el Libro de Áccionistas como en los respectivos títulos.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 89.36170450846355,
+                "t": 807.741943359375,
+                "r": 852.127685546875,
+                "b": 487.741943359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                757
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": null,
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "Jos6",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 918.5106608072916,
+                "t": 1280.0,
+                "r": 959.3617350260416,
+                "b": 1257.419354756673,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "compañ",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 889.7872721354166,
+                "t": 1198.0645192464192,
+                "r": 959.3617350260416,
+                "b": 1174.8387145996094,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "juicio,",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 889.7872721354166,
+                "t": 1166.4516194661458,
+                "r": 949.7872721354166,
+                "b": 1138.7096862792969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "Compa",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 892.978759765625,
+                "t": 1133.5483907063801,
+                "r": 959.3617350260416,
+                "b": 1107.741943359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "para co",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 895.5319010416666,
+                "t": 1100.0,
+                "r": 959.3617350260416,
+                "b": 1075.48388671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "deberá",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 898.0851236979166,
+                "t": 1069.0322672526042,
+                "r": 959.3617350260416,
+                "b": 1044.516133626302,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "design",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 900.6382649739584,
+                "t": 1036.7742106119792,
+                "r": 959.3617350260416,
+                "b": 1009.6774291992188,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "faculta",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 901.9148763020834,
+                "t": 1003.225809733073,
+                "r": 959.3617350260416,
+                "b": 977.4193725585938,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "confe",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 904.4680989583334,
+                "t": 969.6774291992188,
+                "r": 959.3617350260416,
+                "b": 943.225809733073,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "arbitr",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 906.3829752604166,
+                "t": 935.48388671875,
+                "r": 959.3617350260416,
+                "b": 909.0322672526042,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "sus it",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/12",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 908.2978515625,
+                "t": 900.6451822916667,
+                "r": 959.3617350260416,
+                "b": 874.8387044270833,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "hasta",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 910.85107421875,
+                "t": 865.8064778645833,
+                "r": 959.3617350260416,
+                "b": 840.0,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "form",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 913.404296875,
+                "t": 831.6129150390625,
+                "r": 959.3617350260416,
+                "b": 804.5161539713542,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "la ge",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 915.9574381510416,
+                "t": 795.48388671875,
+                "r": 959.3617350260416,
+                "b": 766.4516194661459,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "dire",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 918.5106608072916,
+                "t": 760.6451822916666,
+                "r": 959.3617350260416,
+                "b": 730.3225911458334,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "ema",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/17",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 921.0638020833334,
+                "t": 722.5806477864584,
+                "r": 959.3617350260416,
+                "b": 694.8387451171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "CL",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/18",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 926.8085123697916,
+                "t": 615.48388671875,
+                "r": 959.3617350260416,
+                "b": 586.45166015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "Ac",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 930.0,
+                "t": 577.4193522135416,
+                "r": 959.3617350260416,
+                "b": 550.3225911458334,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "CO",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 932.55322265625,
+                "t": 536.7742513020834,
+                "r": 959.3617350260416,
+                "b": 512.258056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "18",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 933.1914876302084,
+                "t": 502.58064778645837,
+                "r": 959.3617350260416,
+                "b": 473.54842122395837,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "op",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 934.4680989583334,
+                "t": 461.935546875,
+                "r": 959.3617350260416,
+                "b": 433.54842122395837,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "ge",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 935.7447102864584,
+                "t": 424.51619466145837,
+                "r": 959.3617350260416,
+                "b": 395.48388671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "es",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/24",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 938.9361979166666,
+                "t": 387.741943359375,
+                "r": 959.3617350260416,
+                "b": 360.64518229166663,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "d",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/25",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "meta": null,
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 940.2128092447916,
+                "t": 351.61295572916663,
+                "r": 959.3617350260416,
+                "b": 323.225830078125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "I UUO LA ASAMBLEA"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 18214364834339855523,
+        "filename": "photo_2026-07-14_09-26-36.jpg",
+        "uri": null
+      }
+    }
+  }
+]
