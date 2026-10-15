@@ -1,0 +1,203 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #080b12;">
+  <title>JullBrain — Formato 2: Mapa de Empatía del Fiscal del Ministerio Público (IBM Enterprise Design Thinking)</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#31122b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <linearGradient id="gradQ1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#072738" />
+      <stop offset="100%" stop-color="#04141e" />
+    </linearGradient>
+
+    <linearGradient id="gradQ2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradQ3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#332505" />
+      <stop offset="100%" stop-color="#1a1202" />
+    </linearGradient>
+
+    <linearGradient id="gradQ4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062e1b" />
+      <stop offset="100%" stop-color="#03170d" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- HEADER BANNER -->
+  <rect x="0" y="0" width="1920" height="90" fill="url(#gradHeader)" />
+  <line x1="0" y1="90" x2="1920" y2="90" stroke="#334155" stroke-width="2" />
+
+  <!-- Badge DT Stage -->
+  <rect x="40" y="18" width="220" height="54" rx="8" fill="#a855f7" filter="url(#shadow)" />
+  <text x="52" y="40" fill="#FFFFFF" font-size="12" font-weight="900" letter-spacing="1">TÉCNICA 2: MAPA EMPATÍA</text>
+  <text x="52" y="58" fill="#f0abfc" font-size="12" font-weight="700">FISCAL MINISTERIO PÚBLICO</text>
+
+  <!-- Title -->
+  <text x="280" y="40" fill="#F8FAFC" font-size="20" font-weight="800">PLANTILLA DE MAPA DE EMPATÍA DEL FISCAL DEL MINISTERIO PÚBLICO EN LA FASE PREPARATORIA</text>
+  <text x="280" y="62" fill="#94A3B8" font-size="13" font-weight="500">Mapeo de la experiencia cognitiva, sensorial y jurídica del Fiscal al dirigir la investigación y formular la Acusación Fiscal (Art. 308 COPP)</text>
+
+  <!-- Metadata box -->
+  <g transform="translate(1360, 16)">
+    <rect x="0" y="0" width="520" height="58" rx="8" fill="#1e293b" stroke="#a855f7" stroke-width="1.5" />
+    <text x="16" y="24" fill="#f0abfc" font-size="11" font-weight="800">FISCAL EVALUADO EN SESIÓN:</text>
+    <text x="16" y="44" fill="#CBD5E1" font-size="10">Fiscalía MP N.°: ___________________</text>
+    <text x="360" y="24" fill="#94A3B8" font-size="10">Investigador UX: ________</text>
+    <text x="360" y="44" fill="#94A3B8" font-size="10">Entrevista: Think-Aloud</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- 4 QUADRANTS SPECIFIC TO PUBLIC PROSECUTOR                           -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="122" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">MAPEO PERCEPTIVO: ¿QUÉ SIENTE, VE, OYE, DICE Y HACE EL FISCAL AL INVESTIGAR Y ACUSAR?</text>
+
+  <!-- QUADRANT 1: ¿QUÉ PIENSA Y SIENTE EL FISCAL? -->
+  <g transform="translate(40, 138)">
+    <rect x="0" y="0" width="895" height="315" rx="12" fill="url(#gradQ1)" stroke="#00CFFF" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="36" rx="12" fill="#00CFFF" opacity="0.2" />
+    <text x="20" y="23" fill="#38BDF8" font-size="12" font-weight="800">🧠 1. ¿QUÉ PIENSA Y SIENTE EL FISCAL DEL MINISTERIO PÚBLICO?</text>
+
+    <g transform="translate(20, 50)">
+      <text x="0" y="18" fill="#7DD3FC" font-size="10.5" font-weight="700">Responsabilidad de la Acción Penal Pública y Preocupaciones:</text>
+      <text x="0" y="38" fill="#CBD5E1" font-size="10">• Siente la responsabilidad social de ejercer la vindicta pública y buscar justicia para las víctimas.</text>
+      <text x="0" y="54" fill="#CBD5E1" font-size="10">• Piensa que la acumulación de expedientes policiales le impide profundizar en las experticias científicas.</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="10">• Teme que una acusación sea devuelta o declarada nula en la preliminar por un error de forma o foliatura.</text>
+      <text x="0" y="86" fill="#CBD5E1" font-size="10">• Desea herramientas que agilicen la redacción pero exige anclaje 100% verificado a leyes y doctrina TSJ.</text>
+
+      <rect x="0" y="105" width="855" height="135" rx="8" fill="#0c4a6e" stroke="#00cfff" stroke-dasharray="4,4" opacity="0.9" />
+      <text x="15" y="125" fill="#BAE6FD" font-size="10" font-weight="700">STICKY NOTES DEL INVESTIGADOR UX (CITAS EXPRESADAS POR EL FISCAL):</text>
+      <text x="15" y="145" fill="#64748B" font-size="10" font-style="italic">[ Citas textuales capturadas durante la prueba de prototipo RAG ]</text>
+      <text x="15" y="165" fill="#38bdf8" font-size="10">"Necesito estar seguro de que la balística y la medicina legal concuerdan exactamente antes de firmar la acusación."</text>
+      <text x="15" y="185" fill="#38bdf8" font-size="10">"Si el sistema me sugiere la jurisprudencia idónea de la Sala Penal en 3 segundos, me blinda la acusación."</text>
+    </g>
+  </g>
+
+  <!-- QUADRANT 2: ¿QUÉ VE EL FISCAL? -->
+  <g transform="translate(985, 138)">
+    <rect x="0" y="0" width="895" height="315" rx="12" fill="url(#gradQ2)" stroke="#a855f7" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="36" rx="12" fill="#a855f7" opacity="0.2" />
+    <text x="20" y="23" fill="#F0ABFC" font-size="12" font-weight="800">👁️ 2. ¿QUÉ VE EN LAS ACTAS POLICIALES Y EN SU DESPACHO FISCAL?</text>
+
+    <g transform="translate(20, 50)">
+      <text x="0" y="18" fill="#F0ABFC" font-size="10.5" font-weight="700">Entorno Físico, Remisiones de Policía y Plazos de Investigación:</text>
+      <text x="0" y="38" fill="#CBD5E1" font-size="10">• Ve carpetas remitidas por los cuerpos policiales (CICPC/PNB) con actas de foliado desigual o borroso.</text>
+      <text x="0" y="54" fill="#CBD5E1" font-size="10">• Ve informes técnicos complejos (autopsias, avalúos, inspecciones) intercalados entre cientos de folios.</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="10">• Ve el reloj de lapsos procesales (COPP Art. 295/296) marcando el vencimiento de la fase preparatoria.</text>
+      <text x="0" y="86" fill="#CBD5E1" font-size="10">• Ve a víctimas solicitando información actualizada sobre el estado de la acusación fiscal.</text>
+
+      <rect x="0" y="105" width="855" height="135" rx="8" fill="#581c87" stroke="#a855f7" stroke-dasharray="4,4" opacity="0.9" />
+      <text x="15" y="125" fill="#F0ABFC" font-size="10" font-weight="700">STICKY NOTES DEL INVESTIGADOR UX (OBSERVACIONES EN DESPACHO FISCAL):</text>
+      <text x="15" y="145" fill="#64748B" font-size="10" font-style="italic">[ Registro visual de acciones del Fiscal al analizar el expediente ]</text>
+      <text x="15" y="165" fill="#F0ABFC" font-size="10">"El Fiscal debe ojear 4 veces el expediente físico para ubicar la fecha exacta del examen médico forense."</text>
+      <text x="15" y="185" fill="#F0ABFC" font-size="10">"Al ver en el prototipo la etiqueta de 'Cadena de Custodia ISO 27037' se mostró muy complacido."</text>
+    </g>
+  </g>
+
+  <!-- QUADRANT 3: ¿QUÉ OYE EL FISCAL? -->
+  <g transform="translate(40, 473)">
+    <rect x="0" y="0" width="895" height="315" rx="12" fill="url(#gradQ3)" stroke="#FECF06" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="36" rx="12" fill="#FECF06" opacity="0.2" />
+    <text x="20" y="23" fill="#FDE047" font-size="12" font-weight="800">👂 3. ¿QUÉ OYE DE FISCALES SUPERIORES, TRIBUNALES Y LA DEFENSA?</text>
+
+    <g transform="translate(20, 50)">
+      <text x="0" y="18" fill="#FEF08A" font-size="10.5" font-weight="700">Presión Institucional, Alegatos y Directivas de la Fiscalía General:</text>
+      <text x="0" y="38" fill="#CBD5E1" font-size="10">• Oye exigencias del Fiscal Superior para presentar acusaciones sólidas dentro de los lapsos legales.</text>
+      <text x="0" y="54" fill="#CBD5E1" font-size="10">• Oye a los abogados defensores argumentar presuntas nulidades o violaciones al debido proceso (CRBV Art. 49).</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="10">• Oye a los Jueces de Control solicitar celeridad y concisión en la exposición oral durante la preliminar.</text>
+      <text x="0" y="86" fill="#CBD5E1" font-size="10">• Oye planteamientos de Admisión de Hechos (Art. 375 COPP) que requieren fórmulas de pena acordadas.</text>
+
+      <rect x="0" y="105" width="855" height="135" rx="8" fill="#713f12" stroke="#FECF06" stroke-dasharray="4,4" opacity="0.9" />
+      <text x="15" y="125" fill="#FEF08A" font-size="10" font-weight="700">STICKY NOTES DEL INVESTIGADOR UX (ENTORNO VERBAL DEL FISCAL):</text>
+      <text x="15" y="145" fill="#64748B" font-size="10" font-style="italic">[ Expresiones escuchadas frecuentemente en la labor fiscal ]</text>
+      <text x="15" y="165" fill="#FDE047" font-size="10">"La defensa siempre busca tumbar la acusación alegando fallas de foliado o falta de boleta."</text>
+      <text x="15" y="185" fill="#FDE047" font-size="10">"La Fiscalía Superior insiste en que todo delito grave debe llevar respaldo jurisprudencial del TSJ."</text>
+    </g>
+  </g>
+
+  <!-- QUADRANT 4: ¿QUÉ DICE Y HACE EL FISCAL? -->
+  <g transform="translate(985, 473)">
+    <rect x="0" y="0" width="895" height="315" rx="12" fill="url(#gradQ4)" stroke="#00FF41" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="36" rx="12" fill="#00FF41" opacity="0.2" />
+    <text x="20" y="23" fill="#86EFAC" font-size="12" font-weight="800">🗣️ 4. ¿QUÉ DICE Y HACE EN SU ACCIÓN ACCIONADORA FISCAL?</text>
+
+    <g transform="translate(20, 50)">
+      <text x="0" y="18" fill="#86EFAC" font-size="10.5" font-weight="700">Comportamientos Procesales y Práctica Diaria:</text>
+      <text x="0" y="38" fill="#CBD5E1" font-size="10">• Redacta y suscribe la Acusación Fiscal (Art. 308 COPP), indicando elementos de convicción y pretensión punitiva.</text>
+      <text x="0" y="54" fill="#CBD5E1" font-size="10">• Ordena diligencias de investigación al CICPC y laboratorios forenses para completar vacíos de prueba.</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="10">• Defiende la validez y licitud de las evidencias en la Audiencia Preliminar frente a la defensa.</text>
+      <text x="0" y="86" fill="#CBD5E1" font-size="10">• Propone o evalúa la viabilidad de la Admisión de Hechos (Art. 375 COPP) ofreciendo rebajas legales.</text>
+
+      <rect x="0" y="105" width="855" height="135" rx="8" fill="#065f46" stroke="#00FF41" stroke-dasharray="4,4" opacity="0.9" />
+      <text x="15" y="125" fill="#86EFAC" font-size="10" font-weight="700">STICKY NOTES DEL INVESTIGADOR UX (ACCIONES OBSERVADAS EN SESIÓN):</text>
+      <text x="15" y="145" fill="#64748B" font-size="10" font-style="italic">[ Acciones directas realizadas por el Fiscal al interactuar con el sistema ]</text>
+      <text x="15" y="165" fill="#86EFAC" font-size="10">"Al probar la Matriz de Admisibilidad, el Fiscal verificó primero la pertinencia de las pruebas de la Defensa."</text>
+      <text x="15" y="185" fill="#86EFAC" font-size="10">"Usó el borrador automático de Acusación y modificó únicamente la narración específica de los hechos."</text>
+    </g>
+  </g>
+
+  <!-- PAINS & GAINS FOR PROSECUTOR -->
+  <text x="40" y="808" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">SÍNTESIS DE FRUSTRACIONES DEL FISCAL (PAINS) Y RESULTADOS DESEADOS (GAINS)</text>
+
+  <!-- PAINS -->
+  <g transform="translate(40, 822)">
+    <rect x="0" y="0" width="895" height="225" rx="12" fill="url(#gradCardDark)" stroke="#EF4444" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="34" rx="12" fill="#EF4444" opacity="0.25" />
+    <text x="20" y="22" fill="#FCA5A5" font-size="12" font-weight="800">😫 PAINS: FRUSTRACIONES Y RIESGOS EN LA INVESTIGACIÓN FISCAL</text>
+
+    <g transform="translate(20, 48)">
+      <text x="0" y="18" fill="#FECACA" font-size="10.5" font-weight="700">1. Desestimación o Devolución de Acusaciones:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9.5">Que una acusación sea devuelta por fallas de foliado o falta de una boleta de notificación causa frustración extrema.</text>
+
+      <text x="0" y="56" fill="#FECACA" font-size="10.5" font-weight="700">2. Insumo Excesivo de Tiempo en Tipejo Manual:</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="9.5">Invertir horas transcribiendo datos de partes y delincuentes en lugar de dedicarse a la estrategia de investigación.</text>
+
+      <text x="0" y="94" fill="#FECACA" font-size="10.5" font-weight="700">3. Riesgo de Incompetencia o Alucinación en Herramientas IA:</text>
+      <text x="0" y="108" fill="#CBD5E1" font-size="9.5">Temor a utilizar software comercial que cite artículos falsos o exponga actas confidenciales a la nube.</text>
+
+      <rect x="0" y="125" width="855" height="42" rx="6" fill="#450a0a" stroke="#ef4444" stroke-width="1" />
+      <text x="15" y="150" fill="#FCA5A5" font-size="10" font-weight="700">Conclusión Pains MP: Exige depuración automatizada de folios y anclaje normativo 100% local en servidores internos.</text>
+    </g>
+  </g>
+
+  <!-- GAINS -->
+  <g transform="translate(985, 822)">
+    <rect x="0" y="0" width="895" height="225" rx="12" fill="url(#gradCardDark)" stroke="#10B981" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="34" rx="12" fill="#10B981" opacity="0.25" />
+    <text x="20" y="22" fill="#6EE7B7" font-size="12" font-weight="800">🚀 GAINS: RESULTADOS ANHELADOS Y EFECTIVIDAD EN LA ACUSACIÓN</text>
+
+    <g transform="translate(20, 48)">
+      <text x="0" y="18" fill="#A7F3D0" font-size="10.5" font-weight="700">1. Acusaciones Fiscales Blindadas y Auditadas:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9.5">Presentar escritos de acusación en &lt; 15 min con respaldo jurisprudencial del TSJ e indicador Semáforo Verde.</text>
+
+      <text x="0" y="56" fill="#A7F3D0" font-size="10.5" font-weight="700">2. Cruce Inmediato de Experticias Científicas:</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="9.5">Identificar coincidencias y contradicciones entre peritajes balísticos, autopsias y declaraciones en segundos.</text>
+
+      <text x="0" y="94" fill="#A7F3D0" font-size="10.5" font-weight="700">3. Acompañamiento Transparente en Admisión de Hechos (Art. 375):</text>
+      <text x="0" y="108" fill="#CBD5E1" font-size="9.5">Disponer de fórmulas de pena rebajada calculadas al instante para agilizar el cierre de causas en la preliminar.</text>
+
+      <rect x="0" y="125" width="855" height="42" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+      <text x="15" y="150" fill="#34D399" font-size="10" font-weight="700">Conclusión Gains MP: La IA actua como un copiloto que fortalece la fundamentación de la Fiscalía sin alterar el expediente.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <rect x="0" y="1055" width="1920" height="25" fill="#090d16" />
+  <line x1="0" y1="1055" x2="1920" y2="1055" stroke="#1e293b" stroke-width="1" />
+  <text x="40" y="1072" fill="#64748B" font-size="11" font-weight="500">JullBrain Legal-RAG — Instrumento 2 (Especializado MP): Mapa de Empatía del Fiscal del Ministerio Público (IBM Design Thinking)</text>
+  <text x="1880" y="1072" fill="#64748B" font-size="11" font-weight="500" text-anchor="end">Fase 01 &amp; 02: Empatizar &amp; Definir | LOMP &amp; COPP Art. 308</text>
+
+</svg>

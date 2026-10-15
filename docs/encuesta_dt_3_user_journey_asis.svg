@@ -1,0 +1,339 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #080b12;">
+  <title>JullBrain — Formato 3: User Journey Map As-Is &amp; Auditoría de Fricción Procesal</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <linearGradient id="gradStep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#072738" />
+      <stop offset="100%" stop-color="#04141e" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+  </defs>
+
+  <!-- HEADER BANNER -->
+  <rect x="0" y="0" width="1920" height="90" fill="url(#gradHeader)" />
+  <line x1="0" y1="90" x2="1920" y2="90" stroke="#334155" stroke-width="2" />
+
+  <!-- Badge DT Stage -->
+  <rect x="40" y="18" width="220" height="54" rx="8" fill="#10b981" filter="url(#shadow)" />
+  <text x="52" y="40" fill="#FFFFFF" font-size="12" font-weight="900" letter-spacing="1">TÉCNICA 3: USER JOURNEY</text>
+  <text x="52" y="58" fill="#a7f3d0" font-size="12" font-weight="700">MAPEO "AS-IS" PROCESAL</text>
+
+  <!-- Title -->
+  <text x="280" y="40" fill="#F8FAFC" font-size="20" font-weight="800">MAPA DE VIAJE DEL USUARIO (AS-IS): RUTA DEL EXPEDIENTE Y AUDITORÍA DE PUNTOS DE FRICCIÓN</text>
+  <text x="280" y="62" fill="#94A3B8" font-size="13" font-weight="500">Mapeo del recorrido de la causa penal desde la ingesta en URDD hasta el Auto de Apertura a Juicio, identificando vicios y oportunidades RAG</text>
+
+  <!-- Metadata box -->
+  <g transform="translate(1360, 16)">
+    <rect x="0" y="0" width="520" height="58" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+    <text x="16" y="24" fill="#a7f3d0" font-size="11" font-weight="800">AUDITORÍA DE JORNADA PROCESAL:</text>
+    <text x="16" y="44" fill="#CBD5E1" font-size="10">Tribunal / Sala: ___________________</text>
+    <text x="360" y="24" fill="#94A3B8" font-size="10">Facilitador: UX Team</text>
+    <text x="360" y="44" fill="#94A3B8" font-size="10">Versión: As-Is Current</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- 5 STAGES OF THE JOURNEY (COLUMNS)                                   -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="122" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">RECORRIDO PASO A PASO DEL CASO EN LA FASE DE CONTROL PENAL (COPP)</text>
+
+  <!-- STAGE 1 -->
+  <g transform="translate(40, 138)">
+    <rect x="0" y="0" width="355" height="690" rx="10" fill="url(#gradStep)" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="355" height="40" rx="10" fill="#38bdf8" opacity="0.2" />
+    <circle cx="24" cy="20" r="12" fill="#38bdf8" />
+    <text x="24" y="24" fill="#080b12" font-size="12" font-weight="900" text-anchor="middle">1</text>
+    <text x="45" y="25" fill="#38BDF8" font-size="12" font-weight="800">INGESTA DE ACUSACIÓN EN URDD</text>
+
+    <!-- Content rows -->
+    <g transform="translate(14, 50)">
+      <text x="0" y="16" fill="#7DD3FC" font-size="10" font-weight="700">1. Acción Procesal del Operador:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9">Recepción de la Acusación Fiscal física (COPP Art. 308) y anexos en la Unidad de Recepción.</text>
+
+      <line x1="0" y1="46" x2="327" y2="46" stroke="#1e293b" />
+
+      <text x="0" y="62" fill="#7DD3FC" font-size="10" font-weight="700">2. Artefacto / Canal Utilizado:</text>
+      <text x="0" y="78" fill="#CBD5E1" font-size="9">Documento impreso, sello húmedo de recepción, libro de entrada físico.</text>
+
+      <line x1="0" y1="92" x2="327" y2="92" stroke="#1e293b" />
+
+      <text x="0" y="108" fill="#7DD3FC" font-size="10" font-weight="700">3. Curva Emocional (Experiencia):</text>
+      <text x="0" y="124" fill="#FBBF24" font-size="10" font-weight="800">😐 Neutral (Rutina administrativa)</text>
+
+      <line x1="0" y1="138" x2="327" y2="138" stroke="#1e293b" />
+
+      <text x="0" y="154" fill="#EF4444" font-size="10" font-weight="700">4. Puntos de Dolor / Fricción:</text>
+      <text x="0" y="170" fill="#FCA5A5" font-size="9">• Falta de verificación de integridad al recibir.</text>
+      <text x="0" y="184" fill="#FCA5A5" font-size="9">• Hojas sueltas sin foliado inicial de origen.</text>
+      <text x="0" y="198" fill="#FCA5A5" font-size="9">• No hay copia digital para consulta simultánea.</text>
+
+      <line x1="0" y1="212" x2="327" y2="212" stroke="#1e293b" />
+
+      <!-- RAG Opportunity Box -->
+      <rect x="0" y="226" width="327" height="400" rx="8" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1" />
+      <text x="12" y="246" fill="#BAE6FD" font-size="10.5" font-weight="800">💡 OPORTUNIDAD JULLBRAIN RAG:</text>
+      <text x="12" y="266" fill="#FFFFFF" font-size="9.5">• Escaneo OCR ultra-rápido con <tspan font-weight="700" fill="#38BDF8">IBM Docling</tspan>.</text>
+      <text x="12" y="282" fill="#FFFFFF" font-size="9.5">• Cómputo de Hash SHA-256 de origen (ISO 27037).</text>
+      <text x="12" y="298" fill="#FFFFFF" font-size="9.5">• Indexación semántica inmediata de partes y delitos.</text>
+      
+      <rect x="12" y="320" width="303" height="290" rx="6" fill="#072738" stroke="#38bdf8" stroke-dasharray="4,4" />
+      <text x="20" y="340" fill="#7DD3FC" font-size="9.5" font-weight="700">EVALUACIÓN DEL FACILITADOR UX:</text>
+      <text x="20" y="360" fill="#64748B" font-size="9" font-style="italic">[ Valide con el Secretario de URDD ]</text>
+      <text x="20" y="380" fill="#CBD5E1" font-size="9">Tiempo actual de ingesta: _____ min</text>
+      <text x="20" y="400" fill="#CBD5E1" font-size="9">Tiempo con JullBrain: &lt; 2 min</text>
+      <text x="20" y="420" fill="#38BDF8" font-size="9" font-weight="700">Ahorro proyectado: 80% en registro</text>
+    </g>
+  </g>
+
+  <!-- STAGE 2 -->
+  <g transform="translate(410, 138)">
+    <rect x="0" y="0" width="355" height="690" rx="10" fill="url(#gradStep)" stroke="#a855f7" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="355" height="40" rx="10" fill="#a855f7" opacity="0.2" />
+    <circle cx="24" cy="20" r="12" fill="#a855f7" />
+    <text x="24" y="24" fill="#FFFFFF" font-size="12" font-weight="900" text-anchor="middle">2</text>
+    <text x="45" y="25" fill="#F0ABFC" font-size="12" font-weight="800">AUDITORÍA Y FOLIADO EN SALA</text>
+
+    <!-- Content rows -->
+    <g transform="translate(14, 50)">
+      <text x="0" y="16" fill="#F0ABFC" font-size="10" font-weight="700">1. Acción Procesal del Operador:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9">El Secretario numera folio por folio a mano, cose la carpeta y verifica presencia de boletas.</text>
+
+      <line x1="0" y1="46" x2="327" y2="46" stroke="#1e293b" />
+
+      <text x="0" y="62" fill="#F0ABFC" font-size="10" font-weight="700">2. Artefacto / Canal Utilizado:</text>
+      <text x="0" y="78" fill="#CBD5E1" font-size="9">Lápiz grafito, selladora manual, pabilo y agujeta física.</text>
+
+      <line x1="0" y1="92" x2="327" y2="92" stroke="#1e293b" />
+
+      <text x="0" y="108" fill="#F0ABFC" font-size="10" font-weight="700">3. Curva Emocional (Experiencia):</text>
+      <text x="0" y="124" fill="#EF4444" font-size="10" font-weight="800">😩 Muy Frustrante (Consumo excesivo de tiempo)</text>
+
+      <line x1="0" y1="138" x2="327" y2="138" stroke="#1e293b" />
+
+      <text x="0" y="154" fill="#EF4444" font-size="10" font-weight="700">4. Puntos de Dolor / Fricción:</text>
+      <text x="0" y="170" fill="#FCA5A5" font-size="9">• Errores de foliación enmendados a mano.</text>
+      <text x="0" y="184" fill="#FCA5A5" font-size="9">• Dificultad para detectar actas traspapeladas.</text>
+      <text x="0" y="198" fill="#FCA5A5" font-size="9">• Desgaste físico por manipulación constante.</text>
+
+      <line x1="0" y1="212" x2="327" y2="212" stroke="#1e293b" />
+
+      <!-- RAG Opportunity Box -->
+      <rect x="0" y="226" width="327" height="400" rx="8" fill="#581c87" stroke="#a855f7" stroke-width="1" />
+      <text x="12" y="246" fill="#F0ABFC" font-size="10.5" font-weight="800">💡 OPORTUNIDAD JULLBRAIN RAG:</text>
+      <text x="12" y="266" fill="#FFFFFF" font-size="9.5">• Doble Validación Cruzada con <tspan font-weight="700" fill="#F0ABFC">validator.py</tspan>.</text>
+      <text x="12" y="282" fill="#FFFFFF" font-size="9.5">• Reporte automático de saltos de folio o duplicados.</text>
+      <text x="12" y="298" fill="#FFFFFF" font-size="9.5">• Certificado de Integridad de Folios impreso al instante.</text>
+
+      <rect x="12" y="320" width="303" height="290" rx="6" fill="#31122b" stroke="#a855f7" stroke-dasharray="4,4" />
+      <text x="20" y="340" fill="#F0ABFC" font-size="9.5" font-weight="700">EVALUACIÓN DEL FACILITADOR UX:</text>
+      <text x="20" y="360" fill="#64748B" font-size="9" font-style="italic">[ Valide con el Secretario de Sala ]</text>
+      <text x="20" y="380" fill="#CBD5E1" font-size="9">Folios armados a mano / día: _____</text>
+      <text x="20" y="400" fill="#CBD5E1" font-size="9">Porcentaje de error en foliado: ____%</text>
+      <text x="20" y="420" fill="#F0ABFC" font-size="9" font-weight="700">Meta: Error Cero certificado</text>
+    </g>
+  </g>
+
+  <!-- STAGE 3 -->
+  <g transform="translate(780, 138)">
+    <rect x="0" y="0" width="355" height="690" rx="10" fill="url(#gradStep)" stroke="#FECF06" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="355" height="40" rx="10" fill="#FECF06" opacity="0.2" />
+    <circle cx="24" cy="20" r="12" fill="#FECF06" />
+    <text x="24" y="24" fill="#080b12" font-size="12" font-weight="900" text-anchor="middle">3</text>
+    <text x="45" y="25" fill="#FDE047" font-size="12" font-weight="800">NOTIFICACIONES Y BOLETAS</text>
+
+    <!-- Content rows -->
+    <g transform="translate(14, 50)">
+      <text x="0" y="16" fill="#FEF08A" font-size="10" font-weight="700">1. Acción Procesal del Operador:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9">Alguacil y Secretario emiten y envían boletas a retenes policiales, víctimas y defensores.</text>
+
+      <line x1="0" y1="46" x2="327" y2="46" stroke="#1e293b" />
+
+      <text x="0" y="62" fill="#FEF08A" font-size="10" font-weight="700">2. Artefacto / Canal Utilizado:</text>
+      <text x="0" y="78" fill="#CBD5E1" font-size="9">Boletas impresas, traslado en patrulla, cuaderno de recibo de boletas.</text>
+
+      <line x1="0" y1="92" x2="327" y2="92" stroke="#1e293b" />
+
+      <text x="0" y="108" fill="#FEF08A" font-size="10" font-weight="700">3. Curva Emocional (Experiencia):</text>
+      <text x="0" y="124" fill="#EF4444" font-size="10" font-weight="800">😩 Crítica (Mayor causa de diferimiento)</text>
+
+      <line x1="0" y1="138" x2="327" y2="138" stroke="#1e293b" />
+
+      <text x="0" y="154" fill="#EF4444" font-size="10" font-weight="700">4. Puntos de Dolor / Fricción:</text>
+      <text x="0" y="170" fill="#FCA5A5" font-size="9">• Boletas no entregadas o devueltas tarde.</text>
+      <text x="0" y="184" fill="#FCA5A5" font-size="9">• Imputado no trasladado por falta de unidad.</text>
+      <text x="0" y="198" fill="#FCA5A5" font-size="9">• Suspensión el mismo día a puerta de sala.</text>
+
+      <line x1="0" y1="212" x2="327" y2="212" stroke="#1e293b" />
+
+      <!-- RAG Opportunity Box -->
+      <rect x="0" y="226" width="327" height="400" rx="8" fill="#713f12" stroke="#FECF06" stroke-width="1" />
+      <text x="12" y="246" fill="#FEF08A" font-size="10.5" font-weight="800">💡 OPORTUNIDAD JULLBRAIN RAG:</text>
+      <text x="12" y="266" fill="#FFFFFF" font-size="9.5">• Alertas automáticas de estatus de boleta.</text>
+      <text x="12" y="282" fill="#FFFFFF" font-size="9.5">• Tablero de control de notificaciones en tiempo real.</text>
+      <text x="12" y="298" fill="#FFFFFF" font-size="9.5">• Detección anticipada de fallas de notificación (&gt; 48h).</text>
+
+      <rect x="12" y="320" width="303" height="290" rx="6" fill="#332505" stroke="#FECF06" stroke-dasharray="4,4" />
+      <text x="20" y="340" fill="#FEF08A" font-size="9.5" font-weight="700">EVALUACIÓN DEL FACILITADOR UX:</text>
+      <text x="20" y="360" fill="#64748B" font-size="9" font-style="italic">[ Valide con el Alguacilazgo ]</text>
+      <text x="20" y="380" fill="#CBD5E1" font-size="9">Tasa de diferimiento por boleta: ____%</text>
+      <text x="20" y="400" fill="#CBD5E1" font-size="9">Causas suspendidas al mes: ____</text>
+      <text x="20" y="420" fill="#FDE047" font-size="9" font-weight="700">Meta RAG: Reducir diferimientos 85%</text>
+    </g>
+  </g>
+
+  <!-- STAGE 4 -->
+  <g transform="translate(1150, 138)">
+    <rect x="0" y="0" width="355" height="690" rx="10" fill="url(#gradStep)" stroke="#00FF41" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="355" height="40" rx="10" fill="#00FF41" opacity="0.2" />
+    <circle cx="24" cy="20" r="12" fill="#00FF41" />
+    <text x="24" y="24" fill="#080b12" font-size="12" font-weight="900" text-anchor="middle">4</text>
+    <text x="45" y="25" fill="#86EFAC" font-size="12" font-weight="800">AUDIENCIA PRELIMINAR (ART. 309)</text>
+
+    <!-- Content rows -->
+    <g transform="translate(14, 50)">
+      <text x="0" y="16" fill="#86EFAC" font-size="10" font-weight="700">1. Acción Procesal del Operador:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9">El Juez de Control dirige el debate oral, revisa pruebas del MP y decide admisibilidad o sobreseimiento.</text>
+
+      <line x1="0" y1="46" x2="327" y2="46" stroke="#1e293b" />
+
+      <text x="0" y="62" fill="#86EFAC" font-size="10" font-weight="700">2. Artefacto / Canal Utilizado:</text>
+      <text x="0" y="78" fill="#CBD5E1" font-size="9">Carpeta física abultada, hoja de apuntes a mano, Código COPP impreso.</text>
+
+      <line x1="0" y1="92" x2="327" y2="92" stroke="#1e293b" />
+
+      <text x="0" y="108" fill="#86EFAC" font-size="10" font-weight="700">3. Curva Emocional (Experiencia):</text>
+      <text x="0" y="124" fill="#FBBF24" font-size="10" font-weight="800">😐 Estresante (Alta presión de tiempo y partes)</text>
+
+      <line x1="0" y1="138" x2="327" y2="138" stroke="#1e293b" />
+
+      <text x="0" y="154" fill="#EF4444" font-size="10" font-weight="700">4. Puntos de Dolor / Fricción:</text>
+      <text x="0" y="170" fill="#FCA5A5" font-size="9">• Debate extenso sobre pertinencia probatoria.</text>
+      <text x="0" y="184" fill="#FCA5A5" font-size="9">• Dificultad para calcular penas rebajadas (Art. 375).</text>
+      <text x="0" y="198" fill="#FCA5A5" font-size="9">• No se detectan prescripciones a tiempo.</text>
+
+      <line x1="0" y1="212" x2="327" y2="212" stroke="#1e293b" />
+
+      <!-- RAG Opportunity Box -->
+      <rect x="0" y="226" width="327" height="400" rx="8" fill="#065f46" stroke="#00FF41" stroke-width="1" />
+      <text x="12" y="246" fill="#86EFAC" font-size="10.5" font-weight="800">💡 OPORTUNIDAD JULLBRAIN RAG:</text>
+      <text x="12" y="266" fill="#FFFFFF" font-size="9.5">• Matriz Admisibilidad Probatoria pre-evaluada.</text>
+      <text x="12" y="282" fill="#FFFFFF" font-size="9.5">• Calculador de Admisión de Hechos en vivo (Art. 375).</text>
+      <text x="12" y="298" fill="#FFFFFF" font-size="9.5">• Detector automático de Prescripción (Art. 300).</text>
+
+      <rect x="12" y="320" width="303" height="290" rx="6" fill="#062e1b" stroke="#00FF41" stroke-dasharray="4,4" />
+      <text x="20" y="340" fill="#86EFAC" font-size="9.5" font-weight="700">EVALUACIÓN DEL FACILITADOR UX:</text>
+      <text x="20" y="360" fill="#64748B" font-size="9" font-style="italic">[ Valide con el Juez de Control ]</text>
+      <text x="20" y="380" fill="#CBD5E1" font-size="9">Duración media audiencia: _____ min</text>
+      <text x="20" y="400" fill="#CBD5E1" font-size="9">Duración proyectada con RAG: &lt; 20 min</text>
+      <text x="20" y="420" fill="#00FF41" font-size="9" font-weight="700">Despacho diario: De 2-3 a 8-10 causales</text>
+    </g>
+  </g>
+
+  <!-- STAGE 5 -->
+  <g transform="translate(1520, 138)">
+    <rect x="0" y="0" width="360" height="690" rx="10" fill="url(#gradStep)" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="360" height="40" rx="10" fill="#10b981" opacity="0.2" />
+    <circle cx="24" cy="20" r="12" fill="#10b981" />
+    <text x="24" y="24" fill="#080b12" font-size="12" font-weight="900" text-anchor="middle">5</text>
+    <text x="45" y="25" fill="#6EE7B7" font-size="12" font-weight="800">EMISIÓN AUTO Y SENTENCIA</text>
+
+    <!-- Content rows -->
+    <g transform="translate(14, 50)">
+      <text x="0" y="16" fill="#6EE7B7" font-size="10" font-weight="700">1. Acción Procesal del Operador:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9">Redacción y firma del Auto de Apertura a Juicio o Auto de Sobreseimiento motivado.</text>
+
+      <line x1="0" y1="46" x2="332" y2="46" stroke="#1e293b" />
+
+      <text x="0" y="62" fill="#6EE7B7" font-size="10" font-weight="700">2. Artefacto / Canal Utilizado:</text>
+      <text x="0" y="78" fill="#CBD5E1" font-size="9">Procesador de texto básico, plantilla física, firma húmeda del Juez.</text>
+
+      <line x1="0" y1="92" x2="332" y2="92" stroke="#1e293b" />
+
+      <text x="0" y="108" fill="#6EE7B7" font-size="10" font-weight="700">3. Curva Emocional (Experiencia):</text>
+      <text x="0" y="124" fill="#34D399" font-size="10" font-weight="800">😊 Satisfactoria (Culminación del acto)</text>
+
+      <line x1="0" y1="138" x2="332" y2="138" stroke="#1e293b" />
+
+      <text x="0" y="154" fill="#EF4444" font-size="10" font-weight="700">4. Puntos de Dolor / Fricción:</text>
+      <text x="0" y="170" fill="#FCA5A5" font-size="9">• Tipejo repetitivo de datos de partes y delitos.</text>
+      <text x="0" y="184" fill="#FCA5A5" font-size="9">• Riesgo de inmotivación por premura de tiempo.</text>
+      <text x="0" y="198" fill="#FCA5A5" font-size="9">• Demora de días para publicar el fallo escrito.</text>
+
+      <line x1="0" y1="212" x2="332" y2="212" stroke="#1e293b" />
+
+      <!-- RAG Opportunity Box -->
+      <rect x="0" y="226" width="332" height="400" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+      <text x="12" y="246" fill="#6EE7B7" font-size="10.5" font-weight="800">💡 OPORTUNIDAD JULLBRAIN RAG:</text>
+      <text x="12" y="266" fill="#FFFFFF" font-size="9.5">• Borrador de Auto con anclaje normativo 100%.</text>
+      <text x="12" y="282" fill="#FFFFFF" font-size="9.5">• Semáforo Verde respaldando motivación legal.</text>
+      <text x="12" y="298" fill="#FFFFFF" font-size="9.5">• Emisión e impresión del Auto definitivo en 1 clic.</text>
+
+      <rect x="12" y="320" width="308" height="290" rx="6" fill="#052e16" stroke="#10b981" stroke-dasharray="4,4" />
+      <text x="20" y="340" fill="#6EE7B7" font-size="9.5" font-weight="700">EVALUACIÓN DEL FACILITADOR UX:</text>
+      <text x="20" y="360" fill="#64748B" font-size="9" font-style="italic">[ Valide con el Juez y Secretario ]</text>
+      <text x="20" y="380" fill="#CBD5E1" font-size="9">Días para publicar el auto a mano: 3-5 días</text>
+      <text x="20" y="400" fill="#CBD5E1" font-size="9">Tiempo con JullBrain RAG: &lt; 15 min</text>
+      <text x="20" y="420" fill="#34D399" font-size="9" font-weight="700">Impacto: Publicación inmediata en sala</text>
+    </g>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- BOTTOM SUMMARY & METRICS                                           -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="850" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">SÍNTESIS DEL IMPACTO EN LA JORNADA DEL USUARIO (DE AS-IS TRADICIONAL A TO-BE OPTIMIZADO)</text>
+
+  <g transform="translate(40, 865)">
+    <rect x="0" y="0" width="1840" height="180" rx="12" fill="url(#gradCardDark)" stroke="#0f62fe" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="1840" height="34" rx="12" fill="#0f62fe" />
+    <text x="20" y="22" fill="#FFFFFF" font-size="12" font-weight="800">📊 AUDITORÍA DE FRICCIÓN: COMPARATIVA DE TIEMPOS Y EXPERIENCIA PROCESAL DEL JUEZ Y FISCAL</text>
+
+    <g transform="translate(20, 48)">
+      <rect x="0" y="0" width="580" height="118" rx="8" fill="#450a0a" stroke="#ef4444" stroke-width="1" />
+      <text x="15" y="22" fill="#FCA5A5" font-size="11" font-weight="800">1. ESTADO ACTUAL (AS-IS MANUALLY CONGESTIONADO)</text>
+      <text x="15" y="42" fill="#CBD5E1" font-size="9.5">• Tiempo medio de trámite completo del expediente: <tspan font-weight="700" fill="#EF4444">6 a 12 meses</tspan>.</text>
+      <text x="15" y="58" fill="#CBD5E1" font-size="9.5">• Tasa de diferimiento por vicios formales / notificaciones: <tspan font-weight="700" fill="#EF4444">60% - 70%</tspan>.</text>
+      <text x="15" y="74" fill="#CBD5E1" font-size="9.5">• Capacidad de despacho: <tspan font-weight="700" fill="#EF4444">Solo 2 a 3 audiencias preliminares por día</tspan>.</text>
+      <text x="15" y="98" fill="#FCA5A5" font-size="9.5" font-weight="700">Experiencia Usuario: Alta frustración, estrés y retardo procesal acumulado.</text>
+
+      <rect x="605" y="0" width="580" height="118" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+      <text x="15" y="22" fill="#6EE7B7" font-size="11" font-weight="800">2. ESTADO FUTURO OPTIMIZADO (TO-BE JULLBRAIN RAG)</text>
+      <text x="15" y="42" fill="#CBD5E1" font-size="9.5">• Tiempo de evaluación previa del expediente auditado: <tspan font-weight="700" fill="#34D399">&lt; 5 minutos</tspan>.</text>
+      <text x="15" y="58" fill="#CBD5E1" font-size="9.5">• Reducción drástica de diferimientos por vicios de foliado: <tspan font-weight="700" fill="#34D399">- 85% de aplazamientos</tspan>.</text>
+      <text x="15" y="74" fill="#CBD5E1" font-size="9.5">• Capacidad de despacho multiplicada: <tspan font-weight="700" fill="#34D399">8 a 10 audiencias por día (4x)</tspan>.</text>
+      <text x="15" y="98" fill="#A7F3D0" font-size="9.5" font-weight="700">Experiencia Usuario: Tranquilidad, control transparente y debido proceso garantizado.</text>
+
+      <rect x="1210" y="0" width="590" height="118" rx="8" fill="#032b45" stroke="#38bdf8" stroke-width="1" />
+      <text x="15" y="22" fill="#38bdf8" font-size="11" font-weight="800">3. INDICADOR DE ADOPCIÓN Y VERIFICACIÓN ÁGIL (R5)</text>
+      <text x="15" y="42" fill="#CBD5E1" font-size="9.5">• Trazabilidad de Historias de Usuario aprobadas bajo la columna Kanban:</text>
+      <text x="15" y="58" fill="#38bdf8" font-size="9.5" font-weight="700">  "Verificación Anti-Alucinación Mandatoria Pre-DoD"</text>
+      <text x="15" y="74" fill="#CBD5E1" font-size="9.5">• Cero historias de usuario se marcan como "Hechas" sin prueba think-aloud.</text>
+      <text x="15" y="98" fill="#7DD3FC" font-size="9.5" font-weight="700">Garantía CNJ 332/2020: La IA acelera pero el Juez preserva la decisión.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <rect x="0" y="1055" width="1920" height="25" fill="#090d16" />
+  <line x1="0" y1="1055" x2="1920" y2="1055" stroke="#1e293b" stroke-width="1" />
+  <text x="40" y="1072" fill="#64748B" font-size="11" font-weight="500">JullBrain Legal-RAG — Instrumento 3: As-Is User Journey Map &amp; Auditoría de Fricción Procesal (IBM Enterprise Design Thinking)</text>
+  <text x="1880" y="1072" fill="#64748B" font-size="11" font-weight="500" text-anchor="end">Fase 01 &amp; 02: Empatizar &amp; Mapear Jornada | ISO 9241-210 DCU</text>
+
+</svg>

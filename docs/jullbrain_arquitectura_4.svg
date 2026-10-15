@@ -1,0 +1,184 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', sans-serif; background-color: #080b12;">
+  <title>JullBrain — Diapositiva 4: Capa 3 — Pipeline Jurídico Atómico &amp; Doble Validación Cruzada</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161c27" />
+      <stop offset="50%" stop-color="#241e07" />
+      <stop offset="100%" stop-color="#161c27" />
+    </linearGradient>
+
+    <linearGradient id="gradLegal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#17253a" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FF4B4B" />
+    </marker>
+  </defs>
+
+  <!-- HEADER BAR -->
+  <rect x="40" y="30" width="1840" height="90" rx="14" fill="url(#gradHeader)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">CAPA 3: PIPELINE DE PROCESAMIENTO JURÍDICO ATÓMICO &amp; AUDITORÍA ERROR CERO</text>
+  <text x="70" y="94" font-size="14" fill="#00FF41">Normalización Jerárquica de Normativas (legalizer.py), Extracción YAML (metadata_extractor.py) y Doble Validación Cruzada (validator.py)</text>
+
+  <!-- Pill Diapositiva -->
+  <rect x="1650" y="52" width="200" height="46" rx="23" fill="#241e07" stroke="#FECF06" stroke-width="1.5" />
+  <text x="1750" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Diapositiva 4 / 7</text>
+
+  <!-- DIAGRAMA PRINCIPAL CAPA 3 -->
+  <rect x="40" y="145" width="1840" height="630" rx="16" fill="#0b0e17" stroke="#253246" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- 1. legalizer.py (Estructurador Jerárquico) -->
+  <g transform="translate(70, 180)" filter="url(#shadow)">
+    <rect width="560" height="560" rx="14" fill="url(#gradLegal)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="20" y="20" width="520" height="40" rx="8" fill="#382d03"/>
+    <text x="280" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#FECF06">⚖️ 1. legalizer.py — Estructurador Jerárquico Legal</text>
+
+    <!-- Caja Regex -->
+    <rect x="25" y="80" width="510" height="220" rx="10" fill="#09101a" stroke="#FECF06" stroke-width="1.5"/>
+    <text x="45" y="108" font-size="13" font-weight="bold" fill="#00FF41">Parsing Atómico de Leyes Venezolanas (Regex)</text>
+    <text x="45" y="130" font-size="10" fill="#a0aec0">• Detecta patrones normativos de la República Bolivariana de Venezuela:</text>
+    
+    <rect x="45" y="145" width="470" height="30" rx="6" fill="#121824" />
+    <text x="65" y="165" font-size="11" font-weight="bold" fill="#FECF06">TÍTULO (H2) ➔ `## TÍTULO I: DE LOS PRINCIPIOS`</text>
+
+    <rect x="45" y="180" width="470" height="30" rx="6" fill="#121824" />
+    <text x="65" y="200" font-size="11" font-weight="bold" fill="#00CFFF">CAPÍTULO (H3) ➔ `### CAPÍTULO I: DISPOSICIONES GENERALES`</text>
+
+    <rect x="45" y="215" width="470" height="30" rx="6" fill="#121824" />
+    <text x="65" y="235" font-size="11" font-weight="bold" fill="#00FF41">SECCIÓN (H4) ➔ `#### SECCIÓN PRIMERA: DE LAS GARANTÍAS`</text>
+
+    <rect x="45" y="250" width="470" height="35" rx="6" fill="#182738" stroke="#00FF41" stroke-width="1"/>
+    <text x="65" y="272" font-size="12" font-weight="bold" fill="#00FF41">Artículo (H6 Atómico) ➔ `###### Artículo 1.` [Contenido del Artículo]</text>
+
+    <!-- TOC Box -->
+    <rect x="25" y="315" width="510" height="220" rx="10" fill="#09101a" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="45" y="343" font-size="13" font-weight="bold" fill="#00FF41">Generación de Tabla de Contenido (TOC Markdown)</text>
+    <text x="45" y="365" font-size="10" fill="#a0aec0">• Construye una tabla de navegación al inicio del documento Markdown:</text>
+    <text x="45" y="385" font-size="10" fill="#FECF06">  - [Artículo 1: Principio de Juicio Previo](#articulo-1)</text>
+    <text x="45" y="403" font-size="10" fill="#FECF06">  - [Artículo 2: Presunción de Inocencia](#articulo-2)</text>
+    <text x="45" y="421" font-size="10" fill="#FECF06">  - [Artículo 3: Afirmación de la Libertad](#articulo-3)</text>
+    <line x1="45" y1="435" x2="515" y2="435" stroke="#253246" />
+    <text x="45" y="455" font-size="10" font-weight="bold" fill="#00CFFF">Anclajes HTML Explícitos:</text>
+    <text x="45" y="473" font-size="9" fill="#a0aec0">Permite al operador jurídico saltar directamente a cualquier artículo en app.py</text>
+    <text x="45" y="490" font-size="9" fill="#a0aec0">y facilita la referencia cruzada durante las consultas RAG en Granite LLM.</text>
+  </g>
+
+  <!-- Flecha legalizer -> metadata_extractor -->
+  <path d="M 630 460 L 680 460" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+
+  <!-- 2. metadata_extractor.py -->
+  <g transform="translate(680, 180)" filter="url(#shadow)">
+    <rect width="560" height="560" rx="14" fill="url(#gradLegal)" stroke="#00FF41" stroke-width="2"/>
+    <rect x="20" y="20" width="520" height="40" rx="8" fill="#092415"/>
+    <text x="280" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#00FF41">🏷️ 2. metadata_extractor.py — Inyección Metadata YAML</text>
+
+    <rect x="25" y="80" width="510" height="455" rx="10" fill="#09101a" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="45" y="108" font-size="13" font-weight="bold" fill="#FECF06">Estructura del Frontmatter YAML Generado</text>
+    <text x="45" y="128" font-size="10" fill="#a0aec0">Inyecta encabezado semántico inalterable al inicio del archivo `.md`:</text>
+
+    <!-- Bloque YAML visual -->
+    <rect x="45" y="145" width="470" height="260" rx="8" fill="#060911" stroke="#253246" stroke-width="1"/>
+    <text x="65" y="170" font-size="11" font-weight="bold" fill="#FECF06">---</text>
+    <text x="65" y="190" font-size="10" fill="#00FF41">titulo: <tspan fill="#a0aec0">"Código Orgánico Procesal Penal"</tspan></text>
+    <text x="65" y="210" font-size="10" fill="#00FF41">categoria: <tspan fill="#a0aec0">"Penal"</tspan></text>
+    <text x="65" y="230" font-size="10" fill="#00FF41">gaceta_oficial: <tspan fill="#a0aec0">"N° 6.078 Extraordinario"</tspan></text>
+    <text x="65" y="250" font-size="10" fill="#00FF41">fecha_publicacion: <tspan fill="#a0aec0">"2012-06-15"</tspan></text>
+    <text x="65" y="270" font-size="10" fill="#00FF41">instrumento: <tspan fill="#a0aec0">"Decreto con Rango, Valor y Fuerza de Ley"</tspan></text>
+    <text x="65" y="290" font-size="10" fill="#00CFFF">sha256_pdf: <tspan fill="#FECF06">"a8f5e1b290...c3d4e5f6"</tspan></text>
+    <text x="65" y="310" font-size="10" fill="#00FF41">total_articulos: <tspan fill="#a0aec0">554</tspan></text>
+    <text x="65" y="330" font-size="10" fill="#00FF41">version_pipeline: <tspan fill="#a0aec0">"2.1"</tspan></text>
+    <text x="65" y="350" font-size="11" font-weight="bold" fill="#FECF06">---</text>
+
+    <line x1="45" y1="420" x2="515" y2="420" stroke="#253246" />
+    <text x="45" y="445" font-size="11" font-weight="bold" fill="#00FF41">Utilidad RAG &amp; Filtros Semánticos en RAGFlow:</text>
+    <text x="45" y="465" font-size="9" fill="#a0aec0">Permite realizar búsquedas filtradas por rango de fecha, Gaceta Oficial</text>
+    <text x="45" y="482" font-size="9" fill="#a0aec0">o materia legal específica, evitando la mezcla de normativas derogadas.</text>
+    <text x="45" y="500" font-size="9" fill="#FECF06">Garantiza el Principio 1: Corpus cerrado y versionado localmente.</text>
+  </g>
+
+  <!-- Flecha metadata -> validator -->
+  <path d="M 1240 460 L 1290 460" fill="none" stroke="#FF4B4B" stroke-width="3" marker-end="url(#arrowRed)" />
+
+  <!-- 3. validator.py (Principio 10) -->
+  <g transform="translate(1290, 180)" filter="url(#shadow)">
+    <rect width="560" height="560" rx="14" fill="url(#gradLegal)" stroke="#FF4B4B" stroke-width="2"/>
+    <rect x="20" y="20" width="520" height="40" rx="8" fill="#52151a"/>
+    <text x="280" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#FF4B4B">🛡️ 3. validator.py — Doble Validación Cruzada (Principio 10)</text>
+
+    <rect x="25" y="80" width="510" height="210" rx="10" fill="#09101a" stroke="#FF4B4B" stroke-width="1.5"/>
+    <text x="45" y="108" font-size="13" font-weight="bold" fill="#FF4B4B">Principio 10: Auditoría Cero-Error de Integridad</text>
+
+    <!-- Comparativa Metodológica -->
+    <g transform="translate(45, 125)">
+      <rect width="215" height="100" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1"/>
+      <text x="107" y="25" text-anchor="middle" font-size="10" font-weight="bold" fill="#FECF06">Método A: Regex Legalizer</text>
+      <text x="107" y="45" text-anchor="middle" font-size="9" fill="#a0aec0">Conteo de bloques `###### Artículo`</text>
+      <text x="107" y="60" text-anchor="middle" font-size="9" fill="#a0aec0">en el Markdown procesado.</text>
+      <text x="107" y="80" text-anchor="middle" font-size="11" font-weight="bold" fill="#00FF41">Total: 554 Artículos</text>
+
+      <rect x="235" y="0" width="235" height="100" rx="8" fill="#121824" stroke="#00CFFF" stroke-width="1"/>
+      <text x="352" y="25" text-anchor="middle" font-size="10" font-weight="bold" fill="#00CFFF">Método B: PyMuPDF Direct</text>
+      <text x="352" y="45" text-anchor="middle" font-size="9" fill="#a0aec0">`cross_validate_against_pdf()`</text>
+      <text x="352" y="60" text-anchor="middle" font-size="9" fill="#a0aec0">Extracción directa del PDF origen.</text>
+      <text x="352" y="80" text-anchor="middle" font-size="11" font-weight="bold" fill="#00FF41">Total: 554 Artículos</text>
+    </g>
+
+    <text x="45" y="255" text-anchor="middle" font-size="11" font-weight="bold" fill="#00FF41">Resultado: MATCH OK 100% — Estado de Conversión Definitivo: OK</text>
+    <text x="280" y="275" text-anchor="middle" font-size="9" fill="#a0aec0">Ningún documento se aprueba si existe discrepancia entre ambos métodos.</text>
+
+    <!-- Auditoría de Defectos -->
+    <rect x="25" y="305" width="510" height="230" rx="10" fill="#09101a" stroke="#FECF06" stroke-width="1.5"/>
+    <text x="45" y="333" font-size="12" font-weight="bold" fill="#FECF06">Verificaciones Automatizadas de Calidad:</text>
+    <text x="45" y="355" font-size="10" fill="#00FF41">• 1. Saltos en la Secuencia Numérica <tspan fill="#a0aec0">(Ej. Artículo 12 pasa a Artículo 14)</tspan></text>
+    <text x="45" y="373" font-size="10" fill="#00FF41">• 2. Detectar Artículos Duplicados <tspan fill="#a0aec0">(Dos entradas para el mismo numeral)</tspan></text>
+    <text x="45" y="391" font-size="10" fill="#00FF41">• 3. Detectar Chunks Corruptos <tspan fill="#a0aec0">(`min_article_chars: 50` en config)</tspan></text>
+    <text x="45" y="409" font-size="10" fill="#00FF41">• 4. Validación de Integridad de YAML <tspan fill="#a0aec0">(Campos obligatorios presentes)</tspan></text>
+    <line x1="45" y1="425" x2="515" y2="425" stroke="#253246" />
+    <text x="45" y="445" font-size="11" font-weight="bold" fill="#FF4B4B">Alertas Visuales en app.py (Pestaña 3):</text>
+    <text x="45" y="465" font-size="9" fill="#a0aec0">Si la puntuación de calidad cae de `0.90` (Umbral Crítico), el sistema</text>
+    <text x="45" y="482" font-size="9" fill="#a0aec0">marca la ley en semáforo ROJO impidiendo su ingesta automática en RAGFlow.</text>
+  </g>
+
+  <!-- LEYENDA TÉCNICA DE TAREAS -->
+  <g transform="translate(40, 790)" filter="url(#shadow)">
+    <rect width="1840" height="225" rx="14" fill="#0d111a" stroke="#253246" stroke-width="1.5"/>
+    <text x="70" y="820" font-size="14" font-weight="bold" fill="#FECF06">📋 LEYENDA DETALLADA DE TAREAS — CAPA 3: PIPELINE JURÍDICO ATÓMICO Y DOBLE VALIDACIÓN</text>
+    <line x1="70" y1="830" x2="1810" y2="830" stroke="#253246" />
+
+    <g transform="translate(70, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea A — Normalización Regex (`legalizer.py`):</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">Analiza el Markdown crudo emitido por Docling y aplica expresiones regulares rigurosas para etiquetar</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">cada nivel normativo venezolano (Títulos H2, Capítulos H3 y Artículos H6 atómicos) creando una TOC interactiva.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea B — Criptografía y Metadatos (`metadata_extractor.py`):</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">Calcula la huella digital criptográfica SHA-256 del PDF original y extrae los campos de Gaceta Oficial,</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">fecha e instrumento legal, incrustándolos en formato YAML frontmatter al inicio del documento.</text>
+    </g>
+
+    <g transform="translate(950, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#FF4B4B">Tarea C — Auditoría de Integridad Error Cero (Principio 10 - `validator.py`):</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">Compara el total de artículos encontrados mediante el regex del legalizer contra una extracción directa realizada</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">con PyMuPDF sobre el PDF fuente. Si existe discrepancia, rechaza la conversión para evitar alucinaciones en la IA.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea D — Generación de Entregables RAG:</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">Genera los archivos finales en `normativas_rag/*.md` y `normativas_chunks/hierarchical_chunks.json`,</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">garantizando que la estructura esté lista para el motor de embeddings Granite R2 y RAGFlow.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Architecture Spec V-2.1 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped Security Architecture</text>
+</svg>

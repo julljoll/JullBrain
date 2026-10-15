@@ -1,0 +1,233 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', sans-serif; background-color: #080b12;">
+  <title>JullBrain — Diapositiva 2: Capa 1 — Ciclo de Vida del Sistema &amp; Dashboard (app.py)</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161c27" />
+      <stop offset="50%" stop-color="#241e07" />
+      <stop offset="100%" stop-color="#161c27" />
+    </linearGradient>
+
+    <linearGradient id="gradBat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#382d03" />
+      <stop offset="100%" stop-color="#1c1602" />
+    </linearGradient>
+
+    <linearGradient id="gradDash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#18273c" />
+    </linearGradient>
+
+    <linearGradient id="gradCleanup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b1518" />
+      <stop offset="100%" stop-color="#1c0a0c" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FF4B4B" />
+    </marker>
+  </defs>
+
+  <!-- HEADER BAR -->
+  <rect x="40" y="30" width="1840" height="90" rx="14" fill="url(#gradHeader)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">CAPA 1: CICLO DE VIDA DEL SISTEMA &amp; DASHBOARD VISUAL (app.py)</text>
+  <text x="70" y="94" font-size="14" fill="#00FF41">Orquestación del Entorno Virtual, Panel Web Interactivo (7 Módulos) y Routine de Purga Cierre (cleanup.py)</text>
+
+  <!-- Pill Diapositiva -->
+  <rect x="1650" y="52" width="200" height="46" rx="23" fill="#241e07" stroke="#FECF06" stroke-width="1.5" />
+  <text x="1750" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Diapositiva 2 / 7</text>
+
+  <!-- DIAGRAMA PRINCIPAL CAPA 1 -->
+  <rect x="40" y="145" width="1840" height="630" rx="16" fill="#0b0e17" stroke="#253246" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- 1. Lanzador BAT -->
+  <g transform="translate(70, 180)" filter="url(#shadow)">
+    <rect width="440" height="560" rx="14" fill="url(#gradBat)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="20" y="20" width="400" height="40" rx="8" fill="#524203"/>
+    <text x="220" y="46" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">🚀 orquestador_JullBrain.bat</text>
+    <text x="220" y="82" text-anchor="middle" font-size="11" fill="#00FF41">Controlador y Lanzador Principal en CMD Windows</text>
+
+    <!-- Pasos BAT -->
+    <rect x="25" y="105" width="390" height="70" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1"/>
+    <text x="40" y="130" font-size="11" font-weight="bold" fill="#FECF06">Paso 1: Verificación de Entorno</text>
+    <text x="40" y="150" font-size="10" fill="#a0aec0">• Comprueba existencia de `docling_env\`</text>
+    <text x="40" y="164" font-size="10" fill="#a0aec0">• Activa venv: `docling_env\Scripts\activate`</text>
+
+    <rect x="25" y="190" width="390" height="70" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1"/>
+    <text x="40" y="215" font-size="11" font-weight="bold" fill="#FECF06">Paso 2: Inicialización de Server Web</text>
+    <text x="40" y="235" font-size="10" fill="#a0aec0">• Ejecuta `python app.py` en segundo plano</text>
+    <text x="40" y="249" font-size="10" fill="#a0aec0">• Escucha peticiones HTTP en `127.0.0.1:8050`</text>
+
+    <rect x="25" y="275" width="390" height="70" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1"/>
+    <text x="40" y="300" font-size="11" font-weight="bold" fill="#FECF06">Paso 3: Apertura Automática de Navegador</text>
+    <text x="40" y="320" font-size="10" fill="#a0aec0">• Lanza `start http://127.0.0.1:8050`</text>
+    <text x="40" y="334" font-size="10" fill="#a0aec0">• Renderiza Dashboard Cyber-Legal instantáneamente</text>
+
+    <rect x="25" y="360" width="390" height="90" rx="8" fill="#121824" stroke="#FF4B4B" stroke-width="1.5"/>
+    <text x="40" y="385" font-size="11" font-weight="bold" fill="#FF4B4B">Paso 4: Captura de Evento de Cierre (Trap)</text>
+    <text x="40" y="405" font-size="10" fill="#a0aec0">• Detecta presionado de `Ctrl+C` o cierre de ventana</text>
+    <text x="40" y="420" font-size="10" fill="#a0aec0">• Invoca inmediatamente a `python cleanup.py`</text>
+    <text x="40" y="435" font-size="10" fill="#FF4B4B">• Garantiza que ningún proceso Python quede huérfano</text>
+
+    <!-- Banner Banner ASCII -->
+    <rect x="25" y="465" width="390" height="70" rx="8" fill="#0d111a" stroke="#253246" stroke-width="1"/>
+    <text x="220" y="495" text-anchor="middle" font-size="10" fill="#FECF06">Principio 9: Encabezado idéntico al banner CMD</text>
+    <text x="220" y="515" text-anchor="middle" font-size="9" fill="#00FF41">Footer Vacío en salidas Markdown procesadas</text>
+  </g>
+
+  <!-- Flecha BAT -> Dash UI -->
+  <path d="M 510 460 L 565 460" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+
+  <!-- 2. Dashboard app.py -->
+  <g transform="translate(565, 180)" filter="url(#shadow)">
+    <rect width="820" height="560" rx="14" fill="url(#gradDash)" stroke="#00FF41" stroke-width="2"/>
+    <rect x="20" y="20" width="780" height="40" rx="8" fill="#092415"/>
+    <text x="410" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#00FF41">🖥️ app.py — Panel Visual Web (Plotly Dash + Dash Bootstrap Components)</text>
+
+    <!-- Monitores CPU/RAM Header -->
+    <g transform="translate(30, 75)">
+      <rect width="230" height="45" rx="8" fill="#121824" stroke="#00CFFF" stroke-width="1"/>
+      <text x="115" y="22" text-anchor="middle" font-size="10" font-weight="bold" fill="#00CFFF">💻 CPU USAGE MONITOR</text>
+      <text x="115" y="38" text-anchor="middle" font-size="10" fill="#00FF41">Intel Core i5 (8 Threads) | 28%</text>
+
+      <rect x="255" y="0" width="230" height="45" rx="8" fill="#121824" stroke="#00FF41" stroke-width="1"/>
+      <text x="370" y="22" text-anchor="middle" font-size="10" font-weight="bold" fill="#00FF41">🧠 RAM MEMORY BADGE</text>
+      <text x="370" y="38" text-anchor="middle" font-size="10" fill="#FECF06">8.4 GB / 15.8 GB (53%)</text>
+
+      <rect x="510" y="0" width="240" height="45" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1"/>
+      <text x="630" y="22" text-anchor="middle" font-size="10" font-weight="bold" fill="#FECF06">📡 TERMINAL LOG STREAM</text>
+      <text x="630" y="38" text-anchor="middle" font-size="10" fill="#00CFFF">Tail conversion.log in Real-Time</text>
+    </g>
+
+    <!-- 7 Módulos del Dashboard Grid -->
+    <g transform="translate(30, 135)">
+      <!-- Tab 1 -->
+      <rect x="0" y="0" width="240" height="115" rx="8" fill="#0b1019" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="25" font-size="11" font-weight="bold" fill="#FECF06">1. 🏛️ Arquitectura &amp; KPIs</text>
+      <text x="15" y="45" font-size="9" fill="#a0aec0">• Resumen del Corpus Legal</text>
+      <text x="15" y="60" font-size="9" fill="#a0aec0">• Diagrama de Fases Activo</text>
+      <text x="15" y="75" font-size="9" fill="#a0aec0">• KPIs de Artículos Procesados</text>
+      <text x="15" y="90" font-size="9" fill="#00FF41">• Monitor de Compatibilidad</text>
+
+      <!-- Tab 2 -->
+      <rect x="255" y="0" width="240" height="115" rx="8" fill="#0b1019" stroke="#00FF41" stroke-width="1"/>
+      <text x="270" y="25" font-size="11" font-weight="bold" fill="#00FF41">2. 🚀 Orquestar Conversiones</text>
+      <text x="270" y="45" font-size="9" fill="#a0aec0">• Carga Drag &amp; Drop (PDF/Word)</text>
+      <text x="270" y="60" font-size="9" fill="#a0aec0">• Selector de OCR (On/Off)</text>
+      <text x="270" y="75" font-size="9" fill="#a0aec0">• Progress Bar interactiva (Rich)</text>
+      <text x="270" y="90" font-size="9" fill="#FECF06">• Botón de Parada (Abort Batch)</text>
+
+      <!-- Tab 3 -->
+      <rect x="510" y="0" width="250" height="115" rx="8" fill="#0b1019" stroke="#FF4B4B" stroke-width="1"/>
+      <text x="525" y="25" font-size="11" font-weight="bold" fill="#FF4B4B">3. 🔍 Integridad &amp; Reportes</text>
+      <text x="525" y="45" font-size="9" fill="#a0aec0">• Auditoría de Artículos Faltantes</text>
+      <text x="525" y="60" font-size="9" fill="#a0aec0">• Alertas de Saltos en Secuencia</text>
+      <text x="525" y="75" font-size="9" fill="#a0aec0">• Comparativa Regex vs PyMuPDF</text>
+      <text x="525" y="90" font-size="9" fill="#00FF41">• Exportación de Reporte PDF/CSV</text>
+
+      <!-- Tab 4 -->
+      <rect x="0" y="130" width="240" height="115" rx="8" fill="#0b1019" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="155" font-size="11" font-weight="bold" fill="#FECF06">4. 📜 Cadena de Custodia</text>
+      <text x="15" y="175" font-size="9" fill="#a0aec0">• Trazabilidad Criptográfica</text>
+      <text x="15" y="190" font-size="9" fill="#a0aec0">• Verificación Hashes SHA-256</text>
+      <text x="15" y="205" font-size="9" fill="#a0aec0">• Descarga de Actas en TXT</text>
+      <text x="15" y="220" font-size="9" fill="#00FF41">• Log Forense ISO 27037/27042</text>
+
+      <!-- Tab 5 -->
+      <rect x="255" y="130" width="240" height="115" rx="8" fill="#0b1019" stroke="#00CFFF" stroke-width="1"/>
+      <text x="270" y="155" font-size="11" font-weight="bold" fill="#00CFFF">5. ✏️ Editor de Leyes RAG</text>
+      <text x="270" y="175" font-size="9" fill="#a0aec0">• Editor de Código Ace Markdown</text>
+      <text x="270" y="190" font-size="9" fill="#a0aec0">• Resaltado de Sintaxis Legal</text>
+      <text x="270" y="205" font-size="9" fill="#a0aec0">• Edición directa de YAML</text>
+      <text x="270" y="220" font-size="9" fill="#00FF41">• Guardado con re-hash instantáneo</text>
+
+      <!-- Tab 6 -->
+      <rect x="510" y="130" width="250" height="115" rx="8" fill="#0b1019" stroke="#00CFFF" stroke-width="1"/>
+      <text x="525" y="155" font-size="11" font-weight="bold" fill="#00CFFF">6. 🧬 Granite Embeddings</text>
+      <text x="525" y="175" font-size="9" fill="#a0aec0">• Health Check de Granite R2</text>
+      <text x="525" y="190" font-size="9" fill="#a0aec0">• Test de Distancia Coseno</text>
+      <text x="525" y="205" font-size="9" fill="#a0aec0">• Botón "Embeber Chunks JSON"</text>
+      <text x="525" y="220" font-size="9" fill="#FECF06">• Guía de Ingesta RAGFlow</text>
+
+      <!-- Tab 7 -->
+      <rect x="0" y="260" width="760" height="115" rx="8" fill="#0b1019" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="285" font-size="11" font-weight="bold" fill="#FECF06">7. ⚙️ Ajustes del Pipeline — Configuración Persistente (`pipeline_config.json` — Principio 11)</text>
+      <text x="15" y="305" font-size="9" fill="#a0aec0">• Umbrales de Calidad Críticos (`quality_threshold_critical: 0.90`) | Mínimo Caracteres Artículo (`min_article_chars: 50`)</text>
+      <text x="15" y="320" font-size="9" fill="#a0aec0">• Modelo Inferencia Ollama (`granite4.1:8b`) | Temperatura Jurídica (`granite_temperature: 0.15`)</text>
+      <text x="15" y="335" font-size="9" fill="#a0aec0">• Modelo Embedding Activo (`granite-embedding-english-r2`) | Batch Size (`32`) | Device (`cpu`)</text>
+      <text x="15" y="355" font-size="10" font-weight="bold" fill="#00FF41">✔ Toda modificación realizada en el Panel se guarda inmediatamente en `pipeline_config.json` sin reiniciar el servidor.</text>
+    </g>
+  </g>
+
+  <!-- Flecha Dash UI -> Cleanup -->
+  <path d="M 1385 460 L 1440 460" fill="none" stroke="#FF4B4B" stroke-width="3" stroke-dasharray="6,3" marker-end="url(#arrowRed)" />
+
+  <!-- 3. Cleanup Handler -->
+  <g transform="translate(1440, 180)" filter="url(#shadow)">
+    <rect width="410" height="560" rx="14" fill="url(#gradCleanup)" stroke="#FF4B4B" stroke-width="2"/>
+    <rect x="20" y="20" width="370" height="40" rx="8" fill="#52151a"/>
+    <text x="205" y="46" text-anchor="middle" font-size="14" font-weight="bold" fill="#FF4B4B">🧹 cleanup.py (Handler Exit)</text>
+    <text x="205" y="82" text-anchor="middle" font-size="11" fill="#00FF41">Gestor Forense de Recursos al Cierre</text>
+
+    <rect x="25" y="110" width="360" height="120" rx="8" fill="#121824" stroke="#FF4B4B" stroke-width="1"/>
+    <text x="40" y="135" font-size="11" font-weight="bold" fill="#FECF06">Acción 1: Purga de Caché Temporal</text>
+    <text x="40" y="155" font-size="10" fill="#a0aec0">• Elimina archivos residuales de `.conversion_cache/`</text>
+    <text x="40" y="170" font-size="10" fill="#a0aec0">• Borra PDFs temporales desatendidos</text>
+    <text x="40" y="185" font-size="10" fill="#a0aec0">• Conserva exclusivamente `manifest.json` validados</text>
+    <text x="40" y="200" font-size="10" fill="#00FF41">• Aplica Principio 6 (Purga Automática)</text>
+
+    <rect x="25" y="250" width="360" height="120" rx="8" fill="#121824" stroke="#FF4B4B" stroke-width="1"/>
+    <text x="40" y="275" font-size="11" font-weight="bold" fill="#FECF06">Acción 2: Liberación de Memoria RAM</text>
+    <text x="40" y="295" font-size="10" fill="#a0aec0">• Invoca garbage collector de Python: `gc.collect()`</text>
+    <text x="40" y="310" font-size="10" fill="#a0aec0">• Descarga modelos de memoria RAM/VRAM</text>
+    <text x="40" y="325" font-size="10" fill="#a0aec0">• Cierra manejadores de archivos PyMuPDF/Docling</text>
+    <text x="40" y="340" font-size="10" fill="#00FF41">• Evita fugas de memoria en sesiones prolongadas</text>
+
+    <rect x="25" y="390" width="360" height="135" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1"/>
+    <text x="40" y="415" font-size="11" font-weight="bold" fill="#FECF06">Acción 3: Registro Forense de Cierre</text>
+    <text x="40" y="435" font-size="10" fill="#a0aec0">• Escribe timestamp final en `logs/audit_trail.log`</text>
+    <text x="40" y="450" font-size="10" fill="#a0aec0">• Registra estado de cierre: SUCCESS / INTERRUPTED</text>
+    <text x="40" y="465" font-size="10" fill="#a0aec0">• Preserva cadena de custodia del corpus legal</text>
+    <text x="40" y="480" font-size="10" fill="#00FF41">• Cierre limpio validado sin excepciones</text>
+  </g>
+
+  <!-- LEYENDA TÉCNICA DE TAREAS -->
+  <g transform="translate(40, 790)" filter="url(#shadow)">
+    <rect width="1840" height="225" rx="14" fill="#0d111a" stroke="#253246" stroke-width="1.5"/>
+    <text x="70" y="820" font-size="14" font-weight="bold" fill="#FECF06">📋 LEYENDA DETALLADA DE TAREAS — CAPA 1: CONTROL DE CICLO DE VIDA Y DASHBOARD</text>
+    <line x1="70" y1="830" x2="1810" y2="830" stroke="#253246" />
+
+    <g transform="translate(70, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea A — Automatización de Inicio (`.bat`):</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">Previene la apertura manual de consolas; verifica dependencias, activa el entorno virtual de Python aislando las librerías</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">e inicia el servidor HTTP de Plotly Dash en el puerto 8050 abriendo el navegador predeterminado del sistema.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea B — Experiencia de Usuario &amp; Monitoreo (`app.py`):</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">Brinda al operador jurídico/técnico 7 pestañas de control con estética Cyber-Legal HSL, KPIs del corpus en tiempo real,</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">monitorización de CPU/RAM, terminal de logs en vivo y edición interactiva de configuraciones y archivos Markdown.</text>
+    </g>
+
+    <g transform="translate(950, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea C — Gestión Cero-Residuos &amp; Seguridad (`cleanup.py`):</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">Intercepta la señal de cierre de la aplicación evitando corrupción de base de datos o archivos temporales huérfanos.</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">Elimina datos residuales de la memoria caché y ejecuta el recolector de basura de Python para liberar RAM de inmediato.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea D — Persistencia de Ajustes (`pipeline_config.json`):</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">Garantiza que cualquier parámetro cambiado desde el Dashboard (OCR, umbrales, Granite R2) quede grabado</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">de forma persistente para ejecuciones futuras (Cumplimiento del Principio 11 del proyecto).</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Architecture Spec V-2.1 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped Security Architecture</text>
+</svg>

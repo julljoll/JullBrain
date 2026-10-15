@@ -1,0 +1,229 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #080b12;">
+  <title>JullBrain — Formato 1: Encuesta de Fricción y Carga Operativa del Fiscal del Ministerio Público</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#332505" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <linearGradient id="gradBoxGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#332505" />
+      <stop offset="100%" stop-color="#1a1202" />
+    </linearGradient>
+
+    <linearGradient id="gradBoxBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#072738" />
+      <stop offset="100%" stop-color="#04141e" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- HEADER BANNER -->
+  <rect x="0" y="0" width="1920" height="90" fill="url(#gradHeader)" />
+  <line x1="0" y1="90" x2="1920" y2="90" stroke="#334155" stroke-width="2" />
+
+  <!-- Badge DT Stage -->
+  <rect x="40" y="18" width="220" height="54" rx="8" fill="#facc15" filter="url(#shadow)" />
+  <text x="52" y="40" fill="#080b12" font-size="12" font-weight="900" letter-spacing="1">TÉCNICA 1: ENCUESTA MP</text>
+  <text x="52" y="58" fill="#713f12" font-size="12" font-weight="800">FISCALÍA Y INVESTIGACIÓN</text>
+
+  <!-- Title -->
+  <text x="280" y="40" fill="#F8FAFC" font-size="20" font-weight="800">CUESTIONARIO DE DIAGNÓSTICO DE FRICCIÓN Y CARGA FISCAL (COPP ART. 265 / 308)</text>
+  <text x="280" y="62" fill="#94A3B8" font-size="13" font-weight="500">Instrumento enfocado en las funciones de la Fiscalía del Ministerio Público para fundamentar acusaciones penales e investigación</text>
+
+  <!-- Profile metadata header box -->
+  <g transform="translate(1360, 16)">
+    <rect x="0" y="0" width="520" height="58" rx="8" fill="#1e293b" stroke="#facc15" stroke-width="1.5" />
+    <text x="16" y="24" fill="#facc15" font-size="11" font-weight="800">PERFIL DEL FISCAL RESPONDIENTE:</text>
+    <text x="16" y="44" fill="#CBD5E1" font-size="10">Fiscalía: ___________________ Fiscal Proceso / Auxiliar / Especial</text>
+    <text x="360" y="24" fill="#94A3B8" font-size="10">Circuito Penal: _________</text>
+    <text x="360" y="44" fill="#94A3B8" font-size="10">Causas en curso: ________</text>
+  </g>
+
+  <!-- SECTION 1: LIKERT SCALES FOR PROSECUTOR FUNCTIONS -->
+  <text x="40" y="122" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">SECCIÓN A: ESCALA DE LIKERT — FRICCIÓN EN LA INVESTIGACIÓN PENAL Y REDACCIÓN DE ACUSACIÓN (ART. 308 COPP)</text>
+
+  <g transform="translate(40, 138)">
+    <rect x="0" y="0" width="1840" height="310" rx="12" fill="url(#gradBoxGold)" stroke="#FECF06" stroke-width="1.5" filter="url(#shadow)" />
+    
+    <!-- Scale Legend Header -->
+    <rect x="0" y="0" width="1840" height="36" rx="12" fill="#FECF06" opacity="0.2" />
+    <text x="20" y="23" fill="#FDE047" font-size="12" font-weight="800">EVALUACIÓN DE FUNCIONES FISCALES (Marque del 1 al 5 donde 1 = Muy Bajo / Nulo y 5 = Muy Alto / Crítico)</text>
+
+    <!-- Header columns -->
+    <text x="1250" y="23" fill="#FEF08A" font-size="11" font-weight="800" text-anchor="middle">1 (Muy Bajo)</text>
+    <text x="1370" y="23" fill="#FEF08A" font-size="11" font-weight="800" text-anchor="middle">2 (Bajo)</text>
+    <text x="1490" y="23" fill="#FEF08A" font-size="11" font-weight="800" text-anchor="middle">3 (Moderado)</text>
+    <text x="1610" y="23" fill="#FEF08A" font-size="11" font-weight="800" text-anchor="middle">4 (Alto)</text>
+    <text x="1730" y="23" fill="#FEF08A" font-size="11" font-weight="800" text-anchor="middle">5 (Muy Alto)</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(20, 52)">
+      <text x="0" y="20" fill="#FFFFFF" font-size="11" font-weight="700">1. Tiempo invertido en analizar y cruzar actas policiales con dictámenes periciales (Balística, Medicina Legal, Telefonía):</text>
+      <text x="0" y="38" fill="#94A3B8" font-size="10">¿Qué tan complejo resulta extraer contradicciones o evidencias científicas clave en expedientes de más de 150 folios?</text>
+      
+      <circle cx="1230" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1230" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">1</text>
+      <circle cx="1350" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1350" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">2</text>
+      <circle cx="1470" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1470" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">3</text>
+      <circle cx="1590" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1590" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">4</text>
+      <circle cx="1710" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1710" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">5</text>
+      <line x1="0" y1="52" x2="1800" y2="52" stroke="#1e293b" />
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(20, 114)">
+      <text x="0" y="20" fill="#FFFFFF" font-size="11" font-weight="700">2. Fricción al estructurar la Acusación Fiscal (Art. 308 COPP) garantizando la licitud e imputación de tipos penales:</text>
+      <text x="0" y="38" fill="#94A3B8" font-size="10">¿Qué tan engorroso es tipejar manualmente la relación clara de los hechos, elementos de convicción y agravantes en cada causa?</text>
+
+      <circle cx="1230" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1230" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">1</text>
+      <circle cx="1350" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1350" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">2</text>
+      <circle cx="1470" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1470" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">3</text>
+      <circle cx="1590" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1590" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">4</text>
+      <circle cx="1710" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1710" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">5</text>
+      <line x1="0" y1="52" x2="1800" y2="52" stroke="#1e293b" />
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(20, 176)">
+      <text x="0" y="20" fill="#FFFFFF" font-size="11" font-weight="700">3. Riesgo de que la Acusación sea desestimada o declarada nula por errores de foliado o falta de una pieza probatoria:</text>
+      <text x="0" y="38" fill="#94A3B8" font-size="10">¿Con qué frecuencia la defensa o el Tribunal señalan vicios de forma en el expediente remitido por los organismos policiales?</text>
+
+      <circle cx="1230" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1230" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">1</text>
+      <circle cx="1350" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1350" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">2</text>
+      <circle cx="1470" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1470" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">3</text>
+      <circle cx="1590" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1590" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">4</text>
+      <circle cx="1710" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1710" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">5</text>
+      <line x1="0" y1="52" x2="1800" y2="52" stroke="#1e293b" />
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(20, 238)">
+      <text x="0" y="20" fill="#FFFFFF" font-size="11" font-weight="700">4. Utilidad de disponer de un Asistente RAG que sugiera jurisprudencia vinculante del TSJ y ancle citas COPP exactas:</text>
+      <text x="0" y="38" fill="#94A3B8" font-size="10">¿Qué tan valioso considera un motor que valide la fundamentación antes de presentar el escrito ante el Tribunal de Control?</text>
+
+      <circle cx="1230" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1230" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">1</text>
+      <circle cx="1350" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1350" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">2</text>
+      <circle cx="1470" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1470" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">3</text>
+      <circle cx="1590" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1590" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">4</text>
+      <circle cx="1710" cy="24" r="14" fill="#0f172a" stroke="#facc15" stroke-width="1.5"/><text x="1710" y="28" fill="#facc15" font-size="11" font-weight="700" text-anchor="middle">5</text>
+    </g>
+  </g>
+
+
+  <!-- SECTION 2: PAIN RANKING FOR PROSECUTOR -->
+  <text x="40" y="478" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">SECCIÓN B: MATRIZ DE PRIORIZACIÓN DE DOLORES EN LA FISCALÍA DEL MINISTERIO PÚBLICO (Ordene de 1 a 4)</text>
+
+  <g transform="translate(40, 492)">
+    <rect x="0" y="0" width="1840" height="215" rx="12" fill="url(#gradBoxBlue)" stroke="#00CFFF" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="1840" height="34" rx="12" fill="#00CFFF" opacity="0.2" />
+    <text x="20" y="22" fill="#38BDF8" font-size="12" font-weight="800">¿CUÁL DE ESTOS RIESGOS AFECTA MÁS SU EFECTIVIDAD EN LA FASE PREPARATORIA? (1 = Mayor impacto negativo, 4 = Menor impacto)</text>
+
+    <!-- Option A -->
+    <g transform="translate(20, 48)">
+      <rect x="0" y="0" width="430" height="145" rx="8" fill="#072738" stroke="#00cfff" stroke-width="1" />
+      <rect x="15" y="15" width="28" height="28" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="29" y="34" fill="#38bdf8" font-size="14" font-weight="900" text-anchor="middle">[  ]</text>
+      <text x="54" y="32" fill="#7DD3FC" font-size="11" font-weight="800">DOLOR A: EXPEDIENTES INCOMPLETOS</text>
+      <text x="15" y="58" fill="#CBD5E1" font-size="9.5">• Actas policiales o remisiones del CICPC con vicios de origen.</text>
+      <text x="15" y="74" fill="#CBD5E1" font-size="9.5">• Cadena de custodia digital o física mal documentada.</text>
+      <text x="15" y="90" fill="#CBD5E1" font-size="9.5">• Riesgo de impugnación de licitud por la defensa.</text>
+      <text x="15" y="118" fill="#38BDF8" font-size="9.5" font-weight="700">Impacto: Debilitamiento de los elementos de convicción.</text>
+    </g>
+
+    <!-- Option B -->
+    <g transform="translate(475, 48)">
+      <rect x="0" y="0" width="430" height="145" rx="8" fill="#072738" stroke="#00cfff" stroke-width="1" />
+      <rect x="15" y="15" width="28" height="28" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="29" y="34" fill="#38bdf8" font-size="14" font-weight="900" text-anchor="middle">[  ]</text>
+      <text x="54" y="32" fill="#7DD3FC" font-size="11" font-weight="800">DOLOR B: ANÁLISIS PERICIAL LENTO</text>
+      <text x="15" y="58" fill="#CBD5E1" font-size="9.5">• Lentitud para cotejar declaraciones vs autopsias y balística.</text>
+      <text x="15" y="74" fill="#CBD5E1" font-size="9.5">• Imposibilidad de resumir rápidamente evidencias extensas.</text>
+      <text x="15" y="90" fill="#CBD5E1" font-size="9.5">• Vencimiento de plazos de investigación (COPP Art. 295/296).</text>
+      <text x="15" y="118" fill="#38BDF8" font-size="9.5" font-weight="700">Impacto: Solicitudes de prórroga obligadas o archivo fiscal.</text>
+    </g>
+
+    <!-- Option C -->
+    <g transform="translate(930, 48)">
+      <rect x="0" y="0" width="430" height="145" rx="8" fill="#072738" stroke="#00cfff" stroke-width="1" />
+      <rect x="15" y="15" width="28" height="28" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="29" y="34" fill="#38bdf8" font-size="14" font-weight="900" text-anchor="middle">[  ]</text>
+      <text x="54" y="32" fill="#7DD3FC" font-size="11" font-weight="800">DOLOR C: REDACCIÓN REPETITIVA</text>
+      <text x="15" y="58" fill="#CBD5E1" font-size="9.5">• Consumo de horas en tipear acusaciones y escritos formales.</text>
+      <text x="15" y="74" fill="#CBD5E1" font-size="9.5">• Transcripción de datos de imputados y delincuentes a mano.</text>
+      <text x="15" y="90" fill="#CBD5E1" font-size="9.5">• Resta tiempo a la función sustantiva de investigar.</text>
+      <text x="15" y="118" fill="#38BDF8" font-size="9.5" font-weight="700">Impacto: Sobrecarga laboral y cuellos de botella en la Fiscalía.</text>
+    </g>
+
+    <!-- Option D -->
+    <g transform="translate(1385, 48)">
+      <rect x="0" y="0" width="435" height="145" rx="8" fill="#072738" stroke="#00cfff" stroke-width="1" />
+      <rect x="15" y="15" width="28" height="28" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="29" y="34" fill="#38bdf8" font-size="14" font-weight="900" text-anchor="middle">[  ]</text>
+      <text x="54" y="32" fill="#7DD3FC" font-size="11" font-weight="800">DOLOR D: RIESGO DE ALUCINACIÓN EN IA</text>
+      <text x="15" y="58" fill="#CBD5E1" font-size="9.5">• Temor a que un software cite artículos COPP derogados o falsos.</text>
+      <text x="15" y="74" fill="#CBD5E1" font-size="9.5">• Preocupación por la filtración de secretos de sumario a la nube.</text>
+      <text x="15" y="90" fill="#CBD5E1" font-size="9.5">• Falta de anclaje directo a la Gaceta Oficial Venezolana.</text>
+      <text x="15" y="118" fill="#38BDF8" font-size="9.5" font-weight="700">Impacto: Negativa a usar herramientas de IA no certificadas.</text>
+    </g>
+  </g>
+
+
+  <!-- SECTION 3: QUALITATIVE PROSECUTOR QUESTIONS -->
+  <text x="40" y="730" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">SECCIÓN C: NECESIDADES CUALITATIVAS DE LA FISCALÍA Y CONDICIONES DE ADOPCIÓN DE LA IA</text>
+
+  <g transform="translate(40, 745)">
+    <rect x="0" y="0" width="1840" height="295" rx="12" fill="url(#gradCardDark)" stroke="#10B981" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="1840" height="34" rx="12" fill="#047857" />
+    <text x="20" y="22" fill="#FFFFFF" font-size="12" font-weight="800">ENTREVISTA CUALITATIVA PARA EL FISCAL DEL MINISTERIO PÚBLICO</text>
+
+    <!-- Field 1 -->
+    <g transform="translate(20, 48)">
+      <rect x="0" y="0" width="890" height="108" rx="8" fill="#022c22" stroke="#10b981" stroke-width="1" />
+      <text x="15" y="22" fill="#6EE7B7" font-size="11" font-weight="800">1. Como Fiscal del MP, ¿qué evidencia exige para confiar en que un borrador de acusación no vulnera la norma?</text>
+      <text x="15" y="40" fill="#94A3B8" font-size="10">(Ej. Semáforo Verde de anclaje, trazabilidad al artículo COPP exacto, Hash SHA-256 de las actas de investigación)</text>
+      
+      <line x1="15" y1="62" x2="875" y2="62" stroke="#1e293b" stroke-dasharray="4,4" />
+      <line x1="15" y1="84" x2="875" y2="84" stroke="#1e293b" stroke-dasharray="4,4" />
+      <text x="20" y="78" fill="#64748B" font-size="10" font-style="italic">Respuesta del Fiscal sobre garantías de legalidad y rigor normativo...</text>
+    </g>
+
+    <!-- Field 2 -->
+    <g transform="translate(930, 48)">
+      <rect x="0" y="0" width="890" height="108" rx="8" fill="#022c22" stroke="#10b981" stroke-width="1" />
+      <text x="15" y="22" fill="#6EE7B7" font-size="11" font-weight="800">2. Si JullBrain RAG extrae y audita la prueba pericial en &lt; 3 min, ¿cómo impacta la efectividad de la Fiscalía?</text>
+      <text x="15" y="40" fill="#94A3B8" font-size="10">(Aumento de acusaciones sólidas presentadas a tiempo, reducción de archivos fiscales indebidos, agilización en audiencia)</text>
+
+      <line x1="15" y1="62" x2="875" y2="62" stroke="#1e293b" stroke-dasharray="4,4" />
+      <line x1="15" y1="84" x2="875" y2="84" stroke="#1e293b" stroke-dasharray="4,4" />
+      <text x="20" y="78" fill="#64748B" font-size="10" font-style="italic">Impacto esperado en la gestión de la investigación penal...</text>
+    </g>
+
+    <!-- Field 3 (Bottom Full Width) -->
+    <g transform="translate(20, 168)">
+      <rect x="0" y="0" width="1800" height="112" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="15" y="22" fill="#38BDF8" font-size="11" font-weight="800">3. Recomendaciones específicas para adaptar la interfaz visual a las funciones del Fiscal del Ministerio Público:</text>
+      <text x="15" y="40" fill="#94A3B8" font-size="10">(Alertas de prescripción procesal, matriz de admisibilidad de pruebas del MP, calculador de Admisión de Hechos Art. 375)</text>
+
+      <line x1="15" y1="64" x2="1785" y2="64" stroke="#1e293b" stroke-dasharray="4,4" />
+      <line x1="15" y1="88" x2="1785" y2="88" stroke="#1e293b" stroke-dasharray="4,4" />
+      <text x="20" y="80" fill="#64748B" font-size="10" font-style="italic">Sugerencias de diseño y funcionalidades para la Fiscalía MP...</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <rect x="0" y="1055" width="1920" height="25" fill="#090d16" />
+  <line x1="0" y1="1055" x2="1920" y2="1055" stroke="#1e293b" stroke-width="1" />
+  <text x="40" y="1072" fill="#64748B" font-size="11" font-weight="500">JullBrain Legal-RAG — Instrumento 1 (Especializado MP): Encuesta de Fricción Operativa para el Fiscal del Ministerio Público</text>
+  <text x="1880" y="1072" fill="#64748B" font-size="11" font-weight="500" text-anchor="end">Fase 01: Empatizar &amp; Comprender | COPP Art. 11, 265, 308</text>
+
+</svg>

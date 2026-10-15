@@ -1,0 +1,263 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', sans-serif; background-color: #080b12;">
+  <title>JullBrain — Diapositiva 1: Visión General &amp; Mapa Ejecutivo de Capas</title>
+
+  <defs>
+    <!-- Gradientes de Fondo y Tarjetas -->
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161c27" />
+      <stop offset="50%" stop-color="#241e07" />
+      <stop offset="100%" stop-color="#161c27" />
+    </linearGradient>
+
+    <linearGradient id="gradCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#121a29" />
+    </linearGradient>
+
+    <linearGradient id="gradCardGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241e07" />
+      <stop offset="100%" stop-color="#151206" />
+    </linearGradient>
+
+    <linearGradient id="gradCardCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051c2c" />
+      <stop offset="100%" stop-color="#0a2b42" />
+    </linearGradient>
+
+    <linearGradient id="gradCardGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b2416" />
+      <stop offset="100%" stop-color="#06140b" />
+    </linearGradient>
+
+    <!-- Filtro de Sombra -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+
+    <!-- Marcadores de Flechas -->
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00CFFF" />
+    </marker>
+  </defs>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- HEADER BAR                                                          -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect x="40" y="30" width="1840" height="90" rx="14" fill="url(#gradHeader)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+  
+  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">JULLBRAIN LEGAL-RAG — V-2.1</text>
+  <text x="70" y="94" font-size="14" fill="#00FF41">Visión General y Mapa Ejecutivo de Capas del Pipeline Air-Gapped</text>
+
+  <!-- Pill de Diapositiva -->
+  <rect x="1650" y="52" width="200" height="46" rx="23" fill="#241e07" stroke="#FECF06" stroke-width="1.5" />
+  <text x="1750" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Diapositiva 1 / 7</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- LÍMITE ENTORNO VIRTUAL NATIVO                                        -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect x="40" y="145" width="1840" height="630" rx="16" fill="#0b0e17" stroke="#253246" stroke-width="2" stroke-dasharray="8,4" filter="url(#shadow)"/>
+  <text x="70" y="175" font-size="14" font-weight="bold" fill="#FECF06">ENTORNO VIRTUAL NATIVO AISLADO — docling_env (Python 3.12 · IBM Docling + PyTorch + Granite Embedding R2)</text>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- 5 CAPAS PRINCIPALES DEL PIPELINE                                   -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+  <!-- CAPA 1: Control & UI -->
+  <g transform="translate(70, 200)" filter="url(#shadow)">
+    <rect width="320" height="540" rx="14" fill="url(#gradCardGold)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="15" y="15" width="290" height="35" rx="8" fill="#382d03" />
+    <text x="160" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">CAPA 1: CONTROL &amp; UI</text>
+    
+    <!-- Subbloques -->
+    <rect x="20" y="65" width="280" height="110" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1"/>
+    <text x="35" y="90" font-size="12" font-weight="bold" fill="#FECF06">orquestador_JullBrain.bat</text>
+    <text x="35" y="112" font-size="10" fill="#00FF41">• Lanzador CMD con admin</text>
+    <text x="35" y="128" font-size="10" fill="#00FF41">• Activa entorno docling_env</text>
+    <text x="35" y="144" font-size="10" fill="#00FF41">• Auto-launch en puerto 8050</text>
+
+    <rect x="20" y="190" width="280" height="210" rx="8" fill="#121824" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="35" y="215" font-size="12" font-weight="bold" fill="#00FF41">app.py (Plotly Dash)</text>
+    <text x="35" y="235" font-size="10" fill="#a0aec0">Panel Visual Cyber-Legal 7 Módulos:</text>
+    <text x="35" y="255" font-size="10" fill="#00FF41">1. Arquitectura &amp; KPIs</text>
+    <text x="35" y="271" font-size="10" fill="#00FF41">2. Orquestar Conversiones</text>
+    <text x="35" y="287" font-size="10" fill="#00FF41">3. Reportes de Integridad</text>
+    <text x="35" y="303" font-size="10" fill="#00FF41">4. Cadena de Custodia</text>
+    <text x="35" y="319" font-size="10" fill="#00FF41">5. Editor RAG Ace</text>
+    <text x="35" y="335" font-size="10" fill="#00FF41">6. Test Embeddings Granite</text>
+    <text x="35" y="351" font-size="10" fill="#00FF41">7. Ajustes del Pipeline</text>
+    <text x="35" y="380" font-size="10" fill="#00CFFF">📡 Live logs Stream (conversion.log)</text>
+
+    <rect x="20" y="415" width="280" height="105" rx="8" fill="#121824" stroke="#FF4B4B" stroke-width="1"/>
+    <text x="35" y="440" font-size="12" font-weight="bold" fill="#FF4B4B">cleanup.py (Handler Exit)</text>
+    <text x="35" y="462" font-size="10" fill="#00FF41">• Captura eventos de cierre</text>
+    <text x="35" y="478" font-size="10" fill="#00FF41">• Purga .conversion_cache/</text>
+    <text x="35" y="494" font-size="10" fill="#00FF41">• Liberación RAM (gc.collect)</text>
+  </g>
+
+  <!-- Flecha Capa 1 -> Capa 2 -->
+  <path d="M 390 470 L 430 470" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+
+  <!-- CAPA 2: Ingesta & Docling Engine -->
+  <g transform="translate(430, 200)" filter="url(#shadow)">
+    <rect width="320" height="540" rx="14" fill="url(#gradCardDark)" stroke="#00FF41" stroke-width="2"/>
+    <rect x="15" y="15" width="290" height="35" rx="8" fill="#062412" />
+    <text x="160" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00FF41">CAPA 2: INGESTA &amp; DOCLING</text>
+
+    <rect x="20" y="65" width="280" height="150" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+    <text x="35" y="90" font-size="12" font-weight="bold" fill="#FECF06">📥 Fuentes Origen</text>
+    <text x="35" y="112" font-size="10" fill="#00FF41">normativas_pdf/</text>
+    <text x="35" y="128" font-size="9" fill="#a0aec0">• PDFs Leyes Venezolanas</text>
+    <text x="35" y="142" font-size="9" fill="#a0aec0">• PDFs Escaneados &amp; Img (OCR)</text>
+    <text x="35" y="162" font-size="10" fill="#00FF41">formatos_word/</text>
+    <text x="35" y="178" font-size="9" fill="#a0aec0">• Documentos .doc / .docx</text>
+
+    <rect x="20" y="230" width="280" height="290" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="35" y="255" font-size="12" font-weight="bold" fill="#00FF41">IBM Docling Engine</text>
+    <text x="35" y="275" font-size="10" fill="#a0aec0">Motor de Visión &amp; Estructura:</text>
+    <text x="35" y="300" font-size="10" fill="#FECF06">• Reconocimiento de Layout</text>
+    <text x="35" y="320" font-size="10" fill="#FECF06">• Extracción de Tablas</text>
+    <text x="35" y="340" font-size="10" fill="#FECF06">• EasyOCR / Tesseract OCR</text>
+    <text x="35" y="360" font-size="10" fill="#FECF06">• HierarchicalChunker Nativo</text>
+    <line x1="35" y1="380" x2="285" y2="380" stroke="#253246" />
+    <text x="35" y="405" font-size="11" font-weight="bold" fill="#00CFFF">Caché SHA-256 Manifest</text>
+    <text x="35" y="425" font-size="9" fill="#a0aec0">• .conversion_cache/manifest.json</text>
+    <text x="35" y="445" font-size="9" fill="#00FF41">• Salta PDFs procesados idénticos</text>
+    <text x="35" y="465" font-size="9" fill="#FF4B4B">• Reintento automático sin OCR</text>
+  </g>
+
+  <!-- Flecha Capa 2 -> Capa 3 -->
+  <path d="M 750 470 L 790 470" fill="none" stroke="#00FF41" stroke-width="3" marker-end="url(#arrowGreen)" />
+
+  <!-- CAPA 3: Pipeline Jurídico -->
+  <g transform="translate(790, 200)" filter="url(#shadow)">
+    <rect width="320" height="540" rx="14" fill="url(#gradCardDark)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="15" y="15" width="290" height="35" rx="8" fill="#382d03" />
+    <text x="160" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">CAPA 3: PIPELINE JURÍDICO</text>
+
+    <rect x="20" y="65" width="280" height="140" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+    <text x="35" y="90" font-size="11" font-weight="bold" fill="#00FF41">① legalizer.py</text>
+    <text x="35" y="110" font-size="10" fill="#FECF06">Parsing Jerárquico Atómico:</text>
+    <text x="35" y="128" font-size="9" fill="#a0aec0">• TÍTULO (H2) ➔ CAPÍTULO (H3)</text>
+    <text x="35" y="144" font-size="9" fill="#a0aec0">• SECCIÓN (H4) ➔ Artículo (H6)</text>
+    <text x="35" y="160" font-size="9" fill="#00FF41">• Tabla de Contenido (TOC MD)</text>
+
+    <rect x="20" y="215" width="280" height="130" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+    <text x="35" y="240" font-size="11" font-weight="bold" fill="#00FF41">② metadata_extractor.py</text>
+    <text x="35" y="260" font-size="10" fill="#FECF06">Inyección de Frontmatter YAML:</text>
+    <text x="35" y="278" font-size="9" fill="#a0aec0">• Gaceta Oficial, Fecha, Título</text>
+    <text x="35" y="294" font-size="9" fill="#a0aec0">• Hash Criptográfico SHA-256</text>
+    <text x="35" y="310" font-size="9" fill="#00FF41">• Metadata para Filtros RAG</text>
+
+    <rect x="20" y="355" width="280" height="165" rx="8" fill="#09101a" stroke="#FF4B4B" stroke-width="1.5"/>
+    <text x="35" y="380" font-size="11" font-weight="bold" fill="#FF4B4B">③ validator.py (Principio 10)</text>
+    <text x="35" y="400" font-size="10" fill="#FECF06">Doble Validación Cruzada:</text>
+    <text x="35" y="420" font-size="9" fill="#a0aec0">• Conteo Regex en Markdown</text>
+    <text x="35" y="436" font-size="9" fill="#a0aec0">VS Extracción directa PyMuPDF</text>
+    <text x="35" y="456" font-size="9" fill="#00FF41">• Reporte de Integridad Error Cero</text>
+    <text x="35" y="472" font-size="9" fill="#00FF41">• Detección de saltos/duplicados</text>
+  </g>
+
+  <!-- Flecha Capa 3 -> Capa 4 -->
+  <path d="M 1110 470 L 1150 470" fill="none" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
+
+  <!-- CAPA 4: Embeddings Granite R2 & Custodia -->
+  <g transform="translate(1150, 200)" filter="url(#shadow)">
+    <rect width="320" height="540" rx="14" fill="url(#gradCardCyan)" stroke="#00CFFF" stroke-width="2"/>
+    <rect x="15" y="15" width="290" height="35" rx="8" fill="#0a324a" />
+    <text x="160" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00CFFF">CAPA 4: VECTORIAL &amp; CUSTODIA</text>
+
+    <rect x="20" y="65" width="280" height="240" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1.5"/>
+    <text x="35" y="90" font-size="12" font-weight="bold" fill="#00CFFF">granite_embedder.py</text>
+    <text x="35" y="110" font-size="10" fill="#00FF41">Motor Embeddings Granite R2:</text>
+    <text x="35" y="130" font-size="9" fill="#a0aec0">• ibm-granite/multilingual-r2</text>
+    <text x="35" y="146" font-size="9" fill="#a0aec0">• Dimensión Vectorial: 768</text>
+    <text x="35" y="162" font-size="9" fill="#a0aec0">• Ventana Contexto: 32,768</text>
+    <text x="35" y="182" font-size="9" fill="#FECF06">• Backend: sentence-transformers</text>
+    <text x="35" y="198" font-size="9" fill="#FECF06">• Dispositivo: CPU (AVX-512)</text>
+    <line x1="35" y1="215" x2="285" y2="215" stroke="#253246" />
+    <text x="35" y="235" font-size="10" font-weight="bold" fill="#00FF41">Principio R7 Forense:</text>
+    <text x="35" y="255" font-size="9" fill="#a0aec0">Inyecta [float × 768] sin modificar</text>
+    <text x="35" y="271" font-size="9" fill="#a0aec0">ningún texto del chunk original.</text>
+
+    <rect x="20" y="315" width="280" height="205" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+    <text x="35" y="340" font-size="12" font-weight="bold" fill="#FECF06">📜 Cadena de Custodia ISO</text>
+    <text x="35" y="362" font-size="9" fill="#00FF41">• ISO/IEC 27037 &amp; 27042</text>
+    <text x="35" y="380" font-size="9" fill="#00FF41">• Trazabilidad SHA-256 inmutable</text>
+    <text x="35" y="398" font-size="9" fill="#00FF41">• Actas Digitales en TXT</text>
+    <text x="35" y="416" font-size="9" fill="#a0aec0">• Validez probatoria ante jurado</text>
+    <text x="35" y="434" font-size="9" fill="#a0aec0">• Reporte de anomalías de folios</text>
+  </g>
+
+  <!-- Flecha Capa 4 -> Capa 5 -->
+  <path d="M 1470 470 L 1510 470" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+
+  <!-- CAPA 5: RAGFlow & Inferencia LLM -->
+  <g transform="translate(1510, 200)" filter="url(#shadow)">
+    <rect width="330" height="540" rx="14" fill="url(#gradCardGold)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="15" y="15" width="300" height="35" rx="8" fill="#382d03" />
+    <text x="165" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">CAPA 5: RAGFLOW &amp; GRANITE LLM</text>
+
+    <rect x="20" y="65" width="290" height="200" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1.5"/>
+    <text x="35" y="90" font-size="12" font-weight="bold" fill="#FECF06">RAGFlow Vector Engine</text>
+    <text x="35" y="110" font-size="10" fill="#00FF41">Knowledge Base Air-Gapped:</text>
+    <text x="35" y="130" font-size="9" fill="#a0aec0">• Ingesta nativa de chunks JSON</text>
+    <text x="35" y="148" font-size="9" fill="#a0aec0">• Búsqueda Híbrida: BM25 +</text>
+    <text x="35" y="164" font-size="9" fill="#a0aec0">  Granite Vectors 768-dim</text>
+    <text x="35" y="184" font-size="9" fill="#00CFFF">• API REST: http://localhost:9380</text>
+    <text x="35" y="200" font-size="9" fill="#00FF41">• Filtros por Frontmatter YAML</text>
+
+    <rect x="20" y="275" width="290" height="245" rx="8" fill="#121824" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="35" y="300" font-size="12" font-weight="bold" fill="#00FF41">IBM Granite 4.1:8b Instruct</text>
+    <text x="35" y="320" font-size="10" fill="#FECF06">Motor de Inferencia Jurídica:</text>
+    <text x="35" y="340" font-size="9" fill="#a0aec0">• Backend: llama.cpp / Ollama</text>
+    <text x="35" y="358" font-size="9" fill="#a0aec0">• Temperatura Baja: T=0.15</text>
+    <text x="35" y="376" font-size="9" fill="#a0aec0">• Ventana Contexto: 128,000 tks</text>
+    <line x1="35" y1="392" x2="295" y2="392" stroke="#253246" />
+    <text x="35" y="412" font-size="10" font-weight="bold" fill="#FF4B4B">Gobernanza Anti-Alucinación:</text>
+    <text x="35" y="430" font-size="9" fill="#a0aec0">• Abstención Obligatoria ("No se halló")</text>
+    <text x="35" y="446" font-size="9" fill="#a0aec0">• Verificación de Citas Normativas</text>
+    <text x="35" y="462" font-size="9" fill="#00FF41">• "El sistema acelera, nunca sustituye"</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- LEYENDA EXPLICATIVA DE TAREAS (TASK LEGEND CARD)                     -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <g transform="translate(40, 790)" filter="url(#shadow)">
+    <rect width="1840" height="225" rx="14" fill="#0d111a" stroke="#253246" stroke-width="1.5"/>
+    <text x="70" y="820" font-size="14" font-weight="bold" fill="#FECF06">📋 LEYENDA TÉCNICA DE TAREAS Y FLUJO DE DATOS — VISIÓN GENERAL</text>
+    <line x1="70" y1="830" x2="1810" y2="830" stroke="#253246" />
+
+    <!-- Columna 1 -->
+    <g transform="translate(70, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea 1 — Inicialización &amp; UI:</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">`orquestador_JullBrain.bat` activa el entorno nativo `docling_env` y levanta `app.py` en puerto 8050.</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">Al cerrar la ventana CMD, `cleanup.py` purga la caché y fuerza la liberación de memoria RAM (`gc.collect()`).</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea 2 — Ingesta &amp; Chunking Estructural:</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">IBM Docling recibe PDFs/Word, aplica OCR (EasyOCR/Tesseract) y ejecuta `HierarchicalChunker` para emitir JSON.</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">Verifica hashes SHA-256 en `.conversion_cache/manifest.json` para omitir archivos sin modificaciones.</text>
+    </g>
+
+    <!-- Columna 2 -->
+    <g transform="translate(950, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea 3 — Parsing Jurídico &amp; Doble Validación:</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">`legalizer.py` detecta TÍTULO/CAPÍTULO/Artículo; `metadata_extractor.py` agrega el frontmatter YAML y hash.</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">`validator.py` ejecuta el Principio 10 (Doble validación cruzada Regex vs PyMuPDF) garantizando Error Cero.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea 4 &amp; 5 — Embeddings, RAGFlow e Inferencia LLM:</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">`granite_embedder.py` inyecta el vector float 768-dim (`granite-embedding-multilingual-r2`) manteniendo el texto intacto.</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">RAGFlow indexa en modo híbrido (BM25 + Vectores) e IBM Granite 4.1:8b genera respuestas jurídicas fundamentadas.</text>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- FOOTER BAR                                                          -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Architecture Spec V-2.1 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped Security Architecture</text>
+</svg>

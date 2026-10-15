@@ -1,0 +1,336 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #080b12;">
+  <title>JullBrain — Formato 3: User Journey Map As-Is de la Investigación Fiscal (Ministerio Público)</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <linearGradient id="gradStep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#072738" />
+      <stop offset="100%" stop-color="#04141e" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+  </defs>
+
+  <!-- HEADER BANNER -->
+  <rect x="0" y="0" width="1920" height="90" fill="url(#gradHeader)" />
+  <line x1="0" y1="90" x2="1920" y2="90" stroke="#334155" stroke-width="2" />
+
+  <!-- Badge DT Stage -->
+  <rect x="40" y="18" width="220" height="54" rx="8" fill="#10b981" filter="url(#shadow)" />
+  <text x="52" y="40" fill="#FFFFFF" font-size="12" font-weight="900" letter-spacing="1">TÉCNICA 3: USER JOURNEY</text>
+  <text x="52" y="58" fill="#a7f3d0" font-size="12" font-weight="700">INVESTIGACIÓN FISCAL MP</text>
+
+  <!-- Title -->
+  <text x="280" y="40" fill="#F8FAFC" font-size="20" font-weight="800">MAPA DE VIAJE DE LA INVESTIGACIÓN FISCAL (AS-IS): RECORRIDO DE LA CAUSA EN EL MINISTERIO PÚBLICO</text>
+  <text x="280" y="62" fill="#94A3B8" font-size="13" font-weight="500">Mapeo del ciclo de vida de la investigación penal desde la apertura hasta el sostenimiento de la Acusación en Audiencia Preliminar</text>
+
+  <!-- Metadata box -->
+  <g transform="translate(1360, 16)">
+    <rect x="0" y="0" width="520" height="58" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+    <text x="16" y="24" fill="#a7f3d0" font-size="11" font-weight="800">AUDITORÍA DE JORNADA FISCAL:</text>
+    <text x="16" y="44" fill="#CBD5E1" font-size="10">Fiscalía MP Evaluada: ___________________</text>
+    <text x="360" y="24" fill="#94A3B8" font-size="10">Investigador: UX Team</text>
+    <text x="360" y="44" fill="#94A3B8" font-size="10">Flujo: COPP Art. 265-308</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- 5 STAGES OF THE PROSECUTOR'S JOURNEY                                -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="122" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">RECORRIDO PROCESAL DEL FISCAL: DESDE EL INICIO DE INVESTIGACIÓN HASTA EL AUTO DE APERTURA A JUICIO</text>
+
+  <!-- STAGE 1 -->
+  <g transform="translate(40, 138)">
+    <rect x="0" y="0" width="355" height="690" rx="10" fill="url(#gradStep)" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="355" height="40" rx="10" fill="#38bdf8" opacity="0.2" />
+    <circle cx="24" cy="20" r="12" fill="#38bdf8" />
+    <text x="24" y="24" fill="#080b12" font-size="12" font-weight="900" text-anchor="middle">1</text>
+    <text x="45" y="25" fill="#38BDF8" font-size="12" font-weight="800">APERTURA DE INVESTIGACIÓN</text>
+
+    <!-- Content rows -->
+    <g transform="translate(14, 50)">
+      <text x="0" y="16" fill="#7DD3FC" font-size="10" font-weight="700">1. Función Procesal del Fiscal:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9">Recepción de denuncia o acta policial (COPP Art. 265), asignación de nomenclatura MP-XXXX y orden de inicio.</text>
+
+      <line x1="0" y1="46" x2="327" y2="46" stroke="#1e293b" />
+
+      <text x="0" y="62" fill="#7DD3FC" font-size="10" font-weight="700">2. Artefacto / Canal Utilizado:</text>
+      <text x="0" y="78" fill="#CBD5E1" font-size="9">Acta de inicio impresa, sistema informático de la Fiscalía, libro diario de asignaciones.</text>
+
+      <line x1="0" y1="92" x2="327" y2="92" stroke="#1e293b" />
+
+      <text x="0" y="108" fill="#7DD3FC" font-size="10" font-weight="700">3. Curva Emocional (Experiencia):</text>
+      <text x="0" y="124" fill="#FBBF24" font-size="10" font-weight="800">😐 Neutral (Procedimiento inicial)</text>
+
+      <line x1="0" y1="138" x2="327" y2="138" stroke="#1e293b" />
+
+      <text x="0" y="154" fill="#EF4444" font-size="10" font-weight="700">4. Puntos de Dolor / Fricción:</text>
+      <text x="0" y="170" fill="#FCA5A5" font-size="9">• Datos de partes y delincuentes difusos.</text>
+      <text x="0" y="184" fill="#FCA5A5" font-size="9">• Falta de foliado uniforme en el acta policial.</text>
+      <text x="0" y="198" fill="#FCA5A5" font-size="9">• Transcripción repetitiva de datos de inicio.</text>
+
+      <line x1="0" y1="212" x2="327" y2="212" stroke="#1e293b" />
+
+      <!-- RAG Opportunity Box -->
+      <rect x="0" y="226" width="327" height="400" rx="8" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1" />
+      <text x="12" y="246" fill="#BAE6FD" font-size="10.5" font-weight="800">💡 OPORTUNIDAD JULLBRAIN RAG:</text>
+      <text x="12" y="266" fill="#FFFFFF" font-size="9.5">• Ingesta y OCR automático con <tspan font-weight="700" fill="#38BDF8">Docling</tspan>.</text>
+      <text x="12" y="282" fill="#FFFFFF" font-size="9.5">• Cómputo de Hash SHA-256 de origen (ISO 27037).</text>
+      <text x="12" y="298" fill="#FFFFFF" font-size="9.5">• Extracción automática de imputados, delitos y fechas.</text>
+
+      <rect x="12" y="320" width="303" height="290" rx="6" fill="#072738" stroke="#38bdf8" stroke-dasharray="4,4" />
+      <text x="20" y="340" fill="#7DD3FC" font-size="9.5" font-weight="700">EVALUACIÓN DEL FACILITADOR UX:</text>
+      <text x="20" y="360" fill="#64748B" font-size="9" font-style="italic">[ Valide con el Fiscal del MP ]</text>
+      <text x="20" y="380" fill="#CBD5E1" font-size="9">Tiempo de registro inicial: _____ min</text>
+      <text x="20" y="400" fill="#CBD5E1" font-size="9">Tiempo con JullBrain RAG: &lt; 2 min</text>
+      <text x="20" y="420" fill="#38BDF8" font-size="9" font-weight="700">Ahorro proyectado: 85% en ingesta</text>
+    </g>
+  </g>
+
+  <!-- STAGE 2 -->
+  <g transform="translate(410, 138)">
+    <rect x="0" y="0" width="355" height="690" rx="10" fill="url(#gradStep)" stroke="#a855f7" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="355" height="40" rx="10" fill="#a855f7" opacity="0.2" />
+    <circle cx="24" cy="20" r="12" fill="#a855f7" />
+    <text x="24" y="24" fill="#FFFFFF" font-size="12" font-weight="900" text-anchor="middle">2</text>
+    <text x="45" y="25" fill="#F0ABFC" font-size="12" font-weight="800">DIRECCIÓN DE PERITAJES (COPP 223)</text>
+
+    <!-- Content rows -->
+    <g transform="translate(14, 50)">
+      <text x="0" y="16" fill="#F0ABFC" font-size="10" font-weight="700">1. Función Procesal del Fiscal:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9">Ordenación y recepción de experticias balísticas, autopsias, avalúos y vaciados telefónicos a organismos auxiliares.</text>
+
+      <line x1="0" y1="46" x2="327" y2="46" stroke="#1e293b" />
+
+      <text x="0" y="62" fill="#F0ABFC" font-size="10" font-weight="700">2. Artefacto / Canal Utilizado:</text>
+      <text x="0" y="78" fill="#CBD5E1" font-size="9">Oficios de solicitud pericial, dictámenes periciales físicos, sobres de evidencias en custodia.</text>
+
+      <line x1="0" y1="92" x2="327" y2="92" stroke="#1e293b" />
+
+      <text x="0" y="108" fill="#F0ABFC" font-size="10" font-weight="700">3. Curva Emocional (Experiencia):</text>
+      <text x="0" y="124" fill="#EF4444" font-size="10" font-weight="800">😩 Muy Frustrante (Proceso lento y disperso)</text>
+
+      <line x1="0" y1="138" x2="327" y2="327" stroke="#1e293b" />
+
+      <text x="0" y="154" fill="#EF4444" font-size="10" font-weight="700">4. Puntos de Dolor / Fricción:</text>
+      <text x="0" y="170" fill="#FCA5A5" font-size="9">• Dificultad para cruzar experticias extensas.</text>
+      <text x="0" y="184" fill="#FCA5A5" font-size="9">• Inconsistencias de fechas o folios entre actas.</text>
+      <text x="0" y="198" fill="#FCA5A5" font-size="9">• Consumo de días en lectura científica detallada.</text>
+
+      <line x1="0" y1="212" x2="327" y2="212" stroke="#1e293b" />
+
+      <!-- RAG Opportunity Box -->
+      <rect x="0" y="226" width="327" height="400" rx="8" fill="#581c87" stroke="#a855f7" stroke-width="1" />
+      <text x="12" y="246" fill="#F0ABFC" font-size="10.5" font-weight="800">💡 OPORTUNIDAD JULLBRAIN RAG:</text>
+      <text x="12" y="266" fill="#FFFFFF" font-size="9.5">• Resumen atómico del dictamen científico.</text>
+      <text x="12" y="282" fill="#FFFFFF" font-size="9.5">• Cruzamiento semántico de declaraciones vs balística.</text>
+      <text x="12" y="298" fill="#FFFFFF" font-size="9.5">• Alerta de inconsistencias o saltos en custodia.</text>
+
+      <rect x="12" y="320" width="303" height="290" rx="6" fill="#31122b" stroke="#a855f7" stroke-dasharray="4,4" />
+      <text x="20" y="340" fill="#F0ABFC" font-size="9.5" font-weight="700">EVALUACIÓN DEL FACILITADOR UX:</text>
+      <text x="20" y="360" fill="#64748B" font-size="9" font-style="italic">[ Valide con el Fiscal del MP ]</text>
+      <text x="20" y="380" fill="#CBD5E1" font-size="9">Tiempo de análisis por experticia: 2-3 días</text>
+      <text x="20" y="400" fill="#CBD5E1" font-size="9">Tiempo con JullBrain: &lt; 3 minutos</text>
+      <text x="20" y="420" fill="#F0ABFC" font-size="9" font-weight="700">Aceleración en análisis pericial: 95%</text>
+    </g>
+  </g>
+
+  <!-- STAGE 3 -->
+  <g transform="translate(780, 138)">
+    <rect x="0" y="0" width="355" height="690" rx="10" fill="url(#gradStep)" stroke="#FECF06" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="355" height="40" rx="10" fill="#FECF06" opacity="0.2" />
+    <circle cx="24" cy="20" r="12" fill="#FECF06" />
+    <text x="24" y="24" fill="#080b12" font-size="12" font-weight="900" text-anchor="middle">3</text>
+    <text x="45" y="25" fill="#FDE047" font-size="12" font-weight="800">REDACCIÓN ACUSACIÓN (ART. 308)</text>
+
+    <!-- Content rows -->
+    <g transform="translate(14, 50)">
+      <text x="0" y="16" fill="#FEF08A" font-size="10" font-weight="700">1. Función Procesal del Fiscal:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9">Redacción de la Acusación Fiscal (Art. 308 COPP), fundamentando tipos penales, agravantes y ofreciendo pruebas.</text>
+
+      <line x1="0" y1="46" x2="327" y2="46" stroke="#1e293b" />
+
+      <text x="0" y="62" fill="#FEF08A" font-size="10" font-weight="700">2. Artefacto / Canal Utilizado:</text>
+      <text x="0" y="78" fill="#CBD5E1" font-size="9">Procesador de texto de escritorio, código COPP impreso, carpetas físicas del caso.</text>
+
+      <line x1="0" y1="92" x2="327" y2="92" stroke="#1e293b" />
+
+      <text x="0" y="108" fill="#FEF08A" font-size="10" font-weight="700">3. Curva Emocional (Experiencia):</text>
+      <text x="0" y="124" fill="#EF4444" font-size="10" font-weight="800">😩 Agotadora (Alta carga de tipejo manual)</text>
+
+      <line x1="0" y1="138" x2="327" y2="138" stroke="#1e293b" />
+
+      <text x="0" y="154" fill="#EF4444" font-size="10" font-weight="700">4. Puntos de Dolor / Fricción:</text>
+      <text x="0" y="170" fill="#FCA5A5" font-size="9">• Tipejo repetitivo de datos del imputado.</text>
+      <text x="0" y="184" fill="#FCA5A5" font-size="9">• Búsqueda manual de jurisprudencia TSJ.</text>
+      <text x="0" y="198" fill="#FCA5A5" font-size="9">• Temor a dejar vicios formales de acusación.</text>
+
+      <line x1="0" y1="212" x2="327" y2="212" stroke="#1e293b" />
+
+      <!-- RAG Opportunity Box -->
+      <rect x="0" y="226" width="327" height="400" rx="8" fill="#713f12" stroke="#FECF06" stroke-width="1" />
+      <text x="12" y="246" fill="#FEF08A" font-size="10.5" font-weight="800">💡 OPORTUNIDAD JULLBRAIN RAG:</text>
+      <text x="12" y="266" fill="#FFFFFF" font-size="9.5">• Borrador asistido de Acusación en 1 clic.</text>
+      <text x="12" y="282" fill="#FFFFFF" font-size="9.5">• Inyección de jurisprudencia TSJ verificada.</text>
+      <text x="12" y="298" fill="#FFFFFF" font-size="9.5">• Semáforo Verde garantizando anclaje normativo.</text>
+
+      <rect x="12" y="320" width="303" height="290" rx="6" fill="#332505" stroke="#FECF06" stroke-dasharray="4,4" />
+      <text x="20" y="340" fill="#FEF08A" font-size="9.5" font-weight="700">EVALUACIÓN DEL FACILITADOR UX:</text>
+      <text x="20" y="360" fill="#64748B" font-size="9" font-style="italic">[ Valide con el Fiscal del MP ]</text>
+      <text x="20" y="380" fill="#CBD5E1" font-size="9">Horas en tipear una acusación: 4-6 horas</text>
+      <text x="20" y="400" fill="#CBD5E1" font-size="9">Tiempo con JullBrain: &lt; 15 minutos</text>
+      <text x="20" y="420" fill="#FDE047" font-size="9" font-weight="700">Ahorro de tipejo: 90% en redacción</text>
+    </g>
+  </g>
+
+  <!-- STAGE 4 -->
+  <g transform="translate(1150, 138)">
+    <rect x="0" y="0" width="355" height="690" rx="10" fill="url(#gradStep)" stroke="#00FF41" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="355" height="40" rx="10" fill="#00FF41" opacity="0.2" />
+    <circle cx="24" cy="20" r="12" fill="#00FF41" />
+    <text x="24" y="24" fill="#080b12" font-size="12" font-weight="900" text-anchor="middle">4</text>
+    <text x="45" y="25" fill="#86EFAC" font-size="12" font-weight="800">DEBATE EN PRELIMINAR (ART. 309)</text>
+
+    <!-- Content rows -->
+    <g transform="translate(14, 50)">
+      <text x="0" y="16" fill="#86EFAC" font-size="10" font-weight="700">1. Función Procesal del Fiscal:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9">Sostenimiento oral de la Acusación en audiencia, defensa de licitud probatoria y propuesta de Admisión (Art. 375).</text>
+
+      <line x1="0" y1="46" x2="327" y2="46" stroke="#1e293b" />
+
+      <text x="0" y="62" fill="#86EFAC" font-size="10" font-weight="700">2. Artefacto / Canal Utilizado:</text>
+      <text x="0" y="78" fill="#CBD5E1" font-size="9">Expediente físico abultado, borrador de acusación, notas de estrado a mano.</text>
+
+      <line x1="0" y1="92" x2="327" y2="92" stroke="#1e293b" />
+
+      <text x="0" y="108" fill="#86EFAC" font-size="10" font-weight="700">3. Curva Emocional (Experiencia):</text>
+      <text x="0" y="124" fill="#FBBF24" font-size="10" font-weight="800">😐 Alta Presión (Debate oral en estrado)</text>
+
+      <line x1="0" y1="138" x2="327" y2="138" stroke="#1e293b" />
+
+      <text x="0" y="154" fill="#EF4444" font-size="10" font-weight="700">4. Puntos de Dolor / Fricción:</text>
+      <text x="0" y="170" fill="#FCA5A5" font-size="9">• Ataques de la defensa alegando nulidades.</text>
+      <text x="0" y="184" fill="#FCA5A5" font-size="9">• Dificultad para calcular en vivo penas rebajadas.</text>
+      <text x="0" y="198" fill="#FCA5A5" font-size="9">• Búsqueda apresurada de folios en audiencia.</text>
+
+      <line x1="0" y1="212" x2="327" y2="212" stroke="#1e293b" />
+
+      <!-- RAG Opportunity Box -->
+      <rect x="0" y="226" width="327" height="400" rx="8" fill="#065f46" stroke="#00FF41" stroke-width="1" />
+      <text x="12" y="246" fill="#86EFAC" font-size="10.5" font-weight="800">💡 OPORTUNIDAD JULLBRAIN RAG:</text>
+      <text x="12" y="266" fill="#FFFFFF" font-size="9.5">• Visor dual interactivo en pantalla (&lt; 3s).</text>
+      <text x="12" y="282" fill="#FFFFFF" font-size="9.5">• Calculador de Admisión de Hechos en estrado.</text>
+      <text x="12" y="298" fill="#FFFFFF" font-size="9.5">• Matriz de Admisibilidad Probatoria pre-evaluada.</text>
+
+      <rect x="12" y="320" width="303" height="290" rx="6" fill="#062e1b" stroke="#00FF41" stroke-dasharray="4,4" />
+      <text x="20" y="340" fill="#86EFAC" font-size="9.5" font-weight="700">EVALUACIÓN DEL FACILITADOR UX:</text>
+      <text x="20" y="360" fill="#64748B" font-size="9" font-style="italic">[ Valide con el Fiscal del MP ]</text>
+      <text x="20" y="380" fill="#CBD5E1" font-size="9">Tiempo de respuesta a incidencias: _____ min</text>
+      <text x="20" y="400" fill="#CBD5E1" font-size="9">Tiempo con JullBrain RAG: Instantáneo (&lt; 5s)</text>
+      <text x="20" y="420" fill="#00FF41" font-size="9" font-weight="700">Resultado: Sostenimiento impecable en estrado</text>
+    </g>
+  </g>
+
+  <!-- STAGE 5 -->
+  <g transform="translate(1520, 138)">
+    <rect x="0" y="0" width="360" height="690" rx="10" fill="url(#gradStep)" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="360" height="40" rx="10" fill="#10b981" opacity="0.2" />
+    <circle cx="24" cy="20" r="12" fill="#10b981" />
+    <text x="24" y="24" fill="#080b12" font-size="12" font-weight="900" text-anchor="middle">5</text>
+    <text x="45" y="25" fill="#6EE7B7" font-size="12" font-weight="800">SEGUIMIENTO AUTO APERTURA JUICIO</text>
+
+    <!-- Content rows -->
+    <g transform="translate(14, 50)">
+      <text x="0" y="16" fill="#6EE7B7" font-size="10" font-weight="700">1. Función Procesal del Fiscal:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9">Verificación del Auto de Apertura a Juicio emitido por el Juez, constando la admisión total de pruebas y delitos.</text>
+
+      <line x1="0" y1="46" x2="332" y2="46" stroke="#1e293b" />
+
+      <text x="0" y="62" fill="#6EE7B7" font-size="10" font-weight="700">2. Artefacto / Canal Utilizado:</text>
+      <text x="0" y="78" fill="#CBD5E1" font-size="9">Auto dictado por el Tribunal de Control, copia física de notificación fiscal.</text>
+
+      <line x1="0" y1="92" x2="332" y2="92" stroke="#1e293b" />
+
+      <text x="0" y="108" fill="#6EE7B7" font-size="10" font-weight="700">3. Curva Emocional (Experiencia):</text>
+      <text x="0" y="124" fill="#34D399" font-size="10" font-weight="800">😊 Exitosa (Tránsito a Juicio Oral o Admisión)</text>
+
+      <line x1="0" y1="138" x2="332" y2="138" stroke="#1e293b" />
+
+      <text x="0" y="154" fill="#EF4444" font-size="10" font-weight="700">4. Puntos de Dolor / Fricción:</text>
+      <text x="0" y="170" fill="#FCA5A5" font-size="9">• Exclusión indebida de una prueba clave del MP.</text>
+      <text x="0" y="184" fill="#FCA5A5" font-size="9">• Modificación de la calificación jurídica en auto.</text>
+      <text x="0" y="198" fill="#FCA5A5" font-size="9">• Necesidad de interponer recurso de apelación.</text>
+
+      <line x1="0" y1="212" x2="332" y2="212" stroke="#1e293b" />
+
+      <!-- RAG Opportunity Box -->
+      <rect x="0" y="226" width="332" height="400" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+      <text x="12" y="246" fill="#6EE7B7" font-size="10.5" font-weight="800">💡 OPORTUNIDAD JULLBRAIN RAG:</text>
+      <text x="12" y="266" fill="#FFFFFF" font-size="9.5">• Cotejo automático del Auto vs Acusación Fiscal.</text>
+      <text x="12" y="282" fill="#FFFFFF" font-size="9.5">• Alerta instantánea de pruebas o delitos excluidos.</text>
+      <text x="12" y="298" fill="#FFFFFF" font-size="9.5">• Borrador asistido de recurso de apelación (Art. 423).</text>
+
+      <rect x="12" y="320" width="308" height="290" rx="6" fill="#052e16" stroke="#10b981" stroke-dasharray="4,4" />
+      <text x="20" y="340" fill="#6EE7B7" font-size="9.5" font-weight="700">EVALUACIÓN DEL FACILITADOR UX:</text>
+      <text x="20" y="360" fill="#64748B" font-size="9" font-style="italic">[ Valide con el Fiscal del MP ]</text>
+      <text x="20" y="380" fill="#CBD5E1" font-size="9">Tiempo para auditar Auto de Apertura: 2 días</text>
+      <text x="20" y="400" fill="#CBD5E1" font-size="9">Tiempo con JullBrain RAG: &lt; 5 minutos</text>
+      <text x="20" y="420" fill="#34D399" font-size="9" font-weight="700">Garantía MP: Blindaje total en apelación</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM SUMMARY -->
+  <text x="40" y="850" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">SÍNTESIS DEL IMPACTO EN LA JORNADA FISCAL (DE AS-IS TRADICIONAL A TO-BE OPTIMIZADO)</text>
+
+  <g transform="translate(40, 865)">
+    <rect x="0" y="0" width="1840" height="180" rx="12" fill="url(#gradCardDark)" stroke="#0f62fe" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="1840" height="34" rx="12" fill="#0f62fe" />
+    <text x="20" y="22" fill="#FFFFFF" font-size="12" font-weight="800">📊 AUDITORÍA DE EFECTIVIDAD Y TIEMPOS EN LA FISCALÍA DEL MINISTERIO PÚBLICO</text>
+
+    <g transform="translate(20, 48)">
+      <rect x="0" y="0" width="580" height="118" rx="8" fill="#450a0a" stroke="#ef4444" stroke-width="1" />
+      <text x="15" y="22" fill="#FCA5A5" font-size="11" font-weight="800">1. ESTADO ACTUAL (AS-IS DE LA INVESTIGACIÓN FISCAL)</text>
+      <text x="15" y="42" fill="#CBD5E1" font-size="9.5">• Tiempo promedio para redactar y fundamentar una acusación: <tspan font-weight="700" fill="#EF4444">4 a 6 horas</tspan>.</text>
+      <text x="15" y="58" fill="#CBD5E1" font-size="9.5">• Riesgo de desestimación por fallas formales o foliado: <tspan font-weight="700" fill="#EF4444">Alta fricción procesal</tspan>.</text>
+      <text x="15" y="74" fill="#CBD5E1" font-size="9.5">• Cruzamiento de experticias científicas (balística/autopsias): <tspan font-weight="700" fill="#EF4444">Manual (2-3 días)</tspan>.</text>
+      <text x="15" y="98" fill="#FCA5A5" font-size="9.5" font-weight="700">Resultado MP: Sobrecarga en la Fiscalía y sobreseimientos por vencimiento de lapso.</text>
+
+      <rect x="605" y="0" width="580" height="118" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+      <text x="15" y="22" fill="#6EE7B7" font-size="11" font-weight="800">2. ESTADO FUTURO OPTIMIZADO (TO-BE CON JULLBRAIN RAG)</text>
+      <text x="15" y="42" fill="#CBD5E1" font-size="9.5">• Generación asistida de borrador de Acusación con anclaje: <tspan font-weight="700" fill="#34D399">&lt; 15 minutos</tspan>.</text>
+      <text x="15" y="58" fill="#CBD5E1" font-size="9.5">• Cruzamiento y resumen atómico de experticias forenses: <tspan font-weight="700" fill="#34D399">&lt; 3 minutos</tspan>.</text>
+      <text x="15" y="74" fill="#CBD5E1" font-size="9.5">• Fundamentación juridisprudencial TSJ anclada con Semáforo Verde: <tspan font-weight="700" fill="#34D399">100% Auditada</tspan>.</text>
+      <text x="15" y="98" fill="#A7F3D0" font-size="9.5" font-weight="700">Resultado MP: Acusaciones fiscales blindadas, celeridad y resguardo de la pretensión punitiva.</text>
+
+      <rect x="1210" y="0" width="590" height="118" rx="8" fill="#032b45" stroke="#38bdf8" stroke-width="1" />
+      <text x="15" y="22" fill="#38bdf8" font-size="11" font-weight="800">3. ADOPCIÓN Y AUTONOMÍA FISCAL (REGLA DE ORO JULLBRAIN)</text>
+      <text x="15" y="42" fill="#CBD5E1" font-size="9.5">• "El sistema acelera la investigación, nunca decide ni sustituye el criterio fiscal".</text>
+      <text x="15" y="58" fill="#38bdf8" font-size="9.5" font-weight="700">  Cumplimiento estricto de la LOMP y Principio de Legalidad (COPP Art. 11)</text>
+      <text x="15" y="74" fill="#CBD5E1" font-size="9.5">• Entorno 100% On-Premise Air-Gapped: Resguardo absoluto del Secreto de Sumario.</text>
+      <text x="15" y="98" fill="#7DD3FC" font-size="9.5" font-weight="700">Garantía MP: Firma y aprobación exclusiva del Fiscal del Ministerio Público.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <rect x="0" y="1055" width="1920" height="25" fill="#090d16" />
+  <line x1="0" y1="1055" x2="1920" y2="1055" stroke="#1e293b" stroke-width="1" />
+  <text x="40" y="1072" fill="#64748B" font-size="11" font-weight="500">JullBrain Legal-RAG — Instrumento 3 (Especializado MP): As-Is User Journey Map de la Investigación Fiscal (Ministerio Público)</text>
+  <text x="1880" y="1072" fill="#64748B" font-size="11" font-weight="500" text-anchor="end">Fase 01 &amp; 02: Empatizar &amp; Mapear Jornada | COPP Art. 265 a 308</text>
+
+</svg>

@@ -1,0 +1,325 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #080b12;">
+  <title>JullBrain — Descongestionamiento del Sistema Penal en la Audiencia Preliminar (COPP Art. 309)</title>
+
+  <defs>
+    <!-- Gradientes de Fondo y Encabezado -->
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Gradientes Columna Antes (Congestionado) -->
+    <linearGradient id="gradAntes" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#450a0a" />
+      <stop offset="100%" stop-color="#180303" />
+    </linearGradient>
+
+    <!-- Gradientes Columna Después (Descongestionado JullBrain) -->
+    <linearGradient id="gradDespues" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+
+    <!-- Gradientes de los 4 Filtros -->
+    <linearGradient id="gradFilter1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#072738" />
+      <stop offset="100%" stop-color="#04141e" />
+    </linearGradient>
+
+    <linearGradient id="gradFilter2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#332505" />
+      <stop offset="100%" stop-color="#1a1202" />
+    </linearGradient>
+
+    <linearGradient id="gradFilter3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#31122b" />
+      <stop offset="100%" stop-color="#190a17" />
+    </linearGradient>
+
+    <linearGradient id="gradFilter4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d234a" />
+      <stop offset="100%" stop-color="#061227" />
+    </linearGradient>
+
+    <!-- Filtros de Sombra -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <!-- Marcador de Flecha -->
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+  </defs>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- HEADER BANNER                                                       -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="1920" height="85" fill="url(#gradHeader)" />
+  <line x1="0" y1="85" x2="1920" y2="85" stroke="#334155" stroke-width="2" />
+
+  <!-- Badge COPP / Legal RAG -->
+  <rect x="40" y="16" width="220" height="52" rx="8" fill="#059669" filter="url(#shadow)" />
+  <text x="52" y="38" fill="#FFFFFF" font-size="13" font-weight="900" letter-spacing="1">DESCONGESTIONAMIENTO</text>
+  <text x="52" y="56" fill="#A7F3D0" font-size="12" font-weight="700">AUDIENCIA PRELIMINAR</text>
+
+  <!-- Main Title -->
+  <text x="280" y="38" fill="#F8FAFC" font-size="21" font-weight="800" letter-spacing="0.5">ESTRATEGIA IA PARA EL DESCONGESTIONAMIENTO JUDICIAL EN LA AUDIENCIA PRELIMINAR (COPP ART. 309)</text>
+  <text x="280" y="60" fill="#94A3B8" font-size="13" font-weight="500">Transformación del cuello de botella procesal en un flujo continuo de depuración con 4 Filtros Inteligentes y Semáforo de Confianza</text>
+
+  <!-- Badges Normativos Ajustados -->
+  <g transform="translate(1380, 16)">
+    <rect x="0" y="0" width="150" height="24" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+    <text x="75" y="16" fill="#38bdf8" font-size="10" font-weight="700" text-anchor="middle">CRBV Art. 26 (Expedita)</text>
+
+    <rect x="160" y="0" width="150" height="24" rx="4" fill="#1e293b" stroke="#34d399" stroke-width="1"/>
+    <text x="235" y="16" fill="#34d399" font-size="10" font-weight="700" text-anchor="middle">COPP Art. 309 (Preliminar)</text>
+
+    <rect x="320" y="0" width="170" height="24" rx="4" fill="#1e293b" stroke="#facc15" stroke-width="1"/>
+    <text x="405" y="16" fill="#facc15" font-size="10" font-weight="700" text-anchor="middle">Art. 375 COPP (Admisión)</text>
+
+    <rect x="0" y="30" width="490" height="22" rx="4" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+    <text x="245" y="45" fill="#cbd5e1" font-size="9.5" font-weight="600" text-anchor="middle">CNJ 332/2020: Supervisión Humana Obligatoria en IA Penal</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- SECCIÓN 1: ANTES VS DESPUÉS                                         -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="115" fill="#38BDF8" font-size="14" font-weight="800" letter-spacing="1">IMPACTO DIRECTO: ANTES (CUELLO DE BOTELLA TRADICIONAL) VS DESPUÉS (CON JULLBRAIN LEGAL-RAG)</text>
+
+  <!-- TARJETA ANTES -->
+  <g transform="translate(40, 130)">
+    <rect x="0" y="0" width="440" height="335" rx="12" fill="url(#gradAntes)" stroke="#EF4444" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="440" height="40" rx="12" fill="#EF4444" opacity="0.25" />
+    <text x="20" y="25" fill="#FCA5A5" font-size="14" font-weight="800">🔴 ANTES: RETARDO Y CUELLO DE BOTELLA</text>
+
+    <text x="16" y="60" fill="#FECACA" font-size="10.5" font-weight="700">SISTEMA MANUAL TRADICIONAL:</text>
+
+    <text x="16" y="82" fill="#CBD5E1" font-size="10">❌ <tspan font-weight="700" fill="#FCA5A5">Diferimientos Sistemáticos (60-70%):</tspan></text>
+    <text x="32" y="96" fill="#CBD5E1" font-size="10">Faltan folios, actas o notificaciones sin agregar.</text>
+
+    <text x="16" y="118" fill="#CBD5E1" font-size="10">❌ <tspan font-weight="700" fill="#FCA5A5">Revisión Manual Lenta (3 a 5 días):</tspan></text>
+    <text x="32" y="132" fill="#CBD5E1" font-size="10">Lectura física folio por folio para evaluar pruebas.</text>
+
+    <text x="16" y="154" fill="#CBD5E1" font-size="10">❌ <tspan font-weight="700" fill="#FCA5A5">Admisión de Hechos Ineficiente (Art. 375):</tspan></text>
+    <text x="32" y="168" fill="#CBD5E1" font-size="10">Cálculos manuales complejos de penas con rebajas.</text>
+
+    <text x="16" y="190" fill="#CBD5E1" font-size="10">❌ <tspan font-weight="700" fill="#FCA5A5">Nulidades que pasan a Juicio Oral:</tspan></text>
+    <text x="32" y="204" fill="#CBD5E1" font-size="10">Vicios formales no detectados en la preliminar.</text>
+
+    <rect x="14" y="222" width="412" height="98" rx="8" fill="#450a0a" stroke="#dc2626" stroke-width="1" />
+    <text x="24" y="242" fill="#FCA5A5" font-size="10.5" font-weight="800">CAPACIDAD OPERATIVA TRADICIONAL:</text>
+    <text x="24" y="260" fill="#FFFFFF" font-size="10">• Audiencias Despachadas: <tspan font-weight="700" fill="#EF4444">Solo 2 a 3 por día</tspan> por Tribunal.</text>
+    <text x="24" y="276" fill="#FFFFFF" font-size="10">• Espera en Fase de Control: <tspan font-weight="700" fill="#EF4444">6 a 12 meses</tspan>.</text>
+    <text x="24" y="294" fill="#FCA5A5" font-size="9.5" font-weight="700">Resultado: Hacinamiento y diferimiento continuo.</text>
+  </g>
+
+  <!-- FLECHA TRANSFORMADORA -->
+  <g transform="translate(495, 230)">
+    <line x1="0" y1="35" x2="65" y2="35" stroke="#00FF41" stroke-width="4" marker-end="url(#arrowGreen)" />
+    <text x="32" y="22" fill="#00FF41" font-size="10" font-weight="900" text-anchor="middle">EFECTO RAG</text>
+  </g>
+
+  <!-- TARJETA DESPUÉS -->
+  <g transform="translate(575, 130)">
+    <rect x="0" y="0" width="1305" height="335" rx="12" fill="url(#gradDespues)" stroke="#10B981" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="1305" height="40" rx="12" fill="#10B981" opacity="0.25" />
+    <text x="20" y="25" fill="#6EE7B7" font-size="14" font-weight="800">🟢 DESPUÉS: FLUIDEZ Y DESCONGESTIONAMIENTO INTEGRAL CON JULLBRAIN</text>
+
+    <!-- 4 METRIC CARDS -->
+    <g transform="translate(15, 52)">
+      <!-- MÉT RICA 1 -->
+      <rect x="0" y="0" width="300" height="90" rx="8" fill="#022c22" stroke="#34d399" stroke-width="1.5" />
+      <text x="15" y="26" fill="#34D399" font-size="22" font-weight="900">- 85%</text>
+      <text x="15" y="46" fill="#FFFFFF" font-size="11" font-weight="800">DIFERIMIENTOS DE AUDIENCIA</text>
+      <text x="15" y="64" fill="#A7F3D0" font-size="9.5">Folios y notificaciones auditadas previo a la cita</text>
+
+      <!-- MÉT RICA 2 -->
+      <rect x="315" y="0" width="300" height="90" rx="8" fill="#022c22" stroke="#34d399" stroke-width="1.5" />
+      <text x="15" y="26" fill="#34D399" font-size="22" font-weight="900">&lt; 5 MIN</text>
+      <text x="15" y="46" fill="#FFFFFF" font-size="11" font-weight="800">EVALUACIÓN DEL EXPEDIENTE</text>
+      <text x="15" y="64" fill="#A7F3D0" font-size="9.5">Informe de admisibilidad probatoria automático</text>
+
+      <!-- MÉT RICA 3 -->
+      <rect x="630" y="0" width="300" height="90" rx="8" fill="#022c22" stroke="#34d399" stroke-width="1.5" />
+      <text x="15" y="26" fill="#34D399" font-size="22" font-weight="900">8 a 10</text>
+      <text x="15" y="46" fill="#FFFFFF" font-size="11" font-weight="800">AUDIENCIAS POR DÍA / TRIBUNAL</text>
+      <text x="15" y="64" fill="#A7F3D0" font-size="9.5">Multiplica por 4x la capacidad de resolución</text>
+
+      <!-- MÉT RICA 4 -->
+      <rect x="945" y="0" width="330" height="90" rx="8" fill="#022c22" stroke="#34d399" stroke-width="1.5" />
+      <text x="15" y="26" fill="#34D399" font-size="22" font-weight="900">100%</text>
+      <text x="15" y="46" fill="#FFFFFF" font-size="11" font-weight="800">CERO ALUCINACIONES NORMATIVAS</text>
+      <text x="15" y="64" fill="#A7F3D0" font-size="9.5">Semáforo Verde de anclaje con leyes venezolanas</text>
+    </g>
+
+    <!-- RESUMEN OPERATIVO EN 3 PARÁGRAFOS SEPARADOS -->
+    <rect x="15" y="155" width="1275" height="165" rx="8" fill="#064e3b" stroke="#059669" stroke-width="1" />
+    <text x="30" y="178" fill="#A7F3D0" font-size="11" font-weight="800">SÍNTESIS DEL BENEFICIO INSTITUCIONAL EN LA FASE INTERMEDIA:</text>
+
+    <text x="30" y="200" fill="#FFFFFF" font-size="10">• <tspan font-weight="700" fill="#34D399">1. Depuración Previa:</tspan> El Juez ingresa a la audiencia con el expediente 100% auditado (foliatura y notificaciones complejas).</text>
+
+    <text x="30" y="222" fill="#FFFFFF" font-size="10">• <tspan font-weight="700" fill="#FDE047">2. Admisión de Hechos (Art. 375 COPP):</tspan> Calcula penas rebajadas y sustitutivas (Art. 242), cerrando hasta un 40% de casos sin ir a juicio.</text>
+
+    <text x="30" y="244" fill="#FFFFFF" font-size="10">• <tspan font-weight="700" fill="#34D399">3. Filtro de Prescripción (Art. 300 COPP):</tspan> Detecta causales de sobreseimiento inmediatas para dar por terminado el proceso penal.</text>
+
+    <text x="30" y="270" fill="#6EE7B7" font-size="10" font-weight="700">Cumplimiento Constitucional: Garantiza el derecho a una Justicia Gratuita, Expedita y Sin Dilaciones Indebidas (CRBV Art. 26).</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- SECCIÓN 2: LOS 4 FILTROS INTELIGENTES                              -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="492" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">ARQUITECTURA DE LOS 4 FILTROS DE DESCONGESTIONAMIENTO EN LA FASE INTERMEDIA</text>
+
+  <!-- FILTRO 1 -->
+  <g transform="translate(40, 505)">
+    <rect x="0" y="0" width="440" height="320" rx="10" fill="url(#gradFilter1)" stroke="#00CFFF" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="440" height="38" rx="10" fill="#00CFFF" opacity="0.2" />
+    <text x="16" y="24" fill="#38BDF8" font-size="13" font-weight="800">F1. DEPURACIÓN PREVIA DE FOLIOS</text>
+
+    <text x="16" y="56" fill="#7DD3FC" font-size="10.5" font-weight="700">MECANISMO TÉCNICO (validator.py):</text>
+    <text x="16" y="72" fill="#E2E8F0" font-size="9.5">• Doble Validación Cruzada (Regex vs PyMuPDF).</text>
+    <text x="16" y="86" fill="#E2E8F0" font-size="9.5">• Verificación secuencial de foliado y sellos.</text>
+    <text x="16" y="100" fill="#E2E8F0" font-size="9.5">• Certificado de Integridad de Folios.</text>
+
+    <line x1="16" y1="112" x2="424" y2="112" stroke="#0c4a6e" />
+
+    <text x="16" y="126" fill="#7DD3FC" font-size="10.5" font-weight="700">⚡ IMPACTO DE DESCONGESTIONAMIENTO:</text>
+    <text x="16" y="142" fill="#CBD5E1" font-size="9.5">Elimina diferimientos por carpetas mal armadas.</text>
+    <text x="16" y="156" fill="#CBD5E1" font-size="9.5">El caso entra a la audiencia listo para decidir.</text>
+
+    <rect x="12" y="174" width="416" height="134" rx="6" fill="#0c4a6e" opacity="0.85" />
+    <text x="22" y="192" fill="#BAE6FD" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="210" fill="#FFFFFF" font-size="9.5">• El Secretario firma el informe de foliatura.</text>
+    <text x="22" y="226" fill="#38BDF8" font-size="9.5" font-weight="700">• Auditabilidad: Reporte OK/ERROR previo.</text>
+    <text x="22" y="244" fill="#A7F3D0" font-size="9.5" font-weight="700">Disminución de diferimientos: 65%</text>
+  </g>
+
+  <!-- FILTRO 2 -->
+  <g transform="translate(495, 505)">
+    <rect x="0" y="0" width="440" height="320" rx="10" fill="url(#gradFilter2)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="440" height="38" rx="10" fill="#FECF06" opacity="0.2" />
+    <text x="16" y="24" fill="#FDE047" font-size="13" font-weight="800">F2. MATRIZ ADMISIBILIDAD PROBATORIA</text>
+
+    <text x="16" y="56" fill="#FEF08A" font-size="10.5" font-weight="700">MECANISMO TÉCNICO (Docling + RAGFlow):</text>
+    <text x="16" y="72" fill="#E2E8F0" font-size="9.5">• Clasificación automática de pruebas del MP y Defensa.</text>
+    <text x="16" y="86" fill="#E2E8F0" font-size="9.5">• Cotejo de licitud y pertinencia (CRBV Art. 49).</text>
+    <text x="16" y="100" fill="#E2E8F0" font-size="9.5">• Detección de pruebas repetitivas o ilícitas.</text>
+
+    <line x1="16" y1="112" x2="424" y2="112" stroke="#713f12" />
+
+    <text x="16" y="126" fill="#FEF08A" font-size="10.5" font-weight="700">⚡ IMPACTO DE DESCONGESTIONAMIENTO:</text>
+    <text x="16" y="142" fill="#CBD5E1" font-size="9.5">Tabla de admisión pre-evaluada en pantalla.</text>
+    <text x="16" y="156" fill="#CBD5E1" font-size="9.5">Reduce el debate de horas a escasos minutos.</text>
+
+    <rect x="12" y="174" width="416" height="134" rx="6" fill="#713f12" opacity="0.85" />
+    <text x="22" y="192" fill="#FEF08A" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="210" fill="#FFFFFF" font-size="9.5">• El Juez decide la admisión o rechazo.</text>
+    <text x="22" y="226" fill="#FDE047" font-size="9.5" font-weight="700">• Auditabilidad: Enlace directo al texto exacto.</text>
+    <text x="22" y="244" fill="#A7F3D0" font-size="9.5" font-weight="700">Aceleración debate admisibilidad: 80%</text>
+  </g>
+
+  <!-- FILTRO 3 -->
+  <g transform="translate(950, 505)">
+    <rect x="0" y="0" width="440" height="320" rx="10" fill="url(#gradFilter3)" stroke="#EC4899" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="440" height="38" rx="10" fill="#EC4899" opacity="0.2" />
+    <text x="16" y="24" fill="#F472B6" font-size="13" font-weight="800">F3. SOBRESEIMIENTO Y PRESCRIPCIÓN</text>
+
+    <text x="16" y="56" fill="#FDA4AF" font-size="10.5" font-weight="700">MECANISMO TÉCNICO (Granite LLM + TSJ):</text>
+    <text x="16" y="72" fill="#E2E8F0" font-size="9.5">• Cómputo de prescripción procesal penal.</text>
+    <text x="16" y="86" fill="#E2E8F0" font-size="9.5">• Búsqueda de causales de sobreseimiento (Art. 300).</text>
+    <text x="16" y="100" fill="#E2E8F0" font-size="9.5">• Cotejo con doctrina vinculante de la Sala Penal.</text>
+
+    <line x1="16" y1="112" x2="424" y2="112" stroke="#831843" />
+
+    <text x="16" y="126" fill="#FDA4AF" font-size="10.5" font-weight="700">⚡ IMPACTO DE DESCONGESTIONAMIENTO:</text>
+    <text x="16" y="142" fill="#CBD5E1" font-size="9.5">Concluye el proceso si la causa prescribió,</text>
+    <text x="16" y="156" fill="#CBD5E1" font-size="9.5">evitando llevar a Juicio Oral casos extintos.</text>
+
+    <rect x="12" y="174" width="416" height="134" rx="6" fill="#831843" opacity="0.85" />
+    <text x="22" y="192" fill="#FDA4AF" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="210" fill="#FFFFFF" font-size="9.5">• El Juez dicta el Auto de Sobreseimiento.</text>
+    <text x="22" y="226" fill="#F472B6" font-size="9.5" font-weight="700">• Auditabilidad: Semáforo Verde respaldando norma.</text>
+    <text x="22" y="244" fill="#A7F3D0" font-size="9.5" font-weight="700">Causas concluidas en preliminar: 20-25%</text>
+  </g>
+
+  <!-- FILTRO 4 -->
+  <g transform="translate(1405, 505)">
+    <rect x="0" y="0" width="475" height="320" rx="10" fill="url(#gradFilter4)" stroke="#4589ff" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="475" height="38" rx="10" fill="#4589ff" opacity="0.2" />
+    <text x="16" y="24" fill="#93C5FD" font-size="13" font-weight="800">F4. ADMISIÓN DE HECHOS Y PENAS</text>
+
+    <text x="16" y="56" fill="#BFDBFE" font-size="10.5" font-weight="700">MECANISMO TÉCNICO (Code Engine RAG):</text>
+    <text x="16" y="72" fill="#E2E8F0" font-size="9.5">• Calculador de penas con rebaja (Art. 375 COPP).</text>
+    <text x="16" y="86" fill="#E2E8F0" font-size="9.5">• Evaluación de medidas cautelares (Art. 242).</text>
+    <text x="16" y="100" fill="#E2E8F0" font-size="9.5">• Borrador de Sentencia por Admisión en vivo.</text>
+
+    <line x1="16" y1="112" x2="459" y2="112" stroke="#1e3a8a" />
+
+    <text x="16" y="126" fill="#BFDBFE" font-size="10.5" font-weight="700">⚡ IMPACTO DE DESCONGESTIONAMIENTO:</text>
+    <text x="16" y="142" fill="#CBD5E1" font-size="9.5">Cierra la causa por admisión voluntaria,</text>
+    <text x="16" y="156" fill="#CBD5E1" font-size="9.5">desgestionando las salas de Juicio Oral.</text>
+
+    <rect x="12" y="174" width="451" height="134" rx="6" fill="#1e3a8a" opacity="0.85" />
+    <text x="22" y="192" fill="#BFDBFE" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="210" fill="#FFFFFF" font-size="9.5">• El Imputado acepta hechos ante el Juez.</text>
+    <text x="22" y="226" fill="#93C5FD" font-size="9.5" font-weight="700">• Auditabilidad: Desglose originario vs rebajado.</text>
+    <text x="22" y="244" fill="#A7F3D0" font-size="9.5" font-weight="700">Causas resueltas por Admisión: 35-40%</text>
+  </g>
+
+
+  <!-- SECCIÓN 3: CONTROL DE CALIDAD Y SEMÁFORO EN AUDIENCIA PRELIMINAR -->
+  <text x="40" y="850" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">GARANTÍA DE TRANSPARENCIA: SEMÁFORO DE CONFIANZA Y AUDITABILIDAD EN EL DESPACHO</text>
+
+  <g transform="translate(40, 865)">
+    <rect x="0" y="0" width="1840" height="180" rx="12" fill="url(#gradCardDark)" stroke="#10B981" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="1840" height="34" rx="12" fill="#047857" />
+    <text x="20" y="22" fill="#FFFFFF" font-size="13" font-weight="800">🚦 PANEL DE CONTROL DEL JUEZ DE CONTROL: AUDITABILIDAD Y SEMÁFORO EN VIVO</text>
+    <text x="1820" y="22" fill="#A7F3D0" font-size="11" font-weight="700" text-anchor="end">RIGOR JURÍDICO VENEZOLANO + SEGURIDAD AIR-GAPPED</text>
+
+    <g transform="translate(15, 44)">
+
+      <!-- ESTADO 1 -->
+      <rect x="0" y="0" width="590" height="124" rx="8" fill="#022c22" stroke="#10B981" stroke-width="1.5" />
+      <circle cx="20" cy="20" r="8" fill="#10B981" />
+      <text x="35" y="24" fill="#34D399" font-size="11.5" font-weight="900">🟢 VERDE: FUNDAMENTACIÓN COPP ANCLADA</text>
+      <text x="15" y="44" fill="#E2E8F0" font-size="9.5">• Requisitos formales cumplidos al 100% (Art. 308 COPP).</text>
+      <text x="15" y="58" fill="#E2E8F0" font-size="9.5">• Hash SHA-256 verificado. Citas comprobadas en Gaceta Oficial.</text>
+      <text x="15" y="72" fill="#E2E8F0" font-size="9.5">• Auto de Apertura a Juicio o Sobreseimiento emitido en 1 clic.</text>
+      <text x="15" y="96" fill="#A7F3D0" font-size="9.5" font-weight="700">Resultado: Audiencia finalizada en menos de 20 minutos.</text>
+
+      <!-- ESTADO 2 -->
+      <rect x="620" y="0" width="590" height="124" rx="8" fill="#451a03" stroke="#F59E0B" stroke-width="1.5" />
+      <circle cx="20" cy="20" r="8" fill="#F59E0B" />
+      <text x="35" y="24" fill="#FBBF24" font-size="11.5" font-weight="900">🟡 ÁMBAR: AMBIGÜEDAD DE PROBATORIA</text>
+      <text x="15" y="44" fill="#E2E8F0" font-size="9.5">• Contradicción en testimonio o peritaje que requiere inspección.</text>
+      <text x="15" y="58" fill="#E2E8F0" font-size="9.5">• La IA abre la página exacta del PDF original del expediente.</text>
+      <text x="15" y="72" fill="#E2E8F0" font-size="9.5">• Examen directo del documento con resalte amarillo en pantalla.</text>
+      <text x="15" y="96" fill="#FDE68A" font-size="9.5" font-weight="700">Resultado: Decisión transparente fundada en la evidencia original.</text>
+
+      <!-- ESTADO 3 -->
+      <rect x="1225" y="0" width="600" height="124" rx="8" fill="#450a0a" stroke="#EF4444" stroke-width="1.5" />
+      <circle cx="20" cy="20" r="8" fill="#EF4444" />
+      <text x="35" y="24" fill="#FCA5A5" font-size="11.5" font-weight="900">🔴 ROJO: PRUEBA ILÍCITA / ALUCINACIÓN</text>
+      <text x="15" y="44" fill="#E2E8F0" font-size="9.5">• Violación de garantías (CRBV Art. 49.1) o cita no hallada.</text>
+      <text x="15" y="58" fill="#E2E8F0" font-size="9.5">• Bloqueo automático de sugerencia y alerta de ilicitud probatoria.</text>
+      <text x="15" y="72" fill="#E2E8F0" font-size="9.5">• Inadmisibilidad declarada inmediatamente en la audiencia.</text>
+      <text x="15" y="96" fill="#FECACA" font-size="9.5" font-weight="700">Resultado: Cero vulneración del Debido Proceso Penal.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER BAR -->
+  <rect x="0" y="1055" width="1920" height="25" fill="#090d16" />
+  <line x1="0" y1="1055" x2="1920" y2="1055" stroke="#1e293b" stroke-width="1" />
+  <text x="40" y="1072" fill="#64748B" font-size="11" font-weight="500">JullBrain Legal-RAG Framework © 2026 — Estrategia de Descongestionamiento Judicial en Audiencia Preliminar (COPP)</text>
+  <text x="1880" y="1072" fill="#64748B" font-size="11" font-weight="500" text-anchor="end">Modelos Granite 3B/8B/30B | IBM Docling | RAGFlow Vector DB | ISO 27037 &amp; ISO 42001</text>
+
+</svg>

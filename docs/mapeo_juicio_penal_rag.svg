@@ -1,0 +1,482 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #080b12;">
+  <title>JullBrain — Mapeo del Juicio Penal Venezolano (COPP) en la Arquitectura Legal-RAG</title>
+
+  <defs>
+    <!-- Gradientes de Fondo y Encabezado -->
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Gradientes de las 5 Fases COPP -->
+    <linearGradient id="gradFase1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#072738" />
+      <stop offset="100%" stop-color="#04141e" />
+    </linearGradient>
+
+    <linearGradient id="gradFase2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#332505" />
+      <stop offset="100%" stop-color="#1a1202" />
+    </linearGradient>
+
+    <linearGradient id="gradFase3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062e1b" />
+      <stop offset="100%" stop-color="#03170d" />
+    </linearGradient>
+
+    <linearGradient id="gradFase4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#31122b" />
+      <stop offset="100%" stop-color="#190a17" />
+    </linearGradient>
+
+    <linearGradient id="gradFase5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d234a" />
+      <stop offset="100%" stop-color="#061227" />
+    </linearGradient>
+
+    <linearGradient id="gradSem" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+
+    <!-- Filtros de Sombra y Brillo -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <!-- Marcadores de Flechas -->
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00CFFF" />
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+    <marker id="arrowMagenta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#EC4899" />
+    </marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#4589ff" />
+    </marker>
+  </defs>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- HEADER BANNER                                                       -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="1920" height="85" fill="url(#gradHeader)" />
+  <line x1="0" y1="85" x2="1920" y2="85" stroke="#334155" stroke-width="2" />
+
+  <!-- Badge COPP / Legal RAG -->
+  <rect x="40" y="16" width="210" height="52" rx="8" fill="#0284c7" filter="url(#shadow)" />
+  <text x="52" y="38" fill="#FFFFFF" font-size="13" font-weight="900" letter-spacing="1">SISTEMA PENAL COPP</text>
+  <text x="52" y="56" fill="#BAE6FD" font-size="12" font-weight="700">MAPEO RAG JULLBRAIN</text>
+
+  <!-- Main Title -->
+  <text x="270" y="38" fill="#F8FAFC" font-size="22" font-weight="800" letter-spacing="0.5">MAPEO DEL JUICIO PENAL VENEZOLANO EN LA ARQUITECTURA LEGAL-RAG</text>
+  <text x="270" y="60" fill="#94A3B8" font-size="13" font-weight="500">Integración del Código Orgánico Procesal Penal (COPP) con Ingesta Docling, Vector DB RAGFlow y Semáforo de Confianza Granite</text>
+
+  <!-- Badges Normativos -->
+  <g transform="translate(1420, 20)">
+    <rect x="0" y="0" width="140" height="22" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+    <text x="70" y="15" fill="#38bdf8" font-size="10" font-weight="700" text-anchor="middle">CRBV Art. 49 (Debido Proceso)</text>
+
+    <rect x="150" y="0" width="140" height="22" rx="4" fill="#1e293b" stroke="#34d399" stroke-width="1"/>
+    <text x="220" y="15" fill="#34d399" font-size="10" font-weight="700" text-anchor="middle">ISO 27037 (Cadena Custodia)</text>
+
+    <rect x="300" y="0" width="160" height="22" rx="4" fill="#1e293b" stroke="#facc15" stroke-width="1"/>
+    <text x="380" y="15" fill="#facc15" font-size="10" font-weight="700" text-anchor="middle">COPP Decreto N.° 4.608</text>
+
+    <rect x="0" y="28" width="460" height="20" rx="4" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+    <text x="230" y="42" fill="#cbd5e1" font-size="10" font-weight="600" text-anchor="middle">Principio CNJ 332/2020: "Supervisión Humana Obligatoria en Decisiones Penales"</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- SECCIÓN 1: LAS 5 FASES DEL JUICIO PENAL VENEZOLANO (COPP)           -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="118" fill="#38BDF8" font-size="14" font-weight="800" letter-spacing="1">FLUJO DEL PROCESO PENAL (COPP) &amp; CAPA DE PROCESAMIENTO RAG JULLBRAIN</text>
+
+  <!-- FLECHAS DE CONEXIÓN ENTRE FASES -->
+  <line x1="390" y1="300" x2="410" y2="300" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
+  <line x1="762" y1="300" x2="782" y2="300" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+  <line x1="1134" y1="300" x2="1154" y2="300" stroke="#00FF41" stroke-width="3" marker-end="url(#arrowGreen)" />
+  <line x1="1506" y1="300" x2="1526" y2="300" stroke="#EC4899" stroke-width="3" marker-end="url(#arrowMagenta)" />
+
+  <!-- FASE 1: PREPARATORIA / INVESTIGACIÓN -->
+  <g transform="translate(40, 130)">
+    <rect x="0" y="0" width="350" height="375" rx="12" fill="url(#gradFase1)" stroke="#00CFFF" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Card -->
+    <rect x="0" y="0" width="350" height="50" rx="12" fill="#00CFFF" opacity="0.2" />
+    <circle cx="30" cy="25" r="16" fill="#00CFFF" />
+    <text x="30" y="30" fill="#080b12" font-size="14" font-weight="900" text-anchor="middle">1</text>
+    <text x="56" y="31" fill="#38BDF8" font-size="15" font-weight="800">FASE PREPARATORIA</text>
+
+    <!-- Content -->
+    <text x="16" y="73" fill="#7DD3FC" font-size="11" font-weight="700">MARCO LEGAL COPP (Art. 262 y ss.):</text>
+    <text x="16" y="89" fill="#E2E8F0" font-size="10.5">• Investigación penal a cargo del Ministerio Público.</text>
+    <text x="16" y="103" fill="#E2E8F0" font-size="10.5">• Actas policiales, allanamientos y peritajes.</text>
+
+    <line x1="16" y1="114" x2="334" y2="114" stroke="#0c4a6e" stroke-width="1" />
+
+    <text x="16" y="130" fill="#7DD3FC" font-size="11" font-weight="700">INTEGRACIÓN PIPELINE RAG JULLBRAIN:</text>
+    <text x="24" y="148" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#38BDF8">Ingesta OCR (Docling):</tspan> Extracción de actas</text>
+    <text x="33" y="162" fill="#CBD5E1" font-size="10.5">policiales escaneadas y peritajes técnicos.</text>
+    <text x="24" y="178" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#38BDF8">Hash SHA-256 (metadata_extractor):</tspan></text>
+    <text x="33" y="192" fill="#CBD5E1" font-size="10.5">Sellado de tiempo e integridad probatoria.</text>
+    <text x="24" y="208" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#38BDF8">Chunking Atómico (legalizer.py):</tspan> Separación</text>
+    <text x="33" y="222" fill="#CBD5E1" font-size="10.5">por actas, folios y articulado normativo.</text>
+
+    <line x1="16" y1="234" x2="334" y2="234" stroke="#0c4a6e" stroke-width="1" />
+
+    <text x="16" y="250" fill="#7DD3FC" font-size="11" font-weight="700">ACTORES Y CONTROL FORENSE:</text>
+    <text x="16" y="266" fill="#E2E8F0" font-size="10.5">• Fiscal del Ministerio Público + CICPC / Perito.</text>
+    <text x="16" y="280" fill="#E2E8F0" font-size="10.5">• Registro estricto de Cadena de Custodia (R7).</text>
+
+    <rect x="16" y="295" width="318" height="68" rx="6" fill="#0c4a6e" opacity="0.8" />
+    <text x="24" y="312" fill="#BAE6FD" font-size="10" font-weight="700">Entregable RAG de la Fase:</text>
+    <text x="24" y="327" fill="#FFFFFF" font-size="9.5">JSON semántico estructurado en RAGFlow con</text>
+    <text x="24" y="340" fill="#FFFFFF" font-size="9.5">hash de verificación y foliatura computable.</text>
+    <text x="24" y="354" fill="#38BDF8" font-size="9.5" font-weight="700">Roles Lideres: R2 (Fullstack) + R7 (IA Forense)</text>
+  </g>
+
+  <!-- FASE 2: INTERMEDIA / AUDIENCIA PRELIMINAR -->
+  <g transform="translate(412, 130)">
+    <rect x="0" y="0" width="350" height="375" rx="12" fill="url(#gradFase2)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Card -->
+    <rect x="0" y="0" width="350" height="50" rx="12" fill="#FECF06" opacity="0.2" />
+    <circle cx="30" cy="25" r="16" fill="#FECF06" />
+    <text x="30" y="30" fill="#080b12" font-size="14" font-weight="900" text-anchor="middle">2</text>
+    <text x="56" y="31" fill="#FDE047" font-size="15" font-weight="800">FASE INTERMEDIA</text>
+
+    <!-- Content -->
+    <text x="16" y="73" fill="#FEF08A" font-size="11" font-weight="700">MARCO LEGAL COPP (Art. 309 y ss.):</text>
+    <text x="16" y="89" fill="#E2E8F0" font-size="10.5">• Presentación de Acusación Fiscal.</text>
+    <text x="16" y="103" fill="#E2E8F0" font-size="10.5">• Audiencia Preliminar ante Juez de Control.</text>
+
+    <line x1="16" y1="114" x2="334" y2="114" stroke="#713f12" stroke-width="1" />
+
+    <text x="16" y="130" fill="#FEF08A" font-size="11" font-weight="700">INTEGRACIÓN PIPELINE RAG JULLBRAIN:</text>
+    <text x="24" y="148" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#FDE047">Auditoría de Foliatura (validator.py):</tspan></text>
+    <text x="33" y="162" fill="#CBD5E1" font-size="10.5">Detección de folios omitidos o alterados.</text>
+    <text x="24" y="178" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#FDE047">Cotejo de Admisibilidad Probatoria:</tspan></text>
+    <text x="33" y="192" fill="#CBD5E1" font-size="10.5">Verificación semántica contra COPP y CRBV.</text>
+    <text x="24" y="208" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#FDE047">Análisis de Excepciones:</tspan> Recuperación Híbrida</text>
+    <text x="33" y="222" fill="#CBD5E1" font-size="10.5">de causales de sobreseimiento (Art. 300).</text>
+
+    <line x1="16" y1="234" x2="334" y2="234" stroke="#713f12" stroke-width="1" />
+
+    <text x="16" y="250" fill="#FEF08A" font-size="11" font-weight="700">ACTORES Y CONTROL FORENSE:</text>
+    <text x="16" y="266" fill="#E2E8F0" font-size="10.5">• Juez de Control + Fiscal + Defensor Público.</text>
+    <text x="16" y="280" fill="#E2E8F0" font-size="10.5">• Alerta de nulidades absolutas (CRBV Art. 49.1).</text>
+
+    <rect x="16" y="295" width="318" height="68" rx="6" fill="#713f12" opacity="0.8" />
+    <text x="24" y="312" fill="#FEF08A" font-size="10" font-weight="700">Entregable RAG de la Fase:</text>
+    <text x="24" y="327" fill="#FFFFFF" font-size="9.5">Informe de Consistencia Formal del Expediente y</text>
+    <text x="24" y="340" fill="#FFFFFF" font-size="9.5">Matriz de Admisibilidad de Pruebas Ofrecidas.</text>
+    <text x="24" y="354" fill="#FDE047" font-size="9.5" font-weight="700">Roles Lideres: R3 (Legaltech) + R7 (IA Forense)</text>
+  </g>
+
+  <!-- FASE 3: JUICIO ORAL Y PÚBLICO -->
+  <g transform="translate(784, 130)">
+    <rect x="0" y="0" width="350" height="375" rx="12" fill="url(#gradFase3)" stroke="#00FF41" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Card -->
+    <rect x="0" y="0" width="350" height="50" rx="12" fill="#00FF41" opacity="0.2" />
+    <circle cx="30" cy="25" r="16" fill="#00FF41" />
+    <text x="30" y="30" fill="#080b12" font-size="14" font-weight="900" text-anchor="middle">3</text>
+    <text x="56" y="31" fill="#86EFAC" font-size="15" font-weight="800">FASE DE JUICIO ORAL</text>
+
+    <!-- Content -->
+    <text x="16" y="73" fill="#86EFAC" font-size="11" font-weight="700">MARCO LEGAL COPP (Art. 315 y ss.):</text>
+    <text x="16" y="89" fill="#E2E8F0" font-size="10.5">• Debate oral, evacuación de pruebas y peritajes.</text>
+    <text x="16" y="103" fill="#E2E8F0" font-size="10.5">• Sentencia Definitiva (Absolutoria/Condenatoria).</text>
+
+    <line x1="16" y1="114" x2="334" y2="114" stroke="#065f46" stroke-width="1" />
+
+    <text x="16" y="130" fill="#86EFAC" font-size="11" font-weight="700">INTEGRACIÓN PIPELINE RAG JULLBRAIN:</text>
+    <text x="24" y="148" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#86EFAC">Consultas en Tiempo Real (&lt;3s):</tspan> Búsqueda</text>
+    <text x="33" y="162" fill="#CBD5E1" font-size="10.5">vectorial con Granite Embeddings en audiencia.</text>
+    <text x="24" y="178" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#86EFAC">Semáforo de Confianza Jurídica (app.py):</tspan></text>
+    <text x="33" y="192" fill="#CBD5E1" font-size="10.5">Auditoría tricolor en vivo (Verde, Ámbar, Rojo).</text>
+    <text x="24" y="208" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#86EFAC">Cotejo de Testimoniales vs Actas:</tspan> Detección</text>
+    <text x="33" y="222" fill="#CBD5E1" font-size="10.5">de contradicciones con el expediente original.</text>
+
+    <line x1="16" y1="234" x2="334" y2="234" stroke="#065f46" stroke-width="1" />
+
+    <text x="16" y="250" fill="#86EFAC" font-size="11" font-weight="700">ACTORES Y CONTROL FORENSE:</text>
+    <text x="16" y="266" fill="#E2E8F0" font-size="10.5">• Juez de Juicio + Fiscal + Defensor + Peritos.</text>
+    <text x="16" y="280" fill="#E2E8F0" font-size="10.5">• Visor dual sincronizado con resaltado en PDF.</text>
+
+    <rect x="16" y="295" width="318" height="68" rx="6" fill="#065f46" opacity="0.8" />
+    <text x="24" y="312" fill="#86EFAC" font-size="10" font-weight="700">Entregable RAG de la Fase:</text>
+    <text x="24" y="327" fill="#FFFFFF" font-size="9.5">Borrador asertivo de Proyecto de Sentencia</text>
+    <text x="24" y="340" fill="#FFFFFF" font-size="9.5">con anclaje normativo 100% verificado (Verde).</text>
+    <text x="24" y="354" fill="#86EFAC" font-size="9.5" font-weight="700">Roles Lideres: R1 (Arquitecto) + R4 (UX/UI DCU)</text>
+  </g>
+
+  <!-- FASE 4: IMPUGNACIÓN / RECURSOS -->
+  <g transform="translate(1156, 130)">
+    <rect x="0" y="0" width="350" height="375" rx="12" fill="url(#gradFase4)" stroke="#EC4899" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Card -->
+    <rect x="0" y="0" width="350" height="50" rx="12" fill="#EC4899" opacity="0.2" />
+    <circle cx="30" cy="25" r="16" fill="#EC4899" />
+    <text x="30" y="30" fill="#FFFFFF" font-size="14" font-weight="900" text-anchor="middle">4</text>
+    <text x="56" y="31" fill="#F472B6" font-size="15" font-weight="800">FASE DE RECURSOS</text>
+
+    <!-- Content -->
+    <text x="16" y="73" fill="#FDA4AF" font-size="11" font-weight="700">MARCO LEGAL COPP (Art. 423 y ss.):</text>
+    <text x="16" y="89" fill="#E2E8F0" font-size="10.5">• Apelación de Autos / Apelación de Sentencia.</text>
+    <text x="16" y="103" fill="#E2E8F0" font-size="10.5">• Recurso de Casación Penal ante el TSJ.</text>
+
+    <line x1="16" y1="114" x2="334" y2="114" stroke="#831843" stroke-width="1" />
+
+    <text x="16" y="130" fill="#FDA4AF" font-size="11" font-weight="700">INTEGRACIÓN PIPELINE RAG JULLBRAIN:</text>
+    <text x="24" y="148" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#F472B6">Análisis de Vicios de Sentencia:</tspan></text>
+    <text x="33" y="162" fill="#CBD5E1" font-size="10.5">Detección automática de inmotivación (Art. 444).</text>
+    <text x="24" y="178" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#F472B6">Cotejo de Jurisprudencia TSJ:</tspan> Búsqueda de</text>
+    <text x="33" y="192" fill="#CBD5E1" font-size="10.5">criterios vinculantes de la Sala de Casación Penal.</text>
+    <text x="24" y="208" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#F472B6">Evaluación de Alucinaciones:</tspan> Auditoría</text>
+    <text x="33" y="222" fill="#CBD5E1" font-size="10.5">Stanford RegLab sobre las fundamentaciones.</text>
+
+    <line x1="16" y1="234" x2="334" y2="234" stroke="#831843" stroke-width="1" />
+
+    <text x="16" y="250" fill="#FDA4AF" font-size="11" font-weight="700">ACTORES Y CONTROL FORENSE:</text>
+    <text x="16" y="266" fill="#E2E8F0" font-size="10.5">• Corte de Apelaciones + Magistrados TSJ.</text>
+    <text x="16" y="280" fill="#E2E8F0" font-size="10.5">• Verificación de violación de garantías CRBV.</text>
+
+    <rect x="16" y="295" width="318" height="68" rx="6" fill="#831843" opacity="0.8" />
+    <text x="24" y="312" fill="#FBCFE8" font-size="10" font-weight="700">Entregable RAG de la Fase:</text>
+    <text x="24" y="327" fill="#FFFFFF" font-size="9.5">Cuadro Comparativo de Jurisprudencia TSJ y</text>
+    <text x="24" y="340" fill="#FFFFFF" font-size="9.5">Pre-dictamen de Admisibilidad del Recurso.</text>
+    <text x="24" y="354" fill="#F472B6" font-size="9.5" font-weight="700">Roles Lideres: R3 (Legaltech) + R1 (Arquitecto IA)</text>
+  </g>
+
+  <!-- FASE 5: EJECUCIÓN DE SENTENCIA -->
+  <g transform="translate(1528, 130)">
+    <rect x="0" y="0" width="352" height="375" rx="12" fill="url(#gradFase5)" stroke="#4589ff" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Card -->
+    <rect x="0" y="0" width="352" height="50" rx="12" fill="#4589ff" opacity="0.2" />
+    <circle cx="30" cy="25" r="16" fill="#4589ff" />
+    <text x="30" y="30" fill="#FFFFFF" font-size="14" font-weight="900" text-anchor="middle">5</text>
+    <text x="56" y="31" fill="#93C5FD" font-size="15" font-weight="800">FASE DE EJECUCIÓN</text>
+
+    <!-- Content -->
+    <text x="16" y="73" fill="#BFDBFE" font-size="11" font-weight="700">MARCO LEGAL COPP (Art. 471 y ss.):</text>
+    <text x="16" y="89" fill="#E2E8F0" font-size="10.5">• Cumplimiento de pena y cómputo definitivo.</text>
+    <text x="16" y="103" fill="#E2E8F0" font-size="10.5">• Beneficios procesales y redención por estudio/trabajo.</text>
+
+    <line x1="16" y1="114" x2="336" y2="114" stroke="#1e3a8a" stroke-width="1" />
+
+    <text x="16" y="130" fill="#BFDBFE" font-size="11" font-weight="700">INTEGRACIÓN PIPELINE RAG JULLBRAIN:</text>
+    <text x="24" y="148" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#93C5FD">Cómputo Automatizado Auditado:</tspan></text>
+    <text x="33" y="162" fill="#CBD5E1" font-size="10.5">Cálculo exacto de física pena y redenciones.</text>
+    <text x="24" y="178" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#93C5FD">Monitoreo de Lapsos Legales:</tspan> Alertas RAG</text>
+    <text x="33" y="192" fill="#CBD5E1" font-size="10.5">para optar a libertad condicional (Art. 501).</text>
+    <text x="24" y="208" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#93C5FD">Histórico de Custodia:</tspan> Expediente cerrado</text>
+    <text x="33" y="222" fill="#CBD5E1" font-size="10.5">y archivado con trazabilidad Hash SHA-256.</text>
+
+    <line x1="16" y1="234" x2="336" y2="234" stroke="#1e3a8a" stroke-width="1" />
+
+    <text x="16" y="250" fill="#BFDBFE" font-size="11" font-weight="700">ACTORES Y CONTROL FORENSE:</text>
+    <text x="16" y="266" fill="#E2E8F0" font-size="10.5">• Juez de Ejecución de Penas + Delegado de Prueba.</text>
+    <text x="16" y="280" fill="#E2E8F0" font-size="10.5">• Certificación final de no alteración documental.</text>
+
+    <rect x="16" y="295" width="320" height="68" rx="6" fill="#1e3a8a" opacity="0.8" />
+    <text x="24" y="312" fill="#93C5FD" font-size="10" font-weight="700">Entregable RAG de la Fase:</text>
+    <text x="24" y="327" fill="#FFFFFF" font-size="9.5">Auto de Cómputo de Pena Certificado y Ficha</text>
+    <text x="24" y="340" fill="#FFFFFF" font-size="9.5">de Evaluación de Beneficios Procesales Legales.</text>
+    <text x="24" y="354" fill="#93C5FD" font-size="9.5" font-weight="700">Roles Lideres: R2 (Fullstack) + R7 (IA Forense)</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- SECCIÓN 2: ARQUITECTURA TÉCNICA RAG JULLBRAIN APLICADA AL COPP      -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="535" fill="#38BDF8" font-size="14" font-weight="800" letter-spacing="1">ARQUITECTURA DEL PIPELINE LEGAL-RAG EN EL CICLO DE VIDA DEL EXPEDIENTE PENAL</text>
+
+  <g transform="translate(40, 550)">
+    <rect x="0" y="0" width="1840" height="260" rx="12" fill="url(#gradCardDark)" stroke="#0f62fe" stroke-width="2" filter="url(#shadow)" />
+
+    <!-- Section Header -->
+    <rect x="0" y="0" width="1840" height="40" rx="12" fill="#0f62fe" />
+    <text x="20" y="25" fill="#FFFFFF" font-size="14" font-weight="800" letter-spacing="0.5">CAPAS TECNOLÓGICAS DE INGESTA, CHUNKING, EMBEDDINGS, AUDITORÍA Y DASHBOARD VISUAL</text>
+    <text x="1820" y="25" fill="#93c5fd" font-size="12" font-weight="700" text-anchor="end">IBM DOCLING + OLLAMA GRANITE + RAGFLOW + PLOTLY DASH</text>
+
+    <!-- BLOQUE 1: INGESTA Y CHUNKING -->
+    <g transform="translate(20, 55)">
+      <rect x="0" y="0" width="430" height="185" rx="10" fill="#0f172a" stroke="#00CFFF" stroke-width="1.5" />
+      <rect x="0" y="0" width="430" height="32" rx="10" fill="#0284c7" />
+      <text x="15" y="21" fill="#FFFFFF" font-size="12" font-weight="800">1. INGESTA &amp; STRUCTURING (IBM Docling + Legalizer)</text>
+
+      <text x="15" y="52" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#38BDF8">Docling Engine:</tspan> Conversión PDF ➔ Markdown jerárquico.</text>
+      <text x="15" y="70" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#38BDF8">metadata_extractor.py:</tspan> Hash SHA-256 + YAML Frontmatter.</text>
+      <text x="15" y="88" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#38BDF8">legalizer.py:</tspan> Chunking atómico por Artículo individual.</text>
+      <text x="15" y="106" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#38BDF8">Preservación Títulos/Capítulos:</tspan> Jerarquía COPP intacta.</text>
+
+      <line x1="12" y1="120" x2="418" y2="120" stroke="#334155" />
+      <rect x="12" y="130" width="406" height="42" rx="6" fill="#0369a1" opacity="0.3" />
+      <text x="20" y="146" fill="#BAE6FD" font-size="10" font-weight="700">Garantía Forense R7:</text>
+      <text x="20" y="160" fill="#E2E8F0" font-size="9.5">Principio de "Espejo Documental" — Cero alteración de actas.</text>
+    </g>
+
+    <!-- Flecha Bloque 1 -> Bloque 2 -->
+    <line x1="455" y1="150" x2="475" y2="150" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
+
+    <!-- BLOQUE 2: EMBEDDINGS Y VECTOR DB -->
+    <g transform="translate(480, 55)">
+      <rect x="0" y="0" width="430" height="185" rx="10" fill="#0f172a" stroke="#FECF06" stroke-width="1.5" />
+      <rect x="0" y="0" width="430" height="32" rx="10" fill="#b45309" />
+      <text x="15" y="21" fill="#FFFFFF" font-size="12" font-weight="800">2. VECTORIZATION &amp; HYBRID SEARCH (Granite + RAGFlow)</text>
+
+      <text x="15" y="52" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#FDE047">granite_embedder.py:</tspan> Granite Embedding R2 local.</text>
+      <text x="15" y="70" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#FDE047">RAGFlow Vector DB:</tspan> Indexación por metadata y artículos.</text>
+      <text x="15" y="88" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#FDE047">Búsqueda Híbrida:</tspan> Densa (semántica) + Dispersa (BM25 regex).</text>
+      <text x="15" y="106" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#FDE047">Filtros Avanzados:</tspan> Por Gaceta Oficial, Fecha y Folio Penal.</text>
+
+      <line x1="12" y1="120" x2="418" y2="120" stroke="#334155" />
+      <rect x="12" y="130" width="406" height="42" rx="6" fill="#78350f" opacity="0.4" />
+      <text x="20" y="146" fill="#FDE047" font-size="10" font-weight="700">Rendimiento Inferencia:</text>
+      <text x="20" y="160" fill="#E2E8F0" font-size="9.5">Recuperación multicontexto en &lt; 800ms sin conexión a Internet.</text>
+    </g>
+
+    <!-- Flecha Bloque 2 -> Bloque 3 -->
+    <line x1="915" y1="150" x2="935" y2="150" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+
+    <!-- BLOQUE 3: VALIDACIÓN Y AUDITORÍA -->
+    <g transform="translate(940, 55)">
+      <rect x="0" y="0" width="430" height="185" rx="10" fill="#0f172a" stroke="#00FF41" stroke-width="1.5" />
+      <rect x="0" y="0" width="430" height="32" rx="10" fill="#047857" />
+      <text x="15" y="21" fill="#FFFFFF" font-size="12" font-weight="800">3. AUDIT &amp; QUALITY CONTROL (validator.py)</text>
+
+      <text x="15" y="52" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#86EFAC">Doble Validación Cruzada:</tspan> Conteo Regex vs PyMuPDF.</text>
+      <text x="15" y="70" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#86EFAC">Detección de Omisiones:</tspan> Reporte automático de saltos.</text>
+      <text x="15" y="88" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#86EFAC">Rúbrica Stanford RegLab:</tspan> Auditoría de desanclaje.</text>
+      <text x="15" y="106" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#86EFAC">pipeline_config.json:</tspan> Umbrales de calidad dinámicos.</text>
+
+      <line x1="12" y1="120" x2="418" y2="120" stroke="#334155" />
+      <rect x="12" y="130" width="406" height="42" rx="6" fill="#064e3b" opacity="0.5" />
+      <text x="20" y="146" fill="#86EFAC" font-size="10" font-weight="700">Criterio de Error Cero:</text>
+      <text x="20" y="160" fill="#E2E8F0" font-size="9.5">Ningún documento avanza a la Vector DB sin estado "OK".</text>
+    </g>
+
+    <!-- Flecha Bloque 3 -> Bloque 4 -->
+    <line x1="1375" y1="150" x2="1395" y2="150" stroke="#00FF41" stroke-width="3" marker-end="url(#arrowGreen)" />
+
+    <!-- BLOQUE 4: DASHBOARD Y SEMÁFORO -->
+    <g transform="translate(1400, 55)">
+      <rect x="0" y="0" width="420" height="185" rx="10" fill="#0f172a" stroke="#EC4899" stroke-width="1.5" />
+      <rect x="0" y="0" width="420" height="32" rx="10" fill="#be185d" />
+      <text x="15" y="21" fill="#FFFFFF" font-size="12" font-weight="800">4. USER CONTROL INTERFACE (app.py Plotly Dash)</text>
+
+      <text x="15" y="52" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#F472B6">Semáforo de Confianza:</tspan> Indicador Tricolor en tiempo real.</text>
+      <text x="15" y="70" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#F472B6">Visor Dual Sincronizado:</tspan> Transcripción RAG vs PDF original.</text>
+      <text x="15" y="88" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#F472B6">Hyperlinks Directos:</tspan> Clic en cita lleva al folio exacto.</text>
+      <text x="15" y="106" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#F472B6">Intervención Humana:</tspan> Aprobar / Modificar / Rechazar.</text>
+
+      <line x1="12" y1="120" x2="408" y2="120" stroke="#334155" />
+      <rect x="12" y="130" width="396" height="42" rx="6" fill="#831843" opacity="0.4" />
+      <text x="20" y="146" fill="#F472B6" font-size="10" font-weight="700">Decisión Legal Humana:</text>
+      <text x="20" y="160" fill="#E2E8F0" font-size="9.5">El Juez / Fiscal mantiene el control total de la resolución.</text>
+    </g>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- SECCIÓN 3: SEMÁFORO DE CONFIANZA & MATRIZ DE INTEGRIDAD FORENSE      -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="835" fill="#38BDF8" font-size="14" font-weight="800" letter-spacing="1">MECANISMOS DE AUDITORÍA FORENSE Y ESTADOS DEL SEMÁFORO EN AUDIENCIA PENAL</text>
+
+  <!-- PANEL IZQUIERDO: DETALLE DEL SEMÁFORO EN JUICIO -->
+  <g transform="translate(40, 850)">
+    <rect x="0" y="0" width="910" height="195" rx="12" fill="url(#gradCardDark)" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="910" height="35" rx="12" fill="#0c4a6e" />
+    <text x="20" y="22" fill="#BAE6FD" font-size="13" font-weight="800">🚦 ESTADOS DE CONFIDENCIALIDAD Y AUDITABILIDAD DEL SEMÁFORO JURÍDICO</text>
+    <text x="890" y="22" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="end">LLM-AS-A-JUDGE / AUDITORÍA EN TIEMPO REAL</text>
+
+    <g transform="translate(15, 45)">
+      <!-- VERDE -->
+      <rect x="0" y="0" width="280" height="135" rx="8" fill="#022c22" stroke="#10B981" stroke-width="1.5" />
+      <circle cx="20" cy="20" r="9" fill="#10B981" />
+      <text x="35" y="24" fill="#34D399" font-size="12" font-weight="900">VERDE: CITA NORMATIVA ANCLADA</text>
+      <text x="12" y="44" fill="#E2E8F0" font-size="10">• Coincidencia exacta con COPP / Leyes.</text>
+      <text x="12" y="58" fill="#E2E8F0" font-size="10">• Hash SHA-256 del acta verificado.</text>
+      <text x="12" y="72" fill="#E2E8F0" font-size="10">• Cero desviación semántica (Score &gt; 90%).</text>
+      <rect x="10" y="85" width="260" height="38" rx="4" fill="#064e3b" />
+      <text x="18" y="100" fill="#A7F3D0" font-size="9.5" font-weight="700">Uso en Juicio Penal:</text>
+      <text x="18" y="114" fill="#FFFFFF" font-size="9">Apto para fundamentación de autos y sentencias.</text>
+
+      <!-- ÁMBAR -->
+      <rect x="295" y="0" width="280" height="135" rx="8" fill="#451a03" stroke="#F59E0B" stroke-width="1.5" />
+      <circle cx="20" cy="20" r="9" fill="#F59E0B" />
+      <text x="35" y="24" fill="#FBBF24" font-size="12" font-weight="900">ÁMBAR: AMBIGÜEDAD / EVALUACIÓN</text>
+      <text x="12" y="44" fill="#E2E8F0" font-size="10">• Conflicto normativo o varias leyes.</text>
+      <text x="12" y="58" fill="#E2E8F0" font-size="10">• Interpretación jurisprudencial TSJ.</text>
+      <text x="12" y="72" fill="#E2E8F0" font-size="10">• Score de confianza entre 70% y 89%.</text>
+      <rect x="10" y="85" width="260" height="38" rx="4" fill="#78350f" />
+      <text x="18" y="100" fill="#FDE68A" font-size="9.5" font-weight="700">Uso en Juicio Penal:</text>
+      <text x="18" y="114" fill="#FFFFFF" font-size="9">Requiere revisión directa en el visor de PDF.</text>
+
+      <!-- ROJO -->
+      <rect x="590" y="0" width="290" height="135" rx="8" fill="#450a0a" stroke="#EF4444" stroke-width="1.5" />
+      <circle cx="20" cy="20" r="9" fill="#EF4444" />
+      <text x="35" y="24" fill="#FCA5A5" font-size="12" font-weight="900">ROJO: ALUCINACIÓN / BLOQUEO</text>
+      <text x="12" y="44" fill="#E2E8F0" font-size="10">• Cita o artículo no hallado en corpus.</text>
+      <text x="12" y="58" fill="#E2E8F0" font-size="10">• Desanclaje o foliatura inconsistente.</text>
+      <text x="12" y="72" fill="#E2E8F0" font-size="10">• Riesgo alto de alucinación del LLM.</text>
+      <rect x="10" y="85" width="270" height="38" rx="4" fill="#7f1d1d" />
+      <text x="18" y="100" fill="#FECACA" font-size="9.5" font-weight="700">Uso en Juicio Penal:</text>
+      <text x="18" y="114" fill="#FFFFFF" font-size="9">Inyección bloqueada automáticamente.</text>
+    </g>
+  </g>
+
+  <!-- PANEL DERECHO: PROTOCOLOS FORENSES (R7) Y CADENA DE CUSTODIA -->
+  <g transform="translate(970, 850)">
+    <rect x="0" y="0" width="910" height="195" rx="12" fill="url(#gradCardDark)" stroke="#F43F5E" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="910" height="35" rx="12" fill="#881337" />
+    <text x="20" y="22" fill="#FECDD3" font-size="13" font-weight="800">🛡️ PROTOCOLO FORENSE R7: CADENA DE CUSTODIA Y CONTROL DE EVIDENCIA (ISO 27037)</text>
+    <text x="890" y="22" fill="#fda4af" font-size="11" font-weight="700" text-anchor="end">PRINCIPIOS NO NEGOCIABLES</text>
+
+    <g transform="translate(15, 45)">
+      <!-- ITEM 1 -->
+      <rect x="0" y="0" width="280" height="62" rx="6" fill="#1e1b4b" stroke="#38bdf8" stroke-width="1" />
+      <text x="10" y="18" fill="#38bdf8" font-size="11" font-weight="800">Integridad de Hash SHA-256</text>
+      <text x="10" y="34" fill="#CBD5E1" font-size="9.5">Cada acta u orden es procesada previo cálculo</text>
+      <text x="10" y="47" fill="#CBD5E1" font-size="9.5">de hash para certificar su no alteración.</text>
+
+      <!-- ITEM 2 -->
+      <rect x="295" y="0" width="280" height="62" rx="6" fill="#1e1b4b" stroke="#FECF06" stroke-width="1" />
+      <text x="305" y="18" fill="#FECF06" font-size="11" font-weight="800">Reporte de Anomalías de Folio</text>
+      <text x="305" y="34" fill="#CBD5E1" font-size="9.5">Saltos en foliatura o fechas inconsistentes se</text>
+      <text x="305" y="47" fill="#CBD5E1" font-size="9.5">notifican al Juez, nunca se corrigen a ciegas.</text>
+
+      <!-- ITEM 3 -->
+      <rect x="590" y="0" width="290" height="62" rx="6" fill="#1e1b4b" stroke="#00FF41" stroke-width="1" />
+      <text x="600" y="18" fill="#00FF41" font-size="11" font-weight="800">Principio de Espejo Documental</text>
+      <text x="600" y="34" fill="#CBD5E1" font-size="9.5">La conversión Markdown refleja 1:1 el PDF</text>
+      <text x="600" y="47" fill="#CBD5E1" font-size="9.5">original sin distorsión de frases clave.</text>
+
+      <!-- BANNER INFERIOR FORENSE -->
+      <rect x="0" y="70" width="880" height="65" rx="6" fill="#4c0519" stroke="#f43f5e" stroke-width="1" />
+      <text x="15" y="88" fill="#FDA4AF" font-size="11" font-weight="900">GARANTÍA CONSTITUCIONAL DE DEBIDO PROCESO (CRBV ART. 49):</text>
+      <text x="15" y="105" fill="#FFFFFF" font-size="10">El sistema Legal-RAG actúa exclusivamente como motor de búsqueda y verificación semántica de alta precisión.</text>
+      <text x="15" y="120" fill="#FECDD3" font-size="9.5" font-weight="700">Toda sugerencia debe ser aprobada explícitamente por la firma digital / física del Juez o Fiscal competente.</text>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- FOOTER BAR                                                          -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect x="0" y="1055" width="1920" height="25" fill="#090d16" />
+  <line x1="0" y1="1055" x2="1920" y2="1055" stroke="#1e293b" stroke-width="1" />
+  <text x="40" y="1072" fill="#64748B" font-size="11" font-weight="500">JullBrain Legal-RAG Framework © 2026 — Mapeo del Juicio Penal Venezolano (COPP &amp; CRBV)</text>
+  <text x="1880" y="1072" fill="#64748B" font-size="11" font-weight="500" text-anchor="end">Modelos Granite 3B/8B/30B | IBM Docling | RAGFlow Vector DB | ISO 27037</text>
+
+</svg>

@@ -1,0 +1,83 @@
+version: '3.8'
+
+services:
+  # 1. Interfaz Oficial Open WebUI
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open_webui
+    ports:
+      - "8080:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://host.containers.internal:11434
+      - WEBUI_SECRET_KEY=JullBrain_OpenWebUI_Secret_Key_2026
+    volumes:
+      - open-webui-data:/app/backend/data
+    restart: unless-stopped
+
+  # 2. Servicio API Backend JullBrain (FastAPI)
+  jullbrain-web:
+    build:
+      context: .
+      dockerfile: Containerfile
+    container_name: jullbrain_app
+    image: jullbrain:latest
+    ports:
+      - "8050:8050"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PORT=8050
+      - OPENSEARCH_HOST=opensearch
+      - OPENSEARCH_PORT=9200
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=jullbrain_db
+      - POSTGRES_USER=jullbrain_user
+      - POSTGRES_PASSWORD=jullbrain_secure_pass
+    volumes:
+      - ./RAG/datos_brutos:/app/RAG/datos_brutos
+      - ./RAG/Informacion_docling_rag:/app/RAG/Informacion_docling_rag
+      - ./RAG/notebooks_db:/app/RAG/notebooks_db
+    restart: unless-stopped
+    depends_on:
+      - opensearch
+      - postgres
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8050/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  # 3. Motor de Búsqueda Híbrida OpenSearch (BM25 + Vector)
+  opensearch:
+    image: opensearchproject/opensearch:2.14.0
+    container_name: jullbrain_opensearch
+    environment:
+      - discovery.type=single-node
+      - OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m
+      - DISABLE_SECURITY_PLUGIN=true
+    ports:
+      - "9200:9200"
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+    restart: unless-stopped
+
+  # 4. Base de Datos Relacional y Vectorial PostgreSQL + pgvector
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: jullbrain_postgres
+    environment:
+      POSTGRES_DB: jullbrain_db
+      POSTGRES_USER: jullbrain_user
+      POSTGRES_PASSWORD: jullbrain_secure_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./db_schema.sql:/docker-entrypoint-initdb.d/db_schema.sql
+    restart: unless-stopped
+
+volumes:
+  open-webui-data:
+  opensearch-data:
+  postgres-data:

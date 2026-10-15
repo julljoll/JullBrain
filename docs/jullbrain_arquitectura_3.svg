@@ -1,0 +1,186 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', sans-serif; background-color: #080b12;">
+  <title>JullBrain — Diapositiva 3: Capa 2 — Ingesta Multi-formato &amp; Motor IBM Docling</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161c27" />
+      <stop offset="50%" stop-color="#241e07" />
+      <stop offset="100%" stop-color="#161c27" />
+    </linearGradient>
+
+    <linearGradient id="gradDocling" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#182c1e" />
+      <stop offset="100%" stop-color="#0b170f" />
+    </linearGradient>
+
+    <linearGradient id="gradSources" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#152133" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00CFFF" />
+    </marker>
+  </defs>
+
+  <!-- HEADER BAR -->
+  <rect x="40" y="30" width="1840" height="90" rx="14" fill="url(#gradHeader)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">CAPA 2: INGESTA MULTI-FORMATO &amp; MOTOR IBM DOCLING ENGINE</text>
+  <text x="70" y="94" font-size="14" fill="#00FF41">Reconocimiento Visuo-Estructural, OCR Inteligente, Segmentación HierarchicalChunker &amp; Caché Criptográfica</text>
+
+  <!-- Pill Diapositiva -->
+  <rect x="1650" y="52" width="200" height="46" rx="23" fill="#241e07" stroke="#FECF06" stroke-width="1.5" />
+  <text x="1750" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Diapositiva 3 / 7</text>
+
+  <!-- DIAGRAMA PRINCIPAL CAPA 2 -->
+  <rect x="40" y="145" width="1840" height="630" rx="16" fill="#0b0e17" stroke="#253246" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- 1. Fuentes Origen Multi-Formato -->
+  <g transform="translate(70, 180)" filter="url(#shadow)">
+    <rect width="450" height="560" rx="14" fill="url(#gradSources)" stroke="#00FF41" stroke-width="2"/>
+    <rect x="20" y="20" width="410" height="40" rx="8" fill="#092415"/>
+    <text x="225" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#00FF41">📥 FUENTES DE ENTRADA AL PIPELINE</text>
+
+    <!-- Caja PDFs -->
+    <rect x="25" y="80" width="400" height="210" rx="10" fill="#09101a" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="45" y="108" font-size="13" font-weight="bold" fill="#FECF06">normativas_pdf/ (Carpeta Raíz PDFs)</text>
+    <text x="45" y="130" font-size="10" fill="#00FF41">• Leyes Orgánicas y Procesales de Venezuela</text>
+    <text x="45" y="148" font-size="10" fill="#a0aec0">• PDFs Nacidos Digitales (Texto Seleccionable)</text>
+    <text x="45" y="166" font-size="10" fill="#a0aec0">• PDFs Escaneados de Gacetas Oficiales Antiguas</text>
+    <text x="45" y="184" font-size="10" fill="#a0aec0">• Archivos de Imagen (PNG, JPG, TIFF, BMP)</text>
+    <line x1="45" y1="198" x2="405" y2="198" stroke="#253246" />
+    <text x="45" y="218" font-size="10" font-weight="bold" fill="#00CFFF">Subcarpetas Categorizadas:</text>
+    <text x="45" y="234" font-size="9" fill="#a0aec0">Penal / Mercantil / Tributario / Jurisprudencias / Otras</text>
+
+    <!-- Caja Word -->
+    <rect x="25" y="310" width="400" height="150" rx="10" fill="#09101a" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="45" y="338" font-size="13" font-weight="bold" fill="#FECF06">formatos_word/ (Carpeta Documentos Word)</text>
+    <text x="45" y="360" font-size="10" fill="#00FF41">• Documentos Word (.docx nativos)</text>
+    <text x="45" y="378" font-size="10" fill="#a0aec0">• Archivos heredados Word 97-2003 (.doc)</text>
+    <line x1="45" y1="392" x2="405" y2="392" stroke="#253246" />
+    <text x="45" y="412" font-size="10" fill="#FF4B4B">Fallback .doc Handler:</text>
+    <text x="45" y="428" font-size="9" fill="#a0aec0">Conversión a .docx mediante win32com si aplica en Windows</text>
+
+    <!-- Badge Lotes -->
+    <rect x="25" y="480" width="400" height="55" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1"/>
+    <text x="225" y="505" text-anchor="middle" font-size="11" font-weight="bold" fill="#FECF06">⚡ Batching &amp; Recursividad Paralela</text>
+    <text x="225" y="522" text-anchor="middle" font-size="9" fill="#00FF41">Procesa subcarpetas completas optimizando consumo de RAM</text>
+  </g>
+
+  <!-- Flecha Fuentes -> Docling -->
+  <path d="M 520 460 L 580 460" fill="none" stroke="#00FF41" stroke-width="3" marker-end="url(#arrowGreen)" />
+
+  <!-- 2. IBM Docling Engine -->
+  <g transform="translate(580, 180)" filter="url(#shadow)">
+    <rect width="780" height="560" rx="14" fill="url(#gradDocling)" stroke="#00FF41" stroke-width="2"/>
+    <rect x="20" y="20" width="740" height="40" rx="8" fill="#0c2e17"/>
+    <text x="390" y="46" text-anchor="middle" font-size="16" font-weight="bold" fill="#00FF41">⚙️ IBM DOCLING ENGINE (PROCESAMIENTO CORE)</text>
+
+    <g transform="translate(30, 80)">
+      <!-- Componente 1: Layout & Table Recognition -->
+      <rect x="0" y="0" width="350" height="200" rx="10" fill="#09101a" stroke="#FECF06" stroke-width="1.5"/>
+      <text x="20" y="30" font-size="12" font-weight="bold" fill="#FECF06">1. 📐 Reconocimiento de Layout y Tablas</text>
+      <text x="20" y="52" font-size="10" fill="#00FF41">• Identifica encabezaos, columnas y párrafos</text>
+      <text x="20" y="70" font-size="10" fill="#00FF41">• Extrae estructuras complejas de tablas jurídicas</text>
+      <text x="20" y="88" font-size="10" fill="#a0aec0">• Asocia celdas manteniendo relaciones de datos</text>
+      <text x="20" y="106" font-size="10" fill="#a0aec0">• Elimina números de página y encabezados repetidos</text>
+      <line x1="20" y1="125" x2="330" y2="125" stroke="#253246" />
+      <text x="20" y="148" font-size="10" font-weight="bold" fill="#00CFFF">Modelos de Visión Integrados:</text>
+      <text x="20" y="165" font-size="9" fill="#a0aec0">Docling Layout Parser + Table Structure Recognition Model</text>
+
+      <!-- Componente 2: OCR Engine -->
+      <rect x="370" y="0" width="350" height="200" rx="10" fill="#09101a" stroke="#00FF41" stroke-width="1.5"/>
+      <text x="390" y="30" font-size="12" font-weight="bold" fill="#00FF41">2. 🔍 Motor de OCR (EasyOCR / Tesseract)</text>
+      <text x="390" y="52" font-size="10" fill="#FECF06">• Activación configurable desde `pipeline_config.json`</text>
+      <text x="390" y="70" font-size="10" fill="#a0aec0">• Convierte imágenes de Gacetas escaneadas en texto</text>
+      <text x="390" y="88" font-size="10" fill="#a0aec0">• Corrección de rotación e inclinación de hojas</text>
+      <line x1="390" y1="105" x2="700" y2="105" stroke="#253246" />
+      <text x="390" y="125" font-size="10" font-weight="bold" fill="#FF4B4B">Estrategia Resiliente ante Fallas:</text>
+      <text x="390" y="145" font-size="9" fill="#a0aec0">Si el lote falla con OCR, se ejecuta reintento automático</text>
+      <text x="390" y="160" font-size="9" fill="#00FF41">sin OCR para no detener la ejecución del orquestador.</text>
+
+      <!-- Componente 3: HierarchicalChunker Nativo -->
+      <rect x="0" y="220" width="720" height="220" rx="10" fill="#09101a" stroke="#00CFFF" stroke-width="1.5"/>
+      <text x="20" y="250" font-size="13" font-weight="bold" fill="#00CFFF">3. 🧩 HierarchicalChunker (Salida JSON Nativa de IBM Docling)</text>
+      <text x="20" y="275" font-size="10" fill="#00FF41">• Segmenta el documento respetando la jerarquía natural del texto sin romper oraciones.</text>
+      <text x="20" y="293" font-size="10" fill="#00FF41">• Asigna metadatos semánticos a cada bloque: nivel de título, números de página, bbox visual.</text>
+      <text x="20" y="311" font-size="10" fill="#a0aec0">• Genera la estructura nativa en `normativas_chunks/hierarchical_chunks.json`.</text>
+      <line x1="20" y1="330" x2="700" y2="330" stroke="#253246" />
+      <text x="20" y="352" font-size="11" font-weight="bold" fill="#FECF06">Esquema Directo para RAGFlow:</text>
+      <text x="20" y="370" font-size="10" fill="#a0aec0">La estructura JSON producida cumple exactamente con la especificación requerida por el motor RAGFlow</text>
+      <text x="20" y="388" font-size="10" fill="#00FF41">para inyección inmediata en la base de datos vectorial.</text>
+    </g>
+  </g>
+
+  <!-- Flecha Docling -> Caché -->
+  <path d="M 1360 460 L 1420 460" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+
+  <!-- 3. Caché Criptográfica Manifest -->
+  <g transform="translate(1420, 180)" filter="url(#shadow)">
+    <rect width="430" height="560" rx="14" fill="url(#gradSources)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="20" y="20" width="390" height="40" rx="8" fill="#382d03"/>
+    <text x="215" y="46" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">🛡️ CACHÉ DE MANIFEST SHA-256</text>
+    <text x="215" y="82" text-anchor="middle" font-size="11" fill="#00FF41">Omisión Inteligente de Archivos Procesados</text>
+
+    <rect x="25" y="110" width="380" height="150" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+    <text x="40" y="135" font-size="12" font-weight="bold" fill="#FECF06">.conversion_cache/manifest.json</text>
+    <text x="40" y="155" font-size="10" fill="#a0aec0">• Guarda registro de cada PDF con su hash SHA-256</text>
+    <text x="40" y="170" font-size="10" fill="#a0aec0">• Compara el hash del archivo actual vs el manifest</text>
+    <text x="40" y="188" font-size="10" stroke-width="0.5" fill="#00FF41">• Si el hash coincide, SALTA la conversión automáticamente</text>
+    <text x="40" y="206" font-size="10" fill="#00FF41">• Ahorra horas de cómputo en ejecuciones repetidas</text>
+    <text x="40" y="224" font-size="10" fill="#a0aec0">• Si el archivo cambió, re-procesa solo ese documento</text>
+
+    <rect x="25" y="280" width="380" height="120" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+    <text x="40" y="305" font-size="12" font-weight="bold" fill="#00CFFF">Barra de Progreso Rich Terminal</text>
+    <text x="40" y="325" font-size="10" fill="#a0aec0">• Visualización colorida en la consola CMD</text>
+    <text x="40" y="340" font-size="10" fill="#a0aec0">• Muestra porcentaje global y archivo actual</text>
+    <text x="40" y="355" font-size="10" fill="#00FF41">• Transmisión de logs en vivo a la pestaña 2 de app.py</text>
+    <text x="40" y="370" font-size="10" fill="#a0aec0">• Permite interrupción limpia con `Ctrl+C`</text>
+
+    <rect x="25" y="420" width="380" height="105" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+    <text x="40" y="445" font-size="11" font-weight="bold" fill="#00FF41">Salida de la Capa 2 hacia Capa 3:</text>
+    <text x="40" y="465" font-size="10" fill="#a0aec0">• Markdown crudo extraído de Docling</text>
+    <text x="40" y="480" font-size="10" fill="#a0aec0">• `hierarchical_chunks.json` estructurado</text>
+    <text x="40" y="495" font-size="10" fill="#FECF06">• Listos para `legalizer.py` y `metadata_extractor.py`</text>
+  </g>
+
+  <!-- LEYENDA TÉCNICA DE TAREAS -->
+  <g transform="translate(40, 790)" filter="url(#shadow)">
+    <rect width="1840" height="225" rx="14" fill="#0d111a" stroke="#253246" stroke-width="1.5"/>
+    <text x="70" y="820" font-size="14" font-weight="bold" fill="#FECF06">📋 LEYENDA DETALLADA DE TAREAS — CAPA 2: INGESTA MULTI-FORMATO Y MOTOR IBM DOCLING</text>
+    <line x1="70" y1="830" x2="1810" y2="830" stroke="#253246" />
+
+    <g transform="translate(70, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea A — Ingesta Recursiva &amp; Formatos (`convert_normativas.py`):</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">Recorre carpetas de normativas penal, mercantil y tributaria, procesando archivos PDF, Word o imágenes.</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">Aplica lotes en paralelo para no desbordar la memoria RAM del sistema host durante la extracción.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea B — Motor Visuo-Estructural IBM Docling:</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">Ejecuta reconocedores de layout visual para aislar títulos, tablas y pies de página. Aplica OCR si detecta imágenes</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">y utiliza el `HierarchicalChunker` nativo para partir el texto en bloques semánticos compatibles con RAGFlow.</text>
+    </g>
+
+    <g transform="translate(950, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea C — Caché de Manifest &amp; Reintento Automático:</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">Calcula el hash SHA-256 de cada archivo antes de procesar y lo compara contra `.conversion_cache/manifest.json`.</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">Si se produce una excepción en el motor de OCR, ejecuta un fallback de reintento directo sin OCR para evitar fallas fatales.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea D — Generación del Esquema Inicial:</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">Genera los archivos intermedios Markdown y `hierarchical_chunks.json`, los cuales servirán como materia prima</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">para los módulos jurídicos de jerarquización atómica (`legalizer.py`) y extracción de metadatos.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Architecture Spec V-2.1 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped Security Architecture</text>
+</svg>

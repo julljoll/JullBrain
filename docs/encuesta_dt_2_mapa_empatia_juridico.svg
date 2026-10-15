@@ -1,0 +1,205 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #080b12;">
+  <title>JullBrain — Formato 2: Mapa de Empatía Jurídico (IBM Enterprise Design Thinking)</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#31122b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <linearGradient id="gradQ1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#072738" />
+      <stop offset="100%" stop-color="#04141e" />
+    </linearGradient>
+
+    <linearGradient id="gradQ2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradQ3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#332505" />
+      <stop offset="100%" stop-color="#1a1202" />
+    </linearGradient>
+
+    <linearGradient id="gradQ4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062e1b" />
+      <stop offset="100%" stop-color="#03170d" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- HEADER BANNER -->
+  <rect x="0" y="0" width="1920" height="90" fill="url(#gradHeader)" />
+  <line x1="0" y1="90" x2="1920" y2="90" stroke="#334155" stroke-width="2" />
+
+  <!-- Badge DT Stage -->
+  <rect x="40" y="18" width="220" height="54" rx="8" fill="#a855f7" filter="url(#shadow)" />
+  <text x="52" y="40" fill="#FFFFFF" font-size="12" font-weight="900" letter-spacing="1">TÉCNICA 2: MAPA EMPATÍA</text>
+  <text x="52" y="58" fill="#f0abfc" font-size="12" font-weight="700">IBM DESIGN THINKING</text>
+
+  <!-- Title -->
+  <text x="280" y="40" fill="#F8FAFC" font-size="20" font-weight="800">PLANTILLA DE MAPA DE EMPATÍA DEL OPERADOR DE JUSTICIA EN AUDIENCIA PRELIMINAR</text>
+  <text x="280" y="62" fill="#94A3B8" font-size="13" font-weight="500">Herramienta cualitativa para mapear la experiencia sensorial, cognitiva y emocional del Juez/Fiscal en su entorno procesal real</text>
+
+  <!-- Metadata box -->
+  <g transform="translate(1360, 16)">
+    <rect x="0" y="0" width="520" height="58" rx="8" fill="#1e293b" stroke="#a855f7" stroke-width="1.5" />
+    <text x="16" y="24" fill="#f0abfc" font-size="11" font-weight="800">PERSONA EN INVESTIGACIÓN:</text>
+    <text x="16" y="44" fill="#CBD5E1" font-size="10">Juez / Fiscal Evaluado: ___________________</text>
+    <text x="360" y="24" fill="#94A3B8" font-size="10">Entrevistador: ________</text>
+    <text x="360" y="44" fill="#94A3B8" font-size="10">Sesión: Prot. Think-Aloud</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- CENTRAL AVATAR & 4 MAIN QUADRANTS                                  -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="122" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">MAPEO PERCEPTIVO: ¿QUÉ SIENTE, VE, OYE, DICE Y HACE EL OPERADOR ANTE EL EXPEDIENTE Y LA IA?</text>
+
+  <!-- QUADRANT 1: ¿QUÉ PIENSA Y SIENTE? (TOP LEFT) -->
+  <g transform="translate(40, 138)">
+    <rect x="0" y="0" width="895" height="315" rx="12" fill="url(#gradQ1)" stroke="#00CFFF" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="36" rx="12" fill="#00CFFF" opacity="0.2" />
+    <text x="20" y="23" fill="#38BDF8" font-size="12" font-weight="800">🧠 1. ¿QUÉ PIENSA Y SIENTE EL OPERADOR DE JUSTICIA?</text>
+
+    <g transform="translate(20, 50)">
+      <text x="0" y="18" fill="#7DD3FC" font-size="10.5" font-weight="700">Creencias, Preocupaciones y Aspiraciones Profundas:</text>
+      <text x="0" y="38" fill="#CBD5E1" font-size="10">• Siente frustración por perder tiempo de vida útil revisando folios físicos mal cosidos.</text>
+      <text x="0" y="54" fill="#CBD5E1" font-size="10">• Piensa que el retardo procesal afecta la dignidad humana del imputado y la víctima.</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="10">• Teme tomar una decisión basada en una prueba ilícita o acta faltante por descuido de foliatura.</text>
+      <text x="0" y="86" fill="#CBD5E1" font-size="10">• Desea una herramienta rápida pero le aterra que un algoritmo invente o "alucine" normas inexistentes.</text>
+
+      <rect x="0" y="105" width="855" height="135" rx="8" fill="#0c4a6e" stroke="#00cfff" stroke-dasharray="4,4" opacity="0.9" />
+      <text x="15" y="125" fill="#BAE6FD" font-size="10" font-weight="700">NOTAS DE CAMPO / NOTAS ADHESIVAS (STICKY NOTES) DEL INVESTIGADOR UX:</text>
+      <text x="15" y="145" fill="#64748B" font-size="10" font-style="italic">[ Escriba las frases textuales o citas directas expresadas por el Juez o Fiscal en la entrevista ]</text>
+      <text x="15" y="165" fill="#38bdf8" font-size="10">"Quiero agilizar el despacho pero necesito la certeza absoluta de que la norma citada está en la Gaceta Oficial."</text>
+      <text x="15" y="185" fill="#38bdf8" font-size="10">"Si el sistema me abre el PDF exacto en la página del error de foliado, me convence de inmediato."</text>
+    </g>
+  </g>
+
+  <!-- QUADRANT 2: ¿QUÉ VE? (TOP RIGHT) -->
+  <g transform="translate(985, 138)">
+    <rect x="0" y="0" width="895" height="315" rx="12" fill="url(#gradQ2)" stroke="#a855f7" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="36" rx="12" fill="#a855f7" opacity="0.2" />
+    <text x="20" y="23" fill="#F0ABFC" font-size="12" font-weight="800">👁️ 2. ¿QUÉ VE EN SU ENTORNO PROCESAL Y EN SU DESPACHO?</text>
+
+    <g transform="translate(20, 50)">
+      <text x="0" y="18" fill="#F0ABFC" font-size="10.5" font-weight="700">Entorno Físico, Expedientes y Mercado Tecnológico:</text>
+      <text x="0" y="38" fill="#CBD5E1" font-size="10">• Ve carpetas físicas abultadas, hojas rotas, sellos borrosos y foliaturas enmendadas a lápiz.</text>
+      <text x="0" y="54" fill="#CBD5E1" font-size="10">• Ve salas de audiencia abarrotadas y defensores esperando horas por diferimientos repentinos.</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="10">• Ve promesas de "software jurídico" comercial que solo ofrecen formularios genéricos sin validez penal.</text>
+      <text x="0" y="86" fill="#CBD5E1" font-size="10">• Ve pantallas de computador pequeñas en el despacho con múltiples documentos abiertos a la vez.</text>
+
+      <rect x="0" y="105" width="855" height="135" rx="8" fill="#581c87" stroke="#a855f7" stroke-dasharray="4,4" opacity="0.9" />
+      <text x="15" y="125" fill="#F0ABFC" font-size="10" font-weight="700">NOTAS DE CAMPO / NOTAS ADHESIVAS (STICKY NOTES) DEL INVESTIGADOR UX:</text>
+      <text x="15" y="145" fill="#64748B" font-size="10" font-style="italic">[ Escriba las observaciones del entorno visual registradas durante la observación pasiva ]</text>
+      <text x="15" y="165" fill="#F0ABFC" font-size="10">"El Juez mantiene 3 expedientes físicos abiertos en la mesa mientras intenta revisar la boleta en la computadora."</text>
+      <text x="15" y="185" fill="#F0ABFC" font-size="10">"Resalta visualmente cuando la interfaz usa colores contrastantes de Semáforo (Verde/Ámbar/Rojo)."</text>
+    </g>
+  </g>
+
+  <!-- QUADRANT 3: ¿QUÉ OYE? (BOTTOM LEFT) -->
+  <g transform="translate(40, 473)">
+    <rect x="0" y="0" width="895" height="315" rx="12" fill="url(#gradQ3)" stroke="#FECF06" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="36" rx="12" fill="#FECF06" opacity="0.2" />
+    <text x="20" y="23" fill="#FDE047" font-size="12" font-weight="800">👂 3. ¿QUÉ OYE DE LAS PARTES, COLEGAS Y SUPERIORES?</text>
+
+    <g transform="translate(20, 50)">
+      <text x="0" y="18" fill="#FEF08A" font-size="10.5" font-weight="700">Influencias, Alegatos y Directivas Institucionales:</text>
+      <text x="0" y="38" fill="#CBD5E1" font-size="10">• Oye quejas continuas de defensores e imputados por el retardo de meses en fijar la preliminar.</text>
+      <text x="0" y="54" fill="#CBD5E1" font-size="10">• Oye directivas del TSJ y del Consejo Moral para descongestionar retenes y agilizar admisiones.</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="10">• Oye a colegas jueces advertir sobre los riesgos procesales de admitir pruebas con vicios no detectados.</text>
+      <text x="0" y="86" fill="#CBD5E1" font-size="10">• Oye debates orales acalorados sobre la fundamentación de tipos penales y agravantes en sala.</text>
+
+      <rect x="0" y="105" width="855" height="135" rx="8" fill="#713f12" stroke="#FECF06" stroke-dasharray="4,4" opacity="0.9" />
+      <text x="15" y="125" fill="#FEF08A" font-size="10" font-weight="700">NOTAS DE CAMPO / NOTAS ADHESIVAS (STICKY NOTES) DEL INVESTIGADOR UX:</text>
+      <text x="15" y="145" fill="#64748B" font-size="10" font-style="italic">[ Escriba las frases que el usuario escucha constantemente de su red profesional ]</text>
+      <text x="15" y="165" fill="#FDE047" font-size="10">"Los fiscales se quejan de que no se abre la audiencia porque la defensa alega falta de notificación."</text>
+      <text x="15" y="185" fill="#FDE047" font-size="10">"El tribunal superior enfatiza que los autos de apertura deben estar estrictamente motivados."</text>
+    </g>
+  </g>
+
+  <!-- QUADRANT 4: ¿QUÉ DICE Y HACE? (BOTTOM RIGHT) -->
+  <g transform="translate(985, 473)">
+    <rect x="0" y="0" width="895" height="315" rx="12" fill="url(#gradQ4)" stroke="#00FF41" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="36" rx="12" fill="#00FF41" opacity="0.2" />
+    <text x="20" y="23" fill="#86EFAC" font-size="12" font-weight="800">🗣️ 4. ¿QUÉ DICE Y HACE EN LA PRÁCTICA DIARIA?</text>
+
+    <g transform="translate(20, 50)">
+      <text x="0" y="18" fill="#86EFAC" font-size="10.5" font-weight="700">Comportamientos Observables y Actitud Pública:</text>
+      <text x="0" y="38" fill="#CBD5E1" font-size="10">• Dice públicamente que la justicia deber ser idónea, transparente y expedita (CRBV Art. 26).</text>
+      <text x="0" y="54" fill="#CBD5E1" font-size="10">• Dicta diferimientos obligados cuando constata que el foliado no coincide o falta una pieza.</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="10">• Realiza cálculos manuales en borrador antes de proponer la fórmula de pena en Admisión de Hechos.</text>
+      <text x="0" y="86" fill="#CBD5E1" font-size="10">• Revisa exhaustivamente los requisitos formales de la acusación (Art. 308 COPP) antes de firmar.</text>
+
+      <rect x="0" y="105" width="855" height="135" rx="8" fill="#065f46" stroke="#00FF41" stroke-dasharray="4,4" opacity="0.9" />
+      <text x="15" y="125" fill="#86EFAC" font-size="10" font-weight="700">NOTAS DE CAMPO / NOTAS ADHESIVAS (STICKY NOTES) DEL INVESTIGADOR UX:</text>
+      <text x="15" y="145" fill="#64748B" font-size="10" font-style="italic">[ Escriba las acciones reales observadas durante el protocolo Think-Aloud ]</text>
+      <text x="15" y="165" fill="#86EFAC" font-size="10">"Al usar el prototipo RAG, el Juez hizo clic inmediatamente en la etiqueta 'Hash SHA-256' para verificar la firma."</text>
+      <text x="15" y="185" fill="#86EFAC" font-size="10">"Expresó en voz alta: 'Esto me ahorra 45 minutos de estar buscando la gaceta en física'."</text>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- BOTTOM SECTION: PAINS & GAINS                                       -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="808" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">SÍNTESIS DE FRUSTACIONES (PAINS) Y BENEFICIOS DESEADOS (GAINS)</text>
+
+  <!-- PAINS -->
+  <g transform="translate(40, 822)">
+    <rect x="0" y="0" width="895" height="225" rx="12" fill="url(#gradCardDark)" stroke="#EF4444" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="34" rx="12" fill="#EF4444" opacity="0.25" />
+    <text x="20" y="22" fill="#FCA5A5" font-size="12" font-weight="800">😫 PAINS: FRUSTRACIONES, RIESGOS Y OBSTÁCULOS CLAVE</text>
+
+    <g transform="translate(20, 48)">
+      <text x="0" y="18" fill="#FECACA" font-size="10.5" font-weight="700">1. Retardo Procesal Involuntario:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9.5">Diferir audiencias por vicios de foliado o falta de notificaciones le genera culpabilidad y sobrecarga acumulada.</text>
+
+      <text x="0" y="56" fill="#FECACA" font-size="10.5" font-weight="700">2. Inseguridad de Cómputo Manual:</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="9.5">Temor a errar en el cálculo de penas rebajadas (Art. 375 COPP) o cómputos de prescripción penal.</text>
+
+      <text x="0" y="94" fill="#FECACA" font-size="10.5" font-weight="700">3. Riesgo de Alucinación en Herramientas Digitales:</text>
+      <text x="0" y="108" fill="#CBD5E1" font-size="9.5">Rechazo absoluto a sistemas de IA que no permitan auditar la fuente normativa o el folio del expediente.</text>
+
+      <rect x="0" y="125" width="855" height="42" rx="6" fill="#450a0a" stroke="#ef4444" stroke-width="1" />
+      <text x="15" y="150" fill="#FCA5A5" font-size="10" font-weight="700">Conclusión Pains: Necesita validación previa automática (Error Cero en folios) antes de instalar la audiencia.</text>
+    </g>
+  </g>
+
+  <!-- GAINS -->
+  <g transform="translate(985, 822)">
+    <rect x="0" y="0" width="895" height="225" rx="12" fill="url(#gradCardDark)" stroke="#10B981" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="895" height="34" rx="12" fill="#10B981" opacity="0.25" />
+    <text x="20" y="22" fill="#6EE7B7" font-size="12" font-weight="800">🚀 GAINS: DESCONGESTIONAMIENTO Y RESULTADOS ANHELADOS</text>
+
+    <g transform="translate(20, 48)">
+      <text x="0" y="18" fill="#A7F3D0" font-size="10.5" font-weight="700">1. Despacho Fluido y Descongestionado:</text>
+      <text x="0" y="32" fill="#CBD5E1" font-size="9.5">Pasar de 2-3 audiencias a 8-10 audiencias despachadas por día con total tranquilidad y rigor legal.</text>
+
+      <text x="0" y="56" fill="#A7F3D0" font-size="10.5" font-weight="700">2. Transparencia y Auditabilidad (Semáforo Verde):</text>
+      <text x="0" y="70" fill="#CBD5E1" font-size="9.5">Contar con un indicador visual que garantice el anclaje del 100% de la fundamentación al articulado COPP.</text>
+
+      <text x="0" y="94" fill="#A7F3D0" font-size="10.5" font-weight="700">3. Cierre de Causas por Admisión de Hechos:</text>
+      <text x="0" y="108" fill="#CBD5E1" font-size="9.5">Resolver hasta un 40% de casos en la preliminar mediante fórmulas de pena calculadas al instante.</text>
+
+      <rect x="0" y="125" width="855" height="42" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+      <text x="15" y="150" fill="#34D399" font-size="10" font-weight="700">Conclusión Gains: La IA debe ser un Asistente Transparente que empodere al Juez sin sustituir su criterio.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <rect x="0" y="1055" width="1920" height="25" fill="#090d16" />
+  <line x1="0" y1="1055" x2="1920" y2="1055" stroke="#1e293b" stroke-width="1" />
+  <text x="40" y="1072" fill="#64748B" font-size="11" font-weight="500">JullBrain Legal-RAG — Instrumento 2: Mapa de Empatía del Operador de Justicia (IBM Enterprise Design Thinking)</text>
+  <text x="1880" y="1072" fill="#64748B" font-size="11" font-weight="500" text-anchor="end">Fase 01 &amp; 02: Empatizar &amp; Definir | ISO 9241-210 DCU</text>
+
+</svg>

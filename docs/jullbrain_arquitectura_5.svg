@@ -1,0 +1,165 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', sans-serif; background-color: #080b12;">
+  <title>JullBrain — Diapositiva 5: Capa 4 — Motor Vectorial IBM Granite R2 &amp; Cadena de Custodia</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161c27" />
+      <stop offset="50%" stop-color="#241e07" />
+      <stop offset="100%" stop-color="#161c27" />
+    </linearGradient>
+
+    <linearGradient id="gradGranite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051c2c" />
+      <stop offset="100%" stop-color="#0b3754" />
+    </linearGradient>
+
+    <linearGradient id="gradCustody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241e07" />
+      <stop offset="100%" stop-color="#141103" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00CFFF" />
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+  </defs>
+
+  <!-- HEADER BAR -->
+  <rect x="40" y="30" width="1840" height="90" rx="14" fill="url(#gradHeader)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">CAPA 4: MOTOR VECTORIAL IBM GRANITE EMBEDDING R2 &amp; CADENA DE CUSTODIA</text>
+  <text x="70" y="94" font-size="14" fill="#00FF41">Embeddings Semánticos de 768 Dimensiones, Principio Forense R7 (Espejo Documental) y Auditoría ISO 27037/27042</text>
+
+  <!-- Pill Diapositiva -->
+  <rect x="1650" y="52" width="200" height="46" rx="23" fill="#241e07" stroke="#FECF06" stroke-width="1.5" />
+  <text x="1750" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Diapositiva 5 / 7</text>
+
+  <!-- DIAGRAMA PRINCIPAL CAPA 4 -->
+  <rect x="40" y="145" width="1840" height="630" rx="16" fill="#0b0e17" stroke="#253246" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- 1. Motor granite_embedder.py -->
+  <g transform="translate(70, 180)" filter="url(#shadow)">
+    <rect width="860" height="560" rx="14" fill="url(#gradGranite)" stroke="#00CFFF" stroke-width="2"/>
+    <rect x="20" y="20" width="820" height="40" rx="8" fill="#0a324a"/>
+    <text x="430" y="46" text-anchor="middle" font-size="16" font-weight="bold" fill="#00CFFF">🧬 1. granite_embedder.py — Motor de Embeddings Semánticos IBM Granite R2</text>
+
+    <!-- Grid Especificaciones Técnicas -->
+    <g transform="translate(30, 80)">
+      <!-- Card Modelo -->
+      <rect x="0" y="0" width="390" height="150" rx="10" fill="#09101a" stroke="#00CFFF" stroke-width="1.5"/>
+      <text x="20" y="30" font-size="12" font-weight="bold" fill="#00CFFF">Modelo Recomendado V-2.1:</text>
+      <text x="20" y="50" font-size="10" font-weight="bold" fill="#00FF41">`ibm-granite/granite-embedding-multilingual-r2`</text>
+      <text x="20" y="70" font-size="10" fill="#a0aec0">• Cobertura de más de 200 idiomas (Español verificado)</text>
+      <text x="20" y="88" font-size="10" fill="#a0aec0">• Optimizado específicamente para documentos jurídicos</text>
+      <text x="20" y="106" font-size="10" fill="#a0aec0">• Modelo Alternativo: `granite-embedding-english-r2`</text>
+      <text x="20" y="125" font-size="9" fill="#FECF06">• Descarga automática desde HuggingFace Hub local</text>
+
+      <!-- Card Arquitectura Vectorial -->
+      <rect x="410" y="0" width="390" height="150" rx="10" fill="#09101a" stroke="#00FF41" stroke-width="1.5"/>
+      <text x="430" y="30" font-size="12" font-weight="bold" fill="#00FF41">Especificaciones de Vectorización:</text>
+      <text x="430" y="52" font-size="10" fill="#FECF06">• Dimensión Vectorial: <tspan font-weight="bold" fill="#00FF41">768 flotantes</tspan> por chunk</text>
+      <text x="430" y="72" font-size="10" fill="#FECF06">• Ventana de Contexto: <tspan font-weight="bold" fill="#00FF41">32,768 Tokens</tspan></text>
+      <text x="430" y="92" font-size="10" fill="#a0aec0">• Backend Local: `sentence-transformers` (PyTorch)</text>
+      <text x="430" y="110" font-size="10" fill="#a0aec0">• Backend API: REST Ollama (`/api/embeddings`)</text>
+      <text x="430" y="128" font-size="9" fill="#00CFFF">• Aceleración CPU: Instrucciones AVX-512 / AVX2</text>
+
+      <!-- Card Principio R7 -->
+      <rect x="0" y="170" width="800" height="145" rx="10" fill="#09101a" stroke="#FECF06" stroke-width="1.5"/>
+      <text x="20" y="198" font-size="13" font-weight="bold" fill="#FECF06">Principio Forense R7 (Espejo Documental — Integritad de Evidencia):</text>
+      <text x="20" y="222" font-size="10" fill="#a0aec0">• `granite_embedder.py` toma cada bloque jerárquico de `hierarchical_chunks.json` y le anexa la clave `"embedding": [0.012, -0.045, ...]`.</text>
+      <text x="20" y="240" font-size="10" fill="#00FF41">• <tspan font-weight="bold">REGLA DE ORO R7:</tspan> Queda estrictamente prohibido alterar, resumir o modificar una sola palabra del texto legal original.</text>
+      <text x="20" y="258" font-size="10" fill="#a0aec0">• El vector se añade como metadato aditivo, preservando la fidelidad total del artículo normativo.</text>
+      <text x="20" y="280" font-size="10" font-weight="bold" fill="#00CFFF">Salida Generada: normativas_chunks/hierarchical_chunks_embedded.json</text>
+
+      <!-- Card CLI Commands -->
+      <rect x="0" y="330" width="800" height="110" rx="10" fill="#060911" stroke="#253246" stroke-width="1"/>
+      <text x="20" y="355" font-size="11" font-weight="bold" fill="#00FF41">Comandos CLI del Motor (`granite_embedder.py`):</text>
+      <text x="20" y="375" font-size="10" fill="#a0aec0">`python granite_embedder.py --health` <tspan fill="#FECF06">➔ Diagnostica estado del modelo y backend</tspan></text>
+      <text x="20" y="392" font-size="10" fill="#a0aec0">`python granite_embedder.py --embed-text "Artículo 1 COPP"` <tspan fill="#FECF06">➔ Genera vector 768-dim de prueba</tspan></text>
+      <text x="20" y="410" font-size="10" fill="#a0aec0">`python granite_embedder.py --embed-file hierarchical_chunks.json` <tspan fill="#FECF06">➔ Procesa lote completo</tspan></text>
+    </g>
+  </g>
+
+  <!-- Flecha Granite -> Custodia -->
+  <path d="M 930 460 L 980 460" fill="none" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
+
+  <!-- 2. Módulo de Cadena de Custodia ISO -->
+  <g transform="translate(980, 180)" filter="url(#shadow)">
+    <rect width="870" height="560" rx="14" fill="url(#gradCustody)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="20" y="20" width="830" height="40" rx="8" fill="#382d03"/>
+    <text x="435" y="46" text-anchor="middle" font-size="16" font-weight="bold" fill="#FECF06">📜 2. MÓDULO DE CADENA DE CUSTODIA &amp; AUDITORÍA FORENSE DIGITAL</text>
+
+    <g transform="translate(30, 80)">
+      <!-- Estándares ISO -->
+      <rect x="0" y="0" width="400" height="210" rx="10" fill="#09101a" stroke="#FECF06" stroke-width="1.5"/>
+      <text x="20" y="30" font-size="12" font-weight="bold" fill="#FECF06">Cumplimiento Estándares Internacionales:</text>
+      <text x="20" y="52" font-size="10" fill="#00FF41">• ISO/IEC 27037: <tspan fill="#a0aec0">Directrices para la identificación, recolección y preservación de evidencia digital.</tspan></text>
+      <text x="20" y="85" font-size="10" fill="#00FF41">• ISO/IEC 27042: <tspan fill="#a0aec0">Directrices para el análisis e interpretación de la evidencia digital en procesos judiciales.</tspan></text>
+      <line x1="20" y1="115" x2="380" y2="115" stroke="#253246" />
+      <text x="20" y="135" font-size="11" font-weight="bold" fill="#00CFFF">Garantía Probatoria ante Tribunales:</text>
+      <text x="20" y="155" font-size="9" fill="#a0aec0">Toda normativa procesada en JullBrain mantiene trazabilidad ininterrumpida</text>
+      <text x="20" y="172" font-size="9" fill="#a0aec0">desde el PDF escaneado original hasta el chunk embebido consultado por el juez.</text>
+
+      <!-- Actas de Custodia -->
+      <rect x="420" y="0" width="390" height="210" rx="10" fill="#09101a" stroke="#00FF41" stroke-width="1.5"/>
+      <text x="440" y="30" font-size="12" font-weight="bold" fill="#00FF41">Generación de Actas Digitales (TXT):</text>
+      <text x="440" y="52" font-size="10" fill="#a0aec0">• Emisión automática de Actas de Custodia con firma digital del sistema:</text>
+      <text x="440" y="75" font-size="9" fill="#FECF06">- Nombre del Archivo Fuente &amp; Tamaño</text>
+      <text x="440" y="90" font-size="9" fill="#FECF06">- Timestamp de Ingesta &amp; Operador Responsable</text>
+      <text x="440" y="105" font-size="9" fill="#FECF06">- Hash SHA-256 de Origen vs Hash Markdown Output</text>
+      <text x="440" y="120" font-size="9" fill="#FECF06">- Total de Artículos Verificados y Puntuación</text>
+      <line x1="440" y1="135" x2="790" y2="135" stroke="#253246" />
+      <text x="440" y="155" font-size="10" font-weight="bold" fill="#00FF41">Descarga desde Pestaña 4 (app.py):</text>
+      <text x="440" y="172" font-size="9" fill="#a0aec0">Exportable con un solo clic para anexar a expedientes judiciales.</text>
+
+      <!-- Detección de Anomalías Forenses (Rol R7) -->
+      <rect x="0" y="230" width="810" height="210" rx="10" fill="#09101a" stroke="#FF4B4B" stroke-width="1.5"/>
+      <text x="20" y="260" font-size="13" font-weight="bold" fill="#FF4B4B">Detección de Anomalías Cronológicas y de Folio (Rol R7 — Experto IA Forense):</text>
+      <text x="20" y="285" font-size="10" fill="#a0aec0">• Revisa que las fechas de publicación en Gaceta Oficial coincidan con la secuencia cronológica de reformas.</text>
+      <text x="20" y="303" font-size="10" fill="#a0aec0">• Reporta automáticamente documentos fuera de orden, fe de erratas no vinculadas o saltos inexplicables de foliatura.</text>
+      <text x="20" y="321" font-size="10" font-weight="bold" fill="#FECF06">• REGLA FORENSE NO NEGOCIABLE:</text>
+      <text x="20" y="340" font-size="10" fill="#FECF06">  Las anomalías se REPORTAN en la matriz de custodia; NUNCA se "corrigen" o eliminan silenciosamente.</text>
+      <line x1="20" y1="358" x2="790" y2="358" stroke="#253246" />
+      <text x="20" y="380" font-size="11" font-weight="bold" fill="#00FF41">Audit Trail Inalterable (`logs/audit_trail.log`):</text>
+      <text x="20" y="400" font-size="9" fill="#a0aec0">Registra de forma append-only cada modificación, edición en la Pestaña 5 o re-procesamiento de normativas.</text>
+    </g>
+  </g>
+
+  <!-- LEYENDA TÉCNICA DE TAREAS -->
+  <g transform="translate(40, 790)" filter="url(#shadow)">
+    <rect width="1840" height="225" rx="14" fill="#0d111a" stroke="#253246" stroke-width="1.5"/>
+    <text x="70" y="820" font-size="14" font-weight="bold" fill="#FECF06">📋 LEYENDA DETALLADA DE TAREAS — CAPA 4: MOTOR VECTORIAL GRANITE R2 Y CADENA DE CUSTODIA</text>
+    <line x1="70" y1="830" x2="1810" y2="830" stroke="#253246" />
+
+    <g transform="translate(70, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea A — Embeddings Semánticos (`granite_embedder.py`):</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">Carga el modelo `ibm-granite/granite-embedding-multilingual-r2` y transforma cada chunk estructural en un vector</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">matemático de 768 dimensiones, optimizando el cómputo CPU mediante lotes paralelos de 32 elementos.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea B — Aplicación del Principio R7 (Espejo Documental):</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">Asegura que el proceso de vectorización no altere ni una letra de los artículos normativos procesados.</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">Inyecta la clave `"embedding"` como un metadato aditivo dentro de `hierarchical_chunks_embedded.json`.</text>
+    </g>
+
+    <g transform="translate(950, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea C — Trazabilidad Criptográfica SHA-256 (ISO 27037/27042):</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">Genera y mantiene las actas digitales de custodia con la huella digital criptográfica de cada ley procesada,</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">garantizando que la información utilizada en las decisiones no haya sido manipulada ni corrompida.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#FF4B4B">Tarea D — Detección Forense de Anomalías (Rol R7):</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">Audita la consistencia de folios, fechas de publicación y reformas legales, notificando al operador</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">cualquier discrepancia detectada antes de transferir los vectores al motor de búsqueda RAGFlow.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Architecture Spec V-2.1 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped Security Architecture</text>
+</svg>

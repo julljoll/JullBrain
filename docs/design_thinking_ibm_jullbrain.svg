@@ -1,0 +1,538 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #080b12;">
+  <title>JullBrain — Marco Metodológico Design Thinking &amp; IBM Enterprise Design Thinking (DCU)</title>
+
+  <defs>
+    <!-- Gradientes de Fondo y Tarjetas -->
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Gradientes de Etapas Design Thinking -->
+    <linearGradient id="gradEmpatizar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#31122b" />
+      <stop offset="100%" stop-color="#190a17" />
+    </linearGradient>
+
+    <linearGradient id="gradDefinir" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#072738" />
+      <stop offset="100%" stop-color="#04141e" />
+    </linearGradient>
+
+    <linearGradient id="gradIdear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#332505" />
+      <stop offset="100%" stop-color="#1a1202" />
+    </linearGradient>
+
+    <linearGradient id="gradPrototipar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d234a" />
+      <stop offset="100%" stop-color="#061227" />
+    </linearGradient>
+
+    <linearGradient id="gradEvaluar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062e1b" />
+      <stop offset="100%" stop-color="#03170d" />
+    </linearGradient>
+
+    <linearGradient id="gradIBM" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f62fe" />
+      <stop offset="100%" stop-color="#8a3ffc" />
+    </linearGradient>
+
+    <linearGradient id="gradSemaforoVerde" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+
+    <linearGradient id="gradSemaforoAmbar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350f" />
+      <stop offset="100%" stop-color="#451a03" />
+    </linearGradient>
+
+    <linearGradient id="gradSemaforoRojo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7f1d1d" />
+      <stop offset="100%" stop-color="#450a0a" />
+    </linearGradient>
+
+    <!-- Filtros de Sombra y Brillo -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <filter id="glowIBM" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Marcadores de Flechas -->
+    <marker id="arrowMagenta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#EC4899" />
+    </marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00CFFF" />
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#4589ff" />
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+  </defs>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- HEADER BANNER                                                       -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="1920" height="85" fill="url(#gradHeader)" />
+  <line x1="0" y1="85" x2="1920" y2="85" stroke="#334155" stroke-width="2" />
+
+  <!-- Logo Badge IBM Design Thinking & JullBrain -->
+  <rect x="40" y="16" width="220" height="52" rx="8" fill="#0f62fe" filter="url(#shadow)" />
+  <text x="52" y="38" fill="#FFFFFF" font-size="13" font-weight="900" letter-spacing="1">IBM ENTERPRISE</text>
+  <text x="52" y="56" fill="#93c5fd" font-size="12" font-weight="700">DESIGN THINKING</text>
+
+  <!-- Main Title -->
+  <text x="280" y="38" fill="#F8FAFC" font-size="22" font-weight="800" letter-spacing="0.5">JULLBRAIN LEGAL-RAG — MARCO DE DISEÑO CENTRADO EN EL USUARIO (DCU / IBM)</text>
+  <text x="280" y="60" fill="#94A3B8" font-size="13" font-weight="500">Integración de las 5 Etapas del Design Thinking con The Loop, IBM Keys y la Arquitectura RAG de Informática Forense</text>
+
+  <!-- Standards & Certified Badges -->
+  <g transform="translate(1420, 20)">
+    <rect x="0" y="0" width="140" height="22" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+    <text x="70" y="15" fill="#38bdf8" font-size="10" font-weight="700" text-anchor="middle">ISO/IEC 9241-210 (DCU)</text>
+
+    <rect x="150" y="0" width="140" height="22" rx="4" fill="#1e293b" stroke="#a855f7" stroke-width="1"/>
+    <text x="220" y="15" fill="#a855f7" font-size="10" font-weight="700" text-anchor="middle">ISO/IEC 42001 (IA)</text>
+
+    <rect x="300" y="0" width="160" height="22" rx="4" fill="#1e293b" stroke="#34d399" stroke-width="1"/>
+    <text x="380" y="15" fill="#34d399" font-size="10" font-weight="700" text-anchor="middle">ISO/IEC 27037 (Forense)</text>
+
+    <rect x="0" y="28" width="460" height="20" rx="4" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+    <text x="230" y="42" fill="#cbd5e1" font-size="10" font-weight="600" text-anchor="middle">Principio CNJ 332/2020: "El sistema acelera, nunca decide ni sustituye la firma humana"</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- SECCIÓN 1: LAS 5 ETAPAS DEL DESIGN THINKING APLICADAS A JULLBRAIN   -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="118" fill="#38BDF8" font-size="14" font-weight="800" letter-spacing="1">ETAPAS DEL DESIGN THINKING APLICADAS AL PIPELINE RAG JURÍDICO-PENAL</text>
+
+  <!-- FLECHAS DE CONEXIÓN ENTRE ETAPAS -->
+  <line x1="390" y1="300" x2="410" y2="300" stroke="#EC4899" stroke-width="3" marker-end="url(#arrowMagenta)" />
+  <line x1="762" y1="300" x2="782" y2="300" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
+  <line x1="1134" y1="300" x2="1154" y2="300" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+  <line x1="1506" y1="300" x2="1526" y2="300" stroke="#4589ff" stroke-width="3" marker-end="url(#arrowBlue)" />
+
+  <!-- TARJETA 1: EMPATIZAR -->
+  <g transform="translate(40, 130)">
+    <rect x="0" y="0" width="350" height="365" rx="12" fill="url(#gradEmpatizar)" stroke="#EC4899" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Card -->
+    <rect x="0" y="0" width="350" height="50" rx="12" fill="#EC4899" opacity="0.2" />
+    <circle cx="30" cy="25" r="16" fill="#EC4899" />
+    <text x="30" y="30" fill="#FFFFFF" font-size="14" font-weight="900" text-anchor="middle">1</text>
+    <text x="56" y="31" fill="#F472B6" font-size="16" font-weight="800">EMPATIZAR (Empathize)</text>
+
+    <!-- Content -->
+    <text x="16" y="75" fill="#FDA4AF" font-size="11" font-weight="700">OBJETIVO DCU / USER CENTRIC:</text>
+    <text x="16" y="93" fill="#E2E8F0" font-size="11" font-weight="400">Comprender los puntos de dolor de Jueces,</text>
+    <text x="16" y="108" fill="#E2E8F0" font-size="11" font-weight="400">Fiscales, Defensores y Peritos Forenses.</text>
+
+    <line x1="16" y1="120" x2="334" y2="120" stroke="#831843" stroke-width="1" />
+
+    <text x="16" y="138" fill="#FDA4AF" font-size="11" font-weight="700">INVESTIGACIÓN Y HALLAZGOS:</text>
+    <text x="24" y="156" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#F472B6">Personas Jurídicas:</tspan> Fiscal Penales, Perito</text>
+    <text x="33" y="170" fill="#CBD5E1" font-size="10.5">Informático Forense, Defensor Público.</text>
+    <text x="24" y="188" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#F472B6">Dolor Principal:</tspan> Temor a alucinaciones de</text>
+    <text x="33" y="202" fill="#CBD5E1" font-size="10.5">LLMs genéricos y pérdida de cadena de custodia.</text>
+    <text x="24" y="220" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#F472B6">Sobrecarga Documental:</tspan> Cientos de folios</text>
+    <text x="33" y="234" fill="#CBD5E1" font-size="10.5">sin búsqueda estructurada ni trazabilidad.</text>
+
+    <line x1="16" y1="248" x2="334" y2="248" stroke="#831843" stroke-width="1" />
+
+    <text x="16" y="266" fill="#FDA4AF" font-size="11" font-weight="700">APLICACIÓN EN JULLBRAIN:</text>
+    <text x="16" y="284" fill="#E2E8F0" font-size="10.5">• Entrevistas Think-Aloud con operadores.</text>
+    <text x="16" y="300" fill="#E2E8F0" font-size="10.5">• Mapeo de Journey Map del juicio penal.</text>
+    <rect x="16" y="315" width="318" height="36" rx="6" fill="#831843" opacity="0.6" />
+    <text x="24" y="330" fill="#FBCFE8" font-size="10" font-weight="700">Líderes de Fase:</text>
+    <text x="24" y="343" fill="#FFFFFF" font-size="10">R4 (UX/UI DCU) + R7 (IA Forense Penal)</text>
+  </g>
+
+  <!-- TARJETA 2: DEFINIR -->
+  <g transform="translate(412, 130)">
+    <rect x="0" y="0" width="350" height="365" rx="12" fill="url(#gradDefinir)" stroke="#00CFFF" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Card -->
+    <rect x="0" y="0" width="350" height="50" rx="12" fill="#00CFFF" opacity="0.2" />
+    <circle cx="30" cy="25" r="16" fill="#00CFFF" />
+    <text x="30" y="30" fill="#080b12" font-size="14" font-weight="900" text-anchor="middle">2</text>
+    <text x="56" y="31" fill="#38BDF8" font-size="16" font-weight="800">DEFINIR (Define)</text>
+
+    <!-- Content -->
+    <text x="16" y="75" fill="#7DD3FC" font-size="11" font-weight="700">SÍNTESIS Y REQUERIMIENTOS:</text>
+    <text x="16" y="93" fill="#E2E8F0" font-size="11" font-weight="400">Traducir necesidades en especificaciones</text>
+    <text x="16" y="108" fill="#E2E8F0" font-size="11" font-weight="400">normativas y arquitectura de precisión.</text>
+
+    <line x1="16" y1="120" x2="334" y2="120" stroke="#0c4a6e" stroke-width="1" />
+
+    <text x="16" y="138" fill="#7DD3FC" font-size="11" font-weight="700">IBM HILLS (COLINAS DE VALOR):</text>
+    <text x="24" y="156" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#38BDF8">Who (Quién):</tspan> Juez / Fiscal Penales.</text>
+    <text x="24" y="174" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#38BDF8">What (Qué):</tspan> Verificar precisión de citas</text>
+    <text x="33" y="188" fill="#CBD5E1" font-size="10.5">legales y folios en menos de 3 segundos.</text>
+    <text x="24" y="206" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#38BDF8">Wow (Resultado):</tspan> 100% Trazabilidad</text>
+    <text x="33" y="220" fill="#CBD5E1" font-size="10.5">computable con Semáforo Verde de confianza.</text>
+
+    <line x1="16" y1="248" x2="334" y2="248" stroke="#0c4a6e" stroke-width="1" />
+
+    <text x="16" y="266" fill="#7DD3FC" font-size="11" font-weight="700">REGLAS NO NEGOCIABLES:</text>
+    <text x="16" y="284" fill="#E2E8F0" font-size="10.5">• Corpus Normativo Cerrado y Versionado.</text>
+    <text x="16" y="300" fill="#E2E8F0" font-size="10.5">• Abstención Obligatoria si no se halla cita.</text>
+    <rect x="16" y="315" width="318" height="36" rx="6" fill="#0c4a6e" opacity="0.8" />
+    <text x="24" y="330" fill="#BAE6FD" font-size="10" font-weight="700">Líderes de Fase:</text>
+    <text x="24" y="343" fill="#FFFFFF" font-size="10">R3 (Legaltech) + R1 (Arquitecto IA)</text>
+  </g>
+
+  <!-- TARJETA 3: IDEAR -->
+  <g transform="translate(784, 130)">
+    <rect x="0" y="0" width="350" height="365" rx="12" fill="url(#gradIdear)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Card -->
+    <rect x="0" y="0" width="350" height="50" rx="12" fill="#FECF06" opacity="0.2" />
+    <circle cx="30" cy="25" r="16" fill="#FECF06" />
+    <text x="30" y="30" fill="#080b12" font-size="14" font-weight="900" text-anchor="middle">3</text>
+    <text x="56" y="31" fill="#FDE047" font-size="16" font-weight="800">IDEAR (Ideate)</text>
+
+    <!-- Content -->
+    <text x="16" y="75" fill="#FEF08A" font-size="11" font-weight="700">DISEÑO ARQUITECTÓNICO & UX:</text>
+    <text x="16" y="93" fill="#E2E8F0" font-size="11" font-weight="400">Co-diseño de componentes RAG para auditabilidad</text>
+    <text x="16" y="108" fill="#E2E8F0" font-size="11" font-weight="400">total y cero riesgo de alucinación.</text>
+
+    <line x1="16" y1="120" x2="334" y2="120" stroke="#713f12" stroke-width="1" />
+
+    <text x="16" y="138" fill="#FEF08A" font-size="11" font-weight="700">SOLUCIONES IDEADAS E IMPLEMENTADAS:</text>
+    <text x="24" y="156" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#FDE047">Chunking Atómico Legal:</tspan> Separación por</text>
+    <text x="33" y="170" fill="#CBD5E1" font-size="10.5">artículo individual (Docling + Legalizer).</text>
+    <text x="24" y="188" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#FDE047">Granite Embedding R2:</tspan> Embeddings de alta</text>
+    <text x="33" y="202" fill="#CBD5E1" font-size="10.5">densidad semántica orientados a código legal.</text>
+    <text x="24" y="220" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#FDE047">Semáforo de Confianza Visual:</tspan> Indicador</text>
+    <text x="33" y="234" fill="#CBD5E1" font-size="10.5">tricolor en vivo (Verde, Ámbar, Rojo).</text>
+
+    <line x1="16" y1="248" x2="334" y2="248" stroke="#713f12" stroke-width="1" />
+
+    <text x="16" y="266" fill="#FEF08A" font-size="11" font-weight="700">DISEÑO DE INTERFAZ (IBM UCD):</text>
+    <text x="16" y="284" fill="#E2E8F0" font-size="10.5">• Citas con folios y enlaces directos al PDF.</text>
+    <text x="16" y="300" fill="#E2E8F0" font-size="10.5">• Visualización dual: Transcripción vs. Original.</text>
+    <rect x="16" y="315" width="318" height="36" rx="6" fill="#713f12" opacity="0.8" />
+    <text x="24" y="330" fill="#FEF08A" font-size="10" font-weight="700">Líderes de Fase:</text>
+    <text x="24" y="343" fill="#FFFFFF" font-size="10">R1 (Arquitecto IA) + R4 (UX/UI) + R2 (Fullstack)</text>
+  </g>
+
+  <!-- TARJETA 4: PROTOTIPAR -->
+  <g transform="translate(1156, 130)">
+    <rect x="0" y="0" width="350" height="365" rx="12" fill="url(#gradPrototipar)" stroke="#4589ff" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Card -->
+    <rect x="0" y="0" width="350" height="50" rx="12" fill="#4589ff" opacity="0.2" />
+    <circle cx="30" cy="25" r="16" fill="#4589ff" />
+    <text x="30" y="30" fill="#FFFFFF" font-size="14" font-weight="900" text-anchor="middle">4</text>
+    <text x="56" y="31" fill="#93C5FD" font-size="16" font-weight="800">PROTOTIPAR (Prototype)</text>
+
+    <!-- Content -->
+    <text x="16" y="75" fill="#BFDBFE" font-size="11" font-weight="700">CONSTRUCCIÓN PIPELINE & APP:</text>
+    <text x="16" y="93" fill="#E2E8F0" font-size="11" font-weight="400">Implementación de prototipos funcionales</text>
+    <text x="16" y="108" fill="#E2E8F0" font-size="11" font-weight="400">on-premise (Air-gapped) en Python y Dash.</text>
+
+    <line x1="16" y1="120" x2="334" y2="120" stroke="#1e3a8a" stroke-width="1" />
+
+    <text x="16" y="138" fill="#BFDBFE" font-size="11" font-weight="700">COMPONENTES CONSTRUIDOS:</text>
+    <text x="24" y="156" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#93C5FD">metadata_extractor.py:</tspan> SHA-256 &amp; YAML.</text>
+    <text x="24" y="174" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#93C5FD">legalizer.py:</tspan> Jerarquía TÍTULO/CAP/Art.</text>
+    <text x="24" y="192" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#93C5FD">granite_embedder.py:</tspan> Embeddings locales.</text>
+    <text x="24" y="210" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#93C5FD">validator.py:</tspan> Auditoría Regex + PyMuPDF.</text>
+    <text x="24" y="228" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#93C5FD">app.py (Plotly Dash):</tspan> Control Panel Visual.</text>
+
+    <line x1="16" y1="248" x2="334" y2="248" stroke="#1e3a8a" stroke-width="1" />
+
+    <text x="16" y="266" fill="#BFDBFE" font-size="11" font-weight="700">INFRAESTRUCTURA Y ORQUESTACIÓN:</text>
+    <text x="16" y="284" fill="#E2E8F0" font-size="10.5">• Docker-compose &amp; RAGFlow API integration.</text>
+    <text x="16" y="300" fill="#E2E8F0" font-size="10.5">• Orquestador bat y Scripts de despliegue.</text>
+    <rect x="16" y="315" width="318" height="36" rx="6" fill="#1e3a8a" opacity="0.8" />
+    <text x="24" y="330" fill="#93C5FD" font-size="10" font-weight="700">Líderes de Fase:</text>
+    <text x="24" y="343" fill="#FFFFFF" font-size="10">R2 (Senior Fullstack) + R6 (Orquestador Pipeline)</text>
+  </g>
+
+  <!-- TARJETA 5: EVALUAR -->
+  <g transform="translate(1528, 130)">
+    <rect x="0" y="0" width="352" height="365" rx="12" fill="url(#gradEvaluar)" stroke="#00FF41" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Card -->
+    <rect x="0" y="0" width="352" height="50" rx="12" fill="#00FF41" opacity="0.2" />
+    <circle cx="30" cy="25" r="16" fill="#00FF41" />
+    <text x="30" y="30" fill="#080b12" font-size="14" font-weight="900" text-anchor="middle">5</text>
+    <text x="56" y="31" fill="#86EFAC" font-size="16" font-weight="800">EVALUAR (Test)</text>
+
+    <!-- Content -->
+    <text x="16" y="75" fill="#86EFAC" font-size="11" font-weight="700">EVALUACIÓN Y AUDITORÍA FORENSE:</text>
+    <text x="16" y="93" fill="#E2E8F0" font-size="11" font-weight="400">Validar rigurosamente la precisión, ausencia</text>
+    <text x="16" y="108" fill="#E2E8F0" font-size="11" font-weight="400">de alucinaciones y la usabilidad del sistema.</text>
+
+    <line x1="16" y1="120" x2="336" y2="120" stroke="#065f46" stroke-width="1" />
+
+    <text x="16" y="138" fill="#86EFAC" font-size="11" font-weight="700">MÉTRICAS Y PROTOCOLOS DE PRUEBA:</text>
+    <text x="24" y="156" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#86EFAC">Doble Validación Cruzada:</tspan> Conteo de</text>
+    <text x="33" y="170" fill="#CBD5E1" font-size="10.5">artículos Regex vs PyMuPDF (Error Cero).</text>
+    <text x="24" y="188" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#86EFAC">Rúbrica Stanford RegLab:</tspan> Detección de</text>
+    <text x="33" y="202" fill="#CBD5E1" font-size="10.5">fabricación vs. desanclaje (misgrounding).</text>
+    <text x="24" y="220" fill="#CBD5E1" font-size="10.5">• <tspan font-weight="700" fill="#86EFAC">Pruebas Think-Aloud:</tspan> Validación con</text>
+    <text x="33" y="234" fill="#CBD5E1" font-size="10.5">operadores reales durante la simulación penal.</text>
+
+    <line x1="16" y1="248" x2="336" y2="248" stroke="#065f46" stroke-width="1" />
+
+    <text x="16" y="266" fill="#86EFAC" font-size="11" font-weight="700">AUDITORÍA FORENSE (R7):</text>
+    <text x="16" y="284" fill="#E2E8F0" font-size="10.5">• Verificación de foliatura sin alteraciones.</text>
+    <text x="16" y="300" fill="#E2E8F0" font-size="10.5">• Reporte de anomalías cronológicas.</text>
+    <rect x="16" y="315" width="320" height="36" rx="6" fill="#065f46" opacity="0.8" />
+    <text x="24" y="330" fill="#86EFAC" font-size="10" font-weight="700">Líderes de Fase:</text>
+    <text x="24" y="343" fill="#FFFFFF" font-size="10">R5 (Agile) + R7 (IA Forense) + R3 (Legaltech)</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- SECCIÓN 2: EL BUCLE DE IBM (THE LOOP) Y LAS LLAVES (IBM KEYS)       -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="525" fill="#38BDF8" font-size="14" font-weight="800" letter-spacing="1">EL BUCLE RECURSIVO DE IBM (THE LOOP) Y LAS LLAVES (IBM KEYS) EN LA ARQUITECTURA JULLBRAIN</text>
+
+  <!-- COLUMNA IZQUIERDA: THE LOOP -->
+  <g transform="translate(40, 540)">
+    <rect x="0" y="0" width="910" height="260" rx="12" fill="url(#gradCardDark)" stroke="#0f62fe" stroke-width="2" filter="url(#shadow)" />
+    <!-- Section Header -->
+    <rect x="0" y="0" width="910" height="42" rx="12" fill="url(#gradIBM)" />
+    <text x="20" y="26" fill="#FFFFFF" font-size="15" font-weight="800" letter-spacing="0.5">EL BUCLE CONTINUO DE IBM ENTERPRISE DESIGN THINKING (THE LOOP)</text>
+    <text x="890" y="26" fill="#93c5fd" font-size="12" font-weight="700" text-anchor="end">OBSERVE ➔ REFLECT ➔ MAKE</text>
+
+    <!-- DIAGRAMA VISUAL DEL BUCLE (3 NODOS CON FLECHAS CIRCULARES) -->
+
+    <!-- NODO 1: OBSERVE -->
+    <g transform="translate(40, 65)">
+      <rect x="0" y="0" width="240" height="170" rx="10" fill="#1e1b4b" stroke="#a855f7" stroke-width="1.5" />
+      <circle cx="120" cy="35" r="20" fill="#a855f7" />
+      <text x="120" y="41" fill="#FFFFFF" font-size="16" font-weight="900" text-anchor="middle">👁️</text>
+      <text x="120" y="75" fill="#F0ABFC" font-size="14" font-weight="800" text-anchor="middle">OBSERVAR (Observe)</text>
+      <text x="15" y="98" fill="#E2E8F0" font-size="10.5">• Ingesta continua de expedientes.</text>
+      <text x="15" y="114" fill="#E2E8F0" font-size="10.5">• Feedback real de jueces y fiscales.</text>
+      <text x="15" y="130" fill="#E2E8F0" font-size="10.5">• Inspección forense de foliatura.</text>
+      <text x="15" y="146" fill="#F0ABFC" font-size="10" font-weight="700">• Captura de anomalías en actas.</text>
+    </g>
+
+    <!-- Flecha Observe -> Reflect -->
+    <path d="M 290 150 Q 315 135 340 150" fill="none" stroke="#a855f7" stroke-width="3" marker-end="url(#arrowCyan)" />
+    <text x="315" y="130" fill="#38BDF8" font-size="10" font-weight="700" text-anchor="middle">Hallazgos</text>
+
+    <!-- NODO 2: REFLECT -->
+    <g transform="translate(335, 65)">
+      <rect x="0" y="0" width="240" height="170" rx="10" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" />
+      <circle cx="120" cy="35" r="20" fill="#00CFFF" />
+      <text x="120" y="41" fill="#080b12" font-size="16" font-weight="900" text-anchor="middle">🧠</text>
+      <text x="120" y="75" fill="#7DD3FC" font-size="14" font-weight="800" text-anchor="middle">REFLEXIONAR (Reflect)</text>
+      <text x="15" y="98" fill="#E2E8F0" font-size="10.5">• Alineación de equipo R1-R7.</text>
+      <text x="15" y="114" fill="#E2E8F0" font-size="10.5">• Sprints quincenales (R5 Agile).</text>
+      <text x="15" y="130" fill="#E2E8F0" font-size="10.5">• Filtro Kanban: "Verificación Anti-</text>
+      <text x="24" y="144" fill="#E2E8F0" font-size="10.5">Alucinación" antes del DoD.</text>
+      <text x="15" y="160" fill="#7DD3FC" font-size="10" font-weight="700">• Rediseño de reglas normativas.</text>
+    </g>
+
+    <!-- Flecha Reflect -> Make -->
+    <path d="M 585 150 Q 610 135 635 150" fill="none" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowGold)" />
+    <text x="610" y="130" fill="#FDE047" font-size="10" font-weight="700" text-anchor="middle">Priorización</text>
+
+    <!-- NODO 3: MAKE -->
+    <g transform="translate(630, 65)">
+      <rect x="0" y="0" width="240" height="170" rx="10" fill="#422006" stroke="#facc15" stroke-width="1.5" />
+      <circle cx="120" cy="35" r="20" fill="#facc15" />
+      <text x="120" y="41" fill="#080b12" font-size="16" font-weight="900" text-anchor="middle">⚙️</text>
+      <text x="120" y="75" fill="#FDE047" font-size="14" font-weight="800" text-anchor="middle">HACER (Make)</text>
+      <text x="15" y="98" fill="#E2E8F0" font-size="10.5">• Dashboard Plotly Dash (app.py).</text>
+      <text x="15" y="114" fill="#E2E8F0" font-size="10.5">• Generación JSON Docling RAGFlow.</text>
+      <text x="15" y="130" fill="#E2E8F0" font-size="10.5">• Semáforo de Confianza Jurídica.</text>
+      <text x="15" y="146" fill="#E2E8F0" font-size="10.5">• Citas Normativas interactiva.</text>
+      <text x="15" y="160" fill="#FDE047" font-size="10" font-weight="700">• Visor PDF sincronizado.</text>
+    </g>
+
+    <!-- Flecha de retorno Make -> Observe -->
+    <path d="M 750 240 Q 485 275 160 240" fill="none" stroke="#facc15" stroke-width="2.5" stroke-dasharray="6,4" marker-end="url(#arrowMagenta)" />
+    <text x="485" y="252" fill="#F472B6" font-size="10" font-weight="700" text-anchor="middle">Retroalimentación del Operador en Vivo (Iteración Continua)</text>
+  </g>
+
+  <!-- COLUMNA DERECHA: LAS LLAVES DE IBM (IBM KEYS) -->
+  <g transform="translate(970, 540)">
+    <rect x="0" y="0" width="910" height="260" rx="12" fill="url(#gradCardDark)" stroke="#0f62fe" stroke-width="2" filter="url(#shadow)" />
+    <!-- Section Header -->
+    <rect x="0" y="0" width="910" height="42" rx="12" fill="url(#gradIBM)" />
+    <text x="20" y="26" fill="#FFFFFF" font-size="15" font-weight="800" letter-spacing="0.5">LAS TRES LLAVES DE IBM (THE KEYS EN JULLBRAIN)</text>
+    <text x="890" y="26" fill="#93c5fd" font-size="12" font-weight="700" text-anchor="end">HILLS | PLAYBACKS | SPONSOR USERS</text>
+
+    <!-- TRES TARJETAS DE LLAVES -->
+
+    <!-- LLAVE 1: HILLS -->
+    <g transform="translate(25, 60)">
+      <rect x="0" y="0" width="270" height="180" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+      <rect x="0" y="0" width="270" height="35" rx="10" fill="#0284c7" />
+      <text x="15" y="23" fill="#FFFFFF" font-size="13" font-weight="800">🏔️ HILLS (Colinas de Valor)</text>
+      <text x="12" y="55" fill="#E2E8F0" font-size="10.5"><tspan font-weight="700" fill="#38BDF8">Who:</tspan> Jueces, Fiscales y Defensores.</text>
+      <text x="12" y="73" fill="#E2E8F0" font-size="10.5"><tspan font-weight="700" fill="#38BDF8">What:</tspan> Validar la exactitud de citas</text>
+      <text x="12" y="87" fill="#E2E8F0" font-size="10.5">legales y foliatura penal en &lt; 3s.</text>
+      <text x="12" y="105" fill="#E2E8F0" font-size="10.5"><tspan font-weight="700" fill="#38BDF8">Wow:</tspan> 100% Trazabilidad computable</text>
+      <text x="12" y="119" fill="#E2E8F0" font-size="10.5">con Semáforo Verde y PDF highlighted.</text>
+      <line x1="10" y1="132" x2="260" y2="132" stroke="#334155" />
+      <text x="12" y="148" fill="#7DD3FC" font-size="10" font-weight="600">Alineación de objetivos de usuario claros</text>
+      <text x="12" y="162" fill="#7DD3FC" font-size="10" font-weight="600">sin ambigüedad funcional.</text>
+    </g>
+
+    <!-- LLAVE 2: PLAYBACKS -->
+    <g transform="translate(320, 60)">
+      <rect x="0" y="0" width="270" height="180" rx="10" fill="#0f172a" stroke="#a855f7" stroke-width="1.5" />
+      <rect x="0" y="0" width="270" height="35" rx="10" fill="#7e22ce" />
+      <text x="15" y="23" fill="#FFFFFF" font-size="13" font-weight="800">🎬 PLAYBACKS (Alineación)</text>
+      <text x="12" y="55" fill="#E2E8F0" font-size="10.5">• Demostraciones periódicas de avance</text>
+      <text x="12" y="69" fill="#E2E8F0" font-size="10.5">a jurados y operadores jurídicos.</text>
+      <text x="12" y="87" fill="#E2E8F0" font-size="10.5">• Validación de la explicabilidad del LLM</text>
+      <text x="12" y="101" fill="#E2E8F0" font-size="10.5">(Granite) en ambiente air-gapped.</text>
+      <text x="12" y="119" fill="#E2E8F0" font-size="10.5">• Auditoría de la interfaz del Semáforo.</text>
+      <line x1="10" y1="132" x2="260" y2="132" stroke="#334155" />
+      <text x="12" y="148" fill="#F0ABFC" font-size="10" font-weight="600">Garantiza empatía constante y elimina</text>
+      <text x="12" y="162" fill="#F0ABFC" font-size="10" font-weight="600">el sesgo técnico de desarrollo.</text>
+    </g>
+
+    <!-- LLAVE 3: SPONSOR USERS -->
+    <g transform="translate(615, 60)">
+      <rect x="0" y="0" width="270" height="180" rx="10" fill="#0f172a" stroke="#34d399" stroke-width="1.5" />
+      <rect x="0" y="0" width="270" height="35" rx="10" fill="#047857" />
+      <text x="15" y="23" fill="#FFFFFF" font-size="13" font-weight="800">🤝 SPONSOR USERS (Co-diseño)</text>
+      <text x="12" y="55" fill="#E2E8F0" font-size="10.5">• Integración activa de Peritos Forenses</text>
+      <text x="12" y="69" fill="#E2E8F0" font-size="10.5">y Fiscales en el diseño del pipeline.</text>
+      <text x="12" y="87" fill="#E2E8F0" font-size="10.5">• Retroalimentación directa en la detección</text>
+      <text x="12" y="101" fill="#E2E8F0" font-size="10.5">de inconsistencias en actas penal.</text>
+      <text x="12" y="119" fill="#E2E8F0" font-size="10.5">• Co-creación del protocolo anti-alucinación.</text>
+      <line x1="10" y1="132" x2="260" y2="132" stroke="#334155" />
+      <text x="12" y="148" fill="#A7F3D0" font-size="10" font-weight="600">El usuario final es parte del equipo</text>
+      <text x="12" y="162" fill="#A7F3D0" font-size="10" font-weight="600">desde la Fase 0 hasta la producción.</text>
+    </g>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- SECCIÓN 3: INTERFAZ UX/UI (SEMÁFORO) Y EQUIPO DE ROLES R1-R7         -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <text x="40" y="825" fill="#38BDF8" font-size="14" font-weight="800" letter-spacing="1">ARQUITECTURA DE INTERFAZ CENTRADA EN EL USUARIO (DCU) Y MATRIZ DE ROLES R1–R7</text>
+
+  <!-- TARJETA IZQUIERDA: COMPONENTES UX/UI Y SEMÁFORO DE CONFIANZA -->
+  <g transform="translate(40, 840)">
+    <rect x="0" y="0" width="910" height="205" rx="12" fill="url(#gradCardDark)" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)" />
+
+    <!-- Panel Header -->
+    <rect x="0" y="0" width="910" height="35" rx="12" fill="#0c4a6e" />
+    <text x="20" y="22" fill="#BAE6FD" font-size="13" font-weight="800">🖥️ COMPONENTES UX/UI DEL PANEL DE CONTROL VISUAL (PLOTLY DASH / APP.PY)</text>
+    <text x="890" y="22" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="end">CAPA TRANSVERSAL DE INTERFAZ JURÍDICA</text>
+
+    <!-- MINI MOCKUP DE INTERFAZ DEL SEMÁFORO -->
+
+    <!-- ESTADO 1: VERDE -->
+    <g transform="translate(20, 48)">
+      <rect x="0" y="0" width="275" height="142" rx="8" fill="url(#gradSemaforoVerde)" stroke="#10B981" stroke-width="1.5" />
+      <circle cx="20" cy="22" r="10" fill="#10B981" />
+      <text x="36" y="26" fill="#34D399" font-size="12" font-weight="900">VERDE — ANCLADO (100% Preciso)</text>
+      <text x="12" y="48" fill="#E2E8F0" font-size="10">• Cita verificada en Gaceta Oficial / Folio.</text>
+      <text x="12" y="62" fill="#E2E8F0" font-size="10">• Trazabilidad vectorial computable con Granite.</text>
+      <text x="12" y="76" fill="#E2E8F0" font-size="10">• Enlace directo al PDF con highlight amarillo.</text>
+      <rect x="12" y="90" width="250" height="40" rx="6" fill="#022c22" stroke="#059669" stroke-width="1" />
+      <text x="20" y="106" fill="#6EE7B7" font-size="10" font-weight="700">Acción del Usuario (Juez/Fiscal):</text>
+      <text x="20" y="120" fill="#A7F3D0" font-size="9.5">✅ Copiar Cita / Insertar en Proyecto de Sentencia</text>
+    </g>
+
+    <!-- ESTADO 2: ÁMBAR -->
+    <g transform="translate(315, 48)">
+      <rect x="0" y="0" width="275" height="142" rx="8" fill="url(#gradSemaforoAmbar)" stroke="#F59E0B" stroke-width="1.5" />
+      <circle cx="20" cy="22" r="10" fill="#F59E0B" />
+      <text x="36" y="26" fill="#FBBF24" font-size="12" font-weight="900">ÁMBAR — REVISIÓN HUMANA</text>
+      <text x="12" y="48" fill="#E2E8F0" font-size="10">• Ambigüedad de redacción o varias normas.</text>
+      <text x="12" y="62" fill="#E2E8F0" font-size="10">• Confianza entre 70% y 89%.</text>
+      <text x="12" y="76" fill="#E2E8F0" font-size="10">• Requiere confirmación por operador humano.</text>
+      <rect x="12" y="90" width="250" height="40" rx="6" fill="#451a03" stroke="#d97706" stroke-width="1" />
+      <text x="20" y="106" fill="#FDE68A" font-size="10" font-weight="700">Acción del Usuario (Juez/Fiscal):</text>
+      <text x="20" y="120" fill="#FEF08A" font-size="9.5">⚠️ Abrir visor dual y auditar contexto del PDF</text>
+    </g>
+
+    <!-- ESTADO 3: ROJO -->
+    <g transform="translate(615, 48)">
+      <rect x="0" y="0" width="275" height="142" rx="8" fill="url(#gradSemaforoRojo)" stroke="#EF4444" stroke-width="1.5" />
+      <circle cx="20" cy="22" r="10" fill="#EF4444" />
+      <text x="36" y="26" fill="#FCA5A5" font-size="12" font-weight="900">ROJO — ALUCINACIÓN / DESANCLADO</text>
+      <text x="12" y="48" fill="#E2E8F0" font-size="10">• Sin sustento en el corpus cerrado.</text>
+      <text x="12" y="62" fill="#E2E8F0" font-size="10">• Fabricación o cita inexistente.</text>
+      <text x="12" y="76" fill="#E2E8F0" font-size="10">• Bloqueo de inyección automática.</text>
+      <rect x="12" y="90" width="250" height="40" rx="6" fill="#450a0a" stroke="#dc2626" stroke-width="1" />
+      <text x="20" y="106" fill="#FECACA" font-size="10" font-weight="700">Acción del Usuario (Juez/Fiscal):</text>
+      <text x="20" y="120" fill="#FCA5A5" font-size="9.5">🚫 Rechazar afirmación y reportar anomalía</text>
+    </g>
+  </g>
+
+  <!-- TARJETA DERECHA: MATRIZ DE ROLES R1 A R7 EN DESIGN THINKING -->
+  <g transform="translate(970, 840)">
+    <rect x="0" y="0" width="910" height="205" rx="12" fill="url(#gradCardDark)" stroke="#a855f7" stroke-width="1.5" filter="url(#shadow)" />
+
+    <!-- Panel Header -->
+    <rect x="0" y="0" width="910" height="35" rx="12" fill="#581c87" />
+    <text x="20" y="22" fill="#F0ABFC" font-size="13" font-weight="800">👥 MATRIZ DE ROLES PROFESIONALES EN EL PROCESO DCU / DESIGN THINKING</text>
+    <text x="890" y="22" fill="#c084fc" font-size="11" font-weight="700" text-anchor="end">ORGANIGRAMA MULTIDISCIPLINARIO JULLBRAIN</text>
+
+    <!-- GRID DE ROLES (R1 - R7) -->
+    <g transform="translate(15, 45)">
+
+      <!-- R1 -->
+      <rect x="0" y="0" width="280" height="44" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
+      <text x="10" y="18" fill="#38bdf8" font-size="11" font-weight="800">R1 — Arquitecto IA / LLM Senior</text>
+      <text x="10" y="34" fill="#CBD5E1" font-size="9.5">Diseño RAG, Granite 3B/8B/30B, Chunking, Air-gapped.</text>
+
+      <!-- R2 -->
+      <rect x="295" y="0" width="280" height="44" rx="6" fill="#0f172a" stroke="#4589ff" stroke-width="1" />
+      <text x="305" y="18" fill="#4589ff" font-size="11" font-weight="800">R2 — Desarrollador Python Fullstack</text>
+      <text x="305" y="34" fill="#CBD5E1" font-size="9.5">Code Engine Docling, API RAGFlow, Dash UI, Docker.</text>
+
+      <!-- R3 -->
+      <rect x="590" y="0" width="290" height="44" rx="6" fill="#0f172a" stroke="#34d399" stroke-width="1" />
+      <text x="600" y="18" fill="#34d399" font-size="11" font-weight="800">R3 — Especialista Legaltech / Normativa</text>
+      <text x="600" y="34" fill="#CBD5E1" font-size="9.5">Respaldo COPP, ISO 42001, Matriz Stanford RegLab.</text>
+
+      <!-- R4 -->
+      <rect x="0" y="52" width="280" height="44" rx="6" fill="#0f172a" stroke="#EC4899" stroke-width="1" />
+      <text x="10" y="70" fill="#EC4899" font-size="11" font-weight="800">R4 — Consultor UX/UI DCU (Líder IBM)</text>
+      <text x="10" y="86" fill="#CBD5E1" font-size="9.5">Personas, Journey Maps, Wireframes, Semáforo Visual.</text>
+
+      <!-- R5 -->
+      <rect x="295" y="52" width="280" height="44" rx="6" fill="#0f172a" stroke="#FECF06" stroke-width="1" />
+      <text x="305" y="70" fill="#FECF06" font-size="11" font-weight="800">R5 — Facilitador Ágil (Scrum/Kanban)</text>
+      <text x="305" y="86" fill="#CBD5E1" font-size="9.5">Sprints, Backlog, Columna Anti-Alucinación DoD.</text>
+
+      <!-- R6 -->
+      <rect x="590" y="52" width="290" height="44" rx="6" fill="#0f172a" stroke="#a855f7" stroke-width="1" />
+      <text x="600" y="70" fill="#a855f7" font-size="11" font-weight="800">R6 — Orquestador del Agente</text>
+      <text x="600" y="86" fill="#CBD5E1" font-size="9.5">Coordinación de roles R1-R7 según el contexto.</text>
+
+      <!-- R7 -->
+      <rect x="0" y="104" width="880" height="44" rx="6" fill="#1e1b4b" stroke="#F43F5E" stroke-width="1.5" />
+      <text x="10" y="122" fill="#F43F5E" font-size="11" font-weight="900">R7 — Experto en IA Forense &amp; Procesos Penal (Análisis del Expediente como Pieza de Convicción)</text>
+      <text x="10" y="138" fill="#FCA5A5" font-size="9.5">Auditoría de cadena de custodia (ISO 27037), detección de anomalías cronológicas/folios, principio de espejo documental.</text>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- FOOTER BAR                                                          -->
+  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <rect x="0" y="1055" width="1920" height="25" fill="#090d16" />
+  <line x1="0" y1="1055" x2="1920" y2="1055" stroke="#1e293b" stroke-width="1" />
+  <text x="40" y="1072" fill="#64748B" font-size="11" font-weight="500">JullBrain Legal-RAG Framework © 2026 — IBM Enterprise Design Thinking &amp; User-Centered Design Architecture</text>
+  <text x="1880" y="1072" fill="#64748B" font-size="11" font-weight="500" text-anchor="end">Modelos Granite 3B/8B/30B | IBM Docling | RAGFlow Vector DB</text>
+
+</svg>

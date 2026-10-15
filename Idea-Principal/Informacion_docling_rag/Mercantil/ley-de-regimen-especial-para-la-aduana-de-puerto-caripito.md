@@ -1,0 +1,135 @@
+---
+tipo_instrumento: "Decreto"
+nombre_oficial: "PREAMBULO"
+gaceta_oficial: ""
+fecha_publicacion: "1937-02-19"
+articulos_detectados: 3
+categorias: ["tributario", "informatico", "constitucional", "comercial", "internacional"]
+hash_pdf_sha256: "a1f597660e2a75a71845ddef066887d1c66f919405f133d70e5ffc6b85ff31bd"
+autor_procesamiento: "Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales)"
+sistema: "IBM Docling + LegalProcessor v2"
+version_md: "2.0"
+procesado_en: "2026-07-30T14:25:01"
+---
+# 🏛️ PROCESAMIENTO ESTRUCTURADO DE NORMATIVAS Y LEYES
+
+> [!NOTE]
+> **JULLBRAIN RAG-PIPELINE - VERSIÓN 2.0 (ENTORNO LOCAL DE PYTHON)**
+> 
+> Este script Orquesta el Diseño y Estructura de Conocimientos para la Inteligencia Artificial, está especializado en convertir leyes venezolanas a estructuras para el entrenamiento de IAs.
+> 
+> * **Motor de IA:** IBM Docling (Licencia MIT) - https://github.com/docling-project/docling-ibm-models.git
+> * **Propósito:** Aportar tecnología y automatización al Estado venezolano para prevenir la corrupción y el retardo procesal.
+> * **Desarrollado por:** Jull Ortiz - Rol: Arquitecto de Datos con y para la Inteligencia Artificial Jurídica - Web: http://www.sha256.us/
+> * **Licencia del Orquestador:** Apache 2.0
+
+---
+
+## PREAMBULO
+
+De conformidad con lo previsto en el parágrafo 1º del articulo 4º de la Ley de Aduanas, se establece un régimen especial para el funcionamiento de la Aduana de Puerto Caripito, creada por Decreto Ejecutivo de dos de junio de mil novecientos treinta y ocho, aplicándose al efecto las disposiciones contenidas en los artículos siguientes.
+Las operaciones de entrada, carga, descarga y despacho de los buques y de las mercaderías y equipajes que conduzcan, podrán practicarse en cualquier hora del día o de la noche, sin interrupción, y en todos los días, de labor o feriado, sin que para esto haya necesidad de solicitar permiso para habilitación de
+horas ni de días.
+Cuando estos servicios u operaciones tengan lugar en días feriados o dentro de las horas comprendidas de las cinco de la tarde a las siete de la mañana, el Ejecutivo Federal cobrará indemnización por tales servicios u operaciones, de acuerdo con las tarifas establecidas en la Ley de Aduanas para los buques extranjeros y en el Decreto Ejecutivo de 19 de febrero de 1937 para toda clase de buques nacionales, pudiendo celebrar
+La siguiente
+
+
+---
+
+## INDICE DE ARTICULOS
+
+| Art. | Descripcion | Ubicacion |
+|------|-------------|-----------|
+| 1 | . -  ##... | --- |
+| 2 | . -  ##... | --- |
+| 3 | . -  |                | convenios especiales por lo que resp... | --- |
+
+
+---
+
+
+###### Articulo 1
+
+. -
+
+##
+
+
+###### Articulo 2
+
+. -
+
+##
+
+
+###### Articulo 3
+
+. -
+
+|                | convenios especiales por lo que respecta a dicha indemnización, así como por cualquiera derechos portuarios o de navegación, siempre que se estipulen compensaciones adecuadas en beneficio a la Nación.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Artículo 4º. - | Los buques que lleguen al puerto de Puerto Caripito  con el exclusivo fin de tomar combustible o agua para  su propio consumo, no pagará en ningún caso indemnización alguna.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Artículo 5º. - | Los funcionarios fiscales no tienen derecho a percibir  de las personas o empresas particulares emolumentos  alguno por los servicios y operaciones que se practiquen de acuerdo con los artículos anteriores. El  Ejecutivo Federal remunerará en los casos del artículo  3º y de la manera más conveniente a los empleados que  intervengan en los mismos servicios y operaciones.                                                                                                                                                                                                                                                                                                                             |
+| Artículo 6º. - | La fianza que deberán otorgar los Capitales de buques  que hagan el tráfico de importaciones o exportaciones y  a que se refiere el artículo 112 de la Ley de Aduanas,  podrá ser de carácter permanente, y en defecto de los  Capitanes, la podrán otorgar los Agentes de buque.                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Artículo 7º. - | Podrán arribar al Puerto de Caripito buques de vapor o  de motor despachados del exterior para otro puerto  venezolano o extranjero, con los únicos fines de tomar  carga de exportación o combustible o agua para su propio consumo, a efecto de lo cual, el Agente del buque dirigirá previamente, por la vía más rápida, una  solicitud informada por el Administrador de la Aduanas, al Ministerio de Hacienda, especificando el nombre del buque, el de su Capitán, su bandera, el día  y la hora aproximado del arribo al puerto y la clase y  cantidad de mercancía o combustible que va a tomar.  En el primer caso, se considerará el Puerto de Puerto  Caripito como la Aduana de destino, a menos que |
+
+|                | hubiese de practicar operaciones en otro puerto venezolano para el cual hubiese sido despachado originalmente. En el segundo caso, se cumplirán las  formalidades siguientes: en el acto de la visita de entrada, el Capitán exhibirá las patentes de sanidad y de  navegación, y presentará el rol de la tripulación y la lista  de pasajeros. Si lleva carga, presentará los sobornos o  documentos que hagan constar su procedencia y destino.  Los derechos consulares se causarán y pagarán como si el buque hubiese sido despechado directamente del exterior para puerto venezolano.   |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Artículo 8º. - | El Administrador de la Aduana dará permiso a los Agentes del buque, cuando si lo soliciten, y aún con antelación a la llegada del buque al Puerto de Puerto  Caripito, para ir a bordo los empleados que hayan de  intervenir en el recibo y despacho de los documentos y  en las operaciones de carga o de descarga, así como  también el personal necesario para la estiba y movimiento de la carga.                                                                                                                                                                                        |
+| Artículo 9º. - | Los Agentes de los buques podrán avisar con anticipación a las autoridades aduaneras, la hora aproximada de la llegada del buque, a fin de que la visitas de entrada le sea pasada inmediatamente que se  a admitido a libre plática, y pueda atracar al muelle mientras se le pasa dicha visita.                                                                                                                                                                                                                                                                                             |
+| Artículo 10. - | El Administrador de la Aduana, en el acto de la visita  de entrada, dará autorización verbal a fin de que se puedan conectar las mangueras o preparar las escotillas  y aparejos y comenzar las operaciones de carga o descarga, las cuales pueden efectuarse conjunta o separadamente, aunque por diferentes escotillas o bodegas. Dicha autorización no será óbice para que se  la formule por escrito, lo cual se hará en todo caso.                                                                                                                                                       |
+
+| Artículo 11. -    | La descarga podrá efectuarse por los respectivos sobornos que traiga a la mano el Capitán, mientras se  formulan y cotejan los índices correspondientes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Artículo 12. -    | Las empresas o particulares podrán tener dentro de la  jurisdicción de la Aduana de Puerto Caripito y en los  sitios y bajo los planos previamente aprobados por el  Ejecutivo Federal, sus propios muelles y ejecutar en éstos sus operaciones de carga y descarga. En tales  casos, si las referidas operaciones se hacen con el personal contratado por los interesados, no se cobrarán  derechos de caleta ni ningún otro de los que se habrían  causado por el uso de los muelles nacionales, pero  debiendo siempre intervenir en aquellas operaciones los  funcionarios de la Aduana.                                                      |
+| Articulo 13. -    | La carga y el equipaje que conduzcan los buques podrán ser depositados en los almacenes de sus respectivos consignatarios para los efectos de su reconocimiento y despacho, siempre que dichos almacenes estén destinados exclusivamente a este servicio y dotados de las romanas y aparatos necesarios, almacenes que quedarán bajo la vigilancia y  control de la Aduana. Cuando los almacenes no estén  inmediatos a la Aduana, los interesados suministrarán al  personal que debe intervenir en el reconocimiento y despacho de las mercancías y del equipaje, los medios  de transporte convenientes para su traslado de ida y de  regreso. |
+| Artículo 14. -    | Las mercancías inflamables, las expuestas a corrupción  y las que por su voluntad, peso, multiplicidad u otro  motivo justificado, no convenga o no sea necesario introducir a los almacenes de reconocimiento, podrán ser depositadas y reconocidas, de acuerdo con los consignatarios, en los lugares que fije el Administrador  de la Aduana, conciliando los intereses del Fisco                                                                                                                                                                                                                                                              |
+
+|                | Nacional con los de los consignatarios. Cuando estos  últimos tengan urgencia u otro motivo justificado para  retirar determinadas mercancías, el Administrador de la  Aduana, a solicitud de ellos ordenará el reconocimiento  y despacho inmediato de las mismas, aún cuando no  estén depositadas en los almacenes o lugares de reconocimiento todas las comprendidas en el mismo manifiesto a que aquellas correspondan, y sea cual fuere el número de manifiesto y el orden de llegada del  buque en que se importaron. En estos casos, y antes  de la entrega de las expresadas mercaderías, deberán afianzarse los derechos de importación de que ellas causen y las multas en que incurran, salvo que los consignatarios tengan fianza prestada de antemano por  dichos respectos.   |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Artículo 15. - | Cuando por cualquier causa no pudieren los Interventores y Guardalmacenes practicar el reconocimiento inmediato de las mercancías exoneradas  que se importe, podrán designar, con autorización del Administrador de la Aduana, dos empleados de su dependencia para que practiquen dicho acto, de conformidad con la Ley.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Articulo 16. - | A los buques provenientes del exterior que lleguen en  lastre o solamente con carga para otros venezolanos o  extranjeros, permitirá el Administrador de Aduana que  se les pase la vista de fondeo, previa solicitud de los  interesados, conjuntamente con la visita de entrada. A  los buques cisternas que tienen cargar de exportación o  combustible o agua para su propio consumo con el fin  de regresar al exterior, no se les pasará visita de fondeo.                                                                                                                                                                                                                                                                                                                             |
+| Artículo 17. - | El Administrador de Aduana permitirá que buques llegados a Puerto Caripito con carga para empresas que  gocen de exoneración de derechos de importación,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+|                | pasen a otro puerto de la jurisdicción de la Aduana a  efectuar las operaciones de descarga de mercancías exonerados o nó de derechos de importación, siempre  bajo la vigilancia que en cada caso se requiera. Previo  permiso solicitado con antelación del Administrador de  la Aduana, el mismo buque podrá tomar carga de exportación en Resguardo Habilitado para la Exportación, practicándose la visita de fondeo al terminar las operaciones de descarga. Las fianzas que,  para estos casos, deben ser presentadas conforme a la  Ley de Aduanas, pueden ser otorgadas con carácter permanente.   |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Artículo 18. - | Cualquier buque nacional que se encuentre fondeado en  un puerto de la jurisdicción de la Aduana, habilitado para la exportación, podrá tomar carga de exportación  mediante el permiso que concederá el Administrador de  la Aduana, a solicitud de los interesados.                                                                                                                                                                                                                                                                                                                                       |
+| Artículo 19. - | Los embarques de carga para el exterior se efectuarán  mediante la presentación por los embarcadores de los  manifiestos y conocimientos a que se refieren los artículos 338 y 337 de la Ley de Aduanas, pero no será  necesario el manifiesto general que, bajo el régimen ordinario, deben presentar los Capitanes.                                                                                                                                                                                                                                                                                       |
+| Artículo 20. - | A solicitud de los embarcadores el Administrador de la  Aduana designará un empleado de su dependencia para  que efectúe el reconocimiento de la carga de exportación, y del equipaje, disponiendo al mismo tiempo que si resultan conformes, se proceda al embarque, sin necesidad de ninguna otra formalidad, estampando el mismo empleado al pié de los respectivos manifiestos la nota de haberse embarcado  conforme el cargamento.                                                                                                                                                                    |
+
+| Artículo 21. -    | En el caso del artículo anterior, el mismo empleado designado por el Administrador entregará al Capitán del  buque, los conocimientos correspondientes al cargamento, sellados por la Aduana, y además la licencia de navegación prescrita en el artículo 449 de la  Ley de Aduanas, la cual firmará con antelación el Administrador, a petición de los embarcadores, a fin de  que, concluidas las operaciones de carga , el buque pueda zarpar inmediata y directamente a su destino del  lugar en donde haya tomado el cargamento.                                                                            |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Artículo 22. -    | Los buques cisternas que lleguen a Puerto Caripito a tomar carga de exportación o combustible o agua para  su propio consumo, podrán efectuar estas operaciones, total o parcialmente, de transbordo de buques nacionales que se encuentren permanente o temporalmente anclados para estas operaciones dentro  de la jurisdicción de la Aduana. El despacho del buque  de exportación se hará en la forma establecida en el artículo precedente, y el de los buques nacionales que  conduzcan la carga que ha de trasbordarse, se hará en  la forma establecida en el Decreto Ejecutivo de 19 de  marzo de 1937. |
+| Artículo 23. -    | Las facilidades y franquicias establecidas por la presente Ley para el tráfico marítimo exterior, serán igualmente aplicables al tráfico de cabotaje entre los puertos de la jurisdicción de la Aduana para toda clase  de buques nacionales, y en lo no previsto en esta Ley,  se aplicarán las disposiciones contenidas en los citados  Decretos Ejecutivos de fecha 19 de febrero y 19 de marzo de 1937.                                                                                                                                                                                                      |
+| Artículo 24. -    | A fin de fomentar la industria de refinación de petróleo  en el país, el Ejecutivo Federal podrá celebrar contratos  especiales con las empresas que establezcan refinerías  de petróleo dentro de la jurisdicción de la Aduana de                                                                                                                                                                                                                                                                                                                                                                               |
+
+|                | Puerto Caripito, y en los que se estipule que dichas empresas gozarán, mientras subsistan sus derechos de  refinación, de las mismas facilidades y franquicias establecidas en la presente Ley. Asimismo podrá  á  estipularse que la exportación del petróleo refinado no  podrá gravarse con impuesto alguno, ni tampoco establecerse derechos de boya ni otros semejantes por  la entrada y salida de buques en el puerto de la refinería,  pudiendo solamente restringirse la exportación por motivos de orden internacional o de utilidad pública.   |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Artículo 25. - | También se podrá estipular en dichos contratos con las  empresas que establezcan refinerías, que éstas podrán  importar y depositar dentro de la jurisdicción de la Aduana de Puerto Caripito, sin pagar derechos de importación, productos del petróleo en cualquier cantidad, con la condición de reexportarlos, reservándose el Ejecutivo Federal el derecho a dictar la  reglamentación que juzgue conveniente al efecto.                                                                                                                             |
+| Articulo 26. - | Consecuencialmente al régimen especial que se deja establecido, dejarán de ser aplicables, por lo que respecta a las operaciones y demás actos que tengan lugar con intervención de la Aduana de Puerto Caripito,  las disposiciones de la Ley de Aduanas en todo aquello  que no sea compatible con lo previsto especialmente en  la presente Ley.                                                                                                                                                                                                       |
+
+Dada en el Palacio Federal Legislativo, en Caracas, a los doce días del mes de julio de mil novecientos treinta y ocho.- Años 129º de la independencia y 80º de la Federación.
+
+El Presidente (L.S.)
+
+TOMAS LISCANO
+
+El Vicepresidente
+
+A. PLANCHART HERNANDEZ
+
+Los Secretarios
+
+Federico de Legórburu
+
+Alberto Bustamente G.
+
+Palacio Federal, en Caracas, a los doce días del mes de julio de mil novecientos treinta y ocho - Años 129º de la Independencia y 80º de la Federación.
+
+Ejecútese y cuídese de su ejecución
+
+(L.S.)
+
+E. LOPEZ CONTRERAS
+
+Y demás miembros del Gabinete.

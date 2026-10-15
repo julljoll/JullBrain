@@ -1,0 +1,292 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background-color: #070a12;">
+  <title>JullBrain — Technology Pipeline SVG Architecture Diagram</title>
+
+  <defs>
+    <!-- Background Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161f33" stroke-width="1" stroke-dasharray="2 2"/>
+    </pattern>
+
+    <!-- Header Gradient -->
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="35%" stop-color="#1e1b4b"/>
+      <stop offset="70%" stop-color="#172554"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Card Gradients -->
+    <linearGradient id="gradIngesta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#082f49"/>
+      <stop offset="100%" stop-color="#0c4a6e"/>
+    </linearGradient>
+
+    <linearGradient id="gradCore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+
+    <linearGradient id="gradEmbed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="100%" stop-color="#6b21a8"/>
+    </linearGradient>
+
+    <linearGradient id="gradRAG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+
+    <!-- Gold Accent Line Gradient -->
+    <linearGradient id="gradGoldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Markers for Arrows -->
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#34d399"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#c084fc"/>
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#fbbf24"/>
+    </marker>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1920" height="1080" fill="#070a12"/>
+  <rect width="1920" height="1080" fill="url(#gridPattern)" opacity="0.7"/>
+
+  <!-- TOP BANNER / HEADER -->
+  <rect x="40" y="30" width="1840" height="95" rx="16" fill="url(#gradHeader)" stroke="#3b82f6" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <rect x="40" y="123" width="1840" height="2" fill="url(#gradGoldLine)"/>
+
+  <!-- Logo Badge -->
+  <rect x="65" y="48" width="60" height="58" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+  <text x="95" y="85" text-anchor="middle" font-size="28" font-weight="900" fill="#f59e0b">JB</text>
+
+  <!-- Header Title -->
+  <text x="145" y="68" font-size="24" font-weight="800" fill="#f8fafc" letter-spacing="0.5">JULLBRAIN LEGAL-RAG — PIPELINE TECNOLÓGICO Y DE ARQUITECTURA V-2.1</text>
+  <text x="145" y="94" font-size="14" font-weight="500" fill="#94a3b8">Sistema de Ingesta, Jerarquización Jurídica, Vectorización Multilingüe (IBM Granite) e Inferencia Auditable Air-Gapped</text>
+
+  <!-- Top Status Badges -->
+  <rect x="1540" y="55" width="150" height="44" rx="22" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+  <circle cx="1560" cy="77" r="5" fill="#10b981"/>
+  <text x="1575" y="82" font-size="13" font-weight="700" fill="#34d399">100% AIR-GAPPED</text>
+
+  <rect x="1705" y="55" width="150" height="44" rx="22" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="1780" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#fbbf24">IBM GRANITE R2</text>
+
+
+  <!-- ==================== COLUMNA 1: INGESTA Y PARSING (CYAN) ==================== -->
+  <rect x="40" y="145" width="420" height="880" rx="16" fill="#091322" stroke="#1e293b" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <!-- Header Columna 1 -->
+  <rect x="40" y="145" width="420" height="50" rx="16" fill="#0c4a6e" opacity="0.6"/>
+  <rect x="55" y="160" width="24" height="24" rx="6" fill="#0284c7"/>
+  <text x="67" y="177" text-anchor="middle" font-size="13" font-weight="900" fill="#ffffff">1</text>
+  <text x="90" y="177" font-size="16" font-weight="700" fill="#38bdf8">1. INGESTA Y EXTRACCIÓN</text>
+
+  <!-- Box 1.1: Documentos Fuente -->
+  <rect x="60" y="215" width="380" height="150" rx="12" fill="url(#gradIngesta)" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="80" y="245" font-size="15" font-weight="700" fill="#e0f2fe">Documentos Legales Fuente</text>
+  <text x="80" y="270" font-size="12" fill="#7dd3fc">• Carpeta Origen: <tspan font-family="monospace" fill="#38bdf8">RAG/datos_brutos/</tspan></text>
+  <text x="80" y="292" font-size="12" fill="#7dd3fc">• Documentos PDFs, Word (.docx) e Imágenes</text>
+  <text x="80" y="314" font-size="12" fill="#7dd3fc">• Gacetas Oficiales, Códigos, Leyes de VZLA</text>
+  <rect x="80" y="328" width="130" height="22" rx="4" fill="#0369a1"/>
+  <text x="145" y="343" text-anchor="middle" font-size="11" font-weight="600" fill="#ffffff">Nativo OCR / Mixed</text>
+
+  <!-- Arrow 1.1 -> 1.2 -->
+  <path d="M 250 365 L 250 395" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowCyan)"/>
+
+  <!-- Box 1.2: IBM Docling Engine -->
+  <rect x="60" y="405" width="380" height="230" rx="12" fill="url(#gradIngesta)" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="80" y="435" font-size="16" font-weight="800" fill="#ffffff">IBM Docling 2.x Engine</text>
+  <text x="80" y="458" font-size="12" fill="#93c5fd">• Motor Avanzado de Parsing de Documentos</text>
+  <text x="80" y="480" font-size="12" fill="#93c5fd">• Reconocimiento de Layout (Títulos, Párrafos)</text>
+  <text x="80" y="502" font-size="12" fill="#93c5fd">• Extracción de Tablas Estructuradas</text>
+  <text x="80" y="524" font-size="12" fill="#93c5fd">• OCR Integrado (Tesseract / EasyOCR fallback)</text>
+  <rect x="80" y="540" width="340" height="40" rx="8" fill="#075985" stroke="#38bdf8" stroke-width="1"/>
+  <text x="92" y="565" font-size="12" font-family="monospace" fill="#f0f9ff">iniciar_transformacion_docling.bat</text>
+
+  <!-- Arrow 1.2 -> 1.3 -->
+  <path d="M 250 635 L 250 665" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowCyan)"/>
+
+  <!-- Box 1.3: SHA-256 Cache -->
+  <rect x="60" y="675" width="380" height="150" rx="12" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
+  <text x="80" y="705" font-size="15" font-weight="700" fill="#38bdf8">Caché Forense de Ingesta</text>
+  <text x="80" y="730" font-size="12" fill="#bae6fd">• Directorio: <tspan font-family="monospace" fill="#38bdf8">.conversion_cache/</tspan></text>
+  <text x="80" y="752" font-size="12" fill="#bae6fd">• Control de Huella Digital SHA-256</text>
+  <text x="80" y="774" font-size="12" fill="#bae6fd">• Omitir Re-procesamiento de PDFs intactos</text>
+  <text x="80" y="796" font-size="12" fill="#34d399" font-weight="600">✓ Aceleración de Rendimiento 95%</text>
+
+  <!-- Arrow Horizontal Col 1 -> Col 2 -->
+  <path d="M 440 520 L 500 520" stroke="#38bdf8" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#arrowCyan)"/>
+
+
+  <!-- ==================== COLUMNA 2: ESTRUCTURACIÓN Y VALIDACIÓN (EMERALD) ==================== -->
+  <rect x="510" y="145" width="440" height="880" rx="16" fill="#061814" stroke="#1e293b" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <!-- Header Columna 2 -->
+  <rect x="510" y="145" width="440" height="50" rx="16" fill="#047857" opacity="0.6"/>
+  <rect x="525" y="160" width="24" height="24" rx="6" fill="#059669"/>
+  <text x="537" y="177" text-anchor="middle" font-size="13" font-weight="900" fill="#ffffff">2</text>
+  <text x="560" y="177" font-size="16" font-weight="700" fill="#34d399">2. JERARQUIZACIÓN Y VALIDACIÓN</text>
+
+  <!-- Box 2.1: Legalizer Module -->
+  <rect x="530" y="215" width="400" height="220" rx="12" fill="url(#gradCore)" stroke="#10b981" stroke-width="1.5"/>
+  <text x="550" y="245" font-size="16" font-weight="800" fill="#ffffff">legalizer.py</text>
+  <text x="550" y="268" font-size="12" fill="#a7f3d0">• Parser Semántico Jurídico Venezolano</text>
+  <text x="550" y="290" font-size="12" fill="#a7f3d0">• Separación atómica: <tspan font-weight="700" fill="#ffffff">TÍTULO › CAPÍTULO › Artículo</tspan></text>
+  <text x="550" y="312" font-size="12" fill="#a7f3d0">• Evita la fusión de artículos en bloques masivos</text>
+  <text x="550" y="334" font-size="12" fill="#a7f3d0">• Generación de Tabla de Contenidos (TOC)</text>
+  <rect x="550" y="355" width="360" height="38" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="1"/>
+  <text x="562" y="379" font-size="12" font-family="monospace" fill="#ecfdf5">Skill: analizador-jerarquia-legal</text>
+
+  <!-- Arrow 2.1 -> 2.2 -->
+  <path d="M 730 435 L 730 465" stroke="#34d399" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <!-- Box 2.2: Metadata Extractor -->
+  <rect x="530" y="475" width="400" height="210" rx="12" fill="url(#gradCore)" stroke="#10b981" stroke-width="1.5"/>
+  <text x="550" y="505" font-size="16" font-weight="800" fill="#ffffff">metadata_extractor.py</text>
+  <text x="550" y="528" font-size="12" fill="#a7f3d0">• Extracción de Número de Gaceta Oficial</text>
+  <text x="550" y="550" font-size="12" fill="#a7f3d0">• Fecha de Publicación e Instrumento Legal</text>
+  <text x="550" y="572" font-size="12" fill="#a7f3d0">• Inyección de Header YAML Frontmatter</text>
+  <text x="550" y="594" font-size="12" fill="#a7f3d0">• Firma e Identificador SHA-256 de Evidencia</text>
+  <rect x="550" y="612" width="360" height="38" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="1"/>
+  <text x="562" y="636" font-size="12" font-family="monospace" fill="#ecfdf5">Skill: extractor-metadata-legal</text>
+
+  <!-- Arrow 2.2 -> 2.3 -->
+  <path d="M 730 685 L 730 715" stroke="#34d399" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <!-- Box 2.3: Forensic Validator (R7) -->
+  <rect x="530" y="725" width="400" height="200" rx="12" fill="#022c22" stroke="#10b981" stroke-width="1.5"/>
+  <text x="550" y="755" font-size="16" font-weight="800" fill="#34d399">validator.py (Control Forense R7)</text>
+  <text x="550" y="778" font-size="12" fill="#a7f3d0">• Doble Validación Cruzada (Markdown vs PyMuPDF)</text>
+  <text x="550" y="800" font-size="12" fill="#a7f3d0">• Auditoría de Conteo y Secuencia de Artículos</text>
+  <text x="550" y="822" font-size="12" fill="#a7f3d0">• Detección de Saltos de Folio o Artículos Faltantes</text>
+  <rect x="550" y="845" width="360" height="38" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="1"/>
+  <text x="562" y="869" font-size="12" font-family="monospace" fill="#6ee7b7">Skill: validador-calidad-ocr</text>
+
+  <!-- Arrow Horizontal Col 2 -> Col 3 -->
+  <path d="M 950 580 L 1000 580" stroke="#34d399" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#arrowGreen)"/>
+
+
+  <!-- ==================== COLUMNA 3: VECTORIZACIÓN & CHUNKING (PURPLE) ==================== -->
+  <rect x="1010" y="145" width="430" height="880" rx="16" fill="#140922" stroke="#1e293b" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <!-- Header Columna 3 -->
+  <rect x="1010" y="145" width="430" height="50" rx="16" fill="#6b21a8" opacity="0.6"/>
+  <rect x="1025" y="160" width="24" height="24" rx="6" fill="#7e22ce"/>
+  <text x="1037" y="177" text-anchor="middle" font-size="13" font-weight="900" fill="#ffffff">3</text>
+  <text x="1060" y="177" font-size="16" font-weight="700" fill="#c084fc">3. EMBEDDINGS Y ARTIFACTS RAG</text>
+
+  <!-- Box 3.1: Granite Embedder -->
+  <rect x="1030" y="215" width="390" height="250" rx="12" fill="url(#gradEmbed)" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="1050" y="245" font-size="16" font-weight="800" fill="#ffffff">granite_embedder.py</text>
+  <text x="1050" y="268" font-size="12" fill="#e9d5ff">• Modelo Vectorial: <tspan font-weight="700" fill="#f0abfc">Granite Multilingual R2</tspan></text>
+  <text x="1050" y="290" font-size="12" fill="#e9d5ff">• Generación de Vectores de <tspan font-weight="700" fill="#ffffff">768 dimensiones</tspan></text>
+  <text x="1050" y="312" font-size="12" fill="#e9d5ff">• Context Window Ample: 32,768 tokens</text>
+  <text x="1050" y="334" font-size="12" fill="#e9d5ff">• Dual Execution Backend:</text>
+  <text x="1070" y="354" font-size="11" font-family="monospace" fill="#d8b4fe">1. sentence-transformers (Local CPU/CUDA)</text>
+  <text x="1070" y="372" font-size="11" font-family="monospace" fill="#d8b4fe">2. Ollama API Server (Local Air-Gapped)</text>
+  <rect x="1050" y="390" width="350" height="38" rx="8" fill="#581c87" stroke="#c084fc" stroke-width="1"/>
+  <text x="1062" y="414" font-size="12" font-family="monospace" fill="#fae8ff">Skill: granite-embedder</text>
+
+  <!-- Arrow 3.1 -> 3.2 -->
+  <path d="M 1225 465 L 1225 495" stroke="#c084fc" stroke-width="2" marker-end="url(#arrowPurple)"/>
+
+  <!-- Box 3.2: Output Artifacts -->
+  <rect x="1030" y="505" width="390" height="230" rx="12" fill="url(#gradEmbed)" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="1050" y="535" font-size="16" font-weight="800" fill="#ffffff">Salidas del Pipeline RAG</text>
+  <text x="1050" y="560" font-size="13" font-weight="700" fill="#f0abfc">1. Markdown Consolidado con YAML:</text>
+  <text x="1070" y="582" font-size="12" font-family="monospace" fill="#e9d5ff">RAG/Informacion_docling_rag/*.md</text>
+  <text x="1050" y="610" font-size="13" font-weight="700" fill="#f0abfc">2. Hierarchical Chunks JSON:</text>
+  <text x="1070" y="632" font-size="12" font-family="monospace" fill="#e9d5ff">RAG/Informacion_docling_rag/*.json</text>
+  <text x="1050" y="660" font-size="13" font-weight="700" fill="#f0abfc">3. JSON con Vectores Embebidos:</text>
+  <text x="1070" y="682" font-size="12" font-family="monospace" fill="#e9d5ff">hierarchical_chunks_embedded.json</text>
+
+  <!-- Arrow 3.2 -> 3.3 -->
+  <path d="M 1225 735 L 1225 765" stroke="#c084fc" stroke-width="2" marker-end="url(#arrowPurple)"/>
+
+  <!-- Box 3.3: LightRAG Integration -->
+  <rect x="1030" y="775" width="390" height="150" rx="12" fill="#3b0764" stroke="#a855f7" stroke-width="1"/>
+  <text x="1050" y="805" font-size="15" font-weight="700" fill="#c084fc">lightrag_integration.py</text>
+  <text x="1050" y="830" font-size="12" fill="#f5d0fe">• Mapeo de Grafos de Conocimiento Jurídico</text>
+  <text x="1050" y="852" font-size="12" fill="#f5d0fe">• Indexación Dual (Entidades Legales + Normas)</text>
+  <text x="1050" y="874" font-size="12" fill="#f5d0fe">• Soporte de Grafo Semántico RAG</text>
+
+  <!-- Arrow Horizontal Col 3 -> Col 4 -->
+  <path d="M 1440 620 L 1490 620" stroke="#c084fc" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#arrowPurple)"/>
+
+
+  <!-- ==================== COLUMNA 4: RAGFLOW, LLM & UI (AMBER/GOLD) ==================== -->
+  <rect x="1500" y="145" width="380" height="880" rx="16" fill="#1c0f07" stroke="#1e293b" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <!-- Header Columna 4 -->
+  <rect x="1500" y="145" width="380" height="50" rx="16" fill="#78350f" opacity="0.6"/>
+  <rect x="1515" y="160" width="24" height="24" rx="6" fill="#d97706"/>
+  <text x="1527" y="177" text-anchor="middle" font-size="13" font-weight="900" fill="#ffffff">4</text>
+  <text x="1550" y="177" font-size="16" font-weight="700" fill="#fbbf24">4. LIGHTRAG, LLM Y DEPLOY</text>
+
+  <!-- Box 4.1: LightRAG Motor -->
+  <rect x="1520" y="215" width="340" height="210" rx="12" fill="url(#gradRAG)" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="1540" y="245" font-size="16" font-weight="800" fill="#ffffff">LightRAG Engine</text>
+  <text x="1540" y="268" font-size="12" fill="#fef3c7">• Knowledge Graph + Vector RAG</text>
+  <text x="1540" y="290" font-size="12" fill="#fef3c7">• Búsqueda Híbrida: <tspan fill="#fbbf24">Dual-level Retrieval</tspan></text>
+  <text x="1540" y="312" font-size="12" fill="#fef3c7">• Mapeo de Entidades &amp; Relaciones</text>
+  <text x="1540" y="334" font-size="12" fill="#fef3c7">• Citas y Trazabilidad Jerárquica</text>
+  <rect x="1540" y="355" width="300" height="38" rx="8" fill="#451a03" stroke="#fbbf24" stroke-width="1"/>
+  <text x="1552" y="379" font-size="12" font-family="monospace" fill="#fffbeb">lightrag_integration.py</text>
+
+  <!-- Arrow 4.1 -> 4.2 -->
+  <path d="M 1690 425 L 1690 455" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrowGold)"/>
+
+  <!-- Box 4.2: IBM Granite LLM -->
+  <rect x="1520" y="465" width="340" height="230" rx="12" fill="url(#gradRAG)" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="1540" y="495" font-size="16" font-weight="800" fill="#ffffff">IBM Granite LLM (Ollama)</text>
+  <text x="1540" y="518" font-size="12" fill="#fef3c7">• Modelo: <tspan font-weight="700" fill="#fbbf24">Granite 3.3 8B Instruct GGUF</tspan></text>
+  <text x="1540" y="540" font-size="12" fill="#fef3c7">• Temperatura Jurídica Baja: <tspan font-weight="700" fill="#ffffff">0.15</tspan></text>
+  <text x="1540" y="562" font-size="12" fill="#fef3c7">• Abstención explícita ante sin-respaldo</text>
+  <text x="1540" y="584" font-size="12" fill="#fef3c7">• Semáforo de Confianza Auditada</text>
+  <rect x="1540" y="605" width="300" height="38" rx="8" fill="#451a03" stroke="#fbbf24" stroke-width="1"/>
+  <text x="1552" y="629" font-size="12" font-family="monospace" fill="#fffbeb">Skill: semaforo-confianza-juridica</text>
+
+  <!-- Arrow 4.2 -> 4.3 -->
+  <path d="M 1690 695 L 1690 725" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrowGold)"/>
+
+  <!-- Box 4.3: Dash UI & Podman -->
+  <rect x="1520" y="735" width="340" height="190" rx="12" fill="#451a03" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="1540" y="765" font-size="16" font-weight="800" fill="#fbbf24">Plotly Dash UI &amp; Podman</text>
+  <text x="1540" y="788" font-size="12" fill="#fef3c7">• <tspan stroke="none" fill="#ffffff" font-weight="700">app.py</tspan>: Dashboard 7 Paneles Control</text>
+  <text x="1540" y="810" font-size="12" fill="#fef3c7">• Orquestación: <tspan stroke="none" fill="#ffffff" font-weight="700">orquestador_JullBrain.bat</tspan></text>
+  <text x="1540" y="832" font-size="12" fill="#fef3c7">• Contenedor: Podman Rootless OCI</text>
+  <text x="1540" y="854" font-size="12" fill="#fef3c7">• <tspan stroke="none" fill="#ffffff" font-weight="700">Containerfile</tspan> / <tspan stroke="none" fill="#ffffff" font-weight="700">podman-compose.yml</tspan></text>
+
+  <!-- FOOTER BAR -->
+  <rect x="40" y="1035" width="1840" height="35" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <text x="60" y="1058" font-size="12" font-weight="600" fill="#94a3b8">Leyenda del Pipeline:</text>
+  <circle cx="210" cy="1054" r="5" fill="#38bdf8"/>
+  <text x="222" y="1058" font-size="12" fill="#cbd5e1">Ingesta &amp; OCR</text>
+  <circle cx="340" cy="1054" r="5" fill="#34d399"/>
+  <text x="352" y="1058" font-size="12" fill="#cbd5e1">Jerarquía Legal &amp; Calidad (R7)</text>
+  <circle cx="540" cy="1054" r="5" fill="#c084fc"/>
+  <text x="552" y="1058" font-size="12" fill="#cbd5e1">IBM Granite Embeddings R2 (768-dim)</text>
+  <circle cx="820" cy="1054" r="5" fill="#fbbf24"/>
+  <text x="832" y="1058" font-size="12" fill="#cbd5e1">LightRAG + Granite LLM + Dash UI + Podman</text>
+  <text x="1860" y="1058" text-anchor="end" font-size="12" font-weight="700" fill="#f59e0b">JullBrain Legal-RAG Architecture V-2.1</text>
+</svg>

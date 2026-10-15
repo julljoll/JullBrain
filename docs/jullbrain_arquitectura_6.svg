@@ -1,0 +1,196 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', sans-serif; background-color: #080b12;">
+  <title>JullBrain — Diapositiva 6: Capa 5 — Ingesta RAGFlow, LLM Granite &amp; Matriz de Roles (AGENTS.MD)</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161c27" />
+      <stop offset="50%" stop-color="#241e07" />
+      <stop offset="100%" stop-color="#161c27" />
+    </linearGradient>
+
+    <linearGradient id="gradRAGFlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241e07" />
+      <stop offset="100%" stop-color="#3d3002" />
+    </linearGradient>
+
+    <linearGradient id="gradLLM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#18273c" />
+    </linearGradient>
+
+    <linearGradient id="gradRoles" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0f17" />
+      <stop offset="100%" stop-color="#141a29" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+  </defs>
+
+  <!-- HEADER BAR -->
+  <rect x="40" y="30" width="1840" height="90" rx="14" fill="url(#gradHeader)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">CAPA 5: BASE VECTORIAL RAGFLOW, INFERENCIA GRANITE LLM &amp; MATRIZ DE ROLES</text>
+  <text x="70" y="94" font-size="14" fill="#00FF41">Búsqueda Híbrida (BM25 + Granite Vectors), Generación Jurídica (T=0.15), Verificación de Citas &amp; Gobernanza AGENTS.MD</text>
+
+  <!-- Pill Diapositiva -->
+  <rect x="1650" y="52" width="200" height="46" rx="23" fill="#241e07" stroke="#FECF06" stroke-width="1.5" />
+  <text x="1750" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Diapositiva 6 / 7</text>
+
+  <!-- DIAGRAMA PRINCIPAL CAPA 5 & GOBERNANZA -->
+  <rect x="40" y="145" width="1840" height="630" rx="16" fill="#0b0e17" stroke="#253246" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- 1. RAGFlow Vector Engine -->
+  <g transform="translate(70, 180)" filter="url(#shadow)">
+    <rect width="420" height="560" rx="14" fill="url(#gradRAGFlow)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="20" y="20" width="380" height="40" rx="8" fill="#524203"/>
+    <text x="210" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#FECF06">🗄️ RAGFlow Vector Engine</text>
+
+    <rect x="25" y="80" width="370" height="210" rx="10" fill="#09101a" stroke="#FECF06" stroke-width="1.5"/>
+    <text x="45" y="108" font-size="13" font-weight="bold" fill="#FECF06">Knowledge Base Air-Gapped</text>
+    <text x="45" y="130" font-size="10" fill="#00FF41">• Ingesta directa de `hierarchical_chunks.json`</text>
+    <text x="45" y="148" font-size="10" fill="#00FF41">• Ingesta opcional de chunks embebidos R2</text>
+    <line x1="45" y1="162" x2="375" y2="162" stroke="#253246" />
+    <text x="45" y="182" font-size="11" font-weight="bold" fill="#00CFFF">Motor de Búsqueda Híbrida:</text>
+    <text x="45" y="200" font-size="10" fill="#a0aec0">1. Lexical BM25 (Búsqueda por palabras clave legal)</text>
+    <text x="45" y="218" font-size="10" fill="#a0aec0">2. Vector Cosine Similarity (Granite R2 768-dim)</text>
+    <text x="45" y="238" font-size="10" fill="#00FF41">• Reciprocal Rank Fusion (RRF) para combinar listas</text>
+    <text x="45" y="258" font-size="10" fill="#FECF06">• Reranking final de artículos más relevantes</text>
+
+    <rect x="25" y="310" width="370" height="110" rx="10" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+    <text x="45" y="335" font-size="11" font-weight="bold" fill="#00CFFF">API REST Endpoint Activo:</text>
+    <text x="45" y="355" font-size="10" fill="#00FF41">`http://localhost:9380/api/v1`</text>
+    <text x="45" y="372" font-size="10" fill="#a0aec0">• Despliegue en contenedor Docker Air-Gapped</text>
+    <text x="45" y="390" font-size="10" fill="#a0aec0">• Sin conexiones salientes a servidores externos</text>
+
+    <rect x="25" y="440" width="370" height="90" rx="10" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+    <text x="45" y="465" font-size="11" font-weight="bold" fill="#00FF41">Filtros dinámicos por Metadata YAML:</text>
+    <text x="45" y="485" font-size="9" fill="#a0aec0">Permite restringir la búsqueda a una materia (ej. Penal),</text>
+    <text x="45" y="500" font-size="9" fill="#a0aec0">Gaceta Oficial o rango de fechas determinado.</text>
+  </g>
+
+  <!-- Flecha RAGFlow -> LLM -->
+  <path d="M 490 460 L 540 460" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+
+  <!-- 2. IBM Granite LLM -->
+  <g transform="translate(540, 180)" filter="url(#shadow)">
+    <rect width="440" height="560" rx="14" fill="url(#gradLLM)" stroke="#00FF41" stroke-width="2"/>
+    <rect x="20" y="20" width="400" height="40" rx="8" fill="#092415"/>
+    <text x="220" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#00FF41">🤖 IBM Granite 3.1:8b / 4.1:8b Instruct</text>
+
+    <rect x="25" y="80" width="390" height="230" rx="10" fill="#09101a" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="45" y="108" font-size="13" font-weight="bold" fill="#00FF41">Inferencia Jurídica Local (CPU llama.cpp)</text>
+    <text x="45" y="130" font-size="10" fill="#FECF06">• Backend: `llama.cpp` / `Ollama` REST API</text>
+    <text x="45" y="148" font-size="10" fill="#FECF06">• Formato: GGUF Cuantizado (Q4_K_M / Q8_0)</text>
+    <text x="45" y="166" font-size="10" fill="#00FF41">• Temperatura Jurídica: <tspan font-weight="bold">T = 0.15</tspan> (Baja varianza)</text>
+    <text x="45" y="184" font-size="10" fill="#00FF41">• Ventana de Contexto: <tspan font-weight="bold">128,000 Tokens</tspan></text>
+    <line x1="45" y1="198" x2="395" y2="198" stroke="#253246" />
+    <text x="45" y="218" font-size="11" font-weight="bold" fill="#FF4B4B">Abstención Explícita Obligatoria (Principio 5):</text>
+    <text x="45" y="238" font-size="9" fill="#a0aec0">Si la consulta no encuentra sustento normativo en los chunks</text>
+    <text x="45" y="255" font-size="9" fill="#a0aec0">recuperados por RAGFlow, el LLM responde explícitamente:</text>
+    <text x="45" y="272" font-size="9" font-weight="bold" fill="#FF4B4B">"Información no encontrada en el corpus normativo cerrado."</text>
+    <text x="45" y="290" font-size="9" fill="#a0aec0">Se prohíbe forzar citas o inventar artículos inexistentes.</text>
+
+    <rect x="25" y="330" width="390" height="200" rx="10" fill="#09101a" stroke="#FECF06" stroke-width="1.5"/>
+    <text x="45" y="358" font-size="12" font-weight="bold" fill="#FECF06">Evaluación Anti-Alucinación &amp; Explicabilidad:</text>
+    <text x="45" y="380" font-size="10" fill="#a0aec0">• Auditoría basada en tipología Stanford RegLab:</text>
+    <text x="45" y="398" font-size="9" fill="#00FF41">  - Detección de Fabricación (Citar leyes inexistentes)</text>
+    <text x="45" y="413" font-size="9" fill="#00FF41">  - Detección de Desanclaje / Misgrounding (Mala interpretación)</text>
+    <text x="45" y="433" font-size="10" font-weight="bold" fill="#00CFFF">Semáforo de Confianza Jurídica (Pestaña UI):</text>
+    <text x="45" y="453" font-size="9" fill="#00FF41">🟢 VERDE: Cita totalmente anclada y verificada.</text>
+    <text x="45" y="470" font-size="9" fill="#FECF06">🟡 ÁMBAR: Cita parcial requerida verificación humana.</text>
+    <text x="45" y="487" font-size="9" fill="#FF4B4B">🔴 ROJO: Respuesta desanclada / Rechazada.</text>
+  </g>
+
+  <!-- Flecha LLM -> Roles -->
+  <path d="M 980 460 L 1030 460" fill="none" stroke="#00FF41" stroke-width="3" marker-end="url(#arrowGreen)" />
+
+  <!-- 3. Matriz de Roles AGENTS.MD -->
+  <g transform="translate(1030, 180)" filter="url(#shadow)">
+    <rect width="820" height="560" rx="14" fill="url(#gradRoles)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="20" y="20" width="780" height="40" rx="8" fill="#241e07"/>
+    <text x="410" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#FECF06">🏛️ MATRIZ DE ROLES PROFESIONALES (AGENTS.MD) &amp; GOBERNANZA</text>
+
+    <!-- Grid 2 Columnas de Roles -->
+    <g transform="translate(30, 75)">
+      <!-- Columna 1 -->
+      <rect x="0" y="0" width="370" height="135" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="22" font-size="11" font-weight="bold" fill="#00CFFF">R1 — Arquitecto/a de IA &amp; LLM Senior:</text>
+      <text x="15" y="40" font-size="9" fill="#a0aec0">• Diseño RAG 6 fases, air-gapped, baja temperatura T=0.15.</text>
+      <text x="15" y="55" font-size="9" fill="#a0aec0">• Corpus normativo cerrado y versionado localmente.</text>
+      <text x="15" y="70" font-size="9" stroke-width="0.5" fill="#00FF41">• Criterio chunking atómico a nivel de artículo.</text>
+      <text x="15" y="95" font-size="9" font-weight="bold" fill="#FECF06">R2 — Desarrollador/a Python Full-Stack:</text>
+      <text x="15" y="112" font-size="9" fill="#a0aec0">• Código funcional app.py, IBM Docling, Granite Embedder CLI.</text>
+
+      <rect x="0" y="145" width="370" height="145" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="167" font-size="11" font-weight="bold" fill="#00FF41">R3 — Especialista Legaltech &amp; Informática Jurídica:</text>
+      <text x="15" y="185" font-size="9" fill="#a0aec0">• Anclaje COPP, LOCTI, Ley Infogobierno, ISO 29148/25010/42001.</text>
+      <text x="15" y="200" font-size="9" fill="#a0aec0">• Matriz de trazabilidad y evaluación de alucinaciones.</text>
+      <text x="15" y="225" font-size="9" font-weight="bold" fill="#FECF06">R4 — Consultor/a UX/UI (Diseño Centrado Usuario):</text>
+      <text x="15" y="242" font-size="9" fill="#a0aec0">• Tema oscuro Cyber-Legal HSL, semáforo de confianza jurídica.</text>
+      <text x="15" y="257" font-size="9" fill="#a0aec0">• Protocolo think-aloud para jueces, fiscales y defensores.</text>
+
+      <!-- Columna 2 -->
+      <rect x="390" y="0" width="365" height="135" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="405" y="22" font-size="11" font-weight="bold" fill="#FECF06">R5 — Facilitador/a Metodología Ágil (Scrum/Kanban):</text>
+      <text x="405" y="40" font-size="9" fill="#a0aec0">• Sprints quincenales, backlog priorizado.</text>
+      <text x="405" y="55" font-size="9" fill="#a0aec0">• Columna Kanban "Verificación anti-alucinación" antes DoD.</text>
+      <text x="405" y="80" font-size="9" font-weight="bold" fill="#00CFFF">R6 — Orquestador/a del Agente (Integrador):</text>
+      <text x="405" y="97" font-size="9" fill="#a0aec0">• Decisor de combinación de roles ante requerimientos.</text>
+      <text x="405" y="112" font-size="9" font-weight="bold" fill="#00FF41">• Regla de Oro: "El sistema acelera, nunca decide ni sustituye".</text>
+
+      <rect x="390" y="145" width="365" height="145" rx="8" fill="#09101a" stroke="#FF4B4B" stroke-width="1"/>
+      <text x="405" y="167" font-size="11" font-weight="bold" fill="#FF4B4B">R7 — Experto/a en IA Forense &amp; Procesos Penales:</text>
+      <text x="405" y="185" font-size="9" fill="#a0aec0">• Cadena de custodia, principio de espejo documental.</text>
+      <text x="405" y="200" font-size="9" fill="#a0aec0">• Detección de anomalías cronológicas y de folios.</text>
+      <text x="405" y="215" font-size="9" fill="#a0aec0">• Reporta inconsistencias formales para revisión humana.</text>
+      <text x="405" y="240" font-size="9" font-weight="bold" fill="#FECF06">Resolución CNJ N° 332/2020 (Adoptada):</text>
+      <text x="405" y="257" font-size="9" fill="#a0aec0">Ningún proyecto de decisión tiene efecto sin validación humana.</text>
+
+      <!-- Banner Inferior de Firma -->
+      <rect x="0" y="300" width="755" height="145" rx="10" fill="#121824" stroke="#FECF06" stroke-width="1.5"/>
+      <text x="377" y="325" text-anchor="middle" font-size="12" font-weight="bold" fill="#FECF06">Desarrollado Por: Jull Ortiz — Arquitecto de Datos con y para la IA Jurídica</text>
+      <text x="377" y="348" text-anchor="middle" font-size="10" fill="#00FF41">Propósito: Aportar tecnología de vanguardia al Estado venezolano para prevenir la corrupción y el retardo procesal.</text>
+      <text x="377" y="368" text-anchor="middle" font-size="9" fill="#a0aec0">Licencia Apache 2.0 | Air-Gapped Security Architecture | Powered by IBM Docling &amp; IBM Granite R2</text>
+      <line x1="30" y1="385" x2="725" y2="385" stroke="#253246" />
+      <text x="377" y="405" text-anchor="middle" font-size="9" font-weight="bold" fill="#00CFFF">Principios No Negociables: 1. Corpus Cerrado · 2. Chunking Atómico · 3. Verificación Citas · 4. T=0.15 · 5. Abstención · 6. Humano en el Bucle</text>
+    </g>
+  </g>
+
+  <!-- LEYENDA TÉCNICA DE TAREAS -->
+  <g transform="translate(40, 790)" filter="url(#shadow)">
+    <rect width="1840" height="225" rx="14" fill="#0d111a" stroke="#253246" stroke-width="1.5"/>
+    <text x="70" y="820" font-size="14" font-weight="bold" fill="#FECF06">📋 LEYENDA DETALLADA DE TAREAS — CAPA 5: RAGFLOW VECTOR ENGINE, INFERENCIA GRANITE LLM Y GOBERNANZA</text>
+    <line x1="70" y1="830" x2="1810" y2="830" stroke="#253246" />
+
+    <g transform="translate(70, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea A — Búsqueda Híbrida &amp; Indexación (`RAGFlow`):</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">Recibe las normativas preparadas por el pipeline JullBrain y combina la búsqueda léxica BM25 con la similitud vectorial</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">Granite R2 de 768 dimensiones, aplicando algoritmos de RRF (Reciprocal Rank Fusion) para seleccionar el contexto óptimo.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea B — Razonamiento Jurídico Riguroso (`IBM Granite 4.1:8b`):</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">Procesa las consultas en entorno local air-gapped con una temperatura baja de T=0.15. Si la ley no está en el corpus,</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">el modelo se abstiene obligatoriamente de responder, evitando la alucinación de normas jurídicas.</text>
+    </g>
+
+    <g transform="translate(950, 845)">
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea C — Explicabilidad &amp; Semáforo de Confianza (Pestañas UI):</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">Clasifica las respuestas en tres niveles (Verde/Ámbar/Rojo) fundamentados en las métricas de anclaje de Stanford RegLab,</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">mostrando las citas legales exactas en el panel interactivo de Dash para la auditoría directa del operador humano.</text>
+
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#FECF06">Tarea D — Gobernanza Profesional Integrada (`AGENTS.MD`):</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">Asegura la cooperación multidisciplinaria entre los 7 roles del proyecto (R1 al R7), respaldando la máxima legal:</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">"El sistema acelera, nunca decide ni sustituye el criterio del operador de justicia calificado."</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Architecture Spec V-2.1 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped Security Architecture</text>
+</svg>

@@ -1,0 +1,334 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', sans-serif; background-color: #080b12;">
+  <title>JullBrain — Stack Tecnológico por Proceso (High-Level Tech Stack Map)</title>
+
+  <defs>
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161c27" />
+      <stop offset="50%" stop-color="#241e07" />
+      <stop offset="100%" stop-color="#161c27" />
+    </linearGradient>
+
+    <linearGradient id="gradTechBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#141f30" />
+    </linearGradient>
+
+    <linearGradient id="gradPillGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#382d03" />
+      <stop offset="100%" stop-color="#241e07" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00CFFF" />
+    </marker>
+  </defs>
+
+  <!-- HEADER BAR -->
+  <rect x="40" y="30" width="1840" height="90" rx="14" fill="url(#gradHeader)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">JULLBRAIN LEGAL-RAG — STACK TECNOLÓGICO COMPLETO POR PROCESO</text>
+  <text x="70" y="94" font-size="14" fill="#00FF41">Mapa Visual Exclusivo de Tecnologías, Librerías, Marcos, Estándares y Modelos de IA Utilizados en Cada Etapa del Sistema</text>
+
+  <!-- Pill Diapositiva -->
+  <rect x="1650" y="52" width="200" height="46" rx="23" fill="#241e07" stroke="#FECF06" stroke-width="1.5" />
+  <text x="1750" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Diagrama Final</text>
+
+  <!-- DIAGRAMA CANVAS PRINCIPAL -->
+  <rect x="40" y="145" width="1840" height="880" rx="16" fill="#0b0e17" stroke="#253246" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- GRID DE PROCESOS TECNOLÓGICOS (4 COLUMNAS x 2 FILAS) -->
+
+  <!-- PROCESO 1: Runtime & Entorno OS -->
+  <g transform="translate(70, 180)" filter="url(#shadow)">
+    <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="15" y="15" width="390" height="35" rx="8" fill="#382d03"/>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">1. RUNTIME &amp; SISTEMA OPERATIVO</text>
+
+    <!-- Lista de Tecnologías -->
+    <g transform="translate(30, 70)">
+      <rect width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">Windows PowerShell / CMD</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Scripting .BAT</text>
+
+      <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">Python 3.12 (Nativo)</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Core Runtime</text>
+
+      <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">docling_env (Virtual Environment)</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">venv Aislado</text>
+
+      <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Windows win32com</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Fallback .doc ➔ .docx</text>
+
+      <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Threading &amp; Subprocess Python</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Orquestación Multihilo</text>
+
+      <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Garbage Collector (gc)</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Gestión de RAM</text>
+    </g>
+  </g>
+
+  <path d="M 490 365 L 530 365" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+
+  <!-- PROCESO 2: Frontend & UI Dashboard -->
+  <g transform="translate(530, 180)" filter="url(#shadow)">
+    <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#00FF41" stroke-width="2"/>
+    <rect x="15" y="15" width="390" height="35" rx="8" fill="#092415"/>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00FF41">2. FRONTEND &amp; DASHBOARD VISUAL</text>
+
+    <g transform="translate(30, 70)">
+      <rect width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">Plotly Dash 2.14+</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Framework Web Reactive</text>
+
+      <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">Dash Bootstrap Components (DBC)</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">UI Responsive Layouts</text>
+
+      <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">Ace Code Editor</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Editor Markdown/YAML</text>
+
+      <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Rich 13.x CLI Progress</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Barra Progreso Terminal</text>
+
+      <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Tema Oscuro Cyber-Legal HSL</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Sistema de Diseño UX/UI</text>
+
+      <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Servidor Local Flask/Werkzeug</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">HTTP Server Puerto 8050</text>
+    </g>
+  </g>
+
+  <path d="M 950 365 L 990 365" fill="none" stroke="#00FF41" stroke-width="3" marker-end="url(#arrowGreen)" />
+
+  <!-- PROCESO 3: Ingesta & Extracción Docling -->
+  <g transform="translate(990, 180)" filter="url(#shadow)">
+    <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#00CFFF" stroke-width="2"/>
+    <rect x="15" y="15" width="390" height="35" rx="8" fill="#0a324a"/>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00CFFF">3. INGESTA &amp; MOTOR DE PARSING</text>
+
+    <g transform="translate(30, 70)">
+      <rect width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">IBM Docling Engine 2.x</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Reconocimiento Visuo-Estructural</text>
+
+      <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">EasyOCR / Tesseract OCR</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Motor OCR Escaneados</text>
+
+      <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">PyMuPDF (fitz) 1.28+</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Extracción Directa PDF</text>
+
+      <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">python-docx</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Parsing Documentos Word</text>
+
+      <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">IBM HierarchicalChunker</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Chunker JSON Nativo</text>
+
+      <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Docling Layout Parser</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Aislamiento de Tablas</text>
+    </g>
+  </g>
+
+  <path d="M 1410 365 L 1450 365" fill="none" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
+
+  <!-- PROCESO 4: Legalizer & Validaciones -->
+  <g transform="translate(1450, 180)" filter="url(#shadow)">
+    <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="15" y="15" width="390" height="35" rx="8" fill="#382d03"/>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">4. PARSING JURÍDICO &amp; METADATOS</text>
+
+    <g transform="translate(30, 70)">
+      <rect width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">Python Regular Expressions (re)</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Regex Atómico H2-H6</text>
+
+      <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">PyYAML</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Inyección Frontmatter</text>
+
+      <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">hashlib (SHA-256)</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Huella Criptográfica</text>
+
+      <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Structlog / Logging</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Audit Trail Logs</text>
+
+      <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Doble Validación Cruzada Engine</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Principio 10 (Regex vs PyMuPDF)</text>
+
+      <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">pipeline_config.json</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Persistencia de Parámetros</text>
+    </g>
+  </g>
+
+  <!-- FILA INFERIOR -->
+
+  <!-- Conexión Fila Superior -> Fila Inferior (Flecha de retorno) -->
+  <path d="M 1660 550 L 1660 590 L 280 590 L 280 610" fill="none" stroke="#FECF06" stroke-width="3" stroke-dasharray="6,3" marker-end="url(#arrowGold)" />
+
+  <!-- PROCESO 5: Embeddings Granite R2 -->
+  <g transform="translate(70, 610)" filter="url(#shadow)">
+    <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#00CFFF" stroke-width="2"/>
+    <rect x="15" y="15" width="390" height="35" rx="8" fill="#0a324a"/>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00CFFF">5. EMBEDDINGS SEMÁNTICOS (GRANITE R2)</text>
+
+    <g transform="translate(30, 70)">
+      <rect width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">IBM Granite Embedding Multilingual R2</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Modelo 768-Dim</text>
+
+      <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">sentence-transformers 5.6+</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Backend Local Python</text>
+
+      <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">PyTorch 2.1+cpu</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Motor Cómputo CPU</text>
+
+      <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">HuggingFace Transformers</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Gestión de Modelos</text>
+
+      <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Ollama REST API (/api/embeddings)</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Backend Alternativo</text>
+
+      <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Instrucciones CPU AVX-512 / AVX2</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Aceleración Harware</text>
+    </g>
+  </g>
+
+  <path d="M 490 795 L 530 795" fill="none" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
+
+  <!-- PROCESO 6: RAGFlow Vector Engine -->
+  <g transform="translate(530, 610)" filter="url(#shadow)">
+    <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="15" y="15" width="390" height="35" rx="8" fill="#382d03"/>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">6. BASE VECTORIAL RAGFLOW</text>
+
+    <g transform="translate(30, 70)">
+      <rect width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">RAGFlow Vector Engine</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Motor RAG Nativo</text>
+
+      <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">Docker Container (Air-Gapped)</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Aislamiento de Red</text>
+
+      <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">BM25 (BM25Okapi Engine)</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Búsqueda Léxica</text>
+
+      <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Cosine Distance Similarity</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Búsqueda Vectorial</text>
+
+      <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Reciprocal Rank Fusion (RRF)</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Fusión de Listas</text>
+
+      <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">DeepDoc Vector Parser</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Ingesta Chunks JSON</text>
+    </g>
+  </g>
+
+  <path d="M 950 795 L 990 795" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+
+  <!-- PROCESO 7: Inferencia LLM Granite -->
+  <g transform="translate(990, 610)" filter="url(#shadow)">
+    <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#00FF41" stroke-width="2"/>
+    <rect x="15" y="15" width="390" height="35" rx="8" fill="#092415"/>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00FF41">7. INFERENCIA LLM &amp; EVALUACIÓN</text>
+
+    <g transform="translate(30, 70)">
+      <rect width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">IBM Granite 3.1:8b / 4.1:8b Instruct</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Modelo de Inferencia</text>
+
+      <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">llama.cpp / Ollama Server</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Motor de Ejecución GGUF</text>
+
+      <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">Stanford RegLab Metrics</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Auditoría Alucinaciones</text>
+
+      <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Northwestern LLM-as-a-Judge</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Auditoría de Respuestas</text>
+
+      <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Semáforo de Confianza Jurídica UI</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Indicador de Anclaje</text>
+
+      <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Gobernanza CNJ N° 332/2020</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Humano en el Bucle</text>
+    </g>
+  </g>
+
+  <path d="M 1410 795 L 1450 795" fill="none" stroke="#00FF41" stroke-width="3" marker-end="url(#arrowGreen)" />
+
+  <!-- PROCESO 8: Estándares & Normativa -->
+  <g transform="translate(1450, 610)" filter="url(#shadow)">
+    <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#FECF06" stroke-width="2"/>
+    <rect x="15" y="15" width="390" height="35" rx="8" fill="#382d03"/>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">8. ESTÁNDARES &amp; NORMATIVA</text>
+
+    <g transform="translate(30, 70)">
+      <rect width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">ISO/IEC 27037 &amp; 27042</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Evidencia Forense Digital</text>
+
+      <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">ISO/IEC 42001 &amp; 29148</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Gestión de IA &amp; Requisitos</text>
+
+      <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">NIST AI Risk Management Framework</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Evaluación de Riesgo IA</text>
+
+      <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Código Orgánico Procesal Penal (COPP)</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Marco Jurídico Venezolano</text>
+
+      <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">LOCTI &amp; Ley Infogobierno</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Soberanía Tecnológica</text>
+
+      <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Licencia Apache 2.0</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Código Abierto Seguro</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Tech Stack Spec V-2.1 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped Security Architecture</text>
+</svg>

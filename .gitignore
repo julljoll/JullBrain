@@ -1,0 +1,39 @@
+# Entornos virtuales
+docling_env/
+docling_env_roto_backup/
+env/
+venv/
+.venv/
+ENV/
+
+# Python cache y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Caches locales del proyecto
+.conversion_cache/
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Archivos de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos de log
+*.log
+*.sqlite3
+
+# Archivos temporales de scratch pesados
+scratch/temp_*
+scratch/*.pdf
+scratch/*.docx
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini

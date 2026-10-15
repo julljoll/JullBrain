@@ -1,0 +1,433 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #080b12;">
+  <title>JullBrain — Mapeo Detallado de Intervención de IA en el Caso Penal Venezolano</title>
+
+  <defs>
+    <!-- Gradientes de Fondo y Encabezado -->
+    <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Gradientes por Pasos -->
+    <linearGradient id="gradStep1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#072738" />
+      <stop offset="100%" stop-color="#04141e" />
+    </linearGradient>
+
+    <linearGradient id="gradStep2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="gradStep3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#332505" />
+      <stop offset="100%" stop-color="#1a1202" />
+    </linearGradient>
+
+    <linearGradient id="gradStep4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062e1b" />
+      <stop offset="100%" stop-color="#03170d" />
+    </linearGradient>
+
+    <linearGradient id="gradStep5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#31122b" />
+      <stop offset="100%" stop-color="#190a17" />
+    </linearGradient>
+
+    <linearGradient id="gradStep6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d234a" />
+      <stop offset="100%" stop-color="#061227" />
+    </linearGradient>
+
+    <linearGradient id="gradStep7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c0519" />
+      <stop offset="100%" stop-color="#1f030a" />
+    </linearGradient>
+
+    <linearGradient id="gradStep8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#052e16" />
+    </linearGradient>
+
+    <!-- Filtros de Sombra y Brillo -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <!-- Marcadores de Flechas -->
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00CFFF" />
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#FECF06" />
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#00FF41" />
+    </marker>
+    <marker id="arrowMagenta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#EC4899" />
+    </marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#4589ff" />
+    </marker>
+  </defs>
+
+  <!-- HEADER BANNER -->
+  <rect x="0" y="0" width="1920" height="85" fill="url(#gradHeader)" />
+  <line x1="0" y1="85" x2="1920" y2="85" stroke="#334155" stroke-width="2" />
+
+  <!-- Badge COPP / Legal RAG -->
+  <rect x="40" y="16" width="220" height="52" rx="8" fill="#0f62fe" filter="url(#shadow)" />
+  <text x="52" y="38" fill="#FFFFFF" font-size="13" font-weight="900" letter-spacing="1">INTERVENCIÓN IA (RAG)</text>
+  <text x="52" y="56" fill="#93c5fd" font-size="12" font-weight="700">CASO PENAL VENEZOLANO</text>
+
+  <!-- Main Title -->
+  <text x="280" y="38" fill="#F8FAFC" font-size="21" font-weight="800" letter-spacing="0.5">MAPEO ETAPA POR ETAPA: CÓMO JULLBRAIN LEGAL-RAG AGILIZA Y ASISTE EN EL CASO PENAL</text>
+  <text x="280" y="60" fill="#94A3B8" font-size="13" font-weight="500">Puntos de intervención de IA, aceleración procesal y mecanismos de control humano desde la investigación hasta la ejecución</text>
+
+  <!-- Badges Normativos Ajustados -->
+  <g transform="translate(1380, 16)">
+    <rect x="0" y="0" width="150" height="24" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+    <text x="75" y="16" fill="#38bdf8" font-size="10" font-weight="700" text-anchor="middle">CRBV Art. 49 (Debido Proceso)</text>
+
+    <rect x="160" y="0" width="150" height="24" rx="4" fill="#1e293b" stroke="#34d399" stroke-width="1"/>
+    <text x="235" y="16" fill="#34d399" font-size="10" font-weight="700" text-anchor="middle">ISO 27037 (Evidencia Digital)</text>
+
+    <rect x="320" y="0" width="170" height="24" rx="4" fill="#1e293b" stroke="#facc15" stroke-width="1"/>
+    <text x="405" y="16" fill="#facc15" font-size="10" font-weight="700" text-anchor="middle">COPP Decreto N.° 4.608</text>
+
+    <rect x="0" y="30" width="490" height="22" rx="4" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+    <text x="245" y="45" fill="#cbd5e1" font-size="9.5" font-weight="600" text-anchor="middle">CNJ 332/2020: Supervisión Humana Obligatoria en IA Penal</text>
+  </g>
+
+  <!-- SECCIÓN 1: PRIMERAS 4 ETAPAS -->
+  <text x="40" y="116" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">ETAPAS 1 A 4: INVESTIGACIÓN, PERITAJES, ACUSACIÓN FISCAL Y AUDIENCIA PRELIMINAR</text>
+
+  <!-- FLECHAS CONEXIÓN PASOS 1-4 -->
+  <line x1="435" y1="285" x2="455" y2="285" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
+  <line x1="895" y1="285" x2="915" y2="285" stroke="#a855f7" stroke-width="3" stroke-dasharray="6,4" />
+  <line x1="1355" y1="285" x2="1375" y2="285" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
+
+  <!-- PASO 1 -->
+  <g transform="translate(40, 128)">
+    <rect x="0" y="0" width="385" height="325" rx="10" fill="url(#gradStep1)" stroke="#00CFFF" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="385" height="42" rx="10" fill="#00CFFF" opacity="0.2" />
+    <circle cx="26" cy="21" r="14" fill="#00CFFF" />
+    <text x="26" y="26" fill="#080b12" font-size="13" font-weight="900" text-anchor="middle">1</text>
+    <text x="50" y="26" fill="#38BDF8" font-size="14" font-weight="800">INGESTA DE DENUNCIA Y ACTAS</text>
+
+    <text x="14" y="62" fill="#7DD3FC" font-size="10.5" font-weight="700">HITO DEL CASO PENAL (COPP Art. 265):</text>
+    <text x="14" y="78" fill="#E2E8F0" font-size="10">• Recepción de denuncias, querellas y actas policiales.</text>
+
+    <line x1="14" y1="88" x2="371" y2="88" stroke="#0c4a6e" stroke-width="1" />
+
+    <text x="14" y="104" fill="#7DD3FC" font-size="10.5" font-weight="700">🤖 INTERVENCIÓN DE LA IA (JULLBRAIN):</text>
+    <text x="14" y="120" fill="#E2E8F0" font-size="10">• OCR ultra-rápido de expedientes escaneados (Docling).</text>
+    <text x="14" y="134" fill="#E2E8F0" font-size="10">• Extracción de metadatos (Partes, Delito, Fecha, Folio).</text>
+    <text x="14" y="148" fill="#E2E8F0" font-size="10">• Cómputo de Hash SHA-256 (Cadena Custodia ISO 27037).</text>
+
+    <line x1="14" y1="158" x2="371" y2="158" stroke="#0c4a6e" stroke-width="1" />
+
+    <text x="14" y="174" fill="#7DD3FC" font-size="10.5" font-weight="700">⚡ IMPACTO EN LA AGILIZACIÓN DEL CASO:</text>
+    <text x="14" y="190" fill="#CBD5E1" font-size="10">Disponibilidad del expediente digitalizado e indexado</text>
+    <text x="14" y="204" fill="#CBD5E1" font-size="10">para búsqueda semántica en <tspan font-weight="700" fill="#38BDF8">segundos</tspan> (ahorra días de revisión).</text>
+
+    <rect x="14" y="218" width="357" height="92" rx="6" fill="#0c4a6e" opacity="0.85" />
+    <text x="22" y="235" fill="#BAE6FD" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="250" fill="#FFFFFF" font-size="9.5">El Fiscal revisa y valida la integridad de datos.</text>
+    <text x="22" y="265" fill="#38BDF8" font-size="9.5" font-weight="700">Auditabilidad: Hash SHA-256 en metadata.</text>
+    <text x="22" y="280" fill="#E2E8F0" font-size="9">Roles: R2 (Fullstack) + R7 (IA Forense)</text>
+  </g>
+
+  <!-- PASO 2 -->
+  <g transform="translate(470, 128)">
+    <rect x="0" y="0" width="385" height="325" rx="10" fill="url(#gradStep2)" stroke="#a855f7" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="385" height="42" rx="10" fill="#a855f7" opacity="0.2" />
+    <circle cx="26" cy="21" r="14" fill="#a855f7" />
+    <text x="26" y="26" fill="#FFFFFF" font-size="13" font-weight="900" text-anchor="middle">2</text>
+    <text x="50" y="26" fill="#F0ABFC" font-size="14" font-weight="800">ANÁLISIS DE PERITAJES Y EVIDENCIAS</text>
+
+    <text x="14" y="62" fill="#F0ABFC" font-size="10.5" font-weight="700">HITO DEL CASO PENAL (COPP Art. 223):</text>
+    <text x="14" y="78" fill="#E2E8F0" font-size="10">• Dictámenes periciales (Balística, Forense, Informática).</text>
+
+    <line x1="14" y1="88" x2="371" y2="88" stroke="#581c87" stroke-width="1" />
+
+    <text x="14" y="104" fill="#F0ABFC" font-size="10.5" font-weight="700">🤖 INTERVENCIÓN DE LA IA (JULLBRAIN):</text>
+    <text x="14" y="120" fill="#E2E8F0" font-size="10">• Cruzamiento semántico de declaraciones vs. peritajes.</text>
+    <text x="14" y="134" fill="#E2E8F0" font-size="10">• Detección automática de contradicciones en fechas/folios.</text>
+    <text x="14" y="148" fill="#E2E8F0" font-size="10">• Resumen ejecutivo atómico de evidencia científica.</text>
+
+    <line x1="14" y1="158" x2="371" y2="158" stroke="#581c87" stroke-width="1" />
+
+    <text x="14" y="174" fill="#F0ABFC" font-size="10.5" font-weight="700">⚡ IMPACTO EN LA AGILIZACIÓN DEL CASO:</text>
+    <text x="14" y="190" fill="#CBD5E1" font-size="10">Identifica vacíos de prueba o contradicciones</text>
+    <text x="14" y="204" fill="#CBD5E1" font-size="10">técnicas al instante, evitando sobreseimientos tardíos.</text>
+
+    <rect x="14" y="218" width="357" height="92" rx="6" fill="#581c87" opacity="0.85" />
+    <text x="22" y="235" fill="#F0ABFC" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="250" fill="#FFFFFF" font-size="9.5">El Perito Forense y Fiscal verifican coincidencias.</text>
+    <text x="22" y="265" fill="#F0ABFC" font-size="9.5" font-weight="700">Auditabilidad: Principio Espejo Documental.</text>
+    <text x="22" y="280" fill="#E2E8F0" font-size="9">Roles: R7 (IA Forense) + R3 (Legaltech)</text>
+  </g>
+
+  <!-- PASO 3 -->
+  <g transform="translate(930, 128)">
+    <rect x="0" y="0" width="385" height="325" rx="10" fill="url(#gradStep3)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="385" height="42" rx="10" fill="#FECF06" opacity="0.2" />
+    <circle cx="26" cy="21" r="14" fill="#FECF06" />
+    <text x="26" y="26" fill="#080b12" font-size="13" font-weight="900" text-anchor="middle">3</text>
+    <text x="50" y="26" fill="#FDE047" font-size="14" font-weight="800">FUNDAMENTACIÓN DE LA ACUSACIÓN</text>
+
+    <text x="14" y="62" fill="#FEF08A" font-size="10.5" font-weight="700">HITO DEL CASO PENAL (COPP Art. 308):</text>
+    <text x="14" y="78" fill="#E2E8F0" font-size="10">• Redacción de la Acusación por el Fiscal del MP.</text>
+
+    <line x1="14" y1="88" x2="371" y2="88" stroke="#713f12" stroke-width="1" />
+
+    <text x="14" y="104" fill="#FEF08A" font-size="10.5" font-weight="700">🤖 INTERVENCIÓN DE LA IA (JULLBRAIN):</text>
+    <text x="14" y="120" fill="#E2E8F0" font-size="10">• Búsqueda atómica de tipos penales y agravantes.</text>
+    <text x="14" y="134" fill="#E2E8F0" font-size="10">• Inyección asistida de citas normativas verificadas.</text>
+    <text x="14" y="148" fill="#E2E8F0" font-size="10">• Recuperación de jurisprudencia relevante del TSJ.</text>
+
+    <line x1="14" y1="158" x2="371" y2="158" stroke="#713f12" stroke-width="1" />
+
+    <text x="14" y="174" fill="#FEF08A" font-size="10.5" font-weight="700">⚡ IMPACTO EN LA AGILIZACIÓN DEL CASO:</text>
+    <text x="14" y="190" fill="#CBD5E1" font-size="10">Reduce el tiempo de elaboración de acusación</text>
+    <text x="14" y="204" fill="#CBD5E1" font-size="10">de días a <tspan font-weight="700" fill="#FDE047">minutos</tspan> con fundamentación sólida.</text>
+
+    <rect x="14" y="218" width="357" height="92" rx="6" fill="#713f12" opacity="0.85" />
+    <text x="22" y="235" fill="#FEF08A" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="250" fill="#FFFFFF" font-size="9.5">El Fiscal del MP revisa y firma la acusación.</text>
+    <text x="22" y="265" fill="#FDE047" font-size="9.5" font-weight="700">Auditabilidad: Semáforo Verde (Anclado 100%).</text>
+    <text x="22" y="280" fill="#E2E8F0" font-size="9">Roles: R3 (Legaltech) + R1 (Arquitecto IA)</text>
+  </g>
+
+  <!-- PASO 4 -->
+  <g transform="translate(1390, 128)">
+    <rect x="0" y="0" width="385" height="325" rx="10" fill="url(#gradStep4)" stroke="#00FF41" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="385" height="42" rx="10" fill="#00FF41" opacity="0.2" />
+    <circle cx="26" cy="21" r="14" fill="#00FF41" />
+    <text x="26" y="26" fill="#080b12" font-size="13" font-weight="900" text-anchor="middle">4</text>
+    <text x="50" y="26" fill="#86EFAC" font-size="14" font-weight="800">AUDIENCIA PRELIMINAR Y CONTROL</text>
+
+    <text x="14" y="62" fill="#86EFAC" font-size="10.5" font-weight="700">HITO DEL CASO PENAL (COPP Art. 309):</text>
+    <text x="14" y="78" fill="#E2E8F0" font-size="10">• Depuración de pruebas y control por Juez de Control.</text>
+
+    <line x1="14" y1="88" x2="371" y2="88" stroke="#065f46" stroke-width="1" />
+
+    <text x="14" y="104" fill="#86EFAC" font-size="10.5" font-weight="700">🤖 INTERVENCIÓN DE LA IA (JULLBRAIN):</text>
+    <text x="14" y="120" fill="#E2E8F0" font-size="10">• Doble Validación Cruzada (Regex vs PyMuPDF).</text>
+    <text x="14" y="134" fill="#E2E8F0" font-size="10">• Verificación de ilicitud o nulidades de prueba.</text>
+    <text x="14" y="148" fill="#E2E8F0" font-size="10">• Reporte automático de inconsistencias de folios.</text>
+
+    <line x1="14" y1="158" x2="371" y2="158" stroke="#065f46" stroke-width="1" />
+
+    <text x="14" y="174" fill="#86EFAC" font-size="10.5" font-weight="700">⚡ IMPACTO EN LA AGILIZACIÓN DEL CASO:</text>
+    <text x="14" y="190" fill="#CBD5E1" font-size="10">Previene nulidades en el Juicio Oral detectando</text>
+    <text x="14" y="204" fill="#CBD5E1" font-size="10">vicios de forma o faltas de foliado con error cero.</text>
+
+    <rect x="14" y="218" width="357" height="92" rx="6" fill="#065f46" opacity="0.85" />
+    <text x="22" y="235" fill="#86EFAC" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="250" fill="#FFFFFF" font-size="9.5">El Juez de Control decide admisión o sobreseimiento.</text>
+    <text x="22" y="265" fill="#86EFAC" font-size="9.5" font-weight="700">Auditabilidad: validator.py (Reporte OK/ERROR).</text>
+    <text x="22" y="280" fill="#E2E8F0" font-size="9">Roles: R3 (Legaltech) + R5 (Agile Verification)</text>
+  </g>
+
+  <!-- SECCIÓN 2: SEGUNDAS 4 ETAPAS -->
+  <text x="40" y="476" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">ETAPAS 5 A 8: JUICIO ORAL, REDACCIÓN DE SENTENCIA, RECURSOS Y CÓMPUTO DE PENA</text>
+
+  <!-- FLECHAS CONEXIÓN PASOS 5-8 -->
+  <line x1="435" y1="645" x2="455" y2="645" stroke="#EC4899" stroke-width="3" marker-end="url(#arrowMagenta)" />
+  <line x1="895" y1="645" x2="915" y2="645" stroke="#4589ff" stroke-width="3" marker-end="url(#arrowBlue)" />
+  <line x1="1355" y1="645" x2="1375" y2="645" stroke="#F43F5E" stroke-width="3" stroke-dasharray="6,4" />
+
+  <!-- PASO 5 -->
+  <g transform="translate(40, 488)">
+    <rect x="0" y="0" width="385" height="325" rx="10" fill="url(#gradStep5)" stroke="#EC4899" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="385" height="42" rx="10" fill="#EC4899" opacity="0.2" />
+    <circle cx="26" cy="21" r="14" fill="#EC4899" />
+    <text x="26" y="26" fill="#FFFFFF" font-size="13" font-weight="900" text-anchor="middle">5</text>
+    <text x="50" y="26" fill="#F472B6" font-size="14" font-weight="800">CONSULTA EN AUDIENCIA DE JUICIO</text>
+
+    <text x="14" y="62" fill="#FDA4AF" font-size="10.5" font-weight="700">HITO DEL CASO PENAL (COPP Art. 315):</text>
+    <text x="14" y="78" fill="#E2E8F0" font-size="10">• Debate oral, interrogatorios y evacuación de pruebas.</text>
+
+    <line x1="14" y1="88" x2="371" y2="88" stroke="#831843" stroke-width="1" />
+
+    <text x="14" y="104" fill="#FDA4AF" font-size="10.5" font-weight="700">🤖 INTERVENCIÓN DE LA IA (JULLBRAIN):</text>
+    <text x="14" y="120" fill="#E2E8F0" font-size="10">• Búsqueda vectorial instantánea en audiencia (&lt; 3s).</text>
+    <text x="14" y="134" fill="#E2E8F0" font-size="10">• Ubicación inmediata del folio penal citado por las partes.</text>
+    <text x="14" y="148" fill="#E2E8F0" font-size="10">• Visor dual interactivo con resaltado en PDF original.</text>
+
+    <line x1="14" y1="158" x2="371" y2="158" stroke="#831843" stroke-width="1" />
+
+    <text x="14" y="174" fill="#FDA4AF" font-size="10.5" font-weight="700">⚡ IMPACTO EN LA AGILIZACIÓN DEL CASO:</text>
+    <text x="14" y="190" fill="#CBD5E1" font-size="10">Elimina recesos de audiencia para buscar documentos</text>
+    <text x="14" y="204" fill="#CBD5E1" font-size="10">físicos; resolución inmediata de incidencias.</text>
+
+    <rect x="14" y="218" width="357" height="92" rx="6" fill="#831843" opacity="0.85" />
+    <text x="22" y="235" fill="#F472B6" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="250" fill="#FFFFFF" font-size="9.5">El Juez de Juicio constata la cita en pantalla.</text>
+    <text x="22" y="265" fill="#F472B6" font-size="9.5" font-weight="700">Auditabilidad: Indicador Semáforo en Vivo.</text>
+    <text x="22" y="280" fill="#E2E8F0" font-size="9">Roles: R4 (UX/UI DCU) + R1 (Arquitecto IA)</text>
+  </g>
+
+  <!-- PASO 6 -->
+  <g transform="translate(470, 488)">
+    <rect x="0" y="0" width="385" height="325" rx="10" fill="url(#gradStep6)" stroke="#4589ff" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="385" height="42" rx="10" fill="#4589ff" opacity="0.2" />
+    <circle cx="26" cy="21" r="14" fill="#4589ff" />
+    <text x="26" y="26" fill="#FFFFFF" font-size="13" font-weight="900" text-anchor="middle">6</text>
+    <text x="50" y="26" fill="#93C5FD" font-size="14" font-weight="800">REDACCIÓN PROYECTO SENTENCIA</text>
+
+    <text x="14" y="62" fill="#BFDBFE" font-size="10.5" font-weight="700">HITO DEL CASO PENAL (COPP Art. 346):</text>
+    <text x="14" y="78" fill="#E2E8F0" font-size="10">• Pronunciamiento de la Sentencia (Absolución/Condena).</text>
+
+    <line x1="14" y1="88" x2="371" y2="88" stroke="#1e3a8a" stroke-width="1" />
+
+    <text x="14" y="104" fill="#BFDBFE" font-size="10.5" font-weight="700">🤖 INTERVENCIÓN DE LA IA (JULLBRAIN):</text>
+    <text x="14" y="120" fill="#E2E8F0" font-size="10">• Generación del borrador lógico-jurídico del fallo.</text>
+    <text x="14" y="134" fill="#E2E8F0" font-size="10">• Verificación de coherencia en valoración de pruebas.</text>
+    <text x="14" y="148" fill="#E2E8F0" font-size="10">• Anclaje estricto de artículos normativos venezolanos.</text>
+
+    <line x1="14" y1="158" x2="371" y2="158" stroke="#1e3a8a" stroke-width="1" />
+
+    <text x="14" y="174" fill="#BFDBFE" font-size="10.5" font-weight="700">⚡ IMPACTO EN LA AGILIZACIÓN DEL CASO:</text>
+    <text x="14" y="190" fill="#CBD5E1" font-size="10">Garantiza motivación adecuada y acelera el tipejo</text>
+    <text x="14" y="204" fill="#CBD5E1" font-size="10">del texto definitivo sin riesgo de desanclaje.</text>
+
+    <rect x="14" y="218" width="357" height="92" rx="6" fill="#1e3a8a" opacity="0.85" />
+    <text x="22" y="235" fill="#93C5FD" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="250" fill="#FFFFFF" font-size="9.5">Firma y decisión 100% exclusiva del Juez.</text>
+    <text x="22" y="265" fill="#93C5FD" font-size="9.5" font-weight="700">Principio CNJ 332/2020: La IA asiste, no decide.</text>
+    <text x="22" y="280" fill="#E2E8F0" font-size="9">Roles: R1 (Arquitecto) + R3 (Legaltech)</text>
+  </g>
+
+  <!-- PASO 7 -->
+  <g transform="translate(930, 488)">
+    <rect x="0" y="0" width="385" height="325" rx="10" fill="url(#gradStep7)" stroke="#F43F5E" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="385" height="42" rx="10" fill="#F43F5E" opacity="0.2" />
+    <circle cx="26" cy="21" r="14" fill="#F43F5E" />
+    <text x="26" y="26" fill="#FFFFFF" font-size="13" font-weight="900" text-anchor="middle">7</text>
+    <text x="50" y="26" fill="#FDA4AF" font-size="14" font-weight="800">ANÁLISIS EN CASACIÓN Y RECURSOS</text>
+
+    <text x="14" y="62" fill="#FECDD3" font-size="10.5" font-weight="700">HITO DEL CASO PENAL (COPP Art. 423 / 451):</text>
+    <text x="14" y="78" fill="#E2E8F0" font-size="10">• Apelación o Recurso de Casación ante el TSJ.</text>
+
+    <line x1="14" y1="88" x2="371" y2="88" stroke="#881337" stroke-width="1" />
+
+    <text x="14" y="104" fill="#FECDD3" font-size="10.5" font-weight="700">🤖 INTERVENCIÓN DE LA IA (JULLBRAIN):</text>
+    <text x="14" y="120" fill="#E2E8F0" font-size="10">• Detección automática de inmotivación en la sentencia.</text>
+    <text x="14" y="134" fill="#E2E8F0" font-size="10">• Cotejo comparativo con jurisprudencia del TSJ.</text>
+    <text x="14" y="148" fill="#E2E8F0" font-size="10">• Auditoría Stanford RegLab de desanclaje.</text>
+
+    <line x1="14" y1="158" x2="371" y2="158" stroke="#881337" stroke-width="1" />
+
+    <text x="14" y="174" fill="#FECDD3" font-size="10.5" font-weight="700">⚡ IMPACTO EN LA AGILIZACIÓN DEL CASO:</text>
+    <text x="14" y="190" fill="#CBD5E1" font-size="10">Acelera la admisión/desestimación de recursos</text>
+    <text x="14" y="204" fill="#CBD5E1" font-size="10">al verificar la violación directa de la norma.</text>
+
+    <rect x="14" y="218" width="357" height="92" rx="6" fill="#881337" opacity="0.85" />
+    <text x="22" y="235" fill="#FECDD3" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="250" fill="#FFFFFF" font-size="9.5">Magistrados / Jueces Superiores emiten el fallo.</text>
+    <text x="22" y="265" fill="#FECDD3" font-size="9.5" font-weight="700">Auditabilidad: Cuadro comparativo TSJ.</text>
+    <text x="22" y="280" fill="#E2E8F0" font-size="9">Roles: R3 (Legaltech) + R1 (Arquitecto IA)</text>
+  </g>
+
+  <!-- PASO 8 -->
+  <g transform="translate(1390, 488)">
+    <rect x="0" y="0" width="385" height="325" rx="10" fill="url(#gradStep8)" stroke="#10B981" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="385" height="42" rx="10" fill="#10B981" opacity="0.2" />
+    <circle cx="26" cy="21" r="14" fill="#10B981" />
+    <text x="26" y="26" fill="#080b12" font-size="13" font-weight="900" text-anchor="middle">8</text>
+    <text x="50" y="26" fill="#6EE7B7" font-size="14" font-weight="800">CÓMPUTO Y BENEFICIOS PENALES</text>
+
+    <text x="14" y="62" fill="#A7F3D0" font-size="10.5" font-weight="700">HITO DEL CASO PENAL (COPP Art. 471 / 501):</text>
+    <text x="14" y="78" fill="#E2E8F0" font-size="10">• Ejecución de sentencia y cómputo ante Juez de Ejecución.</text>
+
+    <line x1="14" y1="88" x2="371" y2="88" stroke="#14532d" stroke-width="1" />
+
+    <text x="14" y="104" fill="#A7F3D0" font-size="10.5" font-weight="700">🤖 INTERVENCIÓN DE LA IA (JULLBRAIN):</text>
+    <text x="14" y="120" fill="#E2E8F0" font-size="10">• Cómputo automatizado auditado de física pena cumplida.</text>
+    <text x="14" y="134" fill="#E2E8F0" font-size="10">• Alertas RAG de vencimiento de lapsos para beneficios.</text>
+    <text x="14" y="148" fill="#E2E8F0" font-size="10">• Sellado definitivo del expediente procesal en Hash.</text>
+
+    <line x1="14" y1="158" x2="371" y2="158" stroke="#14532d" stroke-width="1" />
+
+    <text x="14" y="174" fill="#A7F3D0" font-size="10.5" font-weight="700">⚡ IMPACTO EN LA AGILIZACIÓN DEL CASO:</text>
+    <text x="14" y="190" fill="#CBD5E1" font-size="10">Previene la reclusión indebida por retraso administrativo</text>
+    <text x="14" y="204" fill="#CBD5E1" font-size="10">en el cálculo de redenciones de pena.</text>
+
+    <rect x="14" y="218" width="357" height="92" rx="6" fill="#14532d" opacity="0.85" />
+    <text x="22" y="235" fill="#A7F3D0" font-size="10" font-weight="700">🛡️ Control Humano (Human-in-the-Loop):</text>
+    <text x="22" y="250" fill="#FFFFFF" font-size="9.5">El Juez de Ejecución firma el Auto de Cómputo.</text>
+    <text x="22" y="265" fill="#A7F3D0" font-size="9.5" font-weight="700">Auditabilidad: Certificado de Cómputo Trazable.</text>
+    <text x="22" y="280" fill="#E2E8F0" font-size="9">Roles: R2 (Fullstack) + R7 (IA Forense)</text>
+  </g>
+
+
+  <!-- SECCIÓN 3: CONTROL TRANSVERSAL -->
+  <text x="40" y="835" fill="#38BDF8" font-size="13" font-weight="800" letter-spacing="1">RESUMEN DE CAPA DE CONTROL TRANSVERSAL: CÓMO SE LOGRA EL CONTROL TOTAL SIN ALUCINACIONES</text>
+
+  <g transform="translate(40, 850)">
+    <rect x="0" y="0" width="1840" height="195" rx="12" fill="url(#gradCardDark)" stroke="#0f62fe" stroke-width="1.5" filter="url(#shadow)" />
+    <rect x="0" y="0" width="1840" height="35" rx="12" fill="#0f62fe" />
+    <text x="20" y="22" fill="#FFFFFF" font-size="13" font-weight="800">⚙️ MECANISMOS TRANSVERSALES DE SEGURIDAD, PRECISIÓN Y TRANSPARENCIA EN JULLBRAIN</text>
+    <text x="1820" y="22" fill="#93c5fd" font-size="11" font-weight="700" text-anchor="end">ESTÁNDARES ISO/IEC 42001, 27037 Y REGLA DE ORO DEL PROYECTO</text>
+
+    <g transform="translate(20, 48)">
+      <!-- GARANTÍA 1 -->
+      <rect x="0" y="0" width="580" height="132" rx="8" fill="#032b45" stroke="#38bdf8" stroke-width="1" />
+      <text x="15" y="22" fill="#38bdf8" font-size="11.5" font-weight="800">1. SEMÁFORO DE CONFIANZA VISUAL (LLM-AS-A-JUDGE)</text>
+      
+      <text x="15" y="42" fill="#E2E8F0" font-size="9.5">• <tspan font-weight="700" fill="#34D399">🟢 VERDE (Score &gt; 90%):</tspan> Cita legal totalmente verificada en corpus.</text>
+      <text x="25" y="54" fill="#E2E8F0" font-size="9.5">Copia e inyección directa en el borrador.</text>
+
+      <text x="15" y="70" fill="#E2E8F0" font-size="9.5">• <tspan font-weight="700" fill="#FBBF24">🟡 ÁMBAR (Score 70%-89%):</tspan> Ambigüedad o divergencia jurisprudencial.</text>
+      <text x="25" y="82" fill="#E2E8F0" font-size="9.5">Obliga a auditar el contexto original en el visor dual PDF.</text>
+
+      <text x="15" y="98" fill="#E2E8F0" font-size="9.5">• <tspan font-weight="700" fill="#FCA5A5">🔴 ROJO (Desanclado):</tspan> Sin sustento en el expediente. Bloqueo automático.</text>
+      
+      <text x="15" y="118" fill="#7DD3FC" font-size="9" font-weight="700">Evita que afirmaciones no verificables ingresen a la sentencia penal.</text>
+
+      <!-- GARANTÍA 2 -->
+      <rect x="605" y="0" width="580" height="132" rx="8" fill="#3b0764" stroke="#a855f7" stroke-width="1" />
+      <text x="15" y="22" fill="#F0ABFC" font-size="11.5" font-weight="800">2. CADENA DE CUSTODIA DIGITAL &amp; DOBLE VALIDACIÓN (R7)</text>
+      
+      <text x="15" y="42" fill="#E2E8F0" font-size="9.5">• <tspan font-weight="700" fill="#F0ABFC">Hash SHA-256 Imputable:</tspan> Certifica la integridad inalterada del acta.</text>
+      <text x="25" y="54" fill="#E2E8F0" font-size="9.5">Garantiza inalterabilidad probatoria desde la ingesta.</text>
+
+      <text x="15" y="70" fill="#E2E8F0" font-size="9.5">• <tspan font-weight="700" fill="#F0ABFC">Doble Validación Cruzada:</tspan> Regex legalizer vs extraction PyMuPDF.</text>
+      <text x="25" y="82" fill="#E2E8F0" font-size="9.5">Garantiza Error Cero en conteo de folios y artículos.</text>
+
+      <text x="15" y="98" fill="#E2E8F0" font-size="9.5">• <tspan font-weight="700" fill="#F0ABFC">Alerta de Foliatura:</tspan> Reporta saltos de folio o fechas anómalas.</text>
+
+      <text x="15" y="118" fill="#F0ABFC" font-size="9" font-weight="700">Asegura la admisibilidad probatoria bajo norma ISO/IEC 27037.</text>
+
+      <!-- GARANTÍA 3 -->
+      <rect x="1210" y="0" width="590" height="132" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="1" />
+      <text x="15" y="22" fill="#34D399" font-size="11.5" font-weight="800">3. ENTORNO ON-PREMISE AIR-GAPPED &amp; CERO INTERNET</text>
+      
+      <text x="15" y="42" fill="#E2E8F0" font-size="9.5">• <tspan font-weight="700" fill="#34D399">Modelos Locales Granite:</tspan> Granite 3B/8B/30B ejecutados en servidores.</text>
+      <text x="25" y="54" fill="#E2E8F0" font-size="9.5">Operatividad 100% interna sin conexión externa.</text>
+
+      <text x="15" y="70" fill="#E2E8F0" font-size="9.5">• <tspan font-weight="700" fill="#34D399">Privacidad Absoluta:</tspan> Ningún dato del expediente sale a la nube.</text>
+
+      <text x="15" y="86" fill="#E2E8F0" font-size="9.5">• <tspan font-weight="700" fill="#34D399">Garantía Constitucional:</tspan> Resguardo del Secreto de Sumario.</text>
+
+      <text x="15" y="118" fill="#A7F3D0" font-size="9" font-weight="700">Cumplimiento pleno con la Ley de Infogobierno y Decreto Ley sobre Mensajes.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER BAR -->
+  <rect x="0" y="1055" width="1920" height="25" fill="#090d16" />
+  <line x1="0" y1="1055" x2="1920" y2="1055" stroke="#1e293b" stroke-width="1" />
+  <text x="40" y="1072" fill="#64748B" font-size="11" font-weight="500">JullBrain Legal-RAG Framework © 2026 — Intervención de IA en la Arquitectura del Juicio Penal Venezolano</text>
+  <text x="1880" y="1072" fill="#64748B" font-size="11" font-weight="500" text-anchor="end">Modelos Granite 3B/8B/30B | IBM Docling | RAGFlow Vector DB | ISO 27037 &amp; ISO 42001</text>
+
+</svg>
