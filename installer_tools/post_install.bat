@@ -93,7 +93,7 @@ if %errorlevel% neq 0 (
 echo.
 echo =========================================================
 echo  Instalacion completada exitosamente!
-echo  Ejecute iniciar_conversion.bat para comenzar.
+echo  Ejecute orquestador_JullBrain.bat para comenzar.
 echo =========================================================
 echo.
 echo [%DATE% %TIME%] === INSTALACION COMPLETADA === >> "%LOG%"

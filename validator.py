@@ -10,20 +10,32 @@ Incluye doble validación cruzada contra el PDF original (PyMuPDF).
 Autor: Jull Ortiz - Copyright (c) 2026 Apache License 2.0
 """
 
+import sys
 import re
 import logging
 from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Optional
 
+# Reconfigurar salida estándar para soportar caracteres UTF-8 en consola Windows
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
+if hasattr(sys.stderr, 'reconfigure'):
+    try:
+        sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
+
+logger = logging.getLogger("validator")
+
 try:
     from granite_guardian_guardrail import GraniteGuardianAuditor, GuardianAuditResult
     GUARDIAN_AVAILABLE = True
 except ImportError:
     GUARDIAN_AVAILABLE = False
-
-
-logger = logging.getLogger("validator")
 
 # Minimo de caracteres para considerar un articulo valido
 MIN_ARTICLE_CHARS = 50
@@ -321,7 +333,7 @@ def validate_directory(md_dir: str) -> list[ValidationReport]:
     reports = []
     md_path = Path(md_dir)
 
-    for md_file in sorted(md_path.glob("*.md")):
+    for md_file in sorted(md_path.rglob("*.md")):
         report = validate_md_file(str(md_file))
         reports.append(report)
 
@@ -331,7 +343,7 @@ def validate_directory(md_dir: str) -> list[ValidationReport]:
 def print_validation_summary(reports: list[ValidationReport]):
     """Imprime un resumen consolidado de las validaciones."""
     if RICH_AVAILABLE:
-        console = Console()
+        console = Console(force_terminal=True, legacy_windows=False)
         table = Table(title="JullBrain — Reporte de Validación de Normativas RAG", show_lines=True, box=box.MINIMAL_DOUBLE_HEAD)
 
         table.add_column("Documento", style="cyan", max_width=35)
@@ -422,10 +434,13 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
     parser = argparse.ArgumentParser(description="validator - Validador de integridad de Normativas RAG")
-    parser.add_argument("path", help="Archivo .md o directorio con archivos .md")
+    parser.add_argument("path", nargs="?", default="RAG/Informacion_docling_rag", help="Archivo .md o directorio con archivos .md (por defecto: RAG/Informacion_docling_rag)")
     args = parser.parse_args()
 
     target = Path(args.path)
+    if not target.exists() and Path("normativas_rag").exists():
+        target = Path("normativas_rag")
+
     if target.is_dir():
         reports = validate_directory(str(target))
     elif target.is_file():

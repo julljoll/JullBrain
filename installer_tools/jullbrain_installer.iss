@@ -66,7 +66,7 @@ Source: "..\chunker.py";                DestDir: "{app}"; Flags: ignoreversion
 Source: "..\jullbrain_icon_generator.py";  DestDir: "{app}"; Flags: ignoreversion
 
 ; --- Scripts de inicio ---
-Source: "..\iniciar_conversion.bat";    DestDir: "{app}"; Flags: ignoreversion
+Source: "..\orquestador_JullBrain.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "post_install.bat";             DestDir: "{app}"; Flags: ignoreversion deleteafterinstall
 
 ; --- Iconos y recursos graficos ---

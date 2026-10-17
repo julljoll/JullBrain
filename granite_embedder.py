@@ -22,6 +22,19 @@ Autor: JullBrain — Arquitecto de Datos con IA (R1/R2)
 """
 
 from __future__ import annotations
+import sys
+
+# Reconfigurar salida estándar para UTF-8 en Windows
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
+if hasattr(sys.stderr, 'reconfigure'):
+    try:
+        sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
 
 # ── Forzar descarga HTTP estándar (deshabilita protocolo Xet de HuggingFace)
 # Necesario en Windows con políticas de Control de Aplicaciones que bloquean
@@ -425,4 +438,10 @@ if __name__ == "__main__":
         print(f"Archivo de salida generado: {out}")
 
     else:
-        parser.print_help()
+        print("[INIT] 🚀 Verificando motor de embeddings IBM Granite R2...")
+        health = embedder.validate_model_health()
+        print(json.dumps(health, indent=2, ensure_ascii=False))
+        if health.get("status") == "ok":
+            print(f"[OK] ✅ Modelo activo en dispositivo: {health.get('device')}, dimensión: {health.get('dim')}")
+        else:
+            print(f"[ERROR] ❌ Modelo no pudo inicializarse: {health.get('error')}")

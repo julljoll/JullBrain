@@ -1,10 +1,20 @@
 @echo off
 chcp 65001 >nul 2>nul
 cd /d "%~dp0"
-title JullBrain - Orquestador Legal-RAG & Centro de Control Web
+title JullBrain - Orquestador Legal-RAG y Centro de Control Web
 
-:: --- Definir colores exactos ANSI ---
-set "ESC="
+:: --- 1. Auto-Elevacion de Privilegios (si se ejecuta directamente) ---
+if not "%~1"=="" goto SKIP_ELEVATION
+net session >nul 2>&1
+if %errorlevel% neq 0 (
+    powershell -Command "Start-Process '%~f0' -Verb RunAs"
+    exit /b
+)
+:SKIP_ELEVATION
+
+:: --- 2. Extraer caracter ESC de forma nativa e inmune a codificaciones ---
+for /F "delims=#" %%a in ('"prompt #$E# & for %%b in (1) do rem"') do set "ESC=%%a"
+
 set "C_BG=%ESC%[48;2;18;22;26m"
 set "C_H1=%ESC%[38;2;254;207;6m"
 set "C_TXT=%ESC%[38;2;0;255;65m"
@@ -43,11 +53,19 @@ echo %C_TXT%   Web          : http://www.sha256.us/%C_R%
 echo %C_H1%  =========================================================================================%C_R%
 echo.
 
-:: --- Activar Entorno Virtual ---
+:: --- 3. Verificacion y Activacion del Entorno Virtual ---
 if not exist "docling_env\Scripts\activate.bat" (
     echo %C_ERR%  [ERROR] Entorno virtual docling_env no encontrado.%C_R%
-    echo %C_TXT%  Creando entorno virtual local...%C_R%
-    python -m venv docling_env
+    echo %C_TXT%  Buscando interprete Python en el sistema...%C_R%
+    set "PY_CMD=python"
+    py -3.12 --version >nul 2>&1 && set "PY_CMD=py -3.12"
+    echo %C_TXT%  Creando entorno virtual local con %PY_CMD%...%C_R%
+    %PY_CMD% -m venv docling_env
+    if errorlevel 1 (
+        echo %C_ERR%  [ERROR] No se pudo crear el entorno virtual. Instale Python 3.12+ o verifique PATH.%C_R%
+        pause
+        exit /b 1
+    )
 )
 
 echo %C_H1%  [INIT] Activando entorno virtual JullBrain...%C_R%
@@ -57,8 +75,19 @@ if errorlevel 1 (
     pause
     exit /b 1
 )
+:: Restaurar UTF-8 inmediatamente tras salir de activate.bat
+chcp 65001 >nul 2>nul
 echo %C_OK%  [OK] Entorno virtual activado.%C_R%
 echo.
+
+:: Si se pasa un argumento por linea de comandos, saltar directo a la accion
+if /i "%~1"=="--web" goto LAUNCH_WEB
+if /i "%~1"=="--full" goto EXEC_FULL
+if /i "%~1"=="--qa" goto EXEC_QA
+if /i "%~1"=="--post" goto EXEC_POST
+if /i "%~1"=="--embed" goto EXEC_EMBED
+if /i "%~1"=="--test" goto EXEC_TEST
+if /i "%~1"=="--clean" goto EXEC_CLEAN
 
 :MENU
 echo %C_H1%  SELECCIONE UNA OPCION DEL CENTRO DE OPERACIONES:%C_R%
@@ -67,14 +96,16 @@ echo     %C_OK%[1] Iniciar Centro de Control Web (HTML5/CSS3) - http://localhost
 echo     %C_TXT%[2] Conversion Completa con IBM Docling (Ingesta + Legalizer + Metadata + QA)%C_R%
 echo     %C_TXT%[3] Verificacion QA Cruzada (Validador Cruzado PDF vs MD)%C_R%
 echo     %C_TXT%[4] Solo Post-Procesado Legal (Legalizer + Frontmatter YAML)%C_R%
-echo     %C_TXT%[5] Generar Embeddings Semanticos con Granite R2 (Vectores 768-dim)%C_R%
+echo     %C_TXT%[5] Generar / Verificar Embeddings Semanticos con Granite R2 (Vectores 768-dim)%C_R%
 echo     %C_TXT%[6] Ejecutar Suite de QA Testing Offline (Air-Gapped)%C_R%
 echo     %C_TXT%[7] Purgar Cache Temporal y Resetear Memoria%C_R%
 echo     %C_TXT%[0] Salir%C_R%
 echo.
 echo %C_H1%  =========================================================================================%C_R%
+set "OPTION="
 set /p OPTION="  Ingrese el numero de la opcion deseada [0-7]: "
 
+if not defined OPTION goto MENU
 if "%OPTION%"=="1" goto LAUNCH_WEB
 if "%OPTION%"=="2" goto EXEC_FULL
 if "%OPTION%"=="3" goto EXEC_QA
@@ -106,7 +137,7 @@ goto MENU
 :EXEC_QA
 echo.
 echo %C_OK%  [INIT] Ejecutando Validador QA de Integridad Cruzada...%C_R%
-python validator.py
+python validator.py RAG\Informacion_docling_rag
 pause
 goto MENU
 
@@ -119,7 +150,7 @@ goto MENU
 
 :EXEC_EMBED
 echo.
-echo %C_OK%  [INIT] Generando Embeddings con Granite R2...%C_R%
+echo %C_OK%  [INIT] Generando / Verificando Embeddings con Granite R2...%C_R%
 python granite_embedder.py
 pause
 goto MENU

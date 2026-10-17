@@ -95,7 +95,7 @@ def run_pipeline_action_task(action: str):
     if action == "convert":
         cmd = [python_exe, "convert_normativas.py"]
     elif action == "qa_validate":
-        cmd = [python_exe, "validator.py"]
+        cmd = [python_exe, "validator.py", "RAG/Informacion_docling_rag"]
     elif action == "postprocess":
         cmd = [python_exe, "convert_normativas.py", "--post-process-only"]
     elif action == "embed":
