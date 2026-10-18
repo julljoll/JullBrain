@@ -1,5 +1,5 @@
 <svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', sans-serif; background-color: #080b12;">
-  <title>JullBrain — Stack Tecnológico por Proceso (High-Level Tech Stack Map)</title>
+  <title>JullBrain V3.0 — Stack Tecnológico por Proceso (High-Level Tech Stack Map)</title>
 
   <defs>
     <linearGradient id="gradHeader" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -35,84 +35,84 @@
 
   <!-- HEADER BAR -->
   <rect x="40" y="30" width="1840" height="90" rx="14" fill="url(#gradHeader)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
-  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">JULLBRAIN LEGAL-RAG — STACK TECNOLÓGICO COMPLETO POR PROCESO</text>
-  <text x="70" y="94" font-size="14" fill="#00FF41">Mapa Visual Exclusivo de Tecnologías, Librerías, Marcos, Estándares y Modelos de IA Utilizados en Cada Etapa del Sistema</text>
+  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">JULLBRAIN LEGAL-RAG — STACK TECNOLÓGICO COMPLETO POR PROCESO V3.0</text>
+  <text x="70" y="94" font-size="14" fill="#00FF41">Mapa Visual Enterprise de Tecnologías, Librerías, Marcos, Estándares y Modelos de IA Utilizados en Cada Etapa del Sistema</text>
 
   <!-- Pill Diapositiva -->
   <rect x="1650" y="52" width="200" height="46" rx="23" fill="#241e07" stroke="#FECF06" stroke-width="1.5" />
-  <text x="1750" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Diagrama Final</text>
+  <text x="1750" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Diagrama V3.0</text>
 
   <!-- DIAGRAMA CANVAS PRINCIPAL -->
   <rect x="40" y="145" width="1840" height="880" rx="16" fill="#0b0e17" stroke="#253246" stroke-width="2" filter="url(#shadow)"/>
 
   <!-- GRID DE PROCESOS TECNOLÓGICOS (4 COLUMNAS x 2 FILAS) -->
 
-  <!-- PROCESO 1: Runtime & Entorno OS -->
+  <!-- PROCESO 1: Runtime & Entorno OS Dual -->
   <g transform="translate(70, 180)" filter="url(#shadow)">
     <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#FECF06" stroke-width="2"/>
     <rect x="15" y="15" width="390" height="35" rx="8" fill="#382d03"/>
-    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">1. RUNTIME &amp; SISTEMA OPERATIVO</text>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">1. RUNTIME &amp; SISTEMA OPERATIVO DUAL</text>
 
     <!-- Lista de Tecnologías -->
     <g transform="translate(30, 70)">
       <rect width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">Windows PowerShell / CMD</text>
-      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Scripting .BAT</text>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">Windows CMD / PowerShell</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">orquestador_JullBrain.bat</text>
 
       <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
       <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">Python 3.12 (Nativo)</text>
-      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Core Runtime</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">docling_env Aislado</text>
 
       <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">docling_env (Virtual Environment)</text>
-      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">venv Aislado</text>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">Google Colab (Linux Ubuntu)</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">NVIDIA T4 / A100 GPU</text>
 
       <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Windows win32com</text>
-      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Fallback .doc ➔ .docx</text>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">GitHub Actions CI/CD</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">colab_sync.yml Auto-Sync</text>
 
       <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
       <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Threading &amp; Subprocess Python</text>
       <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Orquestación Multihilo</text>
 
       <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Garbage Collector (gc)</text>
-      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Gestión de RAM</text>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Garbage Collector (gc) + Trap</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">cleanup.py Handler</text>
     </g>
   </g>
 
   <path d="M 490 365 L 530 365" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
 
-  <!-- PROCESO 2: Frontend & UI Dashboard -->
+  <!-- PROCESO 2: Frontend & Centro de Control Web -->
   <g transform="translate(530, 180)" filter="url(#shadow)">
     <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#00FF41" stroke-width="2"/>
     <rect x="15" y="15" width="390" height="35" rx="8" fill="#092415"/>
-    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00FF41">2. FRONTEND &amp; DASHBOARD VISUAL</text>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00FF41">2. FRONTEND &amp; CENTRO DE CONTROL WEB</text>
 
     <g transform="translate(30, 70)">
       <rect width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">Plotly Dash 2.14+</text>
-      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Framework Web Reactive</text>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">FastAPI 0.115+ REST Server</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">app.py Puerto 8050</text>
 
       <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">Dash Bootstrap Components (DBC)</text>
-      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">UI Responsive Layouts</text>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">HTML5 &amp; CSS3 Cyber-Legal</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">UI Nativa Sin Dependencias</text>
 
       <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">Ace Code Editor</text>
-      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Editor Markdown/YAML</text>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">WebSockets Live Streaming</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Logs en Tiempo Real</text>
 
       <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Rich 13.x CLI Progress</text>
-      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Barra Progreso Terminal</text>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Web Crypto API (SHA-256)</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Hash Previo a Subida</text>
 
       <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Tema Oscuro Cyber-Legal HSL</text>
-      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Sistema de Diseño UX/UI</text>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Drag &amp; Drop Upload Engine</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Carga Fluida de Archivos</text>
 
       <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Servidor Local Flask/Werkzeug</text>
-      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">HTTP Server Puerto 8050</text>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Asistente RAG Interactivo</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Chat Jurídico en Vivo</text>
     </g>
   </g>
 
@@ -153,7 +153,7 @@
 
   <path d="M 1410 365 L 1450 365" fill="none" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
 
-  <!-- PROCESO 4: Legalizer & Validaciones -->
+  <!-- PROCESO 4: Legalizer & Validaciones Forenses -->
   <g transform="translate(1450, 180)" filter="url(#shadow)">
     <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#FECF06" stroke-width="2"/>
     <rect x="15" y="15" width="390" height="35" rx="8" fill="#382d03"/>
@@ -161,28 +161,28 @@
 
     <g transform="translate(30, 70)">
       <rect width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">Python Regular Expressions (re)</text>
-      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Regex Atómico H2-H6</text>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">legalizer.py (Regex Atómico)</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">TÍTULO › CAPÍTULO › Art</text>
 
       <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">PyYAML</text>
-      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Inyección Frontmatter</text>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">metadata_extractor.py (YAML)</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Gaceta Oficial &amp; Fecha</text>
 
       <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">hashlib (SHA-256)</text>
-      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Huella Criptográfica</text>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">audit_logger.py (SHA-256)</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">audit_trail.jsonl ISO 27037</text>
 
       <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Structlog / Logging</text>
-      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Audit Trail Logs</text>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Doble Validación Cruzada Engine</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Principio 10 Error Cero</text>
 
       <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Doble Validación Cruzada Engine</text>
-      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Principio 10 (Regex vs PyMuPDF)</text>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">pipeline_config.json</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Persistencia de Ajustes</text>
 
       <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">pipeline_config.json</text>
-      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Persistencia de Parámetros</text>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">colab_config.json</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Parámetros Google Drive GPU</text>
     </g>
   </g>
 
@@ -199,7 +199,7 @@
 
     <g transform="translate(30, 70)">
       <rect width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
-      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">IBM Granite Embedding Multilingual R2</text>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">Granite Embedding Multilingual R2</text>
       <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Modelo 768-Dim</text>
 
       <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
@@ -207,8 +207,8 @@
       <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Backend Local Python</text>
 
       <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
-      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">PyTorch 2.1+cpu</text>
-      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Motor Cómputo CPU</text>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">PyTorch 2.1+ (CPU / CUDA)</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Motor Cómputo Dual</text>
 
       <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
       <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">HuggingFace Transformers</text>
@@ -219,74 +219,74 @@
       <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Backend Alternativo</text>
 
       <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1"/>
-      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Instrucciones CPU AVX-512 / AVX2</text>
-      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Aceleración Harware</text>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Espejo Documental Forense R7</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Sin Mutación de Chunks</text>
     </g>
   </g>
 
   <path d="M 490 795 L 530 795" fill="none" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
 
-  <!-- PROCESO 6: RAGFlow Vector Engine -->
+  <!-- PROCESO 6: Indexación Híbrida & Grafos RAG -->
   <g transform="translate(530, 610)" filter="url(#shadow)">
     <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#FECF06" stroke-width="2"/>
     <rect x="15" y="15" width="390" height="35" rx="8" fill="#382d03"/>
-    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">6. BASE VECTORIAL RAGFLOW</text>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">6. INDEXACIÓN HÍBRIDA &amp; GRAFOS</text>
 
     <g transform="translate(30, 70)">
       <rect width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">RAGFlow Vector Engine</text>
-      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Motor RAG Nativo</text>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">opensearch_indexer.py</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Indexador Híbrido Avanzado</text>
 
       <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">Docker Container (Air-Gapped)</text>
-      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Aislamiento de Red</text>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">BM25 (BM25Okapi Engine)</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Búsqueda Léxica Legal</text>
 
       <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">BM25 (BM25Okapi Engine)</text>
-      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Búsqueda Léxica</text>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">Cosine Vector Similarity</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Vectores Granite 768-d</text>
 
       <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Cosine Distance Similarity</text>
-      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Búsqueda Vectorial</text>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Reciprocal Rank Fusion (RRF)</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Fusión Óptima de Listas</text>
 
       <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Reciprocal Rank Fusion (RRF)</text>
-      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Fusión de Listas</text>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">lightrag_integration.py</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Grafo Conocimiento Dual</text>
 
       <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">DeepDoc Vector Parser</text>
-      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Ingesta Chunks JSON</text>
+      <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">RAGFlow / pgvector</text>
+      <text x="345" y="275" text-anchor="end" font-size="10" fill="#a0aec0">Bases de Datos Vectoriales</text>
     </g>
   </g>
 
   <path d="M 950 795 L 990 795" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
 
-  <!-- PROCESO 7: Inferencia LLM Granite -->
+  <!-- PROCESO 7: Guardrails & Inferencia LLM Granite -->
   <g transform="translate(990, 610)" filter="url(#shadow)">
     <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#00FF41" stroke-width="2"/>
     <rect x="15" y="15" width="390" height="35" rx="8" fill="#092415"/>
-    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00FF41">7. INFERENCIA LLM &amp; EVALUACIÓN</text>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00FF41">7. GUARDRAILS &amp; INFERENCIA LLM</text>
 
     <g transform="translate(30, 70)">
       <rect width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">IBM Granite 3.1:8b / 4.1:8b Instruct</text>
-      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Modelo de Inferencia</text>
+      <text x="15" y="25" font-size="12" font-weight="bold" fill="#00FF41">IBM Granite 3.3 8B / 4.1</text>
+      <text x="345" y="25" text-anchor="end" font-size="10" fill="#a0aec0">Inferencia Jurídica T=0.15</text>
 
       <rect y="50" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">llama.cpp / Ollama Server</text>
-      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Motor de Ejecución GGUF</text>
+      <text x="15" y="75" font-size="12" font-weight="bold" fill="#00FF41">IBM Granite Guardian 3.3 8B</text>
+      <text x="345" y="75" text-anchor="end" font-size="10" fill="#a0aec0">Guardrails Anti-Injection</text>
 
       <rect y="100" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">Stanford RegLab Metrics</text>
-      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Auditoría Alucinaciones</text>
+      <text x="15" y="125" font-size="12" font-weight="bold" fill="#00FF41">Score Cuantitativo de Riesgo</text>
+      <text x="345" y="125" text-anchor="end" font-size="10" fill="#a0aec0">Auditoría Groundedness</text>
 
       <rect y="150" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">Northwestern LLM-as-a-Judge</text>
-      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Auditoría de Respuestas</text>
+      <text x="15" y="175" font-size="12" font-weight="bold" fill="#00FF41">llama.cpp / Ollama / Colab</text>
+      <text x="345" y="175" text-anchor="end" font-size="10" fill="#a0aec0">Motor de Ejecución GGUF</text>
 
       <rect y="200" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
-      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Semáforo de Confianza Jurídica UI</text>
-      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">Indicador de Anclaje</text>
+      <text x="15" y="225" font-size="12" font-weight="bold" fill="#00FF41">Semáforo de Confianza UI</text>
+      <text x="345" y="225" text-anchor="end" font-size="10" fill="#a0aec0">🟢 Anclado / 🟡 Rev / 🔴 Des</text>
 
       <rect y="250" width="360" height="40" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
       <text x="15" y="275" font-size="12" font-weight="bold" fill="#00FF41">Gobernanza CNJ N° 332/2020</text>
@@ -300,7 +300,7 @@
   <g transform="translate(1450, 610)" filter="url(#shadow)">
     <rect width="420" height="370" rx="14" fill="url(#gradTechBox)" stroke="#FECF06" stroke-width="2"/>
     <rect x="15" y="15" width="390" height="35" rx="8" fill="#382d03"/>
-    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">8. ESTÁNDARES &amp; NORMATIVA</text>
+    <text x="210" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">8. ESTÁNDARES &amp; NORMATIVA V3.0</text>
 
     <g transform="translate(30, 70)">
       <rect width="360" height="40" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
@@ -330,5 +330,5 @@
   </g>
 
   <!-- FOOTER -->
-  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Tech Stack Spec V-2.1 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped Security Architecture</text>
+  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Tech Stack Spec V3.0 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped &amp; Colab Dual Architecture</text>
 </svg>

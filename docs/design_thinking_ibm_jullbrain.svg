@@ -207,7 +207,7 @@
     <text x="56" y="31" fill="#FDE047" font-size="16" font-weight="800">IDEAR (Ideate)</text>
 
     <!-- Content -->
-    <text x="16" y="75" fill="#FEF08A" font-size="11" font-weight="700">DISEÑO ARQUITECTÓNICO & UX:</text>
+    <text x="16" y="75" fill="#FEF08A" font-size="11" font-weight="700">DISEÑO ARQUITECTÓNICO &amp; UX:</text>
     <text x="16" y="93" fill="#E2E8F0" font-size="11" font-weight="400">Co-diseño de componentes RAG para auditabilidad</text>
     <text x="16" y="108" fill="#E2E8F0" font-size="11" font-weight="400">total y cero riesgo de alucinación.</text>
 
@@ -241,7 +241,7 @@
     <text x="56" y="31" fill="#93C5FD" font-size="16" font-weight="800">PROTOTIPAR (Prototype)</text>
 
     <!-- Content -->
-    <text x="16" y="75" fill="#BFDBFE" font-size="11" font-weight="700">CONSTRUCCIÓN PIPELINE & APP:</text>
+    <text x="16" y="75" fill="#BFDBFE" font-size="11" font-weight="700">CONSTRUCCIÓN PIPELINE &amp; APP:</text>
     <text x="16" y="93" fill="#E2E8F0" font-size="11" font-weight="400">Implementación de prototipos funcionales</text>
     <text x="16" y="108" fill="#E2E8F0" font-size="11" font-weight="400">on-premise (Air-gapped) en Python y Dash.</text>
 

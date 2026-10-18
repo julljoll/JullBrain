@@ -35,7 +35,7 @@
 
   <!-- HEADER BAR -->
   <rect x="40" y="30" width="1840" height="90" rx="14" fill="url(#gradHeader)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
-  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">CAPA 4: MOTOR VECTORIAL IBM GRANITE EMBEDDING R2 &amp; CADENA DE CUSTODIA</text>
+  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">JULLBRAIN LEGAL-RAG V3.0 — CAPA 4: MOTOR VECTORIAL IBM GRANITE EMBEDDING R2</text>
   <text x="70" y="94" font-size="14" fill="#00FF41">Embeddings Semánticos de 768 Dimensiones, Principio Forense R7 (Espejo Documental) y Auditoría ISO 27037/27042</text>
 
   <!-- Pill Diapositiva -->
@@ -161,5 +161,5 @@
   </g>
 
   <!-- FOOTER -->
-  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Architecture Spec V-2.1 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped Security Architecture</text>
+  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Architecture Spec V3.0 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped &amp; Colab Dual Architecture</text>
 </svg>

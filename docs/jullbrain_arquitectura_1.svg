@@ -1,5 +1,5 @@
 <svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', sans-serif; background-color: #080b12;">
-  <title>JullBrain — Diapositiva 1: Visión General &amp; Mapa Ejecutivo de Capas</title>
+  <title>JullBrain V3.0 — Diapositiva 1: Visión General &amp; Mapa Ejecutivo de Capas</title>
 
   <defs>
     <!-- Gradientes de Fondo y Tarjetas -->
@@ -46,52 +46,46 @@
     </marker>
   </defs>
 
-  <!-- ═══════════════════════════════════════════════════════════════════ -->
-  <!-- HEADER BAR                                                          -->
-  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- HEADER BAR -->
   <rect x="40" y="30" width="1840" height="90" rx="14" fill="url(#gradHeader)" stroke="#FECF06" stroke-width="2" filter="url(#shadow)" />
   
-  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">JULLBRAIN LEGAL-RAG — V-2.1</text>
-  <text x="70" y="94" font-size="14" fill="#00FF41">Visión General y Mapa Ejecutivo de Capas del Pipeline Air-Gapped</text>
+  <text x="70" y="68" font-size="24" font-weight="bold" fill="#FECF06" letter-spacing="0.5">JULLBRAIN LEGAL-RAG — V3.0 ENTERPRISE</text>
+  <text x="70" y="94" font-size="14" fill="#00FF41">Visión General y Mapa Ejecutivo de Capas del Pipeline Dual: Local Air-Gapped + Google Colab GPU</text>
 
   <!-- Pill de Diapositiva -->
   <rect x="1650" y="52" width="200" height="46" rx="23" fill="#241e07" stroke="#FECF06" stroke-width="1.5" />
   <text x="1750" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FECF06">Diapositiva 1 / 7</text>
 
-  <!-- ═══════════════════════════════════════════════════════════════════ -->
-  <!-- LÍMITE ENTORNO VIRTUAL NATIVO                                        -->
-  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- LIMITE ENTORNO VIRTUAL NATIVO -->
   <rect x="40" y="145" width="1840" height="630" rx="16" fill="#0b0e17" stroke="#253246" stroke-width="2" stroke-dasharray="8,4" filter="url(#shadow)"/>
-  <text x="70" y="175" font-size="14" font-weight="bold" fill="#FECF06">ENTORNO VIRTUAL NATIVO AISLADO — docling_env (Python 3.12 · IBM Docling + PyTorch + Granite Embedding R2)</text>
+  <text x="70" y="175" font-size="14" font-weight="bold" fill="#FECF06">ENTORNO NATIVO AISLADO — docling_env (Python 3.12 · IBM Docling + PyTorch + Granite Embedding R2 + Colab GPU)</text>
 
-  <!-- ═══════════════════════════════════════════════════════════════════ -->
-  <!-- 5 CAPAS PRINCIPALES DEL PIPELINE                                   -->
-  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- 5 CAPAS PRINCIPALES DEL PIPELINE -->
 
-  <!-- CAPA 1: Control & UI -->
+  <!-- CAPA 1: Control Dual & Web Center -->
   <g transform="translate(70, 200)" filter="url(#shadow)">
     <rect width="320" height="540" rx="14" fill="url(#gradCardGold)" stroke="#FECF06" stroke-width="2"/>
     <rect x="15" y="15" width="290" height="35" rx="8" fill="#382d03" />
-    <text x="160" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">CAPA 1: CONTROL &amp; UI</text>
+    <text x="160" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">CAPA 1: CONTROL DUAL &amp; WEB</text>
     
     <!-- Subbloques -->
     <rect x="20" y="65" width="280" height="110" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1"/>
     <text x="35" y="90" font-size="12" font-weight="bold" fill="#FECF06">orquestador_JullBrain.bat</text>
-    <text x="35" y="112" font-size="10" fill="#00FF41">• Lanzador CMD con admin</text>
+    <text x="35" y="112" font-size="10" fill="#00FF41">• Menú CMD 9 opciones</text>
     <text x="35" y="128" font-size="10" fill="#00FF41">• Activa entorno docling_env</text>
-    <text x="35" y="144" font-size="10" fill="#00FF41">• Auto-launch en puerto 8050</text>
+    <text x="35" y="144" font-size="10" fill="#00FF41">• Auto-launch http://localhost:8050</text>
 
     <rect x="20" y="190" width="280" height="210" rx="8" fill="#121824" stroke="#00FF41" stroke-width="1.5"/>
-    <text x="35" y="215" font-size="12" font-weight="bold" fill="#00FF41">app.py (Plotly Dash)</text>
-    <text x="35" y="235" font-size="10" fill="#a0aec0">Panel Visual Cyber-Legal 7 Módulos:</text>
-    <text x="35" y="255" font-size="10" fill="#00FF41">1. Arquitectura &amp; KPIs</text>
-    <text x="35" y="271" font-size="10" fill="#00FF41">2. Orquestar Conversiones</text>
-    <text x="35" y="287" font-size="10" fill="#00FF41">3. Reportes de Integridad</text>
-    <text x="35" y="303" font-size="10" fill="#00FF41">4. Cadena de Custodia</text>
-    <text x="35" y="319" font-size="10" fill="#00FF41">5. Editor RAG Ace</text>
-    <text x="35" y="335" font-size="10" fill="#00FF41">6. Test Embeddings Granite</text>
-    <text x="35" y="351" font-size="10" fill="#00FF41">7. Ajustes del Pipeline</text>
-    <text x="35" y="380" font-size="10" fill="#00CFFF">📡 Live logs Stream (conversion.log)</text>
+    <text x="35" y="215" font-size="12" font-weight="bold" fill="#00FF41">app.py (FastAPI Port 8050)</text>
+    <text x="35" y="235" font-size="10" fill="#a0aec0">Centro de Control Web Cyber-Legal:</text>
+    <text x="35" y="255" font-size="10" fill="#00FF41">• Drag &amp; Drop de Documentos</text>
+    <text x="35" y="271" font-size="10" fill="#00FF41">• Hash SHA-256 en Navegador</text>
+    <text x="35" y="287" font-size="10" fill="#00FF41">• WebSockets Tail Live Stream</text>
+    <text x="35" y="303" font-size="10" fill="#00FF41">• Asistente RAG Jurídico</text>
+    <text x="35" y="319" font-size="10" fill="#00FF41">• Auditoría ISO/IEC 27037</text>
+    <text x="35" y="335" font-size="10" fill="#FECF06">• Google Colab GPU Sync</text>
+    <text x="35" y="355" font-size="10" fill="#00CFFF">📡 Live logs Stream (conversion.log)</text>
+    <text x="35" y="375" font-size="9" fill="#a0aec0">100% Nativo (Sin Docker/Podman)</text>
 
     <rect x="20" y="415" width="280" height="105" rx="8" fill="#121824" stroke="#FF4B4B" stroke-width="1"/>
     <text x="35" y="440" font-size="12" font-weight="bold" fill="#FF4B4B">cleanup.py (Handler Exit)</text>
@@ -111,14 +105,14 @@
 
     <rect x="20" y="65" width="280" height="150" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1"/>
     <text x="35" y="90" font-size="12" font-weight="bold" fill="#FECF06">📥 Fuentes Origen</text>
-    <text x="35" y="112" font-size="10" fill="#00FF41">normativas_pdf/</text>
+    <text x="35" y="112" font-size="10" fill="#00FF41">RAG/datos_brutos/</text>
     <text x="35" y="128" font-size="9" fill="#a0aec0">• PDFs Leyes Venezolanas</text>
     <text x="35" y="142" font-size="9" fill="#a0aec0">• PDFs Escaneados &amp; Img (OCR)</text>
     <text x="35" y="162" font-size="10" fill="#00FF41">formatos_word/</text>
     <text x="35" y="178" font-size="9" fill="#a0aec0">• Documentos .doc / .docx</text>
 
     <rect x="20" y="230" width="280" height="290" rx="8" fill="#09101a" stroke="#00FF41" stroke-width="1.5"/>
-    <text x="35" y="255" font-size="12" font-weight="bold" fill="#00FF41">IBM Docling Engine</text>
+    <text x="35" y="255" font-size="12" font-weight="bold" fill="#00FF41">IBM Docling Engine 2.x</text>
     <text x="35" y="275" font-size="10" fill="#a0aec0">Motor de Visión &amp; Estructura:</text>
     <text x="35" y="300" font-size="10" fill="#FECF06">• Reconocimiento de Layout</text>
     <text x="35" y="320" font-size="10" fill="#FECF06">• Extracción de Tablas</text>
@@ -166,78 +160,77 @@
   <!-- Flecha Capa 3 -> Capa 4 -->
   <path d="M 1110 470 L 1150 470" fill="none" stroke="#00CFFF" stroke-width="3" marker-end="url(#arrowCyan)" />
 
-  <!-- CAPA 4: Embeddings Granite R2 & Custodia -->
+  <!-- CAPA 4: Embeddings Granite R2, OpenSearch & Custodia -->
   <g transform="translate(1150, 200)" filter="url(#shadow)">
     <rect width="320" height="540" rx="14" fill="url(#gradCardCyan)" stroke="#00CFFF" stroke-width="2"/>
     <rect x="15" y="15" width="290" height="35" rx="8" fill="#0a324a" />
     <text x="160" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#00CFFF">CAPA 4: VECTORIAL &amp; CUSTODIA</text>
 
-    <rect x="20" y="65" width="280" height="240" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1.5"/>
-    <text x="35" y="90" font-size="12" font-weight="bold" fill="#00CFFF">granite_embedder.py</text>
-    <text x="35" y="110" font-size="10" fill="#00FF41">Motor Embeddings Granite R2:</text>
-    <text x="35" y="130" font-size="9" fill="#a0aec0">• ibm-granite/multilingual-r2</text>
-    <text x="35" y="146" font-size="9" fill="#a0aec0">• Dimensión Vectorial: 768</text>
-    <text x="35" y="162" font-size="9" fill="#a0aec0">• Ventana Contexto: 32,768</text>
-    <text x="35" y="182" font-size="9" fill="#FECF06">• Backend: sentence-transformers</text>
-    <text x="35" y="198" font-size="9" fill="#FECF06">• Dispositivo: CPU (AVX-512)</text>
-    <line x1="35" y1="215" x2="285" y2="215" stroke="#253246" />
-    <text x="35" y="235" font-size="10" font-weight="bold" fill="#00FF41">Principio R7 Forense:</text>
-    <text x="35" y="255" font-size="9" fill="#a0aec0">Inyecta [float × 768] sin modificar</text>
-    <text x="35" y="271" font-size="9" fill="#a0aec0">ningún texto del chunk original.</text>
+    <rect x="20" y="65" width="280" height="235" rx="8" fill="#09101a" stroke="#00CFFF" stroke-width="1.5"/>
+    <text x="35" y="88" font-size="11" font-weight="bold" fill="#00CFFF">granite_embedder.py</text>
+    <text x="35" y="106" font-size="9" fill="#00FF41">Motor Embeddings Granite R2:</text>
+    <text x="35" y="122" font-size="8.5" fill="#a0aec0">• ibm-granite/multilingual-r2 (768-d)</text>
+    <text x="35" y="138" font-size="8.5" fill="#a0aec0">• Ventana Contexto: 32,768 tokens</text>
+    <text x="35" y="154" font-size="8.5" fill="#FECF06">• Backend: sentence-transformers / Ollama</text>
+    <line x1="35" y1="168" x2="285" y2="168" stroke="#253246" />
+    <text x="35" y="186" font-size="10.5" font-weight="bold" fill="#FECF06">opensearch_indexer.py:</text>
+    <text x="35" y="202" font-size="8.5" fill="#00FF41">• BM25Okapi + Dense 768-d + RRF</text>
+    <text x="35" y="218" font-size="8.5" fill="#a0aec0">• LightRAG Knowledge Graph Dual-Level</text>
+    <text x="35" y="234" font-size="8" fill="#00CFFF">Espejo Documental Forense R7</text>
 
-    <rect x="20" y="315" width="280" height="205" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
-    <text x="35" y="340" font-size="12" font-weight="bold" fill="#FECF06">📜 Cadena de Custodia ISO</text>
-    <text x="35" y="362" font-size="9" fill="#00FF41">• ISO/IEC 27037 &amp; 27042</text>
-    <text x="35" y="380" font-size="9" fill="#00FF41">• Trazabilidad SHA-256 inmutable</text>
-    <text x="35" y="398" font-size="9" fill="#00FF41">• Actas Digitales en TXT</text>
-    <text x="35" y="416" font-size="9" fill="#a0aec0">• Validez probatoria ante jurado</text>
-    <text x="35" y="434" font-size="9" fill="#a0aec0">• Reporte de anomalías de folios</text>
+    <rect x="20" y="310" width="280" height="210" rx="8" fill="#09101a" stroke="#FECF06" stroke-width="1"/>
+    <text x="35" y="332" font-size="11" font-weight="bold" fill="#FECF06">📜 Cadena de Custodia ISO &amp; Audit</text>
+    <text x="35" y="352" font-size="8.5" fill="#00FF41">• ISO/IEC 27037 &amp; 27042 Evidencia</text>
+    <text x="35" y="368" font-size="8.5" fill="#00FF41">• audit_logger.py ➔ audit_trail.jsonl</text>
+    <text x="35" y="384" font-size="8.5" fill="#00FF41">• Firma SHA-256 inmutable por evento</text>
+    <text x="35" y="400" font-size="8.5" fill="#a0aec0">• Validez probatoria ante tribunales</text>
+    <text x="35" y="416" font-size="8.5" fill="#a0aec0">• Detección de anomalías de foliatura</text>
+    <text x="35" y="432" font-size="8.5" fill="#FECF06">• Semáforo de Integridad Forense</text>
   </g>
 
   <!-- Flecha Capa 4 -> Capa 5 -->
   <path d="M 1470 470 L 1510 470" fill="none" stroke="#FECF06" stroke-width="3" marker-end="url(#arrowGold)" />
 
-  <!-- CAPA 5: RAGFlow & Inferencia LLM -->
+  <!-- CAPA 5: Guardrails, RAGFlow & Inferencia LLM -->
   <g transform="translate(1510, 200)" filter="url(#shadow)">
     <rect width="330" height="540" rx="14" fill="url(#gradCardGold)" stroke="#FECF06" stroke-width="2"/>
     <rect x="15" y="15" width="300" height="35" rx="8" fill="#382d03" />
-    <text x="165" y="38" text-anchor="middle" font-size="13" font-weight="bold" fill="#FECF06">CAPA 5: RAGFLOW &amp; GRANITE LLM</text>
+    <text x="165" y="38" text-anchor="middle" font-size="12" font-weight="bold" fill="#FECF06">CAPA 5: GUARDRAILS &amp; GRANITE LLM</text>
 
-    <rect x="20" y="65" width="290" height="200" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1.5"/>
-    <text x="35" y="90" font-size="12" font-weight="bold" fill="#FECF06">RAGFlow Vector Engine</text>
-    <text x="35" y="110" font-size="10" fill="#00FF41">Knowledge Base Air-Gapped:</text>
-    <text x="35" y="130" font-size="9" fill="#a0aec0">• Ingesta nativa de chunks JSON</text>
-    <text x="35" y="148" font-size="9" fill="#a0aec0">• Búsqueda Híbrida: BM25 +</text>
-    <text x="35" y="164" font-size="9" fill="#a0aec0">  Granite Vectors 768-dim</text>
-    <text x="35" y="184" font-size="9" fill="#00CFFF">• API REST: http://localhost:9380</text>
-    <text x="35" y="200" font-size="9" fill="#00FF41">• Filtros por Frontmatter YAML</text>
+    <rect x="20" y="65" width="290" height="150" rx="8" fill="#121824" stroke="#c084fc" stroke-width="1.5"/>
+    <text x="35" y="88" font-size="11" font-weight="bold" fill="#c084fc">Granite Guardian Guardrails</text>
+    <text x="35" y="106" font-size="9" fill="#00FF41">• granite_guardian_guardrail.py</text>
+    <text x="35" y="122" font-size="8.5" fill="#a0aec0">• Anti-Prompt Injection &amp; Jailbreak</text>
+    <text x="35" y="138" font-size="8.5" fill="#a0aec0">• Score Cuantitativo de Riesgo (0-1)</text>
+    <text x="35" y="154" font-size="8.5" fill="#FECF06">• Verificación Citas Post-Generación</text>
+    <text x="35" y="170" font-size="8" fill="#00CFFF">Filtro Entrada (Prompt) + Salida (LLM)</text>
 
-    <rect x="20" y="275" width="290" height="245" rx="8" fill="#121824" stroke="#00FF41" stroke-width="1.5"/>
-    <text x="35" y="300" font-size="12" font-weight="bold" fill="#00FF41">IBM Granite 4.1:8b Instruct</text>
-    <text x="35" y="320" font-size="10" fill="#FECF06">Motor de Inferencia Jurídica:</text>
-    <text x="35" y="340" font-size="9" fill="#a0aec0">• Backend: llama.cpp / Ollama</text>
-    <text x="35" y="358" font-size="9" fill="#a0aec0">• Temperatura Baja: T=0.15</text>
-    <text x="35" y="376" font-size="9" fill="#a0aec0">• Ventana Contexto: 128,000 tks</text>
-    <line x1="35" y1="392" x2="295" y2="392" stroke="#253246" />
-    <text x="35" y="412" font-size="10" font-weight="bold" fill="#FF4B4B">Gobernanza Anti-Alucinación:</text>
-    <text x="35" y="430" font-size="9" fill="#a0aec0">• Abstención Obligatoria ("No se halló")</text>
-    <text x="35" y="446" font-size="9" fill="#a0aec0">• Verificación de Citas Normativas</text>
-    <text x="35" y="462" font-size="9" fill="#00FF41">• "El sistema acelera, nunca sustituye"</text>
+    <rect x="20" y="225" width="290" height="145" rx="8" fill="#121824" stroke="#FECF06" stroke-width="1.5"/>
+    <text x="35" y="248" font-size="11" font-weight="bold" fill="#FECF06">RAGFlow Vector Engine</text>
+    <text x="35" y="266" font-size="8.5" fill="#00FF41">• Knowledge Base Air-Gapped</text>
+    <text x="35" y="282" font-size="8.5" fill="#a0aec0">• Ingesta Chunks Docling Nativa</text>
+    <text x="35" y="298" font-size="8.5" fill="#00CFFF">• API REST: http://localhost:9380</text>
+    <text x="35" y="314" font-size="8.5" fill="#00FF41">• Filtros por Frontmatter YAML</text>
+
+    <rect x="20" y="380" width="290" height="140" rx="8" fill="#121824" stroke="#00FF41" stroke-width="1.5"/>
+    <text x="35" y="402" font-size="11" font-weight="bold" fill="#00FF41">IBM Granite 3.3 8B / 4.1</text>
+    <text x="35" y="420" font-size="8.5" fill="#FECF06">• Inferencia Cero Alucinación T=0.15</text>
+    <text x="35" y="436" font-size="8.5" fill="#00FF41">• Ventana de Contexto: 128,000 tks</text>
+    <text x="35" y="452" font-size="8.5" fill="#FF4B4B">• Abstención Obligatoria (Principio 5)</text>
+    <text x="35" y="468" font-size="8.5" fill="#00CFFF">• Semáforo: 🟢 Anclado / 🟡 Rev / 🔴 Des</text>
   </g>
 
-  <!-- ═══════════════════════════════════════════════════════════════════ -->
-  <!-- LEYENDA EXPLICATIVA DE TAREAS (TASK LEGEND CARD)                     -->
-  <!-- ═══════════════════════════════════════════════════════════════════ -->
+  <!-- LEYENDA EXPLICATIVA DE TAREAS V3.0 -->
   <g transform="translate(40, 790)" filter="url(#shadow)">
     <rect width="1840" height="225" rx="14" fill="#0d111a" stroke="#253246" stroke-width="1.5"/>
-    <text x="70" y="820" font-size="14" font-weight="bold" fill="#FECF06">📋 LEYENDA TÉCNICA DE TAREAS Y FLUJO DE DATOS — VISIÓN GENERAL</text>
+    <text x="70" y="820" font-size="14" font-weight="bold" fill="#FECF06">📋 LEYENDA TÉCNICA DE TAREAS Y FLUJO DE DATOS — VISIÓN GENERAL V3.0</text>
     <line x1="70" y1="830" x2="1810" y2="830" stroke="#253246" />
 
     <!-- Columna 1 -->
     <g transform="translate(70, 845)">
-      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea 1 — Inicialización &amp; UI:</text>
-      <text x="0" y="32" font-size="10" fill="#a0aec0">`orquestador_JullBrain.bat` activa el entorno nativo `docling_env` y levanta `app.py` en puerto 8050.</text>
-      <text x="0" y="48" font-size="10" fill="#a0aec0">Al cerrar la ventana CMD, `cleanup.py` purga la caché y fuerza la liberación de memoria RAM (`gc.collect()`).</text>
+      <text x="0" y="15" font-size="11" font-weight="bold" fill="#00FF41">Tarea 1 — Control Dual &amp; FastAPI:</text>
+      <text x="0" y="32" font-size="10" fill="#a0aec0">`orquestador_JullBrain.bat` activa el entorno nativo `docling_env` y levanta `app.py` (FastAPI) en puerto 8050.</text>
+      <text x="0" y="48" font-size="10" fill="#a0aec0">Permite sincronización bidireccional continua con Google Colab GPU (T4/A100) vía GitHub Actions CI/CD.</text>
 
       <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea 2 — Ingesta &amp; Chunking Estructural:</text>
       <text x="0" y="92" font-size="10" fill="#a0aec0">IBM Docling recibe PDFs/Word, aplica OCR (EasyOCR/Tesseract) y ejecuta `HierarchicalChunker` para emitir JSON.</text>
@@ -250,14 +243,12 @@
       <text x="0" y="32" font-size="10" fill="#a0aec0">`legalizer.py` detecta TÍTULO/CAPÍTULO/Artículo; `metadata_extractor.py` agrega el frontmatter YAML y hash.</text>
       <text x="0" y="48" font-size="10" fill="#a0aec0">`validator.py` ejecuta el Principio 10 (Doble validación cruzada Regex vs PyMuPDF) garantizando Error Cero.</text>
 
-      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea 4 &amp; 5 — Embeddings, RAGFlow e Inferencia LLM:</text>
-      <text x="0" y="92" font-size="10" fill="#a0aec0">`granite_embedder.py` inyecta el vector float 768-dim (`granite-embedding-multilingual-r2`) manteniendo el texto intacto.</text>
-      <text x="0" y="108" font-size="10" fill="#a0aec0">RAGFlow indexa en modo híbrido (BM25 + Vectores) e IBM Granite 4.1:8b genera respuestas jurídicas fundamentadas.</text>
+      <text x="0" y="75" font-size="11" font-weight="bold" fill="#00FF41">Tarea 4 &amp; 5 — Embeddings, Guardrails &amp; Inferencia LLM:</text>
+      <text x="0" y="92" font-size="10" fill="#a0aec0">`granite_embedder.py` (Granite Multilingual R2) inyecta vector 768-d; OpenSearch aplica búsqueda híbrida BM25+Dense+RRF.</text>
+      <text x="0" y="108" font-size="10" fill="#a0aec0">Granite Guardian filtra prompts/salidas e IBM Granite 3.3 8B genera respuestas fundamentadas con abstención obligatoria.</text>
     </g>
   </g>
 
-  <!-- ═══════════════════════════════════════════════════════════════════ -->
-  <!-- FOOTER BAR                                                          -->
-  <!-- ═══════════════════════════════════════════════════════════════════ -->
-  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Architecture Spec V-2.1 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped Security Architecture</text>
+  <!-- FOOTER BAR -->
+  <text x="960" y="1055" text-anchor="middle" font-size="11" fill="#a0aec0">JullBrain Legal-RAG Architecture Spec V3.0 | Diseñado por Jull Ortiz | Licencia Apache 2.0 | Air-Gapped &amp; Colab Dual Architecture</text>
 </svg>
