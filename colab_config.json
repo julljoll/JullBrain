@@ -1,0 +1,56 @@
+{
+  "_comment": "Configuración técnica para ejecución en Google Colab con GPU (NVIDIA T4 / A100 / V100)",
+  "_version": "3.0.0",
+  "entorno": "colab",
+
+  "google_drive": {
+    "montar_automaticamente": true,
+    "ruta_drive_base": "/content/drive/MyDrive/JullBrain",
+    "ruta_drive_pdfs": "/content/drive/MyDrive/JullBrain/leyes_pdf",
+    "ruta_drive_output": "/content/drive/MyDrive/JullBrain/output_rag",
+    "ruta_drive_embeddings": "/content/drive/MyDrive/JullBrain/embeddings",
+    "sincronizar_output_a_drive": true
+  },
+
+  "gpu": {
+    "detectar_automaticamente": true,
+    "embedding_device": "cuda",
+    "embedding_batch_size": 64,
+    "usar_half_precision": true,
+    "docling_num_threads": 4
+  },
+
+  "pipeline": {
+    "ocr_activo": true,
+    "generar_chunks": true,
+    "min_article_chars": 50,
+    "quality_threshold_critical": 0.90,
+    "quality_threshold_warning": 0.95,
+    "max_workers_colab": 2,
+    "salida_markdown_dir": "normativas_rag",
+    "salida_chunks_dir": "normativas_chunks"
+  },
+
+  "granite": {
+    "embedding_model": "ibm-granite/granite-embedding-311m-multilingual-r2",
+    "embedding_backend": "sentence-transformers",
+    "inferencia_model": "ibm-granite/granite-3.3-8b-instruct",
+    "temperature": 0.0,
+    "top_p": 0.05,
+    "context_window": 128000
+  },
+
+  "output": {
+    "guardar_markdown_local": true,
+    "guardar_chunks_json": true,
+    "guardar_embeddings_npy": true,
+    "exportar_a_ragflow": true,
+    "formato_export_ragflow": "jsonl"
+  },
+
+  "repositorio": {
+    "github_url": "https://github.com/julljoll/JullBrain.git",
+    "rama": "main",
+    "auto_pull_al_iniciar": true
+  }
+}

@@ -1,0 +1,96 @@
+name: 🔄 JullBrain — Colab Sync & Integrity Pipeline
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**.py'
+      - 'JullBrain_Colab.ipynb'
+      - 'requirements*.txt'
+      - 'pipeline_config.json'
+      - 'colab_config.json'
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  validate-pipeline:
+    name: ⚖️ Validación de Pipeline Legal & Sintaxis
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - name: 📥 Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configurar Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+
+      - name: 📦 Instalar dependencias esenciales de validación
+        run: |
+          pip install --upgrade pip
+          pip install PyMuPDF pypdf PyYAML rich psutil pydantic fastapi httpx
+
+      - name: 🔍 Verificación de compilación de módulos Python
+        run: |
+          python -m py_compile legalizer.py
+          python -m py_compile metadata_extractor.py
+          python -m py_compile validator.py
+          python -m py_compile colab_runner.py
+          python -m py_compile granite_embedder.py
+          python -m py_compile opensearch_indexer.py
+          python -m py_compile audit_logger.py
+          python -m py_compile app.py
+
+      - name: 📋 Validación del Notebook para Google Colab
+        run: |
+          python -c "
+          import json
+          with open('JullBrain_Colab.ipynb', 'r', encoding='utf-8') as f:
+              nb = json.load(f)
+          assert nb.get('nbformat') == 4, 'El notebook debe ser formato v4'
+          cells = nb.get('cells', [])
+          assert len(cells) >= 15, f'Se esperaban al menos 15 celdas, se encontraron {len(cells)}'
+          code_cells = [c for c in cells if c.get('cell_type') == 'code']
+          assert len(code_cells) >= 8, 'Faltan celdas ejecutables'
+          print(f'✅ Notebook verificado con éxito: {len(cells)} celdas totales ({len(code_cells)} ejecutables)')
+          "
+
+      - name: 🔧 Validación de Esquemas de Configuración JSON
+        run: |
+          python -c "
+          import json
+          with open('pipeline_config.json', 'r', encoding='utf-8') as f:
+              p_cfg = json.load(f)
+          assert 'ocr_activo' in p_cfg, 'pipeline_config.json no contiene ocr_activo'
+          with open('colab_config.json', 'r', encoding='utf-8') as f:
+              c_cfg = json.load(f)
+          assert 'google_drive' in c_cfg, 'colab_config.json no contiene google_drive'
+          print('✅ Archivos de configuración JSON validados correctamente.')
+          "
+
+  colab-sync-status:
+    name: 📢 Estado de Sincronización Colab
+    runs-on: ubuntu-latest
+    needs: validate-pipeline
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🚀 Registro de Versión Sincronizada
+        run: |
+          echo "=========================================================="
+          echo "🏛️ JULLBRAIN V3.0 — SINCRONIZACIÓN EXITOSA CON GOOGLE COLAB"
+          echo "Commit SHA: ${{ github.sha }}"
+          echo "Rama: ${{ github.ref_name }}"
+          echo "Fecha: $(date -u)"
+          echo "Cuaderno Colab actualizado y listo para ejecución."
+          echo "=========================================================="

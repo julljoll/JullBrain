@@ -89,6 +89,8 @@ if /i "%~1"=="--post" goto EXEC_POST
 if /i "%~1"=="--embed" goto EXEC_EMBED
 if /i "%~1"=="--test" goto EXEC_TEST
 if /i "%~1"=="--clean" goto EXEC_CLEAN
+if /i "%~1"=="--sync" goto EXEC_SYNC
+if /i "%~1"=="--colab" goto OPEN_COLAB
 
 :MENU
 echo %C_H1%  SELECCIONE UNA OPCION DEL CENTRO DE OPERACIONES:%C_R%
@@ -100,11 +102,13 @@ echo     %C_TXT%[4] Solo Post-Procesado Legal (Legalizer + Frontmatter YAML)%C_R
 echo     %C_TXT%[5] Generar / Verificar Embeddings Semanticos con Granite R2 (Vectores 768-dim)%C_R%
 echo     %C_TXT%[6] Ejecutar Suite de QA Testing Offline (Air-Gapped)%C_R%
 echo     %C_TXT%[7] Purgar Cache Temporal y Resetear Memoria%C_R%
+echo     %C_H1%[8] Sincronizar con GitHub (git pull origin main)%C_R%
+echo     %C_H1%[9] Abrir Google Colab en Navegador (GPU Acelerada)%C_R%
 echo     %C_TXT%[0] Salir%C_R%
 echo.
 echo %C_H1%  =========================================================================================%C_R%
 set "OPTION="
-set /p OPTION="  Ingrese el numero de la opcion deseada [0-7]: "
+set /p OPTION="  Ingrese el numero de la opcion deseada [0-9]: "
 
 if not defined OPTION goto MENU
 if "%OPTION%"=="1" goto LAUNCH_WEB
@@ -114,6 +118,8 @@ if "%OPTION%"=="4" goto EXEC_POST
 if "%OPTION%"=="5" goto EXEC_EMBED
 if "%OPTION%"=="6" goto EXEC_TEST
 if "%OPTION%"=="7" goto EXEC_CLEAN
+if "%OPTION%"=="8" goto EXEC_SYNC
+if "%OPTION%"=="9" goto OPEN_COLAB
 if "%OPTION%"=="0" goto EXIT_PROG
 
 echo %C_ERR%  [ERROR] Opcion no valida.%C_R%
@@ -170,7 +176,27 @@ python cleanup.py
 pause
 goto MENU
 
+:EXEC_SYNC
+echo.
+echo %C_OK%  [INIT] Sincronizando con repositorio oficial GitHub (git pull origin main)...%C_R%
+git pull origin main
+if errorlevel 1 (
+    echo %C_ERR%  [ADVERTENCIA] No se pudo sincronizar con GitHub. Verifica conexion o credenciales.%C_R%
+) else (
+    echo %C_OK%  [OK] Repositorio sincronizado exitosamente con la nube.%C_R%
+)
+pause
+goto MENU
+
+:OPEN_COLAB
+echo.
+echo %C_OK%  [INIT] Abriendo Google Colab en tu navegador predeterminado...%C_R%
+start https://colab.research.google.com/github/julljoll/JullBrain/blob/main/JullBrain_Colab.ipynb
+pause
+goto MENU
+
 :EXIT_PROG
 echo.
 echo %C_OK%  Sesion finalizada correctamente.%C_R%
 exit /b 0
+

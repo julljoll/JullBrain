@@ -44,6 +44,9 @@ from rich.text import Text
 from rich import box
 from rich.logging import RichHandler
 
+# Detectar si se está ejecutando dentro de Google Colab o Jupyter Notebook
+EN_COLAB = "google.colab" in sys.modules or os.environ.get("COLAB_GPU") is not None
+
 # Configurar el registro de eventos (logging) para ver el progreso detallado
 if "--chunk-mode" in sys.argv:
     logging.basicConfig(
@@ -54,6 +57,13 @@ if "--chunk-mode" in sys.argv:
         ]
     )
     console = None
+elif EN_COLAB:
+    console = Console(force_jupyter=True)
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(message)s",
+        handlers=[logging.StreamHandler(sys.stdout)]
+    )
 else:
     console = Console(style="on #252525", force_terminal=True, force_interactive=True)
     logging.basicConfig(

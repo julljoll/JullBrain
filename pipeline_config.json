@@ -28,5 +28,19 @@
   "postgres_enabled": false,
   "postgres_host": "localhost",
   "postgres_port": 5432,
-  "postgres_db": "jullbrain_db"
+  "postgres_db": "jullbrain_db",
+  "entorno_activo": "auto",
+  "colab_profile": {
+    "embedding_device": "cuda",
+    "embedding_batch_size": 64,
+    "usar_half_precision": true,
+    "max_workers": 2,
+    "cache_docling_modelos": true
+  },
+  "local_profile": {
+    "embedding_device": "cpu",
+    "embedding_batch_size": 32,
+    "usar_half_precision": false,
+    "max_workers": 4
+  }
 }

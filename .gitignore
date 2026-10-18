@@ -40,7 +40,19 @@ RAG/lightrag_db/*
 !RAG/lightrag_db/.gitkeep
 audit_trail.jsonl
 
-# Sistema operativo
+# Jupyter y Google Colab
+.ipynb_checkpoints/
+colab_secrets.json
+.env.colab
+
+# Archivos pesados de vectores binarios
+*.npy
+*.npz
+
+# Sistema operativo y build
 .DS_Store
 Thumbs.db
 desktop.ini
+dist/
+build/
+

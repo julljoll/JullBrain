@@ -1,0 +1,33 @@
+name: 🔬 JullBrain — QA Suite & Offline Integrity
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 8 * * 1' # Cada lunes a las 08:00 UTC
+
+jobs:
+  offline-qa-tests:
+    name: 🧪 Ejecución de Tests QA & Forensic
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: 'pip'
+
+      - name: 📦 Instalar dependencias para pruebas
+        run: |
+          pip install --upgrade pip
+          pip install PyMuPDF pypdf PyYAML rich psutil pydantic fastapi httpx
+
+      - name: 🧪 Ejecución de Suite de Pruebas Unitarias
+        run: |
+          python -m unittest discover tests
