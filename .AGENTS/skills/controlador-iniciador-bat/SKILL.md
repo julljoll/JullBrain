@@ -28,13 +28,16 @@ $utf8NoBom = New-Object System.Text.UTF8Encoding $False
 Cualquier cambio futuro al script `.bat` debe mantener intactas estas 4 fases en este orden específico. Si se reescribe el script, NO OMITIR el arte ASCII ni los colores.
 
 1. **Auto-Elevación de Privilegios**:
-   Debe estar al inicio (después del setup de colores) para garantizar que el script pida permisos de Administrador antes de chocar con comandos prohibidos.
+   Debe estar al inicio (después del setup de colores) para garantizar que el script pida permisos de Administrador si es posible, pero con fallback seguro para que no se cierre si la elevación es rechazada o no está soportada:
    ```bat
+   if not "%~1"=="" goto SKIP_ELEVATION
    net session >nul 2>&1
    if %errorlevel% neq 0 (
-       powershell -Command "Start-Process '%~f0' -Verb RunAs"
-       exit /b
+       powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process cmd.exe -ArgumentList '/k \"\"%~f0\"\" ELEVATED' -Verb RunAs" 2>nul
+       if %errorlevel% equ 0 exit /b
+       echo  [AVISO] No se pudo elevar a Administrador o fue cancelado. Continuando en modo estandar...
    )
+   :SKIP_ELEVATION
    ```
 
 2. **Interfaz Gráfica (ASCII y Colores)**:

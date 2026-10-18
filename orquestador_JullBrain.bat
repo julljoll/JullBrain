@@ -7,8 +7,9 @@ title JullBrain - Orquestador Legal-RAG y Centro de Control Web
 if not "%~1"=="" goto SKIP_ELEVATION
 net session >nul 2>&1
 if %errorlevel% neq 0 (
-    powershell -Command "Start-Process '%~f0' -Verb RunAs"
-    exit /b
+    powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process cmd.exe -ArgumentList '/k \"\"%~f0\"\" ELEVATED' -Verb RunAs" 2>nul
+    if %errorlevel% equ 0 exit /b
+    echo  [AVISO] No se pudo elevar a Administrador o fue cancelado. Continuando en modo estandar...
 )
 :SKIP_ELEVATION
 
