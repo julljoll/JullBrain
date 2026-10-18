@@ -128,7 +128,7 @@ goto MENU
 :LAUNCH_WEB
 echo.
 echo %C_OK%  [INIT] Levantando Servidor Web FastAPI e Interfaz HTML5...%C_R%
-echo %C_H1%  >>> Abre tu navegador en: http://localhost:8050%C_R%
+echo %C_H1%  ^>^>^> Abre tu navegador en: http://localhost:8050%C_R%
 start http://localhost:8050
 python -m uvicorn app:app --host 127.0.0.1 --port 8050
 pause
