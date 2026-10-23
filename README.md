@@ -3,20 +3,22 @@
 </p>
 
 <h1 align="center">⚖️ JullBrain V3.0</h1>
-<h3 align="center">Legal-RAG Engine & Plataforma de Informática Forense Digital</h3>
+<h3 align="center">Legal-RAG Engine & Plataforma Forense Multicloud 100% Python</h3>
 
 <p align="center">
-  <em>Sistema Enterprise de Inteligencia Documental Legal para la transformación precisa de normativas venezolanas en conocimiento estructurado, optimizado para Bases de Datos Vectoriales, IBM Granite y Sistemas RAG.</em>
+  <em>Sistema Enterprise de Inteligencia Documental Legal e Informática Forense para la transformación de normativas y jurisprudencia venezolana en conocimiento estructurado de alta fidelidad, optimizado para IBM Granite, IBM Docling, RAGFlow y Bases de Datos Vectoriales.</em>
 </p>
 
 <p align="center">
   <a href="https://colab.research.google.com/github/julljoll/JullBrain/blob/main/JullBrain_Colab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
   <a href="https://github.com/julljoll/JullBrain/actions/workflows/colab_sync.yml"><img src="https://github.com/julljoll/JullBrain/actions/workflows/colab_sync.yml/badge.svg" alt="CI/CD"></a>
-  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white" alt="Python 3.12"></a>
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB?logo=python&logoColor=white" alt="Python 3.11 | 3.12"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Licencia-Apache%202.0-D22128?logo=apache&logoColor=white" alt="Apache 2.0"></a>
   <a href="https://huggingface.co/ibm-granite"><img src="https://img.shields.io/badge/IBM-Granite%203.3%208B-7B3FE4?logo=ibm&logoColor=white" alt="IBM Granite"></a>
   <a href="https://github.com/docling-project/docling"><img src="https://img.shields.io/badge/Engine-IBM%20Docling-0F62FE?logo=ibm&logoColor=white" alt="IBM Docling"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Seguridad-100%25%20Air--Gapped-00B140?logo=shield&logoColor=white" alt="Air-Gapped"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Computo-CPU%20%7C%20DirectML%20%7C%20ROCm%20%7C%20CUDA-FFA000?logo=amd&logoColor=white" alt="Computo Acelerado"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Forense-SHA--256%20Inmutable-00B140?logo=shield&logoColor=white" alt="Forense SHA-256"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Multicloud-Colab%20%7C%20Oracle%20%7C%20IBM-0062FF?logo=googlecloud&logoColor=white" alt="Multicloud Ready"></a>
 </p>
 
 ---
@@ -25,49 +27,68 @@
 
 - [¿Qué es JullBrain?](#-qué-es-jullbrain)
 - [¿Qué Problema Resuelve?](#-qué-problema-resuelve)
+- [Novedades de la Versión 3.0](#-novedades-de-la-versión-30)
 - [Características Principales](#-características-principales)
-- [Arquitectura del Pipeline](#-arquitectura-del-pipeline)
+- [Arquitectura del Pipeline y Ecosistema Multicloud](#-arquitectura-del-pipeline-y-ecosistema-multicloud)
 - [Stack Tecnológico](#-stack-tecnológico)
-- [Inicio Rápido — Local en Windows](#-inicio-rápido--local-en-windows)
-- [Inicio Rápido — Google Colab con GPU](#-inicio-rápido--google-colab-con-gpu)
-- [Sincronización Automática GitHub ↔ Colab](#-sincronización-automática-github--colab)
+- [Aceleración de Cómputo (CPU y Multi-GPU)](#-aceleración-de-cómputo-cpu-y-multi-gpu)
+- [Inicio Rápido — Local en Windows / Linux](#-inicio-rápido--local-en-windows--linux)
+- [Menú del Orquestador Terminal Interactivo](#-menú-del-orquestador-terminal-interactivo)
+- [Despliegue Multicloud](#-despliegue-multicloud)
+  - [1. Google Colab (GPU NVIDIA T4)](#1-google-colab-gpu-nvidia-t4)
+  - [2. Oracle Cloud Free Tier (ARM Ampere A1)](#2-oracle-cloud-free-tier-arm-ampere-a1)
+  - [3. IBM Cloud Serverless (Code Engine + COS)](#3-ibm-cloud-serverless-code-engine--cos)
+- [Sincronización Automática GitHub ↔ Multicloud](#-sincronización-automática-github--multicloud)
 - [Estructura del Repositorio](#-estructura-del-repositorio)
 - [Descripción de Módulos](#-descripción-de-módulos)
-- [API REST y Endpoints](#-api-rest-y-endpoints)
-- [Control de Calidad Forense (QA)](#-control-de-calidad-forense-qa)
-- [Configuración Avanzada](#-configuración-avanzada)
+- [API REST y Endpoints Headless](#-api-rest-y-endpoints-headless)
+- [Control de Calidad Forense (QA) y Auditoría Inmutable](#-control-de-calidad-forense-qa-y-auditoría-inmutable)
+- [Configuración Central y Variables de Entorno](#-configuración-central-y-variables-de-entorno)
 - [Integraciones Externas](#-integraciones-externas)
-- [Contribuciones](#-contribuciones)
-- [Licencia](#-licencia)
+- [Archivo Histórico (Legacy)](#-archivo-histórico-legacy)
+- [Contribuciones y Principios Éticos](#-contribuciones-y-principios-éticos)
+- [Autor y Licencia](#-autor-y-licencia)
 
 ---
 
 ## 🏛️ ¿Qué es JullBrain?
 
-**JullBrain** es un pipeline de procesamiento documental diseñado específicamente para transformar **leyes, códigos, resoluciones y normativas venezolanas** en formato PDF a **datos estructurados de alta precisión** listos para alimentar:
+**JullBrain** es una plataforma de ingeniería documental y de informática forense diseñada para procesar **leyes, códigos, resoluciones y jurisprudencia vinculante del Tribunal Supremo de Justicia (TSJ)** de la República Bolivariana de Venezuela, transformando documentos PDF o HTML complejos en **conocimiento estructurado de alta fidelidad**.
 
-- **Bases de datos vectoriales** (RAGFlow, OpenSearch, pgvector)
-- **Sistemas de Generación Aumentada por Recuperación** (RAG)
-- **Modelos de Lenguaje de IBM Granite** (inferencia jurídica con cero alucinaciones)
-
-El sistema opera en **modo dual**: como aplicación **100% local offline** (air-gapped) mediante un orquestador `.bat` en Windows, y como **pipeline acelerado por GPU NVIDIA** en Google Colab, con sincronización automática entre ambos entornos vía GitHub.
+El sistema garantiza que los insumos documentales inyectados a motores RAG, modelos **IBM Granite 3.3 8B** y bases de datos vectoriales respeten estrictamente:
+1. **La jerarquía jurídica formal** (*LIBRO > TÍTULO > CAPÍTULO > SECCIÓN > Artículo > Parágrafo*).
+2. **La cadena de custodia digital y el principio de "Espejo Documental"** (auditoría criptográfica SHA-256 pre y post procesamiento según normas ISO/IEC 27037 y 27042).
+3. **Inferencia jurídica determinística sin alucinación** (temperatura 0.0, corpus cerrado, verificación cruzada y guardrails de seguridad).
 
 ---
 
 ## ❓ ¿Qué Problema Resuelve?
 
-Los profesionales del Derecho en Venezuela (jueces, fiscales, defensores, peritos forenses) trabajan con cientos de instrumentos jurídicos en formato PDF que no pueden ser consultados de forma inteligente. Las herramientas de IA generalistas como ChatGPT **alucinan artículos inexistentes**, **citan leyes derogadas** y **mezclan jurisdicciones**.
+Los operadores del sistema de justicia (jueces, fiscales, defensores públicos y peritos) enfrentan cientos de normativas extensas y sentencias escaneadas en PDF de difícil lectura digital. Los LLM comerciales generalistas sufren de **alucinación normativa** (inventan artículos o gacetas inexistentes), **desanclaje** y mezcla de jurisdicciones extranjeras.
 
-**JullBrain resuelve esto** mediante:
+| Desafío en el Sector Legal | Solución Tecnológica en JullBrain V3.0 |
+|:---------------------------|:---------------------------------------|
+| **PDFs escaneados, columnas y tablas complejas** | Extracción estructural OCR con **IBM Docling**, reconociendo tablas, layout y metadatos. |
+| **Artículos fusionados o desarticulados** | **Legalizer Jerárquico** especializado en técnica legislativa venezolana. |
+| **Alucinación de artículos o citas falsas** | Inferencia con **IBM Granite** a **temperatura 0.0**, seed fija y verificación post-generación. |
+| **Riesgo de alteración del archivo fuente** | **Principio de Espejo Documental**: comprobación estricta de hash SHA-256 pre y post conversión. |
+| **Falta de GPU en equipos locales de trabajo** | Detección de hardware multi-backend (**AMD RX 580 DirectML/ROCm**, CUDA) y despliegue **Multicloud** (Colab, Oracle ARM, IBM Cloud). |
+| **Búsqueda semántica imprecisa sobre normas** | Embeddings **IBM Granite Embedding R2** (768 dimensiones) y recuperación híbrida (BM25 + Coseno + RRF). |
 
-| Problema | Solución JullBrain |
-|:---------|:-------------------|
-| PDFs de leyes escaneados e ilegibles | OCR inteligente con **IBM Docling** que reconoce layout, tablas y columnas |
-| Artículos fusionados o mal separados | **Legalizer** con regex jurídico: separa LIBRO > TÍTULO > CAPÍTULO > Artículo |
-| IA que inventa artículos | **Temperatura 0.0**, corpus cerrado y verificación post-generación de citas |
-| Sin control de integridad documental | **SHA-256** por documento y doble validación cruzada PDF vs Markdown |
-| Procesamiento lento en máquinas locales | **Google Colab con GPU T4** gratuita para procesar volúmenes masivos |
-| Sin búsqueda semántica sobre leyes | **Embeddings IBM Granite R2** de 768 dimensiones por cada artículo |
+---
+
+## 🚀 Novedades de la Versión 3.0
+
+- 🐍 **Migración 100% Python Nativa:** Se eliminó la dependencia de scripts complejos en Batch. Toda la orquestación reside en [`orquestador.py`](orquestador.py) con una interfaz de consola enriquecida con `rich`.
+- 🎮 **Aceleración GPU Multiplataforma:** Soporte nativo para **AMD Radeon RX 580 (8GB)** en Windows vía `torch-directml` (DirectX 12) y en Linux vía ROCm 5.7 legacy, además de NVIDIA CUDA y CPU fallback.
+- ☁️ **Soporte Multicloud Unificado:**
+  - **Google Colab:** Procesamiento acelerado por GPU NVIDIA T4.
+  - **Oracle Cloud Free Tier:** Despliegue en servidores ARM Ampere A1 (4 OCPU, 24 GB RAM) con script automatizado [`deploy_oracle.sh`](deploy_oracle.sh).
+  - **IBM Cloud:** Contenedor serverless en **Code Engine** y almacenamiento en Cloud Object Storage (COS) con [`deploy_ibmcloud.sh`](deploy_ibmcloud.sh).
+- 📜 **Incorporación de Jurisprudencia TSJ 2026:** Soporte para sentencias vinculantes de la Sala Constitucional del TSJ (`RAG/datos_brutos/Desiciones TSJ 2026/` y `RAG/Informacion_docling_rag/Desiciones TSJ 2026/`).
+- 🛡️ **Registro Forense Append-Only:** Registro criptográfico inmutable en [`audit_trail.jsonl`](audit_trail.jsonl) que audita cada operación con timestamps UTC y validación de integridad.
+- 📦 **Modo Seguro de Conversión:** Procesamiento secuencial (1 documento por vez) para proteger la memoria RAM y evitar congelamientos locales.
+- 🗄️ **Archivo Histórico:** Las interfaces web heredadas, GUI Tkinter y esquemas antiguos han sido preservados limpiamente en [`_archivo_historico/`](_archivo_historico/).
 
 ---
 
@@ -76,76 +97,65 @@ Los profesionales del Derecho en Venezuela (jueces, fiscales, defensores, perito
 ### 🔄 Pipeline de Transformación Legal (6 Fases)
 
 ```
-PDF Ley → IBM Docling OCR → Legalizer Jerárquico → Metadata YAML+SHA256
-       → Validador QA Cruzado → Embeddings Granite R2 → BBDD Vectorial
+PDF / Sentencia TSJ → IBM Docling OCR → Legalizer Jerárquico → Metadata YAML + SHA-256
+                   → Validador QA Cruzado (PyMuPDF vs MD) → Embeddings Granite R2 → BBDD Vectorial / RAGFlow
 ```
 
-### 🖥️ Centro de Control Web (`http://localhost:8050`)
-- Interfaz unificada HTML5/CSS3 con modo oscuro cyber-legal
-- Subida de documentos con arrastrar y soltar (Drag & Drop)
-- Cálculo SHA-256 en el navegador antes de la subida
-- Consola de streaming de logs del pipeline en tiempo real
-- Asistente RAG interactivo para consultas jurídicas
+### 🖥️ Centro de Control Terminal 100% Python
+- Interfaz interactiva basada en `rich` con esquema de colores legal (`#12161A`, amarillo `#FECF06`, verde ciber `#00FF41`).
+- Escaneo recursivo en tiempo real de 137+ documentos normativos clasificando estados (*🟢 Ya convertido / 🔴 Pendiente*).
+- Menú interactivo con 10 opciones de operación y soporte para banderas CLI directas.
 
-### 🛡️ Seguridad y Forense Digital
-- Operación **100% Air-Gapped** (sin peticiones salientes a internet en producción)
-- **Auditoría inmutable** con firmas SHA-256 por cada evento (`audit_trail.jsonl`)
-- Gestión de expedientes aislados con integridad criptográfica verificable
-- Guardrails anti-inyección con **IBM Granite Guardian**
-- Semáforo de confianza (🟢 Anclado / 🟡 Revisión Humana / 🔴 Desanclado)
-
-### ☁️ Operación Dual: Local + Nube
-- **Windows Local:** Doble clic en `orquestador_JullBrain.bat` → menú interactivo con 9 opciones
-- **Google Colab:** Notebook de 15 secciones con auto-pull de GitHub, montaje de Drive y GPU NVIDIA
-- **Sincronización CI/CD:** GitHub Actions valida cada push y el Colab obtiene la última versión automáticamente
+### 🛡️ Seguridad y Cadena de Custodia Digital
+- **Air-Gapped Ready:** Operación 100% desconectada de internet en entornos de producción forense.
+- **Doble Validación Cruzada:** Principio de Error Cero (conteo de artículos por regex contra el Markdown vs conteo por extracción directa del PDF original vía PyMuPDF).
+- **Guardrails de Inferencia:** IBM Granite Guardian para mitigación de inyecciones y verificación de anclaje normativo (*Semáforo 🟢 Anclado / 🟡 Revisión Humana / 🔴 Desanclado*).
 
 ---
 
-## 🗺️ Arquitectura del Pipeline
+## 🗺️ Arquitectura del Pipeline y Ecosistema Multicloud
 
 ```mermaid
 flowchart TB
-    subgraph INGESTA["📥 Fase 1 — Ingesta Documental"]
-        PDF["📄 PDFs de Leyes\n(RAG/datos_brutos/)"]
-        DOC["🤖 IBM Docling\nOCR + Layout + Tablas"]
-        PDF -->|"Escaneo inteligente\ncon GPU CUDA"| DOC
+    subgraph INPUT["📥 Ingesta Documental & Cadena de Custodia"]
+        PDF["📄 PDFs Normativas & Decisiones TSJ 2026\n(RAG/datos_brutos/)"]
+        HASH_PRE["🔐 SHA-256 Pre-Conversión\n(Cálculo en Bloques de 64KB)"]
+        DOC["🤖 IBM Docling Core\nOCR + Layout + Tablas"]
+        PDF --> HASH_PRE --> DOC
     end
 
-    subgraph LEGAL["⚖️ Fase 2 — Estructuración Jurídica"]
-        LEG["📐 legalizer.py\nLIBRO > TÍTULO > CAPÍTULO\n> SECCIÓN > Artículo > Parágrafo"]
-        META["🏷️ metadata_extractor.py\nYAML Frontmatter\n+ Gaceta Oficial + SHA-256"]
-        DOC -->|"Markdown crudo"| LEG
-        LEG -->|"Markdown estructurado"| META
+    subgraph STRUCT["⚖️ Estructuración Jurídica & Forense"]
+        LEG["📐 legalizer.py\nJerarquía Normativa Venezolana\n(Libro > Título > Cap. > Art.)"]
+        META["🏷️ metadata_extractor.py\nYAML Frontmatter + Gaceta + SHA-256"]
+        HASH_POST["🔐 Verificación SHA-256 Post-Conversión\n(Garantía de Espejo Documental)"]
+        DOC --> LEG --> META --> HASH_POST
     end
 
-    subgraph QA["🔬 Fase 3 — Certificación de Calidad"]
-        VAL["🔍 validator.py\nDoble Validación Cruzada\nRegex vs PyMuPDF directo"]
-        META --> VAL
+    subgraph QA["🔬 Certificación de Integridad"]
+        VAL["🔍 validator.py\nDoble Validación Cruzada (Error Cero)\nRegex Markdown vs PyMuPDF Directo"]
+        HASH_POST --> VAL
     end
 
-    subgraph VECTOR["🧠 Fase 4 — Vectorización Semántica"]
-        CHUNK["📦 Hierarchical Chunker\nJSON atómico por artículo\n(normativas_chunks/)"]
-        EMB["⚡ granite_embedder.py\nIBM Granite Embedding R2\n768 dimensiones / GPU"]
-        VAL --> CHUNK --> EMB
+    subgraph VECTOR["🧠 Vectorización Semántica & Hardware"]
+        HW["⚡ gpu_detector.py\nSelector de Cómputo:\nAMD RX 580 DirectML / ROCm | CUDA | CPU"]
+        EMB["🧠 granite_embedder.py\nIBM Granite Embedding R2\n768 dimensiones"]
+        VAL --> HW --> EMB
     end
 
-    subgraph RAG["🏦 Fase 5 — Explotación RAG"]
-        IDX["🔎 opensearch_indexer.py\nBM25 + Coseno + RRF\n+ Cross-Encoder Reranker"]
-        GUARD["🛡️ granite_guardian_guardrail.py\nAnti-alucinación + Anti-inyección\nSemáforo 🟢🟡🔴"]
-        LLM["🤖 IBM Granite 3.3 8B\nInferencia Jurídica\ntemp=0.0 | seed=42"]
-        EMB --> IDX
-        IDX -->|"Top-K contexto\nrelevante"| LLM
-        LLM --> GUARD
-        GUARD -->|"Respuesta verificada\ny citada"| RESP["⚖️ Dictamen Legal\ncon Artículos Citados"]
-    end
-
-    subgraph PERSIST["☁️ Fase 6 — Persistencia"]
-        DRIVE["☁️ Google Drive\nRespaldo automático"]
-        RAGFLOW["🏛️ RAGFlow / OpenSearch\nExportación JSONL"]
-        AUDIT["📋 audit_trail.jsonl\nRegistro inmutable SHA-256"]
-        EMB --> DRIVE
-        CHUNK --> RAGFLOW
-        GUARD --> AUDIT
+    subgraph CLOUD["☁️ Despliegue Multicloud & Persistencia"]
+        LOCAL["💻 Local: orquestador.py (Rich CLI)"]
+        COLAB["☁️ Google Colab (GPU T4 + GDrive)"]
+        ORACLE["🏢 Oracle Cloud ARM (Ampere A1)"]
+        IBM["🏛️ IBM Cloud (Code Engine + COS)"]
+        AUDIT["📋 audit_trail.jsonl (Forense Inmutable)"]
+        RAGFLOW["📦 normativas_chunks/ (JSON para RAGFlow)"]
+        
+        EMB --> LOCAL
+        EMB --> COLAB
+        EMB --> ORACLE
+        EMB --> IBM
+        EMB --> AUDIT
+        EMB --> RAGFLOW
     end
 
     classDef phase1 fill:#0d1117,stroke:#58a6ff,color:#f0f6fc
@@ -153,7 +163,6 @@ flowchart TB
     classDef phase3 fill:#0d1117,stroke:#ff6b6b,color:#f0f6fc
     classDef phase4 fill:#0d1117,stroke:#7b3fe4,color:#f0f6fc
     classDef phase5 fill:#0d1117,stroke:#00ff41,color:#f0f6fc
-    classDef phase6 fill:#0d1117,stroke:#8b949e,color:#f0f6fc
 ```
 
 ---
@@ -162,177 +171,170 @@ flowchart TB
 
 | Capa | Tecnología | Versión | Propósito |
 |:-----|:-----------|:--------|:----------|
-| **Motor OCR** | IBM Docling | ≥2.111.0 | Extracción inteligente de PDF: layout, tablas, columnas, OCR |
-| **Motor de IA** | IBM Granite 3.3 8B Instruct | GGUF | Inferencia jurídica con temperatura cero y corpus cerrado |
-| **Embeddings** | IBM Granite Embedding R2 | 311M Multilingual | Vectores densos de 768 dimensiones por artículo normativo |
-| **Guardrails** | IBM Granite Guardian | 8B Dense | Detección de alucinaciones, inyecciones y desanclaje |
-| **Backend API** | FastAPI + Uvicorn | ≥0.110 | API REST de alto rendimiento con streaming de logs |
-| **Interfaz Web** | HTML5 + CSS3 + Vanilla JS | — | Centro de control Dark Mode con Drag & Drop y RAG chat |
-| **Búsqueda Híbrida** | BM25 + Coseno NumPy + RRF | — | Fusión de búsqueda léxica y semántica con reranking |
-| **Grafo RAG** | LightRAG (HKU) | ≥1.0 | Extracción de entidades y relaciones jurídicas |
-| **Validación PDF** | PyMuPDF (fitz) + pypdf | ≥1.28 | Extracción directa para doble validación cruzada |
-| **Lenguaje** | Python | 3.12 | Tipado estricto, type hints, manejo exhaustivo de errores |
-| **Orquestador** | Batch Script (.bat) | CMD | Menú interactivo nativo Windows con colores ANSI |
-| **CI/CD** | GitHub Actions | v4 | Validación automática de sintaxis, notebook y configuración |
-| **Aceleración GPU** | Google Colab | T4 / A100 | Procesamiento masivo con CUDA gratuito |
-| **Criptografía** | SHA-256 (hashlib) | — | Cadena de custodia e integridad forense documental |
+| **Lenguaje Base** | Python | 3.11 / 3.12 | Tipado estático, type hints, manejo riguroso de excepciones |
+| **CLI / Terminal** | Rich | ≥13.7.0 | Tablas dinámicas, barras de progreso y colores ANSI profesionales |
+| **Motor OCR/Layout** | IBM Docling | ≥2.111.0 | Extracción documental avanzada de PDFs escaneados y tablas |
+| **Inferencia LLM** | IBM Granite 3.3 8B Instruct | GGUF | Inferencia jurídica determinística (`temp=0.0`, `seed=42`) |
+| **Embeddings** | IBM Granite Embedding R2 | 311M Multilingual | Vectores semánticos de 768 dimensiones por artículo normativo |
+| **Guardrails** | IBM Granite Guardian | 8B Dense | Detección de alucinación, desanclaje e inyección de prompts |
+| **Aceleración AMD Windows** | `torch-directml` | DirectML | Aceleración DirectX 12 para GPU AMD RX 580 (8GB) |
+| **Aceleración AMD Linux** | ROCm 5.7 (`gfx803`) | Legacy | Compatibilidad para GPU Polaris 20 en Ubuntu |
+| **Aceleración NVIDIA** | PyTorch + CUDA | 12.x | Procesamiento acelerado en Google Colab (GPU T4 / A100) |
+| **Backend API Headless** | FastAPI + Uvicorn | ≥0.110.0 | API REST asíncrona para consultas RAG y streaming de eventos |
+| **Cloud Object Storage** | `ibm-cos-sdk` / OCI SDK | — | Integración para persistencia de datos en IBM Cloud y Oracle |
+| **Forense Criptográfico** | SHA-256 (`hashlib`) | — | Cadena de custodia, verificación de integridad y auditoría |
 
 ---
 
-## 🚀 Inicio Rápido — Local en Windows
+## ⚡ Aceleración de Cómputo (CPU y Multi-GPU)
+
+JullBrain incorpora [`gpu_detector.py`](gpu_detector.py) y [`gpu_config.json`](gpu_config.json) para seleccionar de manera interactiva o automática el mejor dispositivo de cómputo:
+
+```
+[1] CPU                     - Universal (seguro, determinístico, sin dependencias extra)
+[2] AMD RX 580 DirectML     - Windows via DirectX 12 (torch-directml)
+[3] AMD RX 580 ROCm         - Linux via ROCm 5.7 legacy (HSA_OVERRIDE_GFX_VERSION=8.0.3)
+[4] NVIDIA CUDA             - CUDA nativo (Google Colab / Servidores con GPU NVIDIA)
+```
+
+Al iniciar [`orquestador.py`](orquestador.py), el sistema detecta el hardware disponible y ofrece el menú de aceleración para asegurar que el modelo de embeddings y el motor Docling operen a máxima velocidad sin agotar la memoria del sistema.
+
+---
+
+## 🚀 Inicio Rápido — Local en Windows / Linux
 
 ### Requisitos previos
-- **Python 3.12+** instalado y accesible desde PATH
-- **Git** instalado (para sincronización con GitHub)
-- ~4 GB de espacio libre (modelos de Docling + embeddings)
+- **Python 3.11 o 3.12** instalado y añadido al PATH del sistema.
+- **Git** instalado.
+- Mínimo 8 GB de RAM (recomendado 16 GB).
 
-### Instalación y ejecución
+### Instalación en Windows
 
 ```cmd
 :: 1. Clonar el repositorio
 git clone https://github.com/julljoll/JullBrain.git
 cd JullBrain
 
-:: 2. Ejecutar el orquestador (crea el entorno virtual automáticamente)
+:: 2. Crear el entorno virtual e instalar dependencias
+python -m venv docling_env
+call docling_env\Scripts\activate
+pip install -r requirements.txt
+
+:: 3. Iniciar el Orquestador
 orquestador_JullBrain.bat
 ```
 
-El orquestador:
-1. Crea el entorno virtual `docling_env` si no existe
-2. Activa el entorno e instala dependencias
-3. Despliega el menú interactivo:
+> **Nota sobre `orquestador_JullBrain.bat`:** En la versión 3.0, el archivo `.bat` actúa exclusivamente como un lanzador nativo de 20 líneas que activa el entorno `docling_env` y delega la ejecución completa a `python orquestador.py`.
 
-```
-  SELECCIONE UNA OPCION DEL CENTRO DE OPERACIONES:
-
-    [1] Iniciar Centro de Control Web (HTML5/CSS3) - http://localhost:8050
-    [2] Conversión Completa con IBM Docling (Ingesta + Legalizer + Metadata + QA)
-    [3] Verificación QA Cruzada (Validador Cruzado PDF vs MD)
-    [4] Solo Post-Procesado Legal (Legalizer + Frontmatter YAML)
-    [5] Generar / Verificar Embeddings Semánticos con Granite R2 (768-dim)
-    [6] Ejecutar Suite de QA Testing Offline (Air-Gapped)
-    [7] Purgar Caché Temporal y Resetear Memoria
-    [8] Sincronizar con GitHub (git pull origin main)
-    [9] Abrir Google Colab en Navegador (GPU Acelerada)
-    [0] Salir
-```
-
-### Ejecución directa por línea de comandos
-
-```cmd
-:: Iniciar servidor web sin menú interactivo
-orquestador_JullBrain.bat --web
-
-:: Conversión completa directa
-orquestador_JullBrain.bat --full
-
-:: Sincronizar con GitHub
-orquestador_JullBrain.bat --sync
-```
-
-### Uso manual (Linux / Mac / Terminal avanzado)
+### Instalación en Linux / macOS
 
 ```bash
 # 1. Crear y activar entorno virtual
-python -m venv docling_env
-source docling_env/bin/activate          # Windows: docling_env\Scripts\activate
+python3 -m venv docling_env
+source docling_env/bin/activate
 
 # 2. Instalar dependencias
 pip install -r requirements.txt
 
-# 3. Procesar leyes
-python convert_normativas.py             # Conversión completa
-python convert_normativas.py --post-process-only  # Solo post-procesado legal
-
-# 4. Validar integridad
-python validator.py
-
-# 5. Generar embeddings
-python granite_embedder.py
-
-# 6. Iniciar servidor web
-python -m uvicorn app:app --host 127.0.0.1 --port 8050
+# 3. Iniciar el orquestador Python
+python orquestador.py
 ```
 
 ---
 
-## ☁️ Inicio Rápido — Google Colab con GPU
+## 🖥️ Menú del Orquestador Terminal Interactivo
 
-Para procesar leyes pesadas (Constitución, COPP, códigos orgánicos) sin consumir recursos de tu máquina local:
+Al ejecutar `python orquestador.py`, se despliega la consola interactiva `rich`:
 
-### Paso 1 — Abrir el Cuaderno
-Haz clic en el botón:
+```text
+=========================================================================================
+  JullBrain V3.0 — CENTRO DE CONTROL LEGAL-RAG (100% PYTHON)
+=========================================================================================
+  SELECCIONE UNA OPCION DEL CENTRO DE OPERACIONES JULLBRAIN:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/julljoll/JullBrain/blob/main/JullBrain_Colab.ipynb)
-
-### Paso 2 — Activar la GPU
-En Google Colab: `Entorno de ejecución` → `Cambiar tipo de entorno de ejecución` → **GPU T4**
-
-### Paso 3 — Ejecutar Todo
-Presiona `Ctrl + F9` (*Ejecutar todo*). El cuaderno realizará automáticamente:
-
-1. ⚙️ Diagnóstico de GPU (VRAM, CUDA, modelo detectado)
-2. 🔄 Clonación / actualización del repositorio desde GitHub
-3. 📦 Instalación de `requirements_colab.txt` optimizado para Colab
-4. ☁️ Montaje de Google Drive (opcional, para persistir PDFs y resultados)
-5. 🔍 Inspección del corpus jurídico disponible
-6. 🏛️ Conversión completa con IBM Docling en GPU
-7. ⚖️ Control de jerarquía legal con Legalizer
-8. 🔬 Doble validación cruzada forense
-9. 🧠 Vectorización con IBM Granite Embedding R2 en CUDA
-10. 🔐 Generación de manifiesto criptográfico SHA-256
-11. ☁️ Respaldo automático de resultados en Google Drive
-12. 📤 Exportación en formato `.jsonl` para RAGFlow
-
-### Dónde colocar los PDFs de leyes
-
-Opción A — **Google Drive** (recomendado para Colab):
-```
-Mi unidad/JullBrain/leyes_pdf/
-├── Penal/
-│   ├── copp.pdf
-│   └── ley-contra-delitos-informaticos.pdf
-├── Civil/
-│   └── codigo-civil.pdf
-└── Constitucion/
-    └── constitucion-rbv-1999.pdf
+    [1] Ver Estado de Archivos Normativos (Tabla RAG de Conversión)
+    [2] Convertir UN Archivo Específico (Modo Seguro - 1 por vez)
+    [3] Convertir Todos los Archivos Pendientes (Procesamiento Secuencial Seguro)
+    [4] Verificación QA de Integridad Cruzada (Validador Cruzado PDF vs MD)
+    [5] Generar / Verificar Embeddings Semánticos con Granite R2 (Vectores 768-dim)
+    [6] Solo Post-Procesado Legal (Legalizer + Frontmatter YAML)
+    [7] Ejecutar Suite Exhaustiva de QA Testing Offline (Air-Gapped)
+    [8] Purgar Caché Temporal y Resetear Memoria RAM
+    [9] Ver Registro Forense de Auditoría (audit_trail.jsonl)
+    [0] Salir
+=========================================================================================
 ```
 
-Opción B — **Carpeta local** (para modo offline):
-```
-JullBrain/RAG/datos_brutos/
-├── Penal/
-├── Civil/
-├── Constitucion/
-└── ...
+### Ejecución Directa por Banderas CLI
+
+Para entornos de scripting, CI/CD o automatización:
+
+```bash
+python orquestador.py --single-file "RAG/datos_brutos/Penal/copp.pdf"  # Modo seguro un solo archivo
+python orquestador.py --full                                          # Procesa todos los pendientes
+python orquestador.py --qa                                            # Verificación cruzada PDF vs MD
+python orquestador.py --embed                                         # Genera embeddings Granite R2
+python orquestador.py --post                                          # Ejecuta post-procesado legal
+python orquestador.py --test                                          # Ejecuta suite unitaria de 24 tests
+python orquestador.py --clean                                         # Limpia caché y memoria
+python orquestador.py --audit                                         # Muestra el log forense
+python orquestador.py --web                                           # Inicia servidor FastAPI en puerto 8050
 ```
 
 ---
 
-## 🔄 Sincronización Automática GitHub ↔ Colab
+## ☁️ Despliegue Multicloud
+
+JullBrain V3.0 está optimizado para ejecutarse sin fricción en múltiples nubes:
+
+### 1. Google Colab (GPU NVIDIA T4)
+Diseñado para la conversión masiva de normativas pesadas (Constitución, Códigos Orgánicos) aprovechando la GPU NVIDIA gratuita:
+- **Notebook:** [`JullBrain_Colab.ipynb`](JullBrain_Colab.ipynb) (15 celdas estructuradas).
+- **Dependencias:** [`requirements_colab.txt`](requirements_colab.txt).
+- **Persistencia:** Montaje automático opcional en Google Drive.
+- **Acceso Directo:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/julljoll/JullBrain/blob/main/JullBrain_Colab.ipynb)
+
+### 2. Oracle Cloud Free Tier (ARM Ampere A1)
+Aprovecha las 4 OCPU y 24 GB de memoria RAM de la capa gratuita de Oracle Cloud en arquitectura `aarch64` (Ubuntu 22.04):
+- **Script de Despliegue:** [`deploy_oracle.sh`](deploy_oracle.sh) (instala librerías del sistema, crea servicio `systemd` y configura `uvicorn`).
+- **Dependencias:** [`requirements_oracle.txt`](requirements_oracle.txt).
+- **Configuración:** [`oracle_config.json`](oracle_config.json).
+- **Instalación rápida en la instancia Oracle:**
+  ```bash
+  git clone https://github.com/julljoll/JullBrain.git
+  cd JullBrain
+  chmod +x deploy_oracle.sh
+  ./deploy_oracle.sh
+  ```
+
+### 3. IBM Cloud Serverless (Code Engine + COS)
+Despliegue contenerizado serverless en **IBM Cloud Code Engine** con almacenamiento en **IBM Cloud Object Storage (COS)**:
+- **Dockerfile:** [`Dockerfile`](Dockerfile) optimizado multi-etapa sobre `python:3.11-slim`.
+- **Script de Despliegue:** [`deploy_ibmcloud.sh`](deploy_ibmcloud.sh) (compila la imagen y la publica en IBM Cloud Container Registry).
+- **Dependencias:** [`requirements_ibmcloud.txt`](requirements_ibmcloud.txt) (incluye `ibm-cos-sdk`).
+- **Configuración:** [`ibmcloud_config.json`](ibmcloud_config.json).
+
+---
+
+## 🔄 Sincronización Automática GitHub ↔ Multicloud
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │                                                                  │
-│  🖥️ PC Local                      ☁️ Google Colab                │
-│  ──────────                      ─────────────                   │
-│  Editas código                   El Colab ejecuta al inicio:     │
-│       ↓                          !git pull origin main            │
-│  git push origin main            → Siempre tiene la última       │
-│       ↓                            versión del código             │
-│  GitHub Actions CI               → Procesa leyes con GPU         │
-│  (Validación automática)         → Guarda en Google Drive        │
-│       ↓                                                          │
-│  ✅ Badge "passing"                                              │
+│  💻 PC Local (Windows/Linux)      ☁️ Google Colab / Oracle / IBM │
+│  ────────────────────────────     ─────────────────────────────  │
+│  Trabajas o editas normativas     Al inicializar ejecutan:       │
+│               ↓                   !git pull origin main          │
+│  git push origin <rama>           → Obtienen el código y los     │
+│               ↓                     manifiestos actualizados     │
+│  GitHub Actions CI (colab_sync)   → Procesan con GPU / ARM       │
+│               ↓                   → Almacenan en Cloud Storage   │
+│  ✅ Validación y Merge                                           │
 │                                                                  │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
-**GitHub Actions** ejecuta en cada push a `main`:
-- Compilación de todos los módulos Python (13 archivos `.py`)
-- Validación del notebook Colab (≥15 celdas, estructura correcta)
-- Verificación de `pipeline_config.json` y `colab_config.json`
-- Linting semanal y ejecución de suite de tests QA
+El flujo de trabajo [`.github/workflows/colab_sync.yml`](.github/workflows/colab_sync.yml) valida sintaxis de los scripts Python, integridad del cuaderno Colab y coherencia de las configuraciones JSON en cada push.
 
 ---
 
@@ -341,238 +343,190 @@ JullBrain/RAG/datos_brutos/
 ```
 JullBrain/
 │
-├── 🚀 ENTRYPOINTS
-│   ├── orquestador_JullBrain.bat      # Lanzador nativo Windows (menú interactivo 9 opciones)
-│   ├── app.py                         # Backend FastAPI + Servidor Web (http://localhost:8050)
-│   └── JullBrain_Colab.ipynb          # Cuaderno Google Colab (15 secciones, GPU optimizado)
+├── 🚀 ORQUESTACIÓN & ENTRYPOINTS
+│   ├── orquestador.py                 # Orquestador terminal 100% Python con rich (622 líneas)
+│   ├── orquestador_JullBrain.bat      # Lanzador nativo Windows ultra-ligero (≤20 líneas)
+│   ├── app.py                         # Backend FastAPI headless para consultas RAG y endpoints
+│   ├── JullBrain_Colab.ipynb          # Cuaderno Google Colab con aceleración GPU NVIDIA
+│   ├── gpu_detector.py                # Detector y selector de hardware (CPU / AMD DirectML / ROCm / CUDA)
+│   └── gpu_config.json                # Configuración de dispositivos de aceleración
 │
-├── ⚖️ PIPELINE DE TRANSFORMACIÓN LEGAL
-│   ├── convert_normativas.py          # Ingesta con IBM Docling + Hierarchical Chunking (813 líneas)
-│   ├── legalizer.py                   # Jerarquía legal venezolana: Libro/Título/Cap./Art. (387 líneas)
+├── ⚖️ PIPELINE DE TRANSFORMACIÓN LEGAL FORENSE
+│   ├── convert_normativas.py          # Ingesta IBM Docling + Hierarchical Chunking (830 líneas)
+│   ├── legalizer.py                   # Jerarquía formal venezolana: Libro/Título/Cap./Art. (387 líneas)
 │   ├── metadata_extractor.py          # Extracción YAML Frontmatter + Gaceta Oficial + SHA-256
 │   └── validator.py                   # Doble validación cruzada PDF vs MD (Principio Error Cero)
 │
 ├── 🧠 MOTOR DE EMBEDDINGS Y BÚSQUEDA
-│   ├── granite_embedder.py            # IBM Granite Embedding R2 (768-dim, sentence-transformers)
+│   ├── granite_embedder.py            # IBM Granite Embedding R2 (768 dimensiones, sentence-transformers)
 │   ├── opensearch_indexer.py          # Motor Híbrido: BM25 + Coseno + RRF + Cross-Encoder Reranker
-│   └── lightrag_integration.py        # GraphRAG: entidades y relaciones jurídicas con LightRAG
+│   └── lightrag_integration.py        # GraphRAG: extracción de entidades y relaciones jurídicas
 │
-├── 🛡️ SEGURIDAD Y AUDITORÍA
-│   ├── granite_guardian_guardrail.py   # Guardrails anti-alucinación con IBM Granite Guardian
-│   ├── audit_logger.py                # Registro inmutable JSONL con firmas SHA-256
+├── 🛡️ SEGURIDAD, AUDITORÍA Y FORENSE
+│   ├── granite_guardian_guardrail.py   # Guardrails anti-alucinación IBM Granite Guardian
+│   ├── audit_logger.py                # Logger de eventos forenses criptográficos
+│   ├── audit_trail.jsonl              # Registro inmutable append-only con hashes SHA-256
 │   └── notebook_manager.py            # Gestor de expedientes aislados con hash criptográfico
 │
-├── 🌐 INTERFAZ WEB
-│   └── web/
-│       ├── index.html                 # Centro de control: dashboard, subida, chat RAG
-│       ├── styles.css                 # Diseño Dark Mode cyber-legal (15K líneas CSS)
-│       └── app.js                     # Cliente JS: SHA-256 en browser, streaming de logs
-│
-├── ☁️ GOOGLE COLAB & CI/CD
-│   ├── colab_runner.py                # Motor de ejecución unificado para Colab
-│   ├── colab_config.json              # Configuración: Google Drive, GPU, batch sizes
+├── ☁️ MULTICLOUD & DESPLIEGUE
+│   ├── deploy_oracle.sh               # Script de aprovisionamiento para Oracle Cloud ARM
+│   ├── oracle_config.json             # Configuración de servidor y Object Storage en OCI
+│   ├── requirements_oracle.txt        # Dependencias optimizadas para ARM aarch64
+│   ├── deploy_ibmcloud.sh             # Script de despliegue para IBM Cloud Code Engine
+│   ├── ibmcloud_config.json           # Configuración serverless y Cloud Object Storage (COS)
+│   ├── requirements_ibmcloud.txt      # Dependencias para contenedor IBM Cloud (ibm-cos-sdk)
+│   ├── Dockerfile                     # Imagen contenedor optimizada para Code Engine
+│   ├── colab_runner.py                # Motor de ejecución unificado para Google Colab
+│   ├── colab_config.json              # Configuración de carpetas y GPU en Colab
 │   ├── requirements_colab.txt         # Dependencias optimizadas para Colab CUDA
-│   ├── sincronizar_resultados.py      # Herramienta de sync local ↔ GitHub ↔ Colab
-│   └── .github/workflows/
-│       ├── colab_sync.yml             # CI: validación de pipeline + notebook en cada push
-│       └── ci_quality.yml             # QA semanal: linting + tests de integridad
+│   └── sincronizar_resultados.py      # Utilidad de sincronización local ↔ GitHub ↔ Cloud
 │
-├── 🔌 INTEGRACIONES
-│   ├── openwebui_pipeline.py          # Pipeline compatible con Open WebUI API
-│   ├── db_schema.sql                  # Esquema PostgreSQL para producción enterprise
-│   └── pipeline_config.json           # Configuración central persistente (Granite, RAG, GPU)
+├── 📄 DATOS JURÍDICOS (CORPUS RAG)
+│   ├── RAG/datos_brutos/              # PDFs originales clasificados por materia (137+ documentos)
+│   │   ├── Penal/                     # COPP, Ley contra Delitos Informáticos, etc.
+│   │   ├── Civil/                     # Código Civil, Código de Procedimiento Civil, etc.
+│   │   ├── Constitucion/              # CRBV 1999 con enmiendas
+│   │   └── Desiciones TSJ 2026/       # Sentencias vinculantes de la Sala Constitucional
+│   ├── RAG/Informacion_docling_rag/   # Markdown estructurado post-procesado con YAML
+│   └── normativas_chunks/             # Chunks atómicos JSON por artículo para RAGFlow
 │
-├── 🧪 TESTING
+├── 🧪 PRUEBAS Y CONTROL DE CALIDAD
 │   └── tests/
-│       ├── test_qa_offline.py         # 14 pruebas: jerarquía, hashes, búsqueda, guardrail
+│       ├── test_qa_offline.py         # 14 pruebas de integridad, jerarquía, hashes y guardrails
 │       ├── test_unit.py               # Pruebas unitarias de endpoints y almacenamiento
-│       └── test_integration.py        # Pruebas de integración del pipeline RAG completo
+│       └── test_integration.py        # Pruebas de integración del pipeline completo
 │
-├── 📚 DOCUMENTACIÓN
-│   └── docs/
-│       ├── ARCHITECTURE.md            # Arquitectura técnica del sistema
-│       ├── FLUJO_COLAB.md             # Guía paso a paso para Google Colab
-│       ├── USER_MANUAL.md             # Manual de usuario final
-│       ├── TECHNICAL_MANUAL.md        # Manual técnico de módulos
-│       └── *.svg                      # Diagramas UML y de flujo del pipeline
+├── 🗄️ ARCHIVO HISTÓRICO (LEGACY)
+│   └── _archivo_historico/            # Archivos preservados para referencia histórica
+│       ├── web_legacy/                # Interfaz web HTML5/CSS3 original
+│       ├── gui_legacy.py              # Interfaz gráfica de escritorio Tkinter original
+│       ├── JullBrain_legacy.spec      # Especificación PyInstaller legacy
+│       └── db_schema_legacy.sql       # Esquema SQL relacional antiguo
 │
-├── 📄 DATOS
-│   ├── RAG/datos_brutos/              # PDFs de leyes organizados por materia (137+ leyes)
-│   ├── normativas_rag/                # Markdown estructurado post-procesado
-│   └── normativas_chunks/             # JSON atómico por artículo (chunks jerárquicos)
-│
-├── requirements.txt                   # Dependencias Python para entorno local
-├── requirements.lock.txt              # Versiones exactas bloqueadas
-└── LICENSE                            # Apache License 2.0
+├── .env.example                       # Plantilla de variables de entorno (OCI, IBM, Salts)
+├── pipeline_config.json               # Configuración central del pipeline RAG
+├── requirements.txt                   # Dependencias para entorno local
+└── LICENSE                            # Licencia Apache 2.0
 ```
 
 ---
 
 ## 📦 Descripción de Módulos
 
-### `convert_normativas.py` — Motor de Ingesta Principal
-Orquesta la conversión de documentos PDF a Markdown estructurado usando IBM Docling. Soporta procesamiento por lotes con caché SHA-256 inteligente (no re-procesa PDFs sin cambios). Incluye soporte para:
-- PDFs escaneados (OCR automático)
-- Documentos con tablas complejas
-- Archivos `.doc` heredados (conversión automática vía Word COM)
-- Procesamiento en subprocesos para archivos pesados (>100 páginas)
+### `orquestador.py` — Centro de Mando 100% Python
+Sustituye la complejidad de scripts de consola por una aplicación modular en Python. Se encarga de:
+- Escanear el corpus en tiempo real y mostrar tablas de estado con `rich`.
+- Gestionar la inicialización del hardware (CPU, AMD DirectML, ROCm, CUDA).
+- Convertir en modo seguro (1 archivo a la vez) preservando la inmutabilidad documental mediante verificación SHA-256 pre y post conversión.
+- Asentar entradas de auditoría forense inmutable en `audit_trail.jsonl`.
 
-### `legalizer.py` — Post-Procesador Jerárquico Legal
-Toma el Markdown crudo de Docling y aplica la jerarquía formal del derecho venezolano:
-```
-LIBRO > TÍTULO > CAPÍTULO > SECCIÓN > Artículo > Parágrafo
-```
-- Normaliza variantes de marcadores: `Art.`, `Artículo`, `ARTICULO`, `Art. N°`
-- Expande rangos derogados: `Artículos 6 al 10` → 5 artículos individuales marcados como derogados
-- Elimina ruido de OCR (cuadros ilegibles, números de página)
-- Repara palabras partidas por salto de línea (`constitu-\nción` → `constitución`)
-- Detecta automáticamente el tipo de instrumento legal (Constitución, Código, Ley Orgánica, etc.)
+### `convert_normativas.py` — Motor de Ingesta con IBM Docling
+Realiza la conversión de PDFs legales a Markdown estructurado:
+- Soporta PDFs escaneados aplicando OCR inteligente.
+- Maneja documentos con columnas múltiples y tablas complejas.
+- Divide artículos en chunks atómicos jerárquicos en formato JSON listos para RAGFlow.
 
-### `metadata_extractor.py` — Extractor de Metadatos Semánticos
-Genera un bloque YAML frontmatter al inicio de cada Markdown con:
-- Título oficial del instrumento
-- Número de Gaceta Oficial
-- Fecha de publicación (detección automática de fechas en español)
-- Tipo de instrumento jurídico
-- Hash SHA-256 del PDF original
-- Conteo de artículos detectados
+### `legalizer.py` — Estructuración de Jerarquía Normativa
+Aplica la técnica legislativa venezolana sobre el Markdown generado:
+- Normaliza marcadores (`Artículo 1°`, `Art. 1`, `ARTICULO`).
+- Expande rangos derogados (`Artículos 4 al 8` → 5 artículos individuales catalogados como derogados).
+- Reconstruye palabras rotas por saltos de línea de OCR y elimina encabezados/pies repetitivos.
 
-### `validator.py` — Validador de Integridad con Doble Verificación Cruzada
-Implementa el **Principio de Error Cero** mediante dos métodos independientes:
-1. **Método A:** Conteo de artículos por regex sobre el Markdown generado
-2. **Método B:** Extracción directa del PDF original con PyMuPDF
-
-Si ambos conteos coinciden → ✅ Artículo verificado. Si difieren → ⚠️ Anomalía reportada para revisión humana.
+### `validator.py` — Validador Forense de Error Cero
+Compara mediante dos algoritmos independientes:
+1. Conteo de artículos por expresiones regulares sobre el Markdown generado.
+2. Extracción directa del PDF original utilizando **PyMuPDF (`fitz`)**.
+Si los números difieren, emite una alerta forense para auditoría humana antes de permitir la indexación.
 
 ### `granite_embedder.py` — Motor de Embeddings Semánticos
-Genera vectores densos de 768 dimensiones usando `ibm-granite/granite-embedding-311m-multilingual-r2`:
-- Backend primario: `sentence-transformers` (local, sin internet)
-- Backend fallback: API de Ollama (HTTP local)
-- Soporte GPU CUDA con media precisión (FP16) en Colab
-- Modo batch configurable (32 en CPU, 64 en GPU)
+Vectoriza los chunks normativos generando embeddings de 768 dimensiones con `ibm-granite/granite-embedding-311m-multilingual-r2`. Soporta ejecución local vía `sentence-transformers` o mediante API de Ollama.
 
-### `opensearch_indexer.py` — Motor de Búsqueda Híbrida
-Implementa un pipeline de recuperación de 4 etapas:
-1. **BM25** — Búsqueda léxica tokenizada en español
-2. **Similitud Coseno** — Búsqueda vectorial con NumPy
-3. **Fusión RRF** — Reciprocal Rank Fusion de ambos resultados
-4. **Cross-Encoder Reranker** — Re-ordenamiento final por relevancia semántica
-
-Funciona 100% offline en memoria/disco, sin requerir un clúster OpenSearch externo.
-
-### `granite_guardian_guardrail.py` — Guardrails de Seguridad
-Audita cada consulta y respuesta del sistema:
-- **Prompt Safety:** Detecta inyecciones, manipulaciones y consultas fuera de contexto jurídico
-- **Groundedness:** Verifica que la respuesta esté anclada al corpus normativo
-- **Semáforo de Confianza:**
-  - 🟢 **ANCLADO** — La respuesta está respaldada por artículos verificables
-  - 🟡 **REVISIÓN HUMANA** — Hallazgos ambiguos que requieren validación
-  - 🔴 **DESANCLADO** — Riesgo de alucinación detectado, respuesta bloqueada
+### `granite_guardian_guardrail.py` — Guardrails Anti-Alucinación
+Audita consultas y respuestas jurídicas:
+- Verifica anclaje normativo estricto (*groundedness*).
+- Bloquea intentos de manipulación o inyección de prompt.
+- Retorna el semáforo de confianza jurídica: 🟢 Anclado, 🟡 Revisión Humana, 🔴 Desanclado.
 
 ---
 
-## 🌐 API REST y Endpoints
+## 🌐 API REST y Endpoints Headless
 
-El servidor se levanta en `http://localhost:8050` con FastAPI:
+FastAPI proporciona una capa de servicio headless en `http://localhost:8050`:
 
 | Método | Endpoint | Descripción |
 |:-------|:---------|:------------|
-| `GET` | `/` | Interfaz Web HTML5 (o JSON si `Accept: application/json`) |
-| `GET` | `/health` | Estado de salud de todos los componentes del backend |
-| `POST` | `/api/v1/query` | Consulta RAG: envía pregunta jurídica, recibe respuesta con citas |
-| `POST` | `/api/v1/upload` | Subida de documentos PDF con cálculo SHA-256 |
-| `POST` | `/api/v1/pipeline/action` | Dispara acciones del pipeline en segundo plano |
-| `GET` | `/api/v1/pipeline/logs` | Streaming de logs del pipeline en tiempo real |
-| `POST` | `/api/v1/notebooks` | Crear nuevo expediente / cuaderno jurídico aislado |
-| `GET` | `/api/v1/notebooks` | Listar todos los expedientes con metadatos |
-
-### Ejemplo de Consulta RAG
-
-```bash
-curl -X POST http://localhost:8050/api/v1/query \
-  -H "Content-Type: application/json" \
-  -d '{
-    "notebook_id": "default_notebook",
-    "user_message": "¿Cuáles son las garantías del debido proceso según la Constitución?",
-    "top_k": 5
-  }'
-```
+| `GET` | `/health` | Chequeo de salud del backend, modelos de embeddings y guardrails |
+| `POST` | `/api/v1/query` | Consulta RAG jurídica: recibe pregunta, retorna respuesta fundamentada con citas |
+| `POST` | `/api/v1/upload` | Carga de nuevo documento con cálculo previo de hash SHA-256 |
+| `POST` | `/api/v1/pipeline/action` | Disparo asíncrono de acciones del pipeline (conversión, post-proceso, embeddings) |
+| `GET` | `/api/v1/pipeline/logs` | Streaming Server-Sent Events (SSE) de logs en tiempo real |
+| `POST` | `/api/v1/notebooks` | Creación de cuadernos/expedientes jurídicos aislados con firma digital |
+| `GET` | `/api/v1/notebooks` | Listado de expedientes con metadatos de custodia |
 
 ---
 
-## 🧪 Control de Calidad Forense (QA)
+## 🧪 Control de Calidad Forense (QA) y Auditoría Inmutable
 
-### Ejecutar suite completa de pruebas
-
+### Ejecución de Pruebas Unitarias e Integración
 ```bash
-python -m unittest discover tests
+python -m unittest discover tests -v
 ```
 
-La suite incluye **24 pruebas** que certifican:
+La suite certifica **24 pruebas** que validan:
+- **Jerarquía y Chunking:** Verificación de artículos del COPP y Constitución sin solapamiento.
+- **Inmutabilidad Criptográfica:** Consistencia de hashes SHA-256 pre y post extracción.
+- **Búsqueda Híbrida:** Funcionamiento de BM25 + Similitud Coseno + Fusión RRF.
+- **Abstención Obligatoria:** Capacidad del sistema de responder "Normativa no localizada" ante preguntas fuera de corpus sin inventar citas.
+- **Air-Gapped:** Verificación de ausencia de peticiones de red salientes durante la inferencia.
 
-| Categoría | Prueba | Verificación |
-|:----------|:-------|:-------------|
-| Jerarquía Legal | `test_article_hierarchy` | Separación atómica de artículos del COPP |
-| Integridad Hash | `test_sha256_consistency` | SHA-256 estable entre ejecuciones |
-| Búsqueda Híbrida | `test_local_hybrid_search` | BM25 + Coseno + RRF retorna resultados correctos |
-| Anti-Alucinación | `test_guardian_blocking` | Bloqueo de respuestas sin anclaje normativo |
-| Air-Gapped | `test_no_outbound_network` | Verificación de cero peticiones salientes |
-| Abstención | `test_explicit_abstention` | El sistema dice "no encontrado" cuando corresponde |
-| Expedientes | `test_notebook_crud_sha256` | CRUD de cuadernos con integridad SHA-256 |
-| API REST | `test_health_endpoint` | Endpoint `/health` retorna estado correcto |
-
-### Herramienta de verificación forense
-
-```bash
-# Ver estado general del ecosistema
-python sincronizar_resultados.py --status
-
-# Generar manifiesto criptográfico SHA-256
-python sincronizar_resultados.py --manifiesto
-
-# Verificar integridad contra manifiesto previo
-python sincronizar_resultados.py --verificar
-```
-
----
-
-## ⚙️ Configuración Avanzada
-
-### `pipeline_config.json` — Configuración Central
-
-```jsonc
+### Inspección del Registro de Auditoría
+El archivo [`audit_trail.jsonl`](audit_trail.jsonl) registra en formato JSON Lines cada conversión con:
+```json
 {
-  // Motor de inferencia IBM Granite
-  "granite_model": "ibm-granite/granite-3.3-8b-instruct-GGUF",
-  "granite_temperature": 0.0,           // Cero varianza para inferencia jurídica
-  "granite_fixed_seed": 42,             // Reproducibilidad determinística
-
-  // Motor de embeddings
-  "ragflow_embedding_model": "ibm-granite/granite-embedding-311m-multilingual-r2",
-  "embedding_backend": "sentence-transformers",  // o "ollama"
-  "embedding_device": "cpu",            // "cuda" en Colab
-
-  // Perfiles de entorno
-  "entorno_activo": "auto",             // "auto" | "local" | "colab"
-  "colab_profile": { "embedding_device": "cuda", "embedding_batch_size": 64 },
-  "local_profile": { "embedding_device": "cpu", "embedding_batch_size": 32 }
+  "timestamp": "2026-10-23T11:34:09.123456+00:00",
+  "entorno": "local",
+  "backend_gpu": "directml",
+  "archivo": "copp.pdf",
+  "sha256_pdf_antes": "4f693857fe677f4141acce1c14c3ec4c4bf2a73ce869989e5de8931666398abd",
+  "sha256_pdf_despues": "4f693857fe677f4141acce1c14c3ec4c4bf2a73ce869989e5de8931666398abd",
+  "integridad_pdf": "OK",
+  "exito_conversion": true,
+  "duracion_seg": 18.42
 }
 ```
 
-### `colab_config.json` — Configuración de Google Colab
+---
 
+## ⚙️ Configuración Central y Variables de Entorno
+
+### Variables de Entorno (`.env.example`)
+Copie `.env.example` a `.env` para personalizar entornos:
+```bash
+# Entorno activo: local | colab | oracle | ibmcloud
+JULLBRAIN_ENV=local
+
+# Sales criptográficas para auditoría forense
+JULLBRAIN_AUDIT_SALT=EnterpriseLegalRAG_2026_Salt
+JULLBRAIN_NOTEBOOK_SALT=JullBrain_Legal_Salt_2026
+
+# Oracle Cloud Object Storage (opcional)
+ORACLE_OBJECT_STORAGE_BUCKET=jullbrain-rag
+ORACLE_REGION=sa-vinhedo-1
+
+# IBM Cloud COS (opcional)
+# IBM_COS_API_KEY=tu_api_key
+```
+
+### Configuración del Pipeline (`pipeline_config.json`)
 ```jsonc
 {
-  "google_drive": {
-    "montar_automaticamente": true,
-    "ruta_drive_pdfs": "/content/drive/MyDrive/JullBrain/leyes_pdf",
-    "ruta_drive_output": "/content/drive/MyDrive/JullBrain/output_rag"
-  },
-  "gpu": {
-    "detectar_automaticamente": true,
-    "embedding_device": "cuda",
-    "usar_half_precision": true          // FP16 para mayor velocidad en T4
-  }
+  "granite_model": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+  "granite_temperature": 0.0,
+  "granite_fixed_seed": 42,
+  "ragflow_embedding_model": "ibm-granite/granite-embedding-311m-multilingual-r2",
+  "embedding_backend": "sentence-transformers",
+  "embedding_device": "cpu",
+  "entorno_activo": "auto"
 }
 ```
 
@@ -580,40 +534,41 @@ python sincronizar_resultados.py --verificar
 
 ## 🔌 Integraciones Externas
 
-| Plataforma | Módulo | Estado |
-|:-----------|:-------|:-------|
-| **RAGFlow** | Exportación JSONL por chunks | ✅ Operativo |
-| **Open WebUI** | `openwebui_pipeline.py` (Pipeline API) | ✅ Operativo |
-| **Ollama** | Backend de inferencia y embeddings | ✅ Operativo |
-| **OpenSearch** | Indexación distribuida (opcional) | ⚙️ Configurable |
-| **PostgreSQL + pgvector** | Almacenamiento vectorial SQL (opcional) | ⚙️ Configurable |
-| **LightRAG (HKU)** | Grafo de conocimiento jurídico | ✅ Operativo |
+| Ecosistema | Modo de Integración | Estado |
+|:-----------|:--------------------|:-------|
+| **RAGFlow** | Exportación de chunks JSON jerárquicos | ✅ Nativo |
+| **Open WebUI** | Pipeline API compatible (`openwebui_pipeline.py`) | ✅ Operativo |
+| **Ollama** | Endpoint local para Granite 3.3 y embeddings | ✅ Operativo |
+| **OpenSearch** | Motor de búsqueda híbrida distribuida | ⚙️ Configurable |
+| **IBM watsonx.ai** | Inferencia enterprise en la nube | ⚙️ Opcional |
 
 ---
 
-## 🤝 Contribuciones
+## 🗄️ Archivo Histórico (Legacy)
 
-Las contribuciones son bienvenidas bajo los principios del proyecto:
-
-1. **Corpus cerrado y versionado** — No agregar normativas sin control de versión
-2. **Chunking atómico** — Nunca fragmentos que mezclen artículos de normas distintas
-3. **Verificación post-generación** — Toda salida debe pasar por `validator.py`
-4. **Temperatura cero** — Las respuestas jurídicas no toleran varianza creativa
-5. **El sistema acelera, nunca decide** — Ninguna funcionalidad sustituye el criterio humano
+En [`_archivo_historico/`](_archivo_historico/) se preservan los componentes de versiones previas con fines de trazabilidad y compatibilidad:
+- `web_legacy/`: Interfaz web monolítica HTML5/CSS3 previa.
+- `gui_legacy.py`: Interfaz de escritorio desarrollada en Tkinter.
+- `JullBrain_legacy.spec`: Archivo PyInstaller para binarios monolíticos Windows.
+- `db_schema_legacy.sql`: Esquema SQL relacional antiguo para PostgreSQL.
 
 ---
 
-## 👤 Autor
+## 🤝 Contribuciones y Principios Éticos
 
-**Jull Ortiz** — Arquitecto de Datos con y para la Inteligencia Artificial Jurídica
-
-- 🌐 Web: [sha256.us](http://www.sha256.us/)
-- 🏦 Proyecto: [github.com/julljoll/JullBrain](https://github.com/julljoll/JullBrain)
+Las contribuciones se rigen por las directrices del proyecto:
+1. **El sistema acelera, nunca decide ni sustituye el criterio del operador judicial** (Resolución CNJ n.° 332/2020).
+2. **Corpus cerrado y versionado:** Ninguna normativa se agrega sin registro de Gaceta Oficial y hash SHA-256.
+3. **Chunking atómico:** Los artículos no deben mezclarse ni fragmentarse arbitrariamente.
+4. **Cero tolerancia a la alucinación:** Temperatura 0.0 y abstención obligatoria ante falta de respaldo normativo.
 
 ---
 
-## 📄 Licencia
+## 👤 Autor y Licencia
 
-Distribuido bajo la **Licencia Apache 2.0**. Consulte el archivo [LICENSE](LICENSE) para más detalles.
+**Jull Ortiz** — *Arquitecto de Datos con y para la Inteligencia Artificial Jurídica*
+- 🌐 Portal: [sha256.us](http://www.sha256.us/)
+- 🏛️ Repositorio Oficial: [github.com/julljoll/JullBrain](https://github.com/julljoll/JullBrain)
 
-El motor de extracción IBM Docling se distribuye bajo licencia MIT. Los modelos IBM Granite se distribuyen bajo licencia Apache 2.0 por IBM Research.
+Distribuido bajo la **Licencia Apache 2.0**. Consulte [LICENSE](LICENSE) para más detalles.  
+*Los modelos IBM Granite son propiedad de IBM Research bajo licencia Apache 2.0. IBM Docling es distribuido bajo licencia MIT.*
