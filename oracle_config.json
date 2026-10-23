@@ -1,6 +1,6 @@
 {
   "_comment": "Configuración para Oracle Cloud ARM Free Tier (Ampere A1, aarch64, Ubuntu 22.04)",
-  "_version": "1.0.0",
+  "_version": "0.1.0",
   "entorno": "oracle",
   "servidor": {
     "host": "0.0.0.0",

@@ -1,5 +1,5 @@
 """
-sincronizar_resultados.py — JullBrain V3.0
+sincronizar_resultados.py — JullBrain v0.1.0
 ==========================================
 Herramienta de sincronización y trazabilidad forense entre:
   1. Entorno local Windows (orquestador .bat)
@@ -116,7 +116,7 @@ def generar_manifiesto() -> Dict[str, str]:
             total_archivos += 1
 
     payload = {
-        "_version": "3.0.0",
+        "_version": "0.1.0",
         "generado_en": datetime.utcnow().isoformat() + "Z",
         "total_normativas": total_archivos,
         "algoritmo": "SHA-256",
@@ -185,7 +185,7 @@ def mostrar_estado() -> None:
     git_info = obtener_estado_git()
     sep = "=" * 65
     print(sep)
-    print("🏛️ JULLBRAIN V3.0 — ESTADO DEL ECOSISTEMA DE CONOCIMIENTO LEGAL")
+    print("🏛️ JULLBRAIN v0.1.0 — ESTADO DEL ECOSISTEMA DE CONOCIMIENTO LEGAL")
     print(sep)
     print(f" • Repositorio Git  : {'✅ Conectado' if git_info['es_repo_git'] else '❌ Desconectado'}")
     print(f" • Rama activa      : {git_info['rama_actual']}")

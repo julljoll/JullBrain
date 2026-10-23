@@ -1,5 +1,5 @@
 # ══════════════════════════════════════════════════════════════════
-# JullBrain V3.0 — Dependencias para IBM Cloud Code Engine
+# JullBrain v0.1.0 — Dependencias para IBM Cloud Code Engine
 # Imagen Docker python:3.11-slim / CPU (sin CUDA en serverless)
 # ══════════════════════════════════════════════════════════════════
 

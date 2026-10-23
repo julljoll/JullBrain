@@ -27,6 +27,7 @@ from audit_logger import default_audit_logger, AuditLogger
 from notebook_manager import default_notebook_manager, NotebookManager, NotebookIntegrityError
 from opensearch_indexer import default_opensearch_indexer, OpenSearchHybridIndexer
 from granite_guardian_guardrail import default_guardian_guardrail
+from version import __version__
 
 # Logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
@@ -39,14 +40,14 @@ NORMATIVAS_RAG_DIR = BASE_DIR / "normativas_rag"
 
 # Búfer de logs en memoria para streaming en la consola web
 pipeline_logs = deque(maxlen=500)
-pipeline_logs.append(f"[{datetime.now().strftime('%H:%M:%S')}] [INIT] Servidor JullBrain V-2.0 iniciado.")
+pipeline_logs.append(f"[{datetime.now().strftime('%H:%M:%S')}] [INIT] Servidor JullBrain v{__version__} iniciado.")
 pipeline_logs.append(f"[{datetime.now().strftime('%H:%M:%S')}] [OK] Modo 100% Local Offline activo (Air-Gapped).")
 
 # Inicialización de la Aplicación FastAPI
 app = FastAPI(
     title="JullBrain Enterprise Legal Platform API",
     description="Backend API REST y Centro de Control Legal-RAG con IBM Granite e IBM Docling",
-    version="2.0.0"
+    version=__version__
 )
 
 # Habilitar CORS
@@ -146,7 +147,7 @@ def read_root(accept: Optional[str] = Header(None)):
         return {
             "status": "online",
             "system": "JullBrain Enterprise Legal Platform API",
-            "version": "3.0.0",
+            "version": __version__,
             "ui": "Open WebUI Official Interface",
             "mode": "100% Local Offline (Air-Gapped)"
         }
@@ -155,7 +156,7 @@ def read_root(accept: Optional[str] = Header(None)):
     if legacy_index.exists():
         return FileResponse(str(legacy_index))
     from fastapi.responses import HTMLResponse
-    return HTMLResponse("<!DOCTYPE html><html><head><title>JullBrain API</title></head><body><h1>JullBrain V3.0 API</h1></body></html>")
+    return HTMLResponse(f"<!DOCTYPE html><html><head><title>JullBrain API</title></head><body><h1>JullBrain v{__version__} API</h1></body></html>")
 
 
 @app.get("/health")

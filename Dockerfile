@@ -1,11 +1,11 @@
-# Dockerfile — JullBrain V3.0
+# Dockerfile — JullBrain v0.1.0
 # Imagen base: Python 3.11 slim (compatible IBM Code Engine)
 FROM python:3.11-slim
 
 # Metadata
 LABEL maintainer="JullBrain Team"
 LABEL description="JullBrain Legal-RAG Pipeline API — IBM Docling + Granite"
-LABEL version="3.0"
+LABEL version="0.1.0"
 
 WORKDIR /app
 

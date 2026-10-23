@@ -1,5 +1,5 @@
 """
-gpu_detector.py — JullBrain V3.0
+gpu_detector.py — JullBrain v0.1.0
 =================================
 Detector de aceleración GPU para AMD RX 580 en Windows (DirectML)
 y Linux (ROCm gfx803), con fallback garantizado a CPU.

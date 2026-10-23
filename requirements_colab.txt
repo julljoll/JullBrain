@@ -1,5 +1,5 @@
 # ══════════════════════════════════════════════════════════════════
-# JullBrain V3.0 — Dependencias para GOOGLE COLAB (Linux CUDA 12.x)
+# JullBrain v0.1.0 — Dependencias para GOOGLE COLAB (Linux CUDA 12.x)
 # Python 3.10+ / GPU T4, A100 o V100
 # ══════════════════════════════════════════════════════════════════
 

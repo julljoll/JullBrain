@@ -1,4 +1,5 @@
 {
+  "version": "0.1.0",
   "ocr_activo": true,
   "generar_chunks": true,
   "min_article_chars": 50,

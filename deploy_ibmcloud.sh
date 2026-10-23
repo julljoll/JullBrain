@@ -1,5 +1,5 @@
 #!/bin/bash
-# deploy_ibmcloud.sh — JullBrain V3.0
+# deploy_ibmcloud.sh — JullBrain v0.1.0
 # Despliegue en IBM Cloud Code Engine + Container Registry
 # Requiere: ibmcloud CLI instalado y sesión activa (ibmcloud login)
 
@@ -12,7 +12,7 @@ APP_NAME="jullbrain-api"
 REGION="us-south"
 
 echo "══════════════════════════════════════════════════"
-echo "  JullBrain V3.0 — Despliegue IBM Cloud"
+echo "  JullBrain v0.1.0 — Despliegue IBM Cloud"
 echo "══════════════════════════════════════════════════"
 
 # 1. Verificar CLI instalado

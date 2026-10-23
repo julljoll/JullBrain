@@ -1,5 +1,5 @@
 #!/bin/bash
-# deploy_oracle.sh — JullBrain V3.0
+# deploy_oracle.sh — JullBrain v0.1.0
 # Despliegue automatizado en Oracle Cloud ARM Free Tier
 # Ubuntu 22.04 LTS / Ampere A1 (aarch64)
 # Ejecutar con: bash deploy_oracle.sh
@@ -12,7 +12,7 @@ SERVICE_USER="ubuntu"
 PORT=8050
 
 echo "════════════════════════════════════════════════════════"
-echo "  JullBrain V3.0 — Despliegue Oracle Cloud ARM"
+echo "  JullBrain v0.1.0 — Despliegue Oracle Cloud ARM"
 echo "════════════════════════════════════════════════════════"
 
 # 1. Actualizar sistema base
@@ -55,7 +55,7 @@ touch RAG/notebooks_db/.gitkeep RAG/lightrag_db/.gitkeep
 echo "[7/8] Configurando servicio systemd jullbrain..."
 sudo tee /etc/systemd/system/jullbrain.service > /dev/null << EOF
 [Unit]
-Description=JullBrain V3.0 Legal-RAG API
+Description=JullBrain v0.1.0 Legal-RAG API
 After=network.target
 Wants=network-online.target
 
@@ -93,7 +93,7 @@ if systemctl is-active --quiet jullbrain; then
     echo "✅ Servicio jullbrain activo en puerto ${PORT}."
     echo ""
     echo "╔══════════════════════════════════════════════════════╗"
-    echo "║  JullBrain V3.0 desplegado exitosamente              ║"
+    echo "║  JullBrain v0.1.0 desplegado exitosamente             ║"
     echo "║  API interna: http://127.0.0.1:${PORT}                  ║"
     echo "║  Próximo paso [MANUAL]: configurar nginx + certbot   ║"
     echo "╚══════════════════════════════════════════════════════╝"

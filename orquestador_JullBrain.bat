@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul 2>nul
 cd /d "%~dp0"
-title JullBrain V3.0 - Centro de Control Legal-RAG
+title JullBrain v0.1.0 - Centro de Control Legal-RAG
 
 :: Activar entorno virtual
 if exist "docling_env\Scripts\activate.bat" (

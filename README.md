@@ -2,7 +2,7 @@
   <img src="img/logo.svg" alt="JullBrain Logo" width="120">
 </p>
 
-<h1 align="center">⚖️ JullBrain V3.0</h1>
+<h1 align="center">⚖️ JullBrain v0.1.0</h1>
 <h3 align="center">Legal-RAG Engine & Plataforma Forense Multicloud 100% Python</h3>
 
 <p align="center">
@@ -12,6 +12,7 @@
 <p align="center">
   <a href="https://colab.research.google.com/github/julljoll/JullBrain/blob/main/JullBrain_Colab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
   <a href="https://github.com/julljoll/JullBrain/actions/workflows/colab_sync.yml"><img src="https://github.com/julljoll/JullBrain/actions/workflows/colab_sync.yml/badge.svg" alt="CI/CD"></a>
+  <a href="https://semver.org/"><img src="https://img.shields.io/badge/SemVer-0.1.0-blue?logo=semver&logoColor=white" alt="SemVer 2.0.0"></a>
   <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB?logo=python&logoColor=white" alt="Python 3.11 | 3.12"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Licencia-Apache%202.0-D22128?logo=apache&logoColor=white" alt="Apache 2.0"></a>
   <a href="https://huggingface.co/ibm-granite"><img src="https://img.shields.io/badge/IBM-Granite%203.3%208B-7B3FE4?logo=ibm&logoColor=white" alt="IBM Granite"></a>
@@ -27,7 +28,7 @@
 
 - [¿Qué es JullBrain?](#-qué-es-jullbrain)
 - [¿Qué Problema Resuelve?](#-qué-problema-resuelve)
-- [Novedades de la Versión 3.0](#-novedades-de-la-versión-30)
+- [Versión Inicial v0.1.0 (Semantic Versioning)](#-versión-inicial-v010-semantic-versioning)
 - [Características Principales](#-características-principales)
 - [Arquitectura del Pipeline y Ecosistema Multicloud](#-arquitectura-del-pipeline-y-ecosistema-multicloud)
 - [Stack Tecnológico](#-stack-tecnológico)
@@ -66,7 +67,7 @@ El sistema garantiza que los insumos documentales inyectados a motores RAG, mode
 
 Los operadores del sistema de justicia (jueces, fiscales, defensores públicos y peritos) enfrentan cientos de normativas extensas y sentencias escaneadas en PDF de difícil lectura digital. Los LLM comerciales generalistas sufren de **alucinación normativa** (inventan artículos o gacetas inexistentes), **desanclaje** y mezcla de jurisdicciones extranjeras.
 
-| Desafío en el Sector Legal | Solución Tecnológica en JullBrain V3.0 |
+| Desafío en el Sector Legal | Solución Tecnológica en JullBrain v0.1.0 |
 |:---------------------------|:---------------------------------------|
 | **PDFs escaneados, columnas y tablas complejas** | Extracción estructural OCR con **IBM Docling**, reconociendo tablas, layout y metadatos. |
 | **Artículos fusionados o desarticulados** | **Legalizer Jerárquico** especializado en técnica legislativa venezolana. |
@@ -77,8 +78,11 @@ Los operadores del sistema de justicia (jueces, fiscales, defensores públicos y
 
 ---
 
-## 🚀 Novedades de la Versión 3.0
+## 🚀 Versión Inicial v0.1.0 (Semantic Versioning)
 
+El proyecto adopta formalmente la especificación **[Semantic Versioning 2.0.0 (SemVer)](https://semver.org/)**. Conforme a la **Cláusula 4** y el FAQ oficial (*"The simplest thing to do is start your initial development release at 0.1.0 and then increment the minor version for each subsequent release"*), esta versión marca el punto de partida estructurado:
+
+- 🏷️ **Estandarización SemVer (`0.1.0`):** Establece el formato estricto `MAJOR.MINOR.PATCH`, centralizado en [`version.py`](version.py) como fuente única de verdad.
 - 🐍 **Migración 100% Python Nativa:** Se eliminó la dependencia de scripts complejos en Batch. Toda la orquestación reside en [`orquestador.py`](orquestador.py) con una interfaz de consola enriquecida con `rich`.
 - 🎮 **Aceleración GPU Multiplataforma:** Soporte nativo para **AMD Radeon RX 580 (8GB)** en Windows vía `torch-directml` (DirectX 12) y en Linux vía ROCm 5.7 legacy, además de NVIDIA CUDA y CPU fallback.
 - ☁️ **Soporte Multicloud Unificado:**
@@ -224,7 +228,7 @@ pip install -r requirements.txt
 orquestador_JullBrain.bat
 ```
 
-> **Nota sobre `orquestador_JullBrain.bat`:** En la versión 3.0, el archivo `.bat` actúa exclusivamente como un lanzador nativo de 20 líneas que activa el entorno `docling_env` y delega la ejecución completa a `python orquestador.py`.
+> **Nota sobre `orquestador_JullBrain.bat`:** En la versión v0.1.0, el archivo `.bat` actúa exclusivamente como un lanzador nativo de 20 líneas que activa el entorno `docling_env` y delega la ejecución completa a `python orquestador.py`.
 
 ### Instalación en Linux / macOS
 
@@ -248,7 +252,7 @@ Al ejecutar `python orquestador.py`, se despliega la consola interactiva `rich`:
 
 ```text
 =========================================================================================
-  JullBrain V3.0 — CENTRO DE CONTROL LEGAL-RAG (100% PYTHON)
+  JullBrain v0.1.0 — CENTRO DE CONTROL LEGAL-RAG (100% PYTHON)
 =========================================================================================
   SELECCIONE UNA OPCION DEL CENTRO DE OPERACIONES JULLBRAIN:
 
@@ -285,7 +289,7 @@ python orquestador.py --web                                           # Inicia s
 
 ## ☁️ Despliegue Multicloud
 
-JullBrain V3.0 está optimizado para ejecutarse sin fricción en múltiples nubes:
+JullBrain v0.1.0 está optimizado para ejecutarse sin fricción en múltiples nubes:
 
 ### 1. Google Colab (GPU NVIDIA T4)
 Diseñado para la conversión masiva de normativas pesadas (Constitución, Códigos Orgánicos) aprovechando la GPU NVIDIA gratuita:

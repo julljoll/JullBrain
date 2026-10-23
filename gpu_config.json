@@ -1,6 +1,6 @@
 {
   "_comment": "Configuración de aceleración GPU para JullBrain V3.0",
-  "_version": "1.0.0",
+  "_version": "0.1.0",
   "modo_seleccionado": "cpu",
   "modos_disponibles": [
     "cpu",

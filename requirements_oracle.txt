@@ -1,5 +1,5 @@
 # ══════════════════════════════════════════════════════════════════
-# JullBrain V3.0 — Dependencias para ORACLE CLOUD ARM (aarch64)
+# JullBrain v0.1.0 — Dependencias para ORACLE CLOUD ARM (aarch64)
 # Ubuntu 22.04 LTS / Python 3.11 / CPU ARM Ampere A1
 #
 # INSTALACIÓN ESPECIAL para torch en ARM:

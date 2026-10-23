@@ -1,5 +1,5 @@
 # ══════════════════════════════════════════════════════════════════
-# JullBrain V3.0 — Dependencias para entorno LOCAL (Windows CPU / DirectML)
+# JullBrain v0.1.0 — Dependencias para entorno LOCAL (Windows CPU / DirectML)
 # Versiones verificadas contra requirements.lock.txt del venv activo
 # ══════════════════════════════════════════════════════════════════
 

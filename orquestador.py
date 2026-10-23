@@ -1,5 +1,5 @@
 """
-orquestador.py — JullBrain V3.0
+orquestador.py — JullBrain v0.1.0
 ================================
 Centro de Control y Orquestador Legal-RAG 100% Python.
 Reemplaza toda la lógica previa de orquestador_JullBrain.bat.
@@ -27,6 +27,8 @@ import time
 from pathlib import Path
 from datetime import datetime
 from typing import Optional, List, Dict, Any
+
+from version import __version__
 
 # Configuración obligatoria de codificación UTF-8 para terminal en Windows
 if hasattr(sys.stdout, 'reconfigure'):
@@ -136,7 +138,7 @@ class JullBrainOrquestador:
     \___/ \__,_|_|_| |____/|_|  \__,_|_|_| |_|                                             
   ========================================================================================="""
         self.console.print(f"[bold #FECF06]{banner_ascii}[/]")
-        self.console.print("\n[bold #FECF06]   JullBrain RAG-Pipeline - Version 3.0 (Entorno Local 100% Python)[/]")
+        self.console.print(f"\n[bold #FECF06]   JullBrain RAG-Pipeline - Versión v{__version__} (Entorno Local 100% Python)[/]")
         self.console.print("""
 [#00FF41]   Este script Orquesta el Diseno y Estructura de Conocimientos para la
    Inteligencia Artificial, esta especializado en converir leyes venezolanas

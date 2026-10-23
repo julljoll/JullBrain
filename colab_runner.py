@@ -1,5 +1,5 @@
 """
-colab_runner.py — JullBrain V3.0
+colab_runner.py — JullBrain v0.1.0
 =================================
 Motor de Ejecución y Orquestación Unificado para Google Colab GPU.
 Diseñado para transformar normativas legales con IBM Docling, aplicar control
@@ -106,7 +106,7 @@ class JullBrainColabRunner:
         info = self.verificar_entorno()
         sep = "=" * 70
         print(sep)
-        print("🏛️ JULLBRAIN V3.0 — DIAGNÓSTICO DE ENTORNO EN GOOGLE COLAB")
+        print("🏛️ JULLBRAIN v0.1.0 — DIAGNÓSTICO DE ENTORNO EN GOOGLE COLAB")
         print(sep)
         print(f" • Versión Python : {info['python_version']}")
         if info["gpu_disponible"]:
@@ -331,7 +331,7 @@ def main():
         runner.generar_embeddings_granite()
         runner.generar_manifiesto_sha256()
         runner.respaldar_en_google_drive()
-        print("\n🏛️ PROCESO COMPLETO EJECUTADO CON ÉXITO EN JULLBRAIN V3.0.")
+        print("\n🏛️ PROCESO COMPLETO EJECUTADO CON ÉXITO EN JULLBRAIN v0.1.0.")
     else:
         print(f"\n❌ Error durante la conversión documental. Código de salida: {rc}")
 
