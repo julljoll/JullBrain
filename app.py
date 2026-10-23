@@ -140,23 +140,22 @@ def run_pipeline_action_task(action: str):
 def read_root(accept: Optional[str] = Header(None)):
     """Sirve la Interfaz Web HTML5 o el esquema JSON si se solicita API."""
     index_file = WEB_DIR / "index.html"
+    legacy_index = BASE_DIR / "_archivo_historico" / "web_legacy" / "index.html"
+
     if accept and "application/json" in accept:
         return {
             "status": "online",
             "system": "JullBrain Enterprise Legal Platform API",
-            "version": "2.0.0",
+            "version": "3.0.0",
             "ui": "Open WebUI Official Interface",
             "mode": "100% Local Offline (Air-Gapped)"
         }
     if index_file.exists():
         return FileResponse(str(index_file))
-    return {
-        "status": "online",
-        "system": "JullBrain Enterprise Legal Platform API",
-        "version": "2.0.0",
-        "ui": "Open WebUI Official Interface",
-        "mode": "100% Local Offline (Air-Gapped)"
-    }
+    if legacy_index.exists():
+        return FileResponse(str(legacy_index))
+    from fastapi.responses import HTMLResponse
+    return HTMLResponse("<!DOCTYPE html><html><head><title>JullBrain API</title></head><body><h1>JullBrain V3.0 API</h1></body></html>")
 
 
 @app.get("/health")

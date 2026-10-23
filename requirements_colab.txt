@@ -1,32 +1,34 @@
-# requirements_colab.txt — Dependencias optimizadas para Google Colab GPU (CUDA 12.x / Python 3.10+)
-# JullBrain V3.0 — Legal-RAG & Informática Forense
+# ══════════════════════════════════════════════════════════════════
+# JullBrain V3.0 — Dependencias para GOOGLE COLAB (Linux CUDA 12.x)
+# Python 3.10+ / GPU T4, A100 o V100
+# ══════════════════════════════════════════════════════════════════
 
-# ── Core IBM Docling (Extracción y OCR con GPU) ──────────────────────────
+# ── Core IBM Docling ──────────────────────────────────────────────
 docling>=2.111.0
 
-# ── Manipulación de Documentos PDF y Extracción Forense ──────────────────
+# ── Lectura PDF y Extracción Forense ─────────────────────────────
 PyMuPDF>=1.28.0
 pypdf>=6.14.2
 
-# ── Visualización en Terminal / Notebook y Formato Estructurado ──────────
+# ── Interfaz y progreso ──────────────────────────────────────────
 rich>=15.0.0
 PyYAML>=6.0.3
 psutil>=6.0.0
 tqdm>=4.66.0
 
-# ── Modelos de Embeddings y LLM IBM Granite ──────────────────────────────
+# ── IBM Granite Embeddings (GPU CUDA) ────────────────────────────
 transformers>=4.48.0
 sentence-transformers>=3.0.0
 torch>=2.1.0
 accelerate>=0.26.0
+bitsandbytes>=0.42.0     # Quantización int8 — SOLO Linux CUDA, NO instalar en Windows
 
-# ── API y Pruebas del Pipeline en Colab ──────────────────────────────────
+# ── API REST y exportación hacia RAGFlow ─────────────────────────
 fastapi>=0.110.0
 uvicorn>=0.28.0
 pydantic>=2.6.0
 httpx>=0.27.0
+python-multipart>=0.0.9
 
-# ── Base de Conocimiento y Grafo Semántico RAG (Opcional) ────────────────
-lightrag-hku>=1.0.0
-networkx>=3.0
-nano-vectordb>=0.0.4
+# ── NOTA: google-colab y google-auth están preinstalados en el runtime
+# No agregar aquí. El import 'from google.colab import drive' funciona sin pip.

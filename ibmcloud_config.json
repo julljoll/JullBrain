@@ -1,0 +1,41 @@
+{
+  "_comment": "Configuración para IBM Cloud Code Engine + Object Storage",
+  "_version": "1.0.0",
+  "entorno": "ibmcloud",
+  "code_engine": {
+    "region": "us-south",
+    "project_nombre": "jullbrain-legal-rag",
+    "app_nombre": "jullbrain-api",
+    "puerto": 8080,
+    "cpu": "2",
+    "memoria": "8G",
+    "min_instancias": 0,
+    "max_instancias": 3,
+    "timeout_solicitud": 300
+  },
+  "container_registry": {
+    "region": "us.icr.io",
+    "namespace": "jullbrain",
+    "imagen": "app",
+    "tag": "latest"
+  },
+  "object_storage": {
+    "habilitado": false,
+    "endpoint": "https://s3.us-south.cloud-object-storage.appdomain.cloud",
+    "bucket_pdfs": "jullbrain-datos-brutos",
+    "bucket_output": "jullbrain-output-rag",
+    "region_config": "us-south-standard"
+  },
+  "granite": {
+    "embedding_model": "ibm-granite/granite-embedding-311m-multilingual-r2",
+    "embedding_device": "cpu",
+    "embedding_batch_size": 16,
+    "temperature": 0.0,
+    "usar_watsonx_api": false,
+    "watsonx_api_url": "https://us-south.ml.cloud.ibm.com"
+  },
+  "seguridad": {
+    "https_forzado": true,
+    "cors_origins": ["*"]
+  }
+}

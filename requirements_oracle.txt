@@ -1,0 +1,43 @@
+# ══════════════════════════════════════════════════════════════════
+# JullBrain V3.0 — Dependencias para ORACLE CLOUD ARM (aarch64)
+# Ubuntu 22.04 LTS / Python 3.11 / CPU ARM Ampere A1
+#
+# INSTALACIÓN ESPECIAL para torch en ARM:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   LUEGO: pip install -r requirements_oracle.txt
+# ══════════════════════════════════════════════════════════════════
+
+# ── Core IBM Docling ──────────────────────────────────────────────
+docling>=2.111.0
+
+# ── Lectura PDF y Extracción Forense ─────────────────────────────
+PyMuPDF>=1.28.0
+pypdf>=6.14.2
+
+# ── Interfaz y Formato ───────────────────────────────────────────
+rich>=15.0.0
+PyYAML>=6.0.3
+psutil>=6.0.0
+
+# ── IBM Granite Embeddings (CPU ARM — SIN CUDA, SIN bitsandbytes) ─
+transformers>=4.48.0
+sentence-transformers>=3.0.0
+# torch: instalar ANTES con índice especial CPU (ver cabecera)
+
+# ── Servidor API REST (producción Oracle) ─────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+gunicorn>=21.2.0
+httpx>=0.27.0
+python-multipart>=0.0.9
+
+# ── Seguridad (JWT y HTTPS) ───────────────────────────────────────
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# ── Oracle Cloud Infrastructure SDK (Object Storage) ─────────────
+oci>=2.120.0
+
+# ── Monitoreo de salud del servidor ──────────────────────────────
+prometheus-fastapi-instrumentator>=6.1.0

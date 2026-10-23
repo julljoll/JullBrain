@@ -1,0 +1,46 @@
+{
+  "_comment": "Configuración de aceleración GPU para JullBrain V3.0",
+  "_version": "1.0.0",
+  "modo_seleccionado": "cpu",
+  "modos_disponibles": [
+    "cpu",
+    "directml",
+    "rocm",
+    "cuda"
+  ],
+  "cpu": {
+    "descripcion": "CPU del sistema (siempre disponible, sin dependencias extra)",
+    "embedding_device": "cpu",
+    "embedding_batch_size": 16,
+    "usar_half_precision": false
+  },
+  "directml": {
+    "descripcion": "AMD RX 580 en Windows via DirectX 12 (torch-directml)",
+    "so_requerido": "Windows",
+    "gpu_target": "AMD Radeon RX 580 (gfx803)",
+    "vram_gb": 8,
+    "embedding_device": "privateuseone:0",
+    "embedding_batch_size": 32,
+    "usar_half_precision": false,
+    "paquete_requerido": "torch-directml",
+    "nota": "No instalar torch estandar junto con torch-directml"
+  },
+  "rocm": {
+    "descripcion": "AMD RX 580 en Linux via ROCm 5.7 (gfx803 legacy)",
+    "so_requerido": "Linux",
+    "gpu_target": "AMD Radeon RX 580 (gfx803)",
+    "vram_gb": 8,
+    "embedding_device": "cuda",
+    "embedding_batch_size": 32,
+    "usar_half_precision": false,
+    "env_var_requerida": "HSA_OVERRIDE_GFX_VERSION=8.0.3",
+    "torch_index_url": "https://download.pytorch.org/whl/rocm5.7",
+    "nota": "ROCm 6.x no soporta gfx803. Usar ROCm 5.7 en Ubuntu 22.04"
+  },
+  "cuda": {
+    "descripcion": "NVIDIA GPU via CUDA (si se agrega una en el futuro)",
+    "embedding_device": "cuda",
+    "embedding_batch_size": 64,
+    "usar_half_precision": true
+  }
+}

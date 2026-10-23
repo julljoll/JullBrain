@@ -1,0 +1,35 @@
+# ══════════════════════════════════════════════════════════════════
+# JullBrain V3.0 — Dependencias para IBM Cloud Code Engine
+# Imagen Docker python:3.11-slim / CPU (sin CUDA en serverless)
+# ══════════════════════════════════════════════════════════════════
+
+# ── Core IBM Docling ──────────────────────────────────────────────
+docling>=2.111.0
+
+# ── Lectura PDF y Extracción Forense ─────────────────────────────
+PyMuPDF>=1.28.0
+pypdf>=6.14.2
+
+# ── Interfaz y Formato ───────────────────────────────────────────
+rich>=15.0.0
+PyYAML>=6.0.3
+psutil>=6.0.0
+
+# ── IBM Granite Embeddings (CPU, contenedor) ─────────────────────
+transformers>=4.48.0
+sentence-transformers>=3.0.0
+torch>=2.1.0
+
+# ── Servidor API REST ─────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+httpx>=0.27.0
+python-multipart>=0.0.9
+
+# ── IBM Cloud Object Storage SDK ─────────────────────────────────
+ibm-cos-sdk>=2.13.0
+
+# ── Seguridad ─────────────────────────────────────────────────────
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4

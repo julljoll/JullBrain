@@ -1,0 +1,42 @@
+{
+  "_comment": "Configuración para Oracle Cloud ARM Free Tier (Ampere A1, aarch64, Ubuntu 22.04)",
+  "_version": "1.0.0",
+  "entorno": "oracle",
+  "servidor": {
+    "host": "0.0.0.0",
+    "port": 8050,
+    "workers": 2,
+    "timeout": 300,
+    "proxy_headers": true,
+    "forwarded_allow_ips": "*"
+  },
+  "object_storage": {
+    "habilitado": false,
+    "region": "sa-vinhedo-1",
+    "namespace": "",
+    "bucket_pdfs": "jullbrain-datos-brutos",
+    "bucket_output": "jullbrain-output-rag",
+    "ruta_local_pdfs": "./RAG/datos_brutos",
+    "ruta_local_output": "./RAG/Informacion_docling_rag"
+  },
+  "granite": {
+    "embedding_model": "ibm-granite/granite-embedding-311m-multilingual-r2",
+    "embedding_backend": "sentence-transformers",
+    "embedding_device": "cpu",
+    "embedding_batch_size": 16,
+    "usar_half_precision": false,
+    "temperature": 0.0,
+    "top_p": 0.05
+  },
+  "pipeline": {
+    "max_workers": 2,
+    "ocr_activo": true,
+    "generar_chunks": true,
+    "min_article_chars": 50
+  },
+  "seguridad": {
+    "jwt_habilitado": false,
+    "cors_origins": ["*"],
+    "https_forzado": true
+  }
+}

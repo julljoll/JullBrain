@@ -179,6 +179,11 @@ def main():
     parser.add_argument("--post-process-only",action="store_true", help="Solo aplica el post-procesado legal a los .md existentes sin re-convertir con Docling.")
     parser.add_argument("--input-dir",        type=str,            help="Directorio de origen de PDFs/imágenes (ej. RAG/datos_brutos).")
     parser.add_argument("--output-dir",       type=str,            help="Directorio de destino de Markdown estructurado.")
+    parser.add_argument(
+        "--single-file", type=str,
+        help="Ruta de un único archivo a convertir (modo seguro: un archivo por vez). "
+             "Puede ser ruta absoluta o relativa a RAG/datos_brutos/."
+    )
 
     args = parser.parse_args()
 
@@ -361,6 +366,18 @@ def main():
     pdf_files = []
     word_files = []
     
+    # MODO SINGLE FILE — invocado desde orquestador.py o CLI
+    if getattr(args, 'single_file', None):
+        candidate_path = Path(args.single_file)
+        if not candidate_path.exists():
+            candidate = INPUT_DIR / args.single_file
+            if candidate.exists():
+                candidate_path = candidate
+            else:
+                logger.error(f"Archivo no encontrado: {args.single_file}")
+                sys.exit(1)
+        args.file_path = str(candidate_path)
+
     if args.file_path and not args.chunk_mode:
         single_path = Path(args.file_path)
         if not single_path.exists():
