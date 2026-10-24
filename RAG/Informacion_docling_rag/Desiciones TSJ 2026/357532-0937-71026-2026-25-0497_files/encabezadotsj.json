@@ -1,0 +1,6 @@
+[
+  {
+    "text": "LA REPUBLICA BOLIVARIANA DE VENEZUELA ENSUNOMBRE",
+    "meta": "schema_name='docling_core.transforms.chunker.DocMeta' version='1.0.0' doc_items=[TextItem(self_ref='#/texts/2', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, meta=None, label=<DocItemLabel.TEXT: 'text'>, prov=[ProvenanceItem(page_no=1, bbox=BoundingBox(l=7.666666666666667, t=42.0, r=233.0, b=18.333333333333343, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 48))], source=[], comments=[], orig='LA REPUBLICA BOLIVARIANA DE VENEZUELA ENSUNOMBRE', text='LA REPUBLICA BOLIVARIANA DE VENEZUELA ENSUNOMBRE', formatting=None, hyperlink=None)] headings=None captions=None origin=DocumentOrigin(mimetype='application/pdf', binary_hash=12910400470703388798, filename='encabezadotsj.jpg', uri=None)"
+  }
+]
