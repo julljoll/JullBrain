@@ -10,5 +10,5 @@ Especificación SemVer:
   increment the minor version for each subsequent release."
 """
 
-__version__ = "0.1.0"
-__version_info__ = (0, 1, 0)
+__version__ = "0.2.0"
+__version_info__ = (0, 2, 0)

@@ -26,5 +26,8 @@ transformers>=4.48.0
 sentence-transformers>=3.0.0
 torch>=2.1.0
 
+# ── Motor de Indexación Híbrida OpenSearch & OpenRAG ────────────
+opensearch-py>=2.8.0
+
 # ── Suite de Calidad y Pruebas Offline (Air-Gapped) ──────────────
 pytest>=8.0.0

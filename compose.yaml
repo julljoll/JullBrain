@@ -1,0 +1,61 @@
+# compose.yaml — JullBrain Legal-RAG Platform
+# Infraestructura Local Soberana: OpenSearch 2.18+ (k-NN) + OpenRAG Runtime
+# Compatible con Docker Desktop y Podman en Windows / Linux
+
+services:
+  opensearch:
+    image: opensearchproject/opensearch:2.18.0
+    container_name: jullbrain-opensearch
+    environment:
+      - cluster.name=jullbrain-legal-cluster
+      - node.name=jullbrain-node-1
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "OPENSEARCH_JAVA_OPTS=-Xms1g -Xmx1g"
+      - DISABLE_SECURITY_PLUGIN=true
+      - DISABLE_INSTALL_DEMO_CONFIG=true
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    ports:
+      - "9200:9200"
+      - "9600:9600"
+    volumes:
+      - opensearch_data:/usr/share/opensearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200 | grep -q 'jullbrain-legal-cluster' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    networks:
+      - openrag-net
+
+  openrag:
+    image: langflowai/openrag:latest
+    container_name: jullbrain-openrag
+    environment:
+      - OPENSEARCH_HOST=http://opensearch:9200
+      - OPENSEARCH_INDEX_NAME=documents_legal_venezuela
+      - OPENRAG_OPENSEARCH_NUMBER_OF_SHARDS=1
+      - OPENRAG_OPENSEARCH_NUMBER_OF_REPLICAS=0
+    ports:
+      - "7860:7860"
+    depends_on:
+      opensearch:
+        condition: service_healthy
+    networks:
+      - openrag-net
+
+volumes:
+  opensearch_data:
+    driver: local
+
+networks:
+  openrag-net:
+    driver: bridge
+

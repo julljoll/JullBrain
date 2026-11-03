@@ -478,6 +478,21 @@ class JullBrainOrquestador:
         self.console.rule()
         return res.returncode
 
+    def _sincronizar_opensearch(self) -> None:
+        """Sincroniza los chunks generados hacia el clúster OpenSearch (OpenRAG)."""
+        from opensearch_indexer import default_opensearch_indexer
+        self.console.rule("[bold cyan]Sincronización con Clúster OpenSearch (OpenRAG)[/]")
+        health = default_opensearch_indexer.check_cluster_health()
+        if health.get("connected"):
+            self.console.print(f"[bold green]  [+] Clúster OpenSearch activo ({health.get('cluster_name')}, v{health.get('version')})[/]")
+            self.console.print(f"[bold green]  [+] Índice destino: {health.get('index_name')} | Dimensión vector: {health.get('dimension')}[/]")
+            stats = default_opensearch_indexer.bulk_index_corpus()
+            self.console.print(f"[bold green]  [OK] Indexación masiva completada: {stats['indexed_chunks']} chunks cargados.[/]")
+        else:
+            self.console.print(f"[yellow]  [!] OpenSearch no responde en {health.get('host')}. Operando en Modo Local Offline.[/]")
+            self.console.print("[dim]      Para encender OpenSearch y OpenRAG ejecute: iniciar_servicios_openrag.bat[/]")
+        self.console.rule()
+
     def despachar(self, opcion: str) -> None:
         """Enruta la opción seleccionada."""
         if opcion == "1":
@@ -496,6 +511,7 @@ class JullBrainOrquestador:
                 [sys.executable, str(BASE_DIR / "granite_embedder.py")],
                 titulo="Generación de Embeddings Semánticos IBM Granite R2"
             )
+            self._sincronizar_opensearch()
         elif opcion == "6":
             self._ejecutar_subproceso(
                 [sys.executable, str(BASE_DIR / "convert_normativas.py"), "--post-process-only"],
@@ -558,6 +574,10 @@ def main():
             sys.exit(0)
         elif flag == "--clean":
             orq.despachar("8")
+            sys.exit(0)
+        elif flag in ("--opensearch", "--index-all"):
+            orq.mostrar_banner()
+            orq._sincronizar_opensearch()
             sys.exit(0)
         elif flag == "--audit":
             orq._ver_audit_log()
