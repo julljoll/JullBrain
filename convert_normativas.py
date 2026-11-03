@@ -14,9 +14,12 @@ import platform
 import time
 
 # Modulos de post-procesamiento legal (Fases 1-5)
+from common_utils import sha256_file, get_pdf_page_count, load_json_config
+sha256_pdf = sha256_file
+
 try:
     from legalizer import legalize
-    from metadata_extractor import inject_frontmatter, sha256_file, load_manifest, save_manifest
+    from metadata_extractor import inject_frontmatter, load_manifest, save_manifest
     from validator import validate_md_file
     LEGAL_PIPELINE_AVAILABLE = True
 except ImportError as _le:
@@ -111,33 +114,6 @@ HEADER_TEMPLATE = """# 🏛️ PROCESAMIENTO ESTRUCTURADO DE NORMATIVAS Y LEYES
 
 # Pie de página de derechos de autor y licencia (Apache 2.0)
 FOOTER_TEMPLATE = ""
-
-def get_pdf_page_count(file_path):
-    if file_path.suffix.lower() == ".pdf":
-        try:
-            reader = pypdf.PdfReader(file_path)
-            return len(reader.pages)
-        except Exception:
-            try:
-                import fitz
-                doc = fitz.open(file_path)
-                num = len(doc)
-                doc.close()
-                return num
-            except Exception:
-                return "Error"
-    return 1  # Para imágenes
-
-def sha256_pdf(file_path: Path) -> str:
-    """Calcula el hash SHA-256 de un PDF para deteccion de cambios en cache."""
-    h = hashlib.sha256()
-    try:
-        with open(file_path, 'rb') as f:
-            for chunk in iter(lambda: f.read(65536), b''):
-                h.update(chunk)
-        return h.hexdigest()
-    except Exception:
-        return ""
 
 
 def try_convert_doc_to_docx(doc_path: Path):

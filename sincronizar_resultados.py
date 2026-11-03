@@ -38,14 +38,8 @@ if hasattr(sys.stdout, "reconfigure"):
 BASE_DIR = Path(__file__).resolve().parent
 MANIFEST_FILE = BASE_DIR / "manifiesto_forense_sha256.json"
 
-
-def calcular_sha256(archivo: Path) -> str:
-    """Calcula el hash criptográfico SHA-256 de un archivo en bloques de 64 KB."""
-    h = hashlib.sha256()
-    with open(archivo, "rb") as f:
-        while chunk := f.read(65536):
-            h.update(chunk)
-    return h.hexdigest()
+from common_utils import sha256_file
+calcular_sha256 = sha256_file
 
 
 def obtener_estado_git() -> Dict[str, Any]:

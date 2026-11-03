@@ -51,6 +51,7 @@ from rich.text import Text
 from rich import box
 
 import gpu_detector
+from common_utils import sha256_file, get_pdf_page_count, load_json_config
 
 BASE_DIR = Path(__file__).resolve().parent
 INPUT_DIR = BASE_DIR / "RAG" / "datos_brutos"
@@ -60,26 +61,9 @@ CONFIG_FILE = BASE_DIR / "pipeline_config.json"
 GPU_CONFIG_FILE = BASE_DIR / "gpu_config.json"
 
 
-def sha256_file(path: Path) -> str:
-    """Calcula el hash SHA-256 de un archivo en bloques para proteger la memoria RAM."""
-    h = hashlib.sha256()
-    try:
-        with open(path, 'rb') as f:
-            for chunk in iter(lambda: f.read(65536), b''):
-                h.update(chunk)
-        return h.hexdigest()
-    except Exception:
-        return "ERROR_HASH"
-
-
 def load_config() -> dict:
     """Carga pipeline_config.json de manera segura."""
-    if CONFIG_FILE.exists():
-        try:
-            return json.loads(CONFIG_FILE.read_text(encoding='utf-8'))
-        except Exception:
-            pass
-    return {}
+    return load_json_config(CONFIG_FILE)
 
 
 def detectar_entorno() -> str:
@@ -90,25 +74,6 @@ def detectar_entorno() -> str:
     if "google.colab" in sys.modules or os.environ.get("COLAB_GPU"):
         return "colab"
     return "local"
-
-
-def get_pdf_page_count(file_path: Path) -> Any:
-    """Retorna el número de páginas de un PDF de forma rápida."""
-    if file_path.suffix.lower() == ".pdf":
-        try:
-            import fitz
-            doc = fitz.open(file_path)
-            num = len(doc)
-            doc.close()
-            return num
-        except Exception:
-            try:
-                import pypdf
-                reader = pypdf.PdfReader(file_path)
-                return len(reader.pages)
-            except Exception:
-                return "?"
-    return 1
 
 
 class JullBrainOrquestador:
@@ -574,12 +539,7 @@ def main():
         flag = sys.argv[1].lower()
         orq = JullBrainOrquestador()
 
-        if flag == "--web":
-            print("[INIT] Iniciando Servidor Web FastAPI en http://127.0.0.1:8050...")
-            cmd = [sys.executable, "-m", "uvicorn", "app:app", "--host", "127.0.0.1", "--port", "8050"]
-            subprocess.run(cmd, cwd=str(BASE_DIR))
-            sys.exit(0)
-        elif flag == "--full":
+        if flag in ("--full", "--convert-all"):
             orq.mostrar_banner()
             orq.inicializar_gpu()
             orq._convertir_todos_pendientes()
@@ -602,7 +562,7 @@ def main():
         elif flag == "--audit":
             orq._ver_audit_log()
             sys.exit(0)
-        elif flag == "--single-file" and len(sys.argv) > 2:
+        elif flag in ("--single", "--single-file") and len(sys.argv) > 2:
             orq.mostrar_banner()
             orq.inicializar_gpu()
             archivo = Path(sys.argv[2])
