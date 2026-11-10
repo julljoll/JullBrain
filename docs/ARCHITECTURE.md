@@ -78,3 +78,20 @@
 | [`app.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/app.py) | Servidor web y API REST Zero-Trust en FastAPI con cabeceras de seguridad HTTP (`CSP`, `X-Frame-Options`, `X-Content-Type-Options`) y endpoint `/api/v1/security/vault`. |
 | [`Containerfile`](file:///c:/VS%20CODE/CODIGO/JullBrain/Containerfile) / [`podman-compose.yml`](file:///c:/VS%20CODE/CODIGO/JullBrain/podman-compose.yml) | Contenerización nativa para **Podman** en modo *rootless* (Windows y Linux). |
 | [`deploy_oracle.sh`](file:///c:/VS%20CODE/CODIGO/JullBrain/deploy_oracle.sh) / [`oracle_config.json`](file:///c:/VS%20CODE/CODIGO/JullBrain/oracle_config.json) | Automatización de despliegue en **Oracle Cloud Infrastructure (OCI)** con Podman y bóveda local de modelos. |
+
+---
+
+## 3. Marco de Trabajo Senior: IBM Data Prep Kit (`DPK`) + IBM Granite RAG (`jullbrain/`)
+
+El repositorio implementa el patrón arquitectónico oficial de **IBM Research — Data Prep Kit (DPK)** (`AbstractIBMTransform` / `IBMDataPrepPipeline`) junto con empaquetado estándar **PEP 621** ([`pyproject.toml`](file:///c:/VS%20CODE/CODIGO/JullBrain/pyproject.toml)) y separación limpia en 6 dominios dentro del paquete [`jullbrain/`](file:///c:/VS%20CODE/CODIGO/JullBrain/jullbrain/__init__.py):
+
+| Subpaquete / Módulo | Dominio en el Framework IBM DPK |
+| :--- | :--- |
+| [`jullbrain/dpk_framework.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/jullbrain/dpk_framework.py) | Motor de Transformaciones DPK (`TransformResult`, `AbstractIBMTransform`, `LegalHierarchyTransform`, `MetadataFrontmatterTransform`, `ForensicValidatorTransform`, `GraniteGuardianTransform`, `IBMDataPrepPipeline`) con huella `SHA-256` por etapa y firma `HMAC-SHA256`. |
+| [`jullbrain/transforms/`](file:///c:/VS%20CODE/CODIGO/JullBrain/jullbrain/transforms/__init__.py) | Dominio de Ingesta y Transformación Documental (`IBM Docling` CPU + `legalizer` + `metadata_extractor` + `validator`). |
+| [`jullbrain/granite/`](file:///c:/VS%20CODE/CODIGO/JullBrain/jullbrain/granite/__init__.py) | Dominio de Modelos Fundacionales `IBM Granite Embedding R2` (`768d`) y `LightRAG`. |
+| [`jullbrain/security/`](file:///c:/VS%20CODE/CODIGO/JullBrain/jullbrain/security/__init__.py) | Dominio de Ciberseguridad Cognitiva `IBM Granite Guardian` (6 dimensiones) y Cadena Forense `HMAC-SHA256`. |
+| [`jullbrain/retrieval/`](file:///c:/VS%20CODE/CODIGO/JullBrain/jullbrain/retrieval/__init__.py) | Dominio de Recuperación Híbrida (`BM25 + k-NN RRF`) y Cuadernos Forenses `SHA-256`. |
+| [`jullbrain/runtime/`](file:///c:/VS%20CODE/CODIGO/JullBrain/jullbrain/runtime/__init__.py) | Dominio de Diagnóstico de Hardware Host (CPU para `IBM Docling`, RAM, `Podman`, `Python 3.14`) y Mantenimiento. |
+| [`jullbrain/interfaces/`](file:///c:/VS%20CODE/CODIGO/JullBrain/jullbrain/interfaces/__init__.py) | Dominio de Interfaces (`FastAPI` REST JSON Zero-Trust, Consola TUI `Rich` y `Open WebUI Pipe`). |
+

@@ -174,6 +174,29 @@ class TestIBMCybersecurityAndCanonical(unittest.TestCase):
         self.assertGreaterEqual(host_info["cpu_hilos_docling"], 1)
         self.assertEqual(host_info["docling_device"], "cpu")
 
+    def test_ibm_data_prep_kit_framework_pipeline(self):
+        from jullbrain import IBMDataPrepPipeline
+        import jullbrain.transforms
+        import jullbrain.granite
+        import jullbrain.security
+        import jullbrain.retrieval
+        import jullbrain.runtime
+        import jullbrain.interfaces
+
+        sample_raw = (
+            "# CODIGO ORGANICO PROCESAL PENAL\n\n"
+            "Gaceta Oficial N° 6.644 Extraordinario de fecha 17 de septiembre de 2021\n\n"
+            "## TITULO I\n\n"
+            "Articulo 1. Juicio previo y debido proceso. Nadie podra ser condenado sin un juicio previo.\n\n"
+            "Articulo 2. Ejercicio de la jurisdiccion. La potestad de administrar justicia emana de los ciudadanos."
+        )
+        dpk_pipeline = IBMDataPrepPipeline()
+        result = dpk_pipeline.run(sample_raw, document_id="copp_test.md")
+        self.assertEqual(result.status, "GUARDIAN_VERIFIED")
+        self.assertEqual(len(result.stage_history), 4)
+        self.assertTrue(result.content.startswith("---\n"))
+        self.assertIsNotNone(result.metadata.get("audit_hmac_sha256"))
+
 
 if __name__ == "__main__":
     unittest.main()

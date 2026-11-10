@@ -28,6 +28,16 @@ JullBrain/
 │   ├── notebooks_db/                     Expedientes jurídicos aislados con verificación SHA-256
 │   └── lightrag_db/                      Grafo de conocimiento normativo (GraphRAG)
 │
+├── jullbrain/                            [FRAMEWORK SENIOR: IBM DATA PREP KIT (DPK) & GRANITE RAG]
+│   ├── dpk_framework.py                  Motor de Transformaciones Deterministas (AbstractIBMTransform / Pipeline)
+│   ├── transforms/                       Dominio 1: Ingesta Docling (CPU), Jerarquía, Metadata y Validación
+│   ├── granite/                          Dominio 2: Embeddings IBM Granite R2 (768d) y LightRAG (Granite 3.3)
+│   ├── security/                         Dominio 3: IBM Granite Guardian (6D) y Cadena Forense HMAC-SHA256
+│   ├── retrieval/                        Dominio 4: Búsqueda Híbrida BM25 + k-NN RRF y Cuadernos SHA-256
+│   ├── runtime/                          Dominio 5: Perfilador de Hardware (CPU/RAM/Podman) y Limpieza
+│   └── interfaces/                       Dominio 6: Consola TUI Rich, API REST FastAPI y Open WebUI Pipe
+│
+├── pyproject.toml                        Definición Senior PEP 621 del paquete y CLI entrypoints
 ├── orquestador_JullBrain.bat             Iniciador Local Maestro (Analiza CPU/RAM/Podman/Python 3.14)
 ├── orquestador.py                        Consola interactiva TUI (Rich)
 ├── convert_normativas.py                 Motor IBM Docling (CPU Threads) + HierarchicalChunker

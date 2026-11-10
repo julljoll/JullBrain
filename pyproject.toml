@@ -1,0 +1,79 @@
+# ==============================================================================
+# JullBrain v0.2.0 — Senior Enterprise Packaging & Architecture (PEP 621)
+# Framework Base: IBM Data Prep Kit (DPK) Transform Architecture + IBM Granite RAG
+# ==============================================================================
+
+[build-system]
+requires = ["setuptools>=70.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jullbrain"
+version = "0.2.0"
+description = "Plataforma Legal-RAG Soberana e Informática Forense estructurada bajo IBM Data Prep Kit (DPK), IBM Docling (CPU), IBM Granite 3.3, Granite Embedding R2 e IBM Granite Guardian."
+readme = "README.md"
+requires-python = ">=3.12,<3.15"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Jull Ortiz (Jullierms)", email = "jullierms@hotmail.com" }
+]
+keywords = [
+    "ibm-docling",
+    "ibm-granite",
+    "ibm-granite-guardian",
+    "ibm-data-prep-kit",
+    "legal-rag",
+    "digital-forensics",
+    "iso-27037",
+    "venezuela-law",
+    "podman",
+    "oracle-cloud"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Legal Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = [
+    "docling>=2.0.0",
+    "docling-core>=2.0.0",
+    "docling-ibm-models>=3.0.0",
+    "docling-parse>=3.0.0",
+    "torch>=2.5.0",
+    "sentence-transformers>=3.3.0",
+    "transformers>=4.46.0",
+    "safetensors>=0.4.5",
+    "huggingface-hub>=0.26.0",
+    "numpy>=2.0.0",
+    "PyMuPDF>=1.24.10",
+    "pypdf>=5.0.0",
+    "PyYAML>=6.0.2",
+    "rich>=13.9.0",
+    "psutil>=6.1.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "pydantic>=2.9.0",
+    "httpx>=0.27.2",
+    "python-multipart>=0.0.12",
+]
+
+[project.scripts]
+jullbrain = "orquestador:main"
+jullbrain-convert = "convert_normativas:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["jullbrain*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+exclude = ["docling_env", "RAG", ".conversion_cache"]
