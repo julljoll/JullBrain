@@ -1,112 +1,38 @@
 ---
 name: JullBrain-analizador-jerarquia-legal
-description: >
-  Skill especializado en el módulo legalizer.py de JullBrain. Úsalo cuando:
-  artículos venezolanos no se detectan correctamente, la jerarquía TÍTULO/CAPÍTULO/Artículo
-  está mal anidada, necesitas agregar soporte para un nuevo patrón de ley venezolana, 
-  o los artículos se fusionan entre sí. También aplica al diseñar o depurar la lógica de separación de
-  artículos y numeración de títulos.
-  Trigger siempre que el usuario mencione: artículos fusionados, legalizer,
-  jerarquía legal, separación de artículos.
+description: Skill especializado en el módulo legalizer.py de JullBrain para Google Antigravity. Úsalo cuando artículos venezolanos no se detectan correctamente, la jerarquía TÍTULO/CAPÍTULO/SECCIÓN/Artículo está mal anidada, necesitas agregar soporte para un nuevo patrón de ley o gaceta venezolana, o los artículos se fusionan entre sí.
 ---
 
-# JullBrain Legalizer — Skill Especializado
+# ⚖️ JullBrain — Analizador de Jerarquía Legal Venezolana (`legalizer.py`)
 
-## Responsabilidad del Módulo
-
-| Módulo | Entrada | Salida |
-|--------|---------|--------|
-| `legalizer.py` | Markdown crudo de Docling | Markdown jerarquizado con TÍTULO/CAPÍTULO/Artículo formateados como headings de Markdown (`##`, `###`, `######`) |
-
-> **IMPORTANTE**: La salida jerarquizada del `legalizer.py` es fundamental para que el motor `HierarchicalChunker` de IBM Docling (Fase 3 del pipeline) logre generar JSON chunks con la segmentación correcta. Si el legalizer no inyecta los `######` en los artículos, Docling no sabrá separarlos para RAGFlow.
+Este skill guía el mantenimiento y extensión de [`legalizer.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/legalizer.py), el motor determinista que transforma el Markdown crudo de `IBM Docling` en una jerarquía normativa estricta antes y después de la fragmentación para **RAGFlow**.
 
 ---
 
-## Patrones de Detección de Artículos
+## 1. Jerarquía Normativa Estricta en Markdown
 
-### Regex Principal (Venezuela)
-
-```python
-import re
-
-# Patrones de artículo en leyes venezolanas (ordenados por especificidad)
-ARTICLE_PATTERNS = [
-    # Patrón estándar: "Artículo 1." o "Artículo 1-"
-    r'^Art[íi]culo\s+(\d+)[.\-–]\s*(.{0,80}?)$',
-    # Patrón con punto final en número: "Artículo 1°."  
-    r'^Art[íi]culo\s+(\d+)[°º][.\-]?\s*(.{0,80}?)$',
-    # Patrón en mayúsculas: "ARTÍCULO 1"
-    r'^ART[ÍI]CULO\s+(\d+)[.\-–]?\s*(.{0,80}?)$',
-    # Patrón corto: "Art. 1"
-    r'^Art\.\s+(\d+)[.\-]?\s*(.{0,80}?)$',
-]
-
-TITLE_PATTERNS = [
-    r'^T[ÍI]TULO\s+((?:[IVX]+|\d+))[.\-\s]',
-    r'^TITULO\s+((?:[IVX]+|\d+))[.\-\s]',
-]
-
-CHAPTER_PATTERNS = [
-    r'^CAP[ÍI]TULO\s+((?:[IVX]+|\d+|\w+))[.\-\s]',
-    r'^CAPÍTULO\s+([A-ZÁÉÍÓÚ\s]+)[.\-]',
-    r'^Capítulo\s+((?:[IVX]+|\d+))[.\-\s]',
-]
-
-SECTION_PATTERNS = [
-    r'^SECCIÓN\s+((?:[IVX]+|\d+))[.\-\s]',
-    r'^Sección\s+((?:[IVX]+|\d+))[.\-\s]',
-]
-```
-
-### Función Principal de Detección
-
-```python
-def detect_hierarchy_level(line: str) -> tuple[str, str]:
-    """
-    Returns: (level, content)
-    level: 'titulo' | 'capitulo' | 'seccion' | 'articulo' | 'text'
-    """
-    line = line.strip()
-    
-    for pattern in TITLE_PATTERNS:
-        m = re.match(pattern, line, re.IGNORECASE)
-        if m:
-            return ('titulo', line)
-    
-    for pattern in CHAPTER_PATTERNS:
-        m = re.match(pattern, line, re.IGNORECASE)
-        if m:
-            return ('capitulo', line)
-    
-    for pattern in SECTION_PATTERNS:
-        m = re.match(pattern, line, re.IGNORECASE)
-        if m:
-            return ('seccion', line)
-    
-    for pattern in ARTICLE_PATTERNS:
-        m = re.match(pattern, line, re.MULTILINE | re.IGNORECASE)
-        if m:
-            num = int(m.group(1))
-            title = m.group(2).strip() if m.lastindex >= 2 else ''
-            return ('articulo', f"Artículo {num}" + (f" — {title}" if title else ''))
-    
-    return ('text', line)
-```
+| Nivel Jerárquico | Nivel Markdown | Patrón en Legislación Venezolana |
+| :--- | :--- | :--- |
+| **Libro / Parte** | `#` (`H1`) | `LIBRO PRIMERO`, `PARTE PRIMERA` |
+| **Título** | `#` (`H1`) | `TÍTULO I`, `TÍTULO PRELIMINAR` |
+| **Capítulo** | `##` (`H2`) | `CAPÍTULO I`, `CAPÍTULO ÚNICO` |
+| **Sección** | `###` (`H3`) | `Sección Primera`, `SECCIÓN I` |
+| **Artículo** | `###` (`H3`) | `Artículo 1.`, `Artículo 15.-`, `ARTÍCULO 20°` |
+| **Disposiciones** | `##` (`H2`) | `DISPOSICIONES TRANSITORIAS / DEROGATORIAS / FINALES` |
 
 ---
 
-## Estructura de Salida del Legalizer
+## 2. Reglas de Oro al Modificar `legalizer.py`
 
-```markdown
-## TÍTULO I
-### CAPÍTULO I
-#### SECCIÓN I
-
-###### Artículo 1 — Objeto de la Ley
-El presente código tiene por objeto...
-
-###### Artículo 2 — Ámbito de Aplicación
-La presente ley se aplica a...
-```
-
-> **Decisión de diseño**: Usar H6 (`######`) para artículos garantiza que no colisionen con la jerarquía estructural (Títulos, Capítulos) y son fácilmente identificables por el motor de fragmentación `HierarchicalChunker` de IBM Docling, el cual dividirá automáticamente el texto respetando los H6.
+1. **Separación de Artículos Fusionados (`split_merged_articles`)**:
+   - Los PDFs de Gaceta Oficial a doble columna suelen fusionar el final de un artículo con el inicio del siguiente en el mismo párrafo.
+   - Asegúrate de que la expresión regular distinga entre un **inicio real de artículo** (`Artículo 12. El que...`) y una **referencia interna** en medio de una oración (`...conforme al artículo 12 de esta Ley...`).
+2. **Principio de Espejo Documental (Requisito Forense R7)**:
+   - `legalizer.py` sólo estructura encabezados, saltos de línea y limpieza de artefactos de paginación; **jamás** debe alterar, resumir ni suprimir palabras del texto normativo original.
+3. **Encabezado Canónico y Footer Vacío (Principio 9)**:
+   - El documento Markdown resultante debe conservar intacto el encabezado canónico al inicio y no añadir ningún pie de página al final.
+4. **Verificación Obligatoria**:
+   - Tras cualquier ajuste en `legalizer.py`, ejecuta la suite de pruebas:
+     ```powershell
+     python -m unittest tests/test_core_pipeline.py
+     ```

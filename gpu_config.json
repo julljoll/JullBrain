@@ -1,7 +1,8 @@
 {
-  "_comment": "Configuración de aceleración GPU para JullBrain V3.0",
-  "_version": "0.1.0",
+  "_comment": "Configuración de Cómputo CPU (IBM Docling) y Aceleración Local para JullBrain v0.2.0",
+  "_version": "0.2.0",
   "modo_seleccionado": "cpu",
+  "docling_engine": "cpu_only",
   "modos_disponibles": [
     "cpu",
     "directml",
@@ -9,36 +10,28 @@
     "cuda"
   ],
   "cpu": {
-    "descripcion": "CPU del sistema (siempre disponible, sin dependencias extra)",
+    "descripcion": "Procesador Host Optimizado (Motor nativo para IBM Docling + Granite CPU)",
     "embedding_device": "cpu",
-    "embedding_batch_size": 16,
+    "embedding_batch_size": 32,
     "usar_half_precision": false
   },
   "directml": {
-    "descripcion": "AMD RX 580 en Windows via DirectX 12 (torch-directml)",
+    "descripcion": "GPU Windows via DirectX 12 (torch-directml para embeddings)",
     "so_requerido": "Windows",
-    "gpu_target": "AMD Radeon RX 580 (gfx803)",
-    "vram_gb": 8,
     "embedding_device": "privateuseone:0",
     "embedding_batch_size": 32,
     "usar_half_precision": false,
-    "paquete_requerido": "torch-directml",
-    "nota": "No instalar torch estandar junto con torch-directml"
+    "paquete_requerido": "torch-directml"
   },
   "rocm": {
-    "descripcion": "AMD RX 580 en Linux via ROCm 5.7 (gfx803 legacy)",
+    "descripcion": "GPU AMD en Linux via ROCm",
     "so_requerido": "Linux",
-    "gpu_target": "AMD Radeon RX 580 (gfx803)",
-    "vram_gb": 8,
     "embedding_device": "cuda",
     "embedding_batch_size": 32,
-    "usar_half_precision": false,
-    "env_var_requerida": "HSA_OVERRIDE_GFX_VERSION=8.0.3",
-    "torch_index_url": "https://download.pytorch.org/whl/rocm5.7",
-    "nota": "ROCm 6.x no soporta gfx803. Usar ROCm 5.7 en Ubuntu 22.04"
+    "usar_half_precision": false
   },
   "cuda": {
-    "descripcion": "NVIDIA GPU via CUDA (si se agrega una en el futuro)",
+    "descripcion": "GPU NVIDIA via CUDA",
     "embedding_device": "cuda",
     "embedding_batch_size": 64,
     "usar_half_precision": true

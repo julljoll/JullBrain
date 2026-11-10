@@ -1,32 +1,32 @@
-# ══════════════════════════════════════════════════════════════════
-# JullBrain v0.1.0 — Dependencias para entorno LOCAL (Windows CPU / DirectML)
-# Versiones verificadas contra requirements.lock.txt del venv activo
-# ══════════════════════════════════════════════════════════════════
+# ==============================================================================
+# JullBrain v0.2.0 — Stack Tecnológico Exclusivo IBM (Local & Podman)
+# Compatible con Python 3.12 / 3.13 / 3.14 (64-bit)
+# ==============================================================================
 
-# ── Core IBM Docling ──────────────────────────────────────────────
-docling>=2.111.0
+# 1. Motor de Extracción Estructural (IBM Docling — CPU Optimized)
+docling>=2.0.0
+docling-core>=2.0.0
+docling-ibm-models>=3.0.0
+docling-parse>=3.0.0
 
-# ── Lectura y análisis de PDFs ────────────────────────────────────
-PyMuPDF>=1.28.0
-pypdf>=6.14.2
+# 2. Motor de Embeddings e Inferencia Semántica (IBM Granite Embedding R2)
+torch>=2.5.0
+sentence-transformers>=3.3.0
+transformers>=4.46.0
+safetensors>=0.4.5
+huggingface-hub>=0.26.0
+numpy>=2.0.0
 
-# ── Interfaz terminal ────────────────────────────────────────────
-rich>=15.0.0
+# 3. Validación Forense Cruzada y Metadatos Jurídicos
+PyMuPDF>=1.24.10
+pypdf>=5.0.0
+PyYAML>=6.0.2
 
-# ── Datos y configuración ────────────────────────────────────────
-PyYAML>=6.0.3
-psutil>=6.0.0
-
-# ── IBM Granite Embeddings (CPU / DirectML) ──────────────────────
-transformers>=4.48.0
-sentence-transformers>=3.0.0
-torch>=2.1.0
-
-# ── API REST (para app.py — conservado para despliegue Cloud) ─────
-fastapi>=0.110.0
-uvicorn>=0.28.0
-pydantic>=2.6.0
-python-multipart>=0.0.9
-
-# ── Módulos de soporte de app.py ─────────────────────────────────
-httpx>=0.27.0
+# 4. Orquestador CLI, Diagnóstico de Hardware y API Local Zero-Trust
+rich>=13.9.0
+psutil>=6.1.0
+fastapi>=0.115.0
+uvicorn>=0.32.0
+pydantic>=2.9.0
+httpx>=0.27.2
+python-multipart>=0.0.12

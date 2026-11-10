@@ -1,5 +1,5 @@
 """
-test_integration.py — Suite de Pruebas de Integración para JullBrain Enterprise
+test_integration.py — Suite de Pruebas de Integración para JullBrain Enterprise (Python 3.12 - 3.14)
 """
 
 import sys
@@ -18,8 +18,7 @@ class TestPipelineIntegration(unittest.TestCase):
         self.pipeline = Pipeline()
 
     def test_openwebui_pipeline_execution(self):
-        loop = asyncio.get_event_loop()
-        loop.run_until_complete(self.pipeline.on_startup())
+        asyncio.run(self.pipeline.on_startup())
 
         user_message = "¿Qué especifica el artículo 15 sobre auditoría interna?"
         body = {
@@ -39,7 +38,7 @@ class TestPipelineIntegration(unittest.TestCase):
             "No encontré evidencia suficiente" in response or "Respuesta Basada en Evidencia" in response
         )
 
-        loop.run_until_complete(self.pipeline.on_shutdown())
+        asyncio.run(self.pipeline.on_shutdown())
 
 
 if __name__ == "__main__":

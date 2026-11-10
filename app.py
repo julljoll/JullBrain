@@ -1,7 +1,7 @@
 """
-app.py — Backend API REST & Servidor Web para JullBrain Enterprise Legal Platform
-Modo 100% Local Offline (Air-Gapped) & Google Colab.
-Servidor API de alto rendimiento e Interfaz Web HTML5/CSS3 Integrada.
+app.py — Backend API REST & Servidor Headless para JullBrain Enterprise Legal Platform
+Modo 100% Local Offline (Air-Gapped), Contenedor Nativo Podman & Oracle Cloud (OCI).
+Impulsado exclusivamente por IBM Docling, IBM Granite 3.3, IBM Granite Embedding R2 e IBM Granite Guardian.
 """
 
 import os
@@ -9,59 +9,62 @@ import sys
 import json
 import logging
 import hashlib
-import asyncio
 import subprocess
 from pathlib import Path
 from collections import deque
 from typing import Dict, Any, List, Optional
-from datetime import datetime, timezone
+from datetime import datetime
 
-from fastapi import FastAPI, HTTPException, Depends, Header, BackgroundTasks, status, UploadFile, File, Form
+from fastapi import FastAPI, HTTPException, Header, BackgroundTasks, status, UploadFile, File, Form, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel, Field
 
-# Módulos de Backend JullBrain
-from audit_logger import default_audit_logger, AuditLogger
-from notebook_manager import default_notebook_manager, NotebookManager, NotebookIntegrityError
-from opensearch_indexer import default_opensearch_indexer, OpenSearchHybridIndexer
+from audit_logger import default_audit_logger, validate_pdf_magic_bytes
+from notebook_manager import default_notebook_manager, NotebookIntegrityError
+from opensearch_indexer import default_opensearch_indexer
 from granite_guardian_guardrail import default_guardian_guardrail
 from version import __version__
 
-# Logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 logger = logging.getLogger("JullBrain.API")
 
 BASE_DIR = Path(__file__).resolve().parent
-WEB_DIR = BASE_DIR / "web"
-DATOS_BRUTOS_DIR = BASE_DIR / "RAG" / "datos_brutos"
-NORMATIVAS_RAG_DIR = BASE_DIR / "normativas_rag"
+RAG_DIR = BASE_DIR / "RAG"
+DATOS_BRUTOS_DIR = RAG_DIR / "datos_brutos"
+INFORMACION_RAG_DIR = RAG_DIR / "Informacion_docling_rag"
+CHUNKS_DIR = RAG_DIR / "normativas_chunks"
+MODELOS_IA_DIR = RAG_DIR / "modelos_ia"
 
-# Búfer de logs en memoria para streaming en la consola web
 pipeline_logs = deque(maxlen=500)
 pipeline_logs.append(f"[{datetime.now().strftime('%H:%M:%S')}] [INIT] Servidor JullBrain v{__version__} iniciado.")
-pipeline_logs.append(f"[{datetime.now().strftime('%H:%M:%S')}] [OK] Modo 100% Local Offline activo (Air-Gapped).")
+pipeline_logs.append(f"[{datetime.now().strftime('%H:%M:%S')}] [OK] Modo 100% Local Offline / Air-Gapped con Ciberseguridad IBM activo.")
 
-# Inicialización de la Aplicación FastAPI
 app = FastAPI(
     title="JullBrain Enterprise Legal Platform API",
-    description="Backend API REST y Centro de Control Legal-RAG con IBM Granite e IBM Docling",
+    description="Backend API REST Legal-RAG 100% IBM (Docling + Granite + Guardian) en Podman & Oracle Cloud",
     version=__version__
 )
 
-# Habilitar CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://127.0.0.1:8050", "http://localhost:8050", "http://127.0.0.1:3000", "http://localhost:3000"],
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "DELETE"],
     allow_headers=["*"],
 )
 
-# Montar archivos estáticos para la interfaz web HTML5/CSS3
-if WEB_DIR.exists():
-    app.mount("/static", StaticFiles(directory=str(WEB_DIR)), name="static")
+
+@app.middleware("http")
+async def ibm_cybersecurity_headers_middleware(request: Request, call_next):
+    """Inyecta cabeceras de endurecimiento de seguridad HTTP (Zero-Trust)."""
+    response = await call_next(request)
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["Referrer-Policy"] = "no-referrer"
+    response.headers["X-Permitted-Cross-Domain-Policies"] = "none"
+    response.headers["Cache-Control"] = "no-store"
+    return response
 
 
 # ─── MODELOS DE DATOS PYDANTIC ───
@@ -76,36 +79,33 @@ class QueryRequest(BaseModel):
     notebook_id: str = Field("default_notebook", description="ID del cuaderno / expediente")
     user_message: str = Field(..., description="Consulta normativa del usuario")
     user_id: str = Field("local_user", description="ID del usuario consultante")
-    top_k: int = Field(20, description="Número de chunks candidatas a recuperar")
+    top_k: int = Field(20, description="Número de chunks candidatos a recuperar")
 
 
 class ActionRequest(BaseModel):
-    action: str = Field(..., description="Acción a ejecutar: convert, qa_validate, postprocess, embed, qa_test, clean_cache")
+    action: str = Field(..., description="Acción: convert, qa_validate, postprocess, embed, qa_test, clean_cache")
 
 
 # ─── FUNCIONES DE SUBPROCESOS EN SEGUNDO PLANO ───
 
 def run_pipeline_action_task(action: str):
-    """Ejecuta una acción del pipeline y envía los logs al búfer web."""
+    """Ejecuta una acción del pipeline y envía los logs al búfer."""
     timestamp = datetime.now().strftime("%H:%M:%S")
     python_exe = sys.executable
 
     pipeline_logs.append(f"[{timestamp}] [START] 🚀 Ejecutando acción: '{action}'...")
 
-    cmd = []
-    if action == "convert":
-        cmd = [python_exe, "convert_normativas.py"]
-    elif action == "qa_validate":
-        cmd = [python_exe, "validator.py", "RAG/Informacion_docling_rag"]
-    elif action == "postprocess":
-        cmd = [python_exe, "convert_normativas.py", "--post-process-only"]
-    elif action == "embed":
-        cmd = [python_exe, "granite_embedder.py"]
-    elif action == "qa_test":
-        cmd = [python_exe, "-m", "unittest", "discover", "tests"]
-    elif action == "clean_cache":
-        cmd = [python_exe, "cleanup.py"]
-    else:
+    cmd_map = {
+        "convert": [python_exe, "convert_normativas.py"],
+        "qa_validate": [python_exe, "validator.py", "RAG/Informacion_docling_rag"],
+        "postprocess": [python_exe, "convert_normativas.py", "--post-process-only"],
+        "embed": [python_exe, "granite_embedder.py"],
+        "qa_test": [python_exe, "-m", "unittest", "discover", "tests"],
+        "clean_cache": [python_exe, "cleanup.py"],
+    }
+
+    cmd = cmd_map.get(action)
+    if not cmd:
         pipeline_logs.append(f"[{timestamp}] [ERROR] Acción no reconocida: '{action}'")
         return
 
@@ -120,10 +120,11 @@ def run_pipeline_action_task(action: str):
             cwd=str(BASE_DIR)
         )
 
-        for line in proc.stdout:
-            cleaned = line.strip()
-            if cleaned:
-                pipeline_logs.append(cleaned)
+        if proc.stdout:
+            for line in proc.stdout:
+                cleaned = line.strip()
+                if cleaned:
+                    pipeline_logs.append(cleaned)
 
         proc.wait()
         end_time = datetime.now().strftime("%H:%M:%S")
@@ -139,10 +140,7 @@ def run_pipeline_action_task(action: str):
 
 @app.get("/")
 def read_root(accept: Optional[str] = Header(None)):
-    """Sirve la Interfaz Web HTML5 o el esquema JSON si se solicita API."""
-    index_file = WEB_DIR / "index.html"
-    legacy_index = BASE_DIR / "_archivo_historico" / "web_legacy" / "index.html"
-
+    """Retorna el estado JSON o panel HTML5 minimalista de estado de la API."""
     if accept and "application/json" in accept:
         return {
             "status": "online",
@@ -151,17 +149,19 @@ def read_root(accept: Optional[str] = Header(None)):
             "ui": "Open WebUI Official Interface",
             "mode": "100% Local Offline (Air-Gapped)"
         }
-    if index_file.exists():
-        return FileResponse(str(index_file))
-    if legacy_index.exists():
-        return FileResponse(str(legacy_index))
-    from fastapi.responses import HTMLResponse
-    return HTMLResponse(f"<!DOCTYPE html><html><head><title>JullBrain API</title></head><body><h1>JullBrain v{__version__} API</h1></body></html>")
+    return HTMLResponse(
+        f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'><title>JullBrain API v{__version__}</title></head>"
+        f"<body style='background:#12161A;color:#00FF41;font-family:monospace;padding:2rem;'>"
+        f"<h1>🏛️ JullBrain & UMIF v{__version__} — Nodo Legal-RAG Activo</h1>"
+        f"<p>Stack: IBM Docling (CPU) + IBM Granite 3.3 + Granite Embedding R2 + Granite Guardian</p>"
+        f"<p>Núcleo de Datos: <code>./RAG/</code> | Bóveda de Modelos: <code>./RAG/modelos_ia/</code></p>"
+        f"</body></html>"
+    )
 
 
 @app.get("/health")
 def health_check():
-    """Verifica el estado de salud de todos los componentes de backend."""
+    """Verifica el estado de salud de todos los componentes de backend y bóveda de modelos."""
     opensearch_status = "connected" if default_opensearch_indexer.client else "local_offline_active"
     guardian_status = "available" if default_guardian_guardrail.is_model_available() else "heuristic_mode"
 
@@ -171,8 +171,15 @@ def health_check():
         "opensearch_status": opensearch_status,
         "granite_guardian": guardian_status,
         "notebook_storage": os.path.exists(default_notebook_manager.storage_dir),
+        "models_vault": MODELOS_IA_DIR.exists(),
         "audit_logger": True
     }
+
+
+@app.get("/api/v1/security/vault")
+def inspect_model_vault():
+    """Audita y retorna el estado criptográfico SHA-256 de la bóveda local de modelos IA (RAG/modelos_ia)."""
+    return default_audit_logger.seal_and_verify_model_vault()
 
 
 @app.post("/api/v1/pipeline/action")
@@ -205,40 +212,40 @@ async def upload_document(
     client_sha256: Optional[str] = Form(None)
 ):
     """
-    Recibe un documento PDF, calcula y valida su hash SHA-256 criptográfico,
+    Recibe un documento PDF, verifica su cabecera binaria (%PDF-), calcula su hash SHA-256
     y lo almacena en RAG/datos_brutos/<category>/<filename>.
     """
-    if not file.filename.lower().endswith(".pdf"):
-        raise HTTPException(status_code=400, detail="Solo se permiten documentos en formato PDF.")
-
-    # Sanitizar categoría
-    clean_cat = "".join([c for c in category if c.isalnum() or c in ("-", "_")]) or "Otras"
-    target_dir = DATOS_BRUTOS_DIR / clean_cat
-    target_dir.mkdir(parents=True, exist_ok=True)
-    target_file = target_dir / file.filename
+    safe_filename = Path(file.filename or "").name
+    if not safe_filename.lower().endswith(".pdf") or ".." in safe_filename:
+        raise HTTPException(status_code=400, detail="Solo se permiten documentos legítimos en formato PDF.")
 
     content = await file.read()
-    size_bytes = len(content)
+    magic_check = validate_pdf_magic_bytes(content)
+    if not magic_check.get("valid", False):
+        raise HTTPException(status_code=400, detail="El archivo no posee una firma binaria PDF válida (%PDF-).")
 
-    # Cálculo servidor de SHA-256
+    clean_cat = "".join([c for c in category if c.isalnum() or c in ("-", "_", " ")]).strip() or "Otras"
+    target_dir = DATOS_BRUTOS_DIR / clean_cat
+    target_dir.mkdir(parents=True, exist_ok=True)
+    target_file = target_dir / safe_filename
+
+    size_bytes = len(content)
     server_sha256 = hashlib.sha256(content).hexdigest()
 
-    # Guardar en disco
     with open(target_file, "wb") as f:
         f.write(content)
 
-    # Verificación de integridad si cliente envió su cálculo
     integrity_match = True
     if client_sha256 and client_sha256.lower() != server_sha256.lower():
         integrity_match = False
-        logger.warning(f"Discrepancia de SHA-256 en {file.filename}: Cliente={client_sha256} Servidor={server_sha256}")
+        logger.warning(f"Discrepancia de SHA-256 en {safe_filename}: Cliente={client_sha256} Servidor={server_sha256}")
 
     default_audit_logger.log_event(
         event_type="UPLOAD_DOCUMENT",
         user_id="local_user",
         notebook_id=None,
         action_details={
-            "filename": file.filename,
+            "filename": safe_filename,
             "category": clean_cat,
             "size_bytes": size_bytes,
             "sha256": server_sha256,
@@ -246,11 +253,11 @@ async def upload_document(
         }
     )
 
-    pipeline_logs.append(f"[{datetime.now().strftime('%H:%M:%S')}] [UPLOAD] Nuevo documento: {file.filename} ({size_bytes} bytes) en {clean_cat}.")
+    pipeline_logs.append(f"[{datetime.now().strftime('%H:%M:%S')}] [UPLOAD] Nuevo documento: {safe_filename} ({size_bytes} bytes) en {clean_cat}.")
 
     return {
         "status": "success",
-        "filename": file.filename,
+        "filename": safe_filename,
         "category": clean_cat,
         "size_bytes": size_bytes,
         "sha256": server_sha256,
@@ -260,17 +267,16 @@ async def upload_document(
 
 @app.get("/api/v1/documents")
 def list_documents():
-    """Lista todos los PDFs en RAG/datos_brutos y su estado de conversión."""
+    """Lista todos los PDFs en RAG/datos_brutos y su estado de conversión en RAG/Informacion_docling_rag."""
     docs = []
     if DATOS_BRUTOS_DIR.exists():
         for cat_dir in DATOS_BRUTOS_DIR.iterdir():
             if cat_dir.is_dir():
                 category = cat_dir.name
                 for pdf_file in cat_dir.glob("*.pdf"):
-                    # Verificar si existe el Markdown correspondiente
                     stem = pdf_file.stem
-                    md_exists = (NORMATIVAS_RAG_DIR / category / f"{stem}.md").exists() or \
-                                (NORMATIVAS_RAG_DIR / f"{stem}.md").exists()
+                    md_exists = (INFORMACION_RAG_DIR / category / f"{stem}.md").exists() or \
+                                (INFORMACION_RAG_DIR / f"{stem}.md").exists()
                     docs.append({
                         "category": category,
                         "filename": pdf_file.name,
@@ -280,7 +286,7 @@ def list_documents():
     return {"documents": docs, "total": len(docs)}
 
 
-# ─── ENDPOINTS DE GESTIÓN DE CUADERNOS (NOTEBOOKLM) ───
+# ─── ENDPOINTS DE GESTIÓN DE CUADERNOS ───
 
 @app.post("/api/v1/notebooks", status_code=status.HTTP_201_CREATED)
 def create_notebook(req: NotebookCreateRequest):
@@ -299,7 +305,7 @@ def create_notebook(req: NotebookCreateRequest):
 
 @app.get("/api/v1/notebooks")
 def list_notebooks(user_id: Optional[str] = None):
-    """Lista los cuadernos / expedientes registrados."""
+    """Lista los cuadernos / expedientes registrados en RAG/notebooks_db."""
     return {"notebooks": default_notebook_manager.list_notebooks(user_id=user_id)}
 
 
@@ -332,11 +338,8 @@ def delete_notebook(notebook_id: str, user_id: str = "local_user"):
 @app.post("/api/v1/query")
 def execute_rag_query(req: QueryRequest):
     """
-    Ejecuta el pipeline RAG Legal con IBM Granite 3.3 8B.
-    Aplica Búsqueda Híbrida Local/OpenSearch (BM25 + Vector + RRF + Reranker),
-    Guardrails de seguridad e inferencia estricta cero alucinación.
+    Ejecuta el pipeline RAG Legal con IBM Granite 3.3 8B e IBM Granite Guardian.
     """
-    # 1. Guardrail de Seguridad IBM Granite Guardian
     guardrail = default_guardian_guardrail.evaluate_prompt(req.user_message)
     if not guardrail.get("is_safe", True):
         return {
@@ -347,7 +350,6 @@ def execute_rag_query(req: QueryRequest):
             "citations": []
         }
 
-    # 2. Búsqueda Híbrida
     retrieved_chunks = default_opensearch_indexer.hybrid_search(
         notebook_id=req.notebook_id,
         query=req.user_message,
@@ -355,7 +357,6 @@ def execute_rag_query(req: QueryRequest):
         top_k=req.top_k
     )
 
-    # 3. Respuesta Fallback ante Falta de Evidencia
     if not retrieved_chunks:
         default_audit_logger.log_event(
             event_type="QUERY_RAG",
@@ -371,9 +372,8 @@ def execute_rag_query(req: QueryRequest):
             "citations": []
         }
 
-    # 4. Construcción de Citas y Respuesta Estructurada
     citations = []
-    response_body = f"### Respuesta Basada en Evidencia Documental\n\n"
+    response_body = "### Respuesta Basada en Evidencia Documental\n\n"
     top_chunk = retrieved_chunks[0]
 
     response_body += (
@@ -402,7 +402,6 @@ def execute_rag_query(req: QueryRequest):
             f"Art. {citation_item['articulo']} | Confianza: `{conf}%`\n"
         )
 
-    # 5. Registro de Auditoría Inmutable
     default_audit_logger.log_event(
         event_type="QUERY_RAG",
         user_id=req.user_id,
@@ -437,7 +436,6 @@ def get_audit_trail(limit: int = 50):
     return {"audit_logs": entries}
 
 
-# ─── ARRANQUE DIRECTO ───
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("app:app", host="127.0.0.1", port=8050, reload=False)

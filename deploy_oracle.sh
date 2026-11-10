@@ -1,103 +1,93 @@
-#!/bin/bash
-# deploy_oracle.sh — JullBrain v0.1.0
-# Despliegue automatizado en Oracle Cloud ARM Free Tier
-# Ubuntu 22.04 LTS / Ampere A1 (aarch64)
-# Ejecutar con: bash deploy_oracle.sh
-
+#!/usr/bin/env bash
+# ==============================================================================
+# JullBrain v0.2.0 — Script de Despliegue Oficial en Oracle Cloud (OCI)
+# Configurado nativamente con Podman Rootless y Bóveda Local de Modelos IBM
+# ==============================================================================
 set -euo pipefail
 
-REPO_URL="https://github.com/julljoll/JullBrain.git"
-INSTALL_DIR="/opt/jullbrain"
-SERVICE_USER="ubuntu"
-PORT=8050
+APP_DIR="/opt/jullbrain"
+RAG_DIR="${APP_DIR}/RAG"
+MODEL_VAULT="${RAG_DIR}/modelos_ia"
+PORT="${JULLBRAIN_PORT:-8080}"
 
-echo "════════════════════════════════════════════════════════"
-echo "  JullBrain v0.1.0 — Despliegue Oracle Cloud ARM"
-echo "════════════════════════════════════════════════════════"
+echo "======================================================================"
+echo "  JullBrain v0.2.0 — Despliegue Soberano en Oracle Cloud (OCI)"
+echo "  Stack Exclusivo IBM (Docling CPU + Granite 3.3 + Embedding R2 + Guardian)"
+echo "  Motor de Contenedores: Podman Nativo (Rootless)"
+echo "======================================================================"
 
-# 1. Actualizar sistema base
-echo "[1/8] Actualizando paquetes del sistema..."
-sudo apt-get update -qq
-sudo apt-get upgrade -yq
-sudo apt-get install -yq python3.11 python3.11-venv python3.11-dev \
-    git nginx certbot python3-certbot-nginx curl build-essential
+# 1. Detectar arquitectura y sistema operativo en OCI
+ARCH=$(uname -m)
+CORES=$(nproc || echo 4)
+echo "[INFO] Arquitectura detectada: ${ARCH} | Núcleos CPU para IBM Docling: ${CORES}"
 
-# 2. Clonar o actualizar repositorio
-echo "[2/8] Clonando/actualizando repositorio..."
-if [ -d "$INSTALL_DIR/.git" ]; then
-    cd "$INSTALL_DIR" && git pull origin main
-else
-    sudo git clone "$REPO_URL" "$INSTALL_DIR"
-    sudo chown -R "$SERVICE_USER:$SERVICE_USER" "$INSTALL_DIR"
+# 2. Instalar Podman y dependencias base según distribución (Oracle Linux / Ubuntu)
+if command -v dnf >/dev/null 2>&1; then
+    echo "[1/5] Instalando Podman y herramientas en Oracle Linux / RHEL..."
+    sudo dnf install -y podman podman-compose git curl python3.12 python3.12-pip
+elif command -v apt-get >/dev/null 2>&1; then
+    echo "[1/5] Instalando Podman y herramientas en Ubuntu (OCI)..."
+    sudo apt-get update -y
+    sudo apt-get install -y podman podman-compose git curl python3 python3-venv python3-pip
 fi
-cd "$INSTALL_DIR"
 
-# 3. Crear entorno virtual Python 3.11 ARM
-echo "[3/8] Creando entorno virtual Python 3.11..."
-python3.11 -m venv .venv_oracle
-source .venv_oracle/bin/activate
+# 3. Preparar estructura del Núcleo RAG y Bóveda Local de Modelos IA
+echo "[2/5] Inicializando núcleo RAG y bóveda criptográfica de modelos en ${RAG_DIR}..."
+sudo mkdir -p \
+    "${RAG_DIR}/datos_brutos" \
+    "${RAG_DIR}/Informacion_docling_rag" \
+    "${RAG_DIR}/normativas_chunks" \
+    "${MODEL_VAULT}/docling" \
+    "${MODEL_VAULT}/granite_embeddings" \
+    "${MODEL_VAULT}/granite_llm" \
+    "${MODEL_VAULT}/granite_guardian" \
+    "${MODEL_VAULT}/huggingface" \
+    "${MODEL_VAULT}/torch" \
+    "${MODEL_VAULT}/ollama" \
+    "${RAG_DIR}/notebooks_db" \
+    "${RAG_DIR}/lightrag_db" \
+    "${APP_DIR}/logs"
 
-# 4. Instalar torch CPU para ARM (índice especial requerido)
-echo "[4/8] Instalando PyTorch para CPU ARM..."
-pip install --upgrade pip --quiet
-pip install torch --index-url https://download.pytorch.org/whl/cpu --quiet
+sudo chown -R "$(id -u):$(id -g)" "${APP_DIR}"
 
-# 5. Instalar dependencias Oracle
-echo "[5/8] Instalando dependencias de Oracle Cloud..."
-pip install -r requirements_oracle.txt --quiet
+# 4. Construir imagen nativa con Podman usando Containerfile
+echo "[3/5] Construyendo imagen JullBrain con Podman (Containerfile)..."
+cd "${APP_DIR}"
+podman build -f Containerfile -t localhost/jullbrain-ibm:0.2.0 .
 
-# 6. Crear carpetas RAG requeridas
-echo "[6/8] Creando estructura de directorios RAG..."
-mkdir -p RAG/datos_brutos RAG/Informacion_docling_rag RAG/notebooks_db RAG/lightrag_db
-touch RAG/notebooks_db/.gitkeep RAG/lightrag_db/.gitkeep
-
-# 7. Configurar servicio systemd
-echo "[7/8] Configurando servicio systemd jullbrain..."
-sudo tee /etc/systemd/system/jullbrain.service > /dev/null << EOF
-[Unit]
-Description=JullBrain v0.1.0 Legal-RAG API
-After=network.target
-Wants=network-online.target
-
-[Service]
-Type=exec
-User=${SERVICE_USER}
-WorkingDirectory=${INSTALL_DIR}
-Environment=JULLBRAIN_ENV=oracle
-Environment=HF_HUB_DISABLE_XET_STORAGE=1
-ExecStart=${INSTALL_DIR}/.venv_oracle/bin/gunicorn app:app \
-    --workers 2 \
-    --worker-class uvicorn.workers.UvicornWorker \
-    --bind 127.0.0.1:${PORT} \
-    --timeout 300 \
-    --log-level info \
-    --access-logfile - \
-    --error-logfile -
-Restart=always
-RestartSec=5
-StandardOutput=journal
-StandardError=journal
-
-[Install]
-WantedBy=multi-user.target
-EOF
-
-sudo systemctl daemon-reload
-sudo systemctl enable jullbrain
-sudo systemctl start jullbrain
-
-# 8. Verificar que el servicio está activo
-echo "[8/8] Verificando servicio..."
-sleep 3
-if systemctl is-active --quiet jullbrain; then
-    echo "✅ Servicio jullbrain activo en puerto ${PORT}."
-    echo ""
-    echo "╔══════════════════════════════════════════════════════╗"
-    echo "║  JullBrain v0.1.0 desplegado exitosamente             ║"
-    echo "║  API interna: http://127.0.0.1:${PORT}                  ║"
-    echo "║  Próximo paso [MANUAL]: configurar nginx + certbot   ║"
-    echo "╚══════════════════════════════════════════════════════╝"
+# 5. Desplegar servicios con Podman Compose o Podman Run Rootless
+echo "[4/5] Iniciando enclave Podman Rootless..."
+if command -v podman-compose >/dev/null 2>&1; then
+    podman-compose -f podman-compose.yml up -d
 else
-    echo "❌ Error: el servicio no arrancó. Revisa con: journalctl -u jullbrain -n 50"
-    exit 1
+    podman run -d \
+        --name jullbrain-core \
+        --replace \
+        --security-opt=no-new-privileges \
+        --userns=keep-id \
+        -p "${PORT}:8080" \
+        -e JULLBRAIN_ENV=oracle \
+        -e OMP_NUM_THREADS="${CORES}" \
+        -e MKL_NUM_THREADS="${CORES}" \
+        -e JULLBRAIN_MODEL_VAULT=/app/RAG/modelos_ia \
+        -e DOCLING_ARTIFACTS_PATH=/app/RAG/modelos_ia/docling \
+        -e HF_HOME=/app/RAG/modelos_ia/huggingface \
+        -e TORCH_HOME=/app/RAG/modelos_ia/torch \
+        -v "${RAG_DIR}:/app/RAG:Z" \
+        -v "${APP_DIR}/logs:/app/logs:Z" \
+        localhost/jullbrain-ibm:0.2.0
 fi
+
+# 6. Descargar modelos IBM Granite en la bóveda local del contenedor Ollama (si está activo)
+if podman ps --format "{{.Names}}" | grep -q "jullbrain-ollama"; then
+    echo "[5/5] Aprovisionando modelos IBM Granite en bóveda local (${MODEL_VAULT}/ollama)..."
+    podman exec jullbrain-ollama ollama pull granite3.3:8b || true
+    podman exec jullbrain-ollama ollama pull granite-guardian:3.2 || true
+fi
+
+echo "======================================================================"
+echo "  [OK] Despliegue en Oracle Cloud completado con éxito."
+echo "  - Endpoint local/OCI : http://localhost:${PORT}/health"
+echo "  - Bóveda de Modelos  : ${MODEL_VAULT}"
+echo "  - Estado Podman      : podman ps"
+echo "======================================================================"

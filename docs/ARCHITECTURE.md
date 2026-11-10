@@ -1,192 +1,69 @@
-# JullBrain - IBM technology architecture design — Venezuela legal architecture
+# 🏛️ Arquitectura Técnica y de Ciberseguridad — JullBrain v0.2.0 (Stack Exclusivo IBM)
 
-> Pipeline de **6 etapas** para conversión de documentos legales venezolanos → Markdown estructurado → JSON Jerárquico → Vectores Semánticos → RAGFlow.
-> Versión: 2.1 | Entorno: Nativo (Virtual Environment) | Motor: IBM Docling + Granite Embedding R2
-
-### 📊 Diapositivas e Ilustraciones de Arquitectura (SVG Deck 16:9 UX/UI)
-
-* 🖼️ **Diapositiva 1 (Visión General & Mapa Ejecutivo):** [`jullbrain_arquitectura_1.svg`](jullbrain_arquitectura_1.svg)
-* 🖼️ **Diapositiva 2 (Capa 1 — Ciclo de Vida & Dashboard app.py):** [`jullbrain_arquitectura_2.svg`](jullbrain_arquitectura_2.svg)
-* 🖼️ **Diapositiva 3 (Capa 2 — Ingesta & Engine IBM Docling):** [`jullbrain_arquitectura_3.svg`](jullbrain_arquitectura_3.svg)
-* 🖼️ **Diapositiva 4 (Capa 3 — Pipeline Jurídico & Doble Validación):** [`jullbrain_arquitectura_4.svg`](jullbrain_arquitectura_4.svg)
-* 🖼️ **Diapositiva 5 (Capa 4 — Embeddings Granite R2 & Custodia ISO):** [`jullbrain_arquitectura_5.svg`](jullbrain_arquitectura_5.svg)
-* 🖼️ **Diapositiva 6 (Capa 5 — RAGFlow, Granite LLM & Matriz de Roles):** [`jullbrain_arquitectura_6.svg`](jullbrain_arquitectura_6.svg)
-* ⚡ **Diagrama Exclusivo del Stack Tecnológico por Proceso:** [`jullbrain_arquitectura_techstack.svg`](jullbrain_arquitectura_techstack.svg)
-* 📜 *Diagrama Monolítico Original:* [`jullbrain_architecture.svg`](jullbrain_architecture.svg)
+> **Versión:** `0.2.0`
+> **Tecnología IA:** `IBM Docling (CPU)` · `IBM Granite 3.3 8B` · `IBM Granite Embedding R2 (768d)` · `IBM Granite Guardian 3.2/3.3`
+> **Agente de Ingeniería:** **Google Antigravity**
+> **Infraestructura:** Local (`orquestador_JullBrain.bat`), **Podman** (Windows / Linux Rootless) y **Oracle Cloud (OCI)**
 
 ---
 
-## Visión General
+## 1. Diagrama del Pipeline Soberano (`RAG/`)
 
 ```text
-┌──────────────────────────────────────────────────────────────────────────┐
-│                       JullBrain Pipeline V-2.1                           │
-├──────────────────────────────────────────────────────────────────────────┤
-│                                                                          │
-│  RAG/datos_brutos/                                                        │
-│  (PDF, PNG, JPG, BMP, TIFF, DOC, DOCX por materias)                       │
-│       │                                                                  │
-│       ▼                                                                  │
-│  ┌────────────────────────────────────────────────┐                      │
-│  │                IBM Docling                     │  ← Layout y OCR      │
-│  │   + HierarchicalChunker (Salida JSON nativa)   │  ← Segmentación      │
-│  └───────────────────────┬────────────────────────┘                      │
-│                          │                                               │
-│                          ▼                                               │
-│  ┌────────────────────────────────────────────────┐                      │
-│  │                 legalizer.py                   │  ← Jerarquía TÍTULO  │
-│  │           (Generación de TOC Markdown)         │    CAPÍTULO/Artículo │
-│  └───────────────────────┬────────────────────────┘                      │
-│                          │                                               │
-│                          ▼                                               │
-│  ┌────────────────────────────────────────────────┐                      │
-│  │            metadata_extractor.py               │  ← YAML frontmatter  │
-│  │                                                │    (SHA-256, Fecha)  │
-│  └───────────────────────┬────────────────────────┘                      │
-│                          │                                               │
-│                          ▼                                               │
-│  ┌────────────────────────────────────────────────┐                      │
-│  │                 validator.py                   │  ← Verifica          │
-│  │                                                │    integridad final  │
-│  └───────────────────────┬────────────────────────┘                      │
-│                          │                                               │
-│               ┌──────────┴──────────┐                                    │
-│               ▼                     ▼                                    │
-│  RAG/Informacion_docling_rag/   RAG/Informacion_docling_rag/             │
-│  (ley completa.md)              (hierarchical_chunks.json)               │
-│                                      │                                   │
-│                                      ▼  [NUEVO V-2.1]                    │
-│                         ┌────────────────────────────┐                   │
-│                         │     granite_embedder.py    │  ← Embeddings      │
-│                         │  ibm-granite/multilingual  │    semánticos      │
-│                         │  768 dim | 32 768 tokens   │    768 dim         │
-│                         └────────────┬───────────────┘                   │
-│                                      │                                   │
-│                                      ▼                                   │
-│                         hierarchical_chunks_embedded.json                │
-│                                      │                                   │
-│                                      ▼                                   │
-│                  RAGFlow (Motor nativo de ingesta vectorial)             │
-│                                      │                                   │
-│                                      ▼                                   │
-│                         IBM Granite 4.1:8b (Inferencia)                  │
-└──────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│                        JullBrain v0.2.0 — Núcleo Soberano RAG/                   │
+├──────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│  [1] RAG/datos_brutos/ (PDFs de Leyes Venezolanas y Formatos_Word/)              │
+│         │                                                                        │
+│         ▼                                                                        │
+│  [2] Validación Forense Magic Bytes (%PDF-) + Hash SHA-256 (audit_logger.py)     │
+│         │                                                                        │
+│         ▼                                                                        │
+│  [3] IBM Docling (CPU-Optimized via AcceleratorOptions & OMP/MKL Threads)        │
+│      Pesos cargados desde: RAG/modelos_ia/docling/                               │
+│         │                                                                        │
+│         ├──► legalizer.py (Jerarquía TÍTULO / CAPÍTULO / Artículo)               │
+│         ├──► metadata_extractor.py (YAML Frontmatter + Gaceta Oficial + SHA-256) │
+│         └──► validator.py (Doble Validación Cruzada: Markdown vs PDF PyMuPDF)    │
+│         │                                                                        │
+│         ├───────────────────────────────────────────┐                            │
+│         ▼                                           ▼                            │
+│  RAG/Informacion_docling_rag/*.md          HierarchicalChunker (Chunks Atómicos) │
+│  (Encabezado Canónico + YAML + Ley)                 │                            │
+│                                                     ▼                            │
+│                                            granite_embedder.py                   │
+│                                            ibm-granite/granite-embedding-english-r2│
+│                                            (768 dims desde RAG/modelos_ia/)      │
+│                                                     │                            │
+│                                                     ▼                            │
+│                                            RAG/normativas_chunks/*_chunks.json   │
+│                                                     │                            │
+│                                                     ▼                            │
+│  [4] Recuperación Híbrida BM25 + k-NN (opensearch_indexer.py / RAGFlow)          │
+│         │                                                                        │
+│         ▼                                                                        │
+│  [5] Guardrail Pre/Post Inferencia: IBM Granite Guardian 3.2/3.3 (6 Dimensiones) │
+│      + Inferencia Determinista: IBM Granite 3.3 8B (T = 0.0 - 0.1)               │
+│      + Registro en Cadena Criptográfica HMAC-SHA256 (logs/audit_forensic.jsonl)  │
+└──────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Módulos del Sistema
+## 2. Módulos Principales del Repositorio
 
-### 1. `convert_normativas.py` — Orquestador Principal
-- **Rol**: Coordina todo el pipeline dentro del entorno virtual de Python.
-- **Batching**: Divide PDFs en lotes procesados en paralelo para optimizar memoria RAM.
-- **Estructura Recursiva**: Procesa subcarpetas completas manteniendo la estructura de directorios original en las salidas.
-- **Caché**: SHA-256 por PDF, salta archivos sin cambios.
-- **Visualización**: Interfaz de carga dinámica y colorida con `rich.progress`.
-- **Control de Ejecución**: Permite detener el procesamiento a mitad de camino (`Ctrl+C`).
-
-### 2. `HierarchicalChunker` (Integrado en Docling)
-- **Rol**: Segmenta los documentos usando la inteligencia nativa de Docling basándose en la estructura.
-- **Salida**: Genera `hierarchical_chunks.json` con metadatos completos y contenido semánticamente fragmentado, listo para RAGFlow.
-
-### 3. `legalizer.py` — Estructurador Legal
-- **Rol**: Limpia, normaliza y detecta jerarquía legal.
-- **Detecta**: TÍTULO (H2) → CAPÍTULO (H3) → SECCIÓN (H4) → Artículo (H6).
-- **Genera**: Tabla de contenido (TOC) interactiva con anclajes a cada artículo.
-
-### 4. `metadata_extractor.py` — Extractor de Metadatos
-- **Rol**: Inyecta YAML frontmatter con metadatos semánticos.
-- **Campos**: Gaceta Oficial, fecha de publicación, tipo de instrumento, SHA-256 del PDF.
-
-### 5. `validator.py` — Validador de Integridad
-- **Rol**: Verifica la calidad de la conversión legal para garantizar que RAGFlow no alucine.
-- **Checks**: Secuencia numérica, duplicados, saltos de artículos, validación cruzada con PyMuPDF.
-- **Doble Validación**: Principio 10 (Error Cero) — compara legalizer vs extracción directa del PDF.
-
-### 6. `granite_embedder.py` — Motor de Embeddings Semánticos `[NUEVO V-2.1]`
-- **Rol**: Convierte los chunks en vectores numéricos de alta dimensión para búsqueda semántica.
-- **Modelo recomendado**: `ibm-granite/granite-embedding-multilingual-r2` (200+ idiomas, español incluido).
-- **Modelo configurado por defecto**: `ibm-granite/granite-embedding-english-r2` (verificado operativo).
-- **Dimensión**: 768 (R2 multilingual) | Contexto: 32 768 tokens.
-- **Backends**: `sentence-transformers` (Python local) u `ollama` (API REST).
-- **Principio R7**: Añade campo `embedding` sin modificar ningún campo original del chunk.
-- **CLI**: `python granite_embedder.py --health` | `--embed-text` | `--embed-file`.
-
-### 7. `app.py` — Panel Visual Web (Plotly Dash + Dash Bootstrap Components)
-- **Rol**: Dashboard interactivo con tema oscuro Cyber-Legal. Permite monitorear recursos (CPU, RAM), orquestar conversiones Docling con logs en tiempo real, auditar la integridad de normativas, editar archivos RAG y probar embeddings Granite R2.
-
-### 8. `orquestador_JullBrain.bat` & `cleanup.py` — Lanzador y Gestor de Recursos
-- **`orquestador_JullBrain.bat`**: Activa el entorno virtual `docling_env`, ejecuta `app.py` y abre automáticamente el navegador en `http://127.0.0.1:8050`.
-- **`cleanup.py`**: Rutina ejecutada automáticamente al cerrar el `.bat` o detener el proceso, responsable de purgar la carpeta `.conversion_cache/` y forzar la liberación de memoria RAM (`gc.collect()`).
-
----
-
-## Flujo de Datos Completo V-2.1
-
-```text
-Entrada (PDF/Word)
-  → IBM Docling (OCR + HierarchicalChunker → JSON)
-  → convert_normativas.py (Orquestador)
-    → legalizer.py (Jerarquía legal)
-    → metadata_extractor.py (YAML frontmatter + SHA-256)
-    → validator.py (Integridad + doble validación cruzada)
-  → Salida A: normativas_rag/*.md
-  → Salida B: normativas_chunks/hierarchical_chunks.json
-              → granite_embedder.py (Embeddings R2 768-dim)
-              → normativas_chunks/hierarchical_chunks_embedded.json
-                → RAGFlow (Knowledge Base vectorial)
-                  → IBM Granite 4.1:8b (Inferencia jurídica T=0.15)
-```
-
----
-
-## Panel de Control Plotly Dash — 7 Módulos (`app.py`)
-
-| # | Panel | Función |
-|---|-------|---------|
-| 1 | Pipeline de Arquitectura | KPIs del corpus, diagrama de fases, compatibilidad Granite, monitor de recursos |
-| 2 | Orquestar Conversiones | Lanzar pipeline, cargar PDFs/Word, progreso en vivo |
-| 3 | Integridad y Reportes | Reportes de validación por normativa, alertas de calidad |
-| 4 | Cadena de Custodia | Trazabilidad SHA-256, exportar Acta de Custodia digital |
-| 5 | Editor de Leyes RAG | Editor Ace Markdown/YAML para corregir outputs del pipeline |
-| 6 | 🧬 Granite Embedding | Health check del modelo, test de embedding, embeber chunks, guía RAGFlow |
-| 7 | Ajustes del Pipeline | Configuración persistente en `pipeline_config.json` |
-
----
-
-## Configuración del Pipeline (`pipeline_config.json`)
-
-| Clave | Tipo | Valor Actual | Descripción |
-|-------|------|-------------|-------------|
-| `ocr_activo` | bool | `true` | Activa OCR en IBM Docling |
-| `generar_chunks` | bool | `true` | Genera `hierarchical_chunks.json` |
-| `min_article_chars` | int | `50` | Mínimo de caracteres para artículo válido |
-| `quality_threshold_critical` | float | `0.90` | Umbral crítico de integridad |
-| `quality_threshold_warning` | float | `0.95` | Umbral de advertencia de integridad |
-| `granite_model` | str | `granite4.1:8b` | Modelo de inferencia (Ollama) |
-| `granite_temperature` | float | `0.15` | Temperatura jurídica |
-| `granite_context_window` | int | `128000` | Ventana de contexto (tokens) |
-| `ragflow_api_url` | str | `http://localhost:9380/api/v1` | Endpoint RAGFlow |
-| `ragflow_embedding_model` | str | `ibm-granite/granite-embedding-english-r2` | Modelo de embeddings activo |
-| `embedding_backend` | str | `sentence-transformers` | Motor de embeddings |
-| `embedding_batch_size` | int | `32` | Chunks por lote |
-| `embedding_device` | str | `cpu` | Dispositivo de cómputo |
-
----
-
-## Gestión de Caché
-
-- **Manifest**: `.conversion_cache/manifest.json`
-- **Skip automático**: PDFs sin cambios se saltan basándose en su hash SHA-256.
-- **Caché HuggingFace**: `%USERPROFILE%\.cache\huggingface\hub\` (modelos de embedding).
-
-## Manejo de Errores
-
-| Error | Estrategia |
-|---|---|
-| Lote Docling falla con OCR | Reintento automático sin OCR. |
-| Archivo .doc heredado | Intenta conversión a .docx via win32com (si aplica en Windows host). |
-| Pipeline legal falla | Guarda Markdown crudo, continua con siguiente archivo. |
-| User Interrupt (Ctrl+C) | Se detiene con elegancia, conservando archivos terminados. |
-| `DLL load failed importing hf_xet` | `pip uninstall hf_xet -y` — fuerza descarga HTTP estándar. |
-| Embedding falla con dim=384 | Verificar `ragflow_embedding_model` en config (debe ser R2, no 30m). |
+| Módulo | Responsabilidad Técnica |
+| :--- | :--- |
+| [`orquestador_JullBrain.bat`](file:///c:/VS%20CODE/CODIGO/JullBrain/orquestador_JullBrain.bat) | Punto de entrada local en Windows: analiza CPU/RAM/Podman/Python 3.14, repara `docling_env`, aprovisiona modelos en `RAG/modelos_ia/` y lanza `orquestador.py`. |
+| [`gpu_detector.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/gpu_detector.py) | Analiza el computador host (`analizar_computadora_host()`), calcula la afinidad de hilos CPU para `IBM Docling` (`configurar_entorno_cpu_docling()`) y verifica Podman y la bóveda de modelos. |
+| [`convert_normativas.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/convert_normativas.py) | Motor de conversión PDF → Markdown y JSON con `IBM Docling` en CPU, validación `%PDF-`, enriquecimiento con `GraniteEmbedder` y opción `--bootstrap-models`. |
+| [`legalizer.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/legalizer.py) | Estructurador determinista de legislación venezolana (`LIBRO`, `TÍTULO`, `CAPÍTULO`, `SECCIÓN`, `Artículo`) y separador de artículos fusionados. |
+| [`metadata_extractor.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/metadata_extractor.py) | Extractor de Gaceta Oficial, fecha, tipo de instrumento y hash `SHA-256` en formato YAML frontmatter. |
+| [`validator.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/validator.py) | Validador de secuencia numérica de artículos y doble validación cruzada contra el PDF original mediante PyMuPDF (`cross_validate_against_pdf()`). |
+| [`granite_embedder.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/granite_embedder.py) | Motor de embeddings `ibm-granite/granite-embedding-english-r2` (`768` dims) con almacenamiento local en `RAG/modelos_ia/granite_embeddings` y sellado `SHA-256`. |
+| [`granite_guardian_guardrail.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/granite_guardian_guardrail.py) | Guardrail de ciberseguridad IBM Granite Guardian 3.2/3.3 en 6 dimensiones (Prompt Injection/Jailbreak, HAP, PII Venezolano, Groundedness, Context/Answer Relevance). |
+| [`audit_logger.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/audit_logger.py) | Bitácora forense con encadenamiento criptográfico `HMAC-SHA256-CHAIN`, verificación en tiempo constante (`hmac.compare_digest`) y sellado de `RAG/modelos_ia/`. |
+| [`app.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/app.py) | Servidor web y API REST Zero-Trust en FastAPI con cabeceras de seguridad HTTP (`CSP`, `X-Frame-Options`, `X-Content-Type-Options`) y endpoint `/api/v1/security/vault`. |
+| [`Containerfile`](file:///c:/VS%20CODE/CODIGO/JullBrain/Containerfile) / [`podman-compose.yml`](file:///c:/VS%20CODE/CODIGO/JullBrain/podman-compose.yml) | Contenerización nativa para **Podman** en modo *rootless* (Windows y Linux). |
+| [`deploy_oracle.sh`](file:///c:/VS%20CODE/CODIGO/JullBrain/deploy_oracle.sh) / [`oracle_config.json`](file:///c:/VS%20CODE/CODIGO/JullBrain/oracle_config.json) | Automatización de despliegue en **Oracle Cloud Infrastructure (OCI)** con Podman y bóveda local de modelos. |

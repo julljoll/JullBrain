@@ -18,7 +18,7 @@ from typing import List, Dict, Any, Optional
 try:
     import numpy as np
     NUMPY_AVAILABLE = True
-except ImportError:
+except Exception:
     NUMPY_AVAILABLE = False
 
 logger = logging.getLogger("JullBrain.OpenSearchIndexer")
@@ -147,8 +147,8 @@ class LocalHybridIndexer:
         return scores[:top_k]
 
     def vector_search(self, notebook_id: str, query_vector: List[float], top_k: int = 20) -> List[Dict[str, Any]]:
-        """Búsqueda Vectorial por Similitud Coseno con NumPy."""
-        if not query_vector or not NUMPY_AVAILABLE:
+        """Búsqueda Vectorial por Similitud Coseno con NumPy o fallback nativo Python."""
+        if not query_vector:
             return []
 
         index_data = self.load_chunks(notebook_id)
@@ -159,23 +159,37 @@ class LocalHybridIndexer:
             return []
 
         try:
-            q_vec = np.array(query_vector, dtype=np.float32)
-            q_norm = np.linalg.norm(q_vec)
-            if q_norm == 0:
-                return []
-            q_vec = q_vec / q_norm
+            if NUMPY_AVAILABLE:
+                q_vec = np.array(query_vector, dtype=np.float32)
+                q_norm = np.linalg.norm(q_vec)
+                if q_norm == 0:
+                    return []
+                q_vec = q_vec / q_norm
 
-            emb_mat = np.array(embeddings, dtype=np.float32)
-            norms = np.linalg.norm(emb_mat, axis=1, keepdims=True)
-            norms[norms == 0] = 1e-10
-            emb_norm = emb_mat / norms
+                emb_mat = np.array(embeddings, dtype=np.float32)
+                norms = np.linalg.norm(emb_mat, axis=1, keepdims=True)
+                norms[norms == 0] = 1e-10
+                emb_norm = emb_mat / norms
 
-            similarities = np.dot(emb_norm, q_vec)
-            top_indices = np.argsort(similarities)[::-1][:top_k]
+                similarities = [float(x) for x in np.dot(emb_norm, q_vec)]
+            else:
+                q_norm = math.sqrt(sum(float(x) * float(x) for x in query_vector))
+                if q_norm == 0:
+                    return []
+                similarities = []
+                for emb in embeddings:
+                    e_norm = math.sqrt(sum(float(x) * float(x) for x in emb)) or 1e-10
+                    dot = sum(float(a) * float(b) for a, b in zip(emb, query_vector))
+                    similarities.append(dot / (e_norm * q_norm))
+
+            indexed_sims = sorted(
+                enumerate(similarities),
+                key=lambda pair: (round(pair[1], 6), pair[0]),
+                reverse=True,
+            )[:top_k]
 
             results = []
-            for i in top_indices:
-                sim = float(similarities[i])
+            for i, sim in indexed_sims:
                 if sim > 0.05:
                     item = chunks[i].copy()
                     item["score"] = round(sim, 4)
@@ -306,7 +320,7 @@ class OpenSearchHybridIndexer:
                         "doc_tags": {"type": "keyword"},
                         "embedding": {
                             "type": "knn_vector",
-                            "dimension": 384,
+                            "dimension": 768,
                             "method": {
                                 "name": "hnsw",
                                 "space_type": "l2",

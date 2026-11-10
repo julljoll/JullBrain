@@ -1,102 +1,57 @@
 ---
 name: JullBrain-conversor-pdf-a-rag
-description: >
-  Pipeline maestro para convertir PDFs de leyes y normativas venezolanas en Markdown estructurado y JSON.
-  Úsalo siempre que el usuario mencione: convertir PDFs legales,
-  procesar normativas, estructurar leyes para IA, generar chunks de artículos, ejecutar JullBrain,
-  problemas con IBM Docling, errores en legalizer.py, metadata_extractor.py o
-  validator.py. También aplica cuando el usuario quiere mejorar, depurar o extender cualquier
-  componente del pipeline. El pipeline corre nativamente en un entorno virtual de Python.
-compatibility:
-  python: ">=3.12"
-  tools: [bash_tool, create_file, str_replace, view]
-  dependencies:
-    - docling
-    - tesseract-ocr
-    - venv
-    - rich
+description: Pipeline maestro para convertir PDFs de leyes y normativas venezolanas en Markdown estructurado y JSON utilizando exclusivamente tecnología IBM (IBM Docling en CPU + IBM Granite Embedding R2 + IBM Granite Guardian). Úsalo siempre que el usuario mencione convertir PDFs legales, procesar normativas en la carpeta RAG/, optimizar Docling en CPU, generar chunks de artículos, o depurar convert_normativas.py, gpu_detector.py u orquestador.py.
 ---
 
-# JullBrain V-2.0 — Skill Maestro del Pipeline PDF → RAGFlow (Python Native + Hierarchical Chunking)
+# 📄 JullBrain — Conversor PDF a RAG con Tecnología IBM (`convert_normativas.py`)
 
-## Arquitectura del Sistema
-
-```
-normativas_pdf/   →   [Entorno Virtual: docling_env]   
-                           ↓ (IBM Docling)
-                      [legalizer.py] (Estructuración de Títulos/Capítulos)
-                           ↓
-                      [metadata_extractor.py]
-                           ↓
-                      [validator.py]
-                           ↓
-                      [HierarchicalChunker]
-                           ↓
-           normativas_rag/   +   normativas_chunks/
-           (Markdown completo)   (hierarchical_chunks.json)
-                                       ↓
-                                    RAGFlow
-```
-
-## Módulos del Pipeline
-
-| Módulo | Responsabilidad | Skill especializado |
-|--------|----------------|---------------------|
-| `convert_normativas.py` | Motor Docling + OCR + Hierarchical Chunking | Este SKILL.md |
-| `legalizer.py` | Jerarquía legal (Títulos/Capítulos) | `JullBrain-legalizer/SKILL.md` |
-| `metadata_extractor.py` | YAML frontmatter + SHA-256 | `JullBrain-metadata/SKILL.md` |
-| `validator.py` | Integridad de secuencia | `JullBrain-validator/SKILL.md` |
-
-> **Nota Crítica:** El antiguo módulo `chunker.py` fue eliminado de la arquitectura. El motor de chunking se realiza mediante `docling.chunking.HierarchicalChunker` directamente en el orquestador `convert_normativas.py`.
+Este skill gobierna el pipeline central de conversión documental de **JullBrain v0.2.0** operado desde **Google Antigravity**.
 
 ---
 
-## Integración Exclusiva con RAGFlow
+## 1. Arquitectura del Núcleo `RAG/` y Ejecución CPU-First
 
-Todo el pipeline está diseñado EXCLUSIVAMENTE para que la salida sea consumida por **RAGFlow**. 
-No diseñes para LangChain, LlamaIndex o LanceDB a menos que se indique lo contrario. El JSON generado por `HierarchicalChunker` cumple con la estructura esperada para el motor nativo de ingesta vectorial de RAGFlow.
+En **JullBrain v0.2.0**, toda la información y los modelos de IA residen dentro del directorio `RAG/`:
+
+| Ruta en el Repositorio | Propósito |
+| :--- | :--- |
+| `RAG/datos_brutos/` | Entrada de documentos originales (PDFs de Gacetas Oficiales, leyes, códigos y `Formatos_Word/`). |
+| `RAG/Informacion_docling_rag/` | Salida de documentos `.md` completos (con encabezado canónico + YAML frontmatter) y `.json` crudos de Docling. |
+| `RAG/normativas_chunks/` | Salida de `*_chunks.json` jerárquicos enriquecidos con vectores `ibm-granite/granite-embedding-english-r2` (`768` dims). |
+| `RAG/modelos_ia/` | Bóveda local criptográfica de modelos IA (`docling/`, `granite_embeddings/`, `granite_llm/`, `granite_guardian/`, `huggingface/`, `torch/`, `ollama/`). |
+
+### Optimización de `IBM Docling` en Procesador (CPU)
+Dado que `IBM Docling` se ejecuta en **CPU**, [`convert_normativas.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/convert_normativas.py) y [`gpu_detector.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/gpu_detector.py) aplican:
+1. Detección automática de núcleos físicos y lógicos (`configurar_entorno_cpu_docling()`), asignando el número óptimo de hilos (`OMP_NUM_THREADS`, `MKL_NUM_THREADS`, `TORCH_NUM_THREADS`).
+2. Configuración explícita de `AcceleratorOptions(num_threads=cpu_threads, device=AcceleratorDevice.CPU)` en `PdfPipelineOptions`.
+3. Carga de pesos neuronales de layout y TableFormer desde la bóveda local `RAG/modelos_ia/docling` (`artifacts_path`), evitando descargas repetitivas y permitiendo operación 100% *Air-Gapped*.
 
 ---
 
-## Flujo de Decisión para Nuevos PDFs
+## 2. Flujo de Procesamiento Seguro por Documento
 
-```
-¿El PDF ya está en normativas_rag/ y normativas_chunks/?
-  ├─ Sí, sin cambios → Saltar (caché SHA-256 activa)
-  ├─ Sí, modificado → Usar --force-reprocess
-  └─ NO → Continuar con el flujo normal
-```
+1. **Validación Forense de Magic Bytes (`%PDF-`)**:
+   - Antes de abrir cualquier PDF con Docling, se invoca `validate_pdf_magic_bytes(pdf_path)` de [`audit_logger.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/audit_logger.py) para descartar archivos corruptos o payloads disfrazados.
+2. **Conversión con `IBM Docling` (Con Fallback Resiliente)**:
+   - Convierte el PDF por lotes de páginas con OCR selectivo; si un lote falla con OCR, reintenta automáticamente sin OCR (`converter_no_ocr`) sin abortar la ley completa.
+3. **Estructuración Jerárquica (`legalizer.py`) y Metadata (`metadata_extractor.py`)**:
+   - Aplica jerarquía legal venezolana (`TÍTULO` -> `CAPÍTULO` -> `Artículo`), genera el YAML frontmatter con SHA-256 y antepone el encabezado canónico oficial (sin pie de página).
+4. **Fragmentación (`HierarchicalChunker`) + Embeddings (`IBM Granite Embedding R2`)**:
+   - Genera los chunks atómicos y los vectoriza localmente con [`granite_embedder.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/granite_embedder.py).
+5. **Doble Validación Cruzada (`validator.py`) + Auditoría `HMAC-SHA256`**:
+   - Contrasta el conteo de artículos en Markdown contra el PDF original vía PyMuPDF (`cross_validate_against_pdf()`) y registra el evento firmado en `audit_logger.py`.
 
 ---
 
-## Comandos de Referencia Rápida
+## 3. Comandos Clave del Pipeline
 
-El proyecto se ejecuta en un entorno virtual local de Python. Se recomienda usar `orquestador_JullBrain.bat` para una ejecución automatizada.
+```powershell
+# 1. Descargar y sellar con SHA-256 los modelos de IBM Docling y Granite en RAG/modelos_ia/
+python convert_normativas.py --bootstrap-models
 
-```cmd
-# Crear entorno virtual (si no existe)
-python -m venv docling_env
-
-# Activar entorno virtual (en Windows)
-docling_env\Scripts\activate.bat
-
-# Instalar dependencias
-pip install -r requirements.txt
-
-# Procesar todos los archivos pendientes
+# 2. Procesar todo el corpus en RAG/datos_brutos/
 python convert_normativas.py
 
-# Procesar un archivo específico sin OCR
-python convert_normativas.py --file-path "ley.pdf" --no-ocr
-
-# Ejecutar únicamente post-procesado legal sobre los archivos .md existentes
-python convert_normativas.py --post-process-only
+# 3. Forzar reprocesamiento ignorando caché SHA-256
+python convert_normativas.py --force
 ```
-
----
-
-## Formato de Salida Esperado
-
-La salida consta de dos componentes:
-1. **Archivo Maestro MD**: Se genera en `normativas_rag/nombre-de-la-ley.md`. Contiene la versión completa legalizada con metadatos.
-2. **Hierarchical Chunks**: Se generan en `normativas_chunks/nombre-de-la-ley/hierarchical_chunks.json`. Contiene un arreglo JSON donde cada objeto es un bloque semántico con sus metadatos (bounding box, página, path) extraído directamente por el motor IA de IBM Docling, formateado para inyectar en RAGFlow.

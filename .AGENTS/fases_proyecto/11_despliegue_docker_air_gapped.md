@@ -1,103 +1,42 @@
-# Skill 11 — Despliegue Local On-Premise (Air-Gapped)
+# Fase 11 — Despliegue Soberano en Podman (Windows/Linux) y Oracle Cloud (Air-Gapped)
 
 ## 1. Rol responsable
-**R2 — Desarrollador/a Python/API Full-Stack** (aprovisionamiento e infraestructura).
+**R2 — Desarrollador/a Python, Podman & Oracle Cloud Full-Stack** (aprovisionamiento, contenedores rootless e infraestructura).
 
 ## 2. Propósito
-Aprovisionar la instancia local completa del sistema (Docling + RAGFlow + Granite vía Ollama) sobre el hardware mínimo especificado (Capítulo V del anteproyecto), operando sin conexión saliente a internet.
+Aprovisionar la instancia completa de **JullBrain v0.2.0** (`IBM Docling` en CPU + `IBM Granite 3.3` + `IBM Granite Embedding R2` + `IBM Granite Guardian 3.2`) utilizando **Podman** nativo en modo *rootless* (tanto en Windows como en Linux) o sobre **Oracle Cloud Infrastructure (OCI)**, manteniendo todos los modelos de IA guardados localmente en `RAG/modelos_ia/` sin depender de conexiones salientes en producción.
 
 ## 3. Entradas
-- Hardware según especificación mínima: GPU ≥16GB VRAM, 32GB RAM, 1TB NVMe, Ubuntu Server 24.04 LTS.
-- Imágenes de contenedor de RAGFlow, modelo Granite 4.1 (8B recomendado para el piloto) descargado previamente en un entorno con internet y transferido por medio verificado (no por sincronización directa en producción).
+- Núcleo de datos y modelos locales en `RAG/` (`RAG/datos_brutos`, `RAG/modelos_ia`, `RAG/Informacion_docling_rag`, `RAG/normativas_chunks`).
+- `Containerfile` y `podman-compose.yml` configurados para ejecución sin privilegios (`--security-opt=no-new-privileges`, `--userns=keep-id`).
 
 ## 4. Salidas
-- Instancia funcional local: `docling` (librería Python), `ragflow` (contenedor), `ollama` + `granite4.1:8b` (contenedor), base de datos vectorial persistente.
-- Documento de verificación de aislamiento de red.
+- Contenedores `jullbrain-core` y `jullbrain-ollama` ejecutándose bajo **Podman**.
+- Bóveda de modelos `RAG/modelos_ia/` sellada y verificada con `SHA-256` (`vault_manifest_sha256.json`).
+- Verificación de aislamiento de red y cero telemetría (`HF_HUB_DISABLE_TELEMETRY=1`, `DO_NOT_TRACK=1`).
 
 ## 5. Dependencias tecnológicas
-Docker, Docker Compose, CUDA 12.x, Python 3.11+.
+Podman 4.x / 5.x, `podman-compose`, Python 3.12–3.14.
 
 ## 6. Reglas obligatorias
-1. **Air-gapped en producción:** una vez aprovisionado, el servidor no debe tener salida a internet — solo red local para acceso de operadores autorizados.
-2. Toda actualización (modelo, corpus normativo, dependencias) se transfiere por medio físico o VLAN controlada verificada, nunca por `docker pull` directo desde el servidor en producción.
-3. El firewall debe bloquear explícitamente tráfico saliente, no solo confiar en la ausencia de configuración de red externa.
+1. **Modelos IA locales en `RAG/modelos_ia/`:** tanto en ejecución local como en Oracle Cloud / Podman, los pesos de `IBM Docling` e `IBM Granite` deben residir en el volumen local `RAG/modelos_ia/`.
+2. **Podman Rootless:** los contenedores deben ejecutarse sin demonios con privilegios root y con `--security-opt=no-new-privileges`.
+3. **Air-Gapped Ready:** una vez descargados y sellados los modelos con `--bootstrap-models`, el entorno puede operar con `HF_HUB_OFFLINE=1` sin acceso a internet.
 
-## 7. Implementación de referencia
-
-```yaml
-# skills/11_despliegue_local/docker-compose.yml
-version: "3.8"
-
-services:
-  ragflow:
-    image: infiniflow/ragflow:latest
-    ports:
-      - "9380:9380"
-    volumes:
-      - ragflow_data:/data
-    environment:
-      - DOC_ENGINE=elasticsearch
-    networks:
-      - red_interna
-    restart: unless-stopped
-
-  ollama:
-    image: ollama/ollama:latest
-    ports:
-      - "11434:11434"
-    volumes:
-      - ollama_models:/root/.ollama
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
-    networks:
-      - red_interna
-    restart: unless-stopped
-
-  vector_db:
-    image: elasticsearch:8.14.0
-    environment:
-      - discovery.type=single-node
-      - xpack.security.enabled=false
-    volumes:
-      - vector_data:/usr/share/elasticsearch/data
-    networks:
-      - red_interna
-    restart: unless-stopped
-
-networks:
-  red_interna:
-    driver: bridge
-    internal: true  # sin salida a internet — cumple air-gapped a nivel de red Docker
-
-volumes:
-  ragflow_data:
-  ollama_models:
-  vector_data:
-```
+## 7. Comandos de Referencia (Podman en Windows o Linux)
 
 ```bash
-# skills/11_despliegue_local/verificar_aislamiento.sh
-#!/bin/bash
-# Verifica que el servidor no tenga salida a internet activa (prueba de aislamiento)
-echo "Verificando aislamiento de red (debe fallar toda conexión saliente)..."
-if curl -s --max-time 3 https://www.google.com > /dev/null; then
-  echo "ALERTA: el servidor tiene salida a internet. Revisar firewall antes de cargar expedientes reales."
-  exit 1
-else
-  echo "OK: sin salida a internet detectada."
-  exit 0
-fi
+# 1. Construir imagen nativa con Podman
+podman build -f Containerfile -t localhost/jullbrain-ibm:0.2.0 .
+
+# 2. Levantar el enclave completo con Podman Compose
+podman compose -f podman-compose.yml up -d
+
+# 3. Desplegar en Oracle Cloud (OCI)
+bash deploy_oracle.sh
 ```
 
 ## 8. Criterios de aceptación
-- [ ] `docker compose up` levanta los tres servicios sin errores en el hardware mínimo.
-- [ ] `verificar_aislamiento.sh` confirma ausencia de salida a internet tras el aprovisionamiento final.
-- [ ] Prueba de carga de un expediente simulado de extremo a extremo (Skills 01→08) funcionando en la instancia local.
-
-## 9. Relación con otras skills
-Es la infraestructura sobre la que corren todas las skills 01-10. Precede a la Skill 12 (que define quién opera esta instancia en cada sede).
+- [x] `podman build -f Containerfile` construye la imagen sin privilegios de root.
+- [x] `RAG/modelos_ia/` se monta de forma persistente dentro del contenedor (`/app/RAG/modelos_ia`).
+- [x] `deploy_oracle.sh` aprovisiona la instancia en Oracle Cloud exclusivamente con Podman y tecnología IBM.

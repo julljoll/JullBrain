@@ -1,4 +1,4 @@
-name: 🔬 JullBrain — QA Suite & Offline Integrity
+name: 🔬 JullBrain — QA Suite & Offline Integrity (IBM Stack)
 
 on:
   push:
@@ -6,11 +6,11 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '0 8 * * 1' # Cada lunes a las 08:00 UTC
+    - cron: '0 8 * * 1'
 
 jobs:
   offline-qa-tests:
-    name: 🧪 Ejecución de Tests QA & Forensic
+    name: 🧪 Ejecución de Tests QA & Forensic (Python 3.12 - 3.14)
     runs-on: ubuntu-latest
 
     steps:
@@ -28,6 +28,11 @@ jobs:
           pip install --upgrade pip
           pip install PyMuPDF pypdf PyYAML rich psutil pydantic fastapi httpx
 
-      - name: 🧪 Ejecución de Suite de Pruebas Unitarias
+      - name: 🔐 Validar Encabezado Canónico (.bat)
+        run: |
+          python Idea-Principal/parser_header_canonico.py orquestador_JullBrain.bat
+          python Idea-Principal/parser_header_canonico.py Idea-Principal/header_canonico.bat
+
+      - name: 🧪 Ejecución de Suite de Pruebas Unitarias y Forenses
         run: |
           python -m unittest discover tests

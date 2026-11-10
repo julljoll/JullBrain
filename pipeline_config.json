@@ -1,28 +1,55 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "ocr_activo": true,
   "generar_chunks": true,
   "min_article_chars": 50,
   "quality_threshold_critical": 0.90,
   "quality_threshold_warning": 0.95,
+  "rutas_rag": {
+    "nucleo_rag": "./RAG",
+    "datos_brutos": "./RAG/datos_brutos",
+    "informacion_docling_rag": "./RAG/Informacion_docling_rag",
+    "normativas_chunks": "./RAG/normativas_chunks",
+    "modelos_ia": "./RAG/modelos_ia",
+    "notebooks_db": "./RAG/notebooks_db",
+    "lightrag_db": "./RAG/lightrag_db"
+  },
+  "docling_cpu": {
+    "device": "cpu",
+    "auto_tune_threads": true,
+    "artifacts_path": "./RAG/modelos_ia/docling",
+    "batch_pages": 15
+  },
   "granite_model": "ibm-granite/granite-3.3-8b-instruct-GGUF",
   "granite_temperature": 0.0,
   "granite_top_p": 0.05,
   "granite_top_k": 20,
   "granite_repeat_penalty": 1.15,
   "granite_fixed_seed": 42,
+  "granite_context_window": 128000,
   "ragflow_api_url": "http://localhost:9380/api/v1",
   "ragflow_embedding_model": "ibm-granite/granite-embedding-311m-multilingual-r2",
   "embedding_backend": "sentence-transformers",
   "embedding_batch_size": 32,
   "embedding_device": "cpu",
-  "granite_context_window": 128000,
+  "embedding_cache_dir": "./RAG/modelos_ia/granite_embeddings",
   "lightrag_enabled": true,
   "lightrag_working_dir": "./RAG/lightrag_db",
   "lightrag_mode": "hybrid",
   "guardian_enabled": true,
-  "guardian_model": "granite3.1-dense:8b-guardian",
+  "guardian_model": "granite3.2-guardian:5b",
   "guardian_confidence_threshold": 0.85,
+  "ciberseguridad_ibm": {
+    "air_gapped_local_models": true,
+    "zero_telemetry": true,
+    "trust_remote_code": false,
+    "verify_model_sha256": true,
+    "hmac_sha256_audit_chain": true,
+    "pii_detection_enabled": true,
+    "hap_guard_enabled": true,
+    "prompt_injection_guard": true,
+    "strict_pdf_magic_bytes": true
+  },
   "opensearch_enabled": false,
   "opensearch_host": "localhost",
   "opensearch_port": 9200,
@@ -30,18 +57,25 @@
   "postgres_host": "localhost",
   "postgres_port": 5432,
   "postgres_db": "jullbrain_db",
-  "entorno_activo": "auto",
-  "colab_profile": {
-    "embedding_device": "cuda",
-    "embedding_batch_size": 64,
-    "usar_half_precision": true,
-    "max_workers": 2,
-    "cache_docling_modelos": true
-  },
+  "entorno_activo": "local",
   "local_profile": {
     "embedding_device": "cpu",
     "embedding_batch_size": 32,
     "usar_half_precision": false,
     "max_workers": 4
+  },
+  "podman_profile": {
+    "runtime": "podman",
+    "rootless": true,
+    "embedding_device": "cpu",
+    "embedding_batch_size": 32,
+    "modelos_mount": "/app/RAG/modelos_ia"
+  },
+  "oracle_profile": {
+    "embedding_device": "cpu",
+    "embedding_batch_size": 16,
+    "usar_half_precision": false,
+    "max_workers": 2,
+    "modelos_locales_dir": "/opt/jullbrain/RAG/modelos_ia"
   }
 }

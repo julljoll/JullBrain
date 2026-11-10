@@ -1,42 +1,48 @@
 {
-  "_comment": "Configuración para Oracle Cloud ARM Free Tier (Ampere A1, aarch64, Ubuntu 22.04)",
-  "_version": "0.1.0",
-  "entorno": "oracle",
-  "servidor": {
-    "host": "0.0.0.0",
-    "port": 8050,
-    "workers": 2,
-    "timeout": 300,
-    "proxy_headers": true,
-    "forwarded_allow_ips": "*"
+  "version": "0.2.0",
+  "cloud_provider": "oracle_cloud_infrastructure",
+  "container_engine": "podman",
+  "region_recomendada": "sa-saopaulo-1",
+  "perfiles_computo": {
+    "always_free_arm64": {
+      "shape": "VM.Standard.A1.Flex",
+      "ocpus": 4,
+      "memory_gb": 24,
+      "os": "Oracle Linux 9 / Ubuntu 24.04 LTS (ARM64)",
+      "docling_device": "cpu",
+      "docling_threads": 4
+    },
+    "enterprise_gpu": {
+      "shape": "VM.GPU.A10.1",
+      "ocpus": 15,
+      "memory_gb": 240,
+      "os": "Oracle Linux 9 / Ubuntu 24.04 LTS (x86_64)",
+      "docling_device": "cpu",
+      "granite_device": "cuda"
+    }
   },
-  "object_storage": {
-    "habilitado": false,
-    "region": "sa-vinhedo-1",
-    "namespace": "",
-    "bucket_pdfs": "jullbrain-datos-brutos",
-    "bucket_output": "jullbrain-output-rag",
-    "ruta_local_pdfs": "./RAG/datos_brutos",
-    "ruta_local_output": "./RAG/Informacion_docling_rag"
+  "almacenamiento_local_modelos": {
+    "base_dir": "/opt/jullbrain/RAG",
+    "datos_brutos": "/opt/jullbrain/RAG/datos_brutos",
+    "informacion_docling_rag": "/opt/jullbrain/RAG/Informacion_docling_rag",
+    "normativas_chunks": "/opt/jullbrain/RAG/normativas_chunks",
+    "modelos_ia": "/opt/jullbrain/RAG/modelos_ia",
+    "docling_artifacts": "/opt/jullbrain/RAG/modelos_ia/docling",
+    "granite_embeddings": "/opt/jullbrain/RAG/modelos_ia/granite_embeddings",
+    "granite_llm": "/opt/jullbrain/RAG/modelos_ia/granite_llm",
+    "granite_guardian": "/opt/jullbrain/RAG/modelos_ia/granite_guardian",
+    "ollama_models": "/opt/jullbrain/RAG/modelos_ia/ollama"
   },
-  "granite": {
-    "embedding_model": "ibm-granite/granite-embedding-311m-multilingual-r2",
-    "embedding_backend": "sentence-transformers",
-    "embedding_device": "cpu",
-    "embedding_batch_size": 16,
-    "usar_half_precision": false,
-    "temperature": 0.0,
-    "top_p": 0.05
+  "modelos_ibm": {
+    "llm": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+    "embeddings": "ibm-granite/granite-embedding-english-r2",
+    "guardian": "ibm-granite/granite-guardian-3.2-5b"
   },
-  "pipeline": {
-    "max_workers": 2,
-    "ocr_activo": true,
-    "generar_chunks": true,
-    "min_article_chars": 50
-  },
-  "seguridad": {
-    "jwt_habilitado": false,
-    "cors_origins": ["*"],
-    "https_forzado": true
+  "ciberseguridad": {
+    "zero_trust": true,
+    "air_gapped_ready": true,
+    "hmac_sha256_audit_chain": true,
+    "model_vault_sha256_verification": true,
+    "podman_rootless": true
   }
 }

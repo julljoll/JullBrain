@@ -1,60 +1,79 @@
-# Dockerfile — JullBrain v0.1.0
-# Imagen base: Python 3.11 slim (compatible IBM Code Engine)
-FROM python:3.11-slim
+# ==============================================================================
+# JullBrain v0.2.0 — Dockerfile / Containerfile Nativo para Podman (Windows & Linux)
+# Stack Exclusivo IBM (Docling CPU + Granite 3.3 + Granite Embedding R2 + Guardian)
+# ==============================================================================
+FROM docker.io/library/python:3.12-slim
 
-# Metadata
-LABEL maintainer="JullBrain Team"
-LABEL description="JullBrain Legal-RAG Pipeline API — IBM Docling + Granite"
-LABEL version="0.1.0"
+LABEL maintainer="Jullierms (Jull) — JullBrain Legal-RAG"
+LABEL org.opencontainers.image.title="JullBrain Legal-RAG (IBM Stack)"
+LABEL org.opencontainers.image.version="0.2.0"
+LABEL org.opencontainers.image.vendor="JullBrain"
+LABEL io.containers.autoupdate="local"
+
+# 1. Variables de Entorno Zero-Trust y Bóveda Local de Modelos IA
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    JULLBRAIN_ENV=podman \
+    JULLBRAIN_PORT=8080 \
+    JULLBRAIN_MODEL_VAULT=/app/RAG/modelos_ia \
+    DOCLING_ARTIFACTS_PATH=/app/RAG/modelos_ia/docling \
+    HF_HOME=/app/RAG/modelos_ia/huggingface \
+    TORCH_HOME=/app/RAG/modelos_ia/torch \
+    OLLAMA_MODELS=/app/RAG/modelos_ia/ollama \
+    HF_HUB_DISABLE_TELEMETRY=1 \
+    DO_NOT_TRACK=1 \
+    ANONYMIZED_TELEMETRY=False \
+    OMP_NUM_THREADS=4 \
+    MKL_NUM_THREADS=4
+
+# 2. Dependencias del sistema para IBM Docling (CPU) y PyMuPDF
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libgl1 \
+    libglib2.0-0 \
+    libgomp1 \
+    curl \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# 3. Usuario no privilegiado compatible con Podman Rootless (--userns=keep-id)
+RUN groupadd -g 10001 jullbrain && \
+    useradd -u 10001 -g jullbrain -m -s /bin/bash jullbrain
 
 WORKDIR /app
 
-# Instalar dependencias del sistema para Docling (OCR y PDF)
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    libgl1-mesa-glx \
-    libglib2.0-0 \
-    libsm6 \
-    libxrender1 \
-    libxext6 \
-    git \
-    && rm -rf /var/lib/apt/lists/*
+# 4. Instalación de dependencias Python (Stack IBM)
+COPY requirements.txt /app/requirements.txt
+RUN pip install --upgrade pip && \
+    pip install --no-cache-dir -r /app/requirements.txt
 
-# Copiar requirements e instalar (capa cacheable)
-COPY requirements_ibmcloud.txt .
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r requirements_ibmcloud.txt
+# 5. Copia del código fuente y estructura del núcleo RAG/
+COPY --chown=jullbrain:jullbrain . /app
 
-# Copiar código fuente del proyecto
-# NOTA: RAG/datos_brutos/ NO se incluye en la imagen (datos sensibles en COS)
-COPY app.py .
-COPY audit_logger.py .
-COPY notebook_manager.py .
-COPY opensearch_indexer.py .
-COPY granite_guardian_guardrail.py .
-COPY convert_normativas.py .
-COPY legalizer.py .
-COPY metadata_extractor.py .
-COPY validator.py .
-COPY granite_embedder.py .
-COPY cleanup.py .
-COPY pipeline_config.json .
-COPY ibmcloud_config.json .
-COPY gpu_config.json .
-COPY gpu_detector.py .
+# Asegurar estructura de directorios del núcleo RAG y permisos para Podman rootless
+RUN mkdir -p \
+    /app/RAG/datos_brutos \
+    /app/RAG/Informacion_docling_rag \
+    /app/RAG/normativas_chunks \
+    /app/RAG/modelos_ia/docling \
+    /app/RAG/modelos_ia/granite_embeddings \
+    /app/RAG/modelos_ia/granite_llm \
+    /app/RAG/modelos_ia/granite_guardian \
+    /app/RAG/modelos_ia/huggingface \
+    /app/RAG/modelos_ia/torch \
+    /app/RAG/modelos_ia/ollama \
+    /app/RAG/notebooks_db \
+    /app/RAG/lightrag_db \
+    /app/logs && \
+    chown -R jullbrain:jullbrain /app && \
+    chmod -R g+rwX /app/RAG /app/logs
 
-# Crear directorios RAG vacíos (se montan desde COS en runtime)
-RUN mkdir -p RAG/datos_brutos RAG/Informacion_docling_rag \
-    RAG/notebooks_db RAG/lightrag_db \
-    .conversion_cache
+USER jullbrain
 
-# Variables de entorno base
-ENV JULLBRAIN_ENV=ibmcloud
-ENV HF_HUB_DISABLE_XET_STORAGE=1
-ENV PYTHONUNBUFFERED=1
-
-# IBM Code Engine usa puerto 8080 por convención
 EXPOSE 8080
 
-# Servidor de producción
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080", \
-     "--workers", "2", "--timeout-keep-alive", "300"]
+HEALTHCHECK --interval=30s --timeout=10s --start-period=15s --retries=3 \
+    CMD curl -fsS http://localhost:8080/health || exit 1
+
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]

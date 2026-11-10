@@ -1,53 +1,36 @@
-# IBM Docling — Guía de Troubleshooting para JullBrain
+# IBM Docling (CPU) — Guía de Troubleshooting para JullBrain v0.2.0
 
-> **Entorno Docker**: JullBrain V2.0 se ejecuta de forma aislada dentro de contenedores de Docker. No necesitas instalar Python, Tesseract ni Poppler localmente en tu sistema anfitrión. Todo está gestionado internamente en la imagen.
+> **Entorno Local y Podman**: JullBrain v0.2.0 ejecuta `IBM Docling` en procesador (**CPU**) con afinidad dinámica de hilos (`OMP_NUM_THREADS`, `MKL_NUM_THREADS`) y almacena sus modelos localmente en `RAG/modelos_ia/docling`.
 
-## Errores Conocidos de Docling
+## 1. Optimización de Rendimiento en CPU
 
-### `RuntimeError: CUDA out of memory`
-Reducir el tamaño del batch de 15 a 8 páginas en `convert_normativas.py`:
+En [`convert_normativas.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/convert_normativas.py), `PdfPipelineOptions` utiliza `AcceleratorOptions` apuntando explícitamente a `AcceleratorDevice.CPU`:
+
 ```python
-BATCH_SIZE = 8  # Reducir si hay problemas de memoria GPU
-```
+from docling.datamodel.pipeline_options import AcceleratorDevice, AcceleratorOptions, PdfPipelineOptions
 
-### Problemas de OCR en la imagen Docker
-Si tienes errores nativos de compilación o OCR al levantar el contenedor, asegúrate de que el `Dockerfile` contenga la instalación de Tesseract:
-```dockerfile
-RUN apt-get update && apt-get install -y tesseract-ocr tesseract-ocr-spa poppler-utils
-```
-
-### OCR produce texto ilegible (caracteres aleatorios)
-El PDF probablemente tiene capas de imagen de baja resolución.
-Intentar con EasyOCR como primario en lugar de Tesseract.
-```python
-# En convert_normativas.py, forzar EasyOCR
-pipeline_options = PdfPipelineOptions(do_ocr=True, ocr_options=EasyOcrOptions())
-```
-
-### Tablas no detectadas correctamente
-Activar el modo de detección avanzada de tablas (si no está activo por defecto):
-```python
 pipeline_options = PdfPipelineOptions(
+    do_ocr=True,
     do_table_structure=True,
-    table_structure_options=TableStructureOptions(do_cell_matching=True)
+    artifacts_path=Path("RAG/modelos_ia/docling"),
+    accelerator_options=AcceleratorOptions(
+        num_threads=cpu_threads,
+        device=AcceleratorDevice.CPU,
+    ),
 )
 ```
 
-## Configuración Óptima por Tipo de PDF
+## 2. Problemas Frecuentes y Soluciones
 
-| Tipo de PDF | Configuración recomendada | Tiempo estimado |
-|------------|--------------------------|-----------------|
-| Digital nativo | `--no-ocr` | Muy rápido (< 30 seg/100 págs) |
-| Escaneado alta calidad | OCR Tesseract | Moderado (2-5 min/100 págs) |
-| Escaneado baja calidad | OCR EasyOCR | Lento (5-15 min/100 págs) |
-| Mixto (digital + imágenes) | OCR completo | Moderado-lento |
-
-## Logs y Depuración
-
-Activar logging detallado de Docling:
-```python
-import logging
-logging.getLogger("docling").setLevel(logging.DEBUG)
+### 1. Descarga bloqueada en modo Air-Gapped (`HF_HUB_OFFLINE=1`)
+Asegúrate de aprovisionar previamente la bóveda local ejecutando:
+```powershell
+python convert_normativas.py --bootstrap-models
 ```
+Esto descarga los artefactos de layout y TableFormer de `IBM Docling` en `RAG/modelos_ia/docling` y los sella con `SHA-256` en `RAG/modelos_ia/vault_manifest_sha256.json`.
 
-Los logs se guardan en `.conversion_cache/conversion.log` si el script los dirige ahí.
+### 2. Uso elevado de RAM en PDFs de más de 200 páginas
+Ajusta `"batch_size_pages"` en [`pipeline_config.json`](file:///c:/VS%20CODE/CODIGO/JullBrain/pipeline_config.json) (por defecto `15` páginas por lote).
+
+### 3. Fallo de OCR en páginas escaneadas deterioradas
+El pipeline incluye recuperación automática por lote: si `converter.convert()` falla con OCR activo, reintenta ese lote con `converter_no_ocr` sin abortar el documento completo.

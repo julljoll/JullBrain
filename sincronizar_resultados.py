@@ -1,34 +1,24 @@
 """
-sincronizar_resultados.py — JullBrain v0.1.0
-==========================================
-Herramienta de sincronización y trazabilidad forense entre:
-  1. Entorno local Windows (orquestador .bat)
+sincronizar_resultados.py — JullBrain v0.2.0
+============================================
+Herramienta de sincronización y sellado forense SHA-256 entre:
+  1. Entorno local (orquestador_JullBrain.bat / Podman)
   2. Repositorio oficial en GitHub
-  3. Google Colab & Google Drive
+  3. Despliegue en Oracle Cloud Infrastructure (OCI)
 
-Roles aplicados:
-  - R2: Código funcional, robusto y multiplataforma.
-  - R7: Integridad documental, sellado SHA-256, principio de no alteración.
-
-Uso:
-  python sincronizar_resultados.py --status
-  python sincronizar_resultados.py --pull
-  python sincronizar_resultados.py --manifiesto
-  python sincronizar_resultados.py --verificar
+Núcleo único de información: ./RAG/
 """
 
 from __future__ import annotations
 import sys
-import os
 import json
 import hashlib
 import argparse
 import subprocess
 from pathlib import Path
-from datetime import datetime
-from typing import Dict, Any, List
+from datetime import datetime, timezone
+from typing import Dict, Any
 
-# Reconfigurar codificación UTF-8
 if hasattr(sys.stdout, "reconfigure"):
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -36,7 +26,8 @@ if hasattr(sys.stdout, "reconfigure"):
         pass
 
 BASE_DIR = Path(__file__).resolve().parent
-MANIFEST_FILE = BASE_DIR / "manifiesto_forense_sha256.json"
+RAG_DIR = BASE_DIR / "RAG"
+MANIFEST_FILE = RAG_DIR / "manifiesto_forense_sha256.json"
 
 
 def calcular_sha256(archivo: Path) -> str:
@@ -62,16 +53,10 @@ def obtener_estado_git() -> Dict[str, Any]:
         if res.returncode == 0:
             info["es_repo_git"] = True
             info["cambios_locales"] = bool(res.stdout.strip())
-            
-            # Rama actual
             b_res = subprocess.run(["git", "branch", "--show-current"], capture_output=True, text=True, cwd=str(BASE_DIR))
             info["rama_actual"] = b_res.stdout.strip() or "main"
-            
-            # Último commit
             c_res = subprocess.run(["git", "rev-parse", "--short", "HEAD"], capture_output=True, text=True, cwd=str(BASE_DIR))
             info["commit_hash"] = c_res.stdout.strip()
-            
-            # URL Remota
             r_res = subprocess.run(["git", "remote", "get-url", "origin"], capture_output=True, text=True, cwd=str(BASE_DIR))
             info["remote_url"] = r_res.stdout.strip()
     except Exception as e:
@@ -88,9 +73,8 @@ def ejecutar_pull_git() -> bool:
         if res.returncode == 0:
             print("✅ Sincronización completada con éxito.")
             return True
-        else:
-            print(f"❌ Error al sincronizar: {res.stderr.strip()}")
-            return False
+        print(f"❌ Error al sincronizar: {res.stderr.strip()}")
+        return False
     except Exception as e:
         print(f"❌ Excepción durante git pull: {e}")
         return False
@@ -98,26 +82,26 @@ def ejecutar_pull_git() -> bool:
 
 def generar_manifiesto() -> Dict[str, str]:
     """
-    Genera el manifiesto forense SHA-256 de todos los Markdowns procesados
-    en normativas_rag y RAG/Informacion_docling_rag.
+    Genera el manifiesto forense SHA-256 de todos los Markdowns y JSONs procesados
+    en RAG/Informacion_docling_rag y RAG/normativas_chunks.
     """
     manifiesto: Dict[str, str] = {}
-    carpetas = [BASE_DIR / "normativas_rag", BASE_DIR / "RAG" / "Informacion_docling_rag"]
+    carpetas = [RAG_DIR / "Informacion_docling_rag", RAG_DIR / "normativas_chunks"]
 
-    print("🔐 Calculando hashes SHA-256 de las normativas jurídicas transformadas...")
+    print("🔐 Calculando hashes SHA-256 de las normativas jurídicas en ./RAG/...")
     total_archivos = 0
     for c in carpetas:
         if not c.exists():
             continue
-        for md in c.rglob("*.md"):
-            rel = str(md.relative_to(BASE_DIR)).replace("\\", "/")
-            h = calcular_sha256(md)
-            manifiesto[rel] = h
-            total_archivos += 1
+        for archivo in sorted(c.rglob("*")):
+            if archivo.is_file() and archivo.suffix.lower() in (".md", ".json"):
+                rel = str(archivo.relative_to(BASE_DIR)).replace("\\", "/")
+                manifiesto[rel] = calcular_sha256(archivo)
+                total_archivos += 1
 
     payload = {
-        "_version": "0.1.0",
-        "generado_en": datetime.utcnow().isoformat() + "Z",
+        "_version": "0.2.0",
+        "generado_en": datetime.now(timezone.utc).isoformat(),
         "total_normativas": total_archivos,
         "algoritmo": "SHA-256",
         "hashes": manifiesto
@@ -127,14 +111,12 @@ def generar_manifiesto() -> Dict[str, str]:
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Manifiesto guardado en: {MANIFEST_FILE}")
-    print(f"   Total de normativas selladas: {total_archivos}")
+    print(f"   Total de archivos sellados: {total_archivos}")
     return manifiesto
 
 
 def verificar_integridad() -> None:
-    """
-    Verifica que los archivos actuales coincidan con los hashes registrados en el manifiesto.
-    """
+    """Verifica que los archivos actuales coincidan con los hashes registrados en el manifiesto."""
     if not MANIFEST_FILE.exists():
         print("⚠️ No existe manifiesto forense previo. Ejecuta primero con --manifiesto")
         return
@@ -151,7 +133,7 @@ def verificar_integridad() -> None:
     alterados = 0
     faltantes = 0
 
-    print(f"🔬 Verificando integridad de {len(hashes)} archivos registrados...")
+    print(f"🔬 Verificando integridad de {len(hashes)} archivos registrados en ./RAG/...")
     for rel_path, h_esperado in hashes.items():
         p = BASE_DIR / rel_path
         if not p.exists():
@@ -164,8 +146,6 @@ def verificar_integridad() -> None:
             correctos += 1
         else:
             print(f"⚠️ [ALTERADO] {rel_path}")
-            print(f"   Esperado: {h_esperado}")
-            print(f"   Actual  : {h_actual}")
             alterados += 1
 
     print("\n" + "=" * 60)
@@ -181,11 +161,11 @@ def verificar_integridad() -> None:
 
 
 def mostrar_estado() -> None:
-    """Muestra un panel informativo del estado de sincronización y del corpus."""
+    """Muestra un panel informativo del estado de sincronización y del núcleo ./RAG/."""
     git_info = obtener_estado_git()
     sep = "=" * 65
     print(sep)
-    print("🏛️ JULLBRAIN v0.1.0 — ESTADO DEL ECOSISTEMA DE CONOCIMIENTO LEGAL")
+    print("🏛️ JULLBRAIN v0.2.0 — ESTADO DEL NÚCLEO DE CONOCIMIENTO ./RAG/")
     print(sep)
     print(f" • Repositorio Git  : {'✅ Conectado' if git_info['es_repo_git'] else '❌ Desconectado'}")
     print(f" • Rama activa      : {git_info['rama_actual']}")
@@ -193,23 +173,25 @@ def mostrar_estado() -> None:
     print(f" • Origen remoto    : {git_info['remote_url']}")
     print(f" • Cambios locales  : {'⚠️ Pendientes de commit' if git_info['cambios_locales'] else '✅ Al día'}")
 
-    # Conteo de archivos
-    pdf_brutos = list((BASE_DIR / "RAG" / "datos_brutos").rglob("*.pdf")) if (BASE_DIR / "RAG" / "datos_brutos").exists() else []
-    md_rag = list((BASE_DIR / "normativas_rag").rglob("*.md")) if (BASE_DIR / "normativas_rag").exists() else []
-    chunks = list((BASE_DIR / "normativas_chunks").rglob("*.json")) if (BASE_DIR / "normativas_chunks").exists() else []
+    pdf_brutos = list((RAG_DIR / "datos_brutos").rglob("*.pdf")) if (RAG_DIR / "datos_brutos").exists() else []
+    md_rag = list((RAG_DIR / "Informacion_docling_rag").rglob("*.md")) if (RAG_DIR / "Informacion_docling_rag").exists() else []
+    chunks = list((RAG_DIR / "normativas_chunks").rglob("*.json")) if (RAG_DIR / "normativas_chunks").exists() else []
+    modelos = list((RAG_DIR / "modelos_ia").rglob("*")) if (RAG_DIR / "modelos_ia").exists() else []
+    modelos_files = [m for m in modelos if m.is_file() and m.name != ".gitkeep"]
 
     print("-" * 65)
-    print("CORPUS DOCUMENTAL LOCAL:")
-    print(f" • Leyes en PDF (datos brutos) : {len(pdf_brutos)} archivos")
-    print(f" • Normativas en Markdown RAG  : {len(md_rag)} archivos")
-    print(f" • Chunks Atómicos por Art.   : {len(chunks)} archivos JSON")
-    print(f" • Manifiesto Forense SHA-256 : {'✅ Generado' if MANIFEST_FILE.exists() else '⚠️ No generado'}")
+    print("CORPUS DOCUMENTAL Y BÓVEDA IA EN ./RAG/:")
+    print(f" • Leyes en PDF (RAG/datos_brutos)            : {len(pdf_brutos)} archivos")
+    print(f" • Normativas en MD (RAG/Informacion_docling) : {len(md_rag)} archivos")
+    print(f" • Chunks JSON (RAG/normativas_chunks)        : {len(chunks)} archivos JSON")
+    print(f" • Artefactos en Bóveda IA (RAG/modelos_ia)   : {len(modelos_files)} archivos")
+    print(f" • Manifiesto Forense SHA-256                 : {'✅ Generado' if MANIFEST_FILE.exists() else '⚠️ No generado'}")
     print(sep)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="JullBrain — Sincronizador Local ↔ GitHub ↔ Google Colab")
-    parser.add_argument("--status", action="store_true", help="Muestra el estado general de sincronización y corpus")
+    parser = argparse.ArgumentParser(description="JullBrain — Sincronizador Local ↔ GitHub ↔ Oracle Cloud")
+    parser.add_argument("--status", action="store_true", help="Muestra el estado general del núcleo RAG")
     parser.add_argument("--pull", action="store_true", help="Descarga las últimas actualizaciones desde GitHub")
     parser.add_argument("--manifiesto", action="store_true", help="Genera el manifiesto forense criptográfico SHA-256")
     parser.add_argument("--verificar", action="store_true", help="Verifica la integridad de los archivos contra el manifiesto")

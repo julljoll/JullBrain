@@ -1,58 +1,42 @@
-# Entornos virtuales
+# ==============================================================================
+# JullBrain v0.2.0 — Reglas de Exclusión Git
+# ==============================================================================
+
+# Entorno Virtual Python
 docling_env/
-docling_env_roto_backup/
-env/
 venv/
 .venv/
-ENV/
-
-# Python cache y compilados
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
 
-# Caches locales del proyecto
-.conversion_cache/
-.pytest_cache/
-.mypy_cache/
-.cache/
-
-# Archivos de entorno y credenciales
+# Variables de entorno y secretos
 .env
-.env.*
-!.env.example
+*.pem
+*.key
 
-# Archivos de log
+# Logs y reportes de sesión
+logs/
 *.log
-*.sqlite3
+pipeline_report_*.json
 
-# Archivos temporales de scratch pesados
-scratch/temp_*
-scratch/*.pdf
-scratch/*.docx
+# Pesos binarios de Modelos IA Locales (se preservan los directorios con .gitkeep)
+RAG/modelos_ia/**/*.bin
+RAG/modelos_ia/**/*.safetensors
+RAG/modelos_ia/**/*.gguf
+RAG/modelos_ia/**/*.onnx
+RAG/modelos_ia/**/*.pt
+RAG/modelos_ia/**/*.pth
+RAG/modelos_ia/huggingface/hub/
+RAG/modelos_ia/ollama/blobs/
 
-# Runtime storage
+# Bases de datos dinámicas locales
 RAG/notebooks_db/*
 !RAG/notebooks_db/.gitkeep
 RAG/lightrag_db/*
 !RAG/lightrag_db/.gitkeep
-audit_trail.jsonl
 
-# Jupyter y Google Colab
-.ipynb_checkpoints/
-colab_secrets.json
-.env.colab
-
-# Archivos pesados de vectores binarios
-*.npy
-*.npz
-
-# Sistema operativo y build
+# Archivos del Sistema Operativo / IDE
 .DS_Store
 Thumbs.db
-desktop.ini
-dist/
-build/
-
+*.swp
