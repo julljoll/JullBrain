@@ -52,3 +52,4 @@ services:
 networks:
   jullbrain_enclave:
     driver: bridge
+

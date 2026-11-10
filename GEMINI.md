@@ -21,3 +21,4 @@ Este repositorio está configurado y optimizado **exclusivamente para Google Ant
    - Prohibido reintroducir Chocolatey, Streamlit, instaladores `.exe`/`.spec`, Google Colab, IBM Cloud Serverless o agentes de IA ajenos a Google Antigravity.
 
 Consulta [`.agents/AGENTS.md`](file:///c:/VS%20CODE/CODIGO/JullBrain/.agents/AGENTS.md) y los skills en `.agents/skills/` para las directrices detalladas de cada módulo.
+
