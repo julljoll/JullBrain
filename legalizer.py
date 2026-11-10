@@ -15,6 +15,13 @@ import logging
 from dataclasses import dataclass, field
 from typing import Optional
 
+from common_utils import (
+    RE_GACETA,
+    RE_FECHA,
+    MESES_ES,
+    detect_instrument_type
+)
+
 logger = logging.getLogger("legalizer")
 
 # -----------------------------------------------------------
@@ -33,17 +40,6 @@ RE_PAGE_NUM  = re.compile(
 )
 
 RE_OCR_NOISE = re.compile(r'[□■▪▫]{3,}')
-RE_GACETA    = re.compile(r'Gaceta\s+Oficial\s+N[°º\.]\s*([\d.]+\s*(?:Extraordinario)?)', re.IGNORECASE)
-RE_FECHA     = re.compile(
-    r'(\d{1,2})\s+de\s+(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\s+(?:de\s+)?(\d{4})',
-    re.IGNORECASE
-)
-
-MESES_ES = {
-    'enero': '01', 'febrero': '02', 'marzo': '03', 'abril': '04',
-    'mayo': '05', 'junio': '06', 'julio': '07', 'agosto': '08',
-    'septiembre': '09', 'octubre': '10', 'noviembre': '11', 'diciembre': '12'
-}
 
 
 def clean_noise(text):
@@ -95,20 +91,6 @@ def normalize_article_marker(text):
         text
     )
     return text
-
-
-def detect_instrument_type(text):
-    u = text[:2000].upper()
-    if 'CONSTITUCI' in u: return 'Constitucion'
-    if 'CODIGO' in u or 'CÓDIGO' in u: return 'Codigo'
-    if 'LEY ORGANICA' in u or 'LEY ORGÁNICA' in u: return 'Ley Organica'
-    if 'LEY ESPECIAL' in u: return 'Ley Especial'
-    if 'DECRETO' in u: return 'Decreto'
-    if 'RESOLUCION' in u or 'RESOLUCIÓN' in u: return 'Resolucion'
-    if 'MANUAL' in u: return 'Manual'
-    if 'REGLAMENTO' in u: return 'Reglamento'
-    if 'LEY' in u: return 'Ley'
-    return 'Instrumento Legal'
 
 
 def extract_preamble_metadata(text):
@@ -261,7 +243,7 @@ def legalize(raw_markdown, document_name=""):
     output_parts = []
 
     if preambulo_text:
-        preambulo_lines = [l for l in preambulo_text.splitlines() if l.strip() and not l.strip().startswith('#')]
+        preambulo_lines = [l.strip().lstrip('#').strip() for l in preambulo_text.splitlines() if l.strip()]
         if preambulo_lines:
             output_parts.append("## PREAMBULO\n")
             output_parts.append('\n'.join(preambulo_lines))

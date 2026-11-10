@@ -27,6 +27,7 @@
   "granite_repeat_penalty": 1.15,
   "granite_fixed_seed": 42,
   "granite_context_window": 128000,
+<<<<<<< HEAD
   "ragflow_api_url": "http://localhost:9380/api/v1",
   "ragflow_embedding_model": "ibm-granite/granite-embedding-311m-multilingual-r2",
   "embedding_backend": "sentence-transformers",
@@ -36,9 +37,23 @@
   "lightrag_enabled": true,
   "lightrag_working_dir": "./RAG/lightrag_db",
   "lightrag_mode": "hybrid",
+=======
+  "granite_embedding_model": "ibm-granite/granite-embedding-311m-multilingual-r2",
+  "embedding_backend": "sentence-transformers",
+  "embedding_batch_size": 32,
+  "embedding_device": "cpu",
+  "opensearch_enabled": true,
+  "opensearch_host": "localhost",
+  "opensearch_port": 9200,
+  "opensearch_index_name": "documents_legal_venezuela",
+  "opensearch_dimension": 768,
+  "openrag_enabled": true,
+  "openrag_endpoint": "http://localhost:7860/api/v1",
+>>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
   "guardian_enabled": true,
   "guardian_model": "granite3.2-guardian:5b",
   "guardian_confidence_threshold": 0.85,
+<<<<<<< HEAD
   "ciberseguridad_ibm": {
     "air_gapped_local_models": true,
     "zero_telemetry": true,
@@ -58,6 +73,8 @@
   "postgres_port": 5432,
   "postgres_db": "jullbrain_db",
   "entorno_activo": "local",
+=======
+>>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
   "local_profile": {
     "embedding_device": "cpu",
     "embedding_batch_size": 32,

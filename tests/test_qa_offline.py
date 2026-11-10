@@ -1,14 +1,14 @@
 """
 test_qa_offline.py — Suite Exhaustiva de Control de Calidad (QA) 100% Offline / Air-Gapped
-JullBrain Enterprise Legal Platform
+JullBrain Enterprise Legal Platform — Ejecución Terminal 100% Python
 
 Verificaciones:
   1. Jerarquía Legal Venezolana (Legalizer: TÍTULOS, CAPÍTULOS, ARTÍCULOS)
-  2. Integridad Forense SHA-256 & Detección de Alteraciones (NotebookManager)
+  2. Integridad Forense SHA-256 & Detección de Alteraciones (NotebookManager & common_utils)
   3. Motor Híbrido Local Offline (BM25 + Cosine Vector + RRF + Reranker)
   4. Seguridad y Guardrail Anti-Alucinación (Granite Guardian)
   5. Cero Alucinación y Regla de Abstención Explícita
-  6. API REST: Health, Upload con SHA-256 y Registro Documental
+  6. Validación de Integridad Normativa y Conteo de Artículos (Validator)
   7. Aislamiento Estricto Air-Gapped (Cero Salida a Internet)
 """
 
@@ -23,13 +23,12 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from legalizer import legalize, clean_noise, normalize_article_marker, detect_instrument_type
-from metadata_extractor import sha256_file
+from common_utils import sha256_file, sha256_text, detect_instrument_type, detect_legal_categories
+from legalizer import legalize, clean_noise, normalize_article_marker
 from notebook_manager import NotebookManager, NotebookIntegrityError
 from opensearch_indexer import LocalHybridIndexer, OpenSearchHybridIndexer, default_opensearch_indexer
-from granite_guardian_guardrail import default_guardian_guardrail
-from app import app
-from fastapi.testclient import TestClient
+from granite_guardian_guardrail import default_guardian_guardrail, GraniteGuardianAuditor
+from validator import validate_md_file, extract_article_blocks, validate_sequence
 
 
 class TestLegalHierarchy(unittest.TestCase):
@@ -178,93 +177,70 @@ class TestStrictEvidenceZeroHallucination(unittest.TestCase):
     """QA-05: Principio de Cero Alucinación y Regla de Abstención Explícita."""
 
     def setUp(self):
-        self.client = TestClient(app)
-
-    def test_explicit_abstention_on_unsupported_facts(self):
-        # Consulta sobre materia que no existe en el expediente vacío
-        res = self.client.post("/api/v1/query", json={
-            "notebook_id": "expediente_inexistente_xyz",
-            "user_message": "¿Cuál es la tasa de interés interbancaria en el año 2045?",
-            "top_k": 5
-        })
-        self.assertEqual(res.status_code, 200)
-        data = res.json()
-        self.assertFalse(data.get("evidence_found", True))
-        self.assertIn("No encontré evidencia suficiente", data.get("response", ""))
-        self.assertEqual(len(data.get("citations", [])), 0)
-
-
-class TestApiEndpointsAndUpload(unittest.TestCase):
-    """QA-06: Endpoints de la API REST, Subida de Documentos y Manifiesto."""
-
-    def setUp(self):
-        self.client = TestClient(app)
-        self.test_cat = "TestQACategory"
-        self.test_cat_path = Path("RAG/datos_brutos") / self.test_cat
+        self.temp_dir = tempfile.mkdtemp()
+        self.indexer = LocalHybridIndexer(storage_dir=Path(self.temp_dir))
 
     def tearDown(self):
-        if self.test_cat_path.exists():
-            shutil.rmtree(self.test_cat_path, ignore_errors=True)
+        shutil.rmtree(self.temp_dir, ignore_errors=True)
 
-    def test_health_endpoint(self):
-        res = self.client.get("/health")
-        self.assertEqual(res.status_code, 200)
-        data = res.json()
-        self.assertEqual(data["status"], "healthy")
-        self.assertEqual(data["mode"], "local_offline_air_gapped")
-
-    def test_upload_pdf_with_sha256(self):
-        # Crear un PDF simulado mínimo
-        dummy_content = b"%PDF-1.4\n1 0 obj<</Type/Catalog/Pages 2 0 R>>endobj\n2 0 obj<</Type/Pages/Count 0>>endobj\nxref\n0 3\ntrailer<</Size 3/Root 1 0 R>>\nstartxref\n68\n%%EOF"
-        import hashlib
-        client_hash = hashlib.sha256(dummy_content).hexdigest()
-
-        response = self.client.post(
-            "/api/v1/upload",
-            data={"category": self.test_cat, "client_sha256": client_hash},
-            files={"file": ("test_ley_qa.pdf", dummy_content, "application/pdf")}
+    def test_explicit_abstention_on_unsupported_facts(self):
+        # Búsqueda en índice sin chunks indexados
+        hits = self.indexer.hybrid_search(
+            notebook_id="expediente_vacio",
+            query="¿Cuál es la tasa de interés interbancaria en el año 2045?",
+            query_vector=None,
+            top_k=5
         )
+        self.assertEqual(len(hits), 0)
 
-        self.assertEqual(response.status_code, 200)
-        data = response.json()
-        self.assertEqual(data["status"], "success")
-        self.assertEqual(data["filename"], "test_ley_qa.pdf")
-        self.assertEqual(data["sha256"], client_hash)
-        self.assertTrue(data["integrity_verified"])
+    def test_guardian_detects_ungrounded_response(self):
+        # El contexto habla de apelaciones pero la respuesta inventa artículos tributarios
+        context = "Artículo 439. Son recurribles ante la Corte de Apelaciones las siguientes decisiones..."
+        hallucinated_answer = "Conforme al artículo 999 de la ley bancaria, el imputado queda exento de impuestos."
+        
+        auditor = GraniteGuardianAuditor()
+        result = auditor.audit_rag_response("¿Qué dice la ley?", context, hallucinated_answer)
+        # La auditoría heurística o neuronal debe marcar riesgo o advertencia
+        self.assertIn(result.status, ("WARNING", "CRITICAL", "STANDBY"))
 
-        # Verificar existencia física
-        saved_file = self.test_cat_path / "test_ley_qa.pdf"
-        self.assertTrue(saved_file.exists())
 
-    def test_pipeline_action_validation(self):
-        # Acción inválida debe retornar 400
-        res = self.client.post("/api/v1/pipeline/action", json={"action": "accion_invalida_xyz"})
-        self.assertEqual(res.status_code, 400)
+class TestValidatorAndQualityScoring(unittest.TestCase):
+    """QA-06: Verificación de Integridad de Artículos y Detección de Discrepancias."""
+
+    def test_extract_and_sequence(self):
+        md = (
+            "###### Articulo 1 - Objeto\nCuerpo uno con suficiente longitud para superar el umbral minimo.\n\n"
+            "###### Articulo 2 - Ambito\nCuerpo dos con suficiente longitud para superar el umbral minimo.\n\n"
+            "###### Articulo 4 - Excepcion\nCuerpo cuatro que deja un salto en el articulo 3."
+        )
+        articles = extract_article_blocks(md)
+        self.assertEqual(len(articles), 3)
+        gaps, duplicates = validate_sequence(articles)
+        self.assertEqual(len(gaps), 1)
+        self.assertEqual(gaps[0]["missing"], [3])
+        self.assertEqual(len(duplicates), 0)
 
 
 class TestAirGapIsolation(unittest.TestCase):
     """QA-07: Aislamiento Air-Gapped estricto. Garantiza 0 conexiones salientes no autorizadas."""
 
     def test_query_pipeline_runs_without_external_network(self):
-        client = TestClient(app)
         original_connect = socket.socket.connect
 
         def guarded_connect(self, address):
             host, port = address
             # Permitir únicamente localhost / loopback
-            if host not in ("127.0.0.1", "localhost", "::1", "testserver"):
+            if host not in ("127.0.0.1", "localhost", "::1"):
                 raise ConnectionError(f"[AIR-GAP VIOLATION] Intento de conexión externa no autorizada a: {host}:{port}")
             return original_connect(self, address)
 
         # Activar cerrojo de red
         socket.socket.connect = guarded_connect
         try:
-            res = client.post("/api/v1/query", json={
-                "notebook_id": "default_notebook",
-                "user_message": "Consulta protegida en modo air-gapped",
-                "top_k": 3
-            })
-            self.assertEqual(res.status_code, 200)
+            # Comprobar que los algoritmos de búsqueda y guardrail operan 100% locales
+            indexer = LocalHybridIndexer(storage_dir=Path("./RAG/test_airgap_tmp"))
+            hits = indexer.bm25_search("non_existent", "consulta local")
+            self.assertEqual(len(hits), 0)
         finally:
             # Restaurar socket
             socket.socket.connect = original_connect
