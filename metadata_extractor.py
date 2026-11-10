@@ -10,33 +10,102 @@ Autor: Jull Ortiz (Arquitecto de Información IA y bases de datos vectoriales) -
 """
 
 import re
+import hashlib
 import json
 import logging
 from pathlib import Path
 from datetime import datetime
 
-from common_utils import (
-    sha256_file,
-    detect_instrument_type,
-    detect_legal_categories,
-    detect_legal_category,
-    RE_GACETA,
-    RE_FECHA,
-    MESES_ES,
-    TIPOS_INSTRUMENTO,
-    CATEGORIAS_JURIDICAS
-)
-
 logger = logging.getLogger("metadata_extractor")
 
 # -----------------------------------------------------------
-#  PATRONES ESPECÍFICOS DEL EXTRACTOR
+#  PATRONES
 # -----------------------------------------------------------
+
+RE_GACETA = re.compile(
+    r'Gaceta\s+Oficial\s+(?:de\s+la\s+Rep[uú]blica\s+(?:Bolivariana\s+de\s+)?Venezuela\s+)?'
+    r'N[°º\.]\s*([\d.,]+\s*(?:Extraordinario)?)',
+    re.IGNORECASE
+)
+
+RE_FECHA = re.compile(
+    r'(\d{1,2})\s+de\s+'
+    r'(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)'
+    r'\s+(?:de\s+)?(\d{4})',
+    re.IGNORECASE
+)
 
 RE_TITULO_OFICIAL = re.compile(
     r'(?:^|\n)\s*#{1,3}\s*([A-Z][A-Z\s]+(?:LEY|CODIGO|CONSTITUCION|DECRETO|RESOLUCION|MANUAL|REGLAMENTO)[A-Z\s]*)',
     re.MULTILINE
 )
+
+MESES_ES = {
+    'enero': '01', 'febrero': '02', 'marzo': '03', 'abril': '04',
+    'mayo': '05', 'junio': '06', 'julio': '07', 'agosto': '08',
+    'septiembre': '09', 'octubre': '10', 'noviembre': '11', 'diciembre': '12'
+}
+
+TIPOS_INSTRUMENTO = [
+    ('CONSTITUCION', 'Constitucion'),
+    ('CODIGO', 'Codigo'),
+    ('LEY ORGANICA', 'Ley Organica'),
+    ('LEY ESPECIAL', 'Ley Especial'),
+    ('DECRETO CON RANGO', 'Decreto con Rango de Ley'),
+    ('DECRETO', 'Decreto'),
+    ('RESOLUCION', 'Resolucion'),
+    ('MANUAL', 'Manual'),
+    ('REGLAMENTO', 'Reglamento'),
+    ('NORMA', 'Norma'),
+    ('GUIA', 'Guia'),
+    ('LEY', 'Ley'),
+]
+
+CATEGORIAS_JURIDICAS = {
+    'penal':          ['penal', 'delito', 'delitos', 'procesal penal', 'pena'],
+    'civil':          ['civil', 'contratos', 'obligaciones', 'familia'],
+    'administrativo': ['administracion publica', 'administrativo', 'procedimiento administrativo'],
+    'laboral':        ['trabajo', 'laboral', 'empleo', 'trabajadores'],
+    'tributario':     ['tributario', 'impuesto', 'renta', 'fiscal', 'aduanas'],
+    'informatico':    ['informatico', 'informacion', 'datos', 'electronico', 'digital'],
+    'constitucional': ['constituc', 'derechos', 'garantias'],
+    'comercial':      ['comercio', 'mercantil', 'empresa', 'sociedad'],
+    'ambiental':      ['ambiente', 'ambiental', 'ecolog'],
+    'forense':        ['forense', 'evidencia', 'cadena de custodia', 'criminalistica'],
+    'internacional':  ['iso', 'nist', 'internacional', 'norma internacional'],
+}
+
+
+def sha256_file(file_path: str) -> str:
+    """Calcula el hash SHA-256 de un archivo."""
+    h = hashlib.sha256()
+    try:
+        with open(file_path, 'rb') as f:
+            for chunk in iter(lambda: f.read(65536), b''):
+                h.update(chunk)
+        return h.hexdigest()
+    except Exception as e:
+        logger.warning(f"No se pudo calcular SHA-256 para {file_path}: {e}")
+        return ""
+
+
+def detect_instrument_type(text: str) -> str:
+    """Detecta tipo de instrumento juridico."""
+    text_upper = text[:3000].upper()
+    for keyword, tipo in TIPOS_INSTRUMENTO:
+        if keyword in text_upper:
+            return tipo
+    return 'Instrumento Legal'
+
+
+def detect_legal_category(text: str) -> list:
+    """Detecta categorias juridicas del documento."""
+    text_lower = text[:5000].lower()
+    categories = []
+    for cat, keywords in CATEGORIAS_JURIDICAS.items():
+        if any(kw in text_lower for kw in keywords):
+            categories.append(cat)
+    return categories
 
 
 def extract_official_title(text: str, filename: str = "") -> str:
@@ -112,7 +181,7 @@ def extract_metadata(md_text: str, pdf_path: str = "", filename: str = "") -> di
     meta['articulos_detectados'] = count_articles(md_text)
 
     # Categorias juridicas
-    meta['categorias'] = detect_legal_categories(md_text)
+    meta['categorias'] = detect_legal_category(md_text)
 
     # Hash SHA-256 del PDF origen
     if pdf_path and Path(pdf_path).exists():

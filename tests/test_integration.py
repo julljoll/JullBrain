@@ -1,94 +1,44 @@
 """
-<<<<<<< HEAD
 test_integration.py — Suite de Pruebas de Integración para JullBrain Enterprise (Python 3.12 - 3.14)
-=======
-test_integration.py — Suite de Pruebas de Integración para JullBrain Enterprise
-Verifica la integración completa del pipeline legal:
-Legalizer -> MetadataExtractor -> Validator -> GraniteEmbedder -> AuditLogger.
->>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
 """
 
 import sys
 import os
 import unittest
-import tempfile
-import shutil
-from pathlib import Path
+import asyncio
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from legalizer import legalize
-from metadata_extractor import extract_metadata, inject_frontmatter
-from validator import validate_md_file
-from granite_embedder import GraniteEmbedder
-from audit_logger import AuditLogger
+from openwebui_pipeline import Pipeline
+from notebook_manager import NotebookManager
 
 
 class TestPipelineIntegration(unittest.TestCase):
     def setUp(self):
-        self.temp_dir = tempfile.mkdtemp()
-        self.logger = AuditLogger()
+        self.pipeline = Pipeline()
 
-<<<<<<< HEAD
     def test_openwebui_pipeline_execution(self):
         asyncio.run(self.pipeline.on_startup())
-=======
-    def tearDown(self):
-        shutil.rmtree(self.temp_dir, ignore_errors=True)
->>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
 
-    def test_full_pipeline_flow(self):
-        # 1. Simular Markdown crudo extraído de Docling
-        raw_docling_md = (
-            "# CODIGO ORGANICO PROCESAL PENAL\n\n"
-            "Gaceta Oficial N° 6.644 Extraordinario de fecha 15 de septiembre de 2021\n\n"
-            "## TITULO PRELIMINAR\n"
-            "Principios y Garantias Procesales\n\n"
-            "Articulo 1. Juicio previo y debido proceso. Nadie podra ser condenado sin un juicio previo, "
-            "oral y publico, realizado sin dilaciones indebidas, ante un juez o jueza imparcial.\n\n"
-            "Articulo 2. Ejercicio de la jurisdiccion. La potestad de administrar justicia penal emana de los ciudadanos.\n\n"
-            "Articulo 3. Participacion ciudadana. Los ciudadanos y ciudadanas participan en la administracion de la justicia penal."
+        user_message = "¿Qué especifica el artículo 15 sobre auditoría interna?"
+        body = {
+            "user": {"id": "integration_test_user"},
+            "notebook_id": "test_expediente"
+        }
+
+        response = self.pipeline.pipe(
+            user_message=user_message,
+            model_id=self.pipeline.valves.GRANITE_MODEL,
+            messages=[{"role": "user", "content": user_message}],
+            body=body
         )
 
-        # 2. Paso Legalizer: Estructurar jerarquía venezolana
-        legalized_md = legalize(raw_docling_md)
-        self.assertIn("Articulo 1", legalized_md)
-        self.assertIn("Articulo 2", legalized_md)
+        self.assertIsInstance(response, str)
+        self.assertTrue(
+            "No encontré evidencia suficiente" in response or "Respuesta Basada en Evidencia" in response
+        )
 
-<<<<<<< HEAD
         asyncio.run(self.pipeline.on_shutdown())
-=======
-        # 3. Paso Metadata Extractor: Inyectar frontmatter YAML
-        final_md = inject_frontmatter(legalized_md, filename="COPP_Test.md")
-        self.assertTrue(final_md.startswith("---\n"))
-        self.assertIn("tipo_instrumento: \"Codigo\"", final_md)
-        self.assertIn("gaceta_oficial: \"6.644 Extraordinario\"", final_md)
-
-        # 4. Guardar archivo procesado temporal para validación
-        temp_file = Path(self.temp_dir) / "test_normativa.md"
-        temp_file.write_text(final_md, encoding="utf-8")
-
-        # 5. Paso Validator: Ejecutar validación de calidad
-        report = validate_md_file(str(temp_file))
-        self.assertEqual(report.articles_found, 3)
-        self.assertEqual(len(report.sequence_gaps), 0)
-        self.assertEqual(len(report.duplicates), 0)
-        self.assertTrue(report.has_frontmatter)
-        self.assertEqual(report.overall_status, "OK")
-
-        # 6. Paso Audit Logger: Registrar en cadena de custodia
-        audit_entry = self.logger.log_event(
-            event_type="PIPELINE_CONVERSION_SUCCESS",
-            user_id="test_suite_operator",
-            action_details={
-                "filename": "test_normativa.md",
-                "articles_found": report.articles_found,
-                "quality_score": report.quality_score
-            }
-        )
-        self.assertIsNotNone(audit_entry.get("signature_hash"))
-        self.assertTrue(self.logger.verify_audit_integrity(audit_entry))
->>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
 
 
 if __name__ == "__main__":

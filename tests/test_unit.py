@@ -1,6 +1,5 @@
 """
 test_unit.py — Suite de Pruebas Unitarias para JullBrain Enterprise Legal Platform
-Modo 100% Python Terminal (Sin dependencias Web/GUI).
 """
 
 import sys
@@ -9,31 +8,56 @@ import unittest
 import shutil
 import json
 import hashlib
-from pathlib import Path
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from common_utils import sha256_file, sha256_text, detect_instrument_type, detect_legal_categories, get_pdf_page_count
 from notebook_manager import NotebookManager, NotebookIntegrityError
 from audit_logger import AuditLogger
 from opensearch_indexer import OpenSearchHybridIndexer
 from granite_guardian_guardrail import default_guardian_guardrail
 
+try:
+    from fastapi.testclient import TestClient
+    from app import app
+    FASTAPI_AVAILABLE = True
+except ImportError:
+    FASTAPI_AVAILABLE = False
 
-class TestCommonUtils(unittest.TestCase):
-    def test_sha256_text(self):
-        h = sha256_text("JullBrain Legal RAG")
-        self.assertIsInstance(h, str)
-        self.assertEqual(len(h), 64)
 
-    def test_detect_instrument_type(self):
-        self.assertEqual(detect_instrument_type("CODIGO ORGANICO PROCESAL PENAL"), "Codigo")
-        self.assertEqual(detect_instrument_type("CONSTITUCION DE LA REPUBLICA"), "Constitucion")
-        self.assertEqual(detect_instrument_type("LEY ORGANICA DEL TRABAJO"), "Ley Organica")
+class TestFastAPIEndpoints(unittest.TestCase):
+    def setUp(self):
+        if not FASTAPI_AVAILABLE:
+            self.skipTest("FastAPI no está instalado en el entorno local.")
+        self.client = TestClient(app)
 
-    def test_detect_legal_categories(self):
-        cats = detect_legal_categories("Este delito tiene una pena de prisión...")
-        self.assertIn("penal", cats)
+    def test_root_endpoint(self):
+        # 1. Prueba API JSON
+        response = self.client.get("/", headers={"Accept": "application/json"})
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["ui"], "Open WebUI Official Interface")
+
+        # 2. Prueba Interfaz Web HTML5
+        res_web = self.client.get("/")
+        self.assertEqual(res_web.status_code, 200)
+        self.assertIn("text/html", res_web.headers.get("content-type", ""))
+
+    def test_health_endpoint(self):
+        response = self.client.get("/health")
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["status"], "healthy")
+
+    def test_create_and_list_notebook(self):
+        res = self.client.post("/api/v1/notebooks", json={
+            "name": "Expediente FastAPI",
+            "description": "Prueba unitaria API",
+            "user_id": "test_api_user"
+        })
+        self.assertEqual(res.status_code, 201)
+        nb_id = res.json()["notebook"]["id"]
+
+        list_res = self.client.get("/api/v1/notebooks")
+        self.assertEqual(list_res.status_code, 200)
+        self.assertTrue(len(list_res.json()["notebooks"]) > 0)
 
 
 class TestAuditLogger(unittest.TestCase):

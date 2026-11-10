@@ -46,11 +46,7 @@ from rich.text import Text
 from rich import box
 
 import gpu_detector
-<<<<<<< HEAD
 from audit_logger import default_audit_logger
-=======
-from common_utils import sha256_file, get_pdf_page_count, load_json_config
->>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
 
 BASE_DIR = Path(__file__).resolve().parent
 RAG_DIR = BASE_DIR / "RAG"
@@ -62,7 +58,6 @@ AUDIT_FILE = BASE_DIR / "audit_trail.jsonl"
 CONFIG_FILE = BASE_DIR / "pipeline_config.json"
 
 
-<<<<<<< HEAD
 def sha256_file(path: Path) -> str:
     """Calcula el hash SHA-256 de un archivo en bloques de 64KB."""
     h = hashlib.sha256()
@@ -83,11 +78,6 @@ def load_config() -> dict:
         except Exception:
             pass
     return {}
-=======
-def load_config() -> dict:
-    """Carga pipeline_config.json de manera segura."""
-    return load_json_config(CONFIG_FILE)
->>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
 
 
 def detectar_entorno() -> str:
@@ -98,6 +88,25 @@ def detectar_entorno() -> str:
     if Path("/run/.containerenv").exists() or Path("/.dockerenv").exists():
         return "podman"
     return "local"
+
+
+def get_pdf_page_count(file_path: Path) -> Any:
+    """Retorna el número de páginas de un PDF de forma rápida."""
+    if file_path.suffix.lower() == ".pdf":
+        try:
+            import fitz
+            doc = fitz.open(file_path)
+            num = len(doc)
+            doc.close()
+            return num
+        except Exception:
+            try:
+                import pypdf
+                reader = pypdf.PdfReader(file_path)
+                return len(reader.pages)
+            except Exception:
+                return "?"
+    return 1
 
 
 class JullBrainOrquestador:
@@ -477,21 +486,6 @@ class JullBrainOrquestador:
         self.console.rule()
         return res.returncode
 
-    def _sincronizar_opensearch(self) -> None:
-        """Sincroniza los chunks generados hacia el clúster OpenSearch (OpenRAG)."""
-        from opensearch_indexer import default_opensearch_indexer
-        self.console.rule("[bold cyan]Sincronización con Clúster OpenSearch (OpenRAG)[/]")
-        health = default_opensearch_indexer.check_cluster_health()
-        if health.get("connected"):
-            self.console.print(f"[bold green]  [+] Clúster OpenSearch activo ({health.get('cluster_name')}, v{health.get('version')})[/]")
-            self.console.print(f"[bold green]  [+] Índice destino: {health.get('index_name')} | Dimensión vector: {health.get('dimension')}[/]")
-            stats = default_opensearch_indexer.bulk_index_corpus()
-            self.console.print(f"[bold green]  [OK] Indexación masiva completada: {stats['indexed_chunks']} chunks cargados.[/]")
-        else:
-            self.console.print(f"[yellow]  [!] OpenSearch no responde en {health.get('host')}. Operando en Modo Local Offline.[/]")
-            self.console.print("[dim]      Para encender OpenSearch y OpenRAG ejecute: iniciar_servicios_openrag.bat[/]")
-        self.console.rule()
-
     def despachar(self, opcion: str) -> None:
         if opcion == "1":
             self.mostrar_tabla_estados()
@@ -509,7 +503,6 @@ class JullBrainOrquestador:
                 [sys.executable, str(BASE_DIR / "granite_embedder.py")],
                 titulo="Generación y Verificación de Embeddings IBM Granite R2 (Bóveda Local)"
             )
-            self._sincronizar_opensearch()
         elif opcion == "6":
             self._ejecutar_subproceso(
                 [sys.executable, str(BASE_DIR / "convert_normativas.py"), "--post-process-only"],
@@ -555,16 +548,12 @@ def main():
         flag = sys.argv[1].lower()
         orq = JullBrainOrquestador()
 
-<<<<<<< HEAD
         if flag == "--web":
             print("[INIT] Iniciando Servidor Headless FastAPI en http://127.0.0.1:8050...")
             cmd = [sys.executable, "-m", "uvicorn", "app:app", "--host", "127.0.0.1", "--port", "8050"]
             subprocess.run(cmd, cwd=str(BASE_DIR))
             sys.exit(0)
         elif flag == "--full":
-=======
-        if flag in ("--full", "--convert-all"):
->>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
             orq.mostrar_banner()
             orq.inicializar_hardware_y_modelos()
             orq._convertir_todos_pendientes()
@@ -584,14 +573,10 @@ def main():
         elif flag == "--clean":
             orq.despachar("8")
             sys.exit(0)
-        elif flag in ("--opensearch", "--index-all"):
-            orq.mostrar_banner()
-            orq._sincronizar_opensearch()
-            sys.exit(0)
         elif flag == "--audit":
             orq._ver_audit_log()
             sys.exit(0)
-        elif flag in ("--single", "--single-file") and len(sys.argv) > 2:
+        elif flag == "--single-file" and len(sys.argv) > 2:
             orq.mostrar_banner()
             orq.inicializar_hardware_y_modelos()
             archivo = Path(sys.argv[2])

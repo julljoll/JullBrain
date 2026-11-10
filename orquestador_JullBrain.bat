@@ -22,11 +22,7 @@
 
 chcp 65001 >nul 2>nul
 cd /d "%~dp0"
-<<<<<<< HEAD
 title JullBrain ^& UMIF v0.2.0 - Centro de Control Legal-RAG (100%% IBM AI)
-=======
-title JullBrain v0.2.0 - Centro de Control Legal-RAG
->>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
 
 :: ── FASE 1: Auto-Elevación de Privilegios con Fallback Seguro ──
 if not "%~1"=="" goto SKIP_ELEVATION

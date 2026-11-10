@@ -48,16 +48,9 @@ HOST_INFO = gpu_detector.configurar_entorno_cpu_docling()
 import pypdf
 import fitz
 
-<<<<<<< HEAD
-=======
-# Modulos de post-procesamiento legal (Fases 1-5)
-from common_utils import sha256_file, get_pdf_page_count, load_json_config
-sha256_pdf = sha256_file
-
->>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
 try:
     from legalizer import legalize
-    from metadata_extractor import inject_frontmatter, load_manifest, save_manifest
+    from metadata_extractor import inject_frontmatter, sha256_file, load_manifest, save_manifest
     from validator import validate_md_file
     from audit_logger import validate_pdf_magic_bytes
     LEGAL_PIPELINE_AVAILABLE = True
@@ -120,7 +113,6 @@ HEADER_TEMPLATE = """# 🏛️ PROCESAMIENTO ESTRUCTURADO DE NORMATIVAS Y LEYES
 
 FOOTER_TEMPLATE = ""
 
-<<<<<<< HEAD
 
 def get_pdf_page_count(file_path: Path):
     if file_path.suffix.lower() == ".pdf":
@@ -149,8 +141,6 @@ def sha256_pdf(file_path: Path) -> str:
     except Exception:
         return ""
 
-=======
->>>>>>> 9dc0729da20b5212662bb449cb68c84c940431b8
 
 def try_convert_doc_to_docx(doc_path: Path):
     """Intenta convertir un archivo .doc heredado a .docx usando win32com si Microsoft Word está instalado."""

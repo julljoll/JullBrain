@@ -35,5 +35,25 @@
     "embedding_device": "cuda",
     "embedding_batch_size": 64,
     "usar_half_precision": true
+  },
+  "ultimo_diagnostico_host": {
+    "sistema_operativo": "Windows 11 (10.0.26300)",
+    "arquitectura": "AMD64",
+    "procesador": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel",
+    "nucleos_fisicos": 4,
+    "nucleos_logicos": 8,
+    "hilos_optimos_docling": 7,
+    "cpu_hilos_docling": 7,
+    "docling_device": "cpu",
+    "workers_optimos": 3,
+    "ram_total_gb": 19.75,
+    "ram_disponible_gb": 11.04,
+    "disco_libre_gb": 774.9,
+    "python_version": "3.14.7",
+    "python_executable": "C:\\VS CODE\\CODIGO\\JullBrain\\docling_env\\Scripts\\python.exe",
+    "podman_disponible": true,
+    "podman_path": "C:\\Users\\Jull\\AppData\\Local\\Programs\\Podman\\podman.EXE",
+    "boveda_modelos_ia": "C:\\VS CODE\\CODIGO\\JullBrain\\RAG\\modelos_ia",
+    "artefactos_modelos_locales": 0
   }
 }

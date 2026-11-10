@@ -1,0 +1,4 @@
+# JullBrain v0.2.0 — Atributos de Fin de Línea Git
+*.bat text eol=crlf
+*.sh text eol=lf
+*.py text eol=lf
