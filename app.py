@@ -17,7 +17,7 @@ from datetime import datetime
 
 from fastapi import FastAPI, HTTPException, Header, BackgroundTasks, status, UploadFile, File, Form, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
 from audit_logger import default_audit_logger, validate_pdf_magic_bytes
@@ -140,23 +140,15 @@ def run_pipeline_action_task(action: str):
 
 @app.get("/")
 def read_root(accept: Optional[str] = Header(None)):
-    """Retorna el estado JSON o panel HTML5 minimalista de estado de la API."""
-    if accept and "application/json" in accept:
-        return {
-            "status": "online",
-            "system": "JullBrain Enterprise Legal Platform API",
-            "version": __version__,
-            "ui": "Open WebUI Official Interface",
-            "mode": "100% Local Offline (Air-Gapped)"
-        }
-    return HTMLResponse(
-        f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'><title>JullBrain API v{__version__}</title></head>"
-        f"<body style='background:#12161A;color:#00FF41;font-family:monospace;padding:2rem;'>"
-        f"<h1>🏛️ JullBrain & UMIF v{__version__} — Nodo Legal-RAG Activo</h1>"
-        f"<p>Stack: IBM Docling (CPU) + IBM Granite 3.3 + Granite Embedding R2 + Granite Guardian</p>"
-        f"<p>Núcleo de Datos: <code>./RAG/</code> | Bóveda de Modelos: <code>./RAG/modelos_ia/</code></p>"
-        f"</body></html>"
-    )
+    """Retorna el estado JSON nativo en Python del servidor JullBrain."""
+    return {
+        "status": "online",
+        "system": "JullBrain Enterprise Legal Platform API",
+        "version": __version__,
+        "ui": "Open WebUI Official Interface",
+        "stack": "100% Python + IBM Docling (CPU) + IBM Granite 3.3 + Granite Embedding R2 + Granite Guardian",
+        "mode": "100% Local Offline (Air-Gapped)"
+    }
 
 
 @app.get("/health")

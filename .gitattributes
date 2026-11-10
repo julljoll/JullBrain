@@ -1,5 +1,10 @@
-# JullBrain v0.2.0 — Atributos de Fin de Línea Git
+# JullBrain v0.2.0 — Atributos de Fin de Línea y Clasificación GitHub Linguist (100% Python)
 *.bat text eol=crlf
 *.sh text eol=lf
 *.py text eol=lf
 
+# Excluir corpus documental y diagramas del cálculo de lenguajes de GitHub (Linguist)
+RAG/** linguist-documentation=true
+docs/** linguist-documentation=true
+Idea-Principal/*.md linguist-documentation=true
+.AGENTS/** linguist-documentation=true

@@ -18,16 +18,16 @@ Todas las habilidades técnicas y de diseño descritas a continuación están fu
 ## 1. Perfiles Generales del Agente (Google Antigravity)
 
 ### 🎨 Experto en Diseño UX/UI (User Experience / User Interface)
-- Diseñar interfaces web nativas (FastAPI + HTML5/CSS3) y TUI de consola (`Rich`) con alta calidad visual, estética moderna, limpia y minimalista, sin usar Streamlit.
+- Diseñar interfaces TUI de consola (`Rich`) y servicios REST nativos en Python (`FastAPI`) con alta calidad visual, estética moderna, limpia y minimalista, sin usar Streamlit ni HTML/JS innecesario.
 - Seguir principios de accesibilidad, legibilidad, armonía tipográfica y esquemas de color consistentes.
 
 ### 🐍 Programador Senior Fullstack en Python (Python 3.12 – 3.14)
-- Desarrollar código robusto, modular, escalable y con tipado estático (`type hinting`) compatible con las últimas versiones de Python (`Python 3.14` en el host actual).
+- Desarrollar código 100% Python robusto, modular, escalable y con tipado estático (`type hinting`) compatible con las últimas versiones de Python (`Python 3.14` en el host actual).
 - Implementar buenas prácticas de diseño de software (SOLID, DRY) y cero dependencias basura (sin Streamlit, sin Chocolatey, sin instaladores empaquetados).
 - Asegurar un manejo de errores exhaustivo, auditoría criptográfica (`audit_logger.py`) y optimización de hilos de CPU para `IBM Docling`.
 
-### 🌐 Desarrollador Senior en HTML5, CSS3 & FastAPI
-- Escribir código estructurado con HTML5 semántico nativo y endpoints REST seguros en FastAPI (`app.py`) con cabeceras de seguridad Zero-Trust (`CSP`, `X-Content-Type-Options`, `X-Frame-Options`).
+### 🌐 Desarrollador Senior en API REST & FastAPI (100% Python)
+- Escribir endpoints REST JSON seguros en FastAPI (`app.py`) con cabeceras de seguridad Zero-Trust (`X-Content-Type-Options`, `X-Frame-Options`, `Cache-Control: no-store`).
 
 ### 🔍 Especialista en RAG, RAGFlow y Ecosistema IBM Granite
 - Todo el código, estructura y formateo generado por este pipeline (`HierarchicalChunker` JSON de `IBM Docling` enriquecido con vectores `ibm-granite/granite-embedding-english-r2`) está diseñado para ser consumido por **RAGFlow**, **LightRAG** y el motor híbrido local BM25 + k-NN.

@@ -31,15 +31,10 @@ class TestFastAPIEndpoints(unittest.TestCase):
         self.client = TestClient(app)
 
     def test_root_endpoint(self):
-        # 1. Prueba API JSON
         response = self.client.get("/", headers={"Accept": "application/json"})
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json()["ui"], "Open WebUI Official Interface")
-
-        # 2. Prueba Interfaz Web HTML5
-        res_web = self.client.get("/")
-        self.assertEqual(res_web.status_code, 200)
-        self.assertIn("text/html", res_web.headers.get("content-type", ""))
+        self.assertEqual(response.json()["status"], "online")
 
     def test_health_endpoint(self):
         response = self.client.get("/health")
