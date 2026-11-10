@@ -1,41 +1,47 @@
-# Manual de Usuario — JullBrain Enterprise Legal Platform
+# Manual de Usuario — JullBrain v0.2.0 (Plataforma Legal-RAG con Tecnología IBM)
 
 ---
 
 ## 🚀 Introducción
 
-Bienvenido a **JullBrain Enterprise**, la plataforma de Inteligencia Documental Legal diseñada específicamente para departamentos jurídicos, auditoría, cumplimiento normativo y gobierno corporativo.
+Bienvenido a **JullBrain v0.2.0**, el sistema soberano de Inteligencia Documental Jurídica e Informática Forense impulsado exclusivamente por tecnología de IA de **IBM** (`IBM Docling`, `IBM Granite 3.3 8B`, `IBM Granite Embedding R2` e `IBM Granite Guardian 3.2/3.3`).
 
 ---
 
 ## 💻 1. Acceso al Sistema
 
-### Interfaz Principal (Open WebUI)
-- **URL:** `http://localhost:3000`
-- **Uso:** Consultas de chat, carga de documentos, creación de cuadernos/expedientes y consulta de citas legales.
+### 1. Consola Interactiva TUI (Ejecución Local Recomendada)
+- **Inicio:** Ejecuta [`orquestador_JullBrain.bat`](file:///c:/VS%20CODE/CODIGO/JullBrain/orquestador_JullBrain.bat).
+- **Funciones del Menú Principal (`orquestador.py`):**
+  1. Conversión de normativas PDF/Word en `RAG/datos_brutos/` con `IBM Docling` en CPU.
+  2. Generación de embeddings semánticos `IBM Granite Embedding R2` (`768` dims) en `RAG/normativas_chunks/`.
+  3. Validación cruzada de calidad (`validator.py`) y auditoría de integridad de la bóveda `RAG/modelos_ia/`.
+  4. Ejecución de la suite de pruebas QA y ciberseguridad (`tests/`).
 
-### Panel de Control Administrativo (Plotly Dash)
-- **URL:** `http://localhost:8050`
-- **Uso:** Monitoreo del pipeline de conversión, auditoría inmutable, estado de la base de datos y métricas de calidad OCR.
+### 2. Servidor Web & API Zero-Trust (`app.py`)
+- **URL Local:** `http://localhost:8050` (o `http://localhost:8080` en **Podman** / **Oracle Cloud**)
+- **Uso:** Estado del nodo, subida verificada de PDFs con validación `%PDF-` y `SHA-256`, gestión de expedientes y consultas RAG.
+
+### 3. Interfaz de Chat Documental (Open WebUI Pipeline)
+- **Conector:** [`openwebui_pipeline.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/openwebui_pipeline.py)
+- **Uso:** Consultas jurídicas conversacionales ancladas a los cuadernos de `RAG/notebooks_db/`.
 
 ---
 
-## 📁 2. Gestión de Cuadernos / Expedientes (Estilo NotebookLM)
+## 📁 2. Gestión de Cuadernos / Expedientes (`RAG/notebooks_db/`)
 
-1. En **Open WebUI**, dirígete a la sección de **Workspaces / Cuadernos**.
-2. Haz clic en **Crear Nuevo Cuaderno** y asigna un nombre al expediente (ej. `Auditoría Contratos 2026`).
-3. El sistema asignará automáticamente un hash **SHA-256 inmutable** para garantizar la integridad y cadena de custodia documental.
-4. Carga tus documentos normativos (`.pdf`, `.docx`, `.pptx`, `.xlsx`, `.txt`, `.csv`, `.html`, `.md`, `.epub` o imágenes escaneadas).
+1. Cada expediente creado recibe automáticamente una firma criptográfica **SHA-256 inmutable** conforme a **ISO/IEC 27037**.
+2. Al subir un documento PDF mediante `/api/v1/upload` o colocarlo en `RAG/datos_brutos/`, el sistema verifica sus *magic bytes* (`%PDF-`) y calcula su huella `SHA-256`.
+3. Si un expediente es alterado externamente en disco, el sistema bloquea su lectura inmediatamente (`NotebookIntegrityError`) y registra la alerta en `logs/audit_forensic.jsonl`.
 
 ---
 
-## 🔍 3. Realizar Consultas Jurídicas
+## 🔍 3. Reglas de Consulta Jurídica y Ciberseguridad IBM Granite Guardian
 
-Escribe tus preguntas normativas en el chat. JullBrain evaluará la evidencia documental recuperada y responderá bajo reglas estrictas:
+Todas las consultas pasan por el guardrail de 6 dimensiones **IBM Granite Guardian**:
 
-- **Garantía Cero Alucinación:** El sistema responde **únicamente** con evidencia contenida en los expedientes cargados.
-- **Citas Legales Obligatorias:** Cada respuesta incluirá la referencia exacta al Documento, Página, Capítulo, Artículo, Cláusula, Fragmento Literal y Nivel de Confianza (%).
-- **Mensaje Fallback:** Si no existe suficiente evidencia documental en los archivos cargados, la plataforma indicará exactamente:
+- **Protección de Datos Personales (PII Venezolano):** Detecta y protege números de Cédula (`V-/E-`), `RIF`, teléfonos y correos electrónicos.
+- **Defensa contra Inyección de Instrucciones:** Bloquea cualquier intento de ignorar las reglas procesales o fabricar artículos inexistentes.
+- **Garantía Cero Alucinación y Abstención Explícita:** El sistema responde **únicamente** con evidencia contenida en `RAG/normativas_chunks/`. Si no existe respaldo documental, responde exactamente:
   > *"No encontré evidencia suficiente en los documentos cargados para responder esta pregunta."*
-- **Aviso de Contradicciones:** Si dos normas o contratos se oponen entre sí, el sistema mostrará ambas citas con el aviso:
-  > *"Se encontraron documentos con información contradictoria."*
+- **Citas Legales Verificadas (`Groundedness`):** Cada respuesta incluye Documento, Página, Capítulo, Artículo, Fragmento Literal y Nivel de Confianza (%).

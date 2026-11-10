@@ -5,6 +5,17 @@
 > **Agente de Ingeniería:** **Google Antigravity**
 > **Infraestructura:** Local (`orquestador_JullBrain.bat`), **Podman** (Windows / Linux Rootless) y **Oracle Cloud (OCI)**
 
+### 📊 Diapositivas e Ilustraciones de Arquitectura (SVG Deck 16:9 UX/UI)
+
+* 🖼️ **Diapositiva 1 (Visión General & Mapa Ejecutivo):** [`jullbrain_arquitectura_1.svg`](file:///c:/VS%20CODE/CODIGO/JullBrain/docs/jullbrain_arquitectura_1.svg)
+* 🖼️ **Diapositiva 2 (Capa 1 — Ciclo de Vida & Portal API app.py):** [`jullbrain_arquitectura_2.svg`](file:///c:/VS%20CODE/CODIGO/JullBrain/docs/jullbrain_arquitectura_2.svg)
+* 🖼️ **Diapositiva 3 (Capa 2 — Ingesta & Engine IBM Docling en CPU):** [`jullbrain_arquitectura_3.svg`](file:///c:/VS%20CODE/CODIGO/JullBrain/docs/jullbrain_arquitectura_3.svg)
+* 🖼️ **Diapositiva 4 (Capa 3 — Pipeline Jurídico & Doble Validación):** [`jullbrain_arquitectura_4.svg`](file:///c:/VS%20CODE/CODIGO/JullBrain/docs/jullbrain_arquitectura_4.svg)
+* 🖼️ **Diapositiva 5 (Capa 4 — Embeddings Granite R2 & Custodia ISO):** [`jullbrain_arquitectura_5.svg`](file:///c:/VS%20CODE/CODIGO/JullBrain/docs/jullbrain_arquitectura_5.svg)
+* 🖼️ **Diapositiva 6 (Capa 5 — RAGFlow, Granite LLM & Matriz de Roles):** [`jullbrain_arquitectura_6.svg`](file:///c:/VS%20CODE/CODIGO/JullBrain/docs/jullbrain_arquitectura_6.svg)
+* ⚡ **Diagrama Exclusivo del Stack Tecnológico por Proceso:** [`jullbrain_arquitectura_techstack.svg`](file:///c:/VS%20CODE/CODIGO/JullBrain/docs/jullbrain_arquitectura_techstack.svg)
+* 📜 **Diagrama Monolítico Original:** [`jullbrain_architecture.svg`](file:///c:/VS%20CODE/CODIGO/JullBrain/docs/jullbrain_architecture.svg)
+
 ---
 
 ## 1. Diagrama del Pipeline Soberano (`RAG/`)

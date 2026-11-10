@@ -66,6 +66,6 @@ Para fundamentar rigurosamente el diseño centrado en el usuario (DCU) y certifi
 └──────────────────────────────┘
 ```
 
-1. **Protocolo Think-Aloud (Fase 01)**: El evaluador le entrega el prototipo interactivo (Plotly Dash / HTML) al Juez o Fiscal y utiliza el **Formato 2** para registrar en notas adhesivas sus expresiones verbales instantáneas.
+1. **Protocolo Think-Aloud (Fase 01)**: El evaluador le entrega el prototipo interactivo (Portal Web FastAPI HTML5 / Consola Rich) al Juez o Fiscal y utiliza el **Formato 2** para registrar en notas adhesivas sus expresiones verbales instantáneas.
 2. **Auditoría de Tiempos (Fase 02)**: Se utiliza el **Formato 3** junto al Secretario de Sala para comparar los tiempos de foliado manual vs la aceleración RAG con `validator.py`.
 3. **Justificación Constitucional e ISO**: Todas las observaciones recolectadas alimentan la Matriz de Requerimientos bajo los estándares **ISO/IEC 29148** (Ingeniería de Requisitos) e **ISO 9241-210** (Diseño Centrado en el Usuario).

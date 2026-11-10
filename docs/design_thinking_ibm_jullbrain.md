@@ -47,13 +47,13 @@ Dado que el dominio de aplicación abarca el **Sector Jurídico-Penal y la Infor
 * **Líderes de Fase:** **R1** (Arquitecto IA) + **R4** (UX/UI) + **R2** (Senior Fullstack).
 
 ### 4. Prototipar (Prototype)
-* **Objetivo:** Construir los módulos funcionales ejecutables en Python nativo, Dash y RAGFlow.
+* **Objetivo:** Construir los módulos funcionales ejecutables en Python nativo (3.12–3.14), FastAPI, Consola TUI Rich y RAGFlow.
 * **Componentes Construidos:**
   * `metadata_extractor.py`: Extracción de YAML Frontmatter y Hash SHA-256 de evidencia.
   * `legalizer.py`: Estructuración jerárquica (TÍTULO / CAPÍTULO / Artículo).
-  * `granite_embedder.py`: Motor de vectorización local con Ollama / Sentence-Transformers.
+  * `granite_embedder.py`: Motor de vectorización local (`ibm-granite/granite-embedding-english-r2`, 768 dims) desde la bóveda `RAG/modelos_ia/`.
   * `validator.py`: Módulo de Doble Validación Cruzada (Regex vs. PyMuPDF) y auditoría.
-  * `app.py`: Panel de Control Visual responsivo en Plotly Dash.
+  * `app.py` y `orquestador.py`: Portal Web/API REST Zero-Trust en FastAPI y Consola Interactiva TUI en Rich.
 * **Líderes de Fase:** **R2** (Desarrollador Python Fullstack) + **R6** (Orquestador Pipeline).
 
 ### 5. Evaluar / Probar (Test)
@@ -92,7 +92,7 @@ Dado que el dominio de aplicación abarca el **Sector Jurídico-Penal y la Infor
 
 1. **Observe (Observar):** Recopilación incesante de datos del expediente, actas penal y retroalimentación de los jueces durante la simulación de consultas jurídicas.
 2. **Reflect (Reflexionar):** Alineación del equipo multidisciplinario en Sprints quincenales (Scrum/Kanban). Evaluación obligatoria de la columna Kanban **"Verificación Anti-Alucinación"** antes de dar por completada cualquier historia.
-3. **Make (Hacer):** Desarrollo rápido de mejoras en el dashboard de Plotly Dash, ajustes en la temperatura de inferencia del LLM (Granite) y refinamiento de las regex de partición.
+3. **Make (Hacer):** Desarrollo rápido de mejoras en la consola TUI (`orquestador.py`) y portal FastAPI (`app.py`), ajustes en la temperatura de inferencia del LLM (`IBM Granite 3.3`) y refinamiento de las regex de partición.
 
 ---
 
@@ -119,7 +119,7 @@ La interfaz de usuario del dashboard (`app.py`) aplica el principio de **Transpa
 ## 👥 5. Matriz de Roles Multidisciplinarios (R1 a R7)
 
 * **R1 — Arquitecto IA / LLM Senior:** Diseño del pipeline RAG, cuantización/despliegue de Granite 3B/8B/30B y arquitectura air-gapped.
-* **R2 — Desarrollador Python Fullstack:** Implementación del código modular (`metadata_extractor`, `legalizer`, `granite_embedder`, `validator`) y Dash UI.
+* **R2 — Desarrollador Python, Podman & Oracle Cloud Fullstack:** Implementación del código modular (`metadata_extractor`, `legalizer`, `granite_embedder`, `validator`, `granite_guardian_guardrail`), contenedores nativos **Podman** y portal FastAPI (`app.py`).
 * **R3 — Especialista en Legaltech:** Respaldo normativo venezolano (COPP, LOCTI, Infogobierno), ISO 42001 e ISO 25010.
 * **R4 — Consultor UX/UI DCU (Líder IBM EDT):** Personas jurídicas, Journey Maps, Wireframes Figma y diseño del Semáforo de Confianza.
 * **R5 — Facilitador de Metodologías Ágiles:** Sprints quincenales, Backlog y columna Kanban de verificación anti-alucinación.
