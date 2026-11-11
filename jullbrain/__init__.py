@@ -11,7 +11,16 @@ Organiza el ecosistema JullBrain v0.2.0 bajo el patrón arquitectónico oficial 
 - `jullbrain.interfaces`    : Etapa 6 — Consola TUI Rich, API REST FastAPI Zero-Trust y Open WebUI Pipe.
 """
 
-from version import __version__, __version_info__
+from version import (
+    __version__,
+    __version_info__,
+    __git_tag__,
+    SEMVER_SPEC_VERSION,
+    SemanticVersion,
+    CURRENT_SEMVER,
+    PUBLIC_API_DECLARATION,
+    get_version_metadata,
+)
 from jullbrain.dpk_framework import (
     AbstractIBMTransform,
     TransformResult,
@@ -25,6 +34,12 @@ from jullbrain.dpk_framework import (
 __all__ = [
     "__version__",
     "__version_info__",
+    "__git_tag__",
+    "SEMVER_SPEC_VERSION",
+    "SemanticVersion",
+    "CURRENT_SEMVER",
+    "PUBLIC_API_DECLARATION",
+    "get_version_metadata",
     "AbstractIBMTransform",
     "TransformResult",
     "LegalHierarchyTransform",

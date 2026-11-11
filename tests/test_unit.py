@@ -197,6 +197,61 @@ class TestIBMCybersecurityAndCanonical(unittest.TestCase):
         self.assertTrue(result.content.startswith("---\n"))
         self.assertIsNotNone(result.metadata.get("audit_hmac_sha256"))
 
+    def test_semantic_versioning_2_0_0_compliance(self):
+        from version import (
+            __version__,
+            __version_info__,
+            __git_tag__,
+            SEMVER_SPEC_VERSION,
+            SemanticVersion,
+            CURRENT_SEMVER,
+            PUBLIC_API_DECLARATION,
+            get_version_metadata,
+        )
+
+        # Regla 1 y 2: Versión actual válida según SemVer 2.0.0 y sincronizada con pipeline_config.json
+        self.assertEqual(SEMVER_SPEC_VERSION, "2.0.0")
+        self.assertTrue(SemanticVersion.is_valid(__version__))
+        self.assertEqual(__version__, "0.3.0")
+        self.assertEqual(__version_info__, (0, 3, 0))
+        self.assertEqual(__git_tag__, "v0.3.0")
+        self.assertGreaterEqual(len(PUBLIC_API_DECLARATION["package_domains"]), 7)
+
+        with open("pipeline_config.json", "r", encoding="utf-8") as fh:
+            cfg = json.load(fh)
+        self.assertEqual(cfg.get("version"), __version__)
+        self.assertEqual(cfg.get("semver_spec"), "2.0.0")
+
+        # Reglas 6, 7 y 8: Incrementos PATCH, MINOR y MAJOR
+        self.assertEqual(str(CURRENT_SEMVER.bump_patch()), "0.3.1")
+        self.assertEqual(str(CURRENT_SEMVER.bump_minor()), "0.4.0")
+        self.assertEqual(str(CURRENT_SEMVER.bump_major()), "1.0.0")
+
+        # Regla 2: Prohibición de ceros a la izquierda o formatos inválidos
+        self.assertFalse(SemanticVersion.is_valid("01.2.0"))
+        self.assertFalse(SemanticVersion.is_valid("0.2"))
+
+        # Regla 10 y 11: Precedencia oficial del ejemplo de https://semver.org/#spec-item-11
+        ordered_chain = [
+            "1.0.0-alpha",
+            "1.0.0-alpha.1",
+            "1.0.0-alpha.beta",
+            "1.0.0-beta",
+            "1.0.0-beta.2",
+            "1.0.0-beta.11",
+            "1.0.0-rc.1",
+            "1.0.0",
+        ]
+        parsed_chain = [SemanticVersion.parse(v) for v in ordered_chain]
+        for idx in range(len(parsed_chain) - 1):
+            self.assertLess(parsed_chain[idx], parsed_chain[idx + 1])
+
+        # Regla 10: Build metadata no afecta la precedencia
+        v_build_a = SemanticVersion.parse("1.0.0+20130313144700")
+        v_build_b = SemanticVersion.parse("1.0.0+exp.sha.5114f85")
+        self.assertEqual(v_build_a, v_build_b)
+        self.assertEqual(get_version_metadata()["semver_spec"], "2.0.0")
+
 
 if __name__ == "__main__":
     unittest.main()

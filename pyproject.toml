@@ -1,6 +1,7 @@
 # ==============================================================================
-# JullBrain v0.2.0 — Senior Enterprise Packaging & Architecture (PEP 621)
+# JullBrain — Senior Enterprise Packaging & Architecture (PEP 621 + SemVer 2.0.0)
 # Framework Base: IBM Data Prep Kit (DPK) Transform Architecture + IBM Granite RAG
+# Versionado: Fuente Única de Verdad dinámica en version.__version__ (https://semver.org/)
 # ==============================================================================
 
 [build-system]
@@ -9,7 +10,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jullbrain"
-version = "0.2.0"
+dynamic = ["version"]
 description = "Plataforma Legal-RAG Soberana e Informática Forense estructurada bajo IBM Data Prep Kit (DPK), IBM Docling (CPU), IBM Granite 3.3, Granite Embedding R2 e IBM Granite Guardian."
 readme = "README.md"
 requires-python = ">=3.12,<3.15"
@@ -73,7 +74,11 @@ jullbrain-convert = "convert_normativas:main"
 where = ["."]
 include = ["jullbrain*"]
 
+[tool.setuptools.dynamic]
+version = { attr = "version.__version__" }
+
 [tool.ruff]
 line-length = 120
 target-version = "py312"
 exclude = ["docling_env", "RAG", ".conversion_cache"]
+

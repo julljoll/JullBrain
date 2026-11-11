@@ -1,6 +1,29 @@
 # Registro de Cambios (Changelog) — JullBrain Legal-RAG
 
-Todos los cambios relevantes de arquitectura, ciberseguridad y optimización se documentan en este archivo.
+Todos los cambios notables en este proyecto son documentados en este archivo.
+
+El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/), y este proyecto se adhiere estrictamente a **[Semantic Versioning 2.0.0 (SemVer)](https://semver.org/lang/es/)** (`MAJOR.MINOR.PATCH[-PRERELEASE][+BUILD]`) a través de su fuente única de verdad en [`version.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/version.py).
+
+---
+
+## [0.3.0] - 2026-11-11
+
+### ✨ Añadido (Added) — Incremento `MINOR` según SemVer 2.0.0 (Reglas 3, 4 y 7)
+- **Marco de Trabajo Senior IBM Data Prep Kit (`DPK`) & IBM Granite RAG ([`jullbrain/`](file:///c:/VS%20CODE/CODIGO/JullBrain/jullbrain/__init__.py)):**
+  - Nuevo motor [`jullbrain/dpk_framework.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/jullbrain/dpk_framework.py) basado en el patrón arquitectónico oficial de **IBM Research (`AbstractIBMTransform` / `IBMDataPrepPipeline`)** con sobre inmutable `TransformResult`, cálculo de hash `SHA-256` por etapa y firma de auditoría `HMAC-SHA256`.
+  - Organización modular de la API pública en 6 subpaquetes de dominio: `jullbrain.transforms`, `jullbrain.granite`, `jullbrain.security`, `jullbrain.retrieval`, `jullbrain.runtime` y `jullbrain.interfaces`.
+- **Empaquetado Senior PEP 621 ([`pyproject.toml`](file:///c:/VS%20CODE/CODIGO/JullBrain/pyproject.toml)):**
+  - Vinculación dinámica de versión (`dynamic = ["version"]` -> `version.__version__`) para evitar desincronización de versiones.
+- **Motor Normativo Semantic Versioning 2.0.0 ([`version.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/version.py)):**
+  - Implementación completa de las 11 reglas de [https://semver.org/](https://semver.org/): declaración formal de API pública (`PUBLIC_API_DECLARATION`), validación con RegEx oficial BNF de SemVer 2.0.0 (`SEMVER_2_0_0_REGEX`), clase inmutable `SemanticVersion` con cálculo de precedencia (Regla 11) e incrementos deterministas (`bump_major`, `bump_minor`, `bump_patch`).
+
+### 🔄 Cambiado (Changed)
+- **Repositorio 100% Python (Cero HTML):**
+  - Eliminación de `HTMLResponse` y plantillas HTML embebidas en [`app.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/app.py), operando como servidor REST JSON puro Zero-Trust.
+  - Configuración de [`.gitattributes`](file:///c:/VS%20CODE/CODIGO/JullBrain/.gitattributes) para reporte 100% Python en GitHub Linguist y preservación de saltos de línea `CRLF` en archivos `.bat`.
+
+### 🗑️ Eliminado (Removed)
+- Eliminación de archivos `.HTML` redundantes en `RAG/datos_brutos/` y del archivo SVG duplicado en la raíz del repositorio (`jullbrain_architecture.svg`, conservado en `docs/jullbrain_architecture.svg`).
 
 ---
 

@@ -1,8 +1,13 @@
-# ⚖️ JullBrain v0.2.0 — Sistema Legal-RAG Soberano con Tecnología IBM
+# ⚖️ JullBrain v0.3.0 — Sistema Legal-RAG Soberano con Tecnología IBM
+
+[![SemVer 2.0.0](https://img.shields.io/badge/SemVer-2.0.0--v0.3.0-blue)](https://semver.org/lang/es/)
+[![Stack IBM](https://img.shields.io/badge/IBM%20AI-Docling%20%7C%20Granite%203.3%20%7C%20Granite%20Guardian-052FAD)](https://github.com/ibm-granite)
+[![Python 3.12-3.14](https://img.shields.io/badge/Python-3.12%20--%203.14-3776AB)](https://www.python.org/)
 
 > **Pipeline Jurídico-Forense Determinista para Normativas Venezolanas**
-> **Stack IA Exclusivo IBM:** `IBM Docling (CPU)` · `IBM Granite 3.3 8B` · `IBM Granite Embedding R2 (768d)` · `IBM Granite Guardian 3.2/3.3 (6D)`
+> **Stack IA Exclusivo IBM:** `IBM Data Prep Kit (DPK)` · `IBM Docling (CPU)` · `IBM Granite 3.3 8B` · `IBM Granite Embedding R2 (768d)` · `IBM Granite Guardian 3.2/3.3 (6D)`
 > **Agente de Ingeniería Exclusivo:** **Google Antigravity**
+> **Versionado:** **[Semantic Versioning 2.0.0 (`v0.3.0`)](https://semver.org/)** gestionado desde [`version.py`](file:///c:/VS%20CODE/CODIGO/JullBrain/version.py)
 > **Entornos de Ejecución:** Local (`orquestador_JullBrain.bat`), **Podman** Nativo (Windows / Linux Rootless) y **Oracle Cloud Infrastructure (OCI)**
 
 ---

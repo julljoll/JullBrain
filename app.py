@@ -24,7 +24,7 @@ from audit_logger import default_audit_logger, validate_pdf_magic_bytes
 from notebook_manager import default_notebook_manager, NotebookIntegrityError
 from opensearch_indexer import default_opensearch_indexer
 from granite_guardian_guardrail import default_guardian_guardrail
-from version import __version__
+from version import __version__, SEMVER_SPEC_VERSION, get_version_metadata
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 logger = logging.getLogger("JullBrain.API")
@@ -145,6 +145,7 @@ def read_root(accept: Optional[str] = Header(None)):
         "status": "online",
         "system": "JullBrain Enterprise Legal Platform API",
         "version": __version__,
+        "semver_spec": SEMVER_SPEC_VERSION,
         "ui": "Open WebUI Official Interface",
         "stack": "100% Python + IBM Docling (CPU) + IBM Granite 3.3 + Granite Embedding R2 + Granite Guardian",
         "mode": "100% Local Offline (Air-Gapped)"
@@ -159,6 +160,8 @@ def health_check():
 
     return {
         "status": "healthy",
+        "version": __version__,
+        "semver": get_version_metadata(),
         "mode": "local_offline_air_gapped",
         "opensearch_status": opensearch_status,
         "granite_guardian": guardian_status,

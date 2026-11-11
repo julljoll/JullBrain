@@ -13,3 +13,4 @@ __all__ = [
     "OpenSearchHybridIndexer",
     "default_opensearch_indexer",
 ]
+
